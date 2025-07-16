@@ -1,0 +1,27 @@
+[
+  {
+    "id": "p1",
+    "name": "MacSync Series",
+    "category": "Newly Added",
+    "image": "/img/mac-sync/MacSync.png",
+    "tags": ["Brochures", "Datasheets"],
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p2",
+    "name": "MacSet Series",
+    "category": "Newly Added",
+    "image": "/img/mac-sync/MacSync.png",
+    "tags": ["User Manuals", "Datasheets"],
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p3",
+    "name": "MacSync Series",
+    "category": "Nodes",
+    "image": "/img/mac-sync/MacSync.png",
+    "tags": ["Reports"],
+    "link": "http://localhost:3001/Introduction/product-overview"
+  }
+]
+
