@@ -2,42 +2,30 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Product Overview
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
-
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
-
-## Create your first React Page
-
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
 import React from 'react';
-import Layout from '@theme/Layout';
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+# Create a Custom Page in Docusaurus
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+<div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start', flexWrap: 'wrap' }}>
+  {/* Video */}
+  <div style={{ flex: 1, minWidth: '300px' }}>
+    <video width="100%" height="300" controls style={{ objectFit: 'cover' }}>
+      <source src="/videos/sample.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
-## Create your first Markdown Page
+  {/* Text */}
+  <div style={{ flex: 1, minWidth: '300px' }}>
+    <h2>Connect your sensor</h2>
+    <p>
+      Macnman sensors operate in always-on mode. Navigate to the BLE search tab to see a list of nearby Macnman devices.
+    </p>
+    <p>Select the sensor you wish to connect to.</p>
+    <p>After connecting, you will be directed to the configuration page.</p>
+    <p><strong>Note:</strong> The sensor offers security options for configuration. To prevent other users from connecting to your device, set the sensor to a higher security level.</p>
+  </div>
+</div>
 
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
