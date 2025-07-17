@@ -1,27 +1,244 @@
 [
   {
+    "id": 1,
+    "name": "LoRaWAN Node LX100",
+    "technology": "LoRaWAN®",
+    "category": "Nodes",
+    "applications": ["Smart Agriculture", "Asset Tracking"],
+    "tags": ["Datasheets"],
+    "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/lx100.pdf"
+  },
+  {
+    "id": 2,
+    "name": "4G Smart Controller C4",
+    "technology": "4G Cellular",
+    "category": "Controllers",
+    "applications": ["Smart City", "Smart Building"],
+    "tags": ["Datasheets"],
+    "description": "Versatile 4G-enabled controller for infrastructure automation.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/c4-controller.pdf"
+  },
+  {
+    "id": 3,
+    "name": "NB-IoT Gateway G5",
+    "technology": "Nb IoT",
+    "category": "Gateways",
+    "applications": ["Smart Industries"],
+    "tags": ["Datasheets"],
+    "description": "Robust NB-IoT gateway supporting industrial standards.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/g5-gateway.pdf"
+  },
+  {
+    "id": 4,
+    "name": "Wi-Fi Low Power Sensor WFS-20",
+    "technology": "Low Power Wi Fi",
+    "category": "Sensors",
+    "applications": ["Smart Building", "Smart City"],
+    "tags": ["Datasheets"],
+    "description": "Low power Wi-Fi sensor for building automation.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/wfs-20.pdf"
+  },
+  {
+    "id": 5,
+    "name": "BLE Converter BLC-01",
+    "technology": "Ble",
+    "category": "Converters",
+    "applications": ["Asset Tracking", "Smart Industries"],
+    "tags": ["Datasheets"],
+    "description": "Bluetooth Low Energy converter for edge device integration.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/blc-01.pdf"
+  },
+  {
+    "id": 6,
+    "name": "UWB Tag T1",
+    "technology": "UWB",
+    "category": "Modules",
+    "applications": ["Asset Tracking"],
+    "tags": ["Datasheets"],
+    "description": "Ultra-wideband module for high-precision indoor tracking.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/uwb-t1.pdf"
+  },
+  {
+    "id": 7,
+    "name": "LoRaWAN Controller LC-X",
+    "technology": "LoRaWAN®",
+    "category": "Controllers",
+    "applications": ["Smart Agriculture"],
+    "tags": ["Datasheets"],
+    "description": "Agricultural controller with LoRaWAN support and automation.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/lc-x.pdf"
+  },
+  {
+    "id": 8,
+    "name": "NB-IoT Sensor NBS-300",
+    "technology": "Nb IoT",
+    "category": "Sensors",
+    "applications": ["Smart City", "Smart Building"],
+    "tags": ["Datasheets"],
+    "description": "NB-IoT-enabled multi-environment sensor for smart spaces.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/nbs-300.pdf"
+  },
+  {
+    "id": 9,
+    "name": "4G Module M4",
+    "technology": "4G Cellular",
+    "category": "Modules",
+    "applications": ["Smart Industries", "Smart Agriculture"],
+    "tags": ["Datasheets"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/m4.pdf"
+  },
+  {
+    "id": 10,
+    "name": "BLE Gateway BG-10",
+    "technology": "Ble",
+    "category": "Gateways",
+    "applications": ["Smart Building"],
+    "tags": ["Datasheets"],
+    "description": "BLE gateway to manage short-range sensor networks.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
     "id": "p1",
     "name": "MacSync Series",
+    "technology": "",
     "category": "Newly Added",
+    "applications": [],
+    "tags": ["Brochures", "", "Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
     "image": "/img/mac-sync/MacSync.png",
-    "tags": ["Brochures", "Datasheets"],
     "link": "http://localhost:3001/Introduction/product-overview"
   },
   {
     "id": "p2",
     "name": "MacSet Series",
+    "technology": "",
     "category": "Newly Added",
-    "image": "/img/mac-sync/MacSync.png",
+    "applications": [],
     "tags": ["User Manuals", "Datasheets"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
     "link": "http://localhost:3001/Introduction/product-overview"
   },
   {
     "id": "p3",
     "name": "MacSync Series",
+    "technology": "",
     "category": "Nodes",
-    "image": "/img/mac-sync/MacSync.png",
+    "applications": [],
     "tags": ["Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p4",
+    "name": "MacSync Series",
+    "technology": "",
+    "category": "Newly Added",
+    "applications": [],
+    "tags": ["Brochures", "Datasheets", "Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p5",
+    "name": "MacSet Series",
+    "technology": "",
+    "category": "Newly Added",
+    "applications": [],
+    "tags": ["User Manuals", "Datasheets", "Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p6",
+    "name": "MacSync Series",
+    "technology": "",
+    "category": "Nodes",
+    "applications": [],
+    "tags": ["Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p7",
+    "name": "MacSync Series",
+    "technology": "",
+    "category": "Gateways",
+    "applications": [],
+    "tags": ["Brochures", "Datasheets", "Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p8",
+    "name": "MacSet Series",
+    "technology": "",
+    "category": "Controllers",
+    "applications": [],
+    "tags": ["User Manuals", "Datasheets"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p9",
+    "name": "MacSync Series",
+    "technology": "",
+    "category": "Gateways",
+    "applications": [],
+    "tags": ["Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p10",
+    "name": "MacSync Series",
+    "technology": "",
+    "category": "Controllers",
+    "applications": [],
+    "tags": ["Brochures", "Datasheets", "Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p11",
+    "name": "MacSet Series",
+    "technology": "",
+    "category": "Gateways",
+    "applications": [],
+    "tags": ["User Manuals", "Datasheets", "Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
+    "link": "http://localhost:3001/Introduction/product-overview"
+  },
+  {
+    "id": "p12",
+    "name": "MacSync Series",
+    "technology": "",
+    "category": "Controllers",
+    "applications": [],
+    "tags": ["Reports"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/img/mac-sync/MacSync.png",
     "link": "http://localhost:3001/Introduction/product-overview"
   }
 ]
-

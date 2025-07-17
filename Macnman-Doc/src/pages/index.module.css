@@ -3,6 +3,60 @@
  * and scoped locally.
  */
 
+
+
+ /* index.module.css */
+
+ .pageWrapper {
+  display: flex;
+}
+
+.productSection {
+  flex: 1;
+  padding: 1rem;
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.productCard {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  text-align: center;
+} 
+
+.productImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.noResult {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.pageWrapper {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.sidebar {
+  flex-shrink: 0;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
