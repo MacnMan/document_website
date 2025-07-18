@@ -110,11 +110,13 @@
 // src/pages/index.tsx or Home.tsx
 // src/pages/index.tsx
 import React, { useState } from 'react';
+import styles from './index.module.css';
 import Layout from '@theme/Layout';
+
 import FilterBar from '../components/HomepageFeatures/FilterBar';
 import FilterCategory from '../components/HomepageFeatures/FilterCategories';
-import styles from './index.module.css';
 import { FilterContext } from '../components/HomepageFeatures/FilterContext';
+import HeroSection from '../components/HomepageFeatures/HeroSection'
 
 export default function Home() {
   const [filters, setFilters] = useState({
@@ -126,53 +128,10 @@ export default function Home() {
 
   return (
     <Layout title="Documentation">
+      <div className={styles.heroWrapper}>
+        <HeroSection />
+      </div>
       <FilterContext.Provider value={{ filters, setFilters }}>
-        <div className="row shadow--md padding--lg bg--white margin-bottom--lg radius--lg items--start">
-
-          {/* Left Column Text */}
-          <div className="col col--6">
-            <h2 className="text--left text--lg font--bold margin-bottom--sm">
-              Find Setup Guides, Technical Specs, & Troubleshooting Tips All in One Place
-            </h2>
-          </div>
-
-          {/* Right Column Specialist + Store */}
-          <div className="col col--6 margin-left--auto" style={{ textAlign: 'right' }}>
-            <div className="margin-bottom--sm">
-              <div className="row row--align-end">
-                <div className="col col--content">
-                  {/* <img
-                    src="https://via.placeholder.com/40"
-                    alt="Specialist"
-                    className="avatar__photo avatar__photo--sm"
-                    style={{ borderRadius: '50%' }}
-                  /> */}
-                </div>
-                <div className="col">
-                  <p className="text--sm margin-vert--xs">Designing Your Wireless Solution?</p>
-                  <a href="#" className="text--sm text--primary">
-                    Call a Specialist
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="row row--align-center">
-              <div className="col col--content">
-                <span role="img" aria-label="store" style={{ fontSize: '1.25rem' }}>🛍️</span>
-              </div>
-              <div className="col">
-                <p className="text--sm margin-vert--xs">Discover complete lineup</p>
-                <a href="#" className="text--sm text--primary">
-                  Explore Our Store
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        {/* Filter Section */}
         <div className={styles.pageWrapper}>
           <div className={styles.sidebar}>
             <FilterBar />
@@ -181,8 +140,8 @@ export default function Home() {
             <FilterCategory />
           </div>
         </div>
-
       </FilterContext.Provider>
     </Layout>
+
   );
 }
