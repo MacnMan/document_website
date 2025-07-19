@@ -7,7 +7,6 @@
 .sidebar {
   width: 220px;
   border-right: 1px solid #e0e0e0;
-  /* padding: 1rem; */
   background-color: white;
   overflow-y: auto;
   height: 100vh;
@@ -23,7 +22,7 @@
 }
 
 .filterGroup {
-  top: 0;
+  margin-top:  1.3rem;
   margin-bottom: 1.5rem;
 }
 
@@ -88,5 +87,5 @@
 html[data-theme='dark'] .sidebar {
   background-color: #1e1e20;
   color: #fff;
-  border-right: 1px white solid;
+  border-right: 1px rgba(128, 128, 128, 0.295) solid;
 }

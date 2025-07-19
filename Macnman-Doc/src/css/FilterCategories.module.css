@@ -7,6 +7,13 @@
   padding: 8px 34px 0 8px;
 }
 
+/* Larger Screen 21 inch */
+@media (min-width: 1800px) {
+  .gridLayout{
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
 .gridItem {
   display: flex;
   flex-direction: column;
