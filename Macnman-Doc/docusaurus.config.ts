@@ -62,11 +62,21 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'product', // Unique ID for the plugin instance
-        path: 'product', // Folder containing markdown files
-        routeBasePath: 'product/', // URL path => site.com/product
-        sidebarPath: require.resolve('./sidebarsProduct.ts'), // Sidebar config file
-        editUrl: 'https://github.com/your-org/your-repo/edit/main/', // GitHub edit button
+        id: 'product',
+        path: 'product',
+        routeBasePath: 'product',
+        sidebarPath: require.resolve('./sidebarsProduct.ts'),
+        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'guide',
+        path: 'guide',
+        routeBasePath: 'guide',
+        sidebarPath: require.resolve('./sidebarsGuide.ts'), // Optional: use separate sidebar
+        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
       },
     ],
   ],
@@ -89,7 +99,20 @@ const config: Config = {
           label: 'Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/product', label: 'Product', position: 'left' },
+        {
+          type: 'docSidebar',
+          sidebarId: 'productSidebar',
+          docsPluginId: 'product',
+          position: 'left',
+          label: 'Product'
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'guideSidebar',
+          docsPluginId: 'guide',
+          position: 'right',
+          label: 'Guide'
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

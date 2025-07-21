@@ -12,7 +12,7 @@ sidebar_position: 1
     <iframe
       width="100%"
       height="315"
-      src="/videos/E_Learn.mp4"
+      src="/videos/vidoes_new.mp4"
       title="IoT Explained"
       frameBorder="0"
       allow="autoplay; encrypted-media; fullscreen; picture-in-picture"

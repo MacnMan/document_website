@@ -1,8 +1,8 @@
 {
   "label": "Introduction to Maya",
   "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Main Section."
+    "link": {
+    "type": "doc",
+    "id": "Mac-Sync/Introduction to Maya/index"
   }
 }
