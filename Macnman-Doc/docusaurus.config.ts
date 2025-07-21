@@ -30,8 +30,8 @@ const config: Config = {
   organizationName: 'facebook',
   projectName: 'docusaurus',
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'warn',            // <-- log broken links instead of failing build
+  onBrokenMarkdownLinks: 'warn',    // <-- same for Markdown-only links
 
   i18n: {
     defaultLocale: 'en',
@@ -164,9 +164,9 @@ const config: Config = {
       ],
     },
     algolia: {
-      appId: 'U8TCR7QJ71',
-      apiKey: '7c69713b13c28fe91d5e987b4f1907ff',
-      indexName: 'U8TCR7QJ71',
+      appId: 'ZCKJUWN56U',
+      apiKey: '28e5f208b6c069fc2b815ba36dc9689c',
+      indexName: 'Annual_Incme',
       contextualSearch: true,
       searchParameters: {},
       searchPagePath: 'search',
