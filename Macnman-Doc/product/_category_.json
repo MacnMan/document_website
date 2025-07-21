@@ -1,0 +1,9 @@
+{
+  "label": "Product",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Product Documentation",
+    "description": "Explore all product-related documents."
+  }
+}

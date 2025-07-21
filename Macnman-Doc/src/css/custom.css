@@ -44,3 +44,22 @@ html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   display: none;          /* Chrome, Safari */
 }
+
+/* Custom class for a video + text */
+.videoText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.videoText .video {
+  flex: 1;
+  max-width: 50%;
+}
+
+.videoText .text {
+  flex: 1;
+  max-width: 50%;
+}
