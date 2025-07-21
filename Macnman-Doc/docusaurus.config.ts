@@ -10,6 +10,16 @@ const config: Config = {
   tagline: 'Macnman',
   favicon: 'img/favicon.ico',
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: 'D96D4622B4C0F722',
+      },
+    },
+  ],
+
   future: {
     v4: true,
   },
