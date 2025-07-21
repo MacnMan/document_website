@@ -79,6 +79,26 @@ const config: Config = {
         editUrl: 'https://github.com/your-org/your-repo/edit/main/',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'books',
+        path: 'books', // folder name in your root directory
+        routeBasePath: 'books', // URL path like /books/...
+        sidebarPath: require.resolve('./sidebarsBooks.ts'),
+        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'datasheets',
+        path: 'datasheets',
+        routeBasePath: 'datasheets',
+        sidebarPath: require.resolve('./sidebarsDatasheets.ts'), // Optional: use separate sidebar
+        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
+      },
+    ],
   ],
 
 
@@ -114,11 +134,32 @@ const config: Config = {
           label: 'Guide'
         },
         {
+          type: 'docSidebar',
+          sidebarId: 'booksSidebar',
+          docsPluginId: 'books',
+          position: 'left',
+          label: 'Books'
+        }, {
+          type: 'docSidebar',
+          sidebarId: 'datasheetsSidebar',
+          docsPluginId: 'datasheets',
+          position: 'left',
+          label: 'Datasheets'
+        },
+        {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
         },
       ],
+    },
+    algolia: {
+      appId: 'U8TCR7QJ71',
+      apiKey: '7c69713b13c28fe91d5e987b4f1907ff',
+      indexName: 'U8TCR7QJ71',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
     },
     footer: {
       style: 'dark',

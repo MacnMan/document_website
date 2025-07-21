@@ -1,0 +1,9 @@
+{
+  "label": "Books",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Books Documentation",
+    "description": "Explore all Books-related documents."
+  }
+}
