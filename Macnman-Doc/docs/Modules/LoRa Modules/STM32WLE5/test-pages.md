@@ -6,19 +6,7 @@ title: test pages
 
 # Overview 
 
-Macnman’s LoRaWAN module is a compact and powerful wireless communication module designed for long-range, low-power IoT deployments. Built around the STM32WLE5CCU6 SoC, it offers a high-performance ARM Cortex-M4 core, integrated sub-GHz LoRa transceiver, and versatile power management for efficient operation in demanding environments.
-
-### 🔍 Key Features
-
-- **Dual Interface Support**: Seamlessly supports multiple analog and digital interfaces including RS485, 4-20 mA, and 0-10 V inputs.
-- **Ultra Low Power**: Sleep current less than 3 µA makes it ideal for battery-powered field applications.
-- **Extended Range**: Up to 8 km line-of-sight communication with high RF sensitivity (up to -148 dBm).
-- **Global Frequency Compatibility**: Operates across various ISM bands – IN865, EU868, US915, AU915.
-- **Industrial Grade**: Wide operating temperature (-40°C to +80°C) and rugged mechanical design.
-
-> Whether you're building a smart city application, remote environmental sensor, or industrial automation system, the Macnman LoRaWAN module is built to handle it all.
-
-
+![title image](./assets/title-image.jpg)
 
 
 
@@ -94,7 +82,7 @@ Macnman’s LoRaWAN module is a compact and powerful wireless communication modu
 
 
 
-
+![title image](./assets/ocsimag.jpeg)
 
 
 <div className="card-demo">
@@ -217,4 +205,126 @@ while True:
   </a>
 </div>
 
+<div className="briefspecsstyle">
+  <div className="column">
+    <div className="label">Supported Class</div>
+    <div className="value">Class A, Class C</div>
+    <div className="label">Frequency</div>
+    <div className="value">EU868, IN865</div>
+  </div>
+  <div className="column">
+    <div className="label">LoRaWAN Antenna</div>
+    <div className="value">Internal</div>
+    <div className="label">Antenna Sensitivity</div>
+    <div className="value">-136 dBm</div>
+  </div>
+</div>
 
+
+<div className="generalSpecsStyle">
+  <div className="left-title">General{"\n"}Specifications</div>
+  <div className="right-content">
+    <div>
+      <div className="label">Part Order Number</div>
+      <div className="value">MacSync-L-XX-XX</div>
+    </div>
+    <div>
+      <div className="label">Part Order Number</div>
+      <div className="value">MacSync-L-XX-XX</div>
+    </div>
+    <div>
+      <div className="label">Part Order Number</div>
+      <div className="value">MacSync-L-XX-XX</div>
+    </div>
+    
+  </div>
+</div>
+
+---
+
+<div className="generalSpecsWithImageStyle">
+  <div className="left-title">Module Overview</div>
+  <div className="right-content">
+    <img
+      className="image-block"
+      src="/assets/stchip-image.png"
+      alt="Block Diagram"
+    />
+  </div>
+</div>
+
+
+
+
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+      <th>Description</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>frequency</td>
+      <td>Sets the radio frequency band.</td>
+      <td>String</td>
+      <td>String</td>
+    </tr>
+    <tr>
+      <td>power</td>
+      <td>Defines output transmission power.</td>
+      <td>Number (dBm)</td>
+      <td>Number (dBm)</td>
+    </tr>
+    <tr>
+      <td>power</td>
+      <td>Defines output transmission power.</td>
+      <td>Number (dBm)</td>
+      <td>Number (dBm)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div className="reusable-feature-grid">
+  <div className="reusable-feature-card">
+    <strong>Wireless Communication</strong>
+    <p>No more messy wires or accessibility issues.</p>
+  </div>
+  <div className="reusable-feature-card">
+    <strong>Real-Time Alerts</strong>
+    <p>Instant notifications ensured proactive responses.</p>
+  </div>
+  <div className="reusable-feature-card">
+    <strong>Real-Time Alerts</strong>
+    <p>Instant notifications ensured proactive responses.</p>
+  </div>
+  <!-- Add more cards as needed -->
+</div>
+
+<div className="problem-grid">
+  <div className="problem-card">
+    <img src="./assets/people.svg" alt="Disconnected Icon" width="36" height="36" />
+    <strong>Disconnected Systems</strong>
+    <p>Monitoring relied on wired sensors that frequently malfunctioned, especially in areas with poor access.</p>
+  </div>
+
+  <div className="problem-card">
+    <img src="./assets/people.svg" alt="Delay Icon" width="36" height="36" />
+    <strong>Delayed Responses</strong>
+    <p>By the time temperature issues were identified manually, the damage was already done.</p>
+  </div>
+
+  <div className="problem-card">
+    <img src="./assets/people.svg" alt="Maintenance Icon" width="36" height="36" />
+    <strong>Costly Maintenance</strong>
+    <p>Repairing broken wires or replacing outdated components was both time-consuming and expensive.</p>
+  </div>
+
+  <div className="problem-card">
+    <img src="./assets/people.svg" alt="Regulations Icon" width="36" height="36" />
+    <strong>Regulatory Pressures</strong>
+    <p>Accurate and continuous logging of temperature and humidity was non-negotiable for audits, but their system couldn’t ensure it.</p>
+  </div>
+</div>
