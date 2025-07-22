@@ -25,7 +25,7 @@ const config: Config = {
   },
 
   url: 'https:macnman.com',
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   organizationName: 'facebook',
   projectName: 'docusaurus',
