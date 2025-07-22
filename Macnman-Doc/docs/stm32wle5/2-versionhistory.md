@@ -12,43 +12,61 @@ title: Version History
     <tr>
       <th>Parameter</th>
       <th>Description</th>
-      <th>Description</th>
-      <th>Type</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>frequency</td>
-      <td>Sets the radio frequency band.</td>
-      <td>String</td>
-      <td>String</td>
+      <td>Release Date</td>
+      <td>20/09/2025</td>
     </tr>
     <tr>
-      <td>power</td>
-      <td>Defines output transmission power.</td>
-      <td>Number (dBm)</td>
-      <td>Number (dBm)</td>
+      <td>Created by</td>
+      <td>Mr. Prabhu Patel</td>
     </tr>
     <tr>
-      <td>power</td>
-      <td>Defines output transmission power.</td>
-      <td>Number (dBm)</td>
-      <td>Number (dBm)</td>
+      <td>Changes</td>
+      <td>Added updated reflow and recommendation diagram</td>
+    </tr>
+     <tr>
+      <td></td>
+      <td>Added pcb layout recommendations</td>
     </tr>
   </tbody>
 </table>
 
-
-<br/><br/>
-
-
 ## Version 1.1 - Intial release 
 
-| **Release date** | **28 November, 2024** |
-|------------------|-------------------|
-| Release Date   | 29th October - 2024 |
-| Created by   | Mr. Dnyaneshwar, Mr. Prabhu Patel |
-| Description  | Added updated Pinouts 
-|   | Added updated SDK in features
-|   | Version 1 of the data sheet created
+
+
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Release Date</td>
+      <td>04/04/2024</td>
+    </tr>
+    <tr>
+      <td>Created by</td>
+      <td>Mr. Prabhu Patel</td>
+    </tr>
+    <tr>
+      <td>Changes</td>
+      <td>Added updated Pinouts</td>
+    </tr>
+     <tr>
+      <td></td>
+      <td>Added updated SDK in features</td>
+    </tr>
+     <tr>
+      <td></td>
+      <td>Version 1 of the data sheet created</td>
+    </tr>
+  </tbody>
+</table>
+
 

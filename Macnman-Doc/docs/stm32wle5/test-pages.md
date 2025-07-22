@@ -82,7 +82,7 @@ title: test pages
 
 
 
-![title image](./assets/block-diagram.png)
+![title image](./assets/ocsimag.jpeg)
 
 
 <div className="card-demo">

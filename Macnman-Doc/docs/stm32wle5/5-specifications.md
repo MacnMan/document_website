@@ -3,22 +3,74 @@ id: specifications
 title: Specifications
 ---
 
-## Technical Specifications
+# Technical Specifications
 
-| **Parameter**          | **Value**                          |
-|------------------------|------------------------------------|
-| SoC Used               | STM32WLE5CCU6                      |
-| Core                   | ARM Cortex M4                      |
-| Flash Size             | 256 kB                             |
-| ADC                    | 12 Bit                             |
-| Max Clock              | 48 MHz                             |
-| Number of I/O          | 21                                 |
-| DRAM                   | 64 kB                              |
-| Operating Voltage      | 1.8V – 3.6V                         |
-| Temperature Range      | -40°C to +80°C                     |
-| Module Size            | 15 mm × 15 mm × 1.6 mm             |
-| Frequency Bands        | 863 MHz / 915 MHz (ISM Bands)      |
-| RF Output Power        | Max ~ 22 dBm                       |
-| Sensitivity            | -148 dBm                           |
-| Power Consumption      | < 3 µA (Sleep Mode)                |
-| Supported Protocols    | LoRa, LoRaWAN                      |
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SoC used</td>
+      <td>STM32WLE5CCU6</td>
+    </tr>
+    <tr>
+      <td>Flash Size</td>
+      <td>256 kB</td>
+    </tr>
+    <tr>
+      <td>ADC</td>
+      <td>12 Bit</td>
+    </tr>
+    <tr>
+      <td>Max Clock</td>
+      <td>48 MHz</td>
+    </tr>
+    <tr>
+      <td>Number of I/O</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>DRAM</td>
+      <td>64 kB</td>
+    </tr>
+    <tr>
+      <td>Opearing Voltage</td>
+      <td>1.8V-3.6V</td>
+    </tr>
+    <tr>
+      <td>Temperature</td>
+      <td>-40c to +80c</td>
+    </tr>
+    <tr>
+      <td>Module Size</td>
+      <td>15 mm X 15 mm X 1.6 mm</td>
+    </tr>
+    <tr>
+      <td>Frequency Bands</td>
+      <td>863 MHz / 915 MHz (ISM Bands)</td>
+    </tr>
+    <tr>
+      <td>Output Power</td>
+      <td>Max ~ 22 dBm</td>
+    </tr>
+    <tr>
+      <td>Sensitivity</td>
+      <td>-148 dBm</td>
+    </tr><tr>
+      <td>Power Consumption</td>
+      <td>< 3 µA (Sleep Mode)</td>
+    </tr><tr>
+      <td>Supported Protocols</td>
+      <td>LoRa , LoRaWAN</td>
+    </tr>
+   
+  </tbody>
+</table>
+
+
+
+
