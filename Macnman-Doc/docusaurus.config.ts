@@ -24,7 +24,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https:macnman.com',
   baseUrl: '/',
 
   organizationName: 'facebook',
@@ -108,7 +108,19 @@ const config: Config = {
         sidebarPath: require.resolve('./sidebarsDatasheets.ts'), // Optional: use separate sidebar
         editUrl: 'https://github.com/your-org/your-repo/edit/main/',
       },
-    ],
+    ], 
+    function customWebpackLoggingPlugin() {
+      return {
+        name: 'custom-webpack-logging',
+        configureWebpack() {
+          return {
+            infrastructureLogging: {
+              level: 'warn', // or 'error'
+            },
+          };
+        },
+      };
+    },
   ],
 
 
@@ -174,10 +186,10 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [{ label: 'Tutorial', to: '/docs/intro' }],
-        },
+        // {
+        //   title: 'Docs',
+        //   items: [{ label: 'Tutorial', to: '/docs/intro' }],
+        // },
         {
           title: 'Community',
           items: [
@@ -199,7 +211,6 @@ const config: Config = {
           title: 'More',
           items: [
             { label: 'Blog', to: '/blog' },
-            { label: 'Product', to: '/product' },
             { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
           ],
         },

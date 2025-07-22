@@ -7,21 +7,4 @@ sidebar_position: 1
 
 ### hello there 
 
-<div className="videoText">
-  <div className="video">
-    <iframe
-      width="100%"
-      height="315"
-      src="/videos/vidoes_new.mp4"
-      title="IoT Explained"
-      frameBorder="0"
-      allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-  <div className="text">
-    <h3>Understanding IoT</h3>
-    <p>This video explains the basics of Internet of Things and its real-world applications.</p>
-  </div>
-</div>
 

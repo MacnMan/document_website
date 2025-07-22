@@ -67,7 +67,7 @@
   content: '';
   width: 12px;
   height: 12px;
-  mask-image: url('/img/checkmark.svg'); /* 👈 your image path */
+  /* mask-image: url('/img/checkmark.svg'); 👈 your image path */
   mask-size: cover;
   background-color: white;
   display: none;
