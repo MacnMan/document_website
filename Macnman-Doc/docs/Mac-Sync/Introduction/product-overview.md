@@ -26,25 +26,6 @@ MacSync can be connected to any RS485 or analog sensor. Parameters can be config
 </div>
 
 
-<div className="videoText">
-  <div className="video">
-    <iframe
-      width="100%"
-      height="315"
-      src="/videos/vidoes_new.mp4"
-      title="IoT Explained"
-      frameBorder="0"
-      allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-  <div className="text">
-    <h3>Understanding IoT</h3>
-    <p>This video explains the basics of Internet of Things and its real-world applications.</p>
-  </div>
-</div>
-
-
 🔘**Universal Sensor Integration**
  
  MacSync features compatibility with both RS485 and analog sensors (4-20 mA or 0-10 V), allowing it to 
