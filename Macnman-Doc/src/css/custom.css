@@ -34,15 +34,20 @@
 }
 
 /* Hide scrollbar but allow scrolling */
-html, body {
-  overflow: auto;         /* allow scrolling */
-  scrollbar-width: none;  /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+html,
+body {
+  overflow: auto;
+  /* allow scrolling */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
 }
 
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
-  display: none;          /* Chrome, Safari */
+  display: none;
+  /* Chrome, Safari */
 }
 
 /* Custom class for a video + text */
@@ -80,7 +85,7 @@ body::-webkit-scrollbar {
   text-decoration: none;
   background-color: #fff;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
   color: inherit;
 }
 
@@ -134,7 +139,7 @@ body::-webkit-scrollbar {
   text-decoration: none;
   background-color: #fff;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
   color: inherit;
   display: flex;
   flex-direction: column;

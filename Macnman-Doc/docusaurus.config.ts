@@ -3,8 +3,6 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 
-console.log(require.resolve('./sidebarsProduct.ts'));
-
 const config: Config = {
   title: 'Macnman',
   tagline: 'Macnman',
@@ -25,7 +23,7 @@ const config: Config = {
   },
 
   url: 'https:macnman.com',
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   organizationName: 'facebook',
   projectName: 'docusaurus',
@@ -37,6 +35,13 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  stylesheets: [
+    {
+      href: '/css/custom.css', // correct path
+      type: 'text/css',
+    },
+  ],
 
   presets: [
     [
@@ -108,7 +113,17 @@ const config: Config = {
         sidebarPath: require.resolve('./sidebarsDatasheets.ts'), // Optional: use separate sidebar
         editUrl: 'https://github.com/your-org/your-repo/edit/main/',
       },
-    ], 
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'help',
+        path: 'docs-help',
+        routeBasePath: 'help', // URL will be /help/
+        sidebarPath: require.resolve('./sidebarsHelp.ts'),
+        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
+      },
+    ],
     function customWebpackLoggingPlugin() {
       return {
         name: 'custom-webpack-logging',
@@ -117,6 +132,7 @@ const config: Config = {
             infrastructureLogging: {
               level: 'warn', // or 'error'
             },
+            cache: false,
           };
         },
       };
@@ -131,7 +147,7 @@ const config: Config = {
       logo: {
         alt: 'Macnman',
         src: 'img/logo_small_red.webp',
-        href: '/',
+        href: '/docs/',
       },
       items: [
         {
@@ -140,33 +156,49 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'productSidebar',
           docsPluginId: 'product',
           position: 'left',
-          label: 'Product'
+          label: 'Product',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'guideSidebar',
-          docsPluginId: 'guide',
-          position: 'right',
-          label: 'Guide'
-        },
-        {
+          to: '/books',
           type: 'docSidebar',
           sidebarId: 'booksSidebar',
           docsPluginId: 'books',
+          label: 'Books',
           position: 'left',
-          label: 'Books'
-        }, {
+        },
+        {
+          to: '/datasheets',
           type: 'docSidebar',
           sidebarId: 'datasheetsSidebar',
           docsPluginId: 'datasheets',
+          label: 'Datasheets',
           position: 'left',
-          label: 'Datasheets'
+        },
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
+        },
+        {
+          to: '/guide',
+          type: 'docSidebar',
+          sidebarId: 'guideSidebar',
+          docsPluginId: 'guide',
+          label: 'Guide',
+          position: 'right',
+        },
+        {
+          to: '/help',
+          label: 'Help',
+          position: 'right',
+          type: 'doc',
+          docId: 'help',
+          docsPluginId: 'help', // important: must match plugin id
         },
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -175,6 +207,14 @@ const config: Config = {
         },
       ],
     },
+
+    scripts: [
+      {
+        src: '/js/secondary-navbar.ts',
+        async: true,
+      },
+    ],
+
     algolia: {
       appId: 'ZCKJUWN56U',
       apiKey: '28e5f208b6c069fc2b815ba36dc9689c',

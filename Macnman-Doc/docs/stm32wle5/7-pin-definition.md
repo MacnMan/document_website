@@ -4,7 +4,7 @@ title: Pin definition
 ---
 
 # Pin definition
-<table class="parameter-table">
+<table className="parameter-table">
   <thead>
     <tr>
       <th>Pin No</th>
