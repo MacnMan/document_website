@@ -95,7 +95,7 @@
     "applications": ["Smart Industries", "Smart Agriculture"],
     "tags": ["All", "Datasheets"],
     "description": "Compact 4G module suitable for remote deployments.",
-    "image": "/img/mac_sync/mac_sync.svg",
+    "image": "static/img/mac_sync/mac_sync.svg",
     "link": "/docs/m4.pdf"
   },
   {

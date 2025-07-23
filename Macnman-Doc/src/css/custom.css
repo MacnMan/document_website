@@ -541,7 +541,7 @@ body::-webkit-scrollbar {
 
 /* Hover effect */
 .pagination-nav__link:hover {
-  border-color: #2563eb;
+  border-color: gray;
 }
 
 /* Hover arrow animation for prev */
@@ -601,12 +601,12 @@ html[data-theme='dark'] {
   /* Common styles for both buttons */
   .pagination-nav__link {
     border: 1px solid #374151; /* gray-700 */
-    background-color: #1f2937; /* gray-800 */
+    background-color: transparent; /* gray-800 */
   }
 
   /* Hover effect */
   .pagination-nav__link:hover {
-    border-color: #3b82f6; /* blue-500 */
+    border-color: rgb(190, 189, 189); /* blue-500 */
   }
 
   /* Label styling */

@@ -143,7 +143,7 @@ const config: Config = {
   themeConfig: {
     image: 'img/logo_small_red.webp',
     navbar: {
-      title: 'Macnman',
+      title: 'MACNMAN',
       logo: {
         alt: 'Macnman',
         src: 'img/logo_small_red.webp',
