@@ -7,7 +7,7 @@
     "applications": ["Smart Agriculture", "Asset Tracking"],
     "tags": ["All", "Newly Added", "Datasheets"],
     "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/lx100.pdf"
   },
   {
@@ -18,7 +18,7 @@
     "applications": ["Smart City", "Smart Building"],
     "tags": ["All", "Datasheets"],
     "description": "Versatile 4G-enabled controller for infrastructure automation.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/c4-controller.pdf"
   },
   {
@@ -29,7 +29,7 @@
     "applications": ["Smart Industries"],
     "tags": ["All", "Datasheets"],
     "description": "Robust NB-IoT gateway supporting industrial standards.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/g5-gateway.pdf"
   },
   {
@@ -40,7 +40,7 @@
     "applications": ["Smart Building", "Smart City"],
     "tags": ["All", "Newly Added", "Datasheets"],
     "description": "Low power Wi-Fi sensor for building automation.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/wfs-20.pdf"
   },
   {
@@ -51,7 +51,7 @@
     "applications": ["Asset Tracking", "Smart Industries"],
     "tags": ["All", "Datasheets"],
     "description": "Bluetooth Low Energy converter for edge device integration.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/blc-01.pdf"
   },
   {
@@ -62,7 +62,7 @@
     "applications": ["Asset Tracking"],
     "tags": ["All", "Datasheets"],
     "description": "Ultra-wideband module for high-precision indoor tracking.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/uwb-t1.pdf"
   },
   {
@@ -73,7 +73,7 @@
     "applications": ["Smart Agriculture"],
     "tags": ["All", "Datasheets"],
     "description": "Agricultural controller with LoRaWAN support and automation.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/lc-x.pdf"
   },
   {
@@ -84,7 +84,7 @@
     "applications": ["Smart City", "Smart Building"],
     "tags": ["All", "Datasheets"],
     "description": "NB-IoT-enabled multi-environment sensor for smart spaces.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/nbs-300.pdf"
   },
   {
@@ -95,7 +95,7 @@
     "applications": ["Smart Industries", "Smart Agriculture"],
     "tags": ["All", "Datasheets"],
     "description": "Compact 4G module suitable for remote deployments.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/m4.pdf"
   },
   {
@@ -106,7 +106,7 @@
     "applications": ["Smart Building"],
     "tags": ["All", "Datasheets"],
     "description": "BLE gateway to manage short-range sensor networks.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/bg-10.pdf"
   },
   {
@@ -117,7 +117,7 @@
     "applications": ["Smart Agriculture", "Asset Tracking"],
     "tags": ["All", "Newly Added", "Datasheets"],
     "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/lx100.pdf"
   },
   {
@@ -128,7 +128,7 @@
     "applications": ["Smart City", "Smart Building"],
     "tags": ["All", "Datasheets"],
     "description": "Versatile 4G-enabled controller for infrastructure automation.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/c4-controller.pdf"
   },
   {
@@ -139,7 +139,7 @@
     "applications": ["Smart Industries"],
     "tags": ["All", "Datasheets"],
     "description": "Robust NB-IoT gateway supporting industrial standards.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/g5-gateway.pdf"
   },
   {
@@ -150,7 +150,7 @@
     "applications": ["Smart Building", "Smart City"],
     "tags": ["All", "Newly Added", "Datasheets"],
     "description": "Low power Wi-Fi sensor for building automation.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/wfs-20.pdf"
   },
   {
@@ -161,7 +161,7 @@
     "applications": ["Asset Tracking", "Smart Industries"],
     "tags": ["All", "Datasheets"],
     "description": "Bluetooth Low Energy converter for edge device integration.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/blc-01.pdf"
   },
   {
@@ -172,7 +172,7 @@
     "applications": ["Asset Tracking"],
     "tags": ["All", "Datasheets"],
     "description": "Ultra-wideband module for high-precision indoor tracking.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/uwb-t1.pdf"
   },
   {
@@ -183,7 +183,7 @@
     "applications": ["Smart Agriculture"],
     "tags": ["All", "Datasheets"],
     "description": "Agricultural controller with LoRaWAN support and automation.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/lc-x.pdf"
   },
   {
@@ -194,7 +194,7 @@
     "applications": ["Smart City", "Smart Building"],
     "tags": ["All", "Datasheets", "Brochures"],
     "description": "NB-IoT-enabled multi-environment sensor for smart spaces.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/nbs-300.pdf"
   },
   {
@@ -205,7 +205,7 @@
     "applications": ["Smart Industries", "Smart Agriculture"],
     "tags": ["All", "Datasheets", "User Manuals"],
     "description": "Compact 4G module suitable for remote deployments.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/m4.pdf"
   },
   {
@@ -216,7 +216,7 @@
     "applications": ["Smart Building"],
     "tags": ["All", "Datasheets", "Reports"],
     "description": "BLE gateway to manage short-range sensor networks.",
-    "image": "/img/mac-sync/macsync.svg",
+    "image": "/img/mac_sync/mac_sync.svg",
     "link": "/docs/bg-10.pdf"
   }
 ]
