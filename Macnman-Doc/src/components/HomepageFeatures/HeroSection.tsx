@@ -16,7 +16,7 @@ const SupportSection: React.FC = () => {
                 {/* Item 1 */}
                 <div className={styles.item}>
                     <img
-                        src="/img/HeroSection/circle-girl.svg"
+                        src="/docs/img/HeroSection/circle-girl.svg"
                         alt="Specialist"
                         style={{ 
                             width: '33px', 
@@ -38,7 +38,7 @@ const SupportSection: React.FC = () => {
                 {/* Item 2 - Replacing SVG with Image */}
                 <div className={styles.item}>
                     <img
-                        src="/img/HeroSection/shopping-bag 2.svg"
+                        src="/docs/img/HeroSection/shopping-bag 2.svg"
                         alt="Explore"
                         style={{ 
                             width: '20px', 

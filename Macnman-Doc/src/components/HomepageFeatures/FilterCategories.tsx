@@ -28,14 +28,18 @@ export default function FilterCategory() {
       <h2 className={styles.title}>Check Documentation for</h2>
 
       <div className={styles.gridLayout}>
-        {filteredProducts.map(product => (
-          <div key={product.id} className={styles.gridItem}>
-            <a href={product.link} target="_blank" rel="noopener noreferrer">
-              <img src={product.image} alt={product.name} className={styles.image} />
-            </a>
-            <div className={styles.productName}>{product.name}</div>
-          </div>
-        ))}
+        {filteredProducts.map(product => {
+          console.log('Loading image:', product.image);
+          return (
+            <div key={product.id} className={styles.gridItem}>
+              <a href={product.link} target="_blank" rel="noopener noreferrer">
+                <img src={product.image} alt={product.name} className={styles.image} />
+              </a>
+              <div className={styles.productName}>{product.name}</div>
+            </div>
+          );
+        })}
+
       </div>
     </div>
   );
