@@ -12,10 +12,10 @@ const config: Config = {
     {
       tagName: 'meta',
       attributes: {
-        name: 'algolia-site-verification',
-        content: 'D96D4622B4C0F722',
-      },
-    },
+        name: '269505BC631812DA',
+        content: 'DE91A5A5EEDAF2DE'
+      }
+    }
   ],
 
   future: {
@@ -25,8 +25,8 @@ const config: Config = {
   url: 'https:macnman.com',
   baseUrl: '/docs/',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'Macnman',
+  projectName: 'document_website',
 
   onBrokenLinks: 'warn',            // <-- log broken links instead of failing build
   onBrokenMarkdownLinks: 'warn',    // <-- same for Markdown-only links
@@ -132,7 +132,7 @@ const config: Config = {
             infrastructureLogging: {
               level: 'warn', // or 'error'
             },
-            cache: false,
+            cache: true,
           };
         },
       };
