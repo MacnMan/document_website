@@ -25,8 +25,8 @@ const config: Config = {
   url: 'https:macnman.com',
   baseUrl: '/docs/',
 
-  organizationName: 'Macnman',
-  projectName: 'document_website',
+  organizationName: 'facebook',
+  projectName: 'docusaurus',
 
   onBrokenLinks: 'warn',            // <-- log broken links instead of failing build
   onBrokenMarkdownLinks: 'warn',    // <-- same for Markdown-only links
