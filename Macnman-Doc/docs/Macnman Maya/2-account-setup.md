@@ -1,11 +1,11 @@
 ---
-id: maya-macsync-l-bo
-title: Maya Introduction
+id: macnman-maya-signin
+title: Sign In
 ---
 
 ## Account Sign in & Signup
 
-![title image](./assets/sign.svg)
+![title image](./assets/singin.svg)
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">
@@ -35,5 +35,22 @@ title: Maya Introduction
     <strong>03</strong>
     <p>You will see your device list along with the last configuration time and sensor types.</p>
   </div>
+</div>
+
+
+## Connect your sensor
+
+![title image](./assets/Connection_with_sensor.svg)
+
+<div className="reusable-feature-grid">
+  <div className="reusable-feature-card">
+    <strong>01</strong>
+    <p>All Macnman devices around will be displayed in the list</p>
+  </div>
+  <div className="reusable-feature-card">
+    <strong>02</strong>
+    <p>Tap on the sensor you wish to connect.</p>
+  </div>
+  
 </div>
 

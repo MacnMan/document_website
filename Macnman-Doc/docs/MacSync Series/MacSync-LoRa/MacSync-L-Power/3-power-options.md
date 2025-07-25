@@ -6,7 +6,7 @@ title: Power Options
 # Power Options - MacSync-L-Power
 
 ## External Power Supply
-MacSync can also be powered through a **direct external DC** source within a **12–24 V** range. Ensure proper connection using a compatible terminal or jack, and always refer to both MacSync and sensor manufacturer specifications for safe operation.
+MacSync can also be powered through a **direct external DC** source within a **12–24 V** range. Ensure proper connection using a compatible terminal or jack, and always refer to both MacSync & sensor manufacturer specifications for safe operation.
 
 ## Terminal Connections
 
@@ -44,12 +44,6 @@ power source before connecting.
 
 - **Connect Power Cable , Insure safety**  
   Turn off MacSync before making any connections.
-
-
-# Power Options - MacSync-L-Power
-
-## External Power Supply
-MacSync can also be powered through a **direct external DC** source within a **12–24 V** range. Ensure proper connection using a compatible terminal or jack, and always refer to both MacSync and sensor manufacturer specifications for safe operation.
 
 ## Led Status
 
