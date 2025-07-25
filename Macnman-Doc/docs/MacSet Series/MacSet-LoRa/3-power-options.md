@@ -6,15 +6,19 @@ title: Power Options
 # Power Options - MacSync-L-Power
 
 ## External Power Supply
-MacSync can also be powered through a **direct external DC** source within a **12–24 V** range. Ensure proper connection using a compatible terminal or jack, and always refer to both MacSync and sensor manufacturer specifications for safe operation.
+The LoRaWAN Controller supports a direct external power supply ranging from 12V to 24V DC and 80V to 230V AC, ensuring reliable 
+operation across various industrial and environmental applications.
+
+For optimal performance and safety, ensure that all power connections follow the specifications provided by 
+both the controller and the connected devices.
 
 ## Terminal Connections
 
 ![title image](./assets/power.webp)
 
-## Connecting external power 
+## Procedure for connecting external power  
 
-MacSync can also be powered through a **direct external DC** source within a **12–24 V** range. Ensure proper connection using a compatible terminal or jack, and always refer to both MacSync and sensor manufacturer specifications for safe operation.
+<!-- MacSync can also be powered through a **direct external DC** source within a **12–24 V** range. Ensure proper connection using a compatible terminal or jack, and always refer to both MacSync and sensor manufacturer specifications for safe operation. -->
 
 ## Terminal Connections
 

@@ -24,7 +24,7 @@ not be included in the box.
 ## Product Dimensions
 
 ## Compact Design 
--   MacSync features a sleek `152` X `43` X `63`  mm form factor for easy installation in space-constrained environments.
+-   MacSync features a sleek `142` X `80` X `32`  mm form factor for easy installation in space-constrained environments.
 
 ![title image](./assets/dimensions.webp)
 

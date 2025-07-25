@@ -92,6 +92,35 @@ The range depends on several factors such as environment, antenna, frequency ban
   </tbody>
 </table>
 
+## Alarm Settings
+
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Maximum alarm number</td>
+      <td>09</td>
+    </tr>
+    <tr>
+      <td>Alarm types</td>
+      <td>`Regular`,`Cylic`,`Trigger`</td>
+    </tr>
+    <tr>
+      <td>Network</td>
+      <td>All alarms works when there is no network</td>
+    </tr>
+     <tr>
+      <td>Applications</td>
+      <td>`Single Phase`, `Three Phase`</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Power Specifications
 
@@ -105,7 +134,7 @@ The range depends on several factors such as environment, antenna, frequency ban
   <tbody>
     <tr>
       <td>Operating Voltage</td>
-      <td>12-24 DC & 80-230 AC</td>
+      <td>12-24V DC<br/>80-230V AC</td>
     </tr>
     <tr>
       <td>Power consumption</td>
