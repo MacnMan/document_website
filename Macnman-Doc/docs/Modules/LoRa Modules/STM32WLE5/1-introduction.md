@@ -13,7 +13,7 @@ Powered by a high-performance sub-GHz radio transceiver & a built-in LoRaWAN pro
 
 From smart agriculture and utility metering to infrastructure monitoring & industrial automation, the MAC32ELE5 is engineered to help developers build **future-ready IoT devices** with ease, efficiency, & confidence.
 
-![title image](./assets/hero-image.webp)
+
 
 ## Core Features
 
@@ -80,4 +80,8 @@ From smart agriculture and utility metering to infrastructure monitoring & indus
 
 <div style={{ margin: "2rem 0" }}></div>
 
+![title image](./assets/hero-image.webp)
+
 > Need help? Reach out at [support@macnman.com](mailto:support@macnman.com) or raise an issue in our [GitHub repo](https://github.com/MacnMan/LoRa_Module_SDK).
+
+
