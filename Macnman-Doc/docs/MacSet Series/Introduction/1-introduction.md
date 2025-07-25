@@ -17,7 +17,7 @@ With its rugged design, flexible sensor support, and intelligent wireless config
 
 ## Product Architecture
 <br/><br/>
-![title image](./assets/archi.svg)
+<!-- ![title image](./assets/archi.svg) -->
 
 ## Core Features
 
@@ -129,14 +129,6 @@ Following are the several reasons you need this manual.
      <tr>
       <td>Device code</td>
       <td>On the device label, for device binding and API call</td>
-    </tr>
-      <tr>
-      <td>LoRaWAN range</td>
-      <td>02 Km Urban , 08 Km LoS </td>
-    </tr>
-      <tr>
-      <td>Cloud platforms</td>
-      <td> Private Clouds , On Prim , Chirpstack , TTN , Helium , Loriot , Orbiwise </td>
     </tr>
   </tbody>
 </table>

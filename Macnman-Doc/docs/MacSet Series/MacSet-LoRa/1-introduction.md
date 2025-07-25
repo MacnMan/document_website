@@ -1,11 +1,11 @@
 ---
-id: introduction
+id: macset_introduction
 title: Introduciton
 ---
 
 # Product Overview
 
-## Introduction-1
+## Introduction
 
 **MacSync** is an innovative IoT data logger developed by **Macnman Technologies** to simplify and enhance real-time monitoring and control across various environments. Built with industrial-grade hardware and intelligent software, MacSync offers a versatile and reliable solution for applications ranging from industrial automation to environmental monitoring.
 
@@ -17,7 +17,7 @@ With its rugged design, flexible sensor support, and intelligent wireless config
 
 ## Product Architecture
 <br/><br/>
-![title image](./assets/archi.svg)
+
 
 ## Core Features
 
