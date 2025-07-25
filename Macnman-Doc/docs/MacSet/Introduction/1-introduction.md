@@ -17,7 +17,7 @@ With its rugged design, flexible sensor support, and intelligent wireless config
 
 ## Product Architecture
 <br/><br/>
-![title image](./assets/archi.svg)
+<!-- ![title image](./assets/archi.svg) -->
 
 ## Core Features
 
