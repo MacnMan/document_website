@@ -75,3 +75,60 @@ With its rugged design, flexible sensor support, and intelligent wireless config
 
 - **Facility Managers**  
   Enhance building performance with intelligent monitoring of energy use, air quality, and equipment status.
+
+
+
+## Why do you need this user manual ?
+
+Following are the several reasons you need this manual.
+
+- **Effective Product Utilization** 
+
+- **Troubleshooting Assistance** 
+
+- **Maintenance & Care** 
+
+- **Warranty & Service Information** 
+
+- **Regulatory Compliance** 
+
+- **Enhanced User Experience** 
+
+- **Resource for Training** 
+
+
+
+## Key parameters Definitions
+
+Following are the several reasons you need this manual.
+
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LoRaWAN Mac version</td>
+      <td>LoRaWAN MAC versions, evolving from 1.0 to 1.1, 1.0.3, and the latest 1.1.1, define the communication protocols and enhancements in network efficiency, security, and device compatibility for LoRaWAN networks.</td>
+    </tr>
+    <tr>
+      <td>Device EUI</td>
+      <td>Unique identification of the device, one of the join network parameters (OTAA mode)</td>
+    </tr>
+    <tr>
+      <td>App EUI</td>
+      <td>Unique identification of the application, one of the join network parameters</td>
+    </tr>
+     <tr>
+      <td>App Key</td>
+      <td>Application key, one of the join network parameters</td>
+    </tr>
+     <tr>
+      <td>Device code</td>
+      <td>On the device label, for device binding and API call</td>
+    </tr>
+  </tbody>
+</table>
