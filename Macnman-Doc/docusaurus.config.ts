@@ -51,20 +51,6 @@ const config: Config = {
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.ts'),
           routeBasePath: '/', // Serve docs at site root
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -81,17 +67,6 @@ const config: Config = {
         path: 'product',
         routeBasePath: 'product',
         sidebarPath: require.resolve('./sidebarsProduct.ts'),
-        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'guide',
-        path: 'guide',
-        routeBasePath: 'guide',
-        sidebarPath: require.resolve('./sidebarsGuide.ts'), // Optional: use separate sidebar
-        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
       },
     ],
     [
@@ -101,7 +76,6 @@ const config: Config = {
         path: 'books', // folder name in your root directory
         routeBasePath: 'books', // URL path like /books/...
         sidebarPath: require.resolve('./sidebarsBooks.ts'),
-        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
       },
     ],
     [
@@ -111,7 +85,6 @@ const config: Config = {
         path: 'datasheets',
         routeBasePath: 'datasheets',
         sidebarPath: require.resolve('./sidebarsDatasheets.ts'), // Optional: use separate sidebar
-        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
       },
     ],
     [
@@ -121,7 +94,6 @@ const config: Config = {
         path: 'docs-help',
         routeBasePath: 'help', // URL will be /help/
         sidebarPath: require.resolve('./sidebarsHelp.ts'),
-        editUrl: 'https://github.com/your-org/your-repo/edit/main/',
       },
     ],
     function customWebpackLoggingPlugin() {
@@ -176,21 +148,8 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'datasheetsSidebar',
           docsPluginId: 'datasheets',
-          label: 'Datasheets',
+          label: 'Tech Reports',
           position: 'left',
-        },
-        {
-          to: '/blog',
-          label: 'Blog',
-          position: 'left',
-        },
-        {
-          to: '/guide',
-          type: 'docSidebar',
-          sidebarId: 'guideSidebar',
-          docsPluginId: 'guide',
-          label: 'Guide',
-          position: 'right',
         },
         {
           to: '/help',
@@ -208,6 +167,12 @@ const config: Config = {
       ],
     },
 
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
+
     scripts: [
       {
         src: '/js/secondary-navbar.ts',
@@ -218,7 +183,7 @@ const config: Config = {
     algolia: {
       appId: 'ZCKJUWN56U',
       apiKey: '28e5f208b6c069fc2b815ba36dc9689c',
-      indexName: 'Annual_Incme',
+      indexName: 'Macnman',
       contextualSearch: true,
       searchParameters: {},
       searchPagePath: 'search',
@@ -247,10 +212,10 @@ const config: Config = {
             },
           ],
         },
+
         {
           title: 'More',
           items: [
-            { label: 'Blog', to: '/blog' },
             { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
           ],
         },

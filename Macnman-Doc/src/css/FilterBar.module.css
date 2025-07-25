@@ -13,16 +13,19 @@
   position: sticky;
   top: 0;
   padding-left: 3rem;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
 }
 
 .sidebar::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
+  display: none;
+  /* Chrome, Safari, Edge */
 }
 
 .filterGroup {
-  margin-top:  1.3rem;
+  margin-top: 1.3rem;
   margin-bottom: 1.5rem;
 }
 
@@ -30,7 +33,8 @@
   text-align: left;
   font-size: .9rem;
   font-weight: 600;
-  color: #6b7280c3; /* Tailwind gray-500 equivalent */
+  color: #6b7280c3;
+  /* Tailwind gray-500 equivalent */
   /* margin-bottom: 1rem; */
   letter-spacing: 0.5px;
 }
@@ -42,57 +46,40 @@
   font-size: 0.85rem;
 }
 
-.optionsWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-  font-weight: 500;
-}
-
 .radioOption input[type="radio"] {
   appearance: none;
   width: 12px;
   height: 12px;
-  border: 1px solid #ccc;
   border-radius: 50%;
-  background-color: #e5e7eb; /* light gray */
-  display: grid;
-  place-content: center;
+  background-color: #9ca3af9c;
+  /* Darker gray for inactive */
+  position: relative;
   cursor: pointer;
+  border: none;
   transition: all 0.2s ease-in-out;
-  position: relative;
 }
 
-.radioOption input[type="radio"] {
-  appearance: none;         /* Hide default radio */
-  width: 16px;
-  height: 16px;
-  border: 2px solid #cbd5e0; /* Tailwind gray-300 */
-  border-radius: 9999px;     /* Fully rounded */
-  background-color: white;
-  cursor: pointer;
-  position: relative;
-}
-
+/* Always show checkmark initially (gray background with white tick) */
 .radioOption input[type="radio"]::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  width: 16px;
-  height: 16px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Cpath fill='%23bae0bd' d='M40,77.5C19.3,77.5,2.5,60.7,2.5,40S19.3,2.5,40,2.5S77.5,19.3,77.5,40S60.7,77.5,40,77.5z'/%3E%3Cpath fill='%235e9c76' d='M40,3c20.4,0,37,16.6,37,37S60.4,77,40,77S3,60.4,3,40S19.6,3,40,3 M40,2C19,2,2,19,2,40 s17,38,38,38s38-17,38-38S61,2,40,2L40,2z'/%3E%3Cpath fill='%23fff' d='M34 56L20.2 42.2 24.5 38 34 47.6 58.2 23.4 62.5 27.6z'/%3E%3C/svg%3E");
-  background-size: cover;
-  display: none;
-}
-
-.radioOption input[type="radio"]:checked {
-  background-color: #c7d3ef;  /* Tailwind blue-600 */
-}
-
-.radioOption input[type="radio"]:checked::before {
+  width: 12px;
+  height: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%239ca3af'/%3E%3Cpath fill='%23ffffff' d='M34 56L20.2 42.2 24.5 38 34 47.6 58.2 23.4 62.5 27.6z'/%3E%3C/svg%3E");
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: center;
   display: block;
 }
+
+/* When checked, change to blue background and same checkmark */
+.radioOption input[type="radio"]:checked::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%233b82f6'/%3E%3Cpath fill='%23ffffff' d='M34 56L20.2 42.2 24.5 38 34 47.6 58.2 23.4 62.5 27.6z'/%3E%3C/svg%3E");
+}
+
+
 
 
 

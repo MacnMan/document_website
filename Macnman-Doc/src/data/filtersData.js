@@ -11,6 +11,7 @@ const filtersData = {
   ],
 
   Technology: [
+    'All', 
     'LoRaWAN®',
     '4G Cellular',
     'Nb IoT',
@@ -19,21 +20,14 @@ const filtersData = {
     'UWB'
   ],
 
-  Catagory: [
+  Category: [
+    'All', 
     'Nodes',
     'Controllers',
     'Gateways',
     'Modules',
     'Sensors',
     'Converters'
-  ],
-
-  Applications: [
-    'Smart Industries',
-    'Smart City',
-    'Smart Building',
-    'Smart Agriculture',
-    'Asset Tracking'
   ]
 };
 

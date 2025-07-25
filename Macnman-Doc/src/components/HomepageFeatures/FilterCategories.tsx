@@ -1,4 +1,3 @@
-
 import React, { useContext, useEffect, useState } from 'react';
 import products from '../../data/products.json';
 import styles from '../../css/FilterCategories.module.css';
@@ -9,15 +8,14 @@ export default function FilterCategory() {
   const [filteredProducts, setFilteredProducts] = useState(products);
 
   useEffect(() => {
-    const { Filter, Technology, Catagory, Applications } = filters;
+    const { Filter, Technology, Catagory } = filters;
 
     const filtered = products.filter(product => {
-      const matchesFilter = Filter ? product.tags?.includes(Filter) : true;
-      const matchesTech = Technology ? product.technology === Technology : true;
-      const matchesCat = Catagory ? product.category === Catagory : true;
-      const matchesApp = Applications ? product.applications?.includes(Applications) : true;
+      const matchFilter = Filter === 'All' || (product.tags || []).includes(Filter);
+      const matchTech = Technology === 'All' || !Technology || product.technology === Technology;
+      const matchCat = Catagory === 'All' || !Catagory || product.category === Catagory;
 
-      return matchesFilter && matchesTech && matchesCat && matchesApp;
+      return matchFilter && matchTech && matchCat;
     });
 
     setFilteredProducts(filtered);
@@ -26,20 +24,15 @@ export default function FilterCategory() {
   return (
     <div className={styles.mainContent}>
       <h2 className={styles.title}>Check Documentation for</h2>
-
       <div className={styles.gridLayout}>
-        {filteredProducts.map(product => {
-          console.log('Loading image:', product.image);
-          return (
-            <div key={product.id} className={styles.gridItem}>
-              <a href={product.link} target="_blank" rel="noopener noreferrer">
-                <img src={product.image} alt={product.name} className={styles.image} />
-              </a>
-              <div className={styles.productName}>{product.name}</div>
-            </div>
-          );
-        })}
-
+        {filteredProducts.map(product => (
+          <div key={product.id} className={styles.gridItem}>
+            <a href={product.link} target="_blank" rel="noopener noreferrer">
+              <img src={product.image} alt={product.name} className={styles.image} />
+            </a>
+            <div className={styles.productName}>{product.name}</div>
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -8,7 +8,7 @@
     "tags": ["All", "Newly Added", "Datasheets"],
     "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
     "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/lx100.pdf"
+    "link": "http://localhost:3000/docs/MacSync%20Series/MacSync-4G/Intro"
   },
   {
     "id": 2,
