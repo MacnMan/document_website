@@ -5,6 +5,7 @@
 }
 
 .sidebar {
+  position: sticky;
   width: 220px;
   border-right: 1px solid #e0e0e0;
   background-color: white;
@@ -51,12 +52,13 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #9ca3af9c;
+  background-color: #d6deece7;
   /* Darker gray for inactive */
   position: relative;
   cursor: pointer;
   border: none;
   transition: all 0.2s ease-in-out;
+  color: #f5f8f8e0;
 }
 
 /* Always show checkmark initially (gray background with white tick) */

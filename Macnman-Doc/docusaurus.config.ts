@@ -2,7 +2,6 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-
 const config: Config = {
   title: 'Macnman',
   tagline: 'Macnman',
@@ -13,23 +12,23 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: '269505BC631812DA',
-        content: 'DE91A5A5EEDAF2DE'
-      }
-    }
+        content: 'DE91A5A5EEDAF2DE',
+      },
+    },
   ],
 
   future: {
     v4: true,
   },
 
-  url: 'https:macnman.com',
+  url: 'https://macnman.com',
   baseUrl: '/docs/',
 
   organizationName: 'facebook',
   projectName: 'docusaurus',
 
-  onBrokenLinks: 'warn',            // <-- log broken links instead of failing build
-  onBrokenMarkdownLinks: 'warn',    // <-- same for Markdown-only links
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
@@ -38,7 +37,7 @@ const config: Config = {
 
   stylesheets: [
     {
-      href: '/css/custom.css', // correct path
+      href: '/css/custom.css',
       type: 'text/css',
     },
   ],
@@ -50,7 +49,7 @@ const config: Config = {
         docs: {
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.ts'),
-          routeBasePath: '/', // Serve docs at site root
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,8 +72,8 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'books',
-        path: 'books', // folder name in your root directory
-        routeBasePath: 'books', // URL path like /books/...
+        path: 'books',
+        routeBasePath: 'books',
         sidebarPath: require.resolve('./sidebarsBooks.ts'),
       },
     ],
@@ -84,7 +83,7 @@ const config: Config = {
         id: 'datasheets',
         path: 'datasheets',
         routeBasePath: 'datasheets',
-        sidebarPath: require.resolve('./sidebarsDatasheets.ts'), // Optional: use separate sidebar
+        sidebarPath: require.resolve('./sidebarsDatasheets.ts'),
       },
     ],
     [
@@ -92,7 +91,7 @@ const config: Config = {
       {
         id: 'help',
         path: 'docs-help',
-        routeBasePath: 'help', // URL will be /help/
+        routeBasePath: 'help',
         sidebarPath: require.resolve('./sidebarsHelp.ts'),
       },
     ],
@@ -102,7 +101,7 @@ const config: Config = {
         configureWebpack() {
           return {
             infrastructureLogging: {
-              level: 'warn', // or 'error'
+              level: 'warn',
             },
             cache: true,
           };
@@ -111,9 +110,15 @@ const config: Config = {
     },
   ],
 
-
   themeConfig: {
     image: 'img/logo_small_red.webp',
+
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true, // Disable default toggle
+      respectPrefersColorScheme: true,
+    },
+
     navbar: {
       title: 'MACNMAN',
       logo: {
@@ -157,20 +162,18 @@ const config: Config = {
           position: 'right',
           type: 'doc',
           docId: 'help',
-          docsPluginId: 'help', // important: must match plugin id
+          docsPluginId: 'help',
         },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'custom-color-toggle',
+          position: 'right',
+        },
       ],
-    },
-
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
     },
 
     scripts: [
@@ -188,13 +191,10 @@ const config: Config = {
       searchParameters: {},
       searchPagePath: 'search',
     },
+
     footer: {
       style: 'dark',
       links: [
-        // {
-        //   title: 'Docs',
-        //   items: [{ label: 'Tutorial', to: '/docs/intro' }],
-        // },
         {
           title: 'Community',
           items: [
@@ -212,7 +212,6 @@ const config: Config = {
             },
           ],
         },
-
         {
           title: 'More',
           items: [
@@ -222,6 +221,7 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Macnman. Built with Docusaurus.`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

@@ -19,10 +19,10 @@ const SupportSection: React.FC = () => {
                         src="/docs/img/HeroSection/circle-girl.svg"
                         alt="Specialist"
                         style={{ 
-                            width: '33px', 
-                            height: '40px', 
+                            width: '42px', 
+                            height: '49px', 
                             borderRadius: '10%',
-                            marginTop: '6px',
+                            marginTop: '-1px',
                             verticalAlign: 'middle',
                         }}
                         className={styles.avatar}
@@ -41,11 +41,12 @@ const SupportSection: React.FC = () => {
                         src="/docs/img/HeroSection/shopping-bag 2.svg"
                         alt="Explore"
                         style={{ 
-                            width: '20px', 
-                            height: '30px', 
+                            width: '34px', 
+                            height: '40px',
                             borderRadius: '25%',
-                            marginTop : '10px',
-                            marginLeft : '12px',
+                            marginTop : '4px',
+                            marginLeft : '2px',
+                            marginRight: '6px',
                             verticalAlign: 'middle',
                         }}
                         className={styles.avatar}

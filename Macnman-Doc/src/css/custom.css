@@ -9,8 +9,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html {
-  -webkit-font-smoothing: antialiased; /* macOS */
-  -moz-osx-font-smoothing: grayscale;  /* Firefox/macOS */
+  -webkit-font-smoothing: antialiased;
+  /* macOS */
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox/macOS */
 }
 
 :root {
@@ -41,6 +43,44 @@ html {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+
+/* Base state for doc card links */
+.docCardListItem_W1sv a {
+  border-color: #100e0e28;
+  transition: color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* On hover: darker border + light shadow */
+.docCardListItem_W1sv a:hover {
+  border-color: #100e0e;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.057); /* subtle shadow */
+}
+
+/* For light mode */
+html[data-theme="light"] .hash-link {
+  color: black !important;
+  fill: black !important;
+}
+
+/* For dark mode */
+html[data-theme="dark"] .hash-link {
+  color: white !important;
+  fill: white !important;
+}
+
+/* Light mode: black underline for links inside <strong> */
+/* Light mode */
+html[data-theme="light"] .markdown a {
+  color: black !important;
+  text-decoration-color: black !important;
+}
+
+/* Dark mode */
+html[data-theme="dark"] .markdown a {
+  color: white !important;
+  text-decoration-color: white !important;
+}
+
 /* Hide scrollbar but allow scrolling */
 html,
 body {
@@ -66,7 +106,7 @@ body::-webkit-scrollbar {
 
 /* Also target inner elements like logo text if needed */
 .navbar__brand:hover .navbar__title {
-  color: #aaa !important;
+  color: #484747fc !important;
 }
 
 /* Hover: turn top navbar links gray */
@@ -77,27 +117,37 @@ body::-webkit-scrollbar {
 
 /* Active: turn the active top navbar link gray */
 .navbar__link--active {
-  color: gray !important;
-  font-weight: 400;
+  color: rgb(11, 9, 9);
+  font-weight: 200;
 }
 
 /* Light theme: slightly darker gray */
-html[data-theme='light'] .navbar__link--active,
+html[data-theme='light'] .navbar__link--active {
+  color: #100e0e !important;
+  font-weight: 600;
+}
+
 html[data-theme='light'] .navbar__link:hover {
-  color: #555 !important;
+  color: #100e0e !important;
   font-weight: 700;
 }
 
 /* Dark theme: lighter gray */
-html[data-theme='dark'] .navbar__link--active,
+html[data-theme='dark'] .navbar__link--active {
+  color: white !important;
+  font-weight: 700;
+}
+
 html[data-theme='dark'] .navbar__link:hover {
   color: #aaa !important;
   font-weight: 700;
 }
 
 :root {
-  --breadcrumb-light-active-text: #292929; /* Light mode active text: black */
-  --breadcrumb-light-hover-text: #888888;  /* Light mode hover text */
+  --breadcrumb-light-active-text: #292929;
+  /* Light mode active text: black */
+  --breadcrumb-light-hover-text: #888888;
+  /* Light mode hover text */
   --breadcrumb-light-bg: #88888845;
 }
 
@@ -118,10 +168,8 @@ html[data-theme='dark'] .navbar__link:hover {
   border-radius: 0.8rem;
 }
 
-html[data-theme='dark'] 
-  .breadcrumbs__item.breadcrumbs__item--active 
-  .breadcrumbs__link {
-  
+html[data-theme='dark'] .breadcrumbs__item.breadcrumbs__item--active .breadcrumbs__link {
+
   color: var(--breadcrumb-active-text, #fff) !important;
   background-color: var(--breadcrumb-active-bg, #444);
   border-radius: 0.8rem;
@@ -132,9 +180,11 @@ html[data-theme='dark']
 
 /* ────────────── DARK MODE ────────────── */
 [data-theme='dark'] {
+
   .breadcrumbs__item--active .breadcrumbs__link,
   .breadcrumbs__item--active .breadcrumbs__link:hover {
-    color: #ffffff !important; /* White in dark mode */
+    color: #ffffff !important;
+    /* White in dark mode */
     font-weight: 800;
     border-radius: 0.5rem;
     box-shadow: none;
@@ -728,15 +778,21 @@ html[data-theme='dark'] {
 
 /* ────────────── GLOBAL VARIABLES ─────────────────────────────────────────── */
 :root {
-  --sidebar-hover-bg-main: #d9d9d9a4;         /* Light hover background */
-  --sidebar-active-bg: #d9d9d96f;             /* Light active background */
-  --sidebar-text-active: #000000;             /* Active text color (light) */
+  --sidebar-hover-bg-main: #d9d9d9a4;
+  /* Light hover background */
+  --sidebar-active-bg: #d9d9d96f;
+  /* Light active background */
+  --sidebar-text-active: #000000;
+  /* Active text color (light) */
 }
 
 [data-theme='dark'] {
-  --sidebar-hover-bg-main: rgba(255, 255, 255, 0.08);  /* Dark hover background */
-  --sidebar-active-bg: rgba(255, 255, 255, 0.05);      /* Dark active background */
-  --sidebar-text-active: #ffffff;                      /* Active text color (dark) */
+  --sidebar-hover-bg-main: rgba(255, 255, 255, 0.08);
+  /* Dark hover background */
+  --sidebar-active-bg: rgba(255, 255, 255, 0.05);
+  /* Dark active background */
+  --sidebar-text-active: #ffffff;
+  /* Active text color (dark) */
 }
 
 /* ────────────── BASE SIDEBAR STYLING ─────────────────────────────────────── */
@@ -786,7 +842,7 @@ html[data-theme='dark'] {
 }
 
 /* ────────────── CATEGORY LABEL STYLES ────────────────────────────────────── */
-.theme-doc-sidebar-menu .theme-doc-sidebar-item-category > .menu__link {
+.theme-doc-sidebar-menu .theme-doc-sidebar-item-category>.menu__link {
   text-transform: uppercase;
 }
 
@@ -810,7 +866,7 @@ html[data-theme='dark'] {
   padding: 0;
 }
 
-.theme-doc-sidebar-menu > .menu__list > .menu__list-item {
+.theme-doc-sidebar-menu>.menu__list>.menu__list-item {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -961,7 +1017,8 @@ html[data-theme='dark'] .menu__list .theme-doc-sidebar-item-category .menu__list
 
 /* When modal (popup) opens — the top border */
 .DocSearch-Container {
-  --docsearch-primary-color: #888; /* fallback */
+  --docsearch-primary-color: #888;
+  /* fallback */
   border-color: #ccc !important;
   outline: none !important;
 }
@@ -1003,20 +1060,59 @@ html[data-theme='dark'] .menu__list .theme-doc-sidebar-item-category .menu__list
 /* Highlight active navbar link with underline */
 .navbar__link--active {
   position: relative;
-  font-weight: 600; /* optional, to emphasize */
+  font-weight: bold;
+  /* optional, to emphasize */
 }
 
 .navbar__link--active::after {
   content: '';
   position: absolute;
-  bottom: -13.5px; /* spacing under text */
+  bottom: -13.5px;
+  /* spacing under text */
   left: 0;
   width: 100%;
-  height: 1.5px;
-  background-color: #0a0a0a75; /* white line in dark theme */
+  height: 2px;
+  background-color: #0a0a0acf;
+  /* white line in dark theme */
   border-radius: 1px;
 }
 
-html[data-theme='dark'] .navbar__link--active::after{
-    background-color: rgba(255, 255, 255, 0.295); /* white line in dark theme */
+html[data-theme='dark'] .navbar__link--active::after {
+  background-color: rgba(255, 255, 255, 0.614);
+  /* white line in dark theme */
+
+
+}.theme-toggle-btn {
+  display: inline-block;
+  text-transform: lowercase;
+
+  /* Your existing styling */
+  background-color: transparent;
+  border: 1px solid rgba(128, 128, 128, 0.311);
+  border-radius: 10%;
+  font-size: 1rem;
+  line-height: 1;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  width: 70px;
+  height: 25px;
+  text-align: center;
+  transition: background-color 0.2s ease;
+
+  /* If needed for alignment: disable flex display */
+}
+
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggle-btn:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle-btn::first-letter {
+  text-transform: uppercase;
 }
