@@ -300,7 +300,6 @@ while True:
     <strong>Real-Time Alerts</strong>
     <p>Instant notifications ensured proactive responses.</p>
   </div>
-  <!-- Add more cards as needed -->
 </div>
 
 <div className="problem-grid">
