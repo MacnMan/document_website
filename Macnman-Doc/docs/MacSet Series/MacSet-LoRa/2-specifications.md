@@ -17,7 +17,7 @@ title: Specifications
   <tbody>
     <tr>
       <td>Product Part Number</td>
-      <td>MacSync-L-PO-XX  </td>
+      <td>MacSet-LoRa  </td>
     </tr>
     <tr>
       <td>Product Brand</td>
@@ -25,7 +25,7 @@ title: Specifications
     </tr>
     <tr>
       <td>Interface Available</td>
-      <td>1 X RS485 , 2 X Analog ,2 X Digital Inputs ,I2C, UART</td>
+      <td>1 X RS485 , 2 X Analog ,2 X Digital Inputs</td>
     </tr>
      <tr>
       <td>Main RF Chip (LoRa)</td>
@@ -67,7 +67,7 @@ The range depends on several factors such as environment, antenna, frequency ban
   <tbody>
     <tr>
       <td>LoRaWAN Class</td>
-      <td>Class A , Class C</td>
+      <td>Class C</td>
     </tr>
     <tr>
       <td>Frequency</td>
@@ -105,7 +105,7 @@ The range depends on several factors such as environment, antenna, frequency ban
   <tbody>
     <tr>
       <td>Operating Voltage</td>
-      <td>12-24 DC</td>
+      <td>12-24 DC & 80-230 AC</td>
     </tr>
     <tr>
       <td>Power consumption</td>
@@ -118,10 +118,6 @@ The range depends on several factors such as environment, antenna, frequency ban
      <tr>
       <td>Reverse Protection</td>
       <td>Yes</td>
-    </tr>
-     <tr>
-      <td>Battery Option</td>
-      <td>Optional</td>
     </tr>
   </tbody>
 </table>
@@ -138,19 +134,19 @@ The range depends on several factors such as environment, antenna, frequency ban
   <tbody>
   <tr>
       <td>Mounting Methods</td>
-      <td>Pole mounting , Wall mounting</td>
+      <td>Wall mounting</td>
     </tr>
     <tr>
       <td>Dimensions</td>
-      <td>152 mm X 43 mm X 62 mm</td>
+      <td>142 mm X 80 mm X 32 mm</td>
     </tr>
     <tr>
       <td>Weight</td>
-      <td>460 gms (with battery)</td>
+      <td>160 gms</td>
     </tr>
     <tr>
       <td>Shell</td>
-      <td>Waterproof - weather resistant</td>
+      <td>Waterproof IP65 - weather resistant</td>
     </tr>
   </tbody>
 </table>
@@ -172,7 +168,7 @@ The range depends on several factors such as environment, antenna, frequency ban
     </tr>
     <tr>
       <td>Storage temperature</td>
-      <td> - 40 °C , + 70 °C</td>
+      <td> - 40 °C , + 125 °C</td>
     </tr>
     <tr>
       <td>Relative Humidity</td>
@@ -197,7 +193,7 @@ The range depends on several factors such as environment, antenna, frequency ban
   <tbody>
   <tr>
       <td>Frequency Plan</td>
-      <td>IN868</td>
+      <td>IN865-IN867</td>
     </tr>
     <tr>
       <td>Adaptive data rate</td>
@@ -209,7 +205,7 @@ The range depends on several factors such as environment, antenna, frequency ban
     </tr>
     <tr>
       <td>Update Interval</td>
-      <td>10 Mins</td>
+      <td>30 Seconds</td>
     </tr>
   </tbody>
 </table>
