@@ -32,27 +32,8 @@ title: Maya Introduction
     <p>Filter out your devices working with multiple technological filters.</p>
   </div>
   <div className="reusable-feature-card">
-    <strong>03. Device Card</strong>
+    <strong>03</strong>
     <p>You will see your device list along with the last configuration time and sensor types.</p>
   </div>
 </div>
 
-
-## Home
-
-![title image](./assets/sign.svg)
-
-
-
-![title image](./assets/sign.svg)
-
-<div className="reusable-feature-grid">
-  <div className="reusable-feature-card">
-    <strong>01</strong>
-    <p>Navigate to the BLE search tab to see a list of nearby Macnman devices.</p>
-  </div>
-  <div className="reusable-feature-card">
-    <strong>02</strong>
-    <p>Select the sensor you wish to connect to.</p>
-  </div>
-</div>
