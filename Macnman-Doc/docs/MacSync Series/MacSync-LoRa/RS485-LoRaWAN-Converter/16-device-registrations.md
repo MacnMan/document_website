@@ -9,8 +9,6 @@ title: LNS Registration
 
 ![title image](./assets/ttn_registration.webp)
 
-
-
 ### Registering MacSync on TTN / Public LNS
 
 You can register your device using either **manual entry** or **QR scan**.
@@ -37,8 +35,7 @@ You can register your device using either **manual entry** or **QR scan**.
 
 > Tip: For advanced security or re-onboarding, you can regenerate keys anytime from the **Maya App** under **Key & Identity > Advanced Options**.
 
-
-## Public Servers
+## Private Servers - Chirpstack
 
 ![title image](./assets/private_chirpstack_one.webp)
 
@@ -61,3 +58,25 @@ Follow these steps to onboard your device into your ChirpStack application:
 8. Click **Submit** to register the device.
 
 > For enhanced security, you can regenerate the keys directly from the Maya app before registration.
+
+## Testing Uplink on ChirpStack with MacSync
+
+After registering your device on ChirpStack, you can test the uplink using the Maya app:
+
+### Steps:
+
+1. **Log in** to your **ChirpStack dashboard**.
+2. Click on **Applications** and select your application.
+3. Click on the **device you registered** (MacSync).
+4. Navigate to the **Live LoRaWAN Frames** or **Device Data** tab to monitor uplinks.
+5. On your mobile device, open the **Maya App**.
+6. Connect to the MacSync device via **Bluetooth (BLE)**.
+7. Navigate to the **Ping / Send Uplink** section.
+8. Tap the **“Send Uplink”** or **Ping** button.
+
+### Result:
+
+- The device will immediately send a **confirmed uplink** to the server.
+- You should see the uplink appear in real-time on ChirpStack under **Device Data** or **Live Frames**.
+
+> Tip: The uplink also includes signal quality metrics such as **RSSI**, **SNR**, and **Spreading Factor**, which can help with diagnostics.
