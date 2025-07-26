@@ -1,27 +1,222 @@
 [
   {
-    "id": "p1",
-    "name": "MacSync Series",
-    "category": "Newly Added",
-    "image": "/img/mac-sync/MacSync.png",
-    "tags": ["Brochures", "Datasheets"],
-    "link": "http://localhost:3001/Introduction/product-overview"
-  },
-  {
-    "id": "p2",
-    "name": "MacSet Series",
-    "category": "Newly Added",
-    "image": "/img/mac-sync/MacSync.png",
-    "tags": ["User Manuals", "Datasheets"],
-    "link": "http://localhost:3001/Introduction/product-overview"
-  },
-  {
-    "id": "p3",
-    "name": "MacSync Series",
+    "id": 1,
+    "name": "LoRaWAN Node LX100",
+    "technology": "LoRaWAN®",
     "category": "Nodes",
-    "image": "/img/mac-sync/MacSync.png",
-    "tags": ["Reports"],
-    "link": "http://localhost:3001/Introduction/product-overview"
+    "applications": ["Smart Agriculture", "Asset Tracking"],
+    "tags": ["All", "Newly Added", "Datasheets"],
+    "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "http://localhost:3000/docs/MacSync%20Series/MacSync-4G/Intro"
+  },
+  {
+    "id": 2,
+    "name": "4G Smart Controller C4",
+    "technology": "4G Cellular",
+    "category": "Controllers",
+    "applications": ["Smart City", "Smart Building"],
+    "tags": ["All", "Datasheets"],
+    "description": "Versatile 4G-enabled controller for infrastructure automation.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/c4-controller.pdf"
+  },
+  {
+    "id": 3,
+    "name": "NB-IoT Gateway G5",
+    "technology": "Nb IoT",
+    "category": "Gateways",
+    "applications": ["Smart Industries"],
+    "tags": ["All", "Datasheets"],
+    "description": "Robust NB-IoT gateway supporting industrial standards.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/g5-gateway.pdf"
+  },
+  {
+    "id": 4,
+    "name": "Wi-Fi Low Power Sensor WFS-20",
+    "technology": "Low Power Wi Fi",
+    "category": "Sensors",
+    "applications": ["Smart Building", "Smart City"],
+    "tags": ["All", "Newly Added", "Datasheets"],
+    "description": "Low power Wi-Fi sensor for building automation.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/wfs-20.pdf"
+  },
+  {
+    "id": 5,
+    "name": "BLE Converter BLC-01",
+    "technology": "Ble",
+    "category": "Converters",
+    "applications": ["Asset Tracking", "Smart Industries"],
+    "tags": ["All", "Datasheets"],
+    "description": "Bluetooth Low Energy converter for edge device integration.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/blc-01.pdf"
+  },
+  {
+    "id": 6,
+    "name": "UWB Tag T1",
+    "technology": "UWB",
+    "category": "Modules",
+    "applications": ["Asset Tracking"],
+    "tags": ["All", "Datasheets"],
+    "description": "Ultra-wideband module for high-precision indoor tracking.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/uwb-t1.pdf"
+  },
+  {
+    "id": 7,
+    "name": "LoRaWAN Controller LC-X",
+    "technology": "LoRaWAN®",
+    "category": "Controllers",
+    "applications": ["Smart Agriculture"],
+    "tags": ["All", "Datasheets"],
+    "description": "Agricultural controller with LoRaWAN support and automation.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/lc-x.pdf"
+  },
+  {
+    "id": 8,
+    "name": "NB-IoT Sensor NBS-300",
+    "technology": "Nb IoT",
+    "category": "Sensors",
+    "applications": ["Smart City", "Smart Building"],
+    "tags": ["All", "Datasheets"],
+    "description": "NB-IoT-enabled multi-environment sensor for smart spaces.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/nbs-300.pdf"
+  },
+  {
+    "id": 9,
+    "name": "4G Module M4",
+    "technology": "4G Cellular",
+    "category": "Modules",
+    "applications": ["Smart Industries", "Smart Agriculture"],
+    "tags": ["All", "Datasheets"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/m4.pdf"
+  },
+  {
+    "id": 10,
+    "name": "BLE Gateway BG-10",
+    "technology": "Ble",
+    "category": "Gateways",
+    "applications": ["Smart Building"],
+    "tags": ["All", "Datasheets"],
+    "description": "BLE gateway to manage short-range sensor networks.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 11,
+    "name": "LoRaWAN Node LX100",
+    "technology": "LoRaWAN®",
+    "category": "Nodes",
+    "applications": ["Smart Agriculture", "Asset Tracking"],
+    "tags": ["All", "Newly Added", "Datasheets"],
+    "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/lx100.pdf"
+  },
+  {
+    "id": 12,
+    "name": "4G Smart Controller C4",
+    "technology": "4G Cellular",
+    "category": "Controllers",
+    "applications": ["Smart City", "Smart Building"],
+    "tags": ["All", "Datasheets"],
+    "description": "Versatile 4G-enabled controller for infrastructure automation.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/c4-controller.pdf"
+  },
+  {
+    "id": 13,
+    "name": "NB-IoT Gateway G5",
+    "technology": "Nb IoT",
+    "category": "Gateways",
+    "applications": ["Smart Industries"],
+    "tags": ["All", "Datasheets"],
+    "description": "Robust NB-IoT gateway supporting industrial standards.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/g5-gateway.pdf"
+  },
+  {
+    "id": 14,
+    "name": "Wi-Fi Low Power Sensor WFS-20",
+    "technology": "Low Power Wi Fi",
+    "category": "Sensors",
+    "applications": ["Smart Building", "Smart City"],
+    "tags": ["All", "Newly Added", "Datasheets"],
+    "description": "Low power Wi-Fi sensor for building automation.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/wfs-20.pdf"
+  },
+  {
+    "id": 15,
+    "name": "BLE Converter BLC-01",
+    "technology": "Ble",
+    "category": "Converters",
+    "applications": ["Asset Tracking", "Smart Industries"],
+    "tags": ["All", "Datasheets"],
+    "description": "Bluetooth Low Energy converter for edge device integration.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/blc-01.pdf"
+  },
+  {
+    "id": 16,
+    "name": "UWB Tag T1",
+    "technology": "UWB",
+    "category": "Modules",
+    "applications": ["Asset Tracking"],
+    "tags": ["All", "Datasheets"],
+    "description": "Ultra-wideband module for high-precision indoor tracking.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/uwb-t1.pdf"
+  },
+  {
+    "id": 17,
+    "name": "LoRaWAN Controller LC-X",
+    "technology": "LoRaWAN®",
+    "category": "Controllers",
+    "applications": ["Smart Agriculture"],
+    "tags": ["All", "Datasheets"],
+    "description": "Agricultural controller with LoRaWAN support and automation.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/lc-x.pdf"
+  },
+  {
+    "id": 18,
+    "name": "NB-IoT Sensor NBS-300",
+    "technology": "Nb IoT",
+    "category": "Sensors",
+    "applications": ["Smart City", "Smart Building"],
+    "tags": ["All", "Datasheets", "Brochures"],
+    "description": "NB-IoT-enabled multi-environment sensor for smart spaces.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/nbs-300.pdf"
+  },
+  {
+    "id": 19,
+    "name": "4G Module M4",
+    "technology": "4G Cellular",
+    "category": "Modules",
+    "applications": ["Smart Industries", "Smart Agriculture"],
+    "tags": ["All", "Datasheets", "User Manuals"],
+    "description": "Compact 4G module suitable for remote deployments.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/m4.pdf"
+  },
+  {
+    "id": 20,
+    "name": "BLE Gateway BG-10",
+    "technology": "Ble",
+    "category": "Gateways",
+    "applications": ["Smart Building"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": "BLE gateway to manage short-range sensor networks.",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "link": "/docs/bg-10.pdf"
   }
 ]
-
