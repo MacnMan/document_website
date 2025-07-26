@@ -24,3 +24,18 @@ title: Mountings
 **Secure the Sensor (Optional)**
 - For additional security, use the extra screw holes on the opposite side to further fasten the sensor.
 
+## Pole Mounting
+![title image](./assets/pole_mounting.webp)
+
+**Detach the Mounting Clip**
+- Remove the mounting clip from the MacSync device.
+
+**Insert Zip Ties**
+- Thread metal or plastic zip ties through the highlighted mounting holes on the clip.
+
+**Position on Pole**
+- Place the MacSync (with clip and zip ties) against the pole at the desired height.
+
+**Secure the Device**
+- Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
+
