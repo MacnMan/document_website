@@ -8,5 +8,3 @@ MacSync features a sleek `152` X `43` X `63`  mm form factor for easy installa
 
 ![title image](./assets/dimensions.webp)
 
-
-[Go to Device Configuration](../device-configuration)
