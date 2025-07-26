@@ -21,6 +21,7 @@
   display: flex;
   width: 100%;
   gap: 2rem;
+  margin-bottom: 1rem;
 }
 
 .mainContent {
@@ -61,6 +62,7 @@ h2 {
 .sidebar {
   width: 220px;
   background-color: #f5f5f5;
+  padding-bottom: 1rem;
 }
 
 /* Main Content */
@@ -86,4 +88,21 @@ html[data-theme='dark'] .main {
 
 html[data-theme='dark'] .pageWrapper {
   background-color: #1e1e20;
+}
+
+.sidebar {
+  width: 280px;
+  transition: all 0.3s ease;
+  gap: 3rem;
+  margin-right: 20px;  
+}
+
+.stickySidebar {
+  position: sticky;
+  top: 60px; /* adjust to match your site's navbar height */
+  max-height: calc(100vh - 60px);
+  /* border-right: 1px rgba(142, 140, 140, 0.397) solid; */
+  border-right: 1px solid #e0e0e0;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
