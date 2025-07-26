@@ -72,7 +72,7 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'books',
-        path: 'books',
+        path: 'Books',
         routeBasePath: 'books',
         sidebarPath: require.resolve('./sidebarsBooks.ts'),
       },
@@ -81,7 +81,7 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'datasheets',
-        path: 'datasheets',
+        path: 'Datasheets',
         routeBasePath: 'datasheets',
         sidebarPath: require.resolve('./sidebarsDatasheets.ts'),
       },

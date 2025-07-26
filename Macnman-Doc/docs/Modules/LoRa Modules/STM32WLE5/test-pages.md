@@ -111,6 +111,7 @@ title: test pages
   <h2>LoRa SVG Demo</h2>
   <img src="/img/image-block-diagram.svg" alt="LoRa Block Diagram" className="svg-theme-aware" />
 </div>
+
 ## 🔧 Python Example: Reading Sensor Data
 
 ```python

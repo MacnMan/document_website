@@ -13,14 +13,14 @@ title: LNS Registration
 
 You can register your device using either **manual entry** or **QR scan**.
 
-### Option 1: QR Code Registration
+#### Option 1: QR Code Registration
 
 1. Click **“Scan End Device QR Code”** on your LNS.
 2. In the **Maya App**, open **Key & Identity** and display the QR code.
 3. Scan the QR code using your LNS.
 4. The device will be automatically registered with all credentials filled in.  
 
-### Option 2: Manual Registration
+#### Option 2: Manual Registration
 
 1. Open your LNS (e.g., [The Things Network](https://www.thethingsnetwork.org/)).
 2. Click **“Enter End Device Details Manually.”**
@@ -43,7 +43,7 @@ You can register your device using either **manual entry** or **QR scan**.
 
 Follow these steps to onboard your device into your ChirpStack application:
 
-### Step-by-Step Instructions
+#### Step-by-Step Instructions
 
 1. **Log in** to your ChirpStack dashboard.
 2. Click on **“Applications”** from the sidebar.
@@ -61,9 +61,11 @@ Follow these steps to onboard your device into your ChirpStack application:
 
 ## Testing Uplink on ChirpStack with MacSync
 
+![title image](./assets/chipstacktwo.webp)
+
 After registering your device on ChirpStack, you can test the uplink using the Maya app:
 
-### Steps:
+#### Steps:
 
 1. **Log in** to your **ChirpStack dashboard**.
 2. Click on **Applications** and select your application.
@@ -74,9 +76,37 @@ After registering your device on ChirpStack, you can test the uplink using the M
 7. Navigate to the **Ping / Send Uplink** section.
 8. Tap the **“Send Uplink”** or **Ping** button.
 
-### Result:
+#### Result:
 
 - The device will immediately send a **confirmed uplink** to the server.
 - You should see the uplink appear in real-time on ChirpStack under **Device Data** or **Live Frames**.
 
 > Tip: The uplink also includes signal quality metrics such as **RSSI**, **SNR**, and **Spreading Factor**, which can help with diagnostics.
+
+
+## Sending Downlink from ChirpStack to MacSync
+
+![title image](./assets/downlinks.webp)
+
+Once your MacSync device is registered and active, you can send downlink commands using ChirpStack’s Queue interface.
+
+#### Steps to Send Downlink
+
+1. **Log in** to your **ChirpStack dashboard**.
+2. Click on **Applications** from the left sidebar.
+3. Select your specific application.
+4. Choose the **registered device** you want to send the command to.
+5. Navigate to the **“Queue”** tab.
+6. In the Queue section:
+   - Enter the **downlink payload** (in hexadecimal).
+   - Set the **FPort** (usually defined by your device's firmware).
+   - Choose whether it is a **confirmed or unconfirmed** message.
+7. Click **Enqueue** to send the message.
+
+
+#### Notes
+
+- The downlink will be sent on the **next uplink** from the device (as per LoRaWAN Class A).
+- Ensure your MacSync device is configured to support the downlink functionality.
+
+> If using Class C, the downlink will be sent immediately since the receiver is always listening (for power-operated versions).
