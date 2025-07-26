@@ -1,0 +1,20 @@
+{
+  "name": "document_website",
+  "version": "1.0.0",
+  "description": "This repository contains the source code and configuration for the **documentation website** built using [Docusaurus 2](https://docusaurus.io/). The site is used to maintain and publish structured technical documentation for the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacnMan/document_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MacnMan/document_website/issues"
+  },
+  "homepage": "https://github.com/MacnMan/document_website#readme"
+}
