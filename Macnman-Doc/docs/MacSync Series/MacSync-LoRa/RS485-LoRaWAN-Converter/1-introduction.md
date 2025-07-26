@@ -7,7 +7,7 @@ title: Introduciton
 
 ## Introduction
 
-**MacSync** is an innovative IoT data logger developed by **Macnman Technologies** to simplify and enhance real-time monitoring and control across various environments. Built with industrial-grade hardware and intelligent software, MacSync offers a versatile and reliable solution for applications ranging from industrial automation to environmental monitoring.
+**MacSync RS485 Analog to LoRaWAN® Converter** is an innovative IoT data logger developed by **Macnman Technologies** to simplify and enhance real-time monitoring and control across various environments. Built with industrial-grade hardware and intelligent software, MacSync offers a versatile and reliable solution for applications ranging from industrial automation to environmental monitoring.
 
 Designed for seamless integration, MacSync supports connectivity with both **RS485 & Analog sensors**, making it adaptable to a wide variety of systems and use cases. Whether it’s tracking temperature and humidity, monitoring water levels, or controlling field devices, MacSync delivers accurate, real-time data with ease.
 
@@ -48,6 +48,61 @@ With its rugged design, flexible sensor support, and intelligent wireless config
   </div>
 </div>
 
+
+
+## MacSync Dataloggers LoRa Variants
+
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Battery Capacity</th>
+      <th>Solar Support</th>
+      <th>External Flash</th>
+      <th>RS485/Analog</th>
+      <th>Ideal For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MacSync Standard</td>
+      <td>12-24 V (Power)</td>
+      <td>✖️</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>Fixed installations with stable power</td>
+    </tr>
+    <tr>
+      <td>MacSync Cost Version</td>
+      <td>12-24 V (Power)</td>
+      <td>✖️</td>
+      <td>✖️</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>Cost-sensitive industrial use</td>
+    </tr>
+    <tr>
+      <td>MacSync Battery Operated</td>
+      <td>Battery</td>
+      <td>19 Ah</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>Remote/portable low-power nodes</td>
+    </tr>
+    <tr>
+      <td>MacSync Solar + Battery</td>
+      <td>Solar + Battery</td>
+      <td>Configurable</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>Outdoor and off-grid deployments</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Applications
 

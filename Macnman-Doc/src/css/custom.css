@@ -1116,25 +1116,3 @@ html[data-theme='dark'] .navbar__link--active::after {
 .theme-toggle-btn::first-letter {
   text-transform: uppercase;
 }
-
-
-/* ────────────── table of contents (ToC) ────────────────────────── */
-/* Container ToC styles (optional - ensures layout doesn't break) */
-
-.custom-alert {
-  background-color: #f0f0f0 !important;
-  color: #333;
-  display: flex;
-  align-items: center;         /* Vertical center */
-  text-align: left;
-  padding: 0.75rem 1rem;       /* Top/Bottom, Left/Right padding */
-  line-height: 1.4;            /* Good line spacing */
-  min-height: 60px;            /* Optional: define a clean minimum height */
-  border-radius: 6px;
-  margin: 0;                   /* Remove any extra margin */
-}
-
-.custom-alert strong {
-  margin: 0;
-  padding: 0;
-}

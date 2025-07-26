@@ -1,0 +1,9 @@
+{
+  "label": "Ultrasonic Sensor",
+  "position": 3
+  ,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for our STM32WLE5-based module, including setup, usage, and integration details."
+  }
+}
