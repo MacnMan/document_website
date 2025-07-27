@@ -3,7 +3,7 @@ id: macsync_payload_structure
 title: Configuration using Server
 ---
 
-# Payload Structure
+# Configure MacSync using Server
 
 ## Data Types
 
