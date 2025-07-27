@@ -1,6 +1,6 @@
 {
-  "label": "IoT Modules",
-  "position": 5
+  "label": "LoRaWAN® ToF Sensor(MacRay)",
+  "position": 4
   ,
   "link": {
     "type": "generated-index",

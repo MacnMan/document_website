@@ -2,7 +2,7 @@
 id: macsync_mounting
 title: Mountings
 ---
-# Installation Guide
+# MacSync Mounting Options
 
 ## Wall Mounting
 ![title image](./assets/wallone.webp)

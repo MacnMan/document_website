@@ -1,6 +1,6 @@
 ---
 id: maya_configuration
-title: Device Configurations
+title: Basic Settings
 ---
 
 ## Device Name

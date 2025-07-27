@@ -1,6 +1,6 @@
 ---
 id: macsync_payload_structure
-title: Remote Device Configuration
+title: Configuration using Server
 ---
 
 # Payload Structure

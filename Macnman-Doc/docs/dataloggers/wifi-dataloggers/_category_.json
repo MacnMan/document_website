@@ -1,8 +1,9 @@
 {
-  "label": "WiFi Dataloggers",
-  "position": 3,
+  "label": "WiFi Datalogger (MacSync)",
+  "position": 2
+  ,
   "link": {
     "type": "generated-index",
-    "description": "test"
+    "description": "MacSync Series features rugged, multi-power dataloggers with support for LoRaWAN®, 4G Cellular, and low-power Wi-Fi, offering flexible connectivity for RS485, analog, and digital sensors—ideal for industrial and remote deployments."
   }
 }

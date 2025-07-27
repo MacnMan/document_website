@@ -1,9 +1,0 @@
-{
-  "label": "MacSync LoRaWAN®",
-  "position": 2
-  ,
-  "link": {
-    "type": "generated-index",
-    "description": "MacSync Series offers versatile LoRaWAN® dataloggers with multiple power options and broad sensor compatibility, including RS485, analog, and digital inputs—ideal for both fixed and remote deployments."
-  }
-}

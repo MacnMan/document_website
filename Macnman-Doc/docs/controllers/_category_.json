@@ -1,0 +1,8 @@
+{
+  "label": "IoT Controllers",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "With support for LoRaWAN, 4G LTE, NB-IoT, Wi-Fi, and BLE, MacSync offers flexible connectivity, low-power operation, & rugged design — all tailored for real-time monitoring & control in demanding environments"
+  }
+}

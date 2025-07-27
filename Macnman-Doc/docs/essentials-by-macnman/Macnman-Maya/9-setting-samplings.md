@@ -1,17 +1,17 @@
 ---
-id: maya_sampling_configuration
-title: Data Gathering & Uploading
+id: maya_sampling_and_uploading
+title: Data Sampling & Uploading
 ---
 
-## Data Gathering & Upload Timings
+## Data Sampling & Upload Timings
 
 ![title image](./assets/sampling_data.svg)
 
-## Data Gathering Frequency
+## Data Sampling Frequency
 
 **Sampling** allows the device to collect multiple sensor readings at user-defined intervals **without immediately sending them to the server**.
 
-## How does Gathering & Upload works:
+## How does Sampling & Upload works:
 - **Set the sample count** (e.g., 12 samples).
 - **Define the time gap** between each sample (e.g., every 5 minutes).
 - The device will collect the specified number of samples locally.
