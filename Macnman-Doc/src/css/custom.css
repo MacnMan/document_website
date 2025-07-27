@@ -1116,3 +1116,14 @@ html[data-theme='dark'] .navbar__link--active::after {
 .theme-toggle-btn::first-letter {
   text-transform: uppercase;
 }
+
+.faint-line {
+  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Light mode: faint black line */
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Dark mode */
+html[data-theme='dark'] .faint-line {
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Dark mode: faint white line */
+}

@@ -1,9 +1,0 @@
-{
-  "label": "RS485 to LoRaWAN Converter",
-  "position": 1
-  ,
-  "link": {
-    "type": "generated-index",
-    "description": "Integrate field sensors with LoRaWAN using MacSync—supports RS485, analog, and digital inputs for versatile deployments."
-  }
-}
