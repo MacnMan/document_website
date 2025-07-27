@@ -37,6 +37,12 @@ Select the appropriate **LoRaWAN Class** based on your device’s power source a
   It keeps the receiver **always on**, allowing near-instant downlink communication from the server.  
 
 Choosing the correct class helps optimize battery life and network responsiveness based on your deployment.
+
+:::note
+
+Controller are available in the Class C mode only
+:::
+
   
 
 ## LoRaWAN Frequency

@@ -38,3 +38,5 @@ The Reminisce feature allows you to retrieve and export historical data stored l
   - Click **“Okay”** to begin the export. You’ll receive a notification once the data has been successfully downloaded to your device.
 
 Useful for offline analysis, compliance, or record-keeping in field deployments.
+
+>Note: External flash memory is optional. Please verify whether your selected variant includes flash memory before placing your order

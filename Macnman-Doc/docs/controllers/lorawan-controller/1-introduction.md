@@ -13,9 +13,10 @@ Ideal for smart agriculture, industrial automation, water management, smart buil
 
 With support for **RS485, analog control (0–10V / 4–20mA)**, and **relay output**, MacSet ensures seamless integration with existing PLCs, sensors, and actuators.
 
-
 ## Product Architecture
+<br/>
 
+![title image](./assets/lorawan_controller_archi_.svg)
 
 ## Core Features
 
@@ -63,26 +64,34 @@ network disruptions.</p>
     
 </div>
 
-
 ## Applications
 
-- **Industrial Automation**  
-  Remotely control and automate machinery, pumps, motors, and production line equipment to optimize 
-  efficiency, reduce manual intervention, and enhance operational safety.
+- **Industrial Motor & Fan Control**  
+  Automate high-power motors, ventilation systems, conveyor belts, and cooling fans in factories and warehouses. Enables time-based or sensor-triggered activation to reduce manual oversight and optimize energy usage.
 
-- **Smart Agriculture**  
-  Automate irrigation systems, ventilation, and soil conditioning by integrating with sensors and actuators, 
-  ensuring precise water and nutrient management for improved crop yields.
+- **Remote Generator & Asset Monitoring**  
+  Monitor and control diesel generators, battery banks, and critical electrical panels in industrial plants and telecom towers using RS485/analog sensors and relay outputs.
 
-- **Water Management**  
-  Control and monitor water pumps, valves, and tank levels to optimize water distribution in agriculture, municipal 
-  systems, and industrial applications.
+- **Water Level & Pump Control**  
+  Monitor underground tanks, borewells, and reservoirs, and trigger pump operations based on thresholds. Widely deployed in industrial estates and rural infrastructure.
 
+- **Smart Manufacturing Automation**  
+  Integrate with existing PLCs and machinery to trigger alarms, adjust settings, or control process flows based on LoRaWAN-based input signals.
 
-- **Smart Buildings**
-  Enhance building automation by controlling HVAC systems, fans, lighting, and air purification units, improving 
-  energy efficiency and occupant comfort.
+- **Industrial Safety Systems**  
+  Deploy gas detectors, smoke sensors, or vibration sensors integrated via RS485 for alerting and automatic shutdowns in hazardous environments.
 
+- **Irrigation & Agricultural Automation**  
+  Automate pumps, solenoid valves, and dosing systems in farms, polyhouses, and horticulture fields with real-time scheduling and remote access.
+
+- **Greenhouse & Environmental Control**  
+  Regulate temperature, humidity, and light exposure using fans, shade nets, and misting systems for controlled farming environments.
+
+- **Lighting Automation**  
+  Schedule and remotely control streetlights, industrial bay lights, or perimeter lighting to reduce electricity costs and improve visibility.
+
+- **Smart Drainage and Manhole Monitoring**  
+  Control sump pumps and detect gas leaks or flooding in sewage systems. Preventive alerts help reduce urban hazards and service downtime.
 
 ## Ideal For
 
@@ -97,8 +106,6 @@ health and sustainability.
 - **Municipal & Utility Managers**  
 Authorities managing water distribution, street lighting, or waste management systems to improve service 
 efficiency and reliability.
-
-
 
 ## Why do you need this user manual ?
 
@@ -118,11 +125,9 @@ Following are the several reasons you need this manual.
 
 - **Resource for Training** 
 
+## Key Parameter Definitions
 
-
-## Key parameters Definitions
-
-Following are the several reasons you need this manual.
+Below are key technical terms and identifiers relevant for configuring and operating your MacSync LoRaWAN® device:
 
 <table className="parameter-table">
   <thead>
@@ -133,32 +138,52 @@ Following are the several reasons you need this manual.
   </thead>
   <tbody>
     <tr>
-      <td>LoRaWAN Mac version</td>
-      <td>LoRaWAN MAC versions, evolving from 1.0 to 1.1, 1.0.3, and the latest 1.1.1, define the communication protocols and enhancements in network efficiency, security, and device compatibility for LoRaWAN networks.</td>
+      <td>DevEUI</td>
+      <td>Device EUI – a globally unique 64-bit identifier for the LoRaWAN end device, typically assigned by the manufacturer.</td>
     </tr>
     <tr>
-      <td>Device EUI</td>
-      <td>Unique identification of the device, one of the join network parameters (OTAA mode)</td>
+      <td>AppEUI / JoinEUI</td>
+      <td>Application/Join EUI used during the OTAA join process to identify the target application or network.</td>
     </tr>
     <tr>
-      <td>App EUI</td>
-      <td>Unique identification of the application, one of the join network parameters</td>
+      <td>AppKey</td>
+      <td>Application Key used for end-to-end encryption during the join procedure in OTAA (Over-The-Air Activation).</td>
     </tr>
-     <tr>
-      <td>App Key</td>
-      <td>Application key, one of the join network parameters</td>
+    <tr>
+      <td>DevAddr</td>
+      <td>Device Address assigned by the network server during OTAA or manually configured in ABP mode.</td>
     </tr>
-     <tr>
-      <td>Device code</td>
-      <td>On the device label, for device binding and API call</td>
+    <tr>
+      <td>NwkSKey</td>
+      <td>Network Session Key used to secure communication between the device and the network server in ABP mode.</td>
     </tr>
-      <tr>
-      <td>LoRaWAN range</td>
-      <td>02 Km Urban , 08 Km LoS </td>
+    <tr>
+      <td>AppSKey</td>
+      <td>Application Session Key used to secure the payload data in ABP mode.</td>
     </tr>
-      <tr>
-      <td>Cloud platforms</td>
-      <td> Private Clouds , On Prim , Chirpstack , TTN , Helium , Loriot , Orbiwise </td>
+    <tr>
+      <td>Join Mode</td>
+      <td>Specifies the activation method: OTAA (Over-The-Air Activation) or ABP (Activation By Personalization).</td>
+    </tr>
+    <tr>
+      <td>LoRaWAN Class</td>
+      <td>Specifies device class: Class A (default, low power), Class B (scheduled), or Class C (always listening).</td>
+    </tr>
+    <tr>
+      <td>Spreading Factor (SF)</td>
+      <td>Defines the data rate and range trade-off. Higher SF means longer range but lower data rate.</td>
+    </tr>
+    <tr>
+      <td>RSSI</td>
+      <td>Received Signal Strength Indicator – helps assess the LoRa signal quality received by the gateway.</td>
+    </tr>
+    <tr>
+      <td>SNR</td>
+      <td>Signal-to-Noise Ratio – helps evaluate the signal clarity and link reliability.</td>
+    </tr>
+    <tr>
+      <td>Network Server</td>
+      <td>The platform managing device connections, routing messages, and handling security (e.g., ChirpStack, TTS, Helium, etc.).</td>
     </tr>
   </tbody>
 </table>

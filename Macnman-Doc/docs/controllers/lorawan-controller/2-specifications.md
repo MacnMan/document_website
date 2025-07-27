@@ -1,5 +1,5 @@
 ---
-id: specifications
+id: macset_lorawan_specifications
 title: Specifications
 ---
 
