@@ -1,5 +1,5 @@
 ---
-title: Set Tiggers
+title: Setting Tiggers for Uplink
 ---
 
 import { useEffect } from 'react';
