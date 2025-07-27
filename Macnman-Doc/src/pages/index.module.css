@@ -3,12 +3,35 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+
+
+/* index.module.css */
+
+.pageWrapper {
+  display: flex;
+  overflow: visible;
 }
+
+.productSection {
+  flex: 1;
+  padding: 1rem;
+}
+
+.pageWrapper {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+.heroWrapper {
+  background-color: #fff;
+}
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {
@@ -16,88 +39,70 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.filterNav {
-  display: flex;
-  gap: 1rem;
-  margin: 2rem 0;
-}
-
-.filterNav button {
-  padding: 0.5rem 1rem;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-.filterNav .active {
-  border-bottom: 2px solid var(--ifm-color-primary);
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-}
-
-.card {
-  display: block;
-  text-align: center;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  padding: 1rem;
-  background: #fff;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-}
-
-.card img {
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  padding: 2rem;
-}
-
 h2 {
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
 }
 
-h3 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
+.content {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 1.5rem;
+/* Dark Mode */
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fff;
+  color: #000;
 }
 
-.card {
-  text-align: center;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  padding: 1rem;
-  background: #fff;
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #f5f5f5;
+  padding-bottom: 1rem;
 }
 
-.card img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 0.5rem;
+/* Main Content */
+.main {
+  flex: 1;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+/* Dark mode support */
+html[data-theme='dark'] .container {
+  background-color: #1e1e20;
+  color: #fff;
+}
+
+html[data-theme='dark'] .sidebar {
+  background-color: #1e1e20;
+}
+
+html[data-theme='dark'] .main {
+  background-color: #1e1e20;
+}
+
+html[data-theme='dark'] .pageWrapper {
+  background-color: #1e1e20;
+}
+
+.sidebar {
+  width: 280px;
+  transition: all 0.3s ease;
+  gap: 3rem;
+  margin-right: 20px;  
+}
+
+.stickySidebar {
+  position: sticky;
+  top: 60px; /* adjust to match your site's navbar height */
+  max-height: calc(100vh - 60px);
+  /* border-right: 1px rgba(142, 140, 140, 0.397) solid; */
+  border-right: 1px solid #e0e0e0;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }

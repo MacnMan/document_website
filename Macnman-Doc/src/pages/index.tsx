@@ -1,100 +1,56 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
-import FilterBar from '../components/HomepageFeatures/FilterBar';
-
-import React, { useEffect, useState } from 'react';
-import Layout from '@theme/Layout';
-import products from '../data/products.json';
+import React, { useState, useEffect, useRef } from 'react';
 import styles from './index.module.css';
+import Layout from '@theme/Layout';
 
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-// export default function Home(): ReactNode {
-//   const {siteConfig} = useDocusaurusContext();
-//   return (
-//     <Layout
-//       title={`Hello from ${siteConfig.title}`}
-//       description="Description will go into a meta tag in <head />">
-//       <HomepageHeader />
-//       <main>
-//         <HomepageFeatures />
-//       </main>
-//     </Layout>
-//   );
-// }
-
+import FilterBar from '../components/HomepageFeatures/FilterBar';
+import FilterCategory from '../components/HomepageFeatures/FilterCategories';
+import { FilterContext } from '../components/HomepageFeatures/FilterContext';
+import HeroSection from '../components/HomepageFeatures/HeroSection';
 
 export default function Home() {
-  const [filter, setFilter] = useState(() => localStorage.getItem('filter') || 'All');
+  const [filters, setFilters] = useState({
+    Filter: 'All',
+    Technology: 'All',
+    Catagory: 'All',
+  });
 
-  // Update local filter state when event is dispatched from FilterBar
+  const heroRef = useRef(null);
+  const [isSticky, setIsSticky] = useState(false);
+
   useEffect(() => {
-    const handler = () => {
-      const newFilter = localStorage.getItem('filter') || 'All';
-      setFilter(newFilter);
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsSticky(!entry.isIntersecting);
+      },
+      { threshold: 0 }
+    );
+
+    if (heroRef.current) {
+      observer.observe(heroRef.current);
+    }
+
+    return () => {
+      if (heroRef.current) {
+        observer.unobserve(heroRef.current);
+      }
     };
-    window.addEventListener('filterChanged', handler);
-    return () => window.removeEventListener('filterChanged', handler);
   }, []);
-
-  // Group products by category
-  const grouped = {
-    'Newly Added': products.filter((p) => p.category === 'Newly Added'),
-    Nodes: products.filter((p) => p.category === 'Nodes'),
-    Controllers: products.filter((p) => p.category === 'Controllers'),
-    Gateways: products.filter((p) => p.category === 'Gateways'),
-  };
-
-  // Apply filter to each group
-  const filteredProducts = (group) =>
-    group.filter((p) => filter === 'All' || p.tags.includes(filter));
 
   return (
     <Layout title="Documentation">
-      <FilterBar />
-      <div className={styles.container}>
-        <h2 className={styles.title}>Check Documentation for</h2>
-        {Object.entries(grouped).map(([section, items]) => {
-          const filtered = filteredProducts(items);
-          if (filtered.length === 0) return null; // skip if no items to show
-          return (
-            <div key={section} className={styles.section}>
-              <h3 className={styles.sectionTitle}>{section}</h3>
-              <div className={styles.grid}>
-                {filtered.map((p) => (
-                  <Link key={p.id} to={p.link} className={styles.card}>
-                    <img src={p.image} alt={p.name} className={styles.image} />
-                    <p className={styles.name}>{p.name}</p>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          );
-        })}
+      <div ref={heroRef} className={styles.heroWrapper}>
+        <HeroSection />
       </div>
+      <FilterContext.Provider value={{ filters, setFilters }}>
+        <div className={styles.pageWrapper}>
+          <div className={`${styles.sidebar} ${isSticky ? styles.stickySidebar : ''}`}>
+            <FilterBar />
+          </div>
+          <div className={styles.content}>
+            <FilterCategory />
+          </div>
+        </div>
+      </FilterContext.Provider>
     </Layout>
   );
 }

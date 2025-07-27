@@ -2,84 +2,129 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: 'Macnman',
   tagline: 'Macnman',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: '269505BC631812DA',
+        content: 'DE91A5A5EEDAF2DE',
+      },
+    },
+  ],
+
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  url: 'https://macnman.com',
+  baseUrl: '/docs/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'facebook',
+  projectName: 'docusaurus',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  stylesheets: [
+    {
+      href: '/css/custom.css',
+      type: 'text/css',
+    },
+  ],
 
   presets: [
     [
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          routeBasePath: '/', // serve docs from root
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          path: 'docs',
+          sidebarPath: require.resolve('./sidebars.ts'),
+          routeBasePath: '/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       } satisfies Preset.Options,
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'product',
+        path: 'product',
+        routeBasePath: 'product',
+        sidebarPath: require.resolve('./sidebarsProduct.ts'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'books',
+        path: 'Books',
+        routeBasePath: 'books',
+        sidebarPath: require.resolve('./sidebarsBooks.ts'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'datasheets',
+        path: 'Datasheets',
+        routeBasePath: 'datasheets',
+        sidebarPath: require.resolve('./sidebarsDatasheets.ts'),
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'help',
+        path: 'docs-help',
+        routeBasePath: 'help',
+        sidebarPath: require.resolve('./sidebarsHelp.ts'),
+      },
+    ],
+    function customWebpackLoggingPlugin() {
+      return {
+        name: 'custom-webpack-logging',
+        configureWebpack() {
+          return {
+            infrastructureLogging: {
+              level: 'warn',
+            },
+            cache: true,
+          };
+        },
+      };
+    },
+  ],
+
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/logo_small_red.webp',
+
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true, // Disable default toggle
+      respectPrefersColorScheme: true,
+    },
+
     navbar: {
-      title: 'Macnman',
+      title: 'MACNMAN',
       logo: {
         alt: 'Macnman',
         src: 'img/logo_small_red.webp',
-        // href: 'category/introduction',
-        href: '/',
+        href: '/docs/',
       },
       items: [
         {
@@ -88,26 +133,68 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          type: 'docSidebar',
+          sidebarId: 'productSidebar',
+          docsPluginId: 'product',
+          position: 'left',
+          label: 'Product',
+        },
+        {
+          to: '/books',
+          type: 'docSidebar',
+          sidebarId: 'booksSidebar',
+          docsPluginId: 'books',
+          label: 'Books',
+          position: 'left',
+        },
+        {
+          to: '/datasheets',
+          type: 'docSidebar',
+          sidebarId: 'datasheetsSidebar',
+          docsPluginId: 'datasheets',
+          label: 'Tech Reports',
+          position: 'left',
+        },
+        {
+          to: '/help',
+          label: 'Help',
+          position: 'right',
+          type: 'doc',
+          docId: 'help',
+          docsPluginId: 'help',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'custom-color-toggle',
+          position: 'right',
+        },
       ],
     },
+
+    scripts: [
+      {
+        src: '/js/secondary-navbar.ts',
+        async: true,
+      },
+    ],
+
+    algolia: {
+      appId: 'ZCKJUWN56U',
+      apiKey: '28e5f208b6c069fc2b815ba36dc9689c',
+      indexName: 'Macnman',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+    },
+
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [
@@ -128,19 +215,13 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Macnman. Built with Docusaurus.`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

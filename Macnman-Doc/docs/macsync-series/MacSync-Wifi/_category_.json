@@ -1,0 +1,9 @@
+{
+  "label": "MacSync Wifi",
+  "position": 2
+  ,
+  "link": {
+    "type": "generated-index",
+    "description": "MacSync Wi-Fi is a compact, low-power data logger that connects over Wi-Fi and is easy to set up with Bluetooth—perfect for reading RS485, analog, or digital sensors in smart industrial setups."
+  }
+}
