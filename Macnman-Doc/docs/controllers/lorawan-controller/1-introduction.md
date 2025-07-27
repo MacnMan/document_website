@@ -1,5 +1,5 @@
 ---
-id: macset_introduction
+id: macset_lorawan_introduction
 title: Introduciton
 ---
 
@@ -7,17 +7,14 @@ title: Introduciton
 
 ## Introduction
 
-**MacSync controller** The LoRaWAN Controller by Macnman is a powerful and versatile IoT device designed for seamless remote control of 
-industrial and environmental systems. Built with advanced connectivity and rugged hardware, it enables efficient 
-automation of motors, pumps, fans, and valves across various industries, from smart agriculture to smart cities.
-The controller supports RS485 and analog (0-10V / 4-20mA) outputs, allowing direct integration with a wide range of 
-existing equipment. Configurations can be easily managed through the Macnman Maya app, providing a user-friendly 
-interface for remote operation, scheduling, and automation. With LoRaWAN connectivity, the controller ensures reliable 
-long-range communication, making it ideal for remote and off-grid applications.
+**MacSet LoRaWAN® Controller** by Macnman Technologies is a rugged, industrial-grade **IoT control** module engineered for remote **automation and control in** both connected and **disconnected environments**. Designed to work over LoRaWAN® networks, it offers ultra-low power operation, long-range communication, and reliable performance even in harsh and remote locations.
+
+Ideal for smart agriculture, industrial automation, water management, smart buildings, and smart cities, MacSet allows users to monitor and **control motors, pumps, valves, fans,** and other field equipment—completely wirelessly.
+
+With support for **RS485, analog control (0–10V / 4–20mA)**, and **relay output**, MacSet ensures seamless integration with existing PLCs, sensors, and actuators.
 
 
 ## Product Architecture
-<br/><br/>
 
 
 ## Core Features
