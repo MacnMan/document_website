@@ -1,19 +1,9 @@
 ---
-title: Product Dimensions
+id: macsync_dimensions
+title: MacSync Dimensions
 ---
+## Product Dimensions
 
-import { useEffect } from 'react';
+MacSync features a sleek `152` X `43` X `63`  mm form factor for easy installation in space-constrained environments.
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/docs/dataloggers/common-dataloggers-docs/macsync_dimensions';
-    }
-  }, []);
-
-  return (
-    <div>
-      <p>Redirecting... If you are not redirected, <a href="/docs/dataloggers/common-dataloggers-docs/macsync_dimensions">click here</a>.</p>
-    </div>
-  );
-}
+![macsync dimensions](/img/datalogger/dimensions.webp)

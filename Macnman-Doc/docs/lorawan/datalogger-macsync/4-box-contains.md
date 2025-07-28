@@ -1,20 +1,19 @@
 ---
-title: What's in the box ?
+id: box-contains
+title: Box Contains
 ---
 
+# Part List 
 
-import { useEffect } from 'react';
+## What's in the box ?
+Make sure box contains following items before installations
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/docs/dataloggers/common-dataloggers-docs/box-contains';
-    }
-  }, []);
+![title image](/img/datalogger/whatsbox.svg)
 
-  return (
-    <div>
-      <p>Redirecting... If you are not redirected, <a href="/docs/dataloggers/common-dataloggers-docs/box-containss">click here</a>.</p>
-    </div>
-  );
-}
+:::note
+
+Accessories must be purchased separately and may 
+not be included in the box.
+
+:::
+
