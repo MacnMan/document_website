@@ -1,0 +1,9 @@
+{
+  "label": "LoRaWAN IoT Modules",
+  "position": 1
+  ,
+  "link": {
+    "type": "generated-index",
+    "description": "From basics to deployment — full documentation for Macnman’s LoRa communication modules."
+  }
+}
