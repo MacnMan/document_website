@@ -1,20 +1,29 @@
 ---
-title: Factory Reset
+id: maya-resetting-devices
+title: Reset Device
 ---
 
+## Reboot
 
-import { useEffect } from 'react';
+![reboot](/img/mayascreens/reboot.svg)
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/docs/essentials-by-macnman/Macnman-Maya/maya-resetting-devices';
-    }
-  }, []);
+**Device Reboot**  
+Performs a **soft restart** of the device.  
+This is useful for applying configuration changes or recovering from temporary issues without erasing any stored data or settings.
 
-  return (
-    <div>
-      <p>Redirecting... If you are not redirected, <a href="/docs/essentials-by-macnman/Macnman-Maya/maya-resetting-devices">click here</a>.</p>
-    </div>
-  );
-}
+
+
+## Factory Reset
+
+![fsrest](/img/mayascreens/fsrest.svg)
+
+**Factory Reset**  
+Restores the device to its **original factory settings**.  
+All configurations, stored data, and paired connections will be erased.  
+Use this option with caution, especially in live deployments.
+
+:::note
+
+After a factory reset, the device must be reconfigured before it can resume operation.
+
+:::

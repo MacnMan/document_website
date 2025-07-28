@@ -1,31 +1,19 @@
 ---
-title: What's in the Box?
+id: controller_box-contains
+title: Box Contains
 ---
 
-import { useEffect } from 'react';
+# Part List 
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      // Open in a new tab using absolute URL
-      const targetURL = `${window.location.origin}/docs/controllers/common-controller-docs/controller_box-contains`;
-      window.open(targetURL, '_blank');
-    }
-  }, []);
-  
-  return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <p>
-        Redirecting... If you are not redirected,
-        <a
-          href="/docs/controllers/common-controller-docs/controller_box-contains"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ marginLeft: '5px', color: '#0070f3', textDecoration: 'underline' }}
-        >
-          click here
-        </a>.
-      </p>
-    </div>
-  );
-}
+## What's in the box ?
+Make sure box contains following items before installations
+
+![macset terminal](/img/controller/controller_partlist.svg)
+
+:::note
+
+Accessories must be purchased separately and may 
+not be included in the box.
+
+:::
+

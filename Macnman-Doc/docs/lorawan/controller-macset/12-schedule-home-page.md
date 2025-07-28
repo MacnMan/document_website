@@ -1,31 +1,32 @@
 ---
-title: Schedule Settings Overview
+id: macset_lora_Schedule_home_page
+title: Schedule Home Overview
 ---
 
-import { useEffect } from 'react';
+# Relay Scheduling in MacSet
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      // Open in a new tab using absolute URL
-      const targetURL = `${window.location.origin}/docs/controllers/common-controller-docs/macset_lora_Schedule_home_page`;
-      window.open(targetURL, '_blank');
-    }
-  }, []);
-  
-  return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <p>
-        Redirecting... If you are not redirected,
-        <a
-          href="/docs/controllers/common-controller-docs/macset_lora_Schedule_home_page"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ marginLeft: '5px', color: '#0070f3', textDecoration: 'underline' }}
-        >
-          click here
-        </a>.
-      </p>
-    </div>
-  );
-}
+## Schedule Home Overview
+
+The **Schedule Home** page offers a user-friendly interface to automate your controller’s relay operations. Here's what you can do:
+
+![single phase applicaiton](/img/controller/schedule_home_page.svg)
+
+## Schedule Types
+Choose from 3 powerful scheduling modes:
+- **Regular** — Fixed ON/OFF time-based operation
+- **Cyclic** — Repeated ON/OFF cycles within a time window
+- **Trigger** — Relay activation based on live sensor conditions (e.g., temperature, level, etc.)
+
+## Day & Time Selection
+- Configure **which days** of the week each schedule should be active
+- Define **start and stop times** for each schedule
+
+## Independent Relay Control
+- Toggle **Relay 1** and **Relay 2** independently
+- Each relay can have its own schedule and behavior
+
+## Multiple Schedule Support
+- Add and manage up to **9 unique alarms per controller**
+- Each alarm can have a separate label, type, time, and action
+
+These features allow for flexible automation of pumps, fans, lights, irrigation systems, and more — saving energy, effort, and manual intervention.

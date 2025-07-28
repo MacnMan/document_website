@@ -1,19 +1,33 @@
 ---
-title: Mounting Options
+id: macset_mountings_controller
+title: MacSet Mounting 
 ---
+# MacSet Mounting Options
 
-import { useEffect } from 'react';
+## Wall Mounting Procedure for MacSet
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/docs/controllers/common-controller-docs/macset_mountings_controller';
-    }
-  }, []);
+![three phase application](/img/controller/macset_mounting_controller.svg)
 
-  return (
-    <div>
-      <p>Redirecting... If you are not redirected, <a href="/docs/controllers/common-controller-docs/macset_mountings_controller">click here</a>.</p>
-    </div>
-  );
-}
+Follow these steps to securely mount the MacSet device using a standard wall mount:
+
+#### 1. Choose a Location
+- Select a clean, flat wall surface at the required height.
+- Ensure the location is free from moisture, direct sunlight, or heat sources.
+
+#### 2. Mark Mounting Holes
+- Use the MacSet’s back plate or the mounting template to mark screw hole positions on the wall.
+
+#### 3. Drill Holes
+- Drill holes at the marked positions (typically 6mm diameter).
+- Use wall plugs if mounting on concrete or brick.
+
+#### 4. Fix the Mount
+- Align the wall mount or device bracket with the drilled holes.
+- Secure it using screws (2–4 depending on the design).
+
+#### 5. Attach the MacSet
+- Slide or snap the MacSet device onto the mounted bracket until it locks securely.
+
+#### 6. Power and Test
+- Connect the power supply or insert batteries as required.
+- Verify the device is working by checking LED indicators or display activity.

@@ -1,31 +1,20 @@
 ---
-title: Testing Realys Locally
+id: macset_lora_relay_testing_local
+title: Relay Testing
 ---
 
-import { useEffect } from 'react';
+You can manually test the relays locally using on-screen toggle buttons before final deployment.
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      // Open in a new tab using absolute URL
-      const targetURL = `${window.location.origin}/docs/controllers/common-controller-docs/macset_lora_relay_testing_local`;
-      window.open(targetURL, '_blank');
-    }
-  }, []);
-  
-  return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <p>
-        Redirecting... If you are not redirected,
-        <a
-          href="/docs/controllers/common-controller-docs/macset_lora_relay_testing_local"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ marginLeft: '5px', color: '#0070f3', textDecoration: 'underline' }}
-        >
-          click here
-        </a>.
-      </p>
-    </div>
-  );
-}
+![three phase application](/img/controller/test_realys.svg)
+
+- Each relay has a dedicated **toggle switch** in the Maya app or web interface.
+- Toggling allows you to **turn the relay ON or OFF instantly** for quick validation.
+- Useful for checking **wiring, device response**, and **basic functionality** without needing to set up a full schedule.
+
+
+
+:::warning
+
+**Manual toggling will override any ongoing schedule or automation during testing**. Make sure to re-enable the desired automation afterward if needed.
+
+:::
