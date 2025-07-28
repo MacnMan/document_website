@@ -1,0 +1,8 @@
+{
+  "label": "RS485/Aalog Datalogger(MacSync)",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "test"
+  }
+}
