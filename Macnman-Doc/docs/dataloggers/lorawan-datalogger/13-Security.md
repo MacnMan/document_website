@@ -2,18 +2,9 @@
 title: Security & Device Sharing
 ---
 
-import { useEffect } from 'react';
+import Reset from '@site/docs/essentials-by-macnman/Macnman-Maya/10-security-device-sharing.mdx';
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/docs/essentials-by-macnman/Macnman-Maya/maya-security-device-sharing';
-    }
-  }, []);
 
-  return (
-    <div>
-      <p>Redirecting... If you are not redirected, <a href="/docs/essentials-by-macnman/Macnman-Maya/maya-security-device-sharing">click here</a>.</p>
-    </div>
-  );
-}
+<Reset />
+
+
