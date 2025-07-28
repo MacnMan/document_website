@@ -5,7 +5,7 @@ title: Regular Relay Schedulings
 
 # Relay Scheduling in MacSet
 
-## Regular Scheduling
+## What is Regular Scheduling?
 
 The **Regular Schedule** allows users to schedule specific relays to turn ON and OFF at defined times, on selected days. This is ideal for automating lights, pumps, ventilation, and other time-based operations.
 

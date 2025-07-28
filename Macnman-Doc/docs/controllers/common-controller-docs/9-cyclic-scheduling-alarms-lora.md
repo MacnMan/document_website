@@ -3,7 +3,7 @@ id: macset_lora_Schedule_cyclic
 title: Cyclic Relay Schedulings
 ---
 
-## Cyclic Scheduling
+## What is Cyclic Scheduling?
 
 ![title image](./assets/cyclic_scheduling_lora_controller.svg)
 

@@ -1,5 +1,5 @@
 ---
-title: What's in the Box?
+title: Trigger Relay Schedule
 ---
 
 import { useEffect } from 'react';
@@ -8,7 +8,7 @@ export default function RedirectPage() {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       // Open in a new tab using absolute URL
-      const targetURL = `${window.location.origin}/docs/controllers/common-controller-docs/controller_box-contains`;
+      const targetURL = `${window.location.origin}/docs/controllers/common-controller-docs/macset_lora_Schedule_trigger`;
       window.open(targetURL, '_blank');
     }
   }, []);
@@ -18,7 +18,7 @@ export default function RedirectPage() {
       <p>
         Redirecting... If you are not redirected,
         <a
-          href="/docs/controllers/common-controller-docs/controller_box-contains"
+          href="/docs/controllers/common-controller-docs/macset_lora_Schedule_trigger"
           target="_blank"
           rel="noopener noreferrer"
           style={{ marginLeft: '5px', color: '#0070f3', textDecoration: 'underline' }}

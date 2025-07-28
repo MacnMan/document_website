@@ -3,7 +3,7 @@ id: macset_lora_Schedule_trigger
 title: Trigger Relay Schedulings
 ---
 
-## Trigger Scheduling
+## What is Trigger Scheduling?
 
 ![title image](./assets/tigger_Schedule_diagram.svg)
 
