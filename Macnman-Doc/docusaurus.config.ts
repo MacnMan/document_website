@@ -119,114 +119,116 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
 
-    navbar: {
-      title: 'MACNMAN',
-      logo: {
-        alt: 'Macnman',
-        src: 'img/logo_small_red.webp',
-        href: '/docs/',
+      navbar: {
+        title: 'MACNMAN',
+        logo: {
+          alt: 'Macnman',
+          src: 'img/logo_small_red.webp',
+          href: '/docs/',
+        },
+
+
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Docs',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'productSidebar',
+            docsPluginId: 'product',
+            position: 'left',
+            label: 'Product',
+          },
+          {
+            to: '/books',
+            type: 'docSidebar',
+            sidebarId: 'booksSidebar',
+            docsPluginId: 'books',
+            label: 'Books',
+            position: 'left',
+          },
+          {
+            to: '/datasheets',
+            type: 'docSidebar',
+            sidebarId: 'datasheetsSidebar',
+            docsPluginId: 'datasheets',
+            label: 'Tech Reports',
+            position: 'left',
+          },
+          {
+            to: '/help',
+            label: 'Help',
+            position: 'right',
+            type: 'doc',
+            docId: 'help',
+            docsPluginId: 'help',
+          },
+          {
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'custom-color-toggle',
+            position: 'right',
+          },
+        ],
       },
-      items: [
+
+      scripts: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'productSidebar',
-          docsPluginId: 'product',
-          position: 'left',
-          label: 'Product',
-        },
-        {
-          to: '/books',
-          type: 'docSidebar',
-          sidebarId: 'booksSidebar',
-          docsPluginId: 'books',
-          label: 'Books',
-          position: 'left',
-        },
-        {
-          to: '/datasheets',
-          type: 'docSidebar',
-          sidebarId: 'datasheetsSidebar',
-          docsPluginId: 'datasheets',
-          label: 'Tech Reports',
-          position: 'left',
-        },
-        {
-          to: '/help',
-          label: 'Help',
-          position: 'right',
-          type: 'doc',
-          docId: 'help',
-          docsPluginId: 'help',
-        },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
-          type: 'custom-color-toggle',
-          position: 'right',
+          src: '/js/secondary-navbar.ts',
+          async: true,
         },
       ],
-    },
 
-    scripts: [
-      {
-        src: '/js/secondary-navbar.ts',
-        async: true,
+      algolia: {
+        appId: 'ZCKJUWN56U',
+        apiKey: '28e5f208b6c069fc2b815ba36dc9689c',
+        indexName: 'Macnman',
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
       },
-    ],
 
-    algolia: {
-      appId: 'ZCKJUWN56U',
-      apiKey: '28e5f208b6c069fc2b815ba36dc9689c',
-      indexName: 'Macnman',
-      contextualSearch: true,
-      searchParameters: {},
-      searchPagePath: 'search',
-    },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'X',
+                href: 'https://x.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} Macnman. Built with Docusaurus.`,
+      },
 
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Macnman. Built with Docusaurus.`,
-    },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    } satisfies Preset.ThemeConfig,
+  };
 
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
-  } satisfies Preset.ThemeConfig,
-};
-
-export default config;
+  export default config;
