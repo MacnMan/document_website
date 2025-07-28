@@ -1,19 +1,22 @@
 ---
-title: Data Gathering & Uploading
+id: maya_sampling_and_uploading
+title: Data Sampling & Uploading
 ---
 
-import { useEffect } from 'react';
+## Data Sampling & Upload Timings
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/docs/essentials-by-macnman/Macnman-Maya/maya_sampling_and_uploading';
-    }
-  }, []);
+![trigger uplinks](/img/mayascreens/sampling_data.svg)
 
-  return (
-    <div>
-      <p>Redirecting... If you are not redirected, <a href="/docs/essentials-by-macnman/Macnman-Maya/maya_sampling_and_uploading">click here</a>.</p>
-    </div>
-  );
-}
+## Data Sampling Frequency
+
+**Sampling** allows the device to collect multiple sensor readings at user-defined intervals **without immediately sending them to the server**.
+
+## How does Sampling & Upload works:
+- **Set the sample count** (e.g., 12 samples).
+- **Define the time gap** between each sample (e.g., every 5 minutes).
+- The device will collect the specified number of samples locally.
+- Once all samples are collected, the device will **send a single uplink** containing the aggregated data.
+
+> This helps reduce network usage and power consumption while preserving detailed sensor trends.
+
+

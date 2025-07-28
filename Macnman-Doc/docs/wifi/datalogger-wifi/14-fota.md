@@ -5,7 +5,7 @@ title: Firmware Updates
 
 # Firmware Updates
 
-![title image](./assets/firmware_update.svg)  
+![fota](/img/mayascreens/firmware_update.svg)
 
 ## Update Releases
 

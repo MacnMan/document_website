@@ -1,19 +1,42 @@
 ---
+id: maya_configuration
 title: Basic Settings
 ---
 
-import { useEffect } from 'react';
+## Device Name
 
-export default function RedirectPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/docs/essentials-by-macnman/Macnman-Maya/maya_configuration';
-    }
-  }, []);
+![name change](/img/wifi/name_change_wifi_device.svg)
 
-  return (
-    <div>
-      <p>Redirecting... If you are not redirected, <a href="/docs/essentials-by-macnman/Macnman-Maya/maya_configuration">click here</a>.</p>
-    </div>
-  );
-}
+You can rename your device to something meaningful for easier identification — such as its location, function, or deployment area.
+
+- **Example**  
+  `SoilSensor_Greenhouse1` , `TempLogger_WarehouseB`
+
+Device names can be **up to 20 characters long**. Use short, meaningful names for quick recognition during field operations.
+
+## Change Heartbeat
+
+![heartbeat](/img/wifi/wifi_heartbeat.svg)
+
+**What is Heartbeat?**  
+Heartbeat defines how often the device sends a status update to the server, even when no sensor data has changed. It helps confirm that the device is active and communicating.
+
+- **Example**  
+  If the heartbeat is set to `15 minutes`, the device will send a signal to the server every 15 minutes, regardless of data changes
+
+A lower heartbeat interval provides more frequent status checks but may increase power consumption on battery-powered devices.s
+
+## Reminisce – Data Export
+
+![reminisys](/img/wifi/reminisys_wifi.svg)
+
+The Reminisce feature allows you to retrieve and export historical data stored locally on the device.
+
+**How to Use**  
+  - **Select a date range** to define the time period for which you want to export data.
+  - **Choose the export format** — either **JSON** (structured) or **TXT** (plain text).
+  - Click **“Okay”** to begin the export. You’ll receive a notification once the data has been successfully downloaded to your device.
+
+Useful for offline analysis, compliance, or record-keeping in field deployments.
+
+>Note: External flash memory is optional. Please verify whether your selected variant includes flash memory before placing your order

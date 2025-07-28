@@ -1,8 +1,0 @@
-{
-  "label": "WiFi Essentials",
-  "position": 1,
-  "link": {
-    "type": "generated-index",
-    "description": "This page covers all common Wi-Fi settings for MacSync devices, including Wi-Fi connection setup, MQTT configuration, uplink transmission, power-saving modes, and other essential Wi-Fi features."
-  }
-}
