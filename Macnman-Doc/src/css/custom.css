@@ -44,6 +44,15 @@ html {
 }
 
 
+/* Make navbar scroll with the page */
+/* .navbar {
+  position: relative !important;
+  top: 0 !important;
+  animation: none !important;
+  transition: none !important;
+} */
+
+
 /* Base state for doc card links */
 .docCardListItem_W1sv a {
   border-color: #100e0e28;
@@ -53,7 +62,8 @@ html {
 /* On hover: darker border + light shadow */
 .docCardListItem_W1sv a:hover {
   border-color: #100e0e;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.057); /* subtle shadow */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.057);
+  /* subtle shadow */
 }
 
 /* For light mode */
@@ -1082,7 +1092,9 @@ html[data-theme='dark'] .navbar__link--active::after {
   /* white line in dark theme */
 
 
-}.theme-toggle-btn {
+}
+
+.theme-toggle-btn {
   display: inline-block;
   text-transform: lowercase;
 
@@ -1118,12 +1130,14 @@ html[data-theme='dark'] .navbar__link--active::after {
 }
 
 .faint-line {
-  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Light mode: faint black line */
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  /* Light mode: faint black line */
   width: 100%;
   margin-top: 10px;
 }
 
 /* Dark mode */
 html[data-theme='dark'] .faint-line {
-  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Dark mode: faint white line */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  /* Dark mode: faint white line */
 }
