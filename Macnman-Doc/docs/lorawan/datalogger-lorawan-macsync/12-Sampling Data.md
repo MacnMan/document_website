@@ -1,5 +1,5 @@
 ---
-id: maya_sampling_and_uploading
+id: maya_sampling_and_uploading_lorawan
 title: Data Sampling & Uploading
 ---
 
