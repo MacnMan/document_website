@@ -212,27 +212,23 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/company/macnman/posts/?feedView=all',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Macnman.com',
+              href: 'https://macnman.com/',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
+            { label: 'GitHub', href: 'https://github.com/MacnMan/document_website' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Macnman. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Macnman.`,
     },
 
     prism: {
