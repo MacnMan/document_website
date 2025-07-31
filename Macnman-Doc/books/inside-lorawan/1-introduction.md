@@ -3,7 +3,9 @@ id: books_inside_lorawan_introduction
 title: LoRa VS LoRaWAN
 ---
 
-## Understanding LoRa - Like How Dolphins Communicate
+## How does LoRa Work ? 🤔
+
+**Like How Dolphins Communicate**
 
 Think of **LoRa as a special way** for electronic devices to “talk” to each other—kind of **like how dolphins** or bats use sound to communicate over **long distances.**
 
@@ -39,7 +41,9 @@ While LoRa typically uses the lower frequencies (433/868/915 MHz) for long-range
 - No license needed (uses free ISM bands).
 - Switches frequencies based on range vs. speed needs.
 
-## LoRaWAN: The Traffic Controller for Device Conversations
+## How does LoRaWAN Work ? 🧐
+
+**The Traffic Controller for Device Conversations**
 
 Think of LoRaWAN as the **smart traffic controller** that manages communication in a busy city filled with cars (devices). While LoRa is the physical way messages travel—like the roads—LoRaWAN is the system of rules that controls when each device can “drive,” which lane (frequency) it should use, and how to avoid crashes (signal collisions)
 

@@ -40,6 +40,8 @@ These rules ensure fair use and minimal interference between devices in **crowde
 
 Now let’s dive into how the communication happens between the end device (sensor), the relay, and the gateway. We’ll use an analogy of how a message is passed through a third person to explain it simply.
 
+![lorawan class c](./assets/lorawan_relay.webp)
+
 lorawan_relay
 
 **1. Preset Communication Channels**: 
@@ -102,7 +104,7 @@ The **WOR-ACK frame** contains important information for the sensor to proceed w
 - **TOffset**  
   Time difference between the start of the scan and the end of the reception of the WOR preamble.
 
-## Sensor Sends Data
+#### Sensor Sends Data
 
 After receiving the **WOR-ACK**, the sensor transmits its actual payload (such as temperature or humidity readings) to the relay.
 
@@ -114,10 +116,114 @@ After receiving the **WOR-ACK**, the sensor transmits its actual payload (such a
 The relay sends the new message to the **gateway** using a special **FPort = 226**.  
 The **Network Server** then processes the message, ensuring there are **no duplicates**.
 
-## Receiving Downlink Messages
+#### Receiving Downlink Messages
 
 If the **Network Server** (or gateway) needs to send a response back to the sensor:
 
 - It sends a **downlink message** to the **relay**.
 - The relay then forwards that message to the sensor.
 - This is done during the designated **RX1 or RX2 time slots**.
+
+#### Relay Forwards Data to the Gateway
+
+The relay sends the new message to the **gateway** using a special **FPort = 226**.  
+The **Network Server** then processes the message, ensuring there are **no duplicates**.
+
+#### Receiving Downlink Messages
+
+If the **Network Server** (or gateway) needs to send a response back to the sensor:
+
+- It sends a **downlink message** to the **relay**.
+- The relay then forwards that message to the sensor.
+- This is done during the designated **RX1 or RX2 time slots**.
+
+
+## Where to Place a LoRaWAN Relay?
+
+Placing a **LoRaWAN relay** is similar to strategically positioning people in a large, noisy room to help relay messages. If only a few sensors are struggling to communicate directly with a gateway due to distance or obstacles, adding a relay is a **cost-effective and energy-efficient solution**.
+
+
+## Regional Parameters for LoRaWAN Relays
+
+Just like mobile phones rely on different networks in different countries, **LoRaWAN relays** follow specific **regional parameters** to ensure smooth communication between sensors, relays, and gateways.
+
+These parameters vary depending on the country or region, affecting how devices operate—especially their frequency bands, data rates, and power settings.
+
+Understanding these parameters is crucial for:
+- 🌐 Ensuring global compatibility of your LoRaWAN devices
+- 📡 Setting up relays that work correctly within your country’s frequency regulations
+- 🔧 Avoiding interference and optimizing network performance
+
+Stay tuned for the region-wise breakdown of frequency bands and settings tailored for relay functionality.
+
+#### Europe (EU868) – Channels for WOR Messages from Sensor to Relay
+
+In the **EU868 frequency band**, LoRaWAN relays use specific channels to handle **Wake-On-Radio (WOR) messages** sent from sensors. These channels are predefined to ensure that devices across Europe communicate reliably without interference.
+
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Channels for WOR Messages from the Server</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Channel 0</td><td>856.1 MHz</td></tr>
+    <tr><td>Channel 1</td><td>865.5 MHz</td></tr>
+  </tbody>
+</table>
+
+
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Channels for WOR-ACK from Relay to Sensor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Channel 0</td><td>865.3 MHz</td></tr>
+    <tr><td>Channel 1</td><td>865.9 MHz</td></tr>
+  </tbody>
+</table>
+
+#### Key Tips for Relay Placement
+
+- **Weak Signal Zones**: Install relays where end devices frequently lose connection with the gateway—typically in areas with low signal strength or radio interference.
+- **Obstructed Areas**: Ideal for tunnels, basements, or areas with heavy structures (like dense walls or machinery) that block signals.
+- **Sparse Deployments**: Useful in remote or rural locations where deploying a full gateway might be expensive or unnecessary.
+
+#### Gateway vs. Relay
+
+- If **many devices** in an area can’t reach the gateway, it's better to install **another gateway**.
+- If **only a few sensors** are out of range, a **LoRaWAN relay** is the smart and budget-friendly option.
+
+By placing relays at the right spots, you can extend your network coverage, **improve data reliability**, and keep devices **connected without draining batteries or raising costs**.
+
+## Security in LoRaWAN Relays
+
+Ensuring **secure communication** between a sensor (end device) and a LoRaWAN relay is critical for protecting data and preventing unauthorized access. LoRaWAN relays use **specialized session keys** distinct from typical device-to-gateway communication keys.
+
+#### Unique Relay Security Keys
+
+To maintain a secure link, the sensor and the relay use a dedicated **Root Relay Session Key**, known as the **RootWorSKey**. This key is:
+
+- Derived from the sensor’s existing keys
+- Shared securely with the relay by the **LoRaWAN Network Server**
+
+From the **RootWorSKey** and the device’s address (**DevAddr**), the following two secure session keys are generated:
+
+#### 1. **WOR Integrity Session Key (WorSIntKey)**  
+🔍 This key ensures the integrity of communication. It verifies that **WOR** and **WOR-ACK** messages haven't been tampered with during transmission.
+
+#### 2. **WOR Encryption Session Key (WorSEncKey)**  
+🔒 This key is responsible for **encrypting and decrypting the message content**, ensuring that only authorized parties can read the data.
+
+
+
+#### ✅ Summary
+
+By using these relay-specific session keys:
+- LoRaWAN maintains **end-to-end data privacy**
+- Messages are **protected from manipulation**
+- Secure relay communication is ensured without affecting the standard network encryption
+
+These keys are a foundational part of **LoRaWAN Relay Security Architecture**, making your **IoT deployments safer and more reliable**.
