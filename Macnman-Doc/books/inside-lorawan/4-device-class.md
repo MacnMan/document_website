@@ -73,7 +73,7 @@ In LoRaWAN networks, if an **end device does not receive a downlink message duri
 
 ![lorawan class a downlink two](./assets/class_a_three.svg)
 
-## Downlink Latency in Class A Devices
+#### Downlink Latency in Class A Devices
 
 Since they need to **send a message first** to hear back, Class A devices experience high latency for downlink messages
 

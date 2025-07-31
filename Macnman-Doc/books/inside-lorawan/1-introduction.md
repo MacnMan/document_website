@@ -78,7 +78,7 @@ Thanks to LoRaWAN’s efficiency, devices can sleep most of the time and only wa
 - Perfect for managing large networks of low-power IoT devices
 
 
-## LoRaWAN Specification Versions
+### LoRaWAN Specification Versions
 
 <table className="parameter-table">
   <thead>
@@ -94,36 +94,6 @@ Thanks to LoRaWAN’s efficiency, devices can sleep most of the time and only wa
     <tr><td>1.1</td><td>October 2017</td></tr>
     <tr><td>1.0.3</td><td>July 2018</td></tr>
     <tr><td>1.0.4</td><td>October 2020</td></tr>
-  </tbody>
-</table>
-
-## Technical Abbreviations
-
-<table className="parameter-table">
-  <thead>
-    <tr>
-      <th>Term</th>
-      <th>Definition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>LoRa</td><td>Long Range</td></tr>
-    <tr><td>LoRaWAN</td><td>Long Range Wide Area Network</td></tr>
-    <tr><td>LNS</td><td>LoRa Network Server</td></tr>
-    <tr><td>AES</td><td>Advanced Encryption Standard</td></tr>
-    <tr><td>DR</td><td>Data Rate</td></tr>
-    <tr><td>WOR</td><td>Wake On Radio</td></tr>
-    <tr><td>ACK</td><td>Acknowledgement</td></tr>
-    <tr><td>WorSIntKey</td><td>WOR Integrity Session Key</td></tr>
-    <tr><td>WorSEncKey</td><td>WOR Encryption Session Key</td></tr>
-    <tr><td>MAC</td><td>Media Access Control</td></tr>
-    <tr><td>MIC</td><td>Message Integrity Code</td></tr>
-    <tr><td>OTAA</td><td>Over The Air Activation</td></tr>
-    <tr><td>ABP</td><td>Activation By Personalization</td></tr>
-    <tr><td>SF</td><td>Spreading Factor</td></tr>
-    <tr><td>ADR</td><td>Adaptive Data Rate</td></tr>
-    <tr><td>RSSI</td><td>Received Signal Strength Indicator</td></tr>
-    <tr><td>SNR</td><td>Signal To Noise Ratio</td></tr>
   </tbody>
 </table>
 
@@ -157,9 +127,6 @@ This makes LoRaWAN ideal for IoT sensor networks, where small packets of data—
 #### Key Takeaway
 
 In LoRaWAN communication, lower bandwidth increases range but slows transmission, while higher bandwidth shortens range but boosts speed—just like choosing between whispering or shouting in a noisy room.
-
-
-
 
 ## Superpowers of Devices
 
@@ -258,3 +225,34 @@ Formed in **2015**, the **LoRa Alliance** is a **non-profit organization** compo
 #### Why It Matters
 
 Thanks to the efforts of the LoRa Alliance, organizations across industries—from smart agriculture and healthcare to smart cities—can confidently **build, deploy, and scale** reliable LoRaWAN-based IoT solutions with guaranteed compatibility and longevity.
+
+
+## Technical Abbreviations
+
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>LoRa</td><td>Long Range</td></tr>
+    <tr><td>LoRaWAN</td><td>Long Range Wide Area Network</td></tr>
+    <tr><td>LNS</td><td>LoRa Network Server</td></tr>
+    <tr><td>AES</td><td>Advanced Encryption Standard</td></tr>
+    <tr><td>DR</td><td>Data Rate</td></tr>
+    <tr><td>WOR</td><td>Wake On Radio</td></tr>
+    <tr><td>ACK</td><td>Acknowledgement</td></tr>
+    <tr><td>WorSIntKey</td><td>WOR Integrity Session Key</td></tr>
+    <tr><td>WorSEncKey</td><td>WOR Encryption Session Key</td></tr>
+    <tr><td>MAC</td><td>Media Access Control</td></tr>
+    <tr><td>MIC</td><td>Message Integrity Code</td></tr>
+    <tr><td>OTAA</td><td>Over The Air Activation</td></tr>
+    <tr><td>ABP</td><td>Activation By Personalization</td></tr>
+    <tr><td>SF</td><td>Spreading Factor</td></tr>
+    <tr><td>ADR</td><td>Adaptive Data Rate</td></tr>
+    <tr><td>RSSI</td><td>Received Signal Strength Indicator</td></tr>
+    <tr><td>SNR</td><td>Signal To Noise Ratio</td></tr>
+  </tbody>
+</table>

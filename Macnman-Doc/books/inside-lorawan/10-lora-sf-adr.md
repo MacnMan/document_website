@@ -29,13 +29,13 @@ Choosing the right spreading factor is a balance between **range, power efficien
   <tbody>
     <tr>
       <td>SF7 (Lower SF)</td>
-      <td>Talking fast – sends more data quickly but covers shorter distances</td>
+      <td>Talking fast – sends more data quickly but covers shorter distances 🐇 </td>
       <td>High</td>
       <td>Short</td>
     </tr>
     <tr>
       <td>SF12 (Higher SF)</td>
-      <td>Speaking slowly – data travels farther but takes more time</td>
+      <td>Speaking slowly – data travels farther but takes more time 🐢</td>
       <td>Low</td>
       <td>Long</td>
     </tr>
