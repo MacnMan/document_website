@@ -41,38 +41,56 @@ From smart agriculture and utility metering to infrastructure monitoring & indus
 - **Ultra Low Power (ULP)**  
   Minimal power consumption without compromising performance.
 
+[](/My_resume_1.pdf)
 
 ## MAC32WLE5 Module Resources
 
 <div className="icon-card-grid">
-  <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/Datasheets" 
-  className="icon-card">
-    <div className="icon">📂</div>  
-    <div>
-      <strong>Download Datasheet</strong>
-      <p>Detailed specs including pinouts,hardware specs, & certifications.
-.</p>
-    </div>
-  </a>
-  <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
-  className="icon-card">
+<a
+  href="/My_resume_1.pdf"
+  download
+  className="icon-card"
+>
+  <div className="icon">📂</div>  
+  <div>
+    <strong>[Download Datasheet](/My_resume_1.pdf)</strong>
+    <p>Detailed specs including pinouts, hardware specs, & certifications.</p>
+  </div>
+</a>
+
+  <a
+    href="/My_resume_1.pdf"
+    download
+    className="icon-card"
+  >
     <div className="icon">📝</div>
     <div>
-      <strong>SDK & Sample Code</strong>
+      <strong>[SDK & Sample Code](/My_resume_1.pdf)</strong>
       <p>SDK with libraries and ready-to-use code samples.</p>
     </div>
   </a>
-  <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/3D_Model" className="icon-card">
+
+  <a
+    href="/My_resume_1.pdf"
+    download
+    className="icon-card"
+  >
     <div className="icon">📐</div>
     <div>
-      <strong>CAD Models</strong>
+      <strong>[CAD Models](/My_resume_1.pdf)</strong>
       <p>Download 3D files for enclosures and PCB fitting.</p>
     </div>
   </a>
-   <a href="https://github.com/MacnMan/LoRa_Module_SDK" className="icon-card">
+
+  <a
+    href="/My_resume_1.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="icon-card"
+  >
     <div className="icon">📦</div>
     <div>
-      <strong>GitHub Repository</strong>
+      <strong>[GitHub Repository](/My_resume_1.pdf)</strong>
       <p>Access full source code, releases, and contribute to the project.</p>
     </div>
   </a>
