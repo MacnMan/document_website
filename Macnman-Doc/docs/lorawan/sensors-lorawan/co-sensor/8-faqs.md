@@ -3,48 +3,47 @@ id: macsync_faqs_macsynclt4
 title: FAQs
 ---
 
-## Frequently Asked Questions (FAQ)
+# Frequently Asked Questions (FAQ)
 
-####  What is the battery life of the MacSync-LT1 sensor?
-The MacSync-LT1 comes with a high-capacity **19Ah lithium battery**, offering up to **10+ years of operation**, depending on transmission intervals and uplink configuration.
-
-----
-
-#### Can I use the MacSync-LT1 in outdoor or semi-outdoor environments?
-Yes. The device features an **IP65-rated weatherproof enclosure**, making it ideal for **industrial, commercial, and semi-outdoor use**, including warehouses, cold rooms, and greenhouses.
+#### What is the CO₂ sensing range of MacSync-LCO2 sensors?
+The MacSync-LCO2 series includes models with ranges from **0–2,000 ppm**, **0–5,000 ppm**, up to **40,000 ppm**, depending on the selected variant (LCO21 / LCO22 / LCO23).
 
 ----
 
-#### Does the MacSync-LT1 support over-the-air (OTA) configuration?
-Yes, MacSync-LT1 supports **OTA configuration via LoRaWAN® downlinks** and **local configuration using BLE** through the [**Macnman Maya App**](https://play.google.com/store/apps/details?id=com.macnman.app&pcampaignid=web_share).
+#### How accurate is the CO₂ measurement?
+The sensor offers high accuracy: up to **±(40 ppm + 5%)** depending on the model, with factory calibration and drift compensation.
 
 ----
 
-#### How accurate is the temperature reading?
-It uses a **SHT series high-precision sensor**, providing **accurate and stable temperature and humidity readings**, suitable for sensitive applications like data centers and cold chains.
+#### Does the sensor measure other parameters?
+Yes. In addition to CO₂, the MacSync-LCO2 sensor also provides **temperature and humidity readings**, making it ideal for indoor air quality monitoring.
 
 ----
 
-#### What platforms is the sensor compatible with?
-MacSync-LT1 is **compatible with all major LoRaWAN® network servers and gateways**, including **The Things Network (TTN), ChirpStack, Loriot, Helium**, and more.
+#### What communication protocols are supported?
+The sensor communicates over **LoRaWAN® Class A & C**, ensuring ultra-low power and long-range data transmission.
 
 ----
 
-#### Can I check live sensor data via Bluetooth?
-Yes. Connect the sensor using the **Maya App** and go to **Home > Device Data** to view **real-time sensor values over BLE**.
-
-
-----
-
-#### What uplink modes are supported?
-The sensor supports **periodic**, **threshold-based**, and **event-driven** uplinks, giving flexibility in power consumption and data behavior.
+#### Can I configure the sensor locally?
+Yes. You can configure the sensor using the **Macnman Maya App via BLE**, or remotely using **LoRaWAN® downlinks**.
 
 ----
 
-#### What is the transmission range of the MacSync-LT1?
-With LoRaWAN®, the MacSync-LT1 can communicate over **several kilometers (up to 8+ km line-of-sight)** in ideal conditions, depending on gateway placement and terrain.
+#### What are the ideal applications for this sensor?
+Common applications include **smart buildings**, **greenhouses**, **offices**, **HVAC control**, and **indoor air quality management** in schools and public areas.
 
 ----
 
-#### Is the device pre-configured with DevEUI and keys?
-Yes, each MacSync-LT1 is shipped with **pre-flashed DevEUI, AppEUI, and AppKey**, making it ready for plug-and-play deployment.
+#### Is the sensor battery-powered?
+Yes. The device is optimized for **low power consumption** and supports long-term, battery-powered deployment.
+
+----
+
+#### What is the typical response time?
+The sensor has a response time of **around 60 seconds**, suitable for real-time ambient CO₂ level monitoring.
+
+----
+
+#### Is it compatible with any LoRaWAN® network?
+Yes. MacSync-LCO2 is compatible with **all major LoRaWAN® servers**, including **TTN, ChirpStack, Loriot**, and others.

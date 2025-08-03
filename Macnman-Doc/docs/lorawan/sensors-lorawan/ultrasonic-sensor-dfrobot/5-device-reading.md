@@ -20,7 +20,7 @@ To check live data via BLE, go to the Home Page in the Maya App, connect to your
 
 <br/>
 
-![live Values weather station](/img/lorawan/sensors/temperaturehumi/wl6_check_data_weather.svg)
+![live Values ultrasonic sensor](/img/lorawan/sensors/temperaturehumi/maxbotics_device_data.svg)
 
 - Click on the refresh button fetch data
 

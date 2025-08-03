@@ -1,19 +1,21 @@
 ---
-id: macsynclco21_introduction
+id: macsynclw6_introduction
 title: Introduciton
 ---
 
-# MacSync-LCO21
+# MacSync-LW6
 
 ## Product Overview
 
-The **MacSync-LCO21** is a compact and intelligent LoRaWAN® CO₂ sensor built for real-time indoor air quality monitoring in smart buildings, greenhouses, industrial environments, and HVAC systems. Powered by advanced photoacoustic NDIR (PASens®) technology, it delivers high-precision carbon dioxide measurements, along with integrated temperature and humidity sensing.
+**MacSync-LW6** is a compact, solar-powered LoRaWAN® weather station designed to monitor six key environmental parameters—temperature, humidity, wind speed, wind direction, atmospheric pressure, and rainfall. It delivers high-accuracy data over long-range wireless networks, enabling real-time monitoring and automation across remote and off-grid applications.
 
-Designed for ultra-low power operation and long-term deployment, MacSync-LCO21 transmits environmental data over LoRaWAN® networks for **remote monitoring, automation, and alerts.** Its robust build, small form factor, and seamless compatibility with Macnman gateways and platforms make it ideal for scalable air quality solutions.
+Built for rugged outdoor use, the device features a **UV-resistant**, IP66-rated enclosure that ensures durability in harsh climates. The integrated solar panel and internal backup battery offer maintenance-free operation for years, even in remote deployments. With LoRaWAN® Class A & C support, data can be sent periodically or triggered by custom thresholds and events.
 
 Configuration is quick and user-friendly using the [**Macnman Maya App**](https://play.google.com/store/apps/details?id=com.macnman.app&pcampaignid=web_share), which leverages Bluetooth Low Energy (BLE). Through the app, users can set parameters, adjust logging intervals, and manage data settings directly from their smartphone—no technical expertise required.
 
-temp-humi-sensor.webp
+Seamlessly compatible with Macnman gateways and cloud platforms, MacSync-LW6 empowers smart agriculture, environmental research, infrastructure monitoring, and disaster prevention with actionable insights.
+
+![masynclws6](/img/lorawan/sensors/temperaturehumi/macsynclwssix_hero.png)
 
 ## Product Architecture
 <br/>
@@ -36,8 +38,8 @@ temp-humi-sensor.webp
   className="icon-card">
     <div className="icon">📝</div>
     <div>
-      <strong>SDK & Sample Code</strong>
-      <p>Click here to view the decoders for MacSync-LT1</p>
+      <strong>Decoders</strong>
+      <p>Click here to view the decoders for MacSync-LWS6</p>
     </div>
   </a>
 </div>
@@ -45,89 +47,81 @@ temp-humi-sensor.webp
 <div style={{ margin: "2rem 0" }}></div>
 
 
-## Key Features of MacSync-LT1
+## Key Features of MacSync-LW6
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">
-    <strong>🌬️ High Accuracy CO₂ Sensing</strong>
-    High precision with ±(40 ppm + 5%) accuracy for dependable CO₂ monitoring in real-world applications.
+    <strong>High-Precision Multi-Parameter Sensors</strong>
+    Equipped with advanced sensors to measure parameter accuractly ideal for environmental and agricultural insights.
   </div>
   <div className="reusable-feature-card">
-    <strong>📦 Compact & Industrial-Grade Design</strong>
-    Engineered for long-term performance in commercial, industrial, and building environments.
+    <strong>LoRaWAN® Class A & C Communication</strong>
+    Enables long-range, low-power wireless data transmission with flexible network modes.
   </div>
   <div className="reusable-feature-card">
-    <strong>📈 Wide Measurement Range</strong>
-    Measures from 0 – 40,000 ppm CO₂, ideal for varied environmental use cases.
+    <strong>Flexible Uplink Strategies</strong>
+    Supports periodic reporting, event-driven triggers, and threshold-based alerts for real-time responsiveness.
   </div>
   <div className="reusable-feature-card">
-    <strong>🔬 Photoacoustic NDIR (PASens®) Technology</strong>
-    Advanced sensor design ensures reliable, noise-resistant CO₂ measurement performance.
+    <strong>IP66-Rated Enclosure</strong>
+    Weatherproof, UV-resistant casing for rugged, long-lasting outdoor deployment.
   </div>
   <div className="reusable-feature-card">
-    <strong>📡 LoRaWAN® Class A & C Communication</strong>
-    Flexible wireless transmission with support for long-range, low-power network connectivity.
+    <strong>Industrial & Outdoor Use</strong>
+    Built to withstand harsh conditions—ideal for agriculture, infrastructure monitoring, and smart cities.
   </div>
   <div className="reusable-feature-card">
-    <strong>⏱️ Flexible Uplink Strategies</strong>
-    Supports periodic, threshold-based, and event-driven reporting modes.
+    <strong>BLE Support with Maya App</strong>
+    Easily configure and diagnose locally via the Maya app using Bluetooth Low Energy.
   </div>
   <div className="reusable-feature-card">
-    <strong>🌡️ Integrated Temperature & Humidity Sensor</strong>
-    Combines multiple environmental metrics in a single, compact device.
+    <strong>Ultra-Long-Range Transmission</strong>
+    Line-of-sight communication of up to 8 kilometers with low power consumption.
   </div>
   <div className="reusable-feature-card">
-    <strong>🔋 Low Power Consumption</strong>
-    Optimized for battery-powered operation in remote or wireless installations.
+    <strong>Macnman Beam Protocol</strong>
+    Allows direct LoRa device-to-device communication without needing a gateway.
   </div>
   <div className="reusable-feature-card">
-    <strong>🛰️ Macnman Beam Protocol Support</strong>
-    Enables device-to-device LoRa communication for fast, gateway-free control actions.
+    <strong>Secure Device Onboarding</strong>
+    Preloaded with DevEUI, AppEUI, and AppKey for instant integration into any LoRaWAN® network.
   </div>
   <div className="reusable-feature-card">
-    <strong>🔐 Secure Onboarding</strong>
-    Pre-configured with DevEUI, AppEUI, and AppKey for secure and rapid deployment.
+    <strong>Optional Data Buffering</strong>
+    Stores sensor data locally to avoid loss during temporary network outages.
   </div>
   <div className="reusable-feature-card">
-    <strong>🌐 Fully LoRaWAN® Compatible</strong>
-    Seamlessly integrates with TTN, ChirpStack, Loriot, Helium, and other network servers and gateways.
+    <strong>Universal LoRaWAN® Compatibility</strong>
+    Seamlessly integrates with TTN, ChirpStack, Loriot, Helium, and other major LoRaWAN® platforms.
   </div>
 </div>
 
-## Where You Can Use MacSync-LT1?
+## Where You Can Use MacSync-LW6?
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">
-    <strong>Cold Chain Logistics ❄️</strong>
-    Ensure consistent temperature control for vaccines, medicines, and perishable goods during transport and storage.
+    <strong>Smart Agriculture 🌾</strong>
+    Monitor real-time weather data for optimizing irrigation, crop scheduling, and pest control.
   </div>
   <div className="reusable-feature-card">
-    <strong>Data Centers & Server Rooms 🖥️</strong>
-    Monitor temperature and humidity to prevent equipment overheating and maintain optimal uptime.
+    <strong>Environmental Research 🌍</strong>
+    Collect localized weather data for climate studies, ecosystem analysis, and field experiments.
   </div>
   <div className="reusable-feature-card">
-    <strong>Greenhouses & Agriculture 🌿</strong>
-    Track climate conditions to optimize irrigation, crop growth, and resource usage.
+    <strong>Disaster Management 🌧️</strong>
+    Use rainfall, wind, and pressure data to predict and mitigate floods, storms, and droughts.
   </div>
   <div className="reusable-feature-card">
-    <strong>Warehouses & Storage Units 📦</strong>
-    Maintain safe storage conditions for sensitive inventory such as food, chemicals, and electronics.
-  </div>
-  <div className="reusable-feature-card">
-    <strong>Smart Buildings 🏢</strong>
-    Enable intelligent HVAC control and indoor climate optimization based on real-time environment data.
-  </div>
-  <div className="reusable-feature-card">
-    <strong>Remote Industrial Sites 🏭</strong>
-    Deploy in unmanned locations to ensure environmental safety and monitor for threshold violations.
-  </div>
-  <div className="reusable-feature-card">
-    <strong>Cold Storage & Refrigeration Units 🧊</strong>
-    Track and log conditions continuously to meet compliance and quality control standards.
+    <strong>Infrastructure Monitoring 🏗️</strong>
+    Ensure structural safety and performance of bridges, buildings, and roadways under weather stress.
   </div>
   <div className="reusable-feature-card">
     <strong>Smart Cities 🌆</strong>
-    Monitor public spaces, museums, or transportation hubs for climate-controlled operations.
+    Enhance city planning, traffic safety, and air quality assessment with real-time environmental monitoring.
+  </div>
+  <div className="reusable-feature-card">
+    <strong>Remote Off-Grid Locations 🛰️</strong>
+    Deploy in forests, mountains, or isolated research zones where traditional infrastructure is lacking.
   </div>
 </div>
 
@@ -153,14 +147,6 @@ temp-humi-sensor.webp
       <td>✖️</td>
       <td>✔️</td>
       <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacSync Battery Operated</td>
-      <td>Battery</td>
-      <td>19 Ah</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
     </tr>
     <tr>
       <td>MacSync Solar + Battery</td>

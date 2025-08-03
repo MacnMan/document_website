@@ -13,7 +13,7 @@ With a focus on durability, **wireless data transmission**, and **long battery l
 
 Configuration is quick and user-friendly using the [**Macnman Maya App**](https://play.google.com/store/apps/details?id=com.macnman.app&pcampaignid=web_share), which leverages Bluetooth Low Energy (BLE). Through the app, users can set parameters, adjust logging intervals, and manage data settings directly from their smartphone—no technical expertise required.
 
-![title image](/img/lorawan/sensors/temperaturehumi/temp-humi-sensor.webp)
+![title image](/img/lorawan/sensors/temperaturehumi/tinyy.svg)
 
 ## Product Architecture
 <br/>

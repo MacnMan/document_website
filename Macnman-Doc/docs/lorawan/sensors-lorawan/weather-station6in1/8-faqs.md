@@ -5,46 +5,45 @@ title: FAQs
 
 ## Frequently Asked Questions (FAQ)
 
-####  What is the battery life of the MacSync-LT1 sensor?
-The MacSync-LT1 comes with a high-capacity **19Ah lithium battery**, offering up to **10+ years of operation**, depending on transmission intervals and uplink configuration.
+#### What power source does the MacSync-LSW6 use?
+MacSync-LSW6 comes with a **solar-powered system and internal backup battery**, enabling long-term, maintenance-free operation even in remote or off-grid deployments.
 
 ----
 
-#### Can I use the MacSync-LT1 in outdoor or semi-outdoor environments?
-Yes. The device features an **IP65-rated weatherproof enclosure**, making it ideal for **industrial, commercial, and semi-outdoor use**, including warehouses, cold rooms, and greenhouses.
+#### Is the MacSync-LSW6 suitable for outdoor environments?
+Yes. The sensor features an **IP66-rated enclosure**, ensuring robust performance in **harsh weather conditions** including rain, dust, and temperature fluctuations.
 
 ----
 
-#### Does the MacSync-LT1 support over-the-air (OTA) configuration?
-Yes, MacSync-LT1 supports **OTA configuration via LoRaWAN® downlinks** and **local configuration using BLE** through the [**Macnman Maya App**](https://play.google.com/store/apps/details?id=com.macnman.app&pcampaignid=web_share).
+#### What parameters does the MacSync-LSW6 monitor?
+The MacSync-LSW6 supports **multi-parameter monitoring**, including **temperature, humidity, wind speed, wind direction, atmospheric pressure, and rainfall**.
 
 ----
 
-#### How accurate is the temperature reading?
-It uses a **SHT series high-precision sensor**, providing **accurate and stable temperature and humidity readings**, suitable for sensitive applications like data centers and cold chains.
+#### How is the sensor data transmitted?
+All sensor data is sent over **LoRaWAN®**, supporting **Class A & C communication**, with options for **periodic, threshold-based, or event-driven** uplinks.
 
 ----
 
-#### What platforms is the sensor compatible with?
-MacSync-LT1 is **compatible with all major LoRaWAN® network servers and gateways**, including **The Things Network (TTN), ChirpStack, Loriot, Helium**, and more.
+#### Can the sensor be configured remotely?
+Yes. The MacSync-LSW6 supports **OTA configuration via LoRaWAN® downlinks** and **local Bluetooth (BLE) configuration** using the [**Macnman Maya App**](https://play.google.com/store/apps/details?id=com.macnman.app&pcampaignid=web_share).
 
 ----
 
-#### Can I check live sensor data via Bluetooth?
-Yes. Connect the sensor using the **Maya App** and go to **Home > Device Data** to view **real-time sensor values over BLE**.
-
-
-----
-
-#### What uplink modes are supported?
-The sensor supports **periodic**, **threshold-based**, and **event-driven** uplinks, giving flexibility in power consumption and data behavior.
+#### What is the expected wireless range?
+The sensor can communicate up to **8 km line-of-sight** under ideal conditions, depending on environmental factors and gateway placement.
 
 ----
 
-#### What is the transmission range of the MacSync-LT1?
-With LoRaWAN®, the MacSync-LT1 can communicate over **several kilometers (up to 8+ km line-of-sight)** in ideal conditions, depending on gateway placement and terrain.
+#### Is real-time data visible via BLE?
+Yes. You can view **live data** from the MacSync-LSW6 using the **Maya App** by connecting via BLE and navigating to **Home > Device Data**.
 
 ----
 
-#### Is the device pre-configured with DevEUI and keys?
-Yes, each MacSync-LT1 is shipped with **pre-flashed DevEUI, AppEUI, and AppKey**, making it ready for plug-and-play deployment.
+#### Is MacSync-LSW6 compatible with third-party LoRaWAN® servers?
+Absolutely. It is fully compatible with **The Things Network (TTN), ChirpStack, Loriot, Helium**, and all major **LoRaWAN® gateways and network servers**.
+
+----
+
+#### Does the sensor support local data buffering?
+Yes. In case of temporary network issues, **optional onboard data buffering** ensures no critical measurements are lost.

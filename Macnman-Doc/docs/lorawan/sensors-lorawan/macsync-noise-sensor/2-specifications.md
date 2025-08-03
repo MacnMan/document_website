@@ -4,53 +4,40 @@ title: Specifications
 ---
 
 # Product Specifications
-## Weather Parameters
+
+## Noise Sensor Parameters
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Parameter</th>
-      <th>Range</th>
-      <th>Accuracy</th>
-      <th>Resolution</th>
+      <th>Range / Value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Ambient Temperature</td>
-      <td>-40°C to +85°C</td>
-      <td>±0.3°C @ 25°C</td>
-      <td>0.01°C</td>
+      <td>Measuring Range</td>
+      <td>30 dB to 120 dB</td>
     </tr>
     <tr>
-      <td>Relative Humidity</td>
-      <td>0% to 100% RH</td>
-      <td>±3% RH (@90% RH)</td>
-      <td>0.01% RH</td>
+      <td>Resolution</td>
+      <td>0.1 dB</td>
     </tr>
     <tr>
-      <td>Wind Speed</td>
-      <td>0–60 m/s</td>
-      <td>±(0.3 + 0.03V) m/s</td>
-      <td>0.01 m/s</td>
+      <td>Frequency Range</td>
+      <td>20 Hz – 12.5 kHz</td>
     </tr>
     <tr>
-      <td>Wind Direction</td>
-      <td>0°–359.9°</td>
-      <td>±3° (Speed &lt; 10 m/s)</td>
-      <td>0.1°</td>
+      <td>Response Time</td>
+      <td>≤ 3 seconds</td>
     </tr>
     <tr>
-      <td>Atmospheric Pressure</td>
-      <td>500–1100 hPa</td>
-      <td>±0.5 hPa (25°C)</td>
-      <td>0.1 hPa</td>
+      <td>Stability</td>
+      <td>&lt; 2% over lifecycle</td>
     </tr>
     <tr>
-      <td>Rainfall</td>
-      <td>0–200 mm/h</td>
-      <td>-</td>
-      <td>0.2 mm</td>
+      <td>Accuracy</td>
+      <td>±0.5 dB (at 94 dB, 1 kHz reference)</td>
     </tr>
   </tbody>
 </table>
@@ -140,33 +127,41 @@ title: Specifications
     </tr>
   </thead>
   <tbody>
-  <tr>
+    <tr>
       <td>Power Supply</td>
-      <td>1 × 19,000 mAh Li-SOCl₂ battery (field-replaceable)</td>
+      <td>Inbuilt Battery - 19,000 mAh, Optional Solar Panel</td>
     </tr>
     <tr>
-      <td>Battery Life*</td>
-      <td>Up to 10+ years (SF7, 10-minute interval) & ~5.8 years (SF10, I N865)</td>
+      <td>Operating Temp</td>
+      <td>-40°C to +80°C</td>
     </tr>
     <tr>
-      <td>Weight</td>
-      <td>460 gms (with battery)</td>
+      <td>Humidity Range</td>
+      <td>0% to 100% RH (non-condensing)</td>
     </tr>
     <tr>
       <td>Ingress Protection</td>
-      <td>IP 65 standard (IP 6 7 optional variant)</td>
+      <td>IP65 standard (IP67 optional variant)</td>
     </tr>
     <tr>
       <td>Housing Material</td>
-      <td>Glass Field Nylon</td>
+      <td>SS Metal (Sensor), Glass Field Nylon (MacSync)</td>
     </tr>
-     <tr>
+    <tr>
       <td>Color</td>
-      <td>Matte W hite</td>
+      <td>Matte White</td>
     </tr>
-      <tr>
-      <td>Probe Material</td>
-      <td>Steel & Plastic</td>
+    <tr>
+      <td>Weight</td>
+      <td>~190g (with 19Ah battery)</td>
+    </tr>
+    <tr>
+      <td>Dimensions</td>
+      <td>Approx. 152 mm x 62 mm x 43 mm + Sensor Probe</td>
+    </tr>
+    <tr>
+      <td>Mounting Options</td>
+      <td>Wall Mounting - Screw fix type & Pole Mounting</td>
     </tr>
   </tbody>
 </table>

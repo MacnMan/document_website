@@ -13,8 +13,12 @@ Designed for ultra-low power operation and long-term deployment, MacSync-LCO21 t
 
 Configuration is quick and user-friendly using the [**Macnman Maya App**](https://play.google.com/store/apps/details?id=com.macnman.app&pcampaignid=web_share), which leverages Bluetooth Low Energy (BLE). Through the app, users can set parameters, adjust logging intervals, and manage data settings directly from their smartphone—no technical expertise required.
 
+![co2 sensor](/img/lorawan/sensors/temperaturehumi/co_main_front_view.svg)
+
 ## Product Architecture
 <br/>
+
+
 
 ![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
 
