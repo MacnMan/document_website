@@ -1,0 +1,8 @@
+{
+  "label": "LoRaWAN Sensors",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "This is page about the lorawan Sensors"
+  }
+}
