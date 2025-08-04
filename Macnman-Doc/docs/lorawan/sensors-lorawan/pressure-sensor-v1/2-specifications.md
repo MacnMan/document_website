@@ -5,39 +5,39 @@ title: Specifications
 
 # Product Specifications
 
-## Ultrasonic Sensor Parameters
+## Pressure Sensor Parameters
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Parameter</th>
-      <th>Range / Description</th>
+      <th>Range / Accuracy</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Ranging Range</td>
-      <td>3 – 450 cm</td>
+      <td>Range</td>
+      <td>0 ~ 1.2 MPa</td>
     </tr>
     <tr>
-      <td>Blind Zone Distance</td>
-      <td>3 cm</td>
+      <td>Accuracy</td>
+      <td>±1.5% Full Scale (FS)</td>
+    </tr>
+    <tr>
+      <td>Max. Pressure</td>
+      <td>2.4 MPa</td>
+    </tr>
+    <tr>
+      <td>Destructive Pressure</td>
+      <td>3.0 MPa</td>
     </tr>
     <tr>
       <td>Response Time (Sensor)</td>
-      <td>100 ms</td>
+      <td>≤2.0 ms</td>
     </tr>
     <tr>
-      <td>Resolution</td>
-      <td>0.1 cm</td>
-    </tr>
-    <tr>
-      <td>Center Frequency</td>
-      <td>40 kHz ± 1 kHz</td>
-    </tr>
-    <tr>
-      <td>Sensing Angle</td>
-      <td>60°</td>
+      <td>Cycle Life</td>
+      <td>1,000,000</td>
     </tr>
     <tr>
       <td>Protection Rating (Sensor)</td>
@@ -133,7 +133,7 @@ title: Specifications
   <tbody>
     <tr>
       <td>Power Supply</td>
-      <td>Inbuilt Battery - 19,000 mAh , Optional Solar Panel</td>
+      <td>Inbuilt Battery - 19,000 mAh / Optional Solar</td>
     </tr>
     <tr>
       <td>Operating Temp</td>
@@ -148,24 +148,24 @@ title: Specifications
       <td>IP65 standard (IP67 optional variant)</td>
     </tr>
     <tr>
-      <td>Enclosure Protection</td>
-      <td>Weather-resistant (IP67 optional chemical-resistant F-Option)</td>
+      <td>Housing Material</td>
+      <td>Made of durable ABS plastic for long-lasting field use</td>
     </tr>
     <tr>
       <td>Color</td>
-      <td>Matt Grey (Sensor) , Matt White (MacSync)</td>
+      <td>Matte Black (Sensor)</td>
     </tr>
     <tr>
       <td>Weight</td>
-      <td>~210g (with 19Ah battery)</td>
+      <td>~240g (with 19 Ah battery)</td>
     </tr>
     <tr>
       <td>Dimensions</td>
-      <td>Approx. 152 mm X 62 mm X 43 mm (customizable branding available)</td>
+      <td>Approx. 152 mm X 43 mm X 63 mm (customizable branding available)</td>
     </tr>
     <tr>
       <td>Mounting Options</td>
-      <td>Pole Mounting / Wall Mounting</td>
+      <td>Wall Mounting / Pole Mounting</td>
     </tr>
   </tbody>
 </table>

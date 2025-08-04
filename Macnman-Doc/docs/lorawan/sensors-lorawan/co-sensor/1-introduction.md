@@ -18,8 +18,6 @@ Configuration is quick and user-friendly using the [**Macnman Maya App**](https:
 ## Product Architecture
 <br/>
 
-
-
 ![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
 
 ## Download Center

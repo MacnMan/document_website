@@ -4,47 +4,19 @@ title: Specifications
 ---
 
 # Product Specifications
+## 🧪 Measurement Specifications – MacSync-WQ7
 
-## Ultrasonic Sensor Parameters
+| Parameter                  | Range                         | Accuracy                       | Resolution       |
+|---------------------------|-------------------------------|--------------------------------|------------------|
+|  Temperature            | 0 – 50 °C                     | ±0.5 °C                        | 0.1 °C           |
+|  Dissolved Oxygen (DO)  | 0 – 20 mg/L                   | ±2% F.S., ±0.5 °C              | 0.01 mg/L        |
+|  Conductivity            | 0 – 2000 µS/cm                | ±1.5% F.S.                     | 1 µS/cm          |
+|  Turbidity              | 0 – 200 NTU / 0 – 1000 NTU    | < 3% F.S.                      | 0.1 NTU          |
+|  Salinity               | 0 – 70 PSU                    | ±1.5% F.S.                     | 0.1 PSU          |
+|  pH                     | 0 – 14 pH                     | ±0.1 pH                        | 0.01 pH          |
+|  ORP (Redox Potential)  | -1500 mV – +1500 mV           | ±6 mV                          | 1 mV             |
+|  Ammonia Nitrogen       | 0 – 10 mg/L or 0 – 100 mg/L   | ±5% F.S. or ±13 mg/L (whichever is greater) | 0.01 mg/L (0–10 mg/L) |
 
-<table className="parameter-table">
-  <thead>
-    <tr>
-      <th>Parameter</th>
-      <th>Range / Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Ranging Range</td>
-      <td>3 – 450 cm</td>
-    </tr>
-    <tr>
-      <td>Blind Zone Distance</td>
-      <td>3 cm</td>
-    </tr>
-    <tr>
-      <td>Response Time (Sensor)</td>
-      <td>100 ms</td>
-    </tr>
-    <tr>
-      <td>Resolution</td>
-      <td>0.1 cm</td>
-    </tr>
-    <tr>
-      <td>Center Frequency</td>
-      <td>40 kHz ± 1 kHz</td>
-    </tr>
-    <tr>
-      <td>Sensing Angle</td>
-      <td>60°</td>
-    </tr>
-    <tr>
-      <td>Protection Rating (Sensor)</td>
-      <td>IP67</td>
-    </tr>
-  </tbody>
-</table>
 
 ## LoRaWAN Wireless Transmission
 
@@ -148,20 +120,20 @@ title: Specifications
       <td>IP65 standard (IP67 optional variant)</td>
     </tr>
     <tr>
-      <td>Enclosure Protection</td>
-      <td>Weather-resistant (IP67 optional chemical-resistant F-Option)</td>
+      <td>Housing Material</td>
+      <td>SS Metal(Sensor) , Glass field Nylon (MacSync)</td>
     </tr>
     <tr>
       <td>Color</td>
-      <td>Matt Grey (Sensor) , Matt White (MacSync)</td>
+      <td>Matte White</td>
     </tr>
     <tr>
       <td>Weight</td>
-      <td>~210g (with 19Ah battery)</td>
+      <td>~190g (with 19Ah battery)</td>
     </tr>
     <tr>
       <td>Dimensions</td>
-      <td>Approx. 152 mm X 62 mm X 43 mm (customizable branding available)</td>
+      <td>Approx. 153 mm X 62 mm X 43 mm (customizable branding available)</td>
     </tr>
     <tr>
       <td>Mounting Options</td>

@@ -5,8 +5,8 @@ title: FAQs
 
 ## Frequently Asked Questions (FAQ)
 
-#### What is the measurement range of the MacSync-LU7 ultrasonic sensor?
-The MacSync-LU7 supports long-distance measurement up to **765 cm** with a typical accuracy of **±1% of the target distance**, making it ideal for industrial applications requiring high-precision readings.
+#### What is the measurement range of the MacSync-LU4 ultrasonic sensor?
+The MacSync-LU4 supports long-distance measurement up to **765 cm** with a typical accuracy of **±1% of the target distance**, making it ideal for industrial applications requiring high-precision readings.
 
 ----
 
@@ -15,7 +15,7 @@ Yes. The sensor features **real-time auto-calibration** and **advanced noise rej
 
 ----
 
-#### Is the MacSync-LU7 weatherproof?
+#### Is the MacSync-LU4 weatherproof?
 Absolutely. The sensor is enclosed in a **rugged IP65 housing**, with an optional **IP67 upgrade**, making it suitable for outdoor deployments in **rain, dust, or high-humidity conditions**.
 
 ----
@@ -26,7 +26,7 @@ It is equipped with a **19,000 mAh inbuilt lithium battery**, optimized for **mu
 ----
 
 #### What communication protocols does the sensor support?
-The MacSync-LU7 supports **LoRaWAN® Class A & C** communication and is also compatible with **Macnman Beam** protocol for direct peer-to-peer communication when needed.
+The MacSync-LU4 supports **LoRaWAN® Class A & C** communication and is also compatible with **Macnman Beam** protocol for direct peer-to-peer communication when needed.
 
 ----
 
@@ -41,4 +41,4 @@ The sensor supports **periodic**, **threshold-based**, and **event-triggered upl
 ----
 
 #### Which LoRaWAN® networks is it compatible with?
-The MacSync-LU7 is compatible with **all major LoRaWAN® network servers**, including **TTN, ChirpStack, Loriot, Helium**, and **Macnman’s own cloud platform** for visualization and data management.
+The MacSync-LU4 is compatible with **all major LoRaWAN® network servers**, including **TTN, ChirpStack, Loriot, Helium**, and **Macnman’s own cloud platform** for visualization and data management.

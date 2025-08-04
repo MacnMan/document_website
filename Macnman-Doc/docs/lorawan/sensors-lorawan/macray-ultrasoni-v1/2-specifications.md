@@ -3,8 +3,6 @@ id: specifications
 title: Specifications
 ---
 
-# Product Specifications
-
 ## Ultrasonic Sensor Parameters
 
 <table className="parameter-table">
@@ -45,6 +43,7 @@ title: Specifications
     </tr>
   </tbody>
 </table>
+
 
 ## LoRaWAN Wireless Transmission
 
@@ -133,7 +132,7 @@ title: Specifications
   <tbody>
     <tr>
       <td>Power Supply</td>
-      <td>Inbuilt Battery - 19,000 mAh , Optional Solar Panel</td>
+      <td>Inbuilt Battery - 12,000 mAh / Optional Power Operated</td>
     </tr>
     <tr>
       <td>Operating Temp</td>
@@ -148,24 +147,24 @@ title: Specifications
       <td>IP65 standard (IP67 optional variant)</td>
     </tr>
     <tr>
-      <td>Enclosure Protection</td>
-      <td>Weather-resistant (IP67 optional chemical-resistant F-Option)</td>
+      <td>Housing Material</td>
+      <td>ABS Plastic</td>
     </tr>
     <tr>
       <td>Color</td>
-      <td>Matt Grey (Sensor) , Matt White (MacSync)</td>
+      <td>Matte Black</td>
     </tr>
     <tr>
       <td>Weight</td>
-      <td>~210g (with 19Ah battery)</td>
+      <td>~140g (with 19Ah battery)</td>
     </tr>
     <tr>
       <td>Dimensions</td>
-      <td>Approx. 152 mm X 62 mm X 43 mm (customizable branding available)</td>
+      <td>Approx. 96 mm X 96 mm X 23 mm (customizable branding available)</td>
     </tr>
     <tr>
       <td>Mounting Options</td>
-      <td>Pole Mounting / Wall Mounting</td>
+      <td>Wall Mounting - Screw fix type</td>
     </tr>
   </tbody>
 </table>
