@@ -5,9 +5,9 @@
     "technology": "LoRaWAN®",
     "category": "Nodes",
     "applications": ["Smart Agriculture", "Asset Tracking"],
-    "tags": ["All", "Newly Added", "Datasheets"],
+    "tags": ["All", "Newly Added", "Datasheets", "Gateways"],
     "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
-    "image": "/img/home-page-images/co_main_front_view.svg",
+    "image": "/docs/img/home-page-images/co_main_front_view.svg",
     "link": ""
   },
   {
@@ -30,7 +30,7 @@
     "tags": ["All", "Datasheets"],
     "description": "Robust NB-IoT gateway supporting industrial standards.",
     "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/g5-gateway.pdf"
+    "link": "/docs/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction"
   },
   {
     "id": 4,
