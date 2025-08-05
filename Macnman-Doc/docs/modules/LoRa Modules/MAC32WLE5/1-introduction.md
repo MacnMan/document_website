@@ -7,11 +7,11 @@ title: Introduciton
 
 ## MAC32WLE5 LoRa Module
 
-The **MAC32ELE5** LoRa module by Macnman Technologies Pvt Ltd is a compact, ultra-low-power wireless communication solution built around the robust **STM32WL** Series microcontroller. Tailored for long-range, low-power IoT applications, this module is designed to simplify deployment while maximizing range and energy efficiency.
+The **MAC32WLE5** LoRa module by Macnman Technologies Pvt Ltd is a compact, ultra-low-power wireless communication solution built around the robust **STM32WL** Series microcontroller. Tailored for long-range, low-power IoT applications, this module is designed to simplify deployment while maximizing range and energy efficiency.
 
-Powered by a high-performance sub-GHz radio transceiver & a built-in LoRaWAN protocol stack, the MAC32ELE5 **delivers secure, reliable, and scalable connectivity** across wide-area networks. Its flexible RF performance and minimal power consumption make it an ideal choice for battery-operated devices in remote or challenging environments.
+Powered by a high-performance sub-GHz radio transceiver & a built-in LoRaWAN protocol stack, the MAC32WLE5 **delivers secure, reliable, and scalable connectivity** across wide-area networks. Its flexible RF performance and minimal power consumption make it an ideal choice for battery-operated devices in remote or challenging environments.
 
-From smart agriculture and utility metering to infrastructure monitoring & industrial automation, the MAC32ELE5 is engineered to help developers build **future-ready IoT devices** with ease, efficiency, & confidence.
+From smart agriculture and utility metering to infrastructure monitoring & industrial automation, the MAC32WLE5 is engineered to help developers build **future-ready IoT devices** with ease, efficiency, & confidence.
 
 
 

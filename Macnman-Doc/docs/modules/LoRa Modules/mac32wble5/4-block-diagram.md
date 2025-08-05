@@ -4,4 +4,4 @@ title: Block Diagram
 ---
 # Block Diagram
 
-![title image](./assets/block-diagram.png)
+![mac32wble5 block diagram](./assets/block-diagram.svg)

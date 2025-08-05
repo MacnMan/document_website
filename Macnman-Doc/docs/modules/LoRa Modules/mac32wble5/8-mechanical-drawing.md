@@ -5,7 +5,7 @@ title: Mechanical Drawing
 # Mechanical Drawing
 <br/><br/>
 
-![title image](./assets/mechanical-drawing.svg)
+![title image](./assets/mechanical-drawing.png)
 
 :::note
 
