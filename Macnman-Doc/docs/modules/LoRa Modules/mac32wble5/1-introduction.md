@@ -104,7 +104,7 @@ With its small footprint, robust RF performance, and ultra-low power design, the
   Up to 8+ km line-of-sight in rural or semi-urban areas under ideal conditions.
 
 - **Power Consumption**  
-  Sleep current < 3 µA. Active current optimized for both BLE and LoRa to enable multi-year operation on batteries.
+  Sleep current < 7 µA. Active current optimized for both BLE and LoRa to enable multi-year operation on batteries.
 
 - **Multi-Modulation Support**  
   Supports LoRa®, (G)FSK, and OOK modulations. BLE supports 1M/2M PHY for fast local communication.
