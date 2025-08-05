@@ -23,7 +23,7 @@ With its small footprint, robust RF performance, and ultra-low power design, the
   Enables long-range transmission and local provisioning or configuration via smartphone.
 
 - **Ultra Low Power Consumption**  
-  Ideal for battery-operated devices with multi-year battery life capability.
+  Ideal for battery-operated devices with multi-year battery life capability with current consumption **< 7 µA.**
 
 - **Developer-Ready SDKs**  
   Supports STM32Cube and Nordic SDKs for rapid development and customization.
