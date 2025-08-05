@@ -7,7 +7,6 @@ title: Referance Designs
 
 This is the official recommended schematic for the MAC32WLE5 module, designed for LoRa and BLE applications. It includes essential components for power, RF output, and programming interface to help you integrate the module seamlessly into your design.
 
-
 ![pcb antenna recommedantions](./assets/schematics-lora-mod.webp)
 
 #### Key Highlights

@@ -15,18 +15,18 @@ Below is the validated reference schematic for the MAC32WBLE5 module, combining 
 - **RF Output Path**  
   - A **0Ω** jumper connects the module’s RF output (`ANTEXT`) directly to the antenna connector.  
   - 50Ω-matched layout is recommended.  
-  - Optional capacitor placeholders (C45, C46) allow for fine tuning or matching if needed.
+  - Optional capacitor placeholders (C1, C2) allow for fine tuning or matching if needed.
 
 - **Antenna**  
   - Ensure antenna is placed away from noisy components and has proper ground clearance.
 
 - **Power Supply**  
-  - Decoupling capacitors C21 (4.7µF) and C22 (100nF) ensure clean supply rails.  
+  - Decoupling capacitors C3 (4.7µF) and C4 (100nF) ensure clean supply rails.  
   - Operates from a +3.3V source. VBATT, VDD, and VDDA should be connected to this regulated supply.
 
 - **Programming Interface**  
   - SWD lines (`SWDCLK`, `SWDIO`) are broken out for firmware flashing and debugging.  
-  - Compatible with standard ST-Link and J-Link debuggers.
+  - Compatible with standard ST-Link.
 
 - **Reset Circuit**  
   - A simple reset line is provided. You can connect this to a button or external controller for module reset control.
