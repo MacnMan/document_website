@@ -3,6 +3,6 @@
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "This is page about the lorawan Noise Sensors"
+    "description": "Configure noise sensor-specific parameters and LoRaWAN settings for accurate sound level monitoring and efficient wireless data transmission."
   }
 }
