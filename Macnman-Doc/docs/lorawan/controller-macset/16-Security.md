@@ -25,7 +25,7 @@ Control who can access and configure the device via the Maya app by selecting a 
 
 ## Device Sharing
 
-![security levels](/img/mayascreens/sharedevice.svg)
+![Macnman device share](/img/mayascreens/sharedevice.svg)
 
 Manage access to your devices securely through the Maya app.
 

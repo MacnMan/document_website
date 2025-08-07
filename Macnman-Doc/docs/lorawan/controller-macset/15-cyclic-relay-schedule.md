@@ -5,7 +5,7 @@ title: Cyclic Relay Schedulings
 
 ## What is Cyclic Scheduling?
 
-![single phase applicaiton](/img/controller/cyclic_scheduling_lora_controller.svg)
+![macset cyclic schedule](/img/controller/cyclic_scheduling_lora_controller.svg)
 
 ## Cyclic Schedule Setup Flow
 

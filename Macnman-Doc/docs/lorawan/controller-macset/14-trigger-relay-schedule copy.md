@@ -5,7 +5,7 @@ title: Trigger Relay Schedulings
 
 ## What is Trigger Scheduling?
 
-![single phase applicaiton](/img/controller/tigger_Schedule_diagram.svg)
+![macset trigger schedule](/img/controller/tigger_Schedule_diagram.svg)
 
 ## Trigger Schedule Setup Flow
 

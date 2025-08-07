@@ -5,7 +5,7 @@ title: Relay Testing
 
 You can manually test the relays locally using on-screen toggle buttons before final deployment.
 
-![three phase application](/img/controller/test_realys.svg)
+![test macet relays](/img/controller/test_realys.svg)
 
 - Each relay has a dedicated **toggle switch** in the Maya app or web interface.
 - Toggling allows you to **turn the relay ON or OFF instantly** for quick validation.

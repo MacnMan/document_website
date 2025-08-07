@@ -5,7 +5,9 @@ title: How to Set Triggers ?
 
 ## Settings Triggers
 
-![trigger uplinks](/img/mayascreens/tiggerset.svg)
+![Device triggers](/img/lorawan/sensors/temperaturehumi/sensor_lora_trigger.svg)
+
+
 
 You can configure the device to automatically send an uplink when a specific sensor value crosses a defined threshold.
 

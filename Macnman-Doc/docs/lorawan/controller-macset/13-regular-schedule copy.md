@@ -9,7 +9,7 @@ title: Regular Relay Schedulings
 
 The **Regular Schedule** allows users to schedule specific relays to turn ON and OFF at defined times, on selected days. This is ideal for automating lights, pumps, ventilation, and other time-based operations.
 
-![single phase applicaiton](/img/controller/regular_Schedule_lorawan_controller.svg)
+![regular schedule](/img/controller/regular_Schedule_lorawan_controller.svg)
 
 ## Regular Schedule Setup Flow
 

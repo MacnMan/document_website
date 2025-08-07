@@ -47,7 +47,7 @@ power source before connecting.
 
 ## Led Status
 
-![external supply](/img/controller/controller_led_status.webp)
+![led Status](/img/controller/controller_led_status.webp)
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">

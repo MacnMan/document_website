@@ -63,7 +63,7 @@ Follow these steps to onboard your device into your ChirpStack application:
 
 ## Testing Uplink on ChirpStack with MacSync
 
-![public server](/img/lorawan/chipstacktwopchipstacktwo.webp)
+![chirpstack lorawan server](/img/lorawan/chipstacktwopchipstacktwo.webp)
 
 After registering your device on ChirpStack, you can test the uplink using the Maya app:
 

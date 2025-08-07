@@ -6,7 +6,7 @@ title: MacSet Mounting
 
 ## Wall Mounting Procedure for MacSet
 
-![three phase application](/img/controller/macset_mounting_controller.svg)
+![macset mounting](/img/controller/macset_mounting_controller.svg)
 
 Follow these steps to securely mount the MacSet device using a standard wall mount:
 

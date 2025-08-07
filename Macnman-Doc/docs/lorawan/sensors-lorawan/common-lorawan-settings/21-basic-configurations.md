@@ -5,7 +5,7 @@ title: Basic Settings
 
 ## Device Name
 
-![title image](/img/mayascreens/name.svg)
+![Device Name](/img/lorawan/sensors/temperaturehumi/name_sensor_lorawan.svg)
 
 You can rename your device to something meaningful for easier identification — such as its location, function, or deployment area.
 
@@ -16,7 +16,7 @@ Device names can be **up to 20 characters long**. Use short, meaningful names fo
 
 ## Change Heartbeat
 
-![title image](/img/mayascreens/heartbeat.svg)
+![Device heartbeat](/img/lorawan/sensors/temperaturehumi/device_heartbeat_sensor_lora.svg)
 
 **What is Heartbeat?**  
 Heartbeat defines how often the device sends a status update to the server, even when no sensor data has changed. It helps confirm that the device is active and communicating.
@@ -28,7 +28,7 @@ A lower heartbeat interval provides more frequent status checks but may increase
 
 ## Reminisce – Data Export
 
-![title image](/img/mayascreens/reminas.svg)
+![Device histroy data](/img/lorawan/sensors/temperaturehumi/device_data_history_sen_lora.svg)
 
 The Reminisce feature allows you to retrieve and export historical data stored locally on the device.
 

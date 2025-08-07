@@ -8,7 +8,7 @@ title: Box Contains
 ## What's in the box ?
 Make sure box contains following items before installations
 
-![macset terminal](/img/controller/controller_partlist.svg)
+![Box Contains](/img/controller/controller_partlist.svg)
 
 :::note
 

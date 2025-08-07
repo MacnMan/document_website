@@ -5,7 +5,7 @@ title: LoRaWAN Network Health
 
 ## LoRaWAN Network Test
 
-![ping](/img/lorawan/ping.svg)
+![Send Uplinks](/img/lorawan/sensors/temperaturehumi/ping_test_lora_sensor.svg)
 
 When you press **Send Uplink**, the device performs:
 

@@ -43,6 +43,3 @@ Measures signal power in dBm (always negative):
 - **Very Weak:** `< -120 dBm`
 
 > **Note:** Closer to 0 = stronger signal
-
-
-s

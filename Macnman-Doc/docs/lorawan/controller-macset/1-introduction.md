@@ -16,7 +16,7 @@ With support for **RS485, analog control (0–10V / 4–20mA)**, and **relay out
 ## Product Architecture
 <br/>
 
-![title image](/img/lorawan/lorawan_controller_archi_.svg)
+![Lorawan Architecture](/img/lorawan/lorawan_controller_archi_.svg)
 
 ## Core Features
 

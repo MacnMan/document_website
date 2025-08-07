@@ -5,7 +5,7 @@ title: Data Sampling & Uploading
 
 ## Data Sampling & Upload Timings
 
-![trigger uplinks](/img/mayascreens/sampling_data.svg)
+![Device sampling](/img/lorawan/sensors/temperaturehumi/sampling_lora_sensor_data.svg)
 
 ## Data Sampling Frequency
 

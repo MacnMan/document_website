@@ -9,7 +9,7 @@ title: Schedule Home Overview
 
 The **Schedule Home** page offers a user-friendly interface to automate your controller’s relay operations. Here's what you can do:
 
-![single phase applicaiton](/img/controller/schedule_home_page.svg)
+![macset alarm set](/img/controller/schedule_home_page.svg)
 
 ## Schedule Types
 Choose from 3 powerful scheduling modes:
