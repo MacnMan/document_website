@@ -25,7 +25,7 @@ Seamlessly compatible with Macnman gateways and cloud platforms, MacSync-LW6 emp
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://drive.google.com/file/d/160C4s1MZkL_QHsDzzE9iVL3f-D2RmYdn/view?usp=sharing" 
+  <a href="https://macnman.com/downloads/MacSync-LW6.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>

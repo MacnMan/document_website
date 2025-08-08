@@ -24,7 +24,7 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://drive.google.com/file/d/160C4s1MZkL_QHsDzzE9iVL3f-D2RmYdn/view?usp=sharing" 
+  <a href="https://macnman.com/downloads/MacRay-LU1.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
