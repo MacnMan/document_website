@@ -29,7 +29,7 @@ Fully compatible with Macnman gateways and platforms, MacSync-LN1 enables smarte
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LN1)</strong>
+      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LN1.pdf)</strong>
       <p>Click here to download the full MacSync-LT1 technical datasheet
 .</p>
     </div>

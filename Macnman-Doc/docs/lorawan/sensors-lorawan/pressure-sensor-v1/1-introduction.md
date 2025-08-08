@@ -28,7 +28,7 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LPS1)</strong>
+      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LPS1.pdf)</strong>
       <p>Click here to download the full MacSync-LT1 technical datasheet
 .</p>
     </div>
