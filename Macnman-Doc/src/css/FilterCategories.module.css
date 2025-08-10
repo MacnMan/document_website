@@ -53,3 +53,15 @@
 
 /* Dark Mode */
 
+/* Mobile View - Show only 1 card per row */
+@media (max-width: 768px) {
+  .gridLayout {
+    grid-template-columns: 1fr; /* Only one column */
+    padding: 8px;               /* Reduce side padding for mobile */
+  }
+
+  .image {
+    width: 100%; /* Let image fill the card */
+    height: auto;
+  }
+}
