@@ -7,7 +7,7 @@
     "applications": ["Smart Agriculture", "Asset Tracking"],
     "tags": ["All", "Newly Added", "Datasheets", "Gateways"],
     "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
-    "image": "/docs/img/home-page-images/co_main_front_view.svg",
+    "image": "/docs/img/mac_sync/mac_sync.svg",
     "link": ""
   },
   {

@@ -1,15 +1,4 @@
-.supportContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 20px 40px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
+/* Support Section Styles : HeroSection.modules.css*/ 
 
 /* Light/Dark Mode Variables */
 :root {
@@ -24,6 +13,20 @@ html[data-theme='dark'] {
   --item-bg: #1e1e1e;
 }
 
+/* Container for support content */
+.supportContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Left section content */
 .leftContent {
   flex: 1;
   max-width: 40rem;
@@ -31,12 +34,14 @@ html[data-theme='dark'] {
   margin-top: 6px;
 }
 
+/* Heading style */
 .heading {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 1.4;
 }
 
+/* Right section with multiple info items stacked vertically */
 .rightContent {
   display: flex;
   flex-direction: column;
@@ -44,6 +49,7 @@ html[data-theme='dark'] {
   margin-right: 1.5rem;
 }
 
+/* Each info item */
 .item {
   display: flex;
   align-items: center;
@@ -53,69 +59,134 @@ html[data-theme='dark'] {
   border-radius: 8px;
 }
 
+/* Variant of item with slightly different padding and gap */
 .itemNew {
   display: flex;
   align-items: center;
   gap: 18px;
-  padding: 6px;
-  padding-left:12px;
+  padding: 6px 0 6px 12px;
   background-color: var(--item-bg);
   border-radius: 8px;
 }
 
-.avatar {
+/* Avatar images */
+.avatar,
+.avatarNew {
   width: 40px;
   height: 40px;
   border-radius: 8%;
 }
+
+/* Description text inside items */
 .description {
   font-size: 0.95rem;
   font-weight: 500;
-  margin: 0;         /* remove default paragraph margin */
-  line-height: 1.2;  /* tighten line spacing */
+  margin: 0;
+  /* remove default margins */
+  line-height: 1.2;
+  /* tighter line spacing */
 }
 
+/* Links inside the support section */
 .link {
   color: #2563eb;
   font-size: 0.85rem;
   text-decoration: none;
-  margin: 0;         /* remove any default margin */
-  display: inline-block; /* ensures no extra spacing */
+  margin: 0;
+  /* remove any default margin */
+  display: inline-block;
 }
-
 
 .link:hover {
   text-decoration: underline;
 }
 
-/* Mobile View */
+/* Responsive Styles */
 @media (max-width: 768px) {
+
+  /* Stack support container vertically */
   .supportContainer {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    align-items: center;
-    padding: 2px;
-    padding-right: 4rem;
+    padding: 0.1rem;
     margin: 0;
     gap: 0;
+    width: 100%;
+    height: 100%;
   }
-}
 
-@media (max-width: 768px) {
+  /* Left content full width and centered text */
   .leftContent {
-    top:0;
-    padding-left: 1.7rem;
-    margin-bottom: 6px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
+    padding-right: 3rem;
     margin-bottom: 0;
-    padding-bottom: 0;
+    text-align: center;
   }
-  
+
+  /* Remove bottom margins inside left content */
+  .leftContent>* {
+    margin-bottom: 0;
+  }
+
+  /* Right content horizontal, aligned left */
   .rightContent {
-    padding-left: 1.7rem;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
     width: 100%;
-    margin-top: 0;
+    padding-left: .7rem;
     padding-top: 0;
+    margin-top: 0;
+  }
+
+  /* Make each item in right content flex-grow */
+  .rightContent>div {
+    flex: 1 1 auto;
+    margin-top: 0;
+  }
+
+  /* Smaller heading on mobile */
+  .heading {
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
+  /* Smaller description text on mobile */
+  .description {
+    font-size: 0.55rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: .1;
+    /* adjusted from 0.1 for readability */
+  }
+
+  /* Smaller links on mobile */
+  .link {
+    color: #2563eb;
+    font-size: 0.45rem;
+    text-decoration: none;
+    margin-top: 0;
+    display: inline-block;
+  }
+
+  /* Avatar size overrides on mobile */
+  .avatar {
+    width: 22px !important;
+    height: 29px !important;
+    margin-bottom: 0.7rem;
+  }
+
+  .avatarNew {
+    width: 14px !important;
+    height: 20px !important;
+    transform: translateY(-6px);
   }
 }
