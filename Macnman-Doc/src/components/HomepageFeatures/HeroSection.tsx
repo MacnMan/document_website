@@ -25,7 +25,8 @@ const SupportSection: React.FC = () => {
                     />
                     <div>
                         <p className={styles.description}>Designing Your Wireless Solution?</p>
-                        <a href="#" className={styles.link}>Call a Specialist</a>
+                        {/* <a href="#" className={styles.link}>Call a Specialist</a> */}
+                        <a href="tel:+91 7972856163" className={styles.link}>Call a Specialist</a>
                     </div>
                 </div>
 

@@ -1,16 +1,16 @@
-/* Support Section Styles : HeroSection.modules.css*/ 
+/* Support Section Styles : HeroSection*/ 
 
 /* Light/Dark Mode Variables */
 :root {
   --bg-color: #ffffff;
   --text-color: #111111;
-  --item-bg: #f9f9f9;
+  /* --item-bg: #f9f9f9; */
 }
 
 html[data-theme='dark'] {
   --bg-color: #1e1e20;
   --text-color: #ffffff;
-  --item-bg: #1e1e1e;
+  /* --item-bg: #1e1e1e; */
 }
 
 /* Container for support content */
@@ -49,24 +49,24 @@ html[data-theme='dark'] {
   margin-right: 1.5rem;
 }
 
-/* Each info item */
-.item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 10px;
-  background-color: var(--item-bg);
-  border-radius: 8px;
-}
+  /* Each info item */
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+    /* background-color: var(--item-bg); */
+    border-radius: 8px;
+  }
 
-/* Variant of item with slightly different padding and gap */
-.itemNew {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  padding: 6px 0 6px 12px;
-  background-color: var(--item-bg);
-  border-radius: 8px;
+  /* Variant of item with slightly different padding and gap */
+  .itemNew {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 6px 0 6px 12px;
+    /* background-color: var(--item-bg); */
+    border-radius: 8px;
 }
 
 /* Avatar images */
