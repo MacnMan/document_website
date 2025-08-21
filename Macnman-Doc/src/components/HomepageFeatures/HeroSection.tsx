@@ -21,7 +21,7 @@ const SupportSection: React.FC = () => {
                         src="/docs/img/HeroSection/circle-girl.svg"
                         alt="Specialist"
                         className={styles.avatar}
-                        style={{ width: '42px', height: '49px' }}
+                        style={{ width: '38px', height: '44px' }}
                     />
                     <div>
                         <p className={styles.description}>Designing Your Wireless Solution?</p>
@@ -36,7 +36,7 @@ const SupportSection: React.FC = () => {
                         src="/docs/img/HeroSection/shopping-bag 2.svg"
                         alt="Explore"
                         className={styles.avatarNew}
-                        style={{ width: '34px', height: '40px' }}
+                        style={{ width: '29px', height: '35px' }}
                     />
                     <div>
                         <p className={styles.description}>Discover complete lineup</p>

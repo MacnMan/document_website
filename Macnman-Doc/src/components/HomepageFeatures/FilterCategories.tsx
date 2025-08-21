@@ -31,6 +31,7 @@ export default function FilterCategory() {
               <img src={product.image} alt={product.name} className={styles.image} />
             </a>
             <div className={styles.productName}>{product.name}</div>
+            <div className={styles.productdes}>{product.description}</div>
           </div>
         ))}
       </div>

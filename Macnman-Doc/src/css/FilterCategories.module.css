@@ -2,10 +2,10 @@
 
 .gridLayout {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 8px 34px 0 8px;
-    /* Enable scrolling if overflow */
+  /* Enable scrolling if overflow */
   overflow-x: auto;
 
   /* Hide scrollbar for Firefox */
@@ -25,13 +25,14 @@
 .gridItem {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* corrected from 'left' */
+  align-items: flex-start;
+  /* corrected from 'left' */
   text-align: left;
 }
 
 .image {
   background-color: rgba(128, 128, 128, 0.062);
-  width: 240px;
+  width: 295px;
   height: 238px;
   object-fit: contain;
   cursor: pointer;
@@ -40,7 +41,7 @@
 }
 
 .image:hover {
-  transform: scale(1.05);
+  transform: scale(1);
 }
 
 .productName {
@@ -49,6 +50,19 @@
   margin-left: 0.5rem;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
+}
+
+.productdes {
+  text-align: start;
+  margin-top: 0.1rem;
+  margin-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 200;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .1px;
+  line-height: 1.2;
+  margin-bottom: 2rem ;
 }
 
 .title {

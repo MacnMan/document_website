@@ -24,7 +24,7 @@
   position: sticky;
   top: 60px; /* adjust for navbar height */
   max-height: calc(100vh - 60px);
-  border-right: 1px solid #e0e0e0;
+  /* border-right: 1px solid #e0e0e0; */
   overflow-y: auto; /* allow vertical scrolling */
   overflow-x: hidden;
 }

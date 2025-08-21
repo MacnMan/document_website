@@ -1,4 +1,4 @@
-/* Support Section Styles : HeroSection*/ 
+/* Support Section Styles : HeroSection*/
 
 /* Light/Dark Mode Variables */
 :root {
@@ -28,10 +28,11 @@ html[data-theme='dark'] {
 
 /* Left section content */
 .leftContent {
+  text-align: left;
   flex: 1;
   max-width: 40rem;
-  margin-left: 1.5rem;
-  margin-top: 6px;
+  /* margin-left: 1.5rem; */
+  margin-top: 1.3rem;
 }
 
 /* Heading style */
@@ -49,37 +50,38 @@ html[data-theme='dark'] {
   margin-right: 1.5rem;
 }
 
-  /* Each info item */
-  .item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 10px;
-    /* background-color: var(--item-bg); */
-    border-radius: 8px;
-  }
+/* Each info item */
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  /* background-color: var(--item-bg); */
+  border-radius: 8px;
+}
 
-  /* Variant of item with slightly different padding and gap */
-  .itemNew {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    padding: 6px 0 6px 12px;
-    /* background-color: var(--item-bg); */
-    border-radius: 8px;
+/* Variant of item with slightly different padding and gap */
+.itemNew {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+  gap: 14px;
+  padding: 6px 0 6px 12px;
+  /* background-color: var(--item-bg); */
+  border-radius: 8px;
 }
 
 /* Avatar images */
 .avatar,
 .avatarNew {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 8%;
 }
 
 /* Description text inside items */
 .description {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-weight: 500;
   margin: 0;
   /* remove default margins */
@@ -90,7 +92,7 @@ html[data-theme='dark'] {
 /* Links inside the support section */
 .link {
   color: #2563eb;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-decoration: none;
   margin: 0;
   /* remove any default margin */
