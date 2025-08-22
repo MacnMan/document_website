@@ -39,6 +39,12 @@
   color: rgba(0, 0, 0, 0.767);
 }
 
+/* Dark mode sidebar */
+html[data-theme='dark'] .optionsWrapper {
+  background-color: #1e1e20;
+  color: #fff;
+}
+
 /* Filter group spacing */
 .filterGroup {
   margin-top: 1.3rem;

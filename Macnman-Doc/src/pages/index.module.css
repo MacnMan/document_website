@@ -63,6 +63,7 @@ html[data-theme='dark'] .container {
 
 html[data-theme='dark'] .sidebar {
   background-color: #1e1e20;
+  color: white;
 }
 
 html[data-theme='dark'] .main,
