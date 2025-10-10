@@ -5,17 +5,6 @@ title: Introduciton
 
 # MacSync-LT1
 
-This it the test device
-<div class="youtube-video-wrapper">
-  <iframe 
-      src="https://www.youtube.com/embed/U1dPMj7pkjo?autoplay=1&mute=1&controls=0&rel=0&modestbranding=1" 
-      title="YouTube video" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-  </iframe>
-</div>
-
 ## Product Overview
 
 The **MacSync-LT1 is a high-precision, low-power Temperature & Humidity sensor** designed for seamless integration into LoRaWAN® networks. Built with industrial-grade components and a robust enclosure, this sensor ensures reliable and accurate temperature monitoring across a wide range of applications. Whether you’re tracking environmental conditions in warehouses, cold storage units, or outdoor infrastructure, MacSync-LT1 delivers real-time Temperature & Humidity updates directly to your dashboard.

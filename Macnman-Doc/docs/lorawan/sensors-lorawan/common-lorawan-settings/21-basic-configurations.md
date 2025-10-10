@@ -3,7 +3,24 @@ id: maya_configuration_sensors_common
 title: Basic Settings
 ---
 
+----
 ## Device Name
+
+#### How to change the device name (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/CCfK_WsLU8M?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
 
 ![Device Name](/img/lorawan/sensors/temperaturehumi/name_sensor_lorawan.svg)
 
@@ -14,7 +31,25 @@ You can rename your device to something meaningful for easier identification —
 
 Device names can be **up to 20 characters long**. Use short, meaningful names for quick recognition during field operations.
 
+---
+
 ## Change Heartbeat
+
+#### How to change the device Heartbeat (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/Nvs9ieDLXJQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
 
 ![Device heartbeat](/img/lorawan/sensors/temperaturehumi/device_heartbeat_sensor_lora.svg)
 
@@ -24,9 +59,27 @@ Heartbeat defines how often the device sends a status update to the server, even
 - **Example**  
   If the heartbeat is set to `15 minutes`, the device will send a signal to the server every 15 minutes, regardless of data changes
 
-A lower heartbeat interval provides more frequent status checks but may increase power consumption on battery-powered devices.s
+A lower heartbeat interval provides more frequent status checks but may increase power consumption on battery-powered devices.
 
+--- 
 ## Reminisce – Data Export
+
+#### How to download the historical data (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/YqeQXAaq8ww?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
+
 
 ![Device histroy data](/img/lorawan/sensors/temperaturehumi/device_data_history_sen_lora.svg)
 
