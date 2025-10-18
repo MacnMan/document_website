@@ -5,6 +5,22 @@ title: Basic Settings
 
 ## Device Name
 
+#### How to change the device name (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/CCfK_WsLU8M?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
+
 ![title image](/img/mayascreens/name.svg)
 
 You can rename your device to something meaningful for easier identification — such as its location, function, or deployment area.
@@ -14,7 +30,25 @@ You can rename your device to something meaningful for easier identification —
 
 Device names can be **up to 20 characters long**. Use short, meaningful names for quick recognition during field operations.
 
+---
+
 ## Change Heartbeat
+
+#### How to change the uplink time  (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/Nvs9ieDLXJQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
 
 ![title image](/img/mayascreens/heartbeat.svg)
 
@@ -26,7 +60,26 @@ Heartbeat defines how often the device sends a status update to the server, even
 
 A lower heartbeat interval provides more frequent status checks but may increase power consumption on battery-powered devices.s
 
+---
+
 ## Reminisce – Data Export
+
+#### How to Download Historical data ? (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/YqeQXAaq8ww?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
+
 
 ![title image](/img/mayascreens/reminas.svg)
 

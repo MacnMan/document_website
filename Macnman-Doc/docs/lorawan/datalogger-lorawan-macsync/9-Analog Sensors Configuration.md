@@ -5,6 +5,22 @@ title: Analog Settings
 
 ## Setting Up Analog Sensors
 
+#### How to configure Analog Deivce in Macsync ? (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/mSR3jShFep4?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
+
 ![analog mode](/img/datalogger/analog_selectio.svg)
 
 - **RS485 & Analog Mode Switching**  

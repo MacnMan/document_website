@@ -5,6 +5,22 @@ title: LoRaWAN Network Health
 
 ## LoRaWAN Network Test
 
+#### How to check LoRaWAN Network Health in Macsync ? (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/ZBvSJQ9IE5w?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
+
 ![ping](/img/lorawan/ping.svg)
 
 When you press **Send Uplink**, the device performs:

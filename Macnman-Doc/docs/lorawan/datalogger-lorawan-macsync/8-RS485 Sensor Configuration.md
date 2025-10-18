@@ -5,6 +5,22 @@ title: RS485 Configuration
 
 ## RS485 Selection
 
+#### How to configure RS485 Deivce in Macsync ? (Video Demo) :
+
+<div class="youtube-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/8IIWk9jCm1E?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
+    title="YouTube video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<br/>
+
+#### Step-by-Step Configuration Guide : 
+
 ![rs485 selection](/img/datalogger/selection_rs485.svg)
 
 - **RS485 & Analog Mode Switching**  
@@ -13,9 +29,8 @@ To connect a sensor, first select the appropriate mode — either RS485 or Analo
 - **RS485 Address Configuration**  
   Once **RS485 mode** is selected, **navigate to the RS485 Address** section to configure the device address and other communication parameters required for the sensor to function correctly.
 
-
+--- 
 ## Power Output & Initialization Settings - RS485 
-
 
 ![power output](/img/datalogger/power_output.svg)
 
