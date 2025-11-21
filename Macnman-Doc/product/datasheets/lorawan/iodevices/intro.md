@@ -22,10 +22,9 @@ With support for LoRaWAN® v1.0.4, Macnman MacTalk Protocol, Class A & C modes, 
 
 Whether you’re building a smart factory, deploying large-scale IoT networks, or retrofitting legacy equipment, MacSync-LX2-STD-PO delivers seamless, scalable, and future-proof connectivity—turning any industrial sensor into a smart LoRaWAN® endpoint.
 
-
-| ![Image 1](/img/lorawan/sensors/temperaturehumi/noise_sensor_lora_one.webp) | ![Image 1](/img/lorawan/sensors/temperaturehumi/nsthree.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/temperaturehumi/back.webp) | ![Image 1](/img/lorawan/sensors/temperaturehumi/nstwo.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -420,24 +419,48 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
+##  MacSync-LX2-STD-PO Variants
 
+<table className="parameter-table">
+  <thead>
+    <tr>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Battery Capacity</th>
+      <th>Solar Support</th>
+      <th>External Flash</th>
+      <th>Ideal For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MacSync-L-STD-PO-X1</td>
+      <td>12–24 V (Power)</td>
+      <td>✖️</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>Industrial or commercial sites with stable power supply</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-STD-BO</td>
+      <td>Battery</td>
+      <td>19 Ah</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>Remote or portable deployments with low power</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-STD-SO-X1</td>
+      <td>Solar + Battery</td>
+      <td>12 Ah</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>Outdoor, off-grid, and energy-autonomous environments</td>
+    </tr>
+  </tbody>
+</table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- 
 <table className="spec-table">
   <thead>
     <tr>
@@ -476,45 +499,4 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </tbody>
 </table>
 
-
-##  MacSync-LN1 LoRaWAN Variants
-
-<table className="parameter-table">
-  <thead>
-    <tr>
-      <th>Variant Name</th>
-      <th>Power Source</th>
-      <th>Battery Capacity</th>
-      <th>Solar Support</th>
-      <th>External Flash</th>
-      <th>Ideal For</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>MacSync Power Operated (Standard)</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacSync Battery Operated</td>
-      <td>Battery</td>
-      <td>19 Ah</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
-    </tr>
-    <tr>
-      <td>MacSync Solar + Battery</td>
-      <td>Solar + Battery</td>
-      <td>12 Ah</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>Outdoor, off-grid, and energy-autonomous environments</td>
-    </tr>
-  </tbody>
-</table>
-
+-->
