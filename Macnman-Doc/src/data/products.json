@@ -117,7 +117,7 @@
     "applications": ["Smart Agriculture", "Asset Tracking"],
     "tags": ["All", "Newly Added", "Datasheets"],
     "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
-    "image": "/docs/img/devices/lorawan-time-of-flight-sensor-macnman.webp",
+    "image": "/docs/img/devices/macsync-pressure-sensor-logo-gen-one.webp",
     "link": "/docs/lx100.pdf"
   },
   {
