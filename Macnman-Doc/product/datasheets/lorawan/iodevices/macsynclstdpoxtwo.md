@@ -1,6 +1,6 @@
 ---
-id: macsync-l-std-power-operated-gen-one
-title: MacSync-L-STD-PO
+id: macsync-l-std-power-operated-x-two
+title: MacSync-L-STD-PO-X2
 sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
