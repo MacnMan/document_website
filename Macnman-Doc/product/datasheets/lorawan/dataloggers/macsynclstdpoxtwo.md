@@ -4,10 +4,23 @@ title: MacSync-L-STD-PO-X2
 sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - iot data logger
-  - lorawan sensor
+  - rs485 to lorawan
+  - analog to lorawan
+  - modbus rtu lorawan
+  - lorawan data logger
+  - lorawan industrial controller
+  - 4-20ma lorawan transmitter
+  - 0-10v lorawan interface
+  - macsync
   - macnman
-  - industrial controller
+  - industrial iot data logger
+  - lorawan automation
+  - industrial sensor gateway
+  - rs485 modbus converter
+  - lorawan monitoring device
+  - long range wireless logger
+  - lorawan plc interface
+
 ---
 
 # MacSync-LX2-STD-PO
@@ -313,6 +326,25 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
+    Supported <br /> LNS
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Supports Major LNS</p>
+    <p className="value">Private LNS</p>
+    <p className="value">Chirpstack</p>
+    <p className="value">The Things Networks</p>
+    <p className="value">MQTT</p>
+    <p className="value">Orbiwise</p>
+    <p className="value">LORIOT</p>
+    <p className="value">Direct PLC On-Prim Installations</p>
+    <br />  
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
@@ -407,7 +439,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
   <div className="spec-block-details">
     <p className="label">Data Encryption</p>
-    <p className="value">AES-128 end-to-end encryption</p>
+    <p className="value">AES-256 end-to-end encryption</p>
     <br />
     <p className="label">Authentication</p>
     <p className="value">OTAA activation modes</p>
@@ -500,3 +532,27 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </table>
 
 -->
+
+## What's in the box ?
+
+Make sure box contains following items before installations
+
+![title image](/img/datalogger/whatsbox.svg)
+
+:::note
+
+Accessories must be purchased separately & may 
+not be included in the box.
+
+:::
+
+## Product Dimensions
+
+![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+
+:::note
+
+Accessories must be purchased separately & may 
+not be included in the box.
+
+:::

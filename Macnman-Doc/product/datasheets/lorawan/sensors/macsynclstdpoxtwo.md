@@ -1,8 +1,8 @@
 ---
-id: macsync-l-std-battery-operated-gen-one
-title: MacSync-L-STD-BO
-sidebarposition: 3
-description: Ultra-rugged LoRaWAN IoT device with long-range wireless and low-power architecture.
+id: macsync-l-std-power-operated-x-two
+title: MacSync-L-STD-PO-X2
+sidebarposition: 1
+description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - rs485 to lorawan
   - analog to lorawan
@@ -20,36 +20,35 @@ keywords:
   - lorawan monitoring device
   - long range wireless logger
   - lorawan plc interface
+
 ---
 
 # MacSync-LX2-STD-PO
 
 ## Product Overview
 
-**MacSync-L-STD-BO** is a high-reliability, battery-powered RS485 & Analog to LoRaWAN® data logger, engineered for long-term industrial and remote monitoring. Powered by a massive 19Ah battery, it delivers uninterrupted multi-year operation without external power, making it ideal for off-grid locations and hard-to-access installations.
+**MacSync-LX2-STD-PO** is a high-performance **RS485 & Analog to LoRaWAN®** data logger, engineered for reliable industrial data acquisition in demanding environments. Designed for seamless integration with a wide range of MODBUS sensors, industrial meters, PLCs, transducers, and analog instruments, this device converts field data into long-range wireless LoRaWAN® packets with exceptional accuracy and stability.
 
-The device seamlessly integrates with MODBUS RTU sensors, industrial meters, PLCs, transmitters, and analog instruments, converting real-time field data into long-range LoRaWAN® packets with outstanding accuracy and stability. With switchable **RS485 / 4–20 mA / 0–10 V channels**, a single device supports multiple sensor types—minimizing hardware variants and simplifying deployments.
+Equipped with **switchable RS485 / 4–20 mA / 0–10 V channels**, the MacSync-LX2-STD-PO adapts to virtually any industrial monitoring application—eliminating the need for multiple product variants. Its rugged enclosure, industrial-grade components, and ultra-stable power architecture make it ideal for factories, utilities, agriculture, process industries, environmental monitoring, cold storage, building automation, and remote asset telemetry.
 
-Built inside a rugged IP66 enclosure, MacSync-L-STD-BO is designed for harsh environments, including agriculture, utilities, infrastructure, environmental stations, and industrial telemetry applications. Its ultra-low-power firmware architecture ensures extended battery life, even with periodic reporting and event-based uplinks.
+With support for LoRaWAN® v1.0.4, Macnman MacTalk Protocol, Class A & C modes, and an internal high-efficiency antenna, it offers ultra-long-range communication, minimal power consumption, and carrier-grade reliability. The device also includes secure onboarding, OTA configuration via BLE (Maya App), and optional onboard data buffering for fail-safe operation even during network outages.
 
-The device supports **LoRaWAN® v1.0.4, Macnman MacTalk Protocol**, Class A & Class C, BLE-enabled OTA configuration (via the Maya App), and onboard data buffering to prevent data loss during network downtime. An integrated high-efficiency antenna ensures strong, stable long-range connectivity in all terrains.
+Whether you’re building a smart factory, deploying large-scale IoT networks, or retrofitting legacy equipment, MacSync-LX2-STD-PO delivers seamless, scalable, and future-proof connectivity—turning any industrial sensor into a smart LoRaWAN® endpoint.
 
-Whether you’re monitoring remote assets, collecting environmental and process data, or building scalable wireless automation, MacSync-L-STD-BO transforms any industrial sensor into a self-powered, long-range LoRaWAN® endpoint.
-
-| ![Front view of MacSync-L-STD-BO battery-powered RS485 and analog to LoRaWAN data logger](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![ Side view of MacSync-L-STD-BO industrial LoRaWAN data logger with 19Ah battery](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
 |--------------------------------|--------------------------------|
-| ![Back view of MacSync-L-STD-BO showing enclosure and wiring ports for RS485 and analog inputs](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Internal layout of MacSync-L-STD-BO battery-operated LoRaWAN telemetry device](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-L-STD.pdf" 
+  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-L-STD.pdf)</strong>
+      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>
@@ -80,11 +79,6 @@ Whether you’re monitoring remote assets, collecting environmental and process 
     Supports industry-standard analog sensors and digital switches.
   </div>
 
-  <div className="reusable-feature-card">
-    <strong>19 Ah Inbuilt Battery</strong>
-    Li-SOCl2 multi-year battery life for applications
-  </div>
-  
   <div className="reusable-feature-card">
     <strong>Compatible with Energy Meters, PLCs & Transmitters</strong>
     Designed for universal industrial integration.
@@ -332,6 +326,25 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
+    Supported <br /> LNS
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Supports Major LNS</p>
+    <p className="value">Private LNS</p>
+    <p className="value">Chirpstack</p>
+    <p className="value">The Things Networks</p>
+    <p className="value">MQTT</p>
+    <p className="value">Orbiwise</p>
+    <p className="value">LORIOT</p>
+    <p className="value">Direct PLC On-Prim Installations</p>
+    <br />  
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
@@ -426,7 +439,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
   <div className="spec-block-details">
     <p className="label">Data Encryption</p>
-    <p className="value">AES-128 end-to-end encryption</p>
+    <p className="value">AES-256 end-to-end encryption</p>
     <br />
     <p className="label">Authentication</p>
     <p className="value">OTAA activation modes</p>
@@ -519,3 +532,27 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </table>
 
 -->
+
+## What's in the box ?
+
+Make sure box contains following items before installations
+
+![title image](/img/datalogger/whatsbox.svg)
+
+:::note
+
+Accessories must be purchased separately & may 
+not be included in the box.
+
+:::
+
+## Product Dimensions
+
+![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+
+:::note
+
+Accessories must be purchased separately & may 
+not be included in the box.
+
+:::
