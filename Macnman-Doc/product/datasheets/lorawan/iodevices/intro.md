@@ -301,17 +301,128 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="label">Uplink Modes</p>
     <p className="value">Time Based / Threshold Based / Sampling Based</p>
     <br />
-    <p className="label">Flashing Blue</p>
-    <p className="value">OTA (Over-the-Air) update in progress</p>
+    <p className="label">Stored Records*</p>
+    <p className="value">30,000 Records</p>
     <br />
-    <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
-    <br />
-    <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
+    <p className="label">Remote Configuration</p>
+    <p className="value">JSON Format Data - from server</p>    
     <br />
   </div>
 </div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Physical <br /> Characteristics
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Power Supply</p>
+    <p className="value">9-36 V DC</p>
+    <br />
+    <p className="label">Operating Temperature</p>
+    <p className="value">-40°C to +80°C</p>
+    <br />
+    <p className="label">Humidity Range</p>
+    <p className="value">0% to 100% RH (non-condensing)</p>
+    <br />
+    <p className="label">Ingress Protection</p>
+    <p className="value">IP65 standard (IP67 optional variant)</p>    
+    <br />
+    <p className="label">Housing Material</p>
+    <p className="value">Glass field Nylon</p>    
+    <br />
+    <p className="label">Color</p>
+    <p className="value">Matte White</p>    
+    <br />
+    <p className="label">Weight</p>
+    <p className="value">~110g</p>    
+    <br />
+    <p className="label">Mounting Options</p>
+    <p className="value">Pole Mounting / Wall Mounting</p>    
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Electrical <br /> Characteristics
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Input Voltage Range</p>
+    <p className="value">9-36 V DC (External Supply)</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Input Impedance</p>
+    <p className="value">>10 MΩ for voltage inputs</p>
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Communication <br /> Options
+  </div>
+  <div className="spec-block-details">
+    <p className="label">BLE Connectivity</p>
+    <p className="value">For local configuration and diagnostics via Maya App</p>
+    <br />
+    <p className="label">Cloud Protocols</p>
+    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <br />
+    <p className="label">Serial Interface</p>
+    <p className="value">RS485 Modbus RTU support (optional)</p>
+    <br />
+  </div>
+</div>
+
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Certifications & <br /> Compliance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">WPC</p>
+    <p className="value">Compliant</p>
+    <br />
+    <p className="label">RoHS</p>
+    <p className="value">Conforms to RoHS directive</p>
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Security & <br /> Encryption
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Data Encryption</p>
+    <p className="value">AES-128 end-to-end encryption</p>
+    <br />
+    <p className="label">Authentication</p>
+    <p className="value">OTAA activation modes</p>
+    <br />
+    <p className="label">Firmware Protection</p>
+    <p className="value">Secure boot and signed OTA updates</p>
+    <br />
+  </div>
+</div>
+
+
+
+
+
 
 
 
