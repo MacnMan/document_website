@@ -38,14 +38,10 @@ The device integrates AES-256 encrypted LoRaWAN® communication, over-the-air co
 
 Whether supporting smart water utilities, sewer & drainage systems, liquid storage tanks, waste tracking, or environmental flood alerts, MacRay-LU4 converts real-world level conditions into instant data, enabling proactive maintenance, reduced operational costs, and smarter city infrastructure.
 
-Macnman-Doc/static/img/lorawan/macray/macray-lu4-back-connector-view.webp
-Macnman-Doc/static/img/lorawan/macray/macray-lu4-front-view.webp
-Macnman-Doc/static/img/lorawan/macray/macray-lu4-installation-view.webp
-Macnman-Doc/static/img/lorawan/macray/macray-lu4-side-view.webp
 
-| ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/macray/macray-lu4-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
+| ![](/img/lorawan/macray/macray-lu4-front-view.webp) | ![](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/macray/macray-lu4-side-view.webp) |
+| ![](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![](/img/lorawan/macray/macray-lu4-side-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -279,7 +275,7 @@ Macnman-Doc/static/img/lorawan/macray/macray-lu4-side-view.webp
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
+    <p className="value">A confirmed parameter of MacRay is being modified</p>
     <br />
 
 
@@ -370,7 +366,7 @@ Macnman-Doc/static/img/lorawan/macray/macray-lu4-side-view.webp
     <p className="value">Glass field Nylon</p>    
     <br />
     <p className="label">Color</p>
-    <p className="value">Matte White</p>    
+    <p className="value">Matte Black</p>    
     <br />
     <p className="label">Weight</p>
     <p className="value">~110g</p>    
@@ -535,7 +531,7 @@ Macnman-Doc/static/img/lorawan/macray/macray-lu4-side-view.webp
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
