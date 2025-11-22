@@ -439,6 +439,50 @@
     "description": "Wireless ammonia gas monitoring for safety and air quality",
     "image": "/docs/img/devices/macsync-h2s-sensor-lorawan.webp",
     "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 41,
+    "name": "LoRaWAN Gas Module X2",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": "Wireless retrofit solution for smart gas metering",
+    "image": "/docs/img/devices/lorawan-gas-sensor-retrofit-module.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 42,
+    "name": "Macnman Ble Tag3",
+    "technology": "Ble",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": " BLE beacon with environmental sensing & motion detection.",
+    "image": "/docs/img/devices/macnman-ble-temperature-humidity-sensor-tag.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 43,
+    "name": "Macnman Ble DoorTag X2",
+    "technology": "Ble",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": "Wireless door open/close status sensor.",
+    "image": "/docs/img/devices/macnman-door-open-close-sensor.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 44,
+    "name": "UWB MacTag3",
+    "technology": "UWB",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": "Industrial-grade UWB tracking tag",
+    "image": "/docs/img/devices/uwb-tag-mactag-four.webp",
+    "link": "/docs/bg-10.pdf"
   }
 ]
 
