@@ -1,43 +1,51 @@
 ---
-id: macsync-l-std-power-operated-x-two
-title: MacSync-L-STD-PO-X2
-sidebarposition: 1
+id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
+title: MacRay-LU4
+sidebarposition: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - rs485 to lorawan
-  - analog to lorawan
-  - modbus rtu lorawan
-  - lorawan data logger
-  - lorawan industrial controller
-  - 4-20ma lorawan transmitter
-  - 0-10v lorawan interface
-  - macsync
-  - macnman
-  - industrial iot data logger
-  - lorawan automation
-  - industrial sensor gateway
-  - rs485 modbus converter
-  - lorawan monitoring device
-  - long range wireless logger
-  - lorawan plc interface
-
+  - lorawan ultrasonic level sensor
+  - sub 4 meter ultrasonic sensor
+  - manhole level monitoring sensor
+  - smart water management iot device
+  - underground drainage monitoring
+  - sewer level monitoring system
+  - tank liquid level measurement
+  - flood detection sensor lorawan
+  - sump pit level monitoring iot
+  - water utility smart metering solution
+  - ultrasonic distance measurement iot
+  - industrial waste water monitoring
+  - long range wireless water level sensor
+  - battery powered lorawan sensor
+  - ultrasonic level transmitter lorawan
+  - smart city drainage monitoring sensor
+  - environmental monitoring sensor lorawan
+  - ip67 rugged ultrasonic sensor
+  - remote tank monitoring solution
+  - industrial iot automation device
 ---
 
-# MacSync-LX2-STD-PO
+# MacRay-LU4 Datasheet
 
 ## Product Overview
 
-**MacSync-LX2-STD-PO** is a high-performance **RS485 & Analog to LoRaWAN®** data logger, engineered for reliable industrial data acquisition in demanding environments. Designed for seamless integration with a wide range of MODBUS sensors, industrial meters, PLCs, transducers, and analog instruments, this device converts field data into long-range wireless LoRaWAN® packets with exceptional accuracy and stability.
+MacRay-LU4 is a **rugged LoRaWAN® ultrasonic level sensor** designed for short-range precision (0–4 meters) monitoring of liquids and solids in harsh outdoor and industrial environments. With advanced time-of-flight ultrasonic measurement and intelligent echo processing technology, it ensures high-accuracy level detection for tanks, pits, manholes, sumps, reservoirs, waste processing chambers, and flood monitoring systems.
 
-Equipped with **switchable RS485 / 4–20 mA / 0–10 V channels**, the MacSync-LX2-STD-PO adapts to virtually any industrial monitoring application—eliminating the need for multiple product variants. Its rugged enclosure, industrial-grade components, and ultra-stable power architecture make it ideal for factories, utilities, agriculture, process industries, environmental monitoring, cold storage, building automation, and remote asset telemetry.
+Engineered with **IP67 sensor protection**, corrosion-resistant housing, and advanced interference filtering, the MacRay-LU4 operates reliably in moisture-rich, chemically aggressive, and dusty environments where traditional level sensors fail. It supports LoRaWAN® Class A, long-range coverage, and offers multi-year battery performance, making it ideal for remote and unmanned sites.
 
-With support for LoRaWAN® v1.0.4, Macnman MacTalk Protocol, Class A & C modes, and an internal high-efficiency antenna, it offers ultra-long-range communication, minimal power consumption, and carrier-grade reliability. The device also includes secure onboarding, OTA configuration via BLE (Maya App), and optional onboard data buffering for fail-safe operation even during network outages.
+The device integrates AES-256 encrypted LoRaWAN® communication, over-the-air configuration via Maya App (BLE), and supports intelligent uplink modes including periodic, event-driven, and threshold-based triggers — enabling energy-efficient deployments at scale.
 
-Whether you’re building a smart factory, deploying large-scale IoT networks, or retrofitting legacy equipment, MacSync-LX2-STD-PO delivers seamless, scalable, and future-proof connectivity—turning any industrial sensor into a smart LoRaWAN® endpoint.
+Whether supporting smart water utilities, sewer & drainage systems, liquid storage tanks, waste tracking, or environmental flood alerts, MacRay-LU4 converts real-world level conditions into instant data, enabling proactive maintenance, reduced operational costs, and smarter city infrastructure.
 
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+Macnman-Doc/static/img/lorawan/macray/macray-lu4-back-connector-view.webp
+Macnman-Doc/static/img/lorawan/macray/macray-lu4-front-view.webp
+Macnman-Doc/static/img/lorawan/macray/macray-lu4-installation-view.webp
+Macnman-Doc/static/img/lorawan/macray/macray-lu4-side-view.webp
+
+| ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/macray/macray-lu4-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/macray/macray-lu4-side-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -58,7 +66,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LX2-STD-PO</p>
+      <p>Click here to view the decoders for MacRay-LU4</p>
     </div>
   </a>
 </div>
@@ -68,129 +76,105 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 ## Key Features
 
 <div className="reusable-feature-grid">
+<div className="reusable-feature-card">
+  <strong>Short‑Range Precision Sensing</strong>
+  Optimized ultrasonic measurement for 0–4 meters liquid and solid level monitoring.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>RS485 (MODBUS RTU) Interface</strong>
-    Seamlessly connects with industrial controllers, meters, and smart instruments.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Advanced Echo Processing</strong>
+  Intelligent filtering eliminates false readings from foam, turbulence, and obstructions.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>4–20 mA, 0–10 V & Digital Inputs</strong>
-    Supports industry-standard analog sensors and digital switches.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Battery‑Powered LoRaWAN®</strong>
+  Multi‑year autonomous operation with ultra‑low‑power wireless communication.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Compatible with Energy Meters, PLCs & Transmitters</strong>
-    Designed for universal industrial integration.
-  </div>
+<div className="reusable-feature-card">
+  <strong>IP67 Rugged Design</strong>
+  Durable and corrosion‑resistant enclosure built for harsh outdoor and underground environments.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Multiple Analog Channels</strong>
-    Enables simultaneous monitoring of multiple process parameters.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Smart Uplink Strategies</strong>
+  Periodic, event‑based & threshold alerts optimize power consumption and network traffic.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Robust & Weatherproof</strong>
-    Built with an industrial-grade enclosure suitable for harsh environments.
-  </div>
+<div className="reusable-feature-card">
+  <strong>BLE Configuration via Maya App</strong>
+  Quick setup, OTA parameter adjustment & diagnostics using a smartphone.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Smart Uplink Modes</strong>
-    Supports periodic, threshold-based, and event-driven LoRaWAN uplinks.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Wide Industrial Use</strong>
+  Designed for manholes, sewer drains, tanks, pits, reservoirs & flood monitoring.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Designed for Industrial & Outdoor Deployments</strong>
-    Perfect for factories, utilities, agriculture, and remote monitoring.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Secure & Long‑Range Communication</strong>
+  AES‑128 encrypted LoRaWAN® connectivity with strong penetration in remote areas.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Easy BLE Configuration</strong>
-    Local setup and diagnostics made simple with the Maya mobile app.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Flexible Deployment Options</strong>
+  Supports pole, wall, and custom mount installation for easy field deployment.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol Support</strong>
-    Enables device-to-device LoRa communication without a gateway.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Secure Onboarding</strong>
-    Ships with pre-flashed DevEUI, AppEUI, and AppKey for fast activation.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Direct Control & Local Automation</strong>
-    Supports local device-to-device actions without cloud dependency.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Optional Onboard Data Buffering</strong>
-    Prevents data loss during network downtime by storing records locally.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Fully LoRaWAN® Compatible</strong>
-    Works with all network servers and standard LoRaWAN gateways.
-  </div>
-
+<div className="reusable-feature-card">
+  <strong>Compatible with All LoRaWAN® Networks</strong>
+  Works seamlessly with private/public network servers and cloud platforms.
+</div>
 </div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
-
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Connects PLCs, RTUs, and industrial controllers to LoRaWAN networks for real-time machine monitoring.
+    <strong>Smart Water Utilities</strong>
+    Continuous level monitoring for underground water tanks, overhead tanks, reservoirs, and sumps.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Energy & Utility Metering</strong>
-    Integrates with RS485 energy meters, water meters, and gas meters for remote automated meter reading.
+    <strong>Manhole & Sewer Level Monitoring</strong>
+    Detect overflow risks, blockages, and sewer flooding in drainage networks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Process Monitoring</strong>
-    Ideal for pressure transmitters, flow transmitters, level sensors, and temperature transmitters using 4–20 mA / 0–10 V.
+    <strong>Flood & Stormwater Monitoring</strong>
+    Real-time alerts for rising levels in rivers, canals, storm drains, and flood-prone zones.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Storage & HVAC Systems</strong>
-    Captures critical temperature, humidity, and equipment health parameters from analog/RS485 sensors.
+    <strong>Industrial Wastewater Management</strong>
+    Accurate level detection in effluent treatment plants, sludge pits, and chemical tanks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture</strong>
-    Supports soil moisture sensors, weather probes, irrigation controllers, and pump monitoring systems.
+    <strong>Mining & Quarry Operations</strong>
+    Level tracking in slurry pits, water sumps, and tailing dams for safety assurance.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water & Wastewater Management</strong>
-    Works with flow meters, pressure sensors, water level transmitters, and pump control systems.
+    <strong>Smart City Infrastructure</strong>
+    Remote monitoring of drainage networks to prevent urban flooding and road closures.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Safety Systems</strong>
-    Monitors critical sensors like leak detectors, vibration sensors, and emergency digital inputs.
+    <strong>Oil & Fuel Storage Tanks</strong>
+    Level measurement for diesel storage, fuel stations, and industrial oil chambers.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings</strong>
-    Integrates with HVAC controllers, IAQ sensors, and digital input equipment for automation.
+    <strong>Remote & Unmanned Locations</strong>
+    Low-maintenance, long-range LoRaWAN® monitoring where wired installation is impractical.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Infrastructure Monitoring</strong>
-    Supports monitoring of telecom towers, generators, solar inverters, and battery banks via RS485.
+    <strong>Environmental Risk Monitoring</strong>
+    Early warning for spill detection, groundwater rise, or hazardous waste overflow.
   </div>
-
-  <div className="reusable-feature-card">
-    <strong>Environmental & Field Monitoring</strong>
-    Connects environmental sensors such as air quality, weather, and environmental transmitters.
-  </div>
-
 </div>
 
 <div class="faint-line"></div>
@@ -203,7 +187,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-STD-PO-X2</p>
+    <p className="value">MacRay-LU4</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -215,29 +199,31 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Interfaces <br /> Available
+    Ultrasonic <br /> Level Measurement
   </div>
   <div className="spec-block-details">
-    <p className="label">RS485 Interface</p>
-    <p className="value">1 (Switchable)</p>
-    <br />
-    <p className="label">4-20 mA Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">0-10 V Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">Digital Inputs</p>
-    <p className="value">x 2 (Switchable)</p>    
-    <br />
-    <p className="label">ADC Resolution</p>
-    <p className="value">12-bit</p>
+<p className="label">Ranging Range</p>
+<p className="value">3 – 450 cm</p>
+<br />
+<p className="label">Blind Zone Distance</p>
+<p className="value">3 cm</p>
+<br />
+<p className="label">Response Time (Sensor)</p>
+<p className="value">100 ms</p>
+<br />
+<p className="label">Resolution</p>
+<p className="value">0.1 cm</p>
+<br />
+<p className="label">Center Frequency</p>
+<p className="value">40 kHz ± 1 kHz</p>
+<br />
+<p className="label">Sensing Angle</p>
+<p className="value">60°</p>
+<br />
+<p className="label">Protection Rating (Sensor)</p>
+<p className="value">IP67</p>
   </div>
 </div>
-
-:::note
-The device use same channels for the RS485 & Analog inputs, either can be used at a time.
-:::
 
 <div class="faint-line"></div>
 
@@ -326,6 +312,26 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
+    Battery <br /> Performance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Battery Type</p>
+    <p className="value">Li-SOCl₂ Cell (12Ah) Industrial grade</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Battery Life</p>
+    <p className="value">Up to 2 years (10 Mins Uplink Interval)</p>
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Supported <br /> LNS
   </div>
   <div className="spec-block-details">
@@ -348,7 +354,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply</p>
+    <p className="label">Power Supply (Optional)</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -382,7 +388,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range</p>
+    <p className="label">Input Voltage Range (Optional Varient)</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
@@ -451,7 +457,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSync-LX2-STD-PO Variants
+##  MacRay-LU4 Variants
 
 <table className="parameter-table">
   <thead>
@@ -466,7 +472,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-STD-PO-X1</td>
+      <td>MacRay-LU4-PO</td>
       <td>12–24 V (Power)</td>
       <td>✖️</td>
       <td>✖️</td>
@@ -474,20 +480,12 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
       <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
-      <td>MacSync-L-STD-BO</td>
+      <td>MacRay-LU4-BO</td>
       <td>Battery</td>
-      <td>19 Ah</td>
+      <td>12 Ah</td>
       <td>✖️</td>
       <td>✔️</td>
       <td>Remote or portable deployments with low power</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-STD-SO-X1</td>
-      <td>Solar + Battery</td>
-      <td>12 Ah</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>Outdoor, off-grid, and energy-autonomous environments</td>
     </tr>
   </tbody>
 </table>
@@ -548,11 +546,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![title image](/img/lorawan/macray/macray-lu-four-dimensions.svg)
 
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::

@@ -902,7 +902,7 @@
       "Datasheets",
       "Reports"
     ],
-    "description": "ESP32-footprint wireless module with dual-mode",
+    "description": "ESP32-footprint wireless module with dual-mode ",
     "image": "/docs/img/devices/wifi-ble-esp-module-macnman-version-one.webp",
     "link": "/docs/bg-10.pdf"
   }
