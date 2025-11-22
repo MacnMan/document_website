@@ -480,6 +480,30 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </tbody>
 </table>
 
+## What's in the box ?
+
+Make sure box contains following items before installations
+
+![macset box contains](/img/controller/macset-what-is-in-box-macnman.svg)
+
+:::note
+
+Accessories must be purchased separately & may 
+not be included in the box.
+
+:::
+
+## Product Dimensions
+
+![title image](/img/controller/macset-dimensions-of-the-box.svg)
+
+:::note
+
+Accessories must be purchased separately & may 
+not be included in the box.
+
+:::
+
 <!-- 
 <table className="spec-table">
   <thead>
@@ -520,27 +544,3 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </table>
 
 -->
-
-## What's in the box ?
-
-Make sure box contains following items before installations
-
-![macset box contains](/img/controller/macset-what-is-in-box-macnman.svg)
-
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::
-
-## Product Dimensions
-
-![title image](/img/controller/macset-dimensions-of-the-box.svg)
-
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::
