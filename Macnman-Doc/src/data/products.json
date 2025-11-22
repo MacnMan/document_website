@@ -368,7 +368,7 @@
     "name": "MacTag 4",
     "technology": "Ble",
     "category": "Gateways",
-    "applications": ["Smart Building"],
+    "applications": ["Smart Industries","Smart Building","Asset Tracking"],
     "tags": ["All", "Datasheets", "Reports"],
     "description": "High-precision UWB RTLS tag ",
     "image": "/docs/img/devices/uwb-tag-three-macnman.webp",
@@ -376,26 +376,69 @@
   },
     {
     "id": 35,
-    "name": "BLE Gateway BG-10",
-    "technology": "Ble",
-    "category": "Gateways",
-    "applications": ["Smart Building"],
+    "name": "MacSync-LGH2S-X1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City"],
     "tags": ["All", "Datasheets", "Reports"],
-    "description": "BLE gateway to manage short-range sensor networks.",
-    "image": "/docs/img/devices/lorawan-time-of-flight-sensor-macnman.webp",
+    "description": "LoRaWAN H₂S gas monitoring for safety & leak detection",
+    "image": "/docs/img/devices/macsync-h2s-sensor-lorawan.webp",
     "link": "/docs/bg-10.pdf"
   },
     {
     "id": 36,
-    "name": "BLE Gateway BG-10",
-    "technology": "Ble",
-    "category": "Gateways",
-    "applications": ["Smart Building"],
+    "name": "MacSync-LSX2",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City","Smart Agriculture"],
     "tags": ["All", "Datasheets", "Reports"],
-    "description": "BLE gateway to manage short-range sensor networks.",
-    "image": "/docs/img/devices/lorawan-time-of-flight-sensor-macnman.webp",
+    "description": "Wireless pH monitoring for water and soil applications",
+    "image": "/docs/img/devices/lorawan-soil-ph-sensor-macnman.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 37,
+    "name": "MacSync-LSX3",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City","Smart Agriculture"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": "Wireless temperature & moisture monitoring for soil",
+    "image": "/docs/img/devices/macnman-lorawan-soil-sensor-temp-humidity-sensor.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 38,
+    "name": "MacSync-LRX1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City","Smart Agriculture"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": "Wireless rainfall detection for smart weather monitoring",
+    "image": "/docs/img/devices/lorawan-rain-meter-macnman.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 39,
+    "name": "MacSync-LRTDX2",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City","Smart Agriculture"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": "Industrial RTD temperature sensors",
+    "image": "/docs/img/devices/lorawan-rtd-sensor-low-range-macnman.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 40,
+    "name": "MacSync-LGNH3X1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": ["Smart Building","Smart Industries","Smart City","Smart Agriculture"],
+    "tags": ["All", "Datasheets", "Reports"],
+    "description": "Wireless ammonia gas monitoring for safety and air quality",
+    "image": "/docs/img/devices/macsync-h2s-sensor-lorawan.webp",
     "link": "/docs/bg-10.pdf"
   }
-  
 ]
 
