@@ -147,7 +147,7 @@ const config: Config = {
           sidebarId: 'productSidebar',
           docsPluginId: 'product',
           position: 'left',
-          label: 'Product',
+          label: 'Datasheets',
         },
         {
           to: '/books',
