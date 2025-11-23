@@ -1,5 +1,5 @@
 ---
-id: macray-lorawan-pressure-sensor-x-series
+id: macsync-lorawan-pressure-sensor-x-series
 title: MacSync-L-PSXx
 sidebarposition: 6
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
@@ -573,7 +573,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![title image](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -584,5 +584,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/macray/macray-lu-four-dimensions.svg)
+![title image](/img/lorawan/sensors/macsync/macsync-psx-pipeline-pressure-monitoring-dimensions.svg)
 

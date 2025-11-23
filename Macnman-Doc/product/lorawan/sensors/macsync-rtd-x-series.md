@@ -1,44 +1,41 @@
 ---
-id: macray-lorawan-pressure-sensor-x-series
-title: MacSync-L-PSXx
+id: macsync-lorawan-rtd-sensor-x-series
+title: MacSync-L-RTDX2
 sidebarposition: 6
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan industrial pressure sensor
-  - liquid pipeline pressure monitoring
-  - water pressure monitoring iot device
-  - lorawan pressure transmitter
-  - fire hydrant pressure monitoring sensor
-  - industrial process automation pressure sensor
-  - sewage and effluent pressure monitoring
-  - wireless smart pressure logger
-  - oil and gas pressure monitoring system
-  - remote pipeline leakage detection lorawan
-  - ip67 waterproof pressure sensor
-  - battery powered pressure monitoring
-  - long range wireless sensor lorawan
-  - water utility pressure telemetry solution
-  - surge resistant industrial iot sensor
+  - lorawan rtd temperature sensor
+  - pt100 lorawan temperature transmitter
+  - PT100 industrial temperature monitoring iot
+  - high accuracy industrial rtd sensor
+  - remote temperature monitoring lorawan
+  - smart factory temperature sensor
+  - pipeline temperature monitoring wireless
+  - ip67 rugged rtd sensor outdoor
+  - low power lorawan temperature probe
+  - industrial automation temperature measurement
+  - chemical plant temperature monitoring iot
+  - boiler and furnace temperature sensor lorawan
+  - process control temperature monitoring
+  - predictive maintenance temperature sensing
+  - food grade temperature monitoring rtd
 ---
 
-# MacSync-L-PSXx Datasheet
+# MacSync-L-RTDXx Datasheet
 
 ## Product Overview
 
-MacSync-L-PSXx is a **high‑accuracy LoRaWAN® industrial liquid pressure monitoring device** engineered for real‑time measurement of water, chemical, and industrial fluid networks. It converts critical pressure data into secure wireless telemetry, enabling operators to detect leaks, pump inefficiencies, over‑pressure risks, and system failures before they escalate.
+MacSync‑L‑RTDXx is a **high‑precision LoRaWAN® RTD temperature monitoring device** designed for industrial applications where accuracy, reliability, and long‑distance wireless communication are critical. Supporting both **PT100 and PT100** sensors with **IEC 60751 linearization**, it ensures stable and precise temperature measurement across a wide operating range.
 
-Built using an **industrial‑grade stainless steel pressure transducer (SS316 diaphragm)**, the device delivers stable performance even in corrosive, high‑humidity, and vibration‑prone environments. Its **IP67‑rated enclosure**, wide operating temperature range, and robust surge protection make it suitable for harsh outdoor deployments.
+Engineered for harsh environments, the device features **IP67 protection**, surge‑resistant electronics, and rugged industrial‑grade construction suitable for pipelines, machinery, furnaces, cold‑chain systems, and process lines. With **multi‑year battery life** or optional **DC power**, the sensor is ideal for both fixed and remote installations.
 
-MacSync‑L‑PSXx supports **multi‑year battery operation** or external DC powering for versatile installation in both powered and fully remote locations. With **LoRaWAN® long‑range communication**, BLE‑based configuration using the Maya App, and intelligent sampling with event‑based alerts — the device supports zero‑maintenance pressure surveillance at scale.
+MacSync‑L‑RTDXx supports **event‑based alerts, configurable sampling**, and BLE‑based field configuration using the Maya App. Using **secure LoRaWAN® connectivity**, data is transmitted directly to cloud dashboards, SCADA, CMMS, or any private/public LNS.
 
-From **fire hydrant & fire‑pump discharge monitoring**, **municipal water distribution**, **industrial process control**, to **oil & gas pipeline pressure assurance** — **MacSync‑L‑PSXx unlocks smarter infrastructure decisions** with continuous visibility into fluid network health and operational safety.
+From **industrial process control, predictive maintenance, HVAC monitoring, thermal safety compliance**, to **food & pharma cold‑chain assurance** — **MacSync‑L‑RTDXx delivers continuous and accurate visibility** into temperature‑critical assets that keep industries running efficiently and safely.
 
-<div className="image-grid-2col">
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pressure-transducer-ss316.webp" alt="ss316 transducer" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pipeline-pressure-monitoring.webp" alt="pipeline monitoring" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pressure-sensor-front.webp" alt="industrial pressure sensor front" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="hydrant monitoring" />
-</div>
+| ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
+|--------------------------------|--------------------------------|
+| ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 
 <div class="faint-line"></div>  
@@ -60,7 +57,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-PSXx</p>
+      <p>Click here to view the decoders for MacSync-L-RTDXx</p>
     </div>
   </a>
 </div>
@@ -71,53 +68,53 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>Short‑Range Precision Sensing</strong>
-  Optimized ultrasonic measurement for 0–4 meters liquid and solid level monitoring.
+  <strong>High-Accuracy RTD Measurement</strong>
+  Supports PT100 probes with IEC 60751 curve compensation for precise industrial sensing.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Advanced Echo Processing</strong>
-  Intelligent filtering eliminates false readings from foam, turbulence, and obstructions.
+  <strong>Wide Temperature Range Support</strong>
+  Suitable for low- and high-temperature processes in industrial and commercial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Battery‑Powered LoRaWAN®</strong>
-  Multi‑year autonomous operation with ultra‑low‑power wireless communication.
+  <strong>Long‑Range LoRaWAN® Connectivity</strong>
+  Reliable wireless monitoring over several kilometers with minimal power consumption.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Rugged Design</strong>
-  Durable and corrosion‑resistant enclosure built for harsh outdoor and underground environments.
+  <strong>Multi‑Year Battery or DC Power</strong>
+  Flexible power options for both remote deployments and fixed industrial installations.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic, event‑based & threshold alerts optimize power consumption and network traffic.
+  <strong>IP67 Rugged Industrial Design</strong>
+  Resistant to water, dust, corrosion, and vibration — suitable for outdoor and harsh environments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Event‑Based Temperature Alerts</strong>
+  Threshold‑based triggers help prevent overheating, freezing, and process deviations.
 </div>
 
 <div className="reusable-feature-card">
   <strong>BLE Configuration via Maya App</strong>
-  Quick setup, OTA parameter adjustment & diagnostics using a smartphone.
+  Quick local setup, diagnostics, and OTA updates through a smartphone interface.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Industrial Use</strong>
-  Designed for manholes, sewer drains, tanks, pits, reservoirs & flood monitoring.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Secure & Long‑Range Communication</strong>
-  AES‑128 encrypted LoRaWAN® connectivity with strong penetration in remote areas.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Flexible Deployment Options</strong>
-  Supports pole, wall, and custom mount installation for easy field deployment.
+  <strong>Secure & Encrypted Data</strong>
+  AES‑128 encrypted LoRaWAN® communication prevents unauthorized access and data tampering.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Compatible with All LoRaWAN® Networks</strong>
-  Works seamlessly with private/public network servers and cloud platforms.
+  Works seamlessly with public and private network servers, SCADA & cloud dashboards.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Predictive Maintenance Ready</strong>
+  Enables early failure detection of pumps, bearings, motors & heat‑critical assets.
 </div>
 </div>
 <div class="faint-line"></div>
@@ -125,50 +122,50 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
 ## Suited Applications
 
 <div className="reusable-feature-grid">
-  <div className="reusable-feature-card">
-    <strong>Smart Water Utilities</strong>
-    Continuous level monitoring for underground water tanks, overhead tanks, reservoirs, and sumps.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Industrial Process Temperature Monitoring</strong>
+  Continuous thermal measurement for chemical processing, metal fabrication, and industrial manufacturing.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Manhole & Sewer Level Monitoring</strong>
-    Detect overflow risks, blockages, and sewer flooding in drainage networks.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Predictive Maintenance of Motors & Pumps</strong>
+  Detects overheating in bearings, compressors, and rotating equipment to prevent unplanned downtime.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Flood & Stormwater Monitoring</strong>
-    Real-time alerts for rising levels in rivers, canals, storm drains, and flood-prone zones.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Boiler, Furnace & Heater Monitoring</strong>
+  High‑temperature sensing for operational safety, combustion control, and regulatory compliance.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Industrial Wastewater Management</strong>
-    Accurate level detection in effluent treatment plants, sludge pits, and chemical tanks.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Cold‑Chain & Refrigeration Systems</strong>
+  Real‑time temperature assurance in pharma, food, storage warehouses, and distribution trucks.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Mining & Quarry Operations</strong>
-    Level tracking in slurry pits, water sumps, and tailing dams for safety assurance.
-  </div>
+<div className="reusable-feature-card">
+  <strong>HVAC & Building Automation</strong>
+  Smart thermal management for commercial infrastructure and energy efficiency optimization.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Smart City Infrastructure</strong>
-    Remote monitoring of drainage networks to prevent urban flooding and road closures.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Oil & Gas Temperature Surveillance</strong>
+  Rugged RTD monitoring for pipelines, well sites, and harsh‑environment assets.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Oil & Fuel Storage Tanks</strong>
-    Level measurement for diesel storage, fuel stations, and industrial oil chambers.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Water & Pipeline Thermal Safety</strong>
+  Monitors temperature in pipelines and distribution networks for freeze protection and quality control.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Remote & Unmanned Locations</strong>
-    Low-maintenance, long-range LoRaWAN® monitoring where wired installation is impractical.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Laboratory, Pharma & Food Safety</strong>
+  Ensures compliance in controlled environments and critical production processes.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Environmental Risk Monitoring</strong>
-    Early warning for spill detection, groundwater rise, or hazardous waste overflow.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Remote & Unmanned Plant Monitoring</strong>
+  Low‑maintenance IoT deployments where wired sensors are costly or impractical.
+</div>
 </div>
 
 <div class="faint-line"></div>
@@ -181,7 +178,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-PSXx</p>
+    <p className="value">MacSync-L-RTDXx</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -193,33 +190,41 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Pressure <br /> Measurement
+    RTD <br /> Measurement
   </div>
   <div className="spec-block-details">
-<p className="label">Range</p>
-<p className="value">0 ~ 0.5 MPa</p>
-<p className="value">0 ~ 1.5 MPa</p>
-<p className="value">0 ~ 2.5 MPa</p>
-<p className="value">0 ~ 10 MPa</p>
-<p className="value">0 ~ 30 MPa</p>
+<p className="label">Sensor Type</p>
+<p className="value">RTD (PT100 / PT100)</p>
+<br />
+<p className="label">Temperature Range</p>
+<p className="value">–200 °C to +850 °C</p>
 <br />
 <p className="label">Accuracy</p>
-<p className="value">±1.5% Full Scale (FS)</p>
+<p className="value">±0.2 °C (typical)</p>
 <br />
-<p className="label">Max. Pressure</p>
-<p className="value">2.4 MPa</p>
+<p className="label">Resolution</p>
+<p className="value">0.1 °C</p>
 <br />
-<p className="label">Destructive Pressure</p>
-<p className="value">3.0 MPa</p>
+<p className="label">Repeatability</p>
+<p className="value">±0.05 °C</p>
 <br />
-<p className="label">Response Time (Sensor)</p>
-<p className="value">≤ 2.0 ms</p>
+<p className="label">Sensor Linearization</p>
+<p className="value">IEC 60751 Standard Curve</p>
 <br />
-<p className="label">Cycle Life</p>
-<p className="value">1,000,000 cycles</p>
+<p className="label">Self‑Heating Error</p>
+<p className="value">&lt; 0.1 °C @ 1 mA excitation</p>
 <br />
-<p className="label">Protection Rating (Sensor)</p>
-<p className="value">IP67</p>
+<p className="label">Drift (1 year)</p>
+<p className="value">&lt; 0.05 °C</p>
+<br />
+<p className="label">Insulation Resistance</p>
+<p className="value">&gt; 100 MΩ @ 500 VDC</p>
+<br />
+<p className="label">Probe Options</p>
+<p className="value">Internal &amp; External Probes Available</p>
+<br />
+<p className="label">Probe Material</p>
+<p className="value">SS304 / SS316 (optional)</p>
   </div>
 </div>
 
@@ -319,7 +324,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
     <p className="value">~50 mA during transmission</p>
     <br />
     <p className="label">Battery Life</p>
-    <p className="value">Up to 2 years (10 Mins Uplink Interval)</p>
+    <p className="value">Up to 8 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -453,77 +458,29 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
 </div>
 
 
-##  MacSync-L-PSXx Variants
+##  MacSync-L-RTDXx Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>Pressure Range</th>
+      <th>RTD Type</th>
       <th>Power Option</th>
       <th>Ideal Use Case</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-PSX0.5-PO</td>
-      <td>0 ~ 0.5 MPa</td>
+      <td>MacSyncPT100‑PO</td>
+      <td>PT100</td>
       <td>12–24 V DC Power</td>
-      <td>Water distribution lines & low-pressure industrial monitoring</td>
+      <td>High‑precision temperature monitoring in automation systems</td>
     </tr>
     <tr>
-      <td>MacSync-L-PSX0.5-BO</td>
-      <td>0 ~ 0.5 MPa</td>
-      <td>Battery (Multi-year)</td>
-      <td>Remote low-pressure pipelines & control rooms</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-PSX1.5-PO</td>
-      <td>0 ~ 1.5 MPa</td>
-      <td>12–24 V DC Power</td>
-      <td>Municipal hydrants & medium pressure lines</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-PSX1.5-BO</td>
-      <td>0 ~ 1.5 MPa</td>
-      <td>Battery (Multi-year)</td>
-      <td>Unmanned water networks & industrial equipment</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-PSX2.5-PO</td>
-      <td>0 ~ 2.5 MPa</td>
-      <td>12–24 V DC Power</td>
-      <td>Fire-fighting discharge pressure & industrial pumps</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-PSX2.5-BO</td>
-      <td>0 ~ 2.5 MPa</td>
-      <td>Battery (Multi-year)</td>
-      <td>Remote firefighting pressure monitoring & booster stations</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-PSX10-PO</td>
-      <td>0 ~ 10 MPa</td>
-      <td>12–24 V DC Power</td>
-      <td>High-pressure industrial systems & heavy pipelines</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-PSX10-BO</td>
-      <td>0 ~ 10 MPa</td>
-      <td>Battery (Multi-year)</td>
-      <td>Oil & gas networks with no power access</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-PSX30-PO</td>
-      <td>0 ~ 30 MPa</td>
-      <td>12–24 V DC Power</td>
-      <td>Industrial high stress pipelines, hydraulic systems</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-PSX30-BO</td>
-      <td>0 ~ 30 MPa</td>
-      <td>Battery (Multi-year)</td>
-      <td>Critical infrastructure monitoring in remote high-pressure applications</td>
+      <td>MacSyncPT100‑BO</td>
+      <td>PT100</td>
+      <td>Battery (Multi‑year)</td>
+      <td>Cold‑chain, pipelines & predictive maintenance monitoring</td>
     </tr>
   </tbody>
 </table>
@@ -569,11 +526,12 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
 
 -->
 
+
 ## What's in the box ?
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![title image](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -584,5 +542,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/macray/macray-lu-four-dimensions.svg)
+![title image](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.svg)
 

@@ -5,7 +5,7 @@ sidebarposition: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan rtd temperature sensor
-  - pt100 pt1000 temperature probe
+  - PT1000 temperature probe
   - industrial temperature monitoring
   - high accuracy rtd sensor
   - loT temperature transmitter
@@ -30,7 +30,7 @@ keywords:
 
 ## Product Overview
 
-**MacSync-L-RTDX5** is a next‑generation **LoRaWAN® RTD temperature sensor** engineered for ultra‑precise thermal monitoring in the most demanding industrial environments. Designed to support **Pt100 / Pt1000** probes and IEC 60751 standard linearization, it ensures highly accurate and repeatable temperature measurement from **–200 °C to +850 °C**, covering cryogenic, processing, and high‑temperature applications.
+**MacSync-L-RTDX5** is a next‑generation **LoRaWAN® RTD temperature sensor** engineered for ultra‑precise thermal monitoring in the most demanding industrial environments. Designed to support **PT1000** probes and IEC 60751 standard linearization, it ensures highly accurate and repeatable temperature measurement from **–200 °C to +850 °C**, covering cryogenic, processing, and high‑temperature applications.
 
 With **industrial‑grade shielding**, **low‑noise analog front‑end**, and **minimal drift**, the MacSync‑L‑RTDX5 delivers dependable performance in reactors, chemical process lines, oil & gas pipelines, cold‑storage logistics, and power utility infrastructures.
 
@@ -76,7 +76,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
   <strong>High‑Accuracy RTD Input</strong>
-  Compatible with Pt100 / Pt1000 probes for precise industrial temperature monitoring.
+  Compatible with PT1000 probes for precise industrial temperature monitoring.
 </div>
 
 <div className="reusable-feature-card">
@@ -211,7 +211,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </div>
   <div className="spec-block-details">
 <p className="label">Sensor Type</p>
-<p className="value">RTD (Pt100 / Pt1000)</p>
+<p className="value">RTD (PT1000)</p>
 <br />
 <p className="label">Range</p>
 <p className="value">–200 °C to +850 °C</p>
@@ -492,7 +492,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-RTDX5-PO</td>
+      <td>MacSync-L-RTDX1-PO</td>
       <td>12–24 V (Power)</td>
       <td>✖️</td>
       <td>✖️</td>
@@ -500,7 +500,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
       <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
-      <td>MacSync-L-RTDX5-BO</td>
+      <td>MacSync-L-RTDX1-BO</td>
       <td>Battery</td>
       <td>19 Ah</td>
       <td>✖️</td>
