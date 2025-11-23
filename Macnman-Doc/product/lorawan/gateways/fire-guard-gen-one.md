@@ -38,9 +38,9 @@ Data can be delivered securely to **Fire Panels, BMS systems, or cloud analytics
 
 Whether supporting **fire compliance, safety inspections, emergency readiness**, or remote monitoring operations — **FireGaurd Gen 1 brings Industry‑grade intelligence, automation, and reliability to building fire safety systems**.
 
-| ![IndiLoRa single channel indoor LoRa gateway front view with wifi connectivity](/img/lorawan/gateways/indilora-single-channel-gateway-front.webp) | ![IndiLoRa compact LoRa to wifi indoor gateway side view for smart building automation](/img/lorawan/gateways/indilora-single-channel-gateway-installation.webp) |
+| ![FireGuard Gen-1 smart fire equipment health monitoring controller front view](/img/lorawan/gateways/fireguard-gen-one-control-outputs.webp) | ![FireGuard Gen-1 UART I2C RS485 sensor ports for fire hydrant sprinkler pump monitoring](/img/lorawan/gateways/fireguard-gen-one-fire-panel-integration.webp) |
 |--------------------------------|--------------------------------|
-| ![IndiLoRa LoRa to RS485 Modbus RTU gateway interface terminal connector](/img/lorawan/gateways/indilora-single-channel-gateway-rs485.webp) | ![IndiLoRa installed inside building enabling low cost IoT network extension and sensor monitoring](/img/lorawan/gateways/indilora-single-channel-gateway-side.webp) |
+| ![FireGuard Gen-1 digital outputs for fire pump siren exhaust and emergency door control](/img/lorawan/gateways/fireguard-gen-one-front-view.webp) | ![FireGuard Gen-1 connected with fire panel BMS and SCADA for real-time fire equipment alerts](/img/lorawan/gateways/fireguard-gen-one-sensor-interface-ports.webp) |
 
 
 <div class="faint-line"></div>
@@ -73,43 +73,43 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>Ultra‑Low Cost LoRa® Gateway</strong>
-  Designed for cost‑sensitive IoT installations with compact coverage needs in smart buildings and commercial environments.
+  <strong>Fire Equipment Health Monitoring</strong>
+  Constant supervision of critical fire‑fighting systems such as pumps, hydrants, extinguishers, fire doors, and water storage levels.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wi‑Fi Backhaul Connectivity</strong>
-  Cloud communication using Wi‑Fi no Ethernet wiring required for installation.
+  <strong>8 Multi‑Protocol Sensor Interfaces</strong>
+  Supports UART, I²C, and RS‑485 sensors for seamless integration with diverse fire protection peripherals.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>RS‑485 Modbus Output Support</strong>
-  Direct interface with legacy PLCs, meters and BMS systems for simultaneous LoRa‑to‑wired integration.
+  <strong>4 Digital Outputs for Automation</strong>
+  Capable of triggering fire pumps, sirens, exhaust fans, and door release mechanisms during emergency events.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Powered by nRF5340 MCU</strong>
-  Dual‑core processing with secure and power‑efficient wireless communication.
+  <strong>SCADA, BMS & Fire Panel Connectivity</strong>
+  Sends real‑time equipment health signals and alarms directly to building safety infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Focused Single‑Channel LoRa® Operation</strong>
-  Ideal for low‑density sensor networks inside controlled indoor areas.
+  <strong>Edge Intelligence & Fault Diagnosis</strong>
+  Local processing enables early failure detection, preventive alerts, and malfunction reporting before emergencies occur.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Communication</strong>
-  AES‑128 data encryption and TLS‑based secure OTA firmware upgrades.
+  <strong>Secure and Reliable Operation</strong>
+  Features industrial surge protection and secure communication for uninterrupted fire safety compliance.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Plug‑and‑Play Deployment</strong>
-  Zero‑touch provisioning using MacCloud for rapid installation by onsite technicians.
+  <strong>Simple Installation & Zero Interruption</strong>
+  Works with existing fire layouts without changes to current fire alarm systems or infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Quiet & Low‑Power Design</strong>
-  Fanless architecture built for 24×7 uptime in noise‑sensitive environments.
+  <strong>Designed for Life‑Saving Reliability</strong>
+  Built to ensure equipment readiness and compliance to protect people, assets, and infrastructure when every second counts.
 </div>
 </div>
 <div class="faint-line"></div>
@@ -119,43 +119,43 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Small Smart Building Deployments</strong>
-  Cost‑efficient indoor LoRa® coverage for energy monitoring, room comfort sensors and building automation in compact areas.
+  <strong>Fire Pump Monitoring Rooms</strong>
+  Continuous diagnostics of motor condition, controller health, and pump readiness for immediate emergency activation.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Commercial Retail Outlets</strong>
-  Enables IoT connectivity for shelf monitoring, occupancy analytics and refrigeration compliance without wired infrastructure.
+  <strong>Fire Hydrant & Sprinkler Networks</strong>
+  Pressure and flow monitoring ensuring water delivery systems remain active and compliant.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Warehouse & Storage Spaces</strong>
-  Ideal for indoor asset tracking, stock environment monitoring and automated supply chain alerts.
+  <strong>Fire Extinguisher Stations</strong>
+  Health status and tamper alerts for handheld extinguishers located across commercial and industrial facilities.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Hospitals & Healthcare Rooms</strong>
-  Adds secure connectivity for patient safety, air quality monitoring and equipment status without major installation work.
+  <strong>Water Tank & Reservoir Supervision</strong>
+  Level monitoring ensures adequate fire‑water availability for hydrants and sprinklers at all times.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Apartments & Residential Smart Homes</strong>
-  Facilitates LoRa®‑based water meters, energy monitoring and safety sensors for housing automation.
+  <strong>Emergency Exit Doors</strong>
+  Monitors door status and enables controlled release during alarm or evacuation scenarios.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Legacy Industrial Machine Rooms</strong>
-  Provides RS‑485 integration for PLCs and meters, bridging Industry 3.0 devices with modern IoT cloud systems.
+  <strong>Data Centers & Server Rooms</strong>
+  Automated monitoring of fire suppression infrastructure supporting mission‑critical equipment protection.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Hotels & Hospitality Spaces</strong>
-  Supports smart room solutions and maintenance alert systems without disturbing infrastructure aesthetics.
+  <strong>Hospitals, Hotels & High‑Occupancy Buildings</strong>
+  Ensures fire‑protection system reliability across sensitive and public safety‑critical indoor spaces.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Data Center & IT Racks</strong>
-  Perfect for localized monitoring of temperature, humidity and access conditions inside server environments.
+  <strong>Industrial Plants & Warehouses</strong>
+  Supports proactive maintenance and alerting for extensive fire protection equipment layouts.
 </div>
 
 </div>
@@ -186,31 +186,37 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
   </div>
   <div className="spec-block-details">
 <p className="label">Processor Type</p>
-<p className="value">nRF5340 Dual‑Core Bluetooth® LE & LoRa Gateway MCU</p>
+<p className="value">nRF52840 Industrial‑grade MCU</p>
 <br />
-<p className="label">Number of Cores</p>
-<p className="value">Dual‑Core (1× Application + 1× Network Core)</p>
+<p className="label">CPU Architecture</p>
+<p className="value">32‑bit ARM® Cortex®‑M4 with FPU</p>
 <br />
 <p className="label">Clock Speed</p>
-<p className="value">128 MHz (Application Core) / 64 MHz (Network Core)</p>
+<p className="value">64 MHz</p>
 <br />
-<p className="label">Memory Size</p>
-<p className="value">512 KB RAM</p>
+<p className="label">Flash Memory</p>
+<p className="value">1 MB On‑Chip Flash</p>
 <br />
-<p className="label">Memory Architecture</p>
-<p className="value">Low‑Power Multi‑Core Shared Memory Architecture</p>
+<p className="label">RAM</p>
+<p className="value">256 KB On‑Chip RAM</p>
 <br />
-<p className="label">Internal Flash</p>
-<p className="value">1 MB On‑Chip Flash + External Flash Support</p>
+<p className="label">Sensor Interface Channels</p>
+<p className="value">08 (Configurable UART / I²C / RS‑485)</p>
 <br />
-<p className="label">USB Port</p>
-<p className="value">Debug Interface (Bottom of Enclosure)</p>
+<p className="label">Control Output Channels</p>
+<p className="value">04 Digital Outputs (Relay / DO Based)</p>
 <br />
-<p className="label">Connector Type</p>
-<p className="value">USB Type‑C</p>
+<p className="label">Industrial Protection</p>
+<p className="value">Surge & ESD Protected IO</p>
 <br />
-<p className="label">Interface Protection</p>
-<p className="value">Surge Protection Enabled</p>
+<p className="label">Debug Interface</p>
+<p className="value">USB Type‑C (Service Only)</p>
+<br />
+<p className="label">Local Indicators</p>
+<p className="value">Multi‑Status LEDs for Fault / Power / Alarm</p>
+<br />
+<p className="label">Safety Grade</p>
+<p className="value">Designed for Fire‑System Equipment Monitoring</p>
   </div>
 </div>
 
@@ -218,32 +224,39 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
 
 <div className="spec-block">
   <div className="spec-block-title">
-    LoRa <br /> Specifications
+    Sensor Interface <br /> Compatibility
   </div>
   <div className="spec-block-details">
-<p className="label">Compatibility</p>
-<p className="value">Macnman LoRa Nodes & Controllers</p>
+
+<p className="label">Supported Sensor Types</p>
+<p className="value">Pressure Sensors (Hydrants, Sprinkler Lines)</p>
+<p className="value">Flow Sensors for Water Networks</p>
+<p className="value">Water Tank Level Sensors (Ultrasonic / Float Type)</p>
+<p className="value">Fire Extinguisher Health Modules</p>
+<p className="value">Fire Door Status & Magnetic Contact Sensors</p>
+<p className="value">Pump Controller Health Monitoring Inputs</p>
+<p className="value">Battery / Power Backup Status Modules</p>
+<p className="value">Alarm Annunciator Feedback Inputs</p>
 <br />
-<p className="label">Supported Frequency Bands</p>
-<p className="value">IN865</p>
+
+<p className="label">Sensor Communication Ports</p>
+<p className="value">UART × 2</p>
+<p className="value">I²C × 2</p>
+<p className="value">RS‑485 × 1</p>
+<p className="value">Dry Contact / Digital Inputs × 3</p>
 <br />
-<p className="label">Channel Support</p>
-<p className="value">Single‑Channel (1 × Uplink / 1 × Downlink)</p>
+
+<p className="label">Diagnostic Feedback</p>
+<p className="value">Fault, Tamper, Low Pressure, Water Refill Alerts</p>
 <br />
-<p className="label">Data‑Rate</p>
-<p className="value">Fixed Data‑Rate – No ADR (single‑channel limitation)</p>
+
+<p className="label">Data Handling</p>
+<p className="value">Real‑time polling, alerts & timestamped events</p>
 <br />
-<p className="label">Tx Power</p>
-<p className="value">+23 dBm @ IN865/868 MHz &nbsp;&nbsp; +20 dBm @ 915 MHz</p>
-<br />
-<p className="label">Rx Sensitivity</p>
-<p className="value">Down to –136 dBm @ SF12, BW 125 kHz</p>
-<br />
-<p className="label">Antenna Type</p>
-<p className="value">External High‑Efficiency LoRa Antenna</p>
-<br />
-<p className="label">Device Capacity</p>
-<p className="value">Optimized for Localized Indoor Installations with Small Node Density</p>
+
+<p className="label">Integration Support</p>
+<p className="value">Connects with Fire Panels, BMS & SCADA Networks</p>
+
   </div>
 </div>
 
@@ -494,7 +507,7 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/indilora-lora-gateway-dimensions-box-item.svg)
+![title image](/img/lorawan/gateways/fireguard-gen-one-control-output-box-item.svg)
 
 :::note
 
