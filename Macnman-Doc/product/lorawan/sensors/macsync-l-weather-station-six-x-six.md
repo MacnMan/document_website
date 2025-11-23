@@ -36,11 +36,12 @@ Engineered for long‑range wireless communication and ultra‑low‑power opera
 
 With advanced wireless capabilities including **LoRaWAN® Class A/C**, **OTA configuration via Maya App**, optional **solar‑battery hybrid** power, and onboard **data buffering**, **MacSync‑LWSX6 enables scalable, secure, and maintenance‑efficient environmental monitoring** for farms, industries, airports, and disaster management authorities.
 
+
 <div className="image-grid-2col">
-  <img src="/docs/img/lorawan/sensors/macsync/MacSync-LWSX6-back-view.webp" alt="ss316 transducer" />
-  <img src="/docs/img/lorawan/sensors/macsync/MacSync-LWSX6-front-view.webp" alt="pipeline monitoring" />
-  <img src="/docs/img/lorawan/sensors/macsync/MacSync-LWSX6-side-view.webp" alt="industrial pressure sensor front" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp" alt="hydrant monitoring" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-weather-station-front-view.webp" alt="ss316 transducer" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-weather-station-back-panel.webp" alt="pipeline monitoring" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-weather-station-side-profile.webp" alt="industrial pressure sensor front" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="hydrant monitoring" />
 </div>
 
 ## Download Center
