@@ -1246,3 +1246,16 @@ footer a:hover {
   margin: 0;
   padding: 0;
 }
+
+/* images for the grids */
+.image-grid-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.image-grid-2col img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
