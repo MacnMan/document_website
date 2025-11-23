@@ -1,7 +1,7 @@
 ---
-id: setu-scx-single-channel-datasheet
-title: Setu SCX
-sidebarposition: 3
+id: indilora-single-channel-datasheet
+title: IndiLoRa X
+sidebarposition: 4
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - single channel LoRa gateway
@@ -24,21 +24,21 @@ keywords:
   - cost-efficient LoRa indoor coverage
 ---
 
-# Setu SCX Datasheet
+# IndiLoRa X Datasheet
 
 ## Product Overview
 
-Setu SCX is a cost‑efficient and compact **single‑channel Indoor LoRa® gateway** designed for small‑scale IoT deployments inside commercial and enterprise environments. Engineered for seamless and reliable wireless coverage in localized spaces, it acts as the perfect network extender for smart buildings and industrial interiors.
+**IndiLoRa X1 is an ultra-affordable single-channel indoor LoRaWAN® gateway** designed for small-scale IoT deployments and legacy industrial system upgrades. Built on the powerful nRF5340 dual-core MCU, it bridges LoRa® sensors with both cloud platforms and local RS-485 networks simultaneously — enabling seamless modernization of existing PLCs, meters, and building automation systems.
 
-With **Wi‑Fi and Cellular backhaul connectivity**, Setu SCX eliminates the need for wired infrastructure—making it ideal for installations in places where Ethernet cabling is not available or practical. The ultra‑low‑power, fanless design ensures silent operation in offices, retail stores, hospitals, hotels, and indoor utility rooms.
+With Wi-Fi backhaul, IndiLoRa X1 eliminates the need for Ethernet cabling, making installation fast and extremely cost-efficient in retail stores, warehouses, apartments, hospitals, small factories, and utility rooms. The fanless design ensures silent operation and support for 24×7 monitoring applications.
 
-Setu SCX supports **AES‑128 encrypted communication**, OTA configuration and monitoring through MQTT / HTTPS secure and scalable network performance.
+Supporting AES-128 encrypted communication, OTA updates, **MQTT/HTTPS cloud delivery**, and **direct RS-485 Modbus output**, IndiLoRa X1 allows rapid integration into SCADA, BMS, EMS, utility monitoring and more — without replacing existing equipment.
 
-Whether enabling indoor environmental monitoring, asset tracking, energy management, occupancy sensing, or small‑area automation—**Setu SCX provides a simple, powerful, and plug‑and‑play LoRa® network entry point** for rapid IoT adoption.
+Whether enabling indoor environmental monitoring, asset tracking, energy meters, or low-density sensor networks — IndiLoRa X1 delivers a budget-friendly indoor LoRa® gateway solution that bridges Industry 3.0 with Industry 4.0.
 
-| ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-front.webp) | ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-integration.webp) |
+| ![IndiLoRa single channel indoor LoRa gateway front view with wifi connectivity](/img/lorawan/gateways/indilora-single-channel-gateway-front.webp) | ![IndiLoRa compact LoRa to wifi indoor gateway side view for smart building automation](/img/lorawan/gateways/indilora-single-channel-gateway-installation.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-mounting.webp) | ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-side.webp) |
+| ![IndiLoRa LoRa to RS485 Modbus RTU gateway interface terminal connector](/img/lorawan/gateways/indilora-single-channel-gateway-rs485.webp) | ![IndiLoRa installed inside building enabling low cost IoT network extension and sensor monitoring](/img/lorawan/gateways/indilora-single-channel-gateway-side.webp) |
 
 
 <div class="faint-line"></div>
@@ -60,7 +60,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
     <div className="icon">📝</div>
     <div>
       <strong>Firmware/SDK</strong>
-      <p>Click here to view the decoders for Setu SCX</p>
+      <p>Click here to view the decoders for IndiLoRa X</p>
     </div>
   </a>
 </div>
@@ -71,43 +71,43 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>Compact Single‑Channel LoRa® Gateway</strong>
-  Designed for localized indoor IoT deployments with small device density and focused wireless coverage.
+  <strong>Ultra‑Low Cost LoRa® Gateway</strong>
+  Designed for cost‑sensitive IoT installations with compact coverage needs in smart buildings and commercial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Dual Backhaul Connectivity</strong>
-  Wi‑Fi and Cellular connectivity for environments without Ethernet cabling or wired network access.
+  <strong>Wi‑Fi Backhaul Connectivity</strong>
+  Cloud communication using Wi‑Fi no Ethernet wiring required for installation.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Plug‑and‑Play Installation</strong>
-  Simple onboarding using MacCloud, DHCP auto‑connect and rapid provisioning for non‑technical deployment teams.
+  <strong>RS‑485 Modbus Output Support</strong>
+  Direct interface with legacy PLCs, meters and BMS systems for simultaneous LoRa‑to‑wired integration.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Enterprise‑Grade Security</strong>
-  AES‑128 encrypted LoRa® communication with secure TLS‑based OTA configuration and device authentication.
+  <strong>Powered by nRF5340 MCU</strong>
+  Dual‑core processing with secure and power‑efficient wireless communication.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Fanless Silent Operation</strong>
-  Zero‑noise design ideal for commercial indoor spaces like offices, hospitals and retail stores.
+  <strong>Focused Single‑Channel LoRa® Operation</strong>
+  Ideal for low‑density sensor networks inside controlled indoor areas.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Low‑Power Architecture</strong>
-  Efficient operation optimized for 24/7 uptime while reducing overall infrastructure cost.
+  <strong>Secure Communication</strong>
+  AES‑128 data encryption and TLS‑based secure OTA firmware upgrades.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Universal Server Compatibility</strong>
-  Works with private network servers with MQTT, HTTP, HTTPS integration.
+  <strong>Plug‑and‑Play Deployment</strong>
+  Zero‑touch provisioning using MacCloud for rapid installation by onsite technicians.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Flexible Mounting</strong>
-  Wall and ceiling installation supported for optimized RF propagation inside buildings.
+  <strong>Quiet & Low‑Power Design</strong>
+  Fanless architecture built for 24×7 uptime in noise‑sensitive environments.
 </div>
 </div>
 <div class="faint-line"></div>
@@ -115,50 +115,47 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
 ## Suited Applications
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Smart Buildings & Offices</strong>
-  Indoor LoRa® connectivity hub for BMS automation, energy management and workplace monitoring.
+  <strong>Small Smart Building Deployments</strong>
+  Cost‑efficient indoor LoRa® coverage for energy monitoring, room comfort sensors and building automation in compact areas.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Hospitals & Healthcare Facilities</strong>
-  Reliable gateway for indoor asset tracking, patient safety systems and environmental compliance.
+  <strong>Commercial Retail Outlets</strong>
+  Enables IoT connectivity for shelf monitoring, occupancy analytics and refrigeration compliance without wired infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Retail & Shopping Centers</strong>
-  Supports people counting, occupancy analytics and warehouse-to-store supply chain tracking.
+  <strong>Warehouse & Storage Spaces</strong>
+  Ideal for indoor asset tracking, stock environment monitoring and automated supply chain alerts.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Hospitals & Healthcare Rooms</strong>
+  Adds secure connectivity for patient safety, air quality monitoring and equipment status without major installation work.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Apartments & Residential Smart Homes</strong>
+  Facilitates LoRa®‑based water meters, energy monitoring and safety sensors for housing automation.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Legacy Industrial Machine Rooms</strong>
+  Provides RS‑485 integration for PLCs and meters, bridging Industry 3.0 devices with modern IoT cloud systems.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Hotels & Hospitality Spaces</strong>
-  Enables smart room controls, environmental sensors and maintenance alerts for enhanced guest experience.
+  Supports smart room solutions and maintenance alert systems without disturbing infrastructure aesthetics.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Campuses & Education</strong>
-  Wide indoor-area gateway for security, environment sensing and resource optimization in institutions.
+  <strong>Data Center & IT Racks</strong>
+  Perfect for localized monitoring of temperature, humidity and access conditions inside server environments.
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Industry 4.0 & Factory Floors</strong>
-  Connects predictive maintenance sensors and equipment monitoring systems across industrial interiors.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Data Centers & Server Rooms</strong>
-  Ideal for temperature, humidity and access monitoring in controlled indoor areas.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Warehouses & Inventory Areas</strong>
-  Backbone for indoor logistics, RFID extensions and smart storage infrastructure.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Public Venues & Indoor Infrastructure</strong>
-  Reliable LoRa® coverage for airports, metros and community facilities.
-</div>
 </div>
 
 <div class="faint-line"></div>
@@ -171,7 +168,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">Setu SCX</p>
+    <p className="value">IndiLoRa X</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -183,7 +180,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
 
 <div className="spec-block">
   <div className="spec-block-title">
-    System Hardware <br /> Specifications
+    Hardware <br /> Specifications
   </div>
   <div className="spec-block-details">
 <p className="label">Processor Type</p>
@@ -252,6 +249,40 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
 
 <div className="spec-block">
   <div className="spec-block-title">
+    Native <br /> RS485 Output
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Interface Type</p>
+    <p className="value">RS‑485 Half‑Duplex</p>
+    <br />
+    <p className="label">Protocol</p>
+    <p className="value">Modbus RTU (Slave Mode)</p>
+    <br />
+    <p className="label">Baud Rates Supported</p>
+    <p className="value">9600 / 19200 / 38400 / 57600 / 115200 bps (Configurable)</p>
+    <br />
+    <p className="label">Data Format</p>
+    <p className="value">8‑N‑1 (Default) / Configurable</p>
+    <br />
+    <p className="label">Command Processing</p>
+    <p className="value">Receives LoRa® sensor data and responds to host read commands via Modbus Holding Registers</p>
+    <br />
+    <p className="label">Isolation</p>
+    <p className="value">Built‑in surge and ESD protection for industrial environments</p>
+    <br />
+    <p className="label">Connector</p>
+    <p className="value">2‑Pin Terminal Block</p>
+    <br />
+    <p className="label">Integration</p>
+    <p className="value">Compatible with Industrial PLCs, BMS, HVAC Controllers and SCADA systems</p>
+  </div>
+</div>
+
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Backhual <br /> WiFi
   </div>
   <div className="spec-block-details">
@@ -305,7 +336,8 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
     Supported <br /> Protocols
   </div>
   <div className="spec-block-details">
-    <p className="label">MQTT</p>
+    <p className="label">Supported Protocols</p>
+    <p className="value">MQTT</p>
     <p className="value">HTTP</p>
     <p className="value">HTTPS</p>
     <br />  
@@ -338,7 +370,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
     <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
-    <p className="value">~190g</p>    
+    <p className="value">~120g</p>    
     <br />
     <p className="label">Mounting Options(Brackets)</p>
     <p className="value">Pole Mounting / Wall Mounting</p>    
@@ -382,7 +414,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
 </div>
 
 
-##  Setu SCX Variants
+##  IndiLoRa X Variants
 
 <table className="parameter-table">
   <thead>
@@ -397,7 +429,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
   </thead>
   <tbody>
     <tr>
-      <td>Setu SCX1</td>
+      <td>IndiLoRa X1</td>
       <td>12–24 V (Power)</td>
       <td>✔️</td>
       <td>✖️</td>
@@ -405,7 +437,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
       <td>Ideal for small indoor networks with stable Wi-Fi backhaul such as offices, retail stores and hospitality environments.</td>
     </tr>
     <tr>
-      <td>Setu SCX2</td>
+      <td>IndiLoRa X2</td>
       <td>12–24 V (Power)</td>
       <td>✔️</td>
       <td>✖️</td>
@@ -460,7 +492,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/setu-scx-what-in-box.svg)
+![title image](/img/lorawan/gateways/indilora-lora-gateway-dimensions-box-item.svg)
 
 :::note
 
@@ -471,5 +503,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/gateways/setu-scx-lora-gateway-dimensions.svg)
+![title image](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
 
