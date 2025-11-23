@@ -1,46 +1,44 @@
 ---
-id: maclink-gen-two
-title: MacLink Gen-2
-sidebarposition: 1
+id: setu-x-one-datasheet
+title: Setu X1
+sidebarposition: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - industrial lorawan gateway
-  - outdoor lorawan gateway ip67
-  - smart city iot gateway
-  - lorawan 8 channel gateway
-  - lorawan base station for utilities
-  - long range wireless gateway
-  - lorawan backhaul ethernet lte wifi
-  - carrier grade lorawan network gateway
-  - remote iot connectivity solution
-  - smart water and energy iot gateway
-  - industrial automation lorawan gateway
-  - high capacity lorawan concentrator
-  - rooftop pole mount lorawan antenna gateway
+  - indoor lorawan gateway
+  - smart building iot gateway
+  - lorawan ethernet wifi gateway
+  - compact lorawan access point
+  - private lorawan network gateway
+  - enterprise iot connectivity hub
+  - indoor wide area network gateway
+  - long range wireless indoor gateway
   - secure lorawan network access point
-  - solar powered lorawan gateway
-  - private lorawan network deployment
   - lorawan network server compatible gateway
+  - remote iot device management gateway
+  - energy efficient lorawan gateway
+  - industry 4.0 indoor automation gateway
+  - smart campus indoor iot backbone
   - high sensitivity lorawan rf gateway
-  - rugged outdoor iot infrastructure
-  - industry 4.0 wireless gateway
+  - multi backhaul lorawan gateway
+  - indoor positioning and asset tracking gateway
+  - scalable indoor iot infrastructure
 ---
 
-# MacLink Gen-2 Datasheet
+# Setu X1 Datasheet
 
 ## Product Overview
 
-MacLink Gen-2 is a carrier-grade industrial outdoor LoRaWAN® gateway engineered for ultra-long-range connectivity, high network capacity, and mission-critical performance in harsh environments. Built with a high-sensitivity 8-channel LoRaWAN® concentrator, edge-intelligent packet filtering, and rugged IP67 housing, it establishes a reliable wireless infrastructure for large-scale Smart Cities, Utilities, Industrial Automation, Agriculture, and Environmental Monitoring deployments.
+Setu X1 is a compact and enterprise‑grade **Indoor LoRaWAN® Gateway**, engineered to deliver reliable long‑range wireless connectivity inside smart buildings, commercial spaces, and industrial environments. Designed with a high‑sensitivity LoRaWAN® concentrator and optimized RF performance, Setu X1 enables seamless communication with thousands of IoT devices deployed across large indoor areas.
 
-With 4G/LTE + Ethernet + Wi-Fi backhaul, built-in GPS for gateway positioning, surge-protected RF front-end, and advanced interference immunity, MacLink Gen-2 ensures uninterrupted operation in extreme weather, remote locations, and RF-challenging sites.
+With **Ethernet and Wi‑Fi backhaul** options, the gateway acts as a secure bridge between indoor LoRaWAN® sensors and private or cloud‑hosted network servers. Its fanless low‑power architecture, silent operation, and simple wall/ceiling installation make it the perfect fit for offices, hospitals, data centers, hotels, retail, and manufacturing floors.
 
-Multi-layer AES-128 + TLS secured communication, remote OTA firmware upgrades, and centralized management via Macnman’s MacCloud (or any LoRaWAN® Network Server) deliver a flexible and future-proof IoT network backbone. Optional solar-power support and edge buffering guarantee zero data loss and smooth connectivity even during network outages.
+Setu X1 supports **AES‑128 encrypted communication**, **remote OTA firmware updates**, and centralized fleet management via MacCloud or popular LNS platforms such as ChirpStack, TTN, Orbiwise, Loriot, and more — ensuring scalable and resilient network performance.
 
-Whether connecting thousands of sensors across water utilities, industrial plants, street-lighting networks, smart campuses, or wildlife monitoring systems — MacLink Gen-2 provides a powerful, scalable, and secure LoRaWAN® access point that bridges remote field assets to the cloud, enabling true Industry 4.0 and Smart City growth.
+Whether enabling energy monitoring, asset tracking, indoor environmental sensing or Industry 4.0 automation — **Setu X1 establishes a secure, scalable, and future‑proof LoRaWAN® network backbone** for enterprise IoT transformation.
 
-| ![Image 1](/img/lorawan/gateways/lorawan-outdoor-gateway-maclink-gen-two.webp) | ![Image 1](/img/lorawan/gateways/lorawan-maclink-gen-two-internal-pcb.webp) |
+| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/maclink-gen-two-pole-mounting-kit.webp) | ![Image 1](/img/lorawan/gateways/maclink-gen-two-sealed-ports.webp) |
+| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image.webp) |
 
 
 <div class="faint-line"></div>
@@ -61,8 +59,8 @@ Whether connecting thousands of sensors across water utilities, industrial plant
   className="icon-card">
     <div className="icon">📝</div>
     <div>
-      <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacLink Gen-2</p>
+      <strong>Firmware/SDK</strong>
+      <p>Click here to view the decoders for Setu X1</p>
     </div>
   </a>
 </div>
@@ -73,53 +71,43 @@ Whether connecting thousands of sensors across water utilities, industrial plant
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>Industrial Outdoor Gateway</strong>
-  Rugged IP67 enclosure with lightning protection designed for extreme weather conditions.
+  <strong>Compact Indoor LoRaWAN® Gateway</strong>
+  Sleek design optimized for indoor deployments in smart buildings, retail, hospitality and enterprise environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>8‑Channel High‑Capacity LoRaWAN®</strong>
-  Supports thousands of end‑devices with long‑range, high‑sensitivity RF performance.
+  <strong>High-Capacity LoRaWAN® Concentrator</strong>
+  Supports thousands of end-devices with strong RF performance and extended indoor coverage.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Multi‑Backhaul Connectivity</strong>
-  Ethernet + 2 X 4G/LTE + Wi‑Fi options for reliable network redundancy and flexible deployment.
+  <strong>Multi Backhaul Connectivity</strong>
+  Ethernet + Wi-Fi options for simple installation and reliable network access without additional cabling.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Encryption & Authentication</strong>
-  AES‑128 & TLS secured communication for carrier‑grade data protection.
+  <strong>Enterprise-Grade Security</strong>
+  AES-128 network encryption with TLS-secured backhaul for protected data transmission.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>GPS for Gateway Positioning</strong>
-  Built‑in GPS for network server placement, geofencing & triangulation.
+  <strong>Edge Processing & OTA Management</strong>
+  Supports remote configuration, diagnostics and firmware updates via MacCloud and major LoRaWAN® network servers.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Edge Intelligence</strong>
-  Adaptive packet filtering & buffering to prevent data loss during backhaul outages.
+  <strong>Fanless, Silent Operation</strong>
+  Low heat and noise profile ensures seamless installation in commercial and indoor environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>OTA Firmware & Configuration</strong>
-  Fully remote updates & management via MacCloud and popular LNS platforms.
+  <strong>Universal Network Server Compatibility</strong>
+  Works with Chirpstack, TTN, Loriot, Orbiwise, private networks and MQTT infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Flexible Power Options</strong>
-  Supports PoE and DC input with optional solar integration for remote sites.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Smart City Ready</strong>
-  Ideal for street lighting, utilities, water networks & environmental monitoring.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>All‑Network Server Compatibility</strong>
-  Works with Chirpstack, TTN, Loriot, Orbiwise, Actility & private LoRaWAN® servers.
+  <strong>Simple Wall & Ceiling Mounting</strong>
+  Flexible mounting options for easy deployment in enterprise infrastructure.
 </div>
 </div>
 <div class="faint-line"></div>
@@ -127,50 +115,50 @@ Whether connecting thousands of sensors across water utilities, industrial plant
 ## Suited Applications
 
 <div className="reusable-feature-grid">
-  <div className="reusable-feature-card">
-    <strong>Smart Cities</strong>
-    Reliable LoRaWAN® backbone for street lighting, waste management and environmental monitoring networks.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Smart Buildings & Offices</strong>
+  Indoor LoRaWAN® connectivity hub for BMS automation, energy management and workplace monitoring.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Water & Utility Networks</strong>
-    Scalable connectivity for water meters, pumping stations, distribution lines and leak detection systems.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Hospitals & Healthcare Facilities</strong>
+  Reliable gateway for indoor asset tracking, patient safety systems and environmental compliance.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Industrial Automation & Process Plants</strong>
-    High‑capacity gateway for remote asset monitoring, predictive maintenance and energy optimization.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Retail & Shopping Centers</strong>
+  Supports people counting, occupancy analytics and warehouse-to-store supply chain tracking.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Oil, Gas & Energy Infrastructure</strong>
-    Secure wireless coverage for substations, wind farms, pipelines and hazardous remote assets.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Hotels & Hospitality Spaces</strong>
+  Enables smart room controls, environmental sensors and maintenance alerts for enhanced guest experience.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Agriculture & Irrigation Systems</strong>
-    Long‑range coverage for farms, irrigation controllers, soil sensors and livestock monitoring.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Smart Campuses & Education</strong>
+  Wide indoor-area gateway for security, environment sensing and resource optimization in institutions.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Transportation & Smart Logistics</strong>
-    Gateway connectivity for fleet tracking, parking systems and authorized zone access control.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Industry 4.0 & Factory Floors</strong>
+  Connects predictive maintenance sensors and equipment monitoring systems across industrial interiors.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Mining & Harsh Locations</strong>
-    Reliable communication in high‑dust, high‑vibration and deep‑coverage environments.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Data Centers & Server Rooms</strong>
+  Ideal for temperature, humidity and access monitoring in controlled indoor areas.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Campuses & Smart Buildings</strong>
-    Connectivity hub for wide‑area automation, indoor‑outdoor coverage and security monitoring.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Warehouses & Inventory Areas</strong>
+  Backbone for indoor logistics, RFID extensions and smart storage infrastructure.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Remote & Off‑Grid Deployments</strong>
-    Solar‑powered network edge nodes for unmanned sites, wildlife zones and rural connectivity.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Public Venues & Indoor Infrastructure</strong>
+  Reliable LoRaWAN® coverage for airports, metros and community facilities.
+</div>
 </div>
 
 <div class="faint-line"></div>
@@ -183,7 +171,7 @@ Whether connecting thousands of sensors across water utilities, industrial plant
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacLink Gen-2</p>
+    <p className="value">Setu X1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -199,22 +187,22 @@ Whether connecting thousands of sensors across water utilities, industrial plant
   </div>
   <div className="spec-block-details">
 <p className="label">Processor Type</p>
-<p className="value">ARM Cortex-A7</p>
+<p className="value">ARM Cortex Processor</p>
 <br />
 <p className="label">Number of Cores</p>
-<p className="value">Quad Core</p>
+<p className="value">Duel Core</p>
 <br />
 <p className="label">Clock Speed</p>
 <p className="value">960 MHz per Core</p>
 <br />
 <p className="label">Memory Size</p>
-<p className="value">512 MB RAM</p>
+<p className="value">256 MB RAM</p>
 <br />
 <p className="label">Memory Speed</p>
 <p className="value">Up to 1066 MHz</p>
 <br />
 <p className="label">Internal Storage</p>
-<p className="value">8 GB eMMC</p>
+<p className="value">4 GB eMMC</p>
 <br />
 <p className="label">USB Port</p>
 <p className="value">Debug Interface (Bottom of Enclosure)</p>
@@ -222,7 +210,7 @@ Whether connecting thousands of sensors across water utilities, industrial plant
 <p className="label">Connector Type</p>
 <p className="value">USB Type‑C</p>
 <br />
-<p className="label">Interface Protection</p>
+<p className="label">Interface Protection (External*)</p>
 <p className="value">Surge Protection Enabled</p>
   </div>
 </div>
@@ -310,7 +298,7 @@ Whether connecting thousands of sensors across water utilities, industrial plant
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Backhual <br /> Cellular Lte
+    Backhual <br /> Cellular Lte*
   </div>
   <div className="spec-block-details">
     <p className="label">Cellular Bands</p>
@@ -367,7 +355,7 @@ Whether connecting thousands of sensors across water utilities, industrial plant
     <p className="value">0% to 100% RH (non-condensing)</p>
     <br />
     <p className="label">Ingress Protection</p>
-    <p className="value">IP67</p>    
+    <p className="value">IP35</p>    
     <br />
     <p className="label">Housing Material</p>
     <p className="value">Aluminium</p>    
@@ -441,27 +429,43 @@ Whether connecting thousands of sensors across water utilities, industrial plant
 </div>
 
 
-##  MacLink Gen-2 Variants
+##  Setu X1 Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
-      <th>Solar Support</th>
-      <th>External Flash</th>
+      <th>Wifi</th>
+      <th>Ethernet</th>
+      <th>Cellular</th>
       <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacLink Gen-2-PO</td>
+      <td>Setu X1</td>
       <td>12–24 V (Power)</td>
+      <td>✔️</td>
       <td>✖️</td>
       <td>✖️</td>
+      <td>Ideal for small indoor networks with stable Wi-Fi backhaul such as offices, retail stores and hospitality environments.</td>
+    </tr>
+    <tr>
+      <td>Setu X2</td>
+      <td>12–24 V (Power)</td>
+      <td>✔️</td>
+      <td>✔️</td>
       <td>✖️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
+      <td>Best for enterprise networks requiring reliable wired Ethernet connectivity and expanded indoor coverage in commercial buildings.</td>
+    </tr>
+    <tr>
+      <td>Setu X3</td>
+      <td>12–24 V (Power)</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>✔️</td>
+      <td>Designed for mission‑critical deployments where Ethernet, Wi‑Fi and LTE failover ensure uninterrupted connectivity in industrial and multi‑site facilities.</td>
     </tr>
   </tbody>
 </table>
@@ -511,7 +515,7 @@ Whether connecting thousands of sensors across water utilities, industrial plant
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/maclink-what-is-in-the-box-image.svg)
+![title image](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-boxs.svg)
 
 :::note
 
@@ -522,5 +526,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/gateways/maclink-gen-two-dimensions.svg)
+![title image](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-dimensions.svg)
 
