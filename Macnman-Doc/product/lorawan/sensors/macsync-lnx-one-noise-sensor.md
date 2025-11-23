@@ -1,45 +1,45 @@
 ---
-id: macsync-l-v-x-one-vibration-sensor
-title: MacSync-LVX1
-sidebarposition: 11
+id: macsync-l-n-x-one-noise-sensor
+title: MacSync-LNX1
+sidebarposition: 12
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan vibration sensor
-  - predictive maintenance iot sensor
-  - industrial equipment condition monitoring
-  - motor and bearing vibration analytics
-  - wireless vibration data logging
-  - rotating machinery fault detection
-  - vibration monitoring for pumps and motors
-  - smart factory predictive maintenance
-  - industrial asset health monitoring
-  - tri‑axis mems accelerometer sensor
-  - remote vibration diagnostics
-  - condition based maintenance cbm sensor
-  - vibration anomaly detection device
-  - low power industrial vibration monitor
-  - ip67 rugged vibration sensor
-  - machinery downtime prevention system
-  - macsync vibration sensor
-  - macnman lorawan device
-  - industry 4.0 predictive monitoring
-  - vibration trending and alerting sensor
+  - lorawan noise sensor
+  - wireless sound level monitoring
+  - smart city noise mapping
+  - environmental noise monitoring device
+  - industrial noise pollution analyzer
+  - sound level meter lorawan
+  - decibel monitoring system
+  - acoustic monitoring iot sensor
+  - outdoor noise measurement station
+  - airport and metro noise monitoring
+  - factory noise compliance monitoring
+  - construction site noise tracking
+  - real time noise data logger
+  - dba and dbc weighted sound sensor
+  - long range wireless noise monitoring
+  - battery powered noise sensor
+  - ip65 rugged acoustic sensor
+  - remote environmental compliance system
+  - macsync noise monitoring device
+  - industrial iot noise analytics
 ---
 
-# MacSync-LVX1 Datasheet
+# MacSync-LNX1 Datasheet
 
 ## Product Overview
 
-**MacSync-LVX1** is an advanced **LoRaWAN® vibration and condition monitoring sensor** designed for predictive maintenance and continuous machine health diagnostics. Equipped with a high‑precision tri‑axis MEMS accelerometer, it monitors **vibration amplitude, frequency spectrum, temperature, and shock events** — enabling early detection of failures in motors, pumps, gearboxes, bearings, and rotating equipment.
+**MacSync-LNX1** is an advanced **LoRaWAN® noise and acoustic monitoring sensor** designed for continuous environmental sound measurement and compliance monitoring in industrial, commercial, and smart‑city deployments. With a precision **A‑weighted microphone**, high‑resolution sampling, and onboard analytics, it delivers real‑time **decibel readings, peak sound detection, time‑weighted averages, and noise pattern insights**.
 
-Powered by long‑range LoRaWAN® connectivity and ultra‑low‑power architecture, MacSync‑LVX1 delivers real‑time asset health data across large industrial environments without requiring wired infrastructure. Its rugged **IP67 enclosure**, noise‑optimized sensing, and internal analytics ensure reliable operation in harsh and high‑vibration environments.
+Its ultra‑low‑power architecture and **long‑range LoRaWAN® connectivity** allow wide‑area deployment without wired infrastructure, making it ideal for 24×7 monitoring applications. The rugged **IP65 weather‑resistant enclosure**, wind‑noise reduction design, and high‑stability acoustic front‑end ensure accurate performance in harsh outdoor and industrial environments.
 
-With secure **AES‑encrypted communication**, **BLE onboard configuration via Maya App**, OTA parameter updates, and intelligent event‑triggered reporting, **MacSync‑LVX1 helps reduce downtime, avoid catastrophic failures, and extend equipment lifetime** — making it an essential solution for Industry 4.0 predictive maintenance deployments.
+With **BLE onboarding via Maya App**, secure OTA configuration, adaptive reporting modes, and encrypted data transmission — **MacSync‑LNX1 enables smarter city planning, noise regulation compliance, and predictive environmental intelligence**, delivering actionable sound data wherever it’s needed most.
 
 <div className="image-grid-2col">
-  <img src="/docs/img/lorawan/sensors/macsync/lorawan-vibration-sensor-side-view.webp" alt="ss316 transducer" />
-  <img src="/docs/img/lorawan/sensors/macsync/lorawan-vibration-sensor-front-view.webp" alt="pipeline monitoring" />
-  <img src="/docs/img/lorawan/sensors/macsync/lorawan-vibration-sensor-back-view.webp" alt="industrial pressure sensor front" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-noise-sensor-side-view.webp" alt="ss316 transducer" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-noise-sensor-front-view.webp" alt="pipeline monitoring" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-noise-sensor-back-view.webp" alt="industrial pressure sensor front" />
   <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="hydrant monitoring" />
 </div>
 
@@ -62,7 +62,7 @@ With secure **AES‑encrypted communication**, **BLE onboard configuration via M
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LVX1</p>
+      <p>Click here to view the decoders for MacSync-LNX1</p>
     </div>
   </a>
 </div>
@@ -74,53 +74,53 @@ With secure **AES‑encrypted communication**, **BLE onboard configuration via M
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Tri‑Axis Vibration Monitoring</strong>
-  High‑precision MEMS accelerometer enables comprehensive vibration analysis across all axes.
+  <strong>High‑Accuracy Noise Measurement</strong>
+  A‑weighted acoustic calibration for reliable environmental and industrial noise compliance monitoring.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Predictive Maintenance Intelligence</strong>
-  Detects anomalies in motors, pumps, gearboxes & bearings before failures occur — reducing downtime.
+  <strong>Peak, Leq & Time‑Weighted Metrics</strong>
+  Real‑time dB measurements, peak capture, and long‑term noise exposure analytics.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>FFT & Frequency Spectrum Analysis</strong>
-  Enables root‑cause fault detection for imbalance, looseness, misalignment & bearing wear.
+  <strong>Advanced Acoustic Signal Processing</strong>
+  Filters wind‑noise, background hum & interference for precise sound characterization.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Shock & Impact Event Detection</strong>
-  Instant alerting for mechanical knocks, collisions & abnormal equipment behavior.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Onboard Temperature Monitoring</strong>
-  Integrated thermal tracking improves fault diagnosis for motors & rotating assemblies.
+  <strong>Rugged IP65 Outdoor Design</strong>
+  Engineered to withstand dust, rain & high‑noise industrial environments.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Ultra‑Low‑Power LoRaWAN® Connectivity</strong>
-  Multi‑year battery life with periodic, threshold & event‑driven reporting modes.
+  Supports periodic, event‑based & threshold‑based reporting with multi‑year battery life.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Rugged Industrial Design</strong>
-  IP67 rating, vibration‑resistant build for continuous use in harsh industrial environments.
+  <strong>BLE Setup via Maya App</strong>
+  Fast deployment, configuration & diagnostics directly from a smartphone.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>BLE Commissioning via Maya App</strong>
-  Zero‑touch provisioning, diagnostics & OTA firmware updates on‑site.
+  <strong>Wide‑Area Deployment</strong>
+  Long‑range connectivity enables smart‑city scale acoustic monitoring networks.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Data Communication</strong>
-  AES‑encrypted uplinks ensure reliable & protected machine‑health telemetry.
+  <strong>Secure Wireless Communication</strong>
+  AES‑encrypted uplinks for protected environmental compliance data.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Plug‑and‑Play Deployment</strong>
-  Mounts easily on rotating equipment — no wiring required for battery model.
+  <strong>Cloud‑Connected Intelligence</strong>
+  Seamless integration with major LoRaWAN® network servers & IoT platforms.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Plug‑and‑Play Installation</strong>
+  No wiring required for battery model — designed for quick & scalable field deployment.
 </div>
 
 </div>
@@ -131,48 +131,48 @@ With secure **AES‑encrypted communication**, **BLE onboard configuration via M
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Rotating Machinery Monitoring</strong>
-  Continuous health diagnostics for motors, pumps, compressors, blowers, and turbines.
+  <strong>Smart City Noise Compliance</strong>
+  Continuous monitoring of traffic, roadways, commercial areas, and pedestrian zones for regulatory enforcement.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Bearing Condition Monitoring</strong>
-  Detects wear, lubrication failure, and fatigue early to prevent catastrophic failures.
+  <strong>Industrial & Factory Noise Exposure</strong>
+  Occupational noise monitoring for worker safety, hearing protection standards & audit reports.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>HVAC & Industrial Fans</strong>
-  Identify imbalance, misalignment, and vibration escalation in ventilation and cooling systems.
+  <strong>Construction & Mining Sites</strong>
+  Detect sound pollution levels caused by drilling, blasting, heavy machinery, and infrastructure projects.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Gearbox & Conveyor Systems</strong>
-  Alerts for mechanical looseness, gear wear, and chain drive degradation in assembly lines.
+  <strong>Airports, Rail & Metro Corridors</strong>
+  Track aircraft takeoff/landing noise and metro/rail movement impact across urban zones.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Oil & Gas / Energy Sector Assets</strong>
-  Remote equipment vibration diagnostics in hazardous or difficult‑to‑reach installations.
+  <strong>Commercial Buildings & Indoor Public Areas</strong>
+  Noise management inside malls, hospitals, offices, auditoriums, and educational institutes.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Predictive Maintenance in Smart Factories</strong>
-  Enables condition‑based maintenance (CBM) and Industry 4.0 automation.
+  <strong>Environmental Protection Zones</strong>
+  Noise mapping in wildlife reserves, green zones & pollution‑sensitive areas.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Structural Vibration & Machine Safety</strong>
-  Suitable for cranes, presses, milling machines, heavy industrial rigs and material handling equipment.
+  <strong>Event & Entertainment Venues</strong>
+  Live monitoring of concerts, festivals, and stadium events for decibel limit enforcement.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Mining & Harsh Industrial Environments</strong>
-  Rugged IP67 design ensures reliable monitoring under continuous vibration and dust exposure.
+  <strong>Noise Complaint Validation</strong>
+  Remote data‑driven analysis for community noise grievance responses and legal documentation.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Remote Industrial Assets</strong>
-  LoRaWAN® long‑range communication eliminates wired infrastructure requirements.
+  <strong>IoT‑Enabled Urban Planning</strong>
+  Real‑time acoustic analytics for smarter zoning, road layouts & environmental policy decisions.
 </div>
 
 </div>
@@ -187,7 +187,7 @@ With secure **AES‑encrypted communication**, **BLE onboard configuration via M
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-LVX1</p>
+    <p className="value">MacSync-LNX1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -199,110 +199,40 @@ With secure **AES‑encrypted communication**, **BLE onboard configuration via M
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Vibration <br /> Measurement
-  </div>
-  <div className="spec-block-details">
-<p className="label">Measuring Parameters</p>
-<p className="value">Tri‑axis vibration and machine condition parameters</p>
-<br />
-
-<p className="label">Vibration Output Data</p>
-<p className="value">RMS values (average)</p>
-<p className="value">Kurtosis</p>
-<p className="value">Crest Factor</p>
-<p className="value">Skewness</p>
-<p className="value">FFT High‑Energy Samples (Amplitude + Frequency)*</p>
-<br />
-
-<p className="label">Velocity Measurement Range</p>
-<p className="value">0 to 100 mm/s</p>
-<br />
-
-<p className="label">Accelerometer Type</p>
-<p className="value">Tri‑axis MEMS accelerometer</p>
-<br />
-
-<p className="label">Acceleration Range</p>
-<p className="value">±16g</p>
-<br />
-
-<p className="label">Sampling Bandwidth</p>
-<p className="value">5 Hz to 2500 Hz (±1 dB)*</p>
-<br />
-
-<p className="label">Internal Sampling Frequency</p>
-<p className="value">Up to 2500 Hz for high‑resolution FFT</p>
-<br />
-
-<p className="label">Shock Detection</p>
-<p className="value">High‑G peak detection with trigger‑based reporting</p>
-<br />
-
-<p className="label">Built‑In Temperature Sensor</p>
-<p className="value">For thermal‑assisted mechanical failure diagnostics</p>
-<br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Additional <br /> Measurements
+    Noise <br /> Measurement
   </div>
   <div className="spec-block-details">
 
-    <p className="label">Ambient Temperature Range</p>
-    <p className="value">-40°C to +85°C</p>
+    <p className="label">Measuring Range</p>
+    <p className="value">30 dB to 120 dB (typical)</p>
     <br />
 
-    <p className="label">Ambient Temperature Accuracy</p>
-    <p className="value">±0.2°C @ 25°C</p>
+    <p className="label">Resolution</p>
+    <p className="value">0.1 dB</p>
     <br />
 
-    <p className="label">Ambient Temperature Resolution</p>
-    <p className="value">0.01°C</p>
+    <p className="label">Frequency Range</p>
+    <p className="value">20 Hz – 12.5 kHz</p>
     <br />
 
-    <p className="label">Relative Humidity Range</p>
-    <p className="value">0% to 100% RH</p>
+    <p className="label">Accuracy</p>
+    <p className="value">±0.5 dB (at 94 dB, 1 kHz reference)</p>
     <br />
 
-    <p className="label">Relative Humidity Accuracy</p>
-    <p className="value">±3% RH (@ 90% RH)</p>
+    <p className="label">Stability</p>
+    <p className="value">&lt; 2% variation over lifecycle</p>
     <br />
 
-    <p className="label">Relative Humidity Resolution</p>
-    <p className="value">0.01% RH</p>
+    <p className="label">Weighting Filter</p>
+    <p className="value">A‑weighting (dBA) standard compliant</p>
     <br />
 
-    <p className="label">Surface Temperature Range</p>
-    <p className="value">-40°C to +80°C</p>
-    <br />
-
-    <p className="label">Surface Temperature Accuracy</p>
-    <p className="value">±2°C</p>
-    <br />
-
-    <p className="label">Surface Temperature Resolution</p>
-    <p className="value">0.01°C</p>
-    <br />
-
-    <p className="label">Atmospheric Pressure Range</p>
-    <p className="value">500–1100 hPa</p>
-    <br />
-
-    <p className="label">Atmospheric Pressure Accuracy</p>
-    <p className="value">±0.5 hPa @ 25°C</p>
-    <br />
-
-    <p className="label">Atmospheric Pressure Resolution</p>
-    <p className="value">0.1 hPa</p>
+    <p className="label">Response Time</p>
+    <p className="value">Fast time‑weighted response</p>
     <br />
 
   </div>
 </div>
-
 
 <div class="faint-line"></div>
 
@@ -536,7 +466,7 @@ With secure **AES‑encrypted communication**, **BLE onboard configuration via M
 </div>
 
 
-##  MacSync-LVX1 Variants
+##  MacSync-LNX1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -551,7 +481,7 @@ With secure **AES‑encrypted communication**, **BLE onboard configuration via M
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LVX1-PO</td>
+      <td>MacSync-L-RTDX1-PO</td>
       <td>12–24 V (Power)</td>
       <td>✖️</td>
       <td>✖️</td>
@@ -559,7 +489,7 @@ With secure **AES‑encrypted communication**, **BLE onboard configuration via M
       <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
-      <td>MacSync-LVX1-BO</td>
+      <td>MacSync-L-RTDX1-BO</td>
       <td>Battery</td>
       <td>19 Ah</td>
       <td>✖️</td>
@@ -623,8 +553,7 @@ not be included in the box.
 
 :::
 
-
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/macsync-psx-pipeline-pressure-monitoring-dimensions.svg)
+![title image](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.svg)
 
