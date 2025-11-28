@@ -1,6 +1,6 @@
 ---
 id: macsync-l-rtd-x-five-datasheet
-title: MacSync-L-RTDX5
+title: MacSync-LRTDX5
 sidebarposition: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:

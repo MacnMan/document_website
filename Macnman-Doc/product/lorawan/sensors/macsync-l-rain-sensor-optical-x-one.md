@@ -1,40 +1,40 @@
 ---
-id: macsync-l-seven-in-one-soil-sensor
-title: MacSync-LSX7
+id: macsync-l-optical-rainfall-sensor
+title: MacSync-LRX1
 sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - 7 in 1 lorawan soil sensor
-  - macsync lssx7 soil sensor
-  - multiparameter soil sensor lorawan
-  - smart agriculture soil monitoring device
-  - soil moisture temperature ec sensor
-  - lorawan soil data logger
-  - long range soil monitoring system
-  - precision farming soil sensor
-  - industrial grade soil monitoring probe
-  - soil salinity and ec measurement sensor
-  - smart irrigation automation sensor
-  - greenhouse soil monitoring iot device
-  - field soil health monitoring system
-  - plantation and vineyard soil sensor
-  - solar powered soil monitoring station lorawan
-  - agriculture iot soil sensor
-  - soil volumetric water content sensor lorawan
-  - crop health soil parameter analyzer
-  - remote farm soil sensing node
-  - macnman lorawan soil monitoring module
+  - lorawan optical rainfall sensor
+  - macsync lrx1 rainfall sensor
+  - wireless rain detection sensor
+  - optical rain gauge lorawan
+  - smart agriculture rainfall monitoring
+  - real time rain intensity sensor
+  - iot rainfall measurement device
+  - precipitation detection sensor lorawan
+  - rainfall data logger lorawan
+  - long range rainfall telemetry system
+  - industrial grade optical rain sensor
+  - smart city rainfall monitoring device
+  - flood monitoring rainfall sensor
+  - weather station rainfall module lorawan
+  - remote field rainfall sensing probe
+  - rainfall automation sensor for irrigation
+  - environmental monitoring rain sensor
+  - rugged outdoor rainfall detector
+  - lorawan precipitation monitoring system
+  - macnman lorawan rainfall monitoring module
 ---
 
-# MacSync-LSSX7 Datasheet
+# MacSync-LRX1 Datasheet
 
 ## Product Overview
 
-**MacSync‑LSSX7** is a high‑precision **7‑in‑1 LoRaWAN® soil intelligence sensor** engineered for advanced agricultural, horticultural, forestry, and environmental monitoring applications. It simultaneously measures **soil moisture, soil temperature, electrical conductivity (EC), soil Ph leves,and NPK trend estimation**, allowing farmers and agronomists to make data‑driven decisions from a single integrated probe.
+**MacSync‑LRX1** is an advanced **LoRaWAN® optical rainfall sensor** engineered for high‑precision rain detection, rainfall intensity measurement, and real‑time precipitation monitoring. Using a solid‑state optical sensing array, it eliminates mechanical moving parts—offering unmatched reliability, zero maintenance, and accurate rainfall measurement even during light drizzle or high‑intensity storms.
 
-Optimized for ultra‑low‑power operation and long‑range wireless communication, MacSync‑LSSX7 delivers consistent soil‑health insights even in remote fields, dense plantations, and large‑scale farms. Its **industrial‑grade stainless‑steel electrodes**, reinforced probe structure, and IP67‑rated enclosure ensure highly reliable performance in challenging soil conditions including clay, sandy, saline, and high‑moisture environments.
+Designed for long‑term outdoor deployment, MacSync‑LRX1 features a rugged IP‑rated enclosure, hydrophobic optical surface, and advanced filtering algorithms that reject dust, insects, and ambient light interference. Its long‑range LoRaWAN® connectivity enables seamless integration across large farmlands, smart‑city networks, industrial automation sites, and environmental monitoring stations.
 
-Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **Maya App**, and onboard data‑buffering for zero‑loss transmission, **MacSync‑LSSX7 enables precision farming, irrigation automation, and nutrient‑optimization strategies**—helping growers increase yields, reduce water consumption, and maintain soil vitality.
+Powered by Macnman’s ultra‑low‑power architecture, OTA configuration via the **Maya App**, and onboard data‑buffering for uninterrupted transmission, **MacSync‑LRX1 delivers dependable rainfall analytics for irrigation automation, flood‑alert systems, weather intelligence platforms, and climate research installations.**
 
 <div className="image-grid-2col">
   <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-health-monitoring-guide.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
@@ -60,7 +60,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LSSX7</p>
+      <p>Click here to view the decoders for MacSync-LRX1</p>
     </div>
   </a>
 </div>
@@ -72,48 +72,53 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Seven‑Parameter Soil Intelligence</strong>
-  Measures soil moisture, temperature, EC, salinity, dielectric permittivity, VWC, and NPK trend estimation in a single probe.
+  <strong>Solid‑State Optical Rain Detection</strong>
+  Advanced optical sensing technology provides accurate rainfall detection with zero moving parts and no mechanical wear.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>High‑Accuracy Stainless‑Steel Electrodes</strong>
-  Industrial‑grade corrosion‑resistant electrodes ensure precise readings in clay, sandy, saline, and high‑moisture soils.
+  <strong>Real‑Time Rainfall Intensity Measurement</strong>
+  Precisely detects drizzle, moderate rain, and heavy rainfall using high‑resolution optical sampling.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>True Long‑Range LoRaWAN® Connectivity</strong>
-  Ultra‑long‑distance communication enabling seamless deployment across large farms and remote agricultural fields.
+  <strong>Maintenance‑Free Design</strong>
+  Hydrophobic optical surface prevents water adhesion and eliminates clogging, debris accumulation, and mechanical calibration.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ultra‑Low‑Power Architecture</strong>
-  Optimized hardware ensures multi‑year battery life even with frequent uplinks and continuous sensing.
+  <strong>Ultra‑Long‑Range LoRaWAN® Connectivity</strong>
+  Seamless long‑distance communication for field deployments, smart‑city infrastructure, and remote weather stations.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Rugged Outdoor Build</strong>
-  Fully sealed enclosure engineered for long‑term soil burial and harsh outdoor conditions.
+  <strong>Rugged Outdoor Construction</strong>
+  Engineered with a UV‑resistant, IP‑rated housing for continuous operation under extreme rain, heat, dust, and sunlight exposure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>OTA Configuration & Calibration</strong>
-  Update settings, thresholds, sampling intervals, and firmware directly through the Maya App without physical access.
+  <strong>Low‑Power Architecture</strong>
+  Multi‑year battery performance with optimized sleep modes even under frequent rainfall events.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Failsafe Data Buffering</strong>
-  Stores thousands of soil‑health samples locally to prevent data loss during network downtime.
+  <strong>Anti‑Interference Algorithms</strong>
+  Intelligent processing eliminates false triggers from insects, dust, vibration, and ambient light.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>End‑to‑End Secure LoRaWAN® Communication</strong>
-  AES‑encrypted uplinks ensure reliable and tamper‑proof soil‑analytics data delivery.
+  <strong>OTA Configuration via Maya App</strong>
+  Configure sampling intervals, reporting modes, and diagnostics wirelessly without accessing the device.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Universal LoRaWAN® Network Support</strong>
-  Compatible with private networks, TTN, ChirpStack, Loriot, Orbiwise, MQTT‑based servers, and on‑prem installations.
+  <strong>Reliable Data Buffering</strong>
+  On‑device storage ensures no rainfall data loss during temporary network outages.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Universal LoRaWAN® Compatibility</strong>
+  Works with TTN, ChirpStack, Loriot, Orbiwise, MQTT servers, and private LoRaWAN® networks.
 </div>
 
 </div>
@@ -125,43 +130,43 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Precision Agriculture & Smart Irrigation</strong>
-  Real‑time soil moisture, EC, and VWC analytics for automated irrigation and water‑usage reduction.
+  <strong>Smart Agriculture & Irrigation Control</strong>
+  Automate irrigation cycles by monitoring real-time rainfall intensity to prevent overwatering and improve crop hydration efficiency.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Crop Nutrition & Fertigation Optimization</strong>
-  NPK trend and salinity tracking to prevent over‑fertilization and improve crop nutrient uptake.
+  <strong>Flood Monitoring & Early‑Warning Systems</strong>
+  Provides immediate rainfall detection for river‑side communities, reservoirs, catchment areas, and disaster‑response systems.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Greenhouses & Polyhouses</strong>
-  Closed‑environment soil monitoring for high‑value crops including flowers, vegetables, and herbs.
+  <strong>Smart‑City Weather Intelligence</strong>
+  Enables high‑resolution rainfall mapping for drainage planning, road safety automation, urban water conservation, and stormwater management.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Plantations & Orchards</strong>
-  Long‑range soil‑health monitoring in tea, coffee, mango, coconut, rubber, and fruit plantations.
+  <strong>Environmental & Climate Research</strong>
+  Ideal for long‑term rainfall pattern analysis, hydrology research, and climate‑change studies.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Vineyards & Wine Cultivation</strong>
-  Soil moisture and EC monitoring for grape quality, disease prevention, and harvest optimization.
+  <strong>Remote Weather Stations</strong>
+  Reliable rainfall measurement for forest stations, mountain regions, rural areas, and autonomous micro‑weather networks.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Forestry & Environmental Research</strong>
-  Long‑term soil‑parameter tracking for ecosystem studies, carbon‑sink research, and forest‑health monitoring.
+  <strong>Industrial Safety & Automation</strong>
+  Supports outdoor‑equipment shutdown logic, construction‑site safety alerts, and rainfall‑triggered automation systems.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Soil Restoration & Land Reclamation</strong>
-  Continuous soil‑quality assessment for degraded land, saline soil rehabilitation, and mining‑site restoration.
+  <strong>Smart Irrigation in Parks & Landscapes</strong>
+  Automated watering control for parks, stadiums, golf courses, resorts, and corporate campuses based on real-time rainfall events.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart City Parks & Landscape Irrigation</strong>
-  Automated moisture‑driven watering systems for parks, campuses, golf courses, and urban landscapes.
+  <strong>Water Resource & Drainage Management</strong>
+  Helps utilities and municipalities track rainfall for dam operations, canal flow management, and watershed monitoring.
 </div>
 
 </div>
@@ -176,7 +181,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-LSSX7</p>
+    <p className="value">MacSync-LRX1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -190,55 +195,25 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
     Environmental <br /> Measurement
   </div>
   <div className="spec-block-details">
-
-    <p className="label">Soil Temperature Range</p>
-    <p className="value">‑45°C to +115°C</p>
+    <p className="label">Sensing Principle</p>
+    <p className="value">Infrared optical refraction</p>
     <br />
 
-    <p className="label">Soil Temperature Accuracy</p>
-    <p className="value">±0.5°C</p>
+    <p className="label">Detection Range</p>
+    <p className="value">Equivalent 0–200 mm/h</p>
     <br />
 
-    <p className="label">Soil Moisture Range</p>
-    <p className="value">0–100% RH</p>
+    <p className="label">Resolution</p>
+    <p className="value">1 mm/h equivalent</p>
     <br />
 
-    <p className="label">Soil Moisture Accuracy</p>
-    <p className="value">±3% (0–53% RH), ±5% (53%+)</p>
+    <p className="label">Accuracy</p>
+    <p className="value">±5% (typical)</p>
     <br />
 
-    <p className="label">pH Range</p>
-    <p className="value">3–9 pH</p>
+    <p className="label">Rain Classification</p>
+    <p className="value">0 = No Rain, 1 = Drizzle, 2 = Moderate, 3 = Heavy</p>
     <br />
-
-    <p className="label">pH Accuracy</p>
-    <p className="value">±0.3 pH</p>
-    <br />
-
-    <p className="label">NPK Range</p>
-    <p className="value">0–1999 mg/kg</p>
-    <br />
-
-    <p className="label">NPK Accuracy</p>
-    <p className="value">±2% F.S</p>
-    <br />
-
-    <p className="label">Electrical Conductivity (EC) Range</p>
-    <p className="value">0–10000 μS/cm</p>
-    <br />
-
-    <p className="label">EC Resolution</p>
-    <p className="value">10 μS/cm</p>
-    <br />
-
-    <p className="label">Sensor Response Time</p>
-    <p className="value">&lt; 1 second</p>
-    <br />
-
-    <p className="label">Ingress Protection (Sensor)</p>
-    <p className="value">IP68</p>
-    <br />
-
   </div>
 </div>
 
@@ -414,7 +389,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
     <p className="value">~50 mA during transmission</p>
     <br />
     <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
+    <p className="value">Up to 3 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -495,7 +470,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
 </div>
 
 
-## MacSync-LSSX7 Variants
+## MacSync-LRX1 Variants
 
 
 <table className="parameter-table">
@@ -510,21 +485,21 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LSSX7-PO</td>
+      <td>MacSync-LRX1-PO</td>
       <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>✖️</td>
       <td>Industrial sites, automation systems & weather‑dependent machinery control</td>
     </tr>
     <tr>
-      <td>MacSync-LSSX7-BO</td>
+      <td>MacSync-LRX1-BO</td>
       <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>✖️</td>
       <td>Remote farms, plantations, research stations — no wired power required</td>
     </tr>
     <tr>
-      <td>MacSync-LSSX7-SO</td>
+      <td>MacSync-LRX1-SO</td>
       <td>Solar + Battery Hybrid</td>
       <td>12 Ah (Rechargeable)</td>
       <td>External solar charging</td>
