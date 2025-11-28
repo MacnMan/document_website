@@ -1,7 +1,7 @@
 ---
 id: macsync-l-co-2-sensors
 title: MacSync-L-CO2Xx
-sidebarposition: 8
+sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan co2 sensor

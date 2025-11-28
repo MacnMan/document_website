@@ -1,44 +1,51 @@
 ---
-id: macsync-lorawan-rtd-sensor-x-series
-title: MacSync-L-RTDX2
-sidebarposition: 6
+id: macsync-l-rtd-x-five-datasheet
+title: Temperature RTD Sensor MacSync-LRTDX5
+sidebarposition: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan rtd temperature sensor
-  - pt100 lorawan temperature transmitter
-  - PT100 industrial temperature monitoring iot
-  - high accuracy industrial rtd sensor
-  - remote temperature monitoring lorawan
-  - smart factory temperature sensor
-  - pipeline temperature monitoring wireless
-  - ip67 rugged rtd sensor outdoor
-  - low power lorawan temperature probe
-  - industrial automation temperature measurement
-  - chemical plant temperature monitoring iot
-  - boiler and furnace temperature sensor lorawan
-  - process control temperature monitoring
-  - predictive maintenance temperature sensing
-  - food grade temperature monitoring rtd
+  - PT1000 temperature probe
+  - industrial temperature monitoring
+  - high accuracy rtd sensor
+  - loT temperature transmitter
+  - remote temperature data logging
+  - industrial process automation sensor
+  - cold chain temperature tracking
+  - pipeline and tank temperature monitoring
+  - food and pharma compliance sensor
+  - long range wireless temperature sensor
+  - explosion proof temperature sensing (optional)
+  - battery powered industrial sensor
+  - harsh environment temperature monitoring
+  - smart factory iot sensor
+  - rtd to lorawan converter
+  - industrial iot temperature controller
+  - macsync rtd sensor
+  - macnman lorawan device
+  - ip67 rugged temperature sensor
 ---
 
-# MacSync-L-RTDXx Datasheet
+# MacSync-L-RTDX5 Datasheet
 
 ## Product Overview
 
-MacSync‑L‑RTDXx is a **high‑precision LoRaWAN® RTD temperature monitoring device** designed for industrial applications where accuracy, reliability, and long‑distance wireless communication are critical. Supporting both **PT100 and PT100** sensors with **IEC 60751 linearization**, it ensures stable and precise temperature measurement across a wide operating range.
+**MacSync-L-RTDX5** is a next‑generation **LoRaWAN® RTD temperature sensor** engineered for ultra‑precise thermal monitoring in the most demanding industrial environments. Designed to support **PT1000** probes and IEC 60751 standard linearization, it ensures highly accurate and repeatable temperature measurement from **–200 °C to +850 °C**, covering cryogenic, processing, and high‑temperature applications.
 
-Engineered for harsh environments, the device features **IP67 protection**, surge‑resistant electronics, and rugged industrial‑grade construction suitable for pipelines, machinery, furnaces, cold‑chain systems, and process lines. With **multi‑year battery life** or optional **DC power**, the sensor is ideal for both fixed and remote installations.
+With **industrial‑grade shielding**, **low‑noise analog front‑end**, and **minimal drift**, the MacSync‑L‑RTDX5 delivers dependable performance in reactors, chemical process lines, oil & gas pipelines, cold‑storage logistics, and power utility infrastructures.
 
-MacSync‑L‑RTDXx supports **event‑based alerts, configurable sampling**, and BLE‑based field configuration using the Maya App. Using **secure LoRaWAN® connectivity**, data is transmitted directly to cloud dashboards, SCADA, CMMS, or any private/public LNS.
+The device features **Class A/C LoRaWAN® communication**, a **high‑efficiency internal antenna**, secure **AES‑128 encrypted transmission**, and support for the **Maya App (BLE)** for rapid onboarding, OTA parameter updates, and diagnostic insights — eliminating manual configuration in remote deployments.
 
-From **industrial process control, predictive maintenance, HVAC monitoring, thermal safety compliance**, to **food & pharma cold‑chain assurance** — **MacSync‑L‑RTDXx delivers continuous and accurate visibility** into temperature‑critical assets that keep industries running efficiently and safely.
+Its rugged **IP65‑rated enclosure**, stainless‑steel probe compatibility (SS304 / SS316), multi‑year **battery operation**, and optional external DC power input make it a long‑life sensor designed to thrive in harsh industrial and outdoor environments.
+
+Whether used for predictive maintenance, compliance monitoring in pharma logistics, or thermal safety in high‑temperature industrial processes, **MacSync‑L‑RTDX5 transforms any RTD probe into a smart, wireless, and future‑ready IoT sensing node**, enabling Industry 4.0 automation and operational excellence.
+
 
 | ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
 |--------------------------------|--------------------------------|
 | ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
-
-<div class="faint-line"></div>  
+<div class="faint-line"></div>
 
 ## Download Center
 
@@ -57,7 +64,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-RTDXx</p>
+      <p>Click here to view the decoders for MacSync-L-RTDX5</p>
     </div>
   </a>
 </div>
@@ -68,53 +75,63 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>High-Accuracy RTD Measurement</strong>
-  Supports PT100 probes with IEC 60751 curve compensation for precise industrial sensing.
+  <strong>High‑Accuracy RTD Input</strong>
+  Compatible with PT1000 probes for precise industrial temperature monitoring.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Temperature Range Support</strong>
-  Suitable for low- and high-temperature processes in industrial and commercial environments.
+  <strong>Wide Temperature Range</strong>
+  Supports –200 °C to +850 °C for cryogenic, process, and high‑temperature environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Long‑Range LoRaWAN® Connectivity</strong>
-  Reliable wireless monitoring over several kilometers with minimal power consumption.
+  <strong>Industrial‑Grade Reliability</strong>
+  Low noise, low drift, and high repeatability for mission‑critical applications.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Multi‑Year Battery or DC Power</strong>
-  Flexible power options for both remote deployments and fixed industrial installations.
+  <strong>Ultra‑Low Power LoRaWAN®</strong>
+  Multi‑year battery life with Class A/C support for long‑range connectivity.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Rugged Industrial Design</strong>
-  Resistant to water, dust, corrosion, and vibration — suitable for outdoor and harsh environments.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Event‑Based Temperature Alerts</strong>
-  Threshold‑based triggers help prevent overheating, freezing, and process deviations.
+  <strong>Rugged & Ingress‑Protected Enclosure</strong>
+  IP65/IP67 protection for harsh outdoor and industrial deployments.
 </div>
 
 <div className="reusable-feature-card">
   <strong>BLE Configuration via Maya App</strong>
-  Quick local setup, diagnostics, and OTA updates through a smartphone interface.
+  Fast onboarding, OTA parameter tuning, and diagnostics using a smartphone.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure & Encrypted Data</strong>
-  AES‑128 encrypted LoRaWAN® communication prevents unauthorized access and data tampering.
+  <strong>SS304 / SS316 Probe Support</strong>
+  Corrosion‑resistant stainless‑steel probe options for chemical and process industries.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Compatible with All LoRaWAN® Networks</strong>
-  Works seamlessly with public and private network servers, SCADA & cloud dashboards.
+  <strong>Smart Uplink Strategies</strong>
+  Periodic, event‑based, or threshold reporting to extend battery performance.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Predictive Maintenance Ready</strong>
-  Enables early failure detection of pumps, bearings, motors & heat‑critical assets.
+  <strong>Secure Data Communication</strong>
+  AES‑128 encrypted LoRaWAN® connectivity ensuring industrial‑grade security.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial IoT Platform Integration</strong>
+  Works with all major LoRaWAN® network servers and cloud systems.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Flexible Deployment</strong>
+  Supports internal or external RTD probe installation for diverse monitoring needs.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Future‑Proof Design</strong>
+  Ideal for Industry 4.0 modernization and remote thermal analytics.
 </div>
 </div>
 <div class="faint-line"></div>
@@ -122,50 +139,50 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 ## Suited Applications
 
 <div className="reusable-feature-grid">
-<div className="reusable-feature-card">
-  <strong>Industrial Process Temperature Monitoring</strong>
-  Continuous thermal measurement for chemical processing, metal fabrication, and industrial manufacturing.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Industrial Process Temperature Monitoring</strong>
+    Highly accurate RTD sensing for reactors, tanks, kilns, ovens, boilers, and thermal processing equipment.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Predictive Maintenance of Motors & Pumps</strong>
-  Detects overheating in bearings, compressors, and rotating equipment to prevent unplanned downtime.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Oil & Gas Pipeline Monitoring</strong>
+    Real-time temperature tracking to detect leaks, overheating, and pipeline integrity issues.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Boiler, Furnace & Heater Monitoring</strong>
-  High‑temperature sensing for operational safety, combustion control, and regulatory compliance.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Chemical & Petrochemical Plants</strong>
+    RTD probes withstand aggressive chemicals and corrosive environments for safe temperature control.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Cold‑Chain & Refrigeration Systems</strong>
-  Real‑time temperature assurance in pharma, food, storage warehouses, and distribution trucks.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Cold Chain & Pharmaceutical Storage</strong>
+    Regulatory-compliant monitoring for vaccines, biologics, perishable goods & medical refrigeration.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>HVAC & Building Automation</strong>
-  Smart thermal management for commercial infrastructure and energy efficiency optimization.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Energy & Power Utilities</strong>
+    Thermal supervision for substations, transformers, turbines, heat exchangers, and district heating.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Oil & Gas Temperature Surveillance</strong>
-  Rugged RTD monitoring for pipelines, well sites, and harsh‑environment assets.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Steel, Foundry & Mining Operations</strong>
+    High-temperature safety monitoring near furnaces, smelters, mines, and metallurgical processes.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Water & Pipeline Thermal Safety</strong>
-  Monitors temperature in pipelines and distribution networks for freeze protection and quality control.
-</div>
+  <div className="reusable-feature-card">
+    <strong>HVAC & Industrial Cooling Systems</strong>
+    Performance monitoring for chillers, heat pumps & climate control industrial systems.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Laboratory, Pharma & Food Safety</strong>
-  Ensures compliance in controlled environments and critical production processes.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Remote Industrial Assets</strong>
+    Reliable LoRaWAN® connectivity in isolated and hazardous locations where wired sensors fail.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Remote & Unmanned Plant Monitoring</strong>
-  Low‑maintenance IoT deployments where wired sensors are costly or impractical.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Industry 4.0 Automation</strong>
+    Smart analytics, predictive maintenance & operational efficiency through long-range IoT sensing.
+  </div>
 </div>
 
 <div class="faint-line"></div>
@@ -178,7 +195,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-RTDXx</p>
+    <p className="value">MacSync-L-RTDX5</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -190,13 +207,13 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 
 <div className="spec-block">
   <div className="spec-block-title">
-    RTD <br /> Measurement
+    Temperature <br /> Measurement
   </div>
   <div className="spec-block-details">
 <p className="label">Sensor Type</p>
-<p className="value">RTD (PT100 / PT100)</p>
+<p className="value">RTD (PT1000)</p>
 <br />
-<p className="label">Temperature Range</p>
+<p className="label">Range</p>
 <p className="value">–200 °C to +850 °C</p>
 <br />
 <p className="label">Accuracy</p>
@@ -208,20 +225,20 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 <p className="label">Repeatability</p>
 <p className="value">±0.05 °C</p>
 <br />
+<p className="label">Probe Options</p>
+<p className="value">Internal &amp; External Both Options</p>
+<br />
 <p className="label">Sensor Linearization</p>
-<p className="value">IEC 60751 Standard Curve</p>
+<p className="value">IEC 60751 standard curve</p>
 <br />
 <p className="label">Self‑Heating Error</p>
 <p className="value">&lt; 0.1 °C @ 1 mA excitation</p>
 <br />
-<p className="label">Drift (1 year)</p>
+<p className="label">Drift (1 Year)</p>
 <p className="value">&lt; 0.05 °C</p>
 <br />
 <p className="label">Insulation Resistance</p>
 <p className="value">&gt; 100 MΩ @ 500 VDC</p>
-<br />
-<p className="label">Probe Options</p>
-<p className="value">Internal &amp; External Probes Available</p>
 <br />
 <p className="label">Probe Material</p>
 <p className="value">SS304 / SS316 (optional)</p>
@@ -284,6 +301,8 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
     <br />
+
+
   </div>
 </div>
 
@@ -324,7 +343,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     <p className="value">~50 mA during transmission</p>
     <br />
     <p className="label">Battery Life</p>
-    <p className="value">Up to 8 years (10 Mins Uplink Interval)</p>
+    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -371,7 +390,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     <p className="value">Glass field Nylon</p>    
     <br />
     <p className="label">Color</p>
-    <p className="value">Matte Black</p>    
+    <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
     <p className="value">~110g</p>    
@@ -458,29 +477,35 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 </div>
 
 
-##  MacSync-L-RTDXx Variants
+##  MacSync-L-RTDX5 Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>RTD Type</th>
-      <th>Power Option</th>
-      <th>Ideal Use Case</th>
+      <th>Power Source</th>
+      <th>Battery Capacity</th>
+      <th>Solar Support</th>
+      <th>External Flash</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSyncPT100‑PO</td>
-      <td>PT100</td>
-      <td>12–24 V DC Power</td>
-      <td>High‑precision temperature monitoring in automation systems</td>
+      <td>MacSync-L-RTDX1-PO</td>
+      <td>12–24 V (Power)</td>
+      <td>✖️</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
-      <td>MacSyncPT100‑BO</td>
-      <td>PT100</td>
-      <td>Battery (Multi‑year)</td>
-      <td>Cold‑chain, pipelines & predictive maintenance monitoring</td>
+      <td>MacSync-L-RTDX1-BO</td>
+      <td>Battery</td>
+      <td>19 Ah</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>Remote or portable deployments with low power</td>
     </tr>
   </tbody>
 </table>
@@ -525,7 +550,6 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 </table>
 
 -->
-
 
 ## What's in the box ?
 
