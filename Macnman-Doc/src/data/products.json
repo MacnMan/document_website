@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "MacSet-L-STD-PO-X2",
+    "name": "MacSync-L-STD-PO-X2",
     "technology": "LoRaWAN®",
     "category": "Nodes",
     "applications": [
@@ -17,7 +17,7 @@
     ],
     "description": "Power-operated RS485/Analog LoRaWAN data logger",
     "image": "/docs/img/devices/macsync-std-img.webp",
-    "link": "/docs/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction"
+    "link": "/docs/product/lorawan/dataloggers/macsync-l-std-power-operated-x-two"
   },
   {
     "id": 2,
@@ -37,7 +37,7 @@
     ],
     "description": "LoRaWAN controller with dual digital outputs.",
     "image": "/docs/img/devices/macset-logo-gen-two.webp",
-    "link": "/docs/c4-controller.pdf"
+    "link": "/docs/product/lorawan/controllers/macset-lx-one-datasheet"
   },
   {
     "id": 3,
@@ -56,7 +56,7 @@
     ],
     "description": "LoRaWAN ultrasonic level and distance sensor.",
     "image": "/docs/img/devices/lorawan-ultrasonic-sensor-logo-flat.webp",
-    "link": "/lorawan/sensors-lorawan/macray-ultrasoni-v1/MacRayls_introduction"
+    "link": "/docs/product/lorawan/sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one"
   },
   {
     "id": 4,
@@ -76,7 +76,7 @@
     ],
     "description": "Long-range multi-channel LoRaWAN network gateway.",
     "image": "/docs/img/devices/lorawan-outdoor-gateway-logo.webp",
-    "link": "/docs/wfs-20.pdf"
+    "link": "/docs/product/lorawan/gateways/maclink-gen-two"
   },
   {
     "id": 5,
@@ -94,7 +94,7 @@
     ],
     "description": "Precise ToF distance measurement over LoRaWAN.",
     "image": "/docs/img/devices/lorawan-time-of-flight-sensor-macnman.webp",
-    "link": "/docs/blc-01.pdf"
+    "link": "/docs/product/lorawan/sensors/macray-tof-x-series"
   },
   {
     "id": 6,
@@ -113,7 +113,7 @@
     ],
     "description": "LoRaWAN parking occupancy sensor.",
     "image": "/docs/img/devices/lorawan-parking-sensor.webp",
-    "link": "/docs/uwb-t1.pdf"
+    "link": "/docs/product/lorawan/sensors/parknode-gen-one-lorawan-parking-sensor"
   },
   {
     "id": 7,
@@ -150,7 +150,7 @@
     ],
     "description": "Compact indoor LoRaWAN gateway.",
     "image": "/docs/img/devices/lorawan-indoor-gateway-setu-logo.webp",
-    "link": "/docs/nbs-300.pdf"
+    "link": "/docs/product/lorawan/gateways/setu-x-one-datasheet"
   },
   {
     "id": 9,
@@ -210,7 +210,7 @@
     ],
     "description": "Wireless LoRaWAN pressure sensor.",
     "image": "/docs/img/devices/macsync-pressure-sensor-logo-gen-one.webp",
-    "link": "/docs/lx100.pdf"
+    "link": "/docs/product/lorawan/sensors/macsync-lorawan-pressure-sensor-x-series"
   },
   {
     "id": 12,
@@ -228,7 +228,7 @@
     ],
     "description": "Sigle Channel LoRaWAN gateway small deployments",
     "image": "/docs/img/devices/lorawan-single-channel-gateway-setu-sd.webp",
-    "link": "/docs/c4-controller.pdf"
+    "link": "/docs/product/lorawan/gateways/setu-scx-single-channel-datasheet"
   },
   {
     "id": 13,
@@ -246,7 +246,7 @@
     ],
     "description": "Lndustrial LoRaWAN RTD temperature sensor",
     "image": "/docs/img/devices/lorawan-rtd-sensor-for-accurate-temperature-monitoring.webp",
-    "link": "/docs/g5-gateway.pdf"
+    "link": "/docs/product/lorawan/sensors/macsync-l-rtd-x-five-datasheet"
   },
   {
     "id": 14,
@@ -410,7 +410,7 @@
     ],
     "description": "Smart fire safety monitoring controller.",
     "image": "/docs/img/devices/wifi-gateway-gen-two.webp",
-    "link": "/docs/bg-10.pdf"
+    "link": "/docs/product/lorawan/gateways/fire-guard-single-channel-lora-gateway-for-firedatasheet"
   },
   {
     "id": 23,
@@ -430,7 +430,7 @@
     ],
     "description": "Compact single-channel LoRaWAN gateway",
     "image": "/docs/img/devices/wifi-gateway-with-lte.webp",
-    "link": "/docs/bg-10.pdf"
+    "link": "/docs/product/lorawan/gateways/indilora-single-channel-datasheet"
   },
   {
     "id": 24,
@@ -454,7 +454,7 @@
   },
   {
     "id": 25,
-    "name": "MacSync-LT1",
+    "name": "MacSync-LXT1",
     "technology": "LoRaWAN®",
     "category": "Sensors",
     "applications": [
@@ -470,7 +470,7 @@
     ],
     "description": "Wireless LoRaWAN temperature & humidity sensor",
     "image": "/docs/img/devices/macnman-lorawan-temperature-humidity-sensor.webp",
-    "link": "/docs/bg-10.pdf"
+    "link": "/docs/product/lorawan/sensors/macsync-lt-one-datasheet"
   },
   {
     "id": 26,
@@ -490,7 +490,7 @@
     ],
     "description": "Wireless CO₂ monitoring for indoor air quality",
     "image": "/docs/img/devices/macnman-lorawan-carbon-sensor-one.webp",
-    "link": "/docs/bg-10.pdf"
+    "link": "/docs/product/lorawan/sensors/macsync-l-co-2-sensors"
   },
   {
     "id": 27,
@@ -510,7 +510,7 @@
     ],
     "description": "Wireless H₂S & NH₃ gas monitoring for odor monitoring.",
     "image": "/docs/img/devices/lorawan-odor-sensor-washroom-macnman.webp",
-    "link": "/docs/bg-10.pdf"
+    "link": "/docs/product/lorawan/sensors/macsync-l-nh-three-h-two-s-2-sensors"
   },
   {
     "id": 28,
@@ -530,7 +530,7 @@
     ],
     "description": "Wireless weather monitoring for outdoor environments",
     "image": "/docs/img/devices/macnman-lorawan-weather-station-six-in-one.webp",
-    "link": "/docs/bg-10.pdf"
+    "link": "/docs/product/lorawan/sensors/macsync-l-six-in-one-weather-station-x-six"
   },
   {
     "id": 29,
@@ -550,11 +550,11 @@
     ],
     "description": "Wireless weather monitoring for outdoor environments",
     "image": "/docs/img/devices/macnman-lorawan-weather-stations-one.webp",
-    "link": "/docs/bg-10.pdf"
+    "link": "/docs/product/lorawan/sensors/macsync-l-five-in-one-weather-station-x-five"
   },
   {
     "id": 30,
-    "name": "MacSync-L-VX1",
+    "name": "MacSync-LVX1",
     "technology": "LoRaWAN®",
     "category": "Sensors",
     "tags": [
@@ -570,7 +570,7 @@
       "Smart City",
       "Smart Agriculture"
     ],
-    "link": "/docs/bg-10.pdf"
+    "link": "/docs/product/lorawan/sensors/macsync-l-v-x-one-vibration-sensor"
   },
   {
     "id": 31,
@@ -905,5 +905,25 @@
     "description": "ESP32-footprint wireless module with dual-mode ",
     "image": "/docs/img/devices/wifi-ble-esp-module-macnman-version-one.webp",
     "link": "/docs/bg-10.pdf"
+  },
+    {
+    "id": 48,
+    "name": "MacSync-L-STD-BO",
+    "technology": "LoRaWAN®",
+    "category": "Nodes",
+    "applications": [
+      "Smart Agriculture",
+      "Smart Building",
+      "Smart City",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "User Manuals",
+      "Datasheets"
+    ],
+    "description": "Power-operated RS485/Analog LoRaWAN data logger",
+    "image": "/docs/img/devices/macsync-std-img.webp",
+    "link": "/docs/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction"
   }
 ]
