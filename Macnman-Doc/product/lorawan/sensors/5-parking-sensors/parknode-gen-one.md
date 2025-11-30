@@ -16,7 +16,7 @@ keywords:
   - ip67 outdoor parking detector device
   - smart city parking management system
   - low power long range parking sensor
-  - vehicle arrival departure detection lorawan
+  - vehicle arrival departure detection lorawans
   - parking enforcement automation device
   - surface mount parking sensor
   - curbside parking analytics iot
