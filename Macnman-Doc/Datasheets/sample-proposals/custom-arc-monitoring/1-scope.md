@@ -3,12 +3,36 @@ id: proposal_introduction_welding_data_collection_&_monitoring_system_proposal
 title: Scope
 ---
 
-## Product Architecture
-<br/>
-
-![lorawan architecutre](/img/custom-products/255.png)
-
 # Welding Data Collection & Monitoring System Proposal
+
+## Proposal Introduction
+<br/>
+![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-system-introduction.webp)
+
+## Concept Design of Node Device
+<br/>
+![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-lorawan-node-design.webp)
+
+## Concept Design of Hub Device
+<br/>
+![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-product-visualization.webp)
+
+## How to Use It
+<br/>
+![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-gateway-hub-design.webp)
+
+## System Architecture
+<br/>
+![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-network-architecture.webp)
+
+## LoRa Central Gateway Block Diagram
+<br/>
+![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-component-block-diagram-node.svg)
+
+## LoRa Welding Node Block Diagram
+<br/>
+![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-component-block-diagram-gateway.svg)
+
 
 ## Scope
 To design and deploy an industrial-grade, accurate, and reliable Welding Data Collection & Monitoring System that captures, logs, and transmits real-time welding activity parameters—primarily Arc-On Time—from multiple welding machines across the site. The solution will use wireless tracker nodes mounted on the welding ground cable and a central gateway/server to aggregate, process, and display actionable insights.
