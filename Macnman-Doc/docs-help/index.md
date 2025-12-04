@@ -1,6 +1,6 @@
 ---
 id: help
-title: Help Center
+title: Warranty Terms & Conditions
 ---
 
 Welcome to the Help Center!
