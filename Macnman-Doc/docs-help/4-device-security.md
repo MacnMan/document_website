@@ -3,126 +3,186 @@ id: macnman-iot-device-security-practices
 title: Device Security & Practices
 ---
 
-# Compliance & Company Policies
+# Macnman Device Security Architecture & Practices
 
-Macnman Technologies Pvt. Ltd. operates strictly as a **hardware-only IoT product company**.  
-We do not collect, store, process, or transmit any customer data, device telemetry, or site information.  
-This document outlines our compliance, privacy, environmental, security, and regulatory policies.
+Macnman designs industrial-grade IoT hardware with multi-layered security integrated directly at the **device and firmware level**.  
+Since Macnman does **not** operate a cloud platform or collect device data, all security responsibilities are strictly limited to **embedded systems**, **firmware integrity**, and **secure communication at the device side**.
 
----
-
-## Privacy Policy (Hardware-Only Model)
-
-Macnman does **not** operate any cloud platform and does **not** receive or store any data from deployed devices.
-
-### No Data Collection  
-Macnman does not collect:
-- Personal information  
-- Device telemetry or diagnostics  
-- Site or location data  
-- Network configuration or keys  
-- Usage statistics or analytics  
-
-Any data that a customer processes through their own systems (LoRaWAN Network Server, WiFi gateway, 4G cloud, SCADA, etc.) remains fully under their control.
-
-### Support Interactions  
-Macnman only receives information that customers voluntarily provide during support cases, such as:
-- Device photos  
-- Error descriptions  
-- Serial numbers / MAC IDs  
-- Installation details  
-- Logs (optional)  
-
-These are used strictly to diagnose issues and are not retained longer than necessary.
-
-### No Remote Access  
-Macnman products do not give Macnman remote access to any customer networks or systems.
+This document outlines the complete hardware-level security architecture followed across Macnman devices.
 
 ---
 
-## Terms of Use (Hardware Products)
+# Device Identity & Authentication
 
-By using Macnman products, customers agree to the following:
+Each Macnman device is manufactured with its own cryptographic and hardware identity.
 
-### Customer Responsibility  
-- Customers are fully responsible for device installation, connectivity, and data routing.  
-- All LoRaWAN, WiFi, Cellular, or NB-IoT configurations are customer-managed.  
-- All telemetry is stored in customer-owned systems.
+## Unique Hardware Identifiers
+Every device includes:
+- MCU Unique ID (factory programmed)
+- Serial Number
+- MAC Address (WiFi/4G/BLE models)
+- DevEUI (LoRaWAN models)
 
-### Third-Party Systems  
-Macnman is not responsible for issues caused by:
-- LoRaWAN Network Servers (ChirpStack, TTN, private LNS)  
-- Gateways or cellular networks  
-- Customer cloud platforms  
-- Data loss or corruption within customer environments  
+These identifiers:
+- Cannot be altered without hardware access  
+- Prevent spoofing and cloning  
+- Ensure secure device registration in customer platforms  
 
-### Authorized Firmware Only  
-Only Macnman-approved firmware must be used.  
-Unauthorized firmware or modification voids the warranty.
+## Optional Secure Element (Model Dependent)
+Some advanced variants may include:
+- STSafe-A110  
+- ATECC608B  
+- TPM-like cryptographic vaults  
 
----
-
-## Environmental & Safety Compliance
-
-Macnman follows global standards for responsible electronics manufacturing.
-
-### Environmental Compliance  
-- RoHS compliant materials  
-- Safe battery handling guidelines  
-- Recyclable packaging where possible  
-- Mandatory e-waste disposal compliance for customers  
-
-### Battery Safety  
-Products containing lithium batteries require:
-- No exposure to fire or extreme heat  
-- Proper disposal via authorized recycling centers  
-- Compliance with UN38.3 handling regulations  
+These provide:
+- Secure key generation  
+- Hardware-isolated key storage  
+- Tamper-resistant authentication  
 
 ---
 
-## Regulatory & Certification Compliance
+# Firmware Security
 
-Macnman provides regulatory compliance documentation where applicable.  
-These may include:
+Firmware is the most critical part of device security. Macnman enforces strong protections.
 
-- CE Compliance  
-- WPC Compliance  
-- RoHS Certification  
-- IP Rating Certifications  
-- Battery safety certificates  
-- Calibration certificates (for sensors)  
+## Secure Boot (Supported Models)
+Secure Boot ensures:
+- Only authenticated firmware is allowed to run
+- Malicious firmware is blocked at startup
+- Firmware integrity is checked using cryptographic signatures
 
-Certificates are available on the product pages or upon request.
+## Firmware Read-Out Protection
+MCU protections include:
+- RDP Level 1/2 read-out lock
+- SWD/JTAG debug interface lockout
+- Flash memory region protection
+
+These prevent firmware extraction, modification, and cloning.
+
+## OTA Firmware Security (If Supported)
+- OTA firmware is cryptographically signed
+- Device verifies signature before installation
+- Hash/CRC integrity checks ensure no tampering
+- Rollback protection prevents installation of outdated or compromised firmware
 
 ---
 
-## Security Policy (Hardware-Only)
+# Cryptographic Key Security
 
-Macnman implements industry-standard device-level security, including:
+Macnman ensures strong device-side protection of all encryption keys.
 
-### Device Security Measures  
-- Secure firmware update mechanisms  
-- MCU-level memory protection (varies by model)  
-- Customer-managed LoRaWAN keys  
+## Secure Key Storage
+Keys are stored in:
+- Protected flash regions  
+- Hardware secure elements (when available)  
+- Memory zones with readout disabled  
 
-### Customer Responsibility  
-Since Macnman does not operate any servers, customers must secure:
+Keys are **never readable** over any interface.
+
+## LoRaWAN Security
+LoRaWAN models follow:
+- AES-128 encryption  
+- MIC integrity checks  
+- Replay protection via frame counters  
+- Randomized join-request nonces  
+
+## Zero Cloud Key Handling
+Macnman:
+- Does **not** store customer keys  
+- Does **not** receive or process keys  
+- Does **not** manage network server access  
+
+Key ownership remains entirely with the customer.
+
+---
+
+# Communication Security
+
+Security depends on connectivity type, but all device-side standards are followed.
+
+## LoRaWAN Devices
+Security includes:
+- AES-128 encryption at network & application layers  
+- Device authentication via join-accept cryptography  
+- Replay protection through frame counters  
+
+## WiFi / LTE / NB-IoT Devices
+Device-side protections include:
+- Support for TLS (via customer applications)
+- LTE/NB-IoT modem encryption managed by the mobile operator
+- WPA2/WPA3 compatibility for WiFi modules  
+- Watchdog timers to prevent unauthorized network behavior  
+
+Macnman does **not** operate a cloud platform; customers fully control uplink communication.
+
+---
+
+# Hardware Security
+
+Macnman uses robust hardware design techniques for field safety and tamper resistance.
+
+## Physical Protection
+- Industrial-grade enclosures  
+- Tamper-evident sealing (model dependent)
+- Conformal-coated PCBs for corrosion and moisture protection  
+- RF shielding where needed  
+
+## Debug Interface Hardening
+Before production release:
+- SWD/JTAG interfaces are locked or fused  
+- Bootloader permissions restricted  
+- Debug access disabled  
+
+This blocks unauthorized firmware read/write operations.
+
+---
+
+# Deployment & Operational Security
+
+Operational security depends on customer infrastructure, but devices are built to support secure deployment.
+
+## Customer Responsibilities
+Customers must secure their:
+- LoRaWAN Network Server  
 - Gateways  
-- Network servers  
-- Cloud dashboards  
-- API keys and credentials  
+- Cloud/dashboard systems  
+- SIM card APNs  
+- WiFi credentials  
+- API keys  
 
-### Vulnerability Reporting  
-Customers may report potential security concerns to:  
-**security@macnman.com**
+## Recommended Best Practices
+- Rotate LoRaWAN keys regularly  
+- Use WPA3 for WiFi  
+- Use SIMs with private/locked APNs  
+- Install devices in low-tamper locations  
+- Keep firmware up-to-date  
 
 ---
 
-## Compliance With Local Laws
+# Vulnerability Handling & Reporting
 
-Customers must ensure that deployment of Macnman products complies with:
-- Regional radio frequency regulations  
-- Installation safety codes  
-- Industry-specific operational norms (agriculture, utilities, industrial, mining, etc.)  
+Macnman maintains an internal security review and response process.  
+Security concerns can be reported to:
 
-Macnman provides required compliance documents but does not perform site-specific approvals.
+📧 **support@macnman.com**
+
+We investigate and issue firmware updates or advisories when required.
+
+---
+
+# Standards & Compliance
+
+Macnman devices align with:
+
+- LoRaWAN 1.0.4 / 1.1 security specifications  
+- AES-128 encryption standards  
+- MCU vendor hardware security guidelines  
+- CE / FCC / WPC compliance  
+- RoHS environmental standards  
+- UN38.3 battery transport safety  
+
+We also follow internal engineering practices inspired by:
+- ISO 27001 development security  
+- OWASP IoT Top 10 principles  
+
+---
