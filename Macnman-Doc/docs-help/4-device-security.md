@@ -1,6 +1,6 @@
 ---
-id: macnman-iot-device-security-practices
-title: Device Security & Practices
+id: macnman-iot-device-security-practices-sd
+title: Device Security & Practices sds
 ---
 
 # Macnman Device Security Architecture & Practices
