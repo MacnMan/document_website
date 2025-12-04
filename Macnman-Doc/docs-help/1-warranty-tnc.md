@@ -1,5 +1,5 @@
 ---
-id: help
+id: macnman-standard-warranty-terms-and-conditions
 title: Warranty Terms & Conditions
 ---
 
@@ -68,9 +68,9 @@ Macnman is not liable for any data loss resulting from installation, servicing, 
 
 ---
 
-## 04. After-Sales Service & RMA Handling
+## After-Sales Service & RMA Handling
 
-### 4.1 RMA Request and Approval
+### RMA Request and Approval
 Before returning any product, customers must request an RMA Number by emailing:  
 **support@macnman.com**
 
@@ -82,12 +82,12 @@ Required details:
 - Installation images (if applicable)  
 - Logs or data (if applicable)
 
-### 4.2 Shipping & Logistics
+### Shipping & Logistics
 - **Customer → Macnman:** Customer bears shipping, packing, insurance & handling.  
 - **Macnman → Customer:** Macnman covers shipping only for approved warranty repairs.  
 - Out-of-warranty cases: Round-trip shipping paid by customer.
 
-### 4.3 Inspection & Service
+### Inspection & Service
 Macnman reserves the right to inspect all returned products. Warranty is void for:
 - Physical damage  
 - Improper installation  
@@ -98,12 +98,12 @@ Macnman reserves the right to inspect all returned products. Warranty is void fo
 
 Service is subject to component availability.
 
-### 4.4 Out-of-Warranty Repair Charges
+### Out-of-Warranty Repair Charges
 Repair cost will be communicated in advance and approved by the customer before repairs begin.
 
 ---
 
-## 05. Warranty Exclusions
+## Warranty Exclusions
 
 The warranty does NOT cover:
 - Accidental, physical, or environmental damage  
@@ -119,7 +119,7 @@ The warranty does NOT cover:
 
 ---
 
-## 06. Software & Firmware Updates
+## Software & Firmware Updates
 
 Macnman may release firmware updates to enhance product performance.  
 Customers are responsible for:
@@ -130,21 +130,21 @@ Improper flashing or installation of non-Macnman firmware voids the warranty.
 
 ---
 
-## 07. Technical Support
+## Technical Support
 
 Technical support is available during the warranty period at no additional cost.  
 Post-warranty technical assistance may be subject to service fees.
 
 ---
 
-## 08. Modifications to Products
+## Modifications to Products
 
 Any modification, repair, or opening carried out by unauthorized personnel voids the warranty.  
 OEM partners must follow Macnman’s RF, PCB, and integration guidelines to retain module warranty.
 
 ---
 
-## 09. Limitation of Liability
+## Limitation of Liability
 
 Macnman’s liability is strictly limited to repairing or replacing defective hardware.  
 Macnman is not liable for:
@@ -155,7 +155,7 @@ Macnman is not liable for:
 
 ---
 
-## 10. Force Majeure
+## Force Majeure
 
 Macnman shall not be liable for warranty obligations delayed or prevented by events beyond its control, including:
 - Natural disasters  
@@ -166,25 +166,25 @@ Macnman shall not be liable for warranty obligations delayed or prevented by eve
 
 ---
 
-## 11. Compliance with Laws
+## Compliance with Laws
 
 Customers must ensure that the installation and operation of Macnman devices comply with all applicable laws and industry standards in their country/region.
 
 ---
 
-## 12. Indemnification
+## Indemnification
 
 Customers agree to indemnify and hold Macnman harmless from any claims or liabilities arising from misuse, improper installation, or unauthorized modification of Macnman products.
 
 ---
 
-## 13. Severability
+## Severability
 
 If any clause within this warranty is found invalid by law, the remaining clauses shall continue to be enforceable.
 
 ---
 
-## 14. Warranty Policy Updates
+## Warranty Policy Updates
 
 Macnman reserves the right to modify or update this Warranty Policy at any time without prior notice.
 
