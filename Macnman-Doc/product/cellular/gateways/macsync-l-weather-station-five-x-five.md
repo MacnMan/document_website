@@ -604,7 +604,6 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/MacConnect - X8-side-view-dimensions.webp)
 
 ![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 
