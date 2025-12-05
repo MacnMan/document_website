@@ -11,7 +11,7 @@ This policy applies to all Macnman IoT hardware sold directly or through authori
 
 ---
 
-## 1. Purpose of This Policy
+## Purpose of This Policy
 
 This policy ensures:
 
@@ -23,7 +23,7 @@ This policy ensures:
 
 ---
 
-## 2. Definitions
+## Definitions
 
 **RMA (Return Material Authorization):**  
 A unique ID issued by Macnman authorizing a customer to send hardware for testing, repair, or replacement.
@@ -36,7 +36,7 @@ Damage caused by misuse, incorrect installations, environmental exposure, tamper
 
 ---
 
-## 3. Eligibility for Return / Replacement
+## Eligibility for Return / Replacement
 
 A device qualifies for RMA evaluation only if:
 
@@ -59,7 +59,7 @@ A device qualifies for RMA evaluation only if:
 
 ---
 
-## 4. RMA Request Process
+## RMA Request Process
 
 ### Step 1 — Submit Support Ticket
 
@@ -118,7 +118,7 @@ Macnman pays for return shipping only for approved warranty cases.
 
 ---
 
-## 5. Replacement Policy
+## Replacement Policy
 
 A device is replaced if:
 
@@ -137,7 +137,7 @@ Warranty continues with the **remaining period of the original device**.
 
 ---
 
-## 6. Paid Repair Policy (Out‑of‑Warranty / Non‑Warranty)
+## Paid Repair Policy (Out‑of‑Warranty / Non‑Warranty)
 
 If device is not eligible for warranty repair:
 
@@ -149,7 +149,7 @@ If customer declines repair, the device is returned as‑is.
 
 ---
 
-## 7. No‑Fault‑Found (NFF) Cases
+## No‑Fault‑Found (NFF) Cases
 
 If no issue is observed during testing:
 
@@ -159,7 +159,7 @@ If no issue is observed during testing:
 
 ---
 
-## 8. Packaging Requirements
+## Packaging Requirements
 
 To prevent damage during shipping:
 
@@ -173,7 +173,7 @@ Damage caused due to poor packaging is not covered under warranty.
 
 ---
 
-## 9. Customer Responsibilities
+## Customer Responsibilities
 
 Customers must ensure:
 
@@ -187,7 +187,7 @@ Failure to follow these may void warranty eligibility.
 
 ---
 
-## 10. Macnman Responsibilities
+## Macnman Responsibilities
 
 Macnman's responsibilities include:
 
@@ -199,7 +199,7 @@ Macnman's responsibilities include:
 
 ---
 
-## 11. Timeline Expectations
+## Timeline Expectations
 
 Approximate timelines:
 
@@ -211,11 +211,9 @@ Complex cases or component shortages may extend timelines.
 
 ---
 
-## 12. Policy Updates
+## Policy Updates
 
 Macnman reserves the right to modify or update this RMA Policy at any time without prior notice.
 
 ---
-
-This Return / Replacement / RMA Policy ensures fair, transparent, and consistent handling of defective devices, benefiting customers, distributors, and project integrators.
 
