@@ -42,7 +42,7 @@ During this stage:
 - No new features added  
 - Component substitutions may occur due to supply-chain constraints  
 
-### 2.3 End-of-Life (EOL) Announcement
+### End-of-Life (EOL) Announcement
 An official notice is issued when Macnman plans to discontinue a product.
 
 The EOL notification includes:
@@ -51,7 +51,7 @@ The EOL notification includes:
 - End of Firmware Support date  
 - Recommended replacement models  
 
-### 2.4 Post-EOL Support
+### Post-EOL Support
 After discontinuation:
 - Warranty for already purchased units remains active  
 - Paid repair service continues while spare parts are available  
@@ -59,47 +59,47 @@ After discontinuation:
 
 ---
 
-## 3. Macnman Product Support Commitment
+## Macnman Product Support Commitment
 
-### 3.1 Manufacturing Availability
+### Manufacturing Availability
 Macnman will manufacture and supply each product for a **minimum of 5 years** after launch.  
 Products with long-term demand may extend up to **7 years**.
 
-### 3.2 Firmware Support
+### Firmware Support
 - Bug fixes: **Up to 5 years** post-launch  
 - Security patches: **Up to 7 years**, depending on MCU vendor support  
 - No major new features added after Maintenance Phase  
 
-### 3.3 Spare Parts Availability
+### Spare Parts Availability
 Spare parts remain available for **at least 3 years after the EOL announcement**.
 
 ---
 
-## 4. End-of-Life (EOL) Process
+## End-of-Life (EOL) Process
 
-### 4.1 Notification
+### Notification
 Macnman publishes the EOL announcement to:
 - Distributors  
 - OEM partners  
 - Enterprise customers  
 
-### 4.2 Last Buy Orders
+### Last Buy Orders
 Customers may place final orders until the **Last Order Date**.  
 After this date:
 - No new purchases  
 - Only support and warranty remain active  
 
-### 4.3 Last Shipment
+### Last Shipment
 Macnman ships the last batch on the **Last Shipment Date**.
 
-### 4.4 Post-EOL Support
+### Post-EOL Support
 - Warranty honored as per original purchase  
 - Paid repairs continue until parts are exhausted  
 - Firmware updates limited to critical vulnerabilities  
 
 ---
 
-## 5. Reasons for EOL
+## Reasons for EOL
 
 A product may reach EOL due to:
 
@@ -112,7 +112,7 @@ A product may reach EOL due to:
 
 ---
 
-## 6. Customer Responsibilities During EOL
+## Customer Responsibilities During EOL
 
 Customers should:
 
@@ -124,7 +124,7 @@ Customers should:
 
 ---
 
-## 7. Replacement Product Guidance
+## Replacement Product Guidance
 
 Macnman provides:
 
@@ -135,7 +135,7 @@ Macnman provides:
 
 ---
 
-## 8. Policy Updates
+## Policy Updates
 
 Macnman may update this EOL Policy based on:
 
@@ -148,7 +148,7 @@ Updates take effect immediately once published.
 
 ---
 
-## 9. Summary
+## Summary
 
 This Product Lifecycle & EOL Policy ensures long-term product stability and predictable support for all Macnman deployments.  
 By following this structured lifecycle approach, Macnman enables customers to plan, deploy, and maintain their IoT systems confidently for many years.
