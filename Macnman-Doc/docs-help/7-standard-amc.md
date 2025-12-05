@@ -92,7 +92,7 @@ Does NOT include:
 
 Depending on the chosen AMC tier, the following services are covered:
 
-### sTechnical Support & Troubleshooting
+### Technical Support & Troubleshooting
 - Root-cause analysis  
 - Interpretation of logs and uplink patterns  
 - Debug assistance for device-side issues  
@@ -167,7 +167,7 @@ AMC does **not** cover:
 ---
 
 # AMC Duration & Renewal
-s
+
 - AMC is valid for **12 months** from activation date  
 - Multi‑year AMC packages available on request  
 - Expired AMC contracts may require evaluation before renewal  
