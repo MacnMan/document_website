@@ -83,7 +83,7 @@ Each country or region uses its own **LoRaWAN frequency plan**, which defines:
 - How often it can send data (duty cycle limits)
 - Other radio communication constraints
 
-**More details on specific LoRaWAN frequency plans** can be found on [Macnman’s website](#https://macnman.com/).
+**More details on specific LoRaWAN frequency plans** can be found on [Macnman’s website](https://macnman.com/).
 
 #### Why Regional Frequency Plans Matter
 
