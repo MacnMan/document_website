@@ -1,0 +1,8 @@
+{
+  "label": "MacRay-Ultrasonic",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure ultrasonic sensor-specific parameters and LoRaWAN settings for accurate level or distance measurement and seamless data transmission."
+  }
+}

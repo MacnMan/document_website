@@ -72,7 +72,7 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'books',
-        path: 'Books',
+        path: 'books',
         routeBasePath: 'books',
         sidebarPath: require.resolve('./sidebarsBooks.ts'),
       },
@@ -114,9 +114,16 @@ const config: Config = {
     image: 'img/logo_small_red.webp',
 
     colorMode: {
-      defaultMode: 'light',
-      disableSwitch: true, // Disable default toggle
-      respectPrefersColorScheme: true,
+      defaultMode: 'light',     // Default theme is light
+      disableSwitch: false,     // Allow user to toggle between light and dark
+      respectPrefersColorScheme: false, // ❌ Do not use system preference
+    },
+
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+        // hideable: true,
+      },
     },
 
     navbar: {
@@ -126,6 +133,8 @@ const config: Config = {
         src: 'img/logo_small_red.webp',
         href: '/docs/',
       },
+
+
       items: [
         {
           type: 'docSidebar',
@@ -138,7 +147,7 @@ const config: Config = {
           sidebarId: 'productSidebar',
           docsPluginId: 'product',
           position: 'left',
-          label: 'Product',
+          label: 'Datasheets',
         },
         {
           to: '/books',
@@ -169,18 +178,22 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
-        {
-          type: 'custom-color-toggle',
-          position: 'right',
-        },
+        // {   // custom dark-light-system theme
+        //   type: 'custom-color-toggle',  
+        //   position: 'right',
+        // },
       ],
     },
 
     scripts: [
       {
-        src: '/js/secondary-navbar.ts',
+        src: '/js/secondary-navbar.js',
         async: true,
       },
+      // {  // scrollable navbar
+      //   src: '/js/navbar-scroll.js',
+      //   async: true,
+      // },
     ],
 
     algolia: {
@@ -199,27 +212,23 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/company/macnman/posts/?feedView=all',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Macnman.com',
+              href: 'https://macnman.com/',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            { label: 'GitHub', href: 'https://github.com/facebook/docusaurus' },
+            { label: 'GitHub', href: 'https://github.com/MacnMan/document_website' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Macnman. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Macnman.`,
     },
 
     prism: {

@@ -1,0 +1,8 @@
+{
+  "label": "Inside LoRaWAN",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A book for non techies who want to dive into the LoRaWAN"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Common Sensor Settings",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure all essential and common LoRaWAN parameters for seamless network integration & device operations"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Weather Station",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure 6-in-1 Weather Station settings and LoRaWAN parameters for comprehensive environmental monitoring and reliable data transmission."
+  }
+}

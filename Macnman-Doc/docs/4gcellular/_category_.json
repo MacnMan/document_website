@@ -1,0 +1,8 @@
+{
+  "label": "4G Cellular",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Find complete setup guides, technical specs, and integration help for every LoRaWAN-enabled Macnman product."
+  }
+}

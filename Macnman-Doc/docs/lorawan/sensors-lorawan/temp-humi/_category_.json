@@ -1,0 +1,8 @@
+{
+  "label": "Temperature & Humidity",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure temperature and humidity sensor-specific settings along with LoRaWAN parameters for accurate environmental monitoring and efficient data transmission."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Pressure Sensor",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure pressure sensor-specific parameters and LoRaWAN settings for precise pressure monitoring and reliable data communication."
+  }
+}

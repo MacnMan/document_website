@@ -1,0 +1,8 @@
+{
+  "label": "Sample Proposals",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Find complete setup guides, technical specs, and integration help for every LoRaWAN-enabled Macnman product."
+  }
+}

@@ -1,91 +1,194 @@
+/* Support Section Styles : HeroSection*/
+
+/* Light/Dark Mode Variables */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  /* --item-bg: #f9f9f9; */
+}
+
+html[data-theme='dark'] {
+  --bg-color: #1e1e20;
+  --text-color: #ffffff;
+  /* --item-bg: #1e1e1e; */
+}
+
+/* Container for support content */
 .supportContainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 1.2rem;
-  background-color: white;
+  gap: 20px;
+  padding: 20px 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
-
+/* Left section content */
 .leftContent {
+  text-align: left;
+  flex: 1;
   max-width: 40rem;
-  margin-left: 1.5rem;
-  margin-top: 6px;
+  /* margin-left: 1.5rem; */
+  margin-top: 1.3rem;
 }
 
+/* Heading style */
 .heading {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.5;
-
-  /* background: linear-gradient(to left, #3b82f6, #ec4899, #9333ea);
-  /* blue-500 → pink-500 → purple-600 */
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */ 
-
-  /* Optional fallback */
-  color: black;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.4;
 }
 
+/* Right section with multiple info items stacked vertically */
 .rightContent {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 1px;
   margin-right: 1.5rem;
 }
 
+/* Each info item */
 .item {
   display: flex;
-  align-items: flex-start;
-  gap: 0.9rem;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  /* background-color: var(--item-bg); */
+  border-radius: 8px;
 }
 
-.avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+/* Variant of item with slightly different padding and gap */
+.itemNew {
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+  gap: 14px;
+  padding: 6px 0 6px 12px;
+  /* background-color: var(--item-bg); */
+  border-radius: 8px;
 }
 
+/* Avatar images */
+.avatar,
+.avatarNew {
+  width: 30px;
+  height: 30px;
+  border-radius: 8%;
+}
+
+/* Description text inside items */
 .description {
-  font-weight: 600;
-  font-size: 0.875rem;
-  color: black;
+  font-size: 0.85rem;
+  font-weight: 500;
   margin: 0;
-  padding: 0;
+  /* remove default margins */
+  line-height: 1.2;
+  /* tighter line spacing */
 }
 
+/* Links inside the support section */
 .link {
-  font-size: 0.875rem;
   color: #2563eb;
+  font-size: 0.75rem;
   text-decoration: none;
+  margin: 0;
+  /* remove any default margin */
+  display: inline-block;
 }
 
 .link:hover {
   text-decoration: underline;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
 
-.icon {
-  width: 1rem;
-  height: 1rem;
-  color: #8b5cf6;
-  /* purple-500 */
-  margin-top: 0.25rem;
-}
+  /* Stack support container vertically */
+  .supportContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.1rem;
+    margin: 0;
+    gap: 0;
+    width: 100%;
+    height: 100%;
+  }
 
+  /* Left content full width and centered text */
+  .leftContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-right: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+  }
 
-/* Dark Mode */
-html[data-theme='dark'] .supportContainer {
-  background-color: #1e1e20;
-  color: #fff;
-}
+  /* Remove bottom margins inside left content */
+  .leftContent>* {
+    margin-bottom: 0;
+  }
 
-html[data-theme='dark'] .heading {
-  color: #fff;
-}
+  /* Right content horizontal, aligned left */
+  .rightContent {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+    width: 100%;
+    padding-left: .7rem;
+    padding-top: 0;
+    margin-top: 0;
+  }
 
-html[data-theme='dark'] .description {
-  color: #fff;
+  /* Make each item in right content flex-grow */
+  .rightContent>div {
+    flex: 1 1 auto;
+    margin-top: 0;
+  }
+
+  /* Smaller heading on mobile */
+  .heading {
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
+  /* Smaller description text on mobile */
+  .description {
+    font-size: 0.55rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: .1;
+    /* adjusted from 0.1 for readability */
+  }
+
+  /* Smaller links on mobile */
+  .link {
+    color: #2563eb;
+    font-size: 0.45rem;
+    text-decoration: none;
+    margin-top: 0;
+    display: inline-block;
+  }
+
+  /* Avatar size overrides on mobile */
+  .avatar {
+    width: 22px !important;
+    height: 29px !important;
+    margin-bottom: 0.7rem;
+  }
+
+  .avatarNew {
+    width: 14px !important;
+    height: 20px !important;
+    transform: translateY(-6px);
+  }
 }

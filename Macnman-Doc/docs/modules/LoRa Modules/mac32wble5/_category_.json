@@ -1,0 +1,9 @@
+{
+  "label": "MAC32WBLE5",
+  "position": 2
+  ,
+  "link": {
+    "type": "generated-index",
+    "description": "Everything you need to configure & integrate Macnman LoRa modules MAC32WLE55 into your IoT solutions."
+  }
+}

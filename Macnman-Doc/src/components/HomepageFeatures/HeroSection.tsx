@@ -1,3 +1,4 @@
+
 import React from 'react';
 import styles from '../../css/HeroSection.module.css';
 
@@ -12,54 +13,37 @@ const SupportSection: React.FC = () => {
                 </h2>
             </div>
 
+            {/* Right Content */}
             <div className={styles.rightContent}>
                 {/* Item 1 */}
                 <div className={styles.item}>
                     <img
                         src="/docs/img/HeroSection/circle-girl.svg"
                         alt="Specialist"
-                        style={{ 
-                            width: '42px', 
-                            height: '49px', 
-                            borderRadius: '10%',
-                            marginTop: '-1px',
-                            verticalAlign: 'middle',
-                        }}
                         className={styles.avatar}
+                        style={{ width: '38px', height: '44px' }}
                     />
                     <div>
                         <p className={styles.description}>Designing Your Wireless Solution?</p>
-                        <a href="#" className={styles.link}>
-                            Call a Specialist
-                        </a>
+                        {/* <a href="#" className={styles.link}>Call a Specialist</a> */}
+                        <a href="tel:+91 7972856163" className={styles.link}>Call a Specialist</a>
                     </div>
                 </div>
 
-                {/* Item 2 - Replacing SVG with Image */}
-                <div className={styles.item}>
+                {/* Item 2 */}
+                <div className={styles.itemNew}>
                     <img
                         src="/docs/img/HeroSection/shopping-bag 2.svg"
                         alt="Explore"
-                        style={{ 
-                            width: '34px', 
-                            height: '40px',
-                            borderRadius: '25%',
-                            marginTop : '4px',
-                            marginLeft : '2px',
-                            marginRight: '6px',
-                            verticalAlign: 'middle',
-                        }}
-                        className={styles.avatar}
+                        className={styles.avatarNew}
+                        style={{ width: '29px', height: '35px' }}
                     />
-                    <div style={{}}>
+                    <div>
                         <p className={styles.description}>Discover complete lineup</p>
-                        <a href="#" className={styles.link}>
-                            Explore Our Store
-                        </a>
+                        <a href="#" className={styles.link}>Explore Our Store</a>
                     </div>
                 </div>
             </div>
-
         </div>
     );
 };

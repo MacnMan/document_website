@@ -1,0 +1,8 @@
+{
+  "label": "Ultrasonic Sensor(Long Range)",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure MacSync Long-Range Ultrasonic Sensor settings and LoRaWAN parameters for extended distance measurement and robust wireless data transmission."
+  }
+}

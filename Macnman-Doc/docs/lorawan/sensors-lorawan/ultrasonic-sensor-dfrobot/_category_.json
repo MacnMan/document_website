@@ -1,0 +1,8 @@
+{
+  "label": "Ultrasonic Sensor(Sub 4 Meter)",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure MacSync Ultrasonic Sensor settings and LoRaWAN parameters for accurate level measurement and reliable wireless communication."
+  }
+}

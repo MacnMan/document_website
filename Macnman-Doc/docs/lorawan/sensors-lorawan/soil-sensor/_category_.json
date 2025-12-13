@@ -1,0 +1,8 @@
+{
+  "label": "Soil Sensor",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure 7-in-1 soil sensor-specific parameters and LoRaWAN settings for comprehensive soil condition monitoring and efficient data transmission."
+  }
+}

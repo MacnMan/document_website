@@ -44,6 +44,15 @@ html {
 }
 
 
+/* Make navbar scroll with the page */
+/* .navbar {
+  position: relative !important;
+  top: 0 !important;
+  animation: none !important;
+  transition: none !important;
+} */
+
+
 /* Base state for doc card links */
 .docCardListItem_W1sv a {
   border-color: #100e0e28;
@@ -53,7 +62,8 @@ html {
 /* On hover: darker border + light shadow */
 .docCardListItem_W1sv a:hover {
   border-color: #100e0e;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.057); /* subtle shadow */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.057);
+  /* subtle shadow */
 }
 
 /* For light mode */
@@ -1082,7 +1092,9 @@ html[data-theme='dark'] .navbar__link--active::after {
   /* white line in dark theme */
 
 
-}.theme-toggle-btn {
+}
+
+.theme-toggle-btn {
   display: inline-block;
   text-transform: lowercase;
 
@@ -1118,12 +1130,132 @@ html[data-theme='dark'] .navbar__link--active::after {
 }
 
 .faint-line {
-  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Light mode: faint black line */
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  /* Light mode: faint black line */
   width: 100%;
   margin-top: 10px;
 }
 
 /* Dark mode */
 html[data-theme='dark'] .faint-line {
-  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Dark mode: faint white line */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  /* Dark mode: faint white line */
+}
+
+
+
+/* Footer */
+footer a {
+  color: inherit; /* or set a default color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: rgba(128, 128, 128, 0.6);
+}
+
+
+.spec-block {
+  display: grid;
+  grid-template-columns: 260px 1fr; /* perfect spacing */
+  align-items: flex-start;
+  margin: 35px 0;
+}
+
+.spec-block-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.spec-block-details {
+  text-align: left;
+}
+
+.spec-block-details p {
+  margin: 0;
+}
+
+.spec-block-details .label {
+  color: rgb(142, 142, 142); font-weight: lighter;
+}
+
+.spec-block-details .value {
+  font-weight: bold;
+}
+
+/* ────────────── table of contents (with gradient on the heading) ────────────────────────── */
+
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 15px;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+/* Header with gradient */
+.spec-table thead th.spec-title {
+  text-align: left;
+  padding: 12px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #e72c83 0%, #5a48f5 100%);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+/* Table cells */
+.spec-table td {
+  padding: 12px 16px;
+  border-top: 1px solid var(--ifm-table-border-color);
+}
+
+/* Alternate row background - adapts to theme */
+.spec-table tr:nth-child(even) td {
+  background: var(--ifm-table-stripe-background);
+}
+
+/* Last row keeps rounded corners */
+.spec-table tr:last-child td:first-child {
+  border-bottom-left-radius: 0px;
+}
+.spec-table tr:last-child td:last-child {
+  border-bottom-right-radius: 0px;
+}
+.youtube-video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* adjust as needed */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  margin: 0 auto; /* center horizontally */
+  border-radius: 16px; /* rounded corners */
+  overflow: hidden; /* ensures corners apply to iframe */
+}
+
+.youtube-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* images for the grids */
+.image-grid-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.image-grid-2col img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }

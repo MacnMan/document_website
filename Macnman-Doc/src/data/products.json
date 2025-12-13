@@ -1,222 +1,929 @@
 [
   {
     "id": 1,
-    "name": "LoRaWAN Node LX100",
+    "name": "MacSync-L-STD-PO-X2",
     "technology": "LoRaWAN®",
     "category": "Nodes",
-    "applications": ["Smart Agriculture", "Asset Tracking"],
-    "tags": ["All", "Newly Added", "Datasheets"],
-    "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "http://localhost:3000/docs/MacSync%20Series/MacSync-4G/Intro"
+    "applications": [
+      "Smart Agriculture",
+      "Smart Building",
+      "Smart City",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "User Manuals",
+      "Datasheets"
+    ],
+    "description": "Power-operated RS485/Analog LoRaWAN data logger",
+    "image": "/docs/img/devices/macsync-std-img.webp",
+    "link": "/docs/product/lorawan/dataloggers/macsync-l-std-power-operated-x-two"
   },
   {
     "id": 2,
-    "name": "4G Smart Controller C4",
-    "technology": "4G Cellular",
+    "name": "MacSet LX1",
+    "technology": "LoRaWAN®",
     "category": "Controllers",
-    "applications": ["Smart City", "Smart Building"],
-    "tags": ["All", "Datasheets"],
-    "description": "Versatile 4G-enabled controller for infrastructure automation.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/c4-controller.pdf"
+    "applications": [
+      "Smart City",
+      "Smart Building",
+      "Smart Agriculture",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "User Manuals"
+    ],
+    "description": "LoRaWAN controller with dual digital outputs.",
+    "image": "/docs/img/devices/macset-logo-gen-two.webp",
+    "link": "/docs/product/lorawan/controllers/macset-lx-one-datasheet"
   },
   {
     "id": 3,
-    "name": "NB-IoT Gateway G5",
-    "technology": "Nb IoT",
-    "category": "Gateways",
-    "applications": ["Smart Industries"],
-    "tags": ["All", "Datasheets"],
-    "description": "Robust NB-IoT gateway supporting industrial standards.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/g5-gateway.pdf"
+    "name": "MacRay-LU4",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart City",
+      "Smart Building",
+      "Smart Agriculture",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "LoRaWAN ultrasonic level and distance sensor.",
+    "image": "/docs/img/devices/lorawan-ultrasonic-sensor-logo-flat.webp",
+    "link": "/docs/product/lorawan/sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one"
   },
   {
     "id": 4,
-    "name": "Wi-Fi Low Power Sensor WFS-20",
-    "technology": "Low Power Wi Fi",
-    "category": "Sensors",
-    "applications": ["Smart Building", "Smart City"],
-    "tags": ["All", "Newly Added", "Datasheets"],
-    "description": "Low power Wi-Fi sensor for building automation.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/wfs-20.pdf"
+    "name": "MacLink Gen-2",
+    "technology": "LoRaWAN®",
+    "category": "Gateways",
+    "applications": [
+      "Smart City",
+      "Smart Building",
+      "Smart Agriculture",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "Newly Added",
+      "Datasheets"
+    ],
+    "description": "Long-range multi-channel LoRaWAN network gateway.",
+    "image": "/docs/img/devices/lorawan-outdoor-gateway-logo.webp",
+    "link": "/docs/product/lorawan/gateways/maclink-gen-two"
   },
   {
     "id": 5,
-    "name": "BLE Converter BLC-01",
-    "technology": "Ble",
-    "category": "Converters",
-    "applications": ["Asset Tracking", "Smart Industries"],
-    "tags": ["All", "Datasheets"],
-    "description": "Bluetooth Low Energy converter for edge device integration.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/blc-01.pdf"
+    "name": "MacRay-ToF-Xx",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Asset Tracking",
+      "Smart Industries",
+      "Smart Building"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "Precise ToF distance measurement over LoRaWAN.",
+    "image": "/docs/img/devices/lorawan-time-of-flight-sensor-macnman.webp",
+    "link": "/docs/product/lorawan/sensors/macray-tof-x-series"
   },
   {
     "id": 6,
-    "name": "UWB Tag T1",
-    "technology": "UWB",
-    "category": "Modules",
-    "applications": ["Asset Tracking"],
-    "tags": ["All", "Datasheets"],
-    "description": "Ultra-wideband module for high-precision indoor tracking.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/uwb-t1.pdf"
+    "name": "ParkNode Gen-1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Asset Tracking",
+      "Smart Industries",
+      "Smart Building"
+    ],
+    "tags": [
+      "All",
+      "Newly Added",
+      "Datasheets"
+    ],
+    "description": "LoRaWAN parking occupancy sensor.",
+    "image": "/docs/img/devices/lorawan-parking-sensor.webp",
+    "link": "/docs/product/lorawan/sensors/parknode-gen-one-lorawan-parking-sensor"
   },
   {
     "id": 7,
-    "name": "LoRaWAN Controller LC-X",
-    "technology": "LoRaWAN®",
-    "category": "Controllers",
-    "applications": ["Smart Agriculture"],
-    "tags": ["All", "Datasheets"],
-    "description": "Agricultural controller with LoRaWAN support and automation.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "name": "UWB Tag-2",
+    "technology": "UWB",
+    "category": "Nodes",
+    "applications": [
+      "Asset Tracking",
+      "Smart Industries",
+      "Smart Building"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "High-precision UWB tracking tag.",
+    "image": "/docs/img/devices/uwb-rtls-tracker-tag-two.webp",
     "link": "/docs/lc-x.pdf"
   },
   {
     "id": 8,
-    "name": "NB-IoT Sensor NBS-300",
-    "technology": "Nb IoT",
-    "category": "Sensors",
-    "applications": ["Smart City", "Smart Building"],
-    "tags": ["All", "Datasheets"],
-    "description": "NB-IoT-enabled multi-environment sensor for smart spaces.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/nbs-300.pdf"
+    "name": "Setu X1",
+    "technology": "LoRaWAN®",
+    "category": "Gateways",
+    "applications": [
+      "Smart City",
+      "Smart Building",
+      "Smart Agriculture",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "Compact indoor LoRaWAN gateway.",
+    "image": "/docs/img/devices/lorawan-indoor-gateway-setu-logo.webp",
+    "link": "/docs/product/lorawan/gateways/setu-x-one-datasheet"
   },
   {
     "id": 9,
-    "name": "4G Module M4",
-    "technology": "4G Cellular",
+    "name": "MAC5302-X1",
+    "technology": "Low Power Wi Fi",
     "category": "Modules",
-    "applications": ["Smart Industries", "Smart Agriculture"],
-    "tags": ["All", "Datasheets"],
-    "description": "Compact 4G module suitable for remote deployments.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "applications": [
+      "Smart City",
+      "Smart Building",
+      "Smart Agriculture",
+      "Smart Industries",
+      "Asset Tracking"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "Dual Wi-Fi + BLE industrial IoT module.",
+    "image": "/docs/img/devices/module-one-logo.webp",
     "link": "/docs/m4.pdf"
   },
   {
     "id": 10,
-    "name": "BLE Gateway BG-10",
+    "name": "MAC52810",
     "technology": "Ble",
-    "category": "Gateways",
-    "applications": ["Smart Building"],
-    "tags": ["All", "Datasheets"],
-    "description": "BLE gateway to manage short-range sensor networks.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "category": "Modules",
+    "applications": [
+      "Smart City",
+      "Smart Building",
+      "Smart Agriculture",
+      "Smart Industries",
+      "Asset Tracking"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "Low-power Bluetooth IoT connectivity module",
+    "image": "/docs/img/devices/module-two-logo.webp",
     "link": "/docs/bg-10.pdf"
   },
   {
     "id": 11,
-    "name": "LoRaWAN Node LX100",
+    "name": "MacSync-L-PSX1",
     "technology": "LoRaWAN®",
-    "category": "Nodes",
-    "applications": ["Smart Agriculture", "Asset Tracking"],
-    "tags": ["All", "Newly Added", "Datasheets"],
-    "description": "Battery-operated LoRaWAN node ideal for agricultural monitoring.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/lx100.pdf"
+    "category": "Sensors",
+    "applications": [
+      "Smart Agriculture",
+      "Asset Tracking",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Newly Added",
+      "Datasheets"
+    ],
+    "description": "Wireless LoRaWAN pressure sensor.",
+    "image": "/docs/img/devices/macsync-pressure-sensor-logo-gen-one.webp",
+    "link": "/docs/product/lorawan/sensors/macsync-lorawan-pressure-sensor-x-series"
   },
   {
     "id": 12,
-    "name": "4G Smart Controller C4",
-    "technology": "4G Cellular",
-    "category": "Controllers",
-    "applications": ["Smart City", "Smart Building"],
-    "tags": ["All", "Datasheets"],
-    "description": "Versatile 4G-enabled controller for infrastructure automation.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/c4-controller.pdf"
+    "name": "Setu SCX",
+    "technology": "LoRaWAN®",
+    "category": "Gateways",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "Sigle Channel LoRaWAN gateway small deployments",
+    "image": "/docs/img/devices/lorawan-single-channel-gateway-setu-sd.webp",
+    "link": "/docs/product/lorawan/gateways/setu-scx-single-channel-datasheet"
   },
   {
     "id": 13,
-    "name": "NB-IoT Gateway G5",
-    "technology": "Nb IoT",
-    "category": "Gateways",
-    "applications": ["Smart Industries"],
-    "tags": ["All", "Datasheets"],
-    "description": "Robust NB-IoT gateway supporting industrial standards.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
-    "link": "/docs/g5-gateway.pdf"
+    "name": "MacSync-L-RTDX5",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "Lndustrial LoRaWAN RTD temperature sensor",
+    "image": "/docs/img/devices/lorawan-rtd-sensor-for-accurate-temperature-monitoring.webp",
+    "link": "/docs/product/lorawan/sensors/macsync-l-rtd-x-five-datasheet"
   },
   {
     "id": 14,
-    "name": "Wi-Fi Low Power Sensor WFS-20",
+    "name": "AutoCore WX1",
     "technology": "Low Power Wi Fi",
-    "category": "Sensors",
-    "applications": ["Smart Building", "Smart City"],
-    "tags": ["All", "Newly Added", "Datasheets"],
-    "description": "Low power Wi-Fi sensor for building automation.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "category": "Controllers",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Newly Added",
+      "Datasheets"
+    ],
+    "description": "Local relay controller for on-prim automation",
+    "image": "/docs/img/devices/autocore-automation-unit-one.webp",
     "link": "/docs/wfs-20.pdf"
   },
   {
     "id": 15,
-    "name": "BLE Converter BLC-01",
-    "technology": "Ble",
-    "category": "Converters",
-    "applications": ["Asset Tracking", "Smart Industries"],
-    "tags": ["All", "Datasheets"],
-    "description": "Bluetooth Low Energy converter for edge device integration.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "name": "AmpSense LCTX3",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "LoRaWAN current measurement sensor.",
+    "image": "/docs/img/devices/current-transformer-unit-xone.webp",
     "link": "/docs/blc-01.pdf"
   },
   {
     "id": 16,
-    "name": "UWB Tag T1",
-    "technology": "UWB",
-    "category": "Modules",
-    "applications": ["Asset Tracking"],
-    "tags": ["All", "Datasheets"],
-    "description": "Ultra-wideband module for high-precision indoor tracking.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "name": "AirSense Gen-2",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "LoRaWAN indoor air quality monitoring sensor",
+    "image": "/docs/img/devices/indoor-lorawan-aqi-sensor.webp",
     "link": "/docs/uwb-t1.pdf"
   },
   {
     "id": 17,
-    "name": "LoRaWAN Controller LC-X",
-    "technology": "LoRaWAN®",
+    "name": "Mini Doer Gen-1",
+    "technology": "Ble",
     "category": "Controllers",
-    "applications": ["Smart Agriculture"],
-    "tags": ["All", "Datasheets"],
-    "description": "Agricultural controller with LoRaWAN support and automation.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "applications": [
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets"
+    ],
+    "description": "BLE relay controller with scheduler",
+    "image": "/docs/img/devices/alarm-schedular-using-ble.webp",
     "link": "/docs/lc-x.pdf"
   },
   {
     "id": 18,
-    "name": "NB-IoT Sensor NBS-300",
-    "technology": "Nb IoT",
-    "category": "Sensors",
-    "applications": ["Smart City", "Smart Building"],
-    "tags": ["All", "Datasheets", "Brochures"],
-    "description": "NB-IoT-enabled multi-environment sensor for smart spaces.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "name": "Flour Mill Controller",
+    "technology": "Ble",
+    "category": "Controllers",
+    "applications": [
+      "Smart Building"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Brochures"
+    ],
+    "description": "Compact controller for mini grain grinders",
+    "image": "/docs/img/devices/auto-controller-unit-one.webp",
     "link": "/docs/nbs-300.pdf"
   },
   {
     "id": 19,
-    "name": "4G Module M4",
+    "name": "MacConnect-LTE-X2",
     "technology": "4G Cellular",
-    "category": "Modules",
-    "applications": ["Smart Industries", "Smart Agriculture"],
-    "tags": ["All", "Datasheets", "User Manuals"],
-    "description": "Compact 4G module suitable for remote deployments.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "category": "Gateways",
+    "applications": [
+      "Smart Industries",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "User Manuals"
+    ],
+    "description": " RS485 to cloud LTE gateway for industrial monitoring",
+    "image": "/docs/img/devices/cellular-gateway.-gen-v-two.webp",
     "link": "/docs/m4.pdf"
   },
   {
     "id": 20,
-    "name": "BLE Gateway BG-10",
+    "name": "MegaTough LX7",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": " LoRaWAN long-range level and distance sensor",
+    "image": "/docs/img/devices/long-range-lorawan-ultrasoni-sensor-megtough-x-two.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 21,
+    "name": "VibeIQ-Gen-1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Agriculture",
+      "Smart City",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless vibration monitoring for machine health",
+    "image": "/docs/img/devices/vibeiq-lorawan-viberation-sensor.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 22,
+    "name": "FireGaurd Gen-2 ",
+    "technology": "Low Power Wi Fi",
+    "category": "Gateways",
+    "applications": [
+      "Smart Building",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Smart fire safety monitoring controller.",
+    "image": "/docs/img/devices/wifi-gateway-gen-two.webp",
+    "link": "/docs/product/lorawan/gateways/fire-guard-single-channel-lora-gateway-for-firedatasheet"
+  },
+  {
+    "id": 23,
+    "name": "IndiLoRa Gen-1",
+    "technology": "LoRaWAN®",
+    "category": "Gateways",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Compact single-channel LoRaWAN gateway",
+    "image": "/docs/img/devices/wifi-gateway-with-lte.webp",
+    "link": "/docs/product/lorawan/gateways/indilora-single-channel-datasheet"
+  },
+  {
+    "id": 24,
+    "name": "MacConnect-LX2",
+    "technology": "LoRaWAN®",
+    "category": "Nodes",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless RS232 to LoRaWAN converter",
+    "image": "/docs/img/devices/rstwo-to-wifi-converter.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 25,
+    "name": "MacSync-LXT1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless LoRaWAN temperature & humidity sensor",
+    "image": "/docs/img/devices/macnman-lorawan-temperature-humidity-sensor.webp",
+    "link": "/docs/product/lorawan/sensors/macsync-lt-one-datasheet"
+  },
+  {
+    "id": 26,
+    "name": "MacSync-LCO2X1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless CO₂ monitoring for indoor air quality",
+    "image": "/docs/img/devices/macnman-lorawan-carbon-sensor-one.webp",
+    "link": "/docs/product/lorawan/sensors/macsync-l-co-2-sensors"
+  },
+  {
+    "id": 27,
+    "name": "MacSync-GSX2",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless H₂S & NH₃ gas monitoring for odor monitoring.",
+    "image": "/docs/img/devices/lorawan-odor-sensor-washroom-macnman.webp",
+    "link": "/docs/product/lorawan/sensors/macsync-l-nh-three-h-two-s-2-sensors"
+  },
+  {
+    "id": 28,
+    "name": "MacSync-LWSX6",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless weather monitoring for outdoor environments",
+    "image": "/docs/img/devices/macnman-lorawan-weather-station-six-in-one.webp",
+    "link": "/docs/product/lorawan/sensors/macsync-l-six-in-one-weather-station-x-six"
+  },
+  {
+    "id": 29,
+    "name": "MacSync-LWSX5",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless weather monitoring for outdoor environments",
+    "image": "/docs/img/devices/macnman-lorawan-weather-stations-one.webp",
+    "link": "/docs/product/lorawan/sensors/macsync-l-five-in-one-weather-station-x-five"
+  },
+  {
+    "id": 30,
+    "name": "MacSync-LVX1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless vibration monitoring for predictive maintenance",
+    "image": "/docs/img/devices/lorawan-viberation-sensor-macsync.webp",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "link": "/docs/product/lorawan/sensors/macsync-l-v-x-one-vibration-sensor"
+  },
+  {
+    "id": 31,
+    "name": "MacSync-LNX1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "LoRaWAN noise level monitoring for smart environments",
+    "image": "/docs/img/devices/macnman-lorawan-noise-sensor-one.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 32,
+    "name": "MacSync-LSSX7",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports",
+      "Newly Added"
+    ],
+    "description": "LoRaWAN multi-parameter soil health monitoring",
+    "image": "/docs/img/devices/macnman-lorawan-soil-sensor-seven-in-one.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 33,
+    "name": "AirSense WX5 Gen-1",
+    "technology": "Low Power Wi Fi",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Smart indoor air-quality monitoring over Wi-Fi",
+    "image": "/docs/img/devices/lorawan-aqi-sensor-washroom-htos.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 34,
+    "name": "MacTag 4",
     "technology": "Ble",
     "category": "Gateways",
-    "applications": ["Smart Building"],
-    "tags": ["All", "Datasheets", "Reports"],
-    "description": "BLE gateway to manage short-range sensor networks.",
-    "image": "/docs/img/mac_sync/mac_sync.svg",
+    "applications": [
+      "Smart Industries",
+      "Smart Building",
+      "Asset Tracking"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "High-precision UWB RTLS tag ",
+    "image": "/docs/img/devices/uwb-tag-three-macnman.webp",
     "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 35,
+    "name": "MacSync-LGH2S-X1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "LoRaWAN H₂S gas monitoring for safety & leak detection",
+    "image": "/docs/img/devices/macsync-h2s-sensor-lorawan.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 36,
+    "name": "MacSync-LSX2",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless pH monitoring for water and soil applications",
+    "image": "/docs/img/devices/lorawan-soil-ph-sensor-macnman.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 37,
+    "name": "MacSync-LSX3",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless temperature & moisture monitoring for soil",
+    "image": "/docs/img/devices/macnman-lorawan-soil-sensor-temp-humidity-sensor.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 38,
+    "name": "MacSync-LRX1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless rainfall detection for smart weather monitoring",
+    "image": "/docs/img/devices/lorawan-rain-meter-macnman.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 39,
+    "name": "MacSync-LRTDX2",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Industrial RTD temperature sensors",
+    "image": "/docs/img/devices/lorawan-rtd-sensor-low-range-macnman.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 40,
+    "name": "MacSync-LGNH3X1",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless ammonia gas monitoring for safety and air quality",
+    "image": "/docs/img/devices/macsync-h2s-sensor-lorawan.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 41,
+    "name": "LoRaWAN Gas Module X2",
+    "technology": "LoRaWAN®",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless retrofit solution for smart gas metering",
+    "image": "/docs/img/devices/lorawan-gas-sensor-retrofit-module.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 42,
+    "name": "Macnman Ble Tag3",
+    "technology": "Ble",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": " BLE beacon with environmental sensing & motion detection.",
+    "image": "/docs/img/devices/macnman-ble-temperature-humidity-sensor-tag.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 43,
+    "name": "Macnman Ble DoorTag X2",
+    "technology": "Ble",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless door open/close status sensor.",
+    "image": "/docs/img/devices/macnman-door-open-close-sensor.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+  {
+    "id": 44,
+    "name": "UWB MacTag3",
+    "technology": "UWB",
+    "category": "Sensors",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Industrial-grade UWB tracking tag",
+    "image": "/docs/img/devices/uwb-tag-mactag-four.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+    {
+    "id": 45,
+    "name": "MAC32WLE5",
+    "technology": "LoRaWAN®",
+    "category": "Modules",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City",
+      "Smart Agriculture",
+      "Asset Tracking"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": " Compact LoRaWAN module for long-range IoT connectivity.",
+    "image": "/docs/img/devices/lora-module-macnman-version-one.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+    {
+    "id": 46,
+    "name": "MAC32WBLE5",
+    "technology": "LoRaWAN®",
+    "category": "Modules",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "Wireless module with LoRaWAN & BLE connectivity",
+    "image": "/docs/img/devices/lorable-module-macnman-version-one.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+    {
+    "id": 47,
+    "name": "MAC5302-X2",
+    "technology": "Low Power Wi Fi",
+    "category": "Modules",
+    "applications": [
+      "Smart Building",
+      "Smart Industries",
+      "Smart City"
+    ],
+    "tags": [
+      "All",
+      "Datasheets",
+      "Reports"
+    ],
+    "description": "ESP32-footprint wireless module with dual-mode ",
+    "image": "/docs/img/devices/wifi-ble-esp-module-macnman-version-one.webp",
+    "link": "/docs/bg-10.pdf"
+  },
+    {
+    "id": 48,
+    "name": "MacSync-L-STD-BO",
+    "technology": "LoRaWAN®",
+    "category": "Nodes",
+    "applications": [
+      "Smart Agriculture",
+      "Smart Building",
+      "Smart City",
+      "Smart Industries"
+    ],
+    "tags": [
+      "All",
+      "User Manuals",
+      "Datasheets"
+    ],
+    "description": "Power-operated RS485/Analog LoRaWAN data logger",
+    "image": "/docs/img/devices/macsync-std-img.webp",
+    "link": "/docs/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction"
   }
 ]

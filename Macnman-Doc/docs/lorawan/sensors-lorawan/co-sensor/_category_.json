@@ -1,0 +1,8 @@
+{
+  "label": "CO2 Sensor",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Configure CO₂ sensor-specific parameters and LoRaWAN settings for precise air quality monitoring and optimized data transmission."
+  }
+}

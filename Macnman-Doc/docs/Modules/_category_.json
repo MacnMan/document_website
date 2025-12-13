@@ -1,9 +1,9 @@
 {
-  "label": "Modules",
-  "position": 3
+  "label": "IoT Modules",
+  "position": 5
   ,
   "link": {
     "type": "generated-index",
-    "description": "Documentation for our STM32WLE5-based module, including setup, usage, and integration details."
+    "description": "Your central hub for setting up and integrating Macnman’s IoT communication modules."
   }
 }

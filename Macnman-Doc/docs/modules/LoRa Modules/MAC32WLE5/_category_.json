@@ -1,0 +1,9 @@
+{
+  "label": "MAC32WLE5",
+  "position": 1
+  ,
+  "link": {
+    "type": "generated-index",
+    "description": "Your guide to developing with Macnman’s long-range, low-power LoRa modules."
+  }
+}
