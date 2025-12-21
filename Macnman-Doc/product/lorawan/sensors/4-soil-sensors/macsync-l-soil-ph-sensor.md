@@ -1,6 +1,6 @@
 ---
 id: macsync-l-soil-ph-sensor-datasheet
-title: MacSync-LSX2
+title: MacSync-LSXX2
 sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:

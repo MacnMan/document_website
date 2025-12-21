@@ -1,6 +1,6 @@
 ---
 id: macsync-l-seven-in-one-soil-sensor
-title: MacSync-LSX7
+title: MacSync-LSSX7
 sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:

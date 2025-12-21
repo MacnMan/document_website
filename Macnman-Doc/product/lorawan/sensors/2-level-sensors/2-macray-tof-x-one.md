@@ -467,19 +467,19 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
   </thead>
   <tbody>
     <tr>
-      <td>MacRay-ToF-X2</td>
+      <td>MacRay-ToF-X2-PO</td>
       <td>2 × 2 (4‑point ToF)</td>
       <td>Narrow zone detection</td>
       <td>Doorway people counting / Access control</td>
     </tr>
     <tr>
-      <td>MacRay-ToF-X4</td>
+      <td>MacRay-ToF-X4-PO</td>
       <td>4 × 4 (16‑point ToF)</td>
       <td>Medium area coverage</td>
       <td>Room occupancy analytics / Facility automation</td>
     </tr>
     <tr>
-      <td>MacRay-ToF-X8</td>
+      <td>MacRay-ToF-X8-PO</td>
       <td>8 × 8 (64‑point ToF)</td>
       <td>Wider coverage with higher precision</td>
       <td>Zone activity mapping / Retail & smart workspace analytics</td>
