@@ -2,7 +2,7 @@
 id: parknode-gen-two-lorawan-parking-sensor
 title: ParkNode Gen-2
 sidebarposition: 5
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Dual-technology LoRaWAN parking sensor combining geomagnetic and radar sensing for ultra-accurate vehicle detection in smart parking deployments.
 keywords:
   - lorawan geomagnetic parking sensor
   - smart parking detection sensor
@@ -24,19 +24,23 @@ keywords:
   - commercial building parking automation
   - high accuracy magnetic vehicle detection
   - industry grade parking bay monitoring device
+  - dual technology lorawan parking sensor
+  - radar based parking occupancy sensor
+  - geomagnetic and radar vehicle detection
+  - high accuracy smart parking sensor
 ---
 
-# ParkNode Gen-1 Datasheet
+# ParkNode Gen-2 Datasheet
 
 ## Product Overview
 
-ParkNode Gen‑1 is an intelligent **LoRaWAN® geomagnetic parking occupancy sensor** designed for real‑time vehicle presence detection in off‑street, curbside, and commercial parking spaces. Using industrial‑grade geomagnetic sensing technology with advanced signal processing, the device precisely detects a vehicle’s arrival, stay duration, and departure — even in challenging environments.
+ParkNode Gen‑2 is an advanced **dual‑technology LoRaWAN® parking occupancy sensor** that combines **geomagnetic sensing and radar‑based vehicle detection** to deliver industry‑leading accuracy in real‑time parking monitoring. The fusion of magnetic field analysis and active radar sensing eliminates false detections caused by environmental noise, metal interference, or partial vehicle presence.
 
-Engineered for **outdoor deployment**, ParkNode Gen‑1 features a rugged enclosure, IP‑rated sealing, and high immunity to temperature variation, vibration, and electromagnetic interference. It supports **surface‑mount and flush‑mount installation**, enabling easy deployment across city streets, gated societies, business parks, airports, and shopping complexes.
+Engineered for **outdoor deployment**, ParkNode Gen‑2 features a rugged enclosure, IP‑rated sealing, and high immunity to temperature variation, vibration, and electromagnetic interference. It supports **surface‑mount and flush‑mount installation**, enabling easy deployment across city streets, gated societies, business parks, airports, and shopping complexes.
 
 Built on **low‑power LoRaWAN® wireless communication**, the device delivers long‑range connectivity to smart‑city gateways and parking management platforms while maintaining years of battery life. Instant occupancy updates help reduce traffic congestion, optimize parking revenue, automate enforcement, and improve the driver experience with accurate space‑availability guidance.
 
-With intelligent filtering for vehicle motion, metal type, and multi‑vehicle parking interactions — **ParkNode Gen‑1 transforms traditional parking spaces into smart, connected assets**, enabling efficient and scalable parking automation for modern cities.
+With intelligent sensor‑fusion algorithms that correlate geomagnetic signatures with radar motion profiles — **ParkNode Gen‑2 transforms traditional parking spaces into highly reliable, connected assets**, enabling accurate detection even in complex urban and industrial environments.
 
 | ![lorawan geomagnetic parking occupancy sensor surface mount for smart parking](/img/otherProducts/parknode-smart-city-parking-automation.webp) | ![ flush mounted parking bay detection sensor for vehicle presence monitoring](/img/otherProducts/parknode-sensor-surface-view.webp) |
 |--------------------------------|--------------------------------|
@@ -71,6 +75,11 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
 ## Key Features
 
 <div className="reusable-feature-grid">
+<div className="reusable-feature-card">
+  <strong>Dual Sensor Technology: Geomagnetic + Radar</strong>
+  Sensor fusion architecture dramatically improves detection accuracy by validating vehicle presence using both magnetic disturbance and radar motion sensing.
+</div>
+
 <div className="reusable-feature-card">
   <strong>High-Accuracy Geomagnetic Vehicle Detection</strong>
   Detects vehicle arrival, presence, and departure with fast response and zero false alerts.
@@ -169,7 +178,7 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">ParkNode Gen-1</p>
+    <p className="value">ParkNode Gen-2</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -187,6 +196,7 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
 
     <p className="label">Detection Method</p>
     <p className="value">3‑axis geomagnetic field sensing</p>
+    <p className="value">Active Radar Sensor</p>
     <br />
 
     <p className="label">Magnetic Sensitivity</p>
@@ -221,6 +231,32 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
     <p className="value">Surface mount or flush in asphalt/concrete</p>
     <br />
 
+    <p className="label">Sensor Fusion</p>
+    <p className="value">Combined geomagnetic and radar validation</p>
+    <br />
+
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Radar <br /> Detection
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Radar Type</p>
+    <p className="value">Low‑power short‑range radar sensor</p>
+    <br />
+    <p className="label">Detection Capability</p>
+    <p className="value">Vehicle motion and presence confirmation</p>
+    <br />
+    <p className="label">False Detection Reduction</p>
+    <p className="value">Eliminates false positives from static metal objects</p>
+    <br />
+    <p className="label">Operating Mode</p>
+    <p className="value">Event‑driven, synchronized with geomagnetic sensing</p>
+    <br />
   </div>
 </div>
 
@@ -242,7 +278,7 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">26 dBm @ 868 MHz / 23 dBm @ 915 MHz</p>    
     <br />
     <p className="label">Sensitivity</p>
     <p className="value">-137 dBm @ 300 bps</p>
@@ -252,7 +288,7 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
     <br />
     <p className="label">LoRaWAN® Class</p>
     <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    
     <br />
 
   </div>
@@ -291,7 +327,7 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
   </div>
   <div className="spec-block-details">
     <p className="label">Configuration</p>
-    <p className="value">LoRaWAN QR keys QR Code</p>
+    <p className="value">LoRaWAN QR keys</p>
     <br />
     <p className="label">Uplink Modes</p>
     <p className="value">Trigger Based</p>
@@ -455,7 +491,7 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
 </div>
 
 
-##  ParkNode Gen-1 Variants
+## ParkNode Gen-2 Variants
 
 <table className="parameter-table">
   <thead>
@@ -467,12 +503,12 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
   </thead>
   <tbody>
     <tr>
-      <td>ParkNode Gen‑1‑X1</td>
+      <td>ParkNode Gen‑2‑X1</td>
       <td>Up to 10 Years (Ultra‑Long Life)</td>
       <td>Public smart parking deployments with minimal service access</td>
     </tr>
     <tr>
-      <td>ParkNode Gen‑1‑X2</td>
+      <td>ParkNode Gen‑2‑X2</td>
       <td>Up to 5 Years (Standard Life)</td>
       <td>Private parking areas and cost‑optimized smart parking solutions</td>
     </tr>
