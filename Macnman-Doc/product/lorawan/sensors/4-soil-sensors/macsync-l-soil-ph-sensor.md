@@ -26,7 +26,7 @@ keywords:
   - macnman lorawan ph monitoring module
 ---
 
-# MacSync-LSX2 Datasheet
+# MacSync-LSSX2 Datasheet
 
 ## Product Overview
 
@@ -60,7 +60,7 @@ With seamless integration into leading LoRaWAN® network servers, OTA configurat
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LSX2</p>
+      <p>Click here to view the decoders for MacSync-LSSX2</p>
     </div>
   </a>
 </div>
@@ -176,7 +176,7 @@ With seamless integration into leading LoRaWAN® network servers, OTA configurat
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-LSX2</p>
+    <p className="value">MacSync-LSSX2</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -479,7 +479,7 @@ With seamless integration into leading LoRaWAN® network servers, OTA configurat
 </div>
 
 
-## MacSync-LSX2 Variants
+## MacSync-LSSX2 Variants
 
 
 <table className="parameter-table">
@@ -494,21 +494,21 @@ With seamless integration into leading LoRaWAN® network servers, OTA configurat
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LSX2-PO</td>
+      <td>MacSync-LSSX2-PO</td>
       <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>✖️</td>
       <td>Industrial sites, automation systems & weather‑dependent machinery control</td>
     </tr>
     <tr>
-      <td>MacSync-LSX2-BO</td>
+      <td>MacSync-LSSX2-BO</td>
       <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>✖️</td>
       <td>Remote farms, plantations, research stations — no wired power required</td>
     </tr>
     <tr>
-      <td>MacSync-LSX2-SO</td>
+      <td>MacSync-LSSX2-SO</td>
       <td>Solar + Battery Hybrid</td>
       <td>12 Ah (Rechargeable)</td>
       <td>External solar charging</td>
