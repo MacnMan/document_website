@@ -1,6 +1,6 @@
 ---
 id: parknode-gen-one-lorawan-parking-sensor
-title: ParkNode Gen-2
+title: ParkNode Gen-1
 sidebarposition: 5
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:

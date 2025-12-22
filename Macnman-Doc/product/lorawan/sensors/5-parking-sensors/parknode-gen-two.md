@@ -1,44 +1,48 @@
 ---
-id: macsync-lorawan-rtd-sensor-x-series
-title: MacSync-LRTDX2
-sidebarposition: 3
+id: parknode-gen-two-lorawan-parking-sensor
+title: ParkNode Gen-2
+sidebarposition: 5
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan rtd temperature sensor
-  - pt100 lorawan temperature transmitter
-  - PT100 industrial temperature monitoring iot
-  - high accuracy industrial rtd sensor
-  - remote temperature monitoring lorawan
-  - smart factory temperature sensor
-  - pipeline temperature monitoring wireless
-  - ip67 rugged rtd sensor outdoor
-  - low power lorawan temperature probe
-  - industrial automation temperature measurement
-  - chemical plant temperature monitoring iot
-  - boiler and furnace temperature sensor lorawan
-  - process control temperature monitoring
-  - predictive maintenance temperature sensing
-  - food grade temperature monitoring rtd
+  - lorawan geomagnetic parking sensor
+  - smart parking detection sensor
+  - vehicle presence detection iot
+  - magnetic parking occupancy sensor
+  - off street parking monitoring solution
+  - parking bay occupancy detection
+  - industrial wireless parking sensor
+  - underground parking spot availability sensor
+  - real time parking space monitoring
+  - ip67 outdoor parking detector device
+  - smart city parking management system
+  - low power long range parking sensor
+  - vehicle arrival departure detection lorawans
+  - parking enforcement automation device
+  - surface mount parking sensor
+  - curbside parking analytics iot
+  - private parking access management sensor
+  - commercial building parking automation
+  - high accuracy magnetic vehicle detection
+  - industry grade parking bay monitoring device
 ---
 
-# MacSync-L-RTDXx Datasheet
+# ParkNode Gen-1 Datasheet
 
 ## Product Overview
 
-MacSync‑L‑RTDXx is a **high‑precision LoRaWAN® RTD temperature monitoring device** designed for industrial applications where accuracy, reliability, and long‑distance wireless communication are critical. Supporting both **PT100 and PT100** sensors with **IEC 60751 linearization**, it ensures stable and precise temperature measurement across a wide operating range.
+ParkNode Gen‑1 is an intelligent **LoRaWAN® geomagnetic parking occupancy sensor** designed for real‑time vehicle presence detection in off‑street, curbside, and commercial parking spaces. Using industrial‑grade geomagnetic sensing technology with advanced signal processing, the device precisely detects a vehicle’s arrival, stay duration, and departure — even in challenging environments.
 
-Engineered for harsh environments, the device features **IP67 protection**, surge‑resistant electronics, and rugged industrial‑grade construction suitable for pipelines, machinery, furnaces, cold‑chain systems, and process lines. With **multi‑year battery life** or optional **DC power**, the sensor is ideal for both fixed and remote installations.
+Engineered for **outdoor deployment**, ParkNode Gen‑1 features a rugged enclosure, IP‑rated sealing, and high immunity to temperature variation, vibration, and electromagnetic interference. It supports **surface‑mount and flush‑mount installation**, enabling easy deployment across city streets, gated societies, business parks, airports, and shopping complexes.
 
-MacSync‑L‑RTDXx supports **event‑based alerts, configurable sampling**, and BLE‑based field configuration using the Maya App. Using **secure LoRaWAN® connectivity**, data is transmitted directly to cloud dashboards, SCADA, CMMS, or any private/public LNS.
+Built on **low‑power LoRaWAN® wireless communication**, the device delivers long‑range connectivity to smart‑city gateways and parking management platforms while maintaining years of battery life. Instant occupancy updates help reduce traffic congestion, optimize parking revenue, automate enforcement, and improve the driver experience with accurate space‑availability guidance.
 
-From **industrial process control, predictive maintenance, HVAC monitoring, thermal safety compliance**, to **food & pharma cold‑chain assurance** — **MacSync‑L‑RTDXx delivers continuous and accurate visibility** into temperature‑critical assets that keep industries running efficiently and safely.
+With intelligent filtering for vehicle motion, metal type, and multi‑vehicle parking interactions — **ParkNode Gen‑1 transforms traditional parking spaces into smart, connected assets**, enabling efficient and scalable parking automation for modern cities.
 
-| ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
+| ![lorawan geomagnetic parking occupancy sensor surface mount for smart parking](/img/otherProducts/parknode-smart-city-parking-automation.webp) | ![ flush mounted parking bay detection sensor for vehicle presence monitoring](/img/otherProducts/parknode-sensor-surface-view.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![real time parking space occupancy detection using geomagnetic wireless sensor](/img/otherProducts/parknode-sensor-flush-mount.webp) | ![smart city parking automation with lorawan wireless vehicle detection sensor](/img/otherProducts/parknode-parking-spot-detection.webp) |
 
-
-<div class="faint-line"></div>  
+<div class="faint-line"></div>
 
 ## Download Center
 
@@ -57,7 +61,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-RTDXx</p>
+      <p>Click here to view the decoders for ParkNode Gen-1</p>
     </div>
   </a>
 </div>
@@ -68,53 +72,43 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>High-Accuracy RTD Measurement</strong>
-  Supports PT100 probes with IEC 60751 curve compensation for precise industrial sensing.
+  <strong>High-Accuracy Geomagnetic Vehicle Detection</strong>
+  Detects vehicle arrival, presence, and departure with fast response and zero false alerts.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Temperature Range Support</strong>
-  Suitable for low- and high-temperature processes in industrial and commercial environments.
+  <strong>LoRaWAN® Long-Range Wireless Connectivity</strong>
+  Real-time parking occupancy reporting over secure, encrypted LoRaWAN® networks.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Long‑Range LoRaWAN® Connectivity</strong>
-  Reliable wireless monitoring over several kilometers with minimal power consumption.
+  <strong>Ultra-Low Power with Multi-Year Battery Life</strong>
+  Designed for outdoor deployment with maintenance-free operation for years.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Multi‑Year Battery or DC Power</strong>
-  Flexible power options for both remote deployments and fixed industrial installations.
+  <strong>Rugged Outdoor Design</strong>
+  Shock-resistant and weather-proof construction ready for road-side and curbside installations.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Rugged Industrial Design</strong>
-  Resistant to water, dust, corrosion, and vibration — suitable for outdoor and harsh environments.
+  <strong>Surface or Flush Mount Options</strong>
+  Flexible installation for asphalt roads, parking lots, industrial yards, and private spaces.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Event‑Based Temperature Alerts</strong>
-  Threshold‑based triggers help prevent overheating, freezing, and process deviations.
+  <strong>Intelligent Magnetic Filtering</strong>
+  Advanced algorithms to differentiate between vehicles, bicycles, and environmental magnetic noise.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Quick local setup, diagnostics, and OTA updates through a smartphone interface.
+  <strong>Smart City Integration</strong>
+  Compatible with parking management platforms for guidance systems, reservations, and enforcement.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure & Encrypted Data</strong>
-  AES‑128 encrypted LoRaWAN® communication prevents unauthorized access and data tampering.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Compatible with All LoRaWAN® Networks</strong>
-  Works seamlessly with public and private network servers, SCADA & cloud dashboards.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Predictive Maintenance Ready</strong>
-  Enables early failure detection of pumps, bearings, motors & heat‑critical assets.
+  <strong>Event-Based Uplinks</strong>
+  Arrival/Departure events and parking duration analytics for cost and network optimization.
 </div>
 </div>
 <div class="faint-line"></div>
@@ -122,50 +116,47 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 ## Suited Applications
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Industrial Process Temperature Monitoring</strong>
-  Continuous thermal measurement for chemical processing, metal fabrication, and industrial manufacturing.
+  <strong>On‑Street & Curbside Parking</strong>
+  Real‑time detection of individual parking bay occupancy for smart city enforcement and driver guidance.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Predictive Maintenance of Motors & Pumps</strong>
-  Detects overheating in bearings, compressors, and rotating equipment to prevent unplanned downtime.
+  <strong>Commercial Parking Lots</strong>
+  Optimizes space usage and supports automated access management in malls, business parks, and shopping centers.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Boiler, Furnace & Heater Monitoring</strong>
-  High‑temperature sensing for operational safety, combustion control, and regulatory compliance.
+  <strong>Basement & Covered Parking</strong>
+  Magnetic sensing works reliably even where GNSS and cameras fail due to low visibility.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Cold‑Chain & Refrigeration Systems</strong>
-  Real‑time temperature assurance in pharma, food, storage warehouses, and distribution trucks.
+  <strong>Residential & Society Parking</strong>
+  Ensures proper allocation, prevents unauthorized vehicle parking and enhances security.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>HVAC & Building Automation</strong>
-  Smart thermal management for commercial infrastructure and energy efficiency optimization.
+  <strong>Airport & Railway Parking Zones</strong>
+  Real‑time vehicle turnover analytics and occupancy tracking for high‑traffic mobility hubs.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Oil & Gas Temperature Surveillance</strong>
-  Rugged RTD monitoring for pipelines, well sites, and harsh‑environment assets.
+  <strong>EV Parking Enforcement</strong>
+  Detects overstays and improper parking in dedicated EV charging bays.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Water & Pipeline Thermal Safety</strong>
-  Monitors temperature in pipelines and distribution networks for freeze protection and quality control.
+  <strong>Industrial Logistics Areas</strong>
+  Monitors reserved parking for loading vehicles, forklifts, and workforce transport vehicles.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Laboratory, Pharma & Food Safety</strong>
-  Ensures compliance in controlled environments and critical production processes.
+  <strong>Smart Mobility & Fleet Allocation</strong>
+  Enables dynamic space assignment and automated guidance for taxis, buses and shared fleets.
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Remote & Unmanned Plant Monitoring</strong>
-  Low‑maintenance IoT deployments where wired sensors are costly or impractical.
-</div>
 </div>
 
 <div class="faint-line"></div>
@@ -178,7 +169,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-RTDXx</p>
+    <p className="value">ParkNode Gen-1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -190,41 +181,46 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 
 <div className="spec-block">
   <div className="spec-block-title">
-    RTD <br /> Measurement
+    Geomagnetic <br /> Detection
   </div>
   <div className="spec-block-details">
-<p className="label">Sensor Type</p>
-<p className="value">RTD (PT100 / PT100)</p>
-<br />
-<p className="label">Temperature Range</p>
-<p className="value">–200 °C to +850 °C</p>
-<br />
-<p className="label">Accuracy</p>
-<p className="value">±0.2 °C (typical)</p>
-<br />
-<p className="label">Resolution</p>
-<p className="value">0.1 °C</p>
-<br />
-<p className="label">Repeatability</p>
-<p className="value">±0.05 °C</p>
-<br />
-<p className="label">Sensor Linearization</p>
-<p className="value">IEC 60751 Standard Curve</p>
-<br />
-<p className="label">Self‑Heating Error</p>
-<p className="value">&lt; 0.1 °C @ 1 mA excitation</p>
-<br />
-<p className="label">Drift (1 year)</p>
-<p className="value">&lt; 0.05 °C</p>
-<br />
-<p className="label">Insulation Resistance</p>
-<p className="value">&gt; 100 MΩ @ 500 VDC</p>
-<br />
-<p className="label">Probe Options</p>
-<p className="value">Internal &amp; External Probes Available</p>
-<br />
-<p className="label">Probe Material</p>
-<p className="value">SS304 / SS316 (optional)</p>
+
+    <p className="label">Detection Method</p>
+    <p className="value">3‑axis geomagnetic field sensing</p>
+    <br />
+
+    <p className="label">Magnetic Sensitivity</p>
+    <p className="value">±200 to ±1000 μT dynamic range</p>
+    <br />
+
+    <p className="label">Detection Accuracy</p>
+    <p className="value">&gt; 98% vehicle presence detection accuracy *</p>
+    <br />
+
+    <p className="label">Detection Latency</p>
+    <p className="value">&lt; 7~10 seconds (arrival/departure)</p>
+    <br />
+
+    <p className="label">Self‑Calibration</p>
+    <p className="value">Automatic baseline calibration & drift compensation</p>
+    <br />
+
+    <p className="label">Anti‑Noise Filtering</p>
+    <p className="value">Resistant to EMI from motors, HVAC, power lines</p>
+    <br />
+
+    <p className="label">Multi‑Vehicle Handling</p>
+    <p className="value">Intelligent algorithms for vehicles parked in sequence</p>
+    <br />
+
+    <p className="label">False Trigger Prevention</p>
+    <p className="value">Filters bicycles, carts, and pedestrians</p>
+    <br />
+
+    <p className="label">Installation Height</p>
+    <p className="value">Surface mount or flush in asphalt/concrete</p>
+    <br />
+
   </div>
 </div>
 
@@ -273,7 +269,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     <p className="value">1 Internal Multi-Color LED</p>
     <br />
     <p className="label">Solid Blue</p>
-    <p className="value">Device is connected with Maya App</p>
+    <p className="value">Device is connected LoRaWAN Network (On for 30 sec still)</p>
     <br />
     <p className="label">Flashing Blue</p>
     <p className="value">OTA (Over-the-Air) update in progress</p>
@@ -282,7 +278,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
+    <p className="value">A confirmed parameter of device is being modified</p>
     <br />
   </div>
 </div>
@@ -295,10 +291,10 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
   </div>
   <div className="spec-block-details">
     <p className="label">Configuration</p>
-    <p className="value">Via Macnman Maya Android App</p>
+    <p className="value">LoRaWAN QR keys QR Code</p>
     <br />
     <p className="label">Uplink Modes</p>
-    <p className="value">Time Based / Threshold Based / Sampling Based</p>
+    <p className="value">Trigger Based</p>
     <br />
     <p className="label">Stored Records*</p>
     <p className="value">30,000 Records</p>
@@ -317,14 +313,14 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
   </div>
   <div className="spec-block-details">
     <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <p className="value">Li-Ion Cell (06Ah) Industrial grade</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
     <p className="value">~50 mA during transmission</p>
     <br />
     <p className="label">Battery Life</p>
-    <p className="value">Up to 8 years (10 Mins Uplink Interval)</p>
+    <p className="value">Up to 10 Years(20 Vehicals detected in day)</p>
     <br />
   </div>
 </div>
@@ -355,8 +351,8 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
-    <p className="value">9-36 V DC</p>
+    <p className="label">Power Supply</p>
+    <p className="value">Inbuilt Battery</p>
     <br />
     <p className="label">Operating Temperature</p>
     <p className="value">-40°C to +80°C</p>
@@ -365,19 +361,20 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     <p className="value">0% to 100% RH (non-condensing)</p>
     <br />
     <p className="label">Ingress Protection</p>
-    <p className="value">IP65 standard (IP67 optional variant)</p>    
+    <p className="value">IP68</p>    
     <br />
     <p className="label">Housing Material</p>
     <p className="value">Glass field Nylon</p>    
     <br />
     <p className="label">Color</p>
     <p className="value">Matte Black</p>    
+    <p className="value">Matte Yellow</p> 
     <br />
     <p className="label">Weight</p>
-    <p className="value">~110g</p>    
+    <p className="value">~310g</p>    
     <br />
     <p className="label">Mounting Options</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
+    <p className="value">Surface Mounting</p>    
     <br />
   </div>
 </div>
@@ -389,8 +386,8 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
-    <p className="value">9-36 V DC (External Supply)</p>
+    <p className="label">Inbuilt Battery</p>
+    <p className="value">Lithium Cell</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
@@ -409,14 +406,14 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
     Communication <br /> Options
   </div>
   <div className="spec-block-details">
-    <p className="label">BLE Connectivity</p>
+    <p className="label">BLE Connectivity (Optional Varient)</p>
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
     <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
     <br />
     <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (optional)</p>
+    <p className="value">RS485 Modbus RTU support (Gateway)</p>
     <br />
   </div>
 </div>
@@ -458,29 +455,26 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 </div>
 
 
-##  MacSync-L-RTDXx Variants
+##  ParkNode Gen-1 Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>RTD Type</th>
-      <th>Power Option</th>
-      <th>Ideal Use Case</th>
+      <th>Battery Life</th>
+      <th>Recommended Use</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSyncPT100‑PO</td>
-      <td>PT100</td>
-      <td>12–24 V DC Power</td>
-      <td>High‑precision temperature monitoring in automation systems</td>
+      <td>ParkNode Gen‑1‑X1</td>
+      <td>Up to 10 Years (Ultra‑Long Life)</td>
+      <td>Public smart parking deployments with minimal service access</td>
     </tr>
     <tr>
-      <td>MacSyncPT100‑BO</td>
-      <td>PT100</td>
-      <td>Battery (Multi‑year)</td>
-      <td>Cold‑chain, pipelines & predictive maintenance monitoring</td>
+      <td>ParkNode Gen‑1‑X2</td>
+      <td>Up to 5 Years (Standard Life)</td>
+      <td>Private parking areas and cost‑optimized smart parking solutions</td>
     </tr>
   </tbody>
 </table>
@@ -526,12 +520,11 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
 
 -->
 
-
 ## What's in the box ?
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![title image](/img/lorawan/parknode-gen-one-what-in-box.svg)
 
 :::note
 
@@ -542,5 +535,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.svg)
+![title image](/img/lorawan/parknode-gen-one-dimensions.svg)
 
