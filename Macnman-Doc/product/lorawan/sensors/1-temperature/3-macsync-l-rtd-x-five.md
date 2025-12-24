@@ -492,7 +492,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-RTDX1-PO</td>
+      <td>MacSync-L-RTDX5-PO</td>
       <td>12–24 V (Power)</td>
       <td>✖️</td>
       <td>✖️</td>
@@ -500,7 +500,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
       <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
-      <td>MacSync-L-RTDX1-BO</td>
+      <td>MacSync-L-RTDX5-BO</td>
       <td>Battery</td>
       <td>19 Ah</td>
       <td>✖️</td>

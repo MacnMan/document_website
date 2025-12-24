@@ -471,13 +471,13 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
   </thead>
   <tbody>
     <tr>
-      <td>MacSyncPT100‑PO</td>
+      <td>MacSync-LRTDX2‑PO</td>
       <td>PT100</td>
       <td>12–24 V DC Power</td>
       <td>High‑precision temperature monitoring in automation systems</td>
     </tr>
     <tr>
-      <td>MacSyncPT100‑BO</td>
+      <td>MacSync-LRTDX2‑BO</td>
       <td>PT100</td>
       <td>Battery (Multi‑year)</td>
       <td>Cold‑chain, pipelines & predictive maintenance monitoring</td>
