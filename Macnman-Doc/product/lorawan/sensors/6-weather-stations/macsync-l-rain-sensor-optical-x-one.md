@@ -36,11 +36,12 @@ Designed for long‑term outdoor deployment, MacSync‑LRX1 features a rugged IP
 
 Powered by Macnman’s ultra‑low‑power architecture, OTA configuration via the **Maya App**, and onboard data‑buffering for uninterrupted transmission, **MacSync‑LRX1 delivers dependable rainfall analytics for irrigation automation, flood‑alert systems, weather intelligence platforms, and climate research installations.**
 
+
 <div className="image-grid-2col">
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-health-monitoring-guide.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-datasheet.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-technical-specifications.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
+  <img src="/docs/img/lorawan/sensors/macsync/optical-rainfall-sensor-iot-weather-monitoring.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-optical-rainfall-sensor-industrial-iot.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
 </div>
 
 ## Download Center
@@ -564,7 +565,6 @@ not be included in the box.
 
 ## Product Dimensions
 
-![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-dimensions.svg)
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-optical-rainfall-sensor-dimensions.svg)
 
-![tmacsync lssx soil probe stainless steel electrode dimensions](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 

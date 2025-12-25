@@ -1,51 +1,51 @@
 ---
-id: macsync-l-rtd-x-five-datasheet
-title: MacSync-LRTDX5
-sidebarposition: 2
+id: macsync-l-water-quality-sensor
+title: MacSync-LWQ-X9
+sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan rtd temperature sensor
-  - PT1000 temperature probe
-  - industrial temperature monitoring
-  - high accuracy rtd sensor
-  - loT temperature transmitter
-  - remote temperature data logging
-  - industrial process automation sensor
-  - cold chain temperature tracking
-  - pipeline and tank temperature monitoring
-  - food and pharma compliance sensor
-  - long range wireless temperature sensor
-  - explosion proof temperature sensing (optional)
-  - battery powered industrial sensor
-  - harsh environment temperature monitoring
-  - smart factory iot sensor
-  - rtd to lorawan converter
-  - industrial iot temperature controller
-  - macsync rtd sensor
-  - macnman lorawan device
-  - ip67 rugged temperature sensor
+  - lorawan water ph sensor
+  - lorawan ph sensor
+  - water quality ph sensor lorawan
+  - industrial ph sensor lorawan
+  - iot water ph monitoring sensor
+  - wireless ph sensor for water
+  - online water ph monitoring system
+  - drinking water ph sensor lorawan
+  - wastewater ph monitoring sensor
+  - stp ph sensor lorawan
+  - wwtp ph monitoring sensor
+  - river water ph monitoring lorawan
+  - lake reservoir ph sensor
+  - effluent ph monitoring sensor
+  - smart water quality monitoring iot
+  - battery powered lorawan ph sensor
+  - low power water ph sensor
+  - long range water quality sensor
+  - macsync water quality sensor
+  - lwqx1 ph sensor
+  - macnman lorawan water sensor
 ---
 
-# MacSync-L-RTDX5 Datasheet
+# MacSync-LWQ-X9 Datasheet
 
 ## Product Overview
 
-**MacSync-L-RTDX5** is a next‑generation **LoRaWAN® RTD temperature sensor** engineered for ultra‑precise thermal monitoring in the most demanding industrial environments. Designed to support **PT1000** probes and IEC 60751 standard linearization, it ensures highly accurate and repeatable temperature measurement from **–200 °C to +850 °C**, covering cryogenic, processing, and high‑temperature applications.
+**MacSync-LWQ-X9** is an industrial-grade **LoRaWAN® water quality pH sensor** designed for continuous, real-time monitoring of pH levels in drinking water systems, wastewater treatment plants, industrial effluents, and natural water bodies. Engineered for reliable long-term deployment, it enables accurate pH measurement in remote and distributed locations where wired monitoring systems are impractical.
 
-With **industrial‑grade shielding**, **low‑noise analog front‑end**, and **minimal drift**, the MacSync‑L‑RTDX5 delivers dependable performance in reactors, chemical process lines, oil & gas pipelines, cold‑storage logistics, and power utility infrastructures.
+Built around a **high-stability electrochemical pH probe** and precision signal conditioning, MacSync-LWQ-X9 delivers consistent and repeatable pH data with minimal drift over extended operation. The sensor supports **online pH monitoring** in tanks, pipelines, reservoirs, rivers, lakes, STP and WWTP facilities—helping operators maintain regulatory compliance, optimize treatment processes, and detect abnormal water conditions at an early stage.
 
-The device features **Class A/C LoRaWAN® communication**, a **high‑efficiency internal antenna**, secure **AES‑128 encrypted transmission**, and support for the **Maya App (BLE)** for rapid onboarding, OTA parameter updates, and diagnostic insights — eliminating manual configuration in remote deployments.
+Optimized for **ultra-low-power operation** and long-range wireless communication, the device securely transmits pH data over **LoRaWAN® networks**, enabling multi-year battery life even in harsh outdoor environments. Its rugged, ingress-protected enclosure and flexible mounting options make it suitable for permanent installations in municipal, industrial, and environmental monitoring applications.
 
-Its rugged **IP65‑rated enclosure**, stainless‑steel probe compatibility (SS304 / SS316), multi‑year **battery operation**, and optional external DC power input make it a long‑life sensor designed to thrive in harsh industrial and outdoor environments.
-
-Whether used for predictive maintenance, compliance monitoring in pharma logistics, or thermal safety in high‑temperature industrial processes, **MacSync‑L‑RTDX5 transforms any RTD probe into a smart, wireless, and future‑ready IoT sensing node**, enabling Industry 4.0 automation and operational excellence.
+With support for **LoRaWAN® v1.0.4**, AES-encrypted communication, OTA configuration via the **Macnman Maya App**, and compatibility with all major public and private LoRaWAN® network servers, MacSync-LWQ-X9 provides a scalable and future-ready solution for **IoT-based water quality monitoring**—transforming raw pH measurements into actionable intelligence for smarter water management.
 
 
-| ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
-|--------------------------------|--------------------------------|
-| ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
-
-<div class="faint-line"></div>
+<div className="image-grid-2col">
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-water-ph-probe-front-view.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-water-ph-probe-side-view.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
+</div>
 
 ## Download Center
 
@@ -64,7 +64,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-RTDX5</p>
+      <p>Click here to view the decoders for MacSync-LWQ-X9</p>
     </div>
   </a>
 </div>
@@ -74,115 +74,100 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 ## Key Features
 
 <div className="reusable-feature-grid">
-<div className="reusable-feature-card">
-  <strong>High‑Accuracy RTD Input</strong>
-  Compatible with PT1000 probes for precise industrial temperature monitoring.
+
+  <div className="reusable-feature-card">
+    <strong>High‑Accuracy Water pH Measurement</strong>
+    Continuous and reliable pH monitoring using an industrial‑grade electrochemical pH probe for precise water quality assessment.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Online & Real‑Time pH Monitoring</strong>
+    Enables real‑time pH tracking in tanks, pipelines, reservoirs, rivers, STP and WWTP facilities for proactive water management.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Long‑Term Stability & Low Drift</strong>
+    Optimized signal conditioning and probe design ensure stable pH readings with minimal drift during long‑term deployments.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Ultra‑Low‑Power LoRaWAN® Connectivity</strong>
+    LoRaWAN® Class A architecture enables long‑range wireless transmission with multi‑year battery life.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Designed for Harsh Water Environments</strong>
+    Rugged, ingress‑protected enclosure suitable for continuous immersion and outdoor water monitoring applications.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Remote Monitoring & Alerts</strong>
+    Supports threshold‑based alerts and event‑driven reporting for abnormal pH conditions.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Flexible Deployment Options</strong>
+    Supports immersion and inline installations with flexible mounting for different water bodies and process pipelines.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>BLE Configuration via Maya App</strong>
+    Easy local configuration, diagnostics, and OTA updates using the Macnman Maya mobile application.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Secure & Scalable IoT Architecture</strong>
+    AES‑encrypted communication with compatibility across all major public and private LoRaWAN® network servers.
+  </div>
+
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Wide Temperature Range</strong>
-  Supports –200 °C to +850 °C for cryogenic, process, and high‑temperature environments.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Industrial‑Grade Reliability</strong>
-  Low noise, low drift, and high repeatability for mission‑critical applications.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Ultra‑Low Power LoRaWAN®</strong>
-  Multi‑year battery life with Class A/C support for long‑range connectivity.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Rugged & Ingress‑Protected Enclosure</strong>
-  IP65/IP67 protection for harsh outdoor and industrial deployments.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Fast onboarding, OTA parameter tuning, and diagnostics using a smartphone.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>SS304 / SS316 Probe Support</strong>
-  Corrosion‑resistant stainless‑steel probe options for chemical and process industries.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic, event‑based, or threshold reporting to extend battery performance.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Secure Data Communication</strong>
-  AES‑128 encrypted LoRaWAN® connectivity ensuring industrial‑grade security.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Industrial IoT Platform Integration</strong>
-  Works with all major LoRaWAN® network servers and cloud systems.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Flexible Deployment</strong>
-  Supports internal or external RTD probe installation for diverse monitoring needs.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Future‑Proof Design</strong>
-  Ideal for Industry 4.0 modernization and remote thermal analytics.
-</div>
-</div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
+
   <div className="reusable-feature-card">
-    <strong>Industrial Process Temperature Monitoring</strong>
-    Highly accurate RTD sensing for reactors, tanks, kilns, ovens, boilers, and thermal processing equipment.
+    <strong>Drinking Water Quality Monitoring</strong>
+    Continuous pH monitoring in municipal water supply systems to ensure safe drinking water and regulatory compliance.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil & Gas Pipeline Monitoring</strong>
-    Real-time temperature tracking to detect leaks, overheating, and pipeline integrity issues.
+    <strong>Sewage Treatment Plants (STP)</strong>
+    Real-time pH tracking across treatment stages to optimize chemical dosing and process efficiency.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Chemical & Petrochemical Plants</strong>
-    RTD probes withstand aggressive chemicals and corrosive environments for safe temperature control.
+    <strong>Wastewater Treatment Plants (WWTP)</strong>
+    Online pH monitoring for influent, effluent, and neutralization processes to meet discharge standards.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Chain & Pharmaceutical Storage</strong>
-    Regulatory-compliant monitoring for vaccines, biologics, perishable goods & medical refrigeration.
+    <strong>Industrial Effluent Monitoring</strong>
+    pH monitoring of industrial discharge to detect abnormal conditions and ensure environmental compliance.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Energy & Power Utilities</strong>
-    Thermal supervision for substations, transformers, turbines, heat exchangers, and district heating.
+    <strong>Rivers, Lakes & Reservoirs</strong>
+    Long-term environmental pH monitoring of surface water bodies for pollution detection and ecosystem health assessment.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Steel, Foundry & Mining Operations</strong>
-    High-temperature safety monitoring near furnaces, smelters, mines, and metallurgical processes.
+    <strong>Water Distribution & Storage Tanks</strong>
+    pH monitoring in overhead tanks, underground reservoirs, and distribution networks for early anomaly detection.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>HVAC & Industrial Cooling Systems</strong>
-    Performance monitoring for chillers, heat pumps & climate control industrial systems.
+    <strong>Cooling Towers & Process Water</strong>
+    Continuous pH monitoring to prevent corrosion, scaling, and chemical imbalance in industrial water systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Industrial Assets</strong>
-    Reliable LoRaWAN® connectivity in isolated and hazardous locations where wired sensors fail.
+    <strong>Environmental & Research Monitoring</strong>
+    Reliable pH data collection for water research, environmental studies, and long-term monitoring projects.
   </div>
 
-  <div className="reusable-feature-card">
-    <strong>Industry 4.0 Automation</strong>
-    Smart analytics, predictive maintenance & operational efficiency through long-range IoT sensing.
-  </div>
 </div>
 
 <div class="faint-line"></div>
@@ -195,7 +180,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-RTDX5</p>
+    <p className="value">MacSync-LWQ-X9</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -204,46 +189,51 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 
 <div class="faint-line"></div>
 
-
 <div className="spec-block">
   <div className="spec-block-title">
-    Temperature <br /> Measurement
+    Water Ph <br /> Measurement
   </div>
   <div className="spec-block-details">
-<p className="label">Sensor Type</p>
-<p className="value">RTD (PT1000)</p>
-<br />
-<p className="label">Range</p>
-<p className="value">–200 °C to +850 °C</p>
-<br />
-<p className="label">Accuracy</p>
-<p className="value">±0.2 °C (typical)</p>
-<br />
-<p className="label">Resolution</p>
-<p className="value">0.1 °C</p>
-<br />
-<p className="label">Repeatability</p>
-<p className="value">±0.05 °C</p>
-<br />
-<p className="label">Probe Options</p>
-<p className="value">Internal &amp; External Both Options</p>
-<br />
-<p className="label">Sensor Linearization</p>
-<p className="value">IEC 60751 standard curve</p>
-<br />
-<p className="label">Self‑Heating Error</p>
-<p className="value">&lt; 0.1 °C @ 1 mA excitation</p>
-<br />
-<p className="label">Drift (1 Year)</p>
-<p className="value">&lt; 0.05 °C</p>
-<br />
-<p className="label">Insulation Resistance</p>
-<p className="value">&gt; 100 MΩ @ 500 VDC</p>
-<br />
-<p className="label">Probe Material</p>
-<p className="value">SS304 / SS316 (optional)</p>
+
+  <p className="label">Sensing Principle</p>
+  <p className="value">Ion selection method</p>
+  <br />
+
+  <p className="label">Detection Range</p>
+  <p className="value">0 to 14 pH</p>
+  <br />
+
+  <p className="label">Resolution</p>
+  <p className="value">0.01 pH</p>
+  <br />
+
+  <p className="label">Accuracy</p>
+  <p className="value">±0.1 pH</p>
+  <br />
+
+  <p className="label">Calibration Method</p>
+  <p className="value">Two‑point calibration</p>
+  <br />
+
+  <p className="label">Response Time</p>
+  <p className="value">10 seconds (typical)</p>
+  <br />
+
+  <p className="label">Temperature Compensation</p>
+  <p className="value">Automatic temperature compensation (NTC)</p>
+  <br />
+
+  <p className="label">Protection Level</p>
+  <p className="value">IP68 (up to 20 meters water depth)</p>
+  <br />
+
+  <p className="label">Service Life</p>
+  <p className="value">Sensor: 1 year (typical)</p>
+  <br />
+
   </div>
 </div>
+
 
 <div class="faint-line"></div>
 
@@ -253,7 +243,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </div>
   <div className="spec-block-details">
     <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
+    <p className="value">LoRaWAN®</p>
     <p className="value">Macnman MacTalk Protocol</p>
     <br />
     <p className="label">Antenna</p>
@@ -263,7 +253,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
     <br />
     <p className="label">Sensitivity</p>
     <p className="value">-137 dBm @ 300 bps</p>
@@ -343,7 +333,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">~50 mA during transmission</p>
     <br />
     <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
+    <p className="value">Up to 04 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -393,10 +383,30 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
-    <p className="value">~110g</p>    
+    <p className="value">~210g</p>    
     <br />
     <p className="label">Mounting Options</p>
     <p className="value">Pole Mounting / Wall Mounting</p>    
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Battery <br /> Performance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Battery Type</p>
+    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Battery Life</p>
+    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -435,7 +445,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
     <br />
     <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (optional)</p>
+    <p className="value">RS485 Modbus RTU support (via gateway*)</p>
     <br />
   </div>
 </div>
@@ -477,7 +487,8 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 </div>
 
 
-##  MacSync-L-RTDX5 Variants
+## MacSync-LWQ-X9 Variants
+
 
 <table className="parameter-table">
   <thead>
@@ -486,26 +497,30 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
       <th>Power Source</th>
       <th>Battery Capacity</th>
       <th>Solar Support</th>
-      <th>External Flash</th>
-      <th>Ideal For</th>
+      <th>Ideal Deployment</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-RTDX1-PO</td>
-      <td>12–24 V (Power)</td>
+      <td>MacSync-LWQ-X9-PO</td>
+      <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
+      <td>Industrial sites, automation systems & weather‑dependent machinery control</td>
     </tr>
     <tr>
-      <td>MacSync-L-RTDX1-BO</td>
-      <td>Battery</td>
+      <td>MacSync-LWQ-X9-BO</td>
+      <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>✖️</td>
-      <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>Remote farms, plantations, research stations — no wired power required</td>
+    </tr>
+    <tr>
+      <td>MacSync-LWQ-X9-SO</td>
+      <td>Solar + Battery Hybrid</td>
+      <td>12 Ah (Rechargeable)</td>
+      <td>External solar charging</td>
+      <td>Long-term field deployments with real‑time climate automation in remote areas</td>
     </tr>
   </tbody>
 </table>
@@ -566,5 +581,7 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.svg)
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lorawan-water-ph-sensor-dimensions.svg)
 
+
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lwq-x-ph-probe-overall-dimensions.webp)

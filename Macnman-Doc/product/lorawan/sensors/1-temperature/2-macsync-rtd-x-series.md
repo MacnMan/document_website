@@ -21,17 +21,17 @@ keywords:
   - food grade temperature monitoring rtd
 ---
 
-# MacSync-L-RTDXx Datasheet
+# MacSync-L-RTDX2 Datasheet
 
 ## Product Overview
 
-MacSync‑L‑RTDXx is a **high‑precision LoRaWAN® RTD temperature monitoring device** designed for industrial applications where accuracy, reliability, and long‑distance wireless communication are critical. Supporting both **PT100 and PT100** sensors with **IEC 60751 linearization**, it ensures stable and precise temperature measurement across a wide operating range.
+MacSync‑L‑RTDXx is a **high‑precision LoRaWAN® RTD temperature monitoring device** designed for industrial applications where accuracy, reliability, and long‑distance wireless communication are critical. Supporting **PT100** sensors with **IEC 60751 linearization**, it ensures stable and precise temperature measurement across a wide operating range.
 
 Engineered for harsh environments, the device features **IP67 protection**, surge‑resistant electronics, and rugged industrial‑grade construction suitable for pipelines, machinery, furnaces, cold‑chain systems, and process lines. With **multi‑year battery life** or optional **DC power**, the sensor is ideal for both fixed and remote installations.
 
-MacSync‑L‑RTDXx supports **event‑based alerts, configurable sampling**, and BLE‑based field configuration using the Maya App. Using **secure LoRaWAN® connectivity**, data is transmitted directly to cloud dashboards, SCADA, CMMS, or any private/public LNS.
+MacSync‑L‑RTDX2 supports **event‑based alerts, configurable sampling**, and BLE‑based field configuration using the Maya App. Using **secure LoRaWAN® connectivity**, data is transmitted directly to cloud dashboards, SCADA, CMMS, or any private/public LNS.
 
-From **industrial process control, predictive maintenance, HVAC monitoring, thermal safety compliance**, to **food & pharma cold‑chain assurance** — **MacSync‑L‑RTDXx delivers continuous and accurate visibility** into temperature‑critical assets that keep industries running efficiently and safely.
+From **industrial process control, predictive maintenance, HVAC monitoring, thermal safety compliance**, to **food & pharma cold‑chain assurance** — **MacSync‑L‑RTDX2 delivers continuous and accurate visibility** into temperature‑critical assets that keep industries running efficiently and safely.
 
 | ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
 |--------------------------------|--------------------------------|
@@ -194,7 +194,7 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
   </div>
   <div className="spec-block-details">
 <p className="label">Sensor Type</p>
-<p className="value">RTD (PT100 / PT100)</p>
+<p className="value">RTD - PT100</p>
 <br />
 <p className="label">Temperature Range</p>
 <p className="value">–200 °C to +850 °C</p>
@@ -471,13 +471,13 @@ From **industrial process control, predictive maintenance, HVAC monitoring, ther
   </thead>
   <tbody>
     <tr>
-      <td>MacSyncPT100‑PO</td>
+      <td>MacSync-LRTDX2‑PO</td>
       <td>PT100</td>
       <td>12–24 V DC Power</td>
       <td>High‑precision temperature monitoring in automation systems</td>
     </tr>
     <tr>
-      <td>MacSyncPT100‑BO</td>
+      <td>MacSync-LRTDX2‑BO</td>
       <td>PT100</td>
       <td>Battery (Multi‑year)</td>
       <td>Cold‑chain, pipelines & predictive maintenance monitoring</td>

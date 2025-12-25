@@ -1,42 +1,47 @@
 ---
-id: macsync-lt-one-datasheet
-title: MacSync-LT1
+id: macsync-odor-x-one-datasheet
+title: MacSync-L-Odor-X1
 sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan temperature sensor
-  - lorawan humidity sensor
-  - lorawan pressure sensor
-  - industrial environmental sensor
-  - smart agriculture sensor
-  - lorawan weather monitoring
-  - cold chain monitoring sensor
-  - greenhouse automation sensor
-  - hvac monitoring device
-  - environmental data logger
-  - long range wireless sensor
-  - battery powered lorawan sensor
-  - macsync
-  - macnman
-  - industrial iot monitoring
-  - lorawan climate sensor
-  - barometric pressure tracking
-  - smart city iot sensor
-  - outdoor rugged lorawan device
-  - ip67 lorawan sensor
+  - lorawan odor sensor
+  - lorawan smell sensor
+  - qualitative odor sensor
+  - odor intensity sensor
+  - odor level monitoring sensor
+  - electronic nose lorawan
+  - lorawan voc odor sensor
+  - industrial odor monitoring
+  - sewage odor monitoring sensor
+  - wastewater odor sensor
+  - stp odor monitoring
+  - wwtp odor monitoring
+  - landfill odor monitoring sensor
+  - waste management odor sensor
+  - smart city odor monitoring
+  - factory odor detection sensor
+  - air quality odor sensor lorawan
+  - battery powered lorawan odor sensor
+  - low power lorawan odor sensor
+  - macsync odor sensor
+  - macnman iot odor sensor
+  - outdoor odor monitoring device
+  - ip67 lorawan odor sensor
 ---
 
-# MacSync-LT1 Datasheet
+# MacSync-L-Odor-X1 Datasheet
 
 ## Product Overview
 
-**MacSync-LT1** is a premium LoRaWAN® temperature, humidity & pressure sensor, engineered for high-accuracy environmental monitoring in the most demanding industrial and outdoor deployments. Built for precision and longevity, it continuously captures real-time atmospheric data and transmits it over ultra-long-range LoRaWAN® networks—ensuring maximum uptime with minimal power consumption.
+**MacSync-L-Odor-X1** is a qualitative **LoRaWAN® odor monitoring sensor** designed to detect, track, and trend **odor intensity levels** in industrial, municipal, and outdoor environments. Instead of measuring individual gas concentrations in ppm, the device evaluates overall odor presence and strength, making it ideal for applications where **nuisance odor detection, early warning, and compliance monitoring** are critical.
 
-Powered by industrial-grade sensing elements and advanced thermal-isolation design, the MacSync-LT1 delivers fast response, low drift, and exceptional measurement stability even under harsh weather or mechanical stress. Its rugged enclosure and ingress-protected design make it a perfect fit for smart agriculture, cold chain logistics, HVAC automation, smart cities, warehouses, greenhouses, and remote environmental stations.
+Built on advanced sensing elements and intelligent signal processing, MacSync-L-Odor-X1 converts complex odor signatures into a **simple odor index / odor level**, enabling easy interpretation and actionable insights. This qualitative approach allows operators to identify odor spikes, persistent odor patterns, and abnormal events without requiring gas-specific calibration or complex analysis.
 
-With support for LoRaWAN® v1.0.4, Class A operation, high-efficiency internal antenna, AES-256 encrypted communication, and optional BLE-based OTA configuration through the Maya App, deployment and maintenance become effortless and scalable for large industrial fleets.
+Engineered for long-term field deployment, the device features an **ultra‑low‑power LoRaWAN® Class A architecture**, ensuring multi‑year battery life even in remote or unmanned locations. Its rugged, ingress‑protected enclosure makes it suitable for harsh environments such as **sewage treatment plants (STP), wastewater facilities (WWTP), landfills, waste processing units, factories, and smart city infrastructure**.
 
-Whether you’re modernizing legacy monitoring systems or delivering intelligent environmental analytics at scale, MacSync-LT1 provides a future-proof, carrier-grade, and low-maintenance sensing platform—transforming raw climate conditions into actionable intelligence for smarter decisions.
+With support for **LoRaWAN® v1.0.4**, AES‑encrypted communication, wide regional frequency bands, and optional **BLE‑based configuration via the Maya App**, MacSync-L-Odor-X1 enables fast deployment, remote monitoring, and scalable fleet management across public or private LoRaWAN® networks.
+
+Whether used for regulatory reporting, community odor complaint management, or proactive operational control, MacSync-L-Odor-X1 delivers a **reliable, low‑maintenance, and future‑ready odor monitoring solution**—transforming subjective smell complaints into measurable, data‑driven intelligence.
 
 
 | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-environmental-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-front-view.webp) |
@@ -62,7 +67,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LT1</p>
+      <p>Click here to view the decoders for MacSync-L-Odor-X1</p>
     </div>
   </a>
 </div>
@@ -73,65 +78,55 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 
 <div className="reusable-feature-grid">
 
-<div className="reusable-feature-card">
-  <strong>High‑Accuracy Sensing</strong>
-  Precision temperature, humidity & barometric pressure measurement for reliable climate intelligence.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Qualitative Odor Intensity Detection</strong>
+    Measures overall odor presence and strength using a qualitative odor index, ideal for nuisance odor monitoring without ppm-level gas complexity.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Industrial‑Grade Sensors</strong>
-  Low drift, fast response, and long‑term measurement stability in harsh environments.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Odor Index & Trend Analysis</strong>
+    Converts complex odor signatures into a simple odor level, enabling long-term trend analysis and easy correlation with operational events.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Ultra‑Low Power Operation</strong>
-  Battery‑optimized LoRaWAN® Class A communication for multi‑year field deployments.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Early Warning & Threshold Alerts</strong>
+    Configurable odor thresholds trigger alerts for sudden odor spikes, persistent odor conditions, and abnormal events.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic reporting, threshold‑based triggers & event‑driven uplinks to reduce battery usage.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Ultra‑Low Power LoRaWAN® Operation</strong>
+    LoRaWAN® Class A architecture ensures multi-year battery life for continuous odor monitoring in remote and unmanned locations.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Secure Wireless Transmission</strong>
-  AES‑128 encryption with OTAA activation for reliable, long‑range connectivity.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Designed for Outdoor & Harsh Environments</strong>
+    Rugged, ingress-protected enclosure suitable for STP, WWTP, landfills, waste processing plants, and industrial sites.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Ingress‑Protected Enclosure</strong>
-  Designed for indoor and outdoor use — IP65 standard (IP67 optional).
-</div>
+  <div className="reusable-feature-card">
+    <strong>No Gas‑Specific Calibration Required</strong>
+    Qualitative sensing eliminates the need for individual gas calibration, reducing maintenance effort and operational complexity.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Local setup, diagnostics, and OTA configuration using a smartphone.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Secure Long‑Range Wireless Communication</strong>
+    AES-encrypted LoRaWAN® communication enables reliable long-range data transmission over public or private networks.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Compatible with All LoRaWAN® Networks</strong>
-  Works seamlessly with major public & private network servers.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Flexible Uplink & Reporting Modes</strong>
+    Supports time-based, threshold-based, and event-driven uplinks to optimize data usage and battery performance.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Long‑Range Communication</strong>
-  Robust LoRa coverage for agriculture fields, factories & remote outdoor sites.
-</div>
+  <div className="reusable-feature-card">
+    <strong>BLE Configuration via Maya App</strong>
+    Local device configuration, diagnostics, and OTA updates using the Macnman Maya mobile application.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Internal High‑Efficiency Antenna</strong>
-  Optimized radiation pattern for long‑distance communication stability.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Compact & Lightweight Design</strong>
-  Easy pole/wall mounting for permanent or temporary installations.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Future‑Proof Industrial IoT Ready</strong>
-  Enables automated climate control & intelligent data analytics across industries.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Scalable & Network-Agnostic</strong>
+    Compatible with all major public and private LoRaWAN® network servers for large-scale odor monitoring deployments.
+  </div>
 
 </div>
 <div class="faint-line"></div>
@@ -141,48 +136,48 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture</strong>
-    Environmental sensing for farms, greenhouses, vineyards, and horticulture climate automation.
+    <strong>Sewage Treatment Plants (STP)</strong>
+    Continuous monitoring of nuisance odors from inlet chambers, aeration tanks, and sludge handling areas to support compliance and reduce public complaints.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Chain Monitoring</strong>
-    Reliable temperature & humidity tracking for warehouses, cold rooms, vaccine storage & food logistics.
+    <strong>Wastewater Treatment Plants (WWTP)</strong>
+    Odor intensity tracking across treatment processes to detect abnormal events, process inefficiencies, and odor spikes.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings & HVAC</strong>
-    Indoor air comfort and HVAC system efficiency monitoring in offices, malls & industrial buildings.
+    <strong>Landfills & Waste Disposal Sites</strong>
+    Early detection and trend analysis of odor emissions to manage landfill gas impact and community exposure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Environment & Weather Stations</strong>
-    Pressure, temperature & humidity monitoring for micro‑climate analysis and air health.
+    <strong>Solid Waste & Composting Facilities</strong>
+    Qualitative odor monitoring to identify high-odor zones and optimize waste handling and composting operations.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Infrastructure</strong>
-    Climate exposure tracking for telecom towers, substations, wind turbines & solar plants.
+    <strong>Industrial Manufacturing Plants</strong>
+    Odor monitoring around chemical processing, food processing, paper mills, and industrial production areas.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Warehouses & Storage Rooms</strong>
-    Ensures temperature/humidity‑controlled storage for pharma, FMCG & raw materials.
+    <strong>Smart City Odor Monitoring</strong>
+    City-wide deployment for monitoring odor nuisance in residential zones, industrial belts, and public infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Environmental influence analysis for manufacturing processes & equipment protection.
+    <strong>Environmental Compliance & Reporting</strong>
+    Supports regulatory monitoring programs and data-driven reporting for odor-related compliance requirements.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Cities</strong>
-    Distributed environmental sensing to support sustainability, safety & urban planning.
+    <strong>Community Odor Complaint Management</strong>
+    Objective odor data to correlate citizen complaints with real odor events and operational conditions.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Mines, Tunnels & Harsh Sites</strong>
-    Monitoring isolated industrial locations with long‑range LoRaWAN wireless coverage.
+    <strong>Remote & Unmanned Locations</strong>
+    Long-range LoRaWAN® connectivity enables odor monitoring at isolated sites without continuous human presence.
   </div>
 
 </div>
@@ -197,7 +192,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-LT1</p>
+    <p className="value">MacSync-L-Odor-X1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -279,6 +274,72 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 
 <div className="spec-block">
   <div className="spec-block-title">
+    NH3 <br /> Measurement
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Gas Detected</p>
+    <p className="value">Ammonia (NH₃)</p>
+    <br />
+    <p className="label">Detection Range</p>
+    <p className="value">1 to 300 ppm</p>
+    <br />
+    <p className="label">Sensitivity</p>
+    <p className="value">R₀ (in air) / Rs (in 50 ppm NH₃) ≥ 3</p>
+    <br />
+    <p className="label">Measurement Type</p>
+    <p className="value">Gas concentration (ppm)</p>
+    <br />
+    <p className="label">Operating Temperature</p>
+    <p className="value">-10°C to +50°C</p>
+    <br />
+    <p className="label">Operating Humidity</p>
+    <p className="value">15% to 90% RH (non-condensing)</p>
+    <br />
+    <p className="label">Expected Lifespan</p>
+    <p className="value">≥ 5 years (in air)</p>
+    <br />
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    H2S <br /> Measurement
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Gas Detected</p>
+    <p className="value">Hydrogen Sulfide (H₂S), Benzene</p>
+    <br />
+    <p className="label">Detection Range</p>
+    <p className="value">0.5 to 50 ppm</p>
+    <br />
+    <p className="label">Sensitivity</p>
+    <p className="value">R₀ (in air) / Rs (in 50 ppm H₂S) ≥ 3</p>
+    <br />
+    <p className="label">Measurement Type</p>
+    <p className="value">Gas concentration (ppm)</p>
+    <br />
+    <p className="label">Operating Temperature</p>
+    <p className="value">-10°C to +50°C</p>
+    <br />
+    <p className="label">Operating Humidity</p>
+    <p className="value">15% to 90% RH (non-condensing)</p>
+    <br />
+    <p className="label">Expected Lifespan</p>
+    <p className="value">≥ 5 years (in air)</p>
+    <br />
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Wireless <br /> Transmission
   </div>
   <div className="spec-block-details">
@@ -293,7 +354,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
     <br />
     <p className="label">Sensitivity</p>
     <p className="value">-137 dBm @ 300 bps</p>
@@ -507,7 +568,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 </div>
 
 
-##  MacSync-LT1 Variants
+##  MacSync-L-Odor-X1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -522,15 +583,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LT1-PO</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacSync-LT1-BO</td>
+      <td>MacSync-L-Odor-X1-BO</td>
       <td>Battery</td>
       <td>19 Ah</td>
       <td>✖️</td>
@@ -539,47 +592,6 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
     </tr>
   </tbody>
 </table>
-
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
-
--->
 
 ## What's in the box ?
 

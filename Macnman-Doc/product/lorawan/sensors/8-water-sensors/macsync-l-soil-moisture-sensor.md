@@ -1,51 +1,47 @@
 ---
-id: macsync-l-rtd-x-five-datasheet
-title: MacSync-LRTDX5
-sidebarposition: 2
+id: macsync-l-soil-moisture-sensor-datasheet
+title: MacSync-LSSX3
+sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan rtd temperature sensor
-  - PT1000 temperature probe
-  - industrial temperature monitoring
-  - high accuracy rtd sensor
-  - loT temperature transmitter
-  - remote temperature data logging
-  - industrial process automation sensor
-  - cold chain temperature tracking
-  - pipeline and tank temperature monitoring
-  - food and pharma compliance sensor
-  - long range wireless temperature sensor
-  - explosion proof temperature sensing (optional)
-  - battery powered industrial sensor
-  - harsh environment temperature monitoring
-  - smart factory iot sensor
-  - rtd to lorawan converter
-  - industrial iot temperature controller
-  - macsync rtd sensor
-  - macnman lorawan device
-  - ip67 rugged temperature sensor
+  - lorawan soil moisture sensor
+  - macsync lsx3 soil moisture sensor
+  - wireless soil moisture monitoring device
+  - long range soil moisture probe lorawan
+  - smart irrigation soil moisture sensor
+  - agriculture iot moisture monitoring
+  - precision farming soil moisture sensor
+  - soil volumetric water content sensor
+  - field soil moisture telemetry system
+  - rugged outdoor soil moisture node
+  - low power lorawan soil sensor
+  - greenhouse soil moisture automation
+  - plantation soil moisture monitoring
+  - smart city landscape irrigation control sensor
+  - industrial grade soil moisture detector
+  - remote farmland moisture sensing device
+  - lorawan agriculture moisture data logger
+  - soil hydration monitoring sensor
+  - crop irrigation optimization sensor
+  - macnman lorawan moisture monitoring module
 ---
 
-# MacSync-L-RTDX5 Datasheet
+# MacSync-LSSX3 Datasheet
 
 ## Product Overview
 
-**MacSync-L-RTDX5** is a next‑generation **LoRaWAN® RTD temperature sensor** engineered for ultra‑precise thermal monitoring in the most demanding industrial environments. Designed to support **PT1000** probes and IEC 60751 standard linearization, it ensures highly accurate and repeatable temperature measurement from **–200 °C to +850 °C**, covering cryogenic, processing, and high‑temperature applications.
+**MacSync‑LSX3** is a high‑accuracy **LoRaWAN® soil moisture sensor** designed for precision agriculture, irrigation automation, plantations, landscaping, and smart‑city green‑zone monitoring. Built with an industrial‑grade capacitive moisture‑sensing probe, it delivers real‑time volumetric soil moisture insights that help growers optimize watering schedules, reduce water usage, and protect crops from under‑ or over‑irrigation.
 
-With **industrial‑grade shielding**, **low‑noise analog front‑end**, and **minimal drift**, the MacSync‑L‑RTDX5 delivers dependable performance in reactors, chemical process lines, oil & gas pipelines, cold‑storage logistics, and power utility infrastructures.
+Engineered on Macnman’s ultra‑low‑power architecture, MacSync‑LSX3 provides long‑range wireless communication, multi‑year battery life, and consistent performance in all soil types—clay, red soil, sandy soil, and saline regions. Its rugged outdoor enclosure and IP67‑rated probe ensure stable operation in farming fields, orchards, vineyards, and greenhouse environments.
 
-The device features **Class A/C LoRaWAN® communication**, a **high‑efficiency internal antenna**, secure **AES‑128 encrypted transmission**, and support for the **Maya App (BLE)** for rapid onboarding, OTA parameter updates, and diagnostic insights — eliminating manual configuration in remote deployments.
+With seamless integration into major LoRaWAN® network servers, OTA configuration via the **Maya App**, and onboard data buffering for zero‑loss transmission, **MacSync‑LSX3 enables smart irrigation systems, remote soil monitoring, and high‑efficiency water‑management strategies for farms, estates, and municipalities.**
 
-Its rugged **IP65‑rated enclosure**, stainless‑steel probe compatibility (SS304 / SS316), multi‑year **battery operation**, and optional external DC power input make it a long‑life sensor designed to thrive in harsh industrial and outdoor environments.
-
-Whether used for predictive maintenance, compliance monitoring in pharma logistics, or thermal safety in high‑temperature industrial processes, **MacSync‑L‑RTDX5 transforms any RTD probe into a smart, wireless, and future‑ready IoT sensing node**, enabling Industry 4.0 automation and operational excellence.
-
-
-| ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
-|--------------------------------|--------------------------------|
-| ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
-
-<div class="faint-line"></div>
+<div className="image-grid-2col">
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-health-monitoring-guide.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-datasheet.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-technical-specifications.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
+</div>
 
 ## Download Center
 
@@ -64,7 +60,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-RTDX5</p>
+      <p>Click here to view the decoders for MacSync-LSSX3</p>
     </div>
   </a>
 </div>
@@ -74,115 +70,100 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>High‑Accuracy RTD Input</strong>
-  Compatible with PT1000 probes for precise industrial temperature monitoring.
+  <strong>High‑Accuracy Soil Moisture Sensing</strong>
+  Industrial‑grade capacitive moisture probe provides stable and precise volumetric water content measurement in all soil types.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Temperature Range</strong>
-  Supports –200 °C to +850 °C for cryogenic, process, and high‑temperature environments.
+  <strong>True Long‑Range LoRaWAN® Connectivity</strong>
+  Long‑distance wireless communication enables field‑scale soil monitoring across farms, plantations, and remote locations.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial‑Grade Reliability</strong>
-  Low noise, low drift, and high repeatability for mission‑critical applications.
+  <strong>Ultra‑Low‑Power Consumption</strong>
+  Advanced sleep‑state optimization delivers multi‑year battery life even with frequent uplinks.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ultra‑Low Power LoRaWAN®</strong>
-  Multi‑year battery life with Class A/C support for long‑range connectivity.
+  <strong>Rugged Outdoor Construction</strong>
+  IP67‑rated probe and weather‑resistant housing designed for continuous deployment in harsh agricultural environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Rugged & Ingress‑Protected Enclosure</strong>
-  IP65/IP67 protection for harsh outdoor and industrial deployments.
+  <strong>Real‑Time Smart Irrigation Insights</strong>
+  Helps automate irrigation cycles, conserve water, prevent over‑watering, and improve crop hydration efficiency.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Fast onboarding, OTA parameter tuning, and diagnostics using a smartphone.
+  <strong>OTA Configuration via Maya App</strong>
+  Remotely modify thresholds, uplink intervals, modes, and diagnostics without physical access.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>SS304 / SS316 Probe Support</strong>
-  Corrosion‑resistant stainless‑steel probe options for chemical and process industries.
+  <strong>On‑Device Data Buffering</strong>
+  Stores thousands of sensor records locally to ensure no data loss during downtime or weak connectivity.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic, event‑based, or threshold reporting to extend battery performance.
+  <strong>Secure LoRaWAN® Data Transmission</strong>
+  End‑to‑end AES encryption protects moisture data for agriculture, plantations, and municipal systems.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Data Communication</strong>
-  AES‑128 encrypted LoRaWAN® connectivity ensuring industrial‑grade security.
+  <strong>Universal LNS Compatibility</strong>
+  Works seamlessly with TTN, ChirpStack, Loriot, Orbiwise, MQTT‑based servers, and private LoRaWAN® networks.
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Industrial IoT Platform Integration</strong>
-  Works with all major LoRaWAN® network servers and cloud systems.
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Flexible Deployment</strong>
-  Supports internal or external RTD probe installation for diverse monitoring needs.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Future‑Proof Design</strong>
-  Ideal for Industry 4.0 modernization and remote thermal analytics.
-</div>
-</div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
-  <div className="reusable-feature-card">
-    <strong>Industrial Process Temperature Monitoring</strong>
-    Highly accurate RTD sensing for reactors, tanks, kilns, ovens, boilers, and thermal processing equipment.
-  </div>
 
-  <div className="reusable-feature-card">
-    <strong>Oil & Gas Pipeline Monitoring</strong>
-    Real-time temperature tracking to detect leaks, overheating, and pipeline integrity issues.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Precision Agriculture & Smart Irrigation</strong>
+  Real‑time soil‑moisture insights to automate irrigation cycles and maintain optimal root‑zone hydration.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Chemical & Petrochemical Plants</strong>
-    RTD probes withstand aggressive chemicals and corrosive environments for safe temperature control.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Farm‑Scale Water Management</strong>
+  Monitor soil moisture across large fields to reduce water wastage and improve crop‑wise irrigation planning.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Cold Chain & Pharmaceutical Storage</strong>
-    Regulatory-compliant monitoring for vaccines, biologics, perishable goods & medical refrigeration.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Greenhouses & Controlled Environments</strong>
+  Maintain ideal moisture levels for flowers, vegetables, herbs, and high‑value greenhouse crops.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Energy & Power Utilities</strong>
-    Thermal supervision for substations, transformers, turbines, heat exchangers, and district heating.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Plantations & Orchards</strong>
+  Long‑range moisture tracking in tea, coffee, mango, rubber, coconut, and fruit orchards.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Steel, Foundry & Mining Operations</strong>
-    High-temperature safety monitoring near furnaces, smelters, mines, and metallurgical processes.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Vineyards & Wine Production</strong>
+  Moisture‑driven irrigation strategies to improve grape quality and prevent vine stress.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>HVAC & Industrial Cooling Systems</strong>
-    Performance monitoring for chillers, heat pumps & climate control industrial systems.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Forestry & Soil Conservation</strong>
+  Monitor moisture levels for reforestation, afforestation, and forest‑health research studies.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Remote Industrial Assets</strong>
-    Reliable LoRaWAN® connectivity in isolated and hazardous locations where wired sensors fail.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Landscape & Turf Irrigation</strong>
+  Smart watering for golf courses, stadium lawns, parks, campuses, and corporate landscapes.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Industry 4.0 Automation</strong>
-    Smart analytics, predictive maintenance & operational efficiency through long-range IoT sensing.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Smart‑City Green‑zone Management</strong>
+  Moisture‑based automated irrigation systems for public gardens, roadside plantations, and urban parks.
+</div>
+
 </div>
 
 <div class="faint-line"></div>
@@ -195,7 +176,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-RTDX5</p>
+    <p className="value">MacSync-LSSX3</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -204,46 +185,47 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 
 <div class="faint-line"></div>
 
-
 <div className="spec-block">
   <div className="spec-block-title">
-    Temperature <br /> Measurement
+    Environmental <br /> Measurement
   </div>
   <div className="spec-block-details">
-<p className="label">Sensor Type</p>
-<p className="value">RTD (PT1000)</p>
-<br />
-<p className="label">Range</p>
-<p className="value">–200 °C to +850 °C</p>
-<br />
-<p className="label">Accuracy</p>
-<p className="value">±0.2 °C (typical)</p>
-<br />
-<p className="label">Resolution</p>
-<p className="value">0.1 °C</p>
-<br />
-<p className="label">Repeatability</p>
-<p className="value">±0.05 °C</p>
-<br />
-<p className="label">Probe Options</p>
-<p className="value">Internal &amp; External Both Options</p>
-<br />
-<p className="label">Sensor Linearization</p>
-<p className="value">IEC 60751 standard curve</p>
-<br />
-<p className="label">Self‑Heating Error</p>
-<p className="value">&lt; 0.1 °C @ 1 mA excitation</p>
-<br />
-<p className="label">Drift (1 Year)</p>
-<p className="value">&lt; 0.05 °C</p>
-<br />
-<p className="label">Insulation Resistance</p>
-<p className="value">&gt; 100 MΩ @ 500 VDC</p>
-<br />
-<p className="label">Probe Material</p>
-<p className="value">SS304 / SS316 (optional)</p>
+
+    <p className="label">Soil Moisture Measurement Type</p>
+    <p className="value">Capacitive Sensing (VWC based)</p>
+    <br />
+
+    <p className="label">Soil Moisture Range</p>
+    <p className="value">0% – 100% VWC</p>
+    <br />
+
+    <p className="label">Soil Moisture Accuracy</p>
+    <p className="value">±3% (0–53% VWC), ±5% (53%+ VWC)</p>
+    <br />
+
+    <p className="label">Soil Moisture Resolution</p>
+    <p className="value">0.1%</p>
+    <br />
+
+    <p className="label">Soil Temperature Range</p>
+    <p className="value">-45°C to +115°C</p>
+    <br />
+
+    <p className="label">Soil Temperature Accuracy</p>
+    <p className="value">±0.5°C</p>
+    <br />
+
+    <p className="label">Sensor Response Time</p>
+    <p className="value">&lt; 1 second</p>
+    <br />
+
+    <p className="label">Ingress Protection (Sensor)</p>
+    <p className="value">IP68</p>
+    <br />
+
   </div>
 </div>
+
 
 <div class="faint-line"></div>
 
@@ -343,7 +325,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">~50 mA during transmission</p>
     <br />
     <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
+    <p className="value">Up to 04 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -393,10 +375,30 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
-    <p className="value">~110g</p>    
+    <p className="value">~210g</p>    
     <br />
     <p className="label">Mounting Options</p>
     <p className="value">Pole Mounting / Wall Mounting</p>    
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Battery <br /> Performance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Battery Type</p>
+    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Battery Life</p>
+    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -435,7 +437,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
     <br />
     <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (optional)</p>
+    <p className="value">RS485 Modbus RTU support (via gateway*)</p>
     <br />
   </div>
 </div>
@@ -477,7 +479,8 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 </div>
 
 
-##  MacSync-L-RTDX5 Variants
+## MacSync-LSSX3 Variants
+
 
 <table className="parameter-table">
   <thead>
@@ -486,26 +489,30 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
       <th>Power Source</th>
       <th>Battery Capacity</th>
       <th>Solar Support</th>
-      <th>External Flash</th>
-      <th>Ideal For</th>
+      <th>Ideal Deployment</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-RTDX1-PO</td>
-      <td>12–24 V (Power)</td>
+      <td>MacSync-LSSX3-PO</td>
+      <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
+      <td>Industrial sites, automation systems & weather‑dependent machinery control</td>
     </tr>
     <tr>
-      <td>MacSync-L-RTDX1-BO</td>
-      <td>Battery</td>
+      <td>MacSync-LSSX3-BO</td>
+      <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>✖️</td>
-      <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>Remote farms, plantations, research stations — no wired power required</td>
+    </tr>
+    <tr>
+      <td>MacSync-LSSX3-SO</td>
+      <td>Solar + Battery Hybrid</td>
+      <td>12 Ah (Rechargeable)</td>
+      <td>External solar charging</td>
+      <td>Long-term field deployments with real‑time climate automation in remote areas</td>
     </tr>
   </tbody>
 </table>
@@ -566,5 +573,7 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.svg)
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-dimensions.svg)
+
+![tmacsync lssx soil probe stainless steel electrode dimensions](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 

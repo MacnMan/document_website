@@ -1,6 +1,6 @@
 ---
 id: macsync-l-soil-moisture-sensor-datasheet
-title: MacSync-LSX3
+title: MacSync-LSSX3
 sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
@@ -26,7 +26,7 @@ keywords:
   - macnman lorawan moisture monitoring module
 ---
 
-# MacSync-LSX3 Datasheet
+# MacSync-LSSX3 Datasheet
 
 ## Product Overview
 
@@ -60,7 +60,7 @@ With seamless integration into major LoRaWAN® network servers, OTA configuratio
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LSX3</p>
+      <p>Click here to view the decoders for MacSync-LSSX3</p>
     </div>
   </a>
 </div>
@@ -176,7 +176,7 @@ With seamless integration into major LoRaWAN® network servers, OTA configuratio
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-LSX3</p>
+    <p className="value">MacSync-LSSX3</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -479,7 +479,7 @@ With seamless integration into major LoRaWAN® network servers, OTA configuratio
 </div>
 
 
-## MacSync-LSX3 Variants
+## MacSync-LSSX3 Variants
 
 
 <table className="parameter-table">
@@ -494,21 +494,21 @@ With seamless integration into major LoRaWAN® network servers, OTA configuratio
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LSX3-PO</td>
+      <td>MacSync-LSSX3-PO</td>
       <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>✖️</td>
       <td>Industrial sites, automation systems & weather‑dependent machinery control</td>
     </tr>
     <tr>
-      <td>MacSync-LSX3-BO</td>
+      <td>MacSync-LSSX3-BO</td>
       <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>✖️</td>
       <td>Remote farms, plantations, research stations — no wired power required</td>
     </tr>
     <tr>
-      <td>MacSync-LSX3-SO</td>
+      <td>MacSync-LSSX3-SO</td>
       <td>Solar + Battery Hybrid</td>
       <td>12 Ah (Rechargeable)</td>
       <td>External solar charging</td>

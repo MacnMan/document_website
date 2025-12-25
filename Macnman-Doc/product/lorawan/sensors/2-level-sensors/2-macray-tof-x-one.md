@@ -1,6 +1,6 @@
 ---
 id: macray-tof-x-series
-title: MacRay-ToF-Xx
+title: MacRay-ToF-LXx
 sidebarposition: 4
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
@@ -25,11 +25,11 @@ keywords:
   - lorawan industrial automation system sensor
 ---
 
-# MacRay-ToF-Xx Datasheet
+# MacRay-ToF-LXx Datasheet
 
 ## Product Overview
 
-MacRay-ToF-Xx is a high‑precision **LoRaWAN® Time‑of‑Flight (ToF) sensor** designed specifically for **indoor people counting, occupancy analytics, and zone monitoring applications**. With millimeter‑accurate short‑range depth detection technology, it enables smart space utilization, facility automation, and workplace efficiency insights.
+MacRay-ToF-LXx is a high‑precision **LoRaWAN® Time‑of‑Flight (ToF) sensor** designed specifically for **indoor people counting, occupancy analytics, and zone monitoring applications**. With millimeter‑accurate short‑range depth detection technology, it enables smart space utilization, facility automation, and workplace efficiency insights.
 
 Using **3D distance mapping and motion detection**, the MacRay‑ToF‑Xx can detect human presence, count movement across a defined boundary, determine zone activity, and provide real‑time occupancy metrics — without compromising privacy, as no images or personal identity data is captured.
 
@@ -60,7 +60,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacRay-ToF-Xx</p>
+      <p>Click here to view the decoders for MacRay-ToF-LXx</p>
     </div>
   </a>
 </div>
@@ -168,7 +168,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacRay-ToF-Xx</p>
+    <p className="value">MacRay-ToF-LXx</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -240,7 +240,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
     <br />
     <p className="label">Sensitivity</p>
     <p className="value">-137 dBm @ 300 bps</p>
@@ -454,7 +454,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
 </div>
 
 
-##  MacRay-ToF-Xx Variants
+##  MacRay-ToF-LXx Variants
 
 <table className="parameter-table">
   <thead>
@@ -467,19 +467,19 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
   </thead>
   <tbody>
     <tr>
-      <td>MacRay-ToF-X2</td>
+      <td>MacRay-ToF-LX2-PO</td>
       <td>2 × 2 (4‑point ToF)</td>
       <td>Narrow zone detection</td>
       <td>Doorway people counting / Access control</td>
     </tr>
     <tr>
-      <td>MacRay-ToF-X4</td>
+      <td>MacRay-ToF-LX4-PO</td>
       <td>4 × 4 (16‑point ToF)</td>
       <td>Medium area coverage</td>
       <td>Room occupancy analytics / Facility automation</td>
     </tr>
     <tr>
-      <td>MacRay-ToF-X8</td>
+      <td>MacRay-ToF-LX8-PO</td>
       <td>8 × 8 (64‑point ToF)</td>
       <td>Wider coverage with higher precision</td>
       <td>Zone activity mapping / Retail & smart workspace analytics</td>

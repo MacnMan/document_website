@@ -1,49 +1,47 @@
 ---
-id: macsync-l-rtd-x-five-datasheet
-title: MacSync-LRTDX5
-sidebarposition: 2
+id: mlth-temp-humi-sensor-datasheet
+title: MLTH 301
+sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan rtd temperature sensor
-  - PT1000 temperature probe
-  - industrial temperature monitoring
-  - high accuracy rtd sensor
-  - loT temperature transmitter
-  - remote temperature data logging
-  - industrial process automation sensor
-  - cold chain temperature tracking
-  - pipeline and tank temperature monitoring
-  - food and pharma compliance sensor
-  - long range wireless temperature sensor
-  - explosion proof temperature sensing (optional)
-  - battery powered industrial sensor
-  - harsh environment temperature monitoring
-  - smart factory iot sensor
-  - rtd to lorawan converter
-  - industrial iot temperature controller
-  - macsync rtd sensor
-  - macnman lorawan device
-  - ip67 rugged temperature sensor
+  - lorawan temperature humidity sensor
+  - compact lorawan temperature sensor
+  - mini lorawan humidity sensor
+  - small form factor lorawan sensor
+  - lorawan environmental sensor
+  - industrial temperature humidity sensor
+  - battery powered lorawan temp humidity sensor
+  - ultra compact iot sensor
+  - lorawan climate monitoring device
+  - indoor lorawan temperature sensor
+  - hvac temperature humidity monitoring
+  - cold chain temperature humidity sensor
+  - greenhouse climate sensor lorawan
+  - smart building iot sensor
+  - industrial iot environmental monitoring
+  - long range wireless temp humidity sensor
+  - low power lorawan sensor
+  - macsync
+  - macnman
+  - ip67 lorawan sensor
 ---
 
-# MacSync-L-RTDX5 Datasheet
+#  MLTH 301 Datasheet
 
 ## Product Overview
 
-**MacSync-L-RTDX5** is a next‑generation **LoRaWAN® RTD temperature sensor** engineered for ultra‑precise thermal monitoring in the most demanding industrial environments. Designed to support **PT1000** probes and IEC 60751 standard linearization, it ensures highly accurate and repeatable temperature measurement from **–200 °C to +850 °C**, covering cryogenic, processing, and high‑temperature applications.
+** MLTH 301** is a premium LoRaWAN® temperature, humidity & pressure sensor, engineered for high-accuracy environmental monitoring in the most demanding industrial and outdoor deployments. Built for precision and longevity, it continuously captures real-time atmospheric data and transmits it over ultra-long-range LoRaWAN® networks—ensuring maximum uptime with minimal power consumption.
 
-With **industrial‑grade shielding**, **low‑noise analog front‑end**, and **minimal drift**, the MacSync‑L‑RTDX5 delivers dependable performance in reactors, chemical process lines, oil & gas pipelines, cold‑storage logistics, and power utility infrastructures.
+Powered by industrial-grade sensing elements and advanced thermal-isolation design, the  MLTH 301 delivers fast response, low drift, and exceptional measurement stability even under harsh weather or mechanical stress. Its rugged enclosure and ingress-protected design make it a perfect fit for smart agriculture, cold chain logistics, HVAC automation, smart cities, warehouses, greenhouses, and remote environmental stations.
 
-The device features **Class A/C LoRaWAN® communication**, a **high‑efficiency internal antenna**, secure **AES‑128 encrypted transmission**, and support for the **Maya App (BLE)** for rapid onboarding, OTA parameter updates, and diagnostic insights — eliminating manual configuration in remote deployments.
+With support for LoRaWAN® v1.0.4, Class A operation, high-efficiency internal antenna, AES-256 encrypted communication, and optional BLE-based OTA configuration through the Maya App, deployment and maintenance become effortless and scalable for large industrial fleets.
 
-Its rugged **IP65‑rated enclosure**, stainless‑steel probe compatibility (SS304 / SS316), multi‑year **battery operation**, and optional external DC power input make it a long‑life sensor designed to thrive in harsh industrial and outdoor environments.
-
-Whether used for predictive maintenance, compliance monitoring in pharma logistics, or thermal safety in high‑temperature industrial processes, **MacSync‑L‑RTDX5 transforms any RTD probe into a smart, wireless, and future‑ready IoT sensing node**, enabling Industry 4.0 automation and operational excellence.
+Whether you’re modernizing legacy monitoring systems or delivering intelligent environmental analytics at scale,  MLTH 301 provides a future-proof, carrier-grade, and low-maintenance sensing platform—transforming raw climate conditions into actionable intelligence for smarter decisions.
 
 
-| ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -64,7 +62,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-RTDX5</p>
+      <p>Click here to view the decoders for  MLTH 301</p>
     </div>
   </a>
 </div>
@@ -74,115 +72,119 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>High‑Accuracy RTD Input</strong>
-  Compatible with PT1000 probes for precise industrial temperature monitoring.
+  <strong>High‑Accuracy Sensing</strong>
+  Precision temperature, humidity & barometric pressure measurement for reliable climate intelligence.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Temperature Range</strong>
-  Supports –200 °C to +850 °C for cryogenic, process, and high‑temperature environments.
+  <strong>Industrial‑Grade Sensors</strong>
+  Low drift, fast response, and long‑term measurement stability in harsh environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial‑Grade Reliability</strong>
-  Low noise, low drift, and high repeatability for mission‑critical applications.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Ultra‑Low Power LoRaWAN®</strong>
-  Multi‑year battery life with Class A/C support for long‑range connectivity.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Rugged & Ingress‑Protected Enclosure</strong>
-  IP65/IP67 protection for harsh outdoor and industrial deployments.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Fast onboarding, OTA parameter tuning, and diagnostics using a smartphone.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>SS304 / SS316 Probe Support</strong>
-  Corrosion‑resistant stainless‑steel probe options for chemical and process industries.
+  <strong>Ultra‑Low Power Operation</strong>
+  Battery‑optimized LoRaWAN® Class A communication for multi‑year field deployments.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Smart Uplink Strategies</strong>
-  Periodic, event‑based, or threshold reporting to extend battery performance.
+  Periodic reporting, threshold‑based triggers & event‑driven uplinks to reduce battery usage.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Data Communication</strong>
-  AES‑128 encrypted LoRaWAN® connectivity ensuring industrial‑grade security.
+  <strong>Secure Wireless Transmission</strong>
+  AES‑128 encryption with OTAA activation for reliable, long‑range connectivity.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial IoT Platform Integration</strong>
-  Works with all major LoRaWAN® network servers and cloud systems.
+  <strong>Ingress‑Protected Enclosure</strong>
+  Designed for indoor and outdoor use — IP65 standard (IP67 optional).
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Flexible Deployment</strong>
-  Supports internal or external RTD probe installation for diverse monitoring needs.
+  <strong>BLE Configuration via Maya App</strong>
+  Local setup, diagnostics, and OTA configuration using a smartphone.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Future‑Proof Design</strong>
-  Ideal for Industry 4.0 modernization and remote thermal analytics.
+  <strong>Compatible with All LoRaWAN® Networks</strong>
+  Works seamlessly with major public & private network servers.
 </div>
+
+<div className="reusable-feature-card">
+  <strong>Long‑Range Communication</strong>
+  Robust LoRa coverage for agriculture fields, factories & remote outdoor sites.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Internal High‑Efficiency Antenna</strong>
+  Optimized radiation pattern for long‑distance communication stability.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Compact & Lightweight Design</strong>
+  Easy pole/wall mounting for permanent or temporary installations.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Future‑Proof Industrial IoT Ready</strong>
+  Enables automated climate control & intelligent data analytics across industries.
+</div>
+
 </div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
+
   <div className="reusable-feature-card">
-    <strong>Industrial Process Temperature Monitoring</strong>
-    Highly accurate RTD sensing for reactors, tanks, kilns, ovens, boilers, and thermal processing equipment.
+    <strong>Smart Agriculture</strong>
+    Environmental sensing for farms, greenhouses, vineyards, and horticulture climate automation.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil & Gas Pipeline Monitoring</strong>
-    Real-time temperature tracking to detect leaks, overheating, and pipeline integrity issues.
+    <strong>Cold Chain Monitoring</strong>
+    Reliable temperature & humidity tracking for warehouses, cold rooms, vaccine storage & food logistics.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Chemical & Petrochemical Plants</strong>
-    RTD probes withstand aggressive chemicals and corrosive environments for safe temperature control.
+    <strong>Smart Buildings & HVAC</strong>
+    Indoor air comfort and HVAC system efficiency monitoring in offices, malls & industrial buildings.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Chain & Pharmaceutical Storage</strong>
-    Regulatory-compliant monitoring for vaccines, biologics, perishable goods & medical refrigeration.
+    <strong>Environment & Weather Stations</strong>
+    Pressure, temperature & humidity monitoring for micro‑climate analysis and air health.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Energy & Power Utilities</strong>
-    Thermal supervision for substations, transformers, turbines, heat exchangers, and district heating.
+    <strong>Remote Infrastructure</strong>
+    Climate exposure tracking for telecom towers, substations, wind turbines & solar plants.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Steel, Foundry & Mining Operations</strong>
-    High-temperature safety monitoring near furnaces, smelters, mines, and metallurgical processes.
+    <strong>Warehouses & Storage Rooms</strong>
+    Ensures temperature/humidity‑controlled storage for pharma, FMCG & raw materials.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>HVAC & Industrial Cooling Systems</strong>
-    Performance monitoring for chillers, heat pumps & climate control industrial systems.
+    <strong>Industrial Automation</strong>
+    Environmental influence analysis for manufacturing processes & equipment protection.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Industrial Assets</strong>
-    Reliable LoRaWAN® connectivity in isolated and hazardous locations where wired sensors fail.
+    <strong>Smart Cities</strong>
+    Distributed environmental sensing to support sustainability, safety & urban planning.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industry 4.0 Automation</strong>
-    Smart analytics, predictive maintenance & operational efficiency through long-range IoT sensing.
+    <strong>Mines, Tunnels & Harsh Sites</strong>
+    Monitoring isolated industrial locations with long‑range LoRaWAN wireless coverage.
   </div>
+
 </div>
 
 <div class="faint-line"></div>
@@ -195,7 +197,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-RTDX5</p>
+    <p className="value"> MLTH 301</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -210,38 +212,66 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     Temperature <br /> Measurement
   </div>
   <div className="spec-block-details">
-<p className="label">Sensor Type</p>
-<p className="value">RTD (PT1000)</p>
-<br />
-<p className="label">Range</p>
-<p className="value">–200 °C to +850 °C</p>
-<br />
-<p className="label">Accuracy</p>
-<p className="value">±0.2 °C (typical)</p>
-<br />
-<p className="label">Resolution</p>
-<p className="value">0.1 °C</p>
-<br />
-<p className="label">Repeatability</p>
-<p className="value">±0.05 °C</p>
-<br />
-<p className="label">Probe Options</p>
-<p className="value">Internal &amp; External Both Options</p>
-<br />
-<p className="label">Sensor Linearization</p>
-<p className="value">IEC 60751 standard curve</p>
-<br />
-<p className="label">Self‑Heating Error</p>
-<p className="value">&lt; 0.1 °C @ 1 mA excitation</p>
-<br />
-<p className="label">Drift (1 Year)</p>
-<p className="value">&lt; 0.05 °C</p>
-<br />
-<p className="label">Insulation Resistance</p>
-<p className="value">&gt; 100 MΩ @ 500 VDC</p>
-<br />
-<p className="label">Probe Material</p>
-<p className="value">SS304 / SS316 (optional)</p>
+    <p className="label">Range</p>
+    <p className="value">-30°C to +70°C</p>
+    <br />
+    <p className="label">Accuracy</p>
+    <p className="value">0°C to +70°C: ±0.3°C &amp; -30°C to 0°C: ±0.6°C</p>
+    <br />
+    <p className="label">Resolution</p>
+    <p className="value">0.1°C</p>
+    <br />
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
+    <br />
+    <p className="label">Probe Options</p>
+    <p className="value">Internal &amp; External Both Options</p>
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Humidity <br /> Measurement
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Range</p>
+    <p className="value">0% to 100% RH</p>
+    <br />
+    <p className="label">Accuracy</p>
+    <p className="value">10% to 90% RH: ±3% RH &amp; &lt;10% or &gt;90% RH: ±5% RH</p>
+    <br />
+    <p className="label">Resolution</p>
+    <p className="value">0.5% RH</p>
+    <br />
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Pressure <br /> Measurement*
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Range</p>
+    <p className="value">300 hPa to 1100 hPa</p>
+    <br />
+    <p className="label">Accuracy</p>
+    <p className="value">±1.0 hPa (typical at 25°C, 300–1100 hPa)</p>
+    <br />
+    <p className="label">Resolution</p>
+    <p className="value">0.1 hPa</p>
+    <br />
+    <p className="label">Long‑Term Stability</p>
+    <p className="value">≤ ±1 hPa/year</p>
+    <br />
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
   </div>
 </div>
 
@@ -263,7 +293,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
     <br />
     <p className="label">Sensitivity</p>
     <p className="value">-137 dBm @ 300 bps</p>
@@ -299,7 +329,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
+    <p className="value">A confirmed parameter of device is being modified</p>
     <br />
 
 
@@ -336,7 +366,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </div>
   <div className="spec-block-details">
     <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <p className="value">Li-SOCl₂ Cell (09Ah) Industrial grade</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
@@ -374,7 +404,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
+    <p className="label">Power Supply(Optional)</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -477,7 +507,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 </div>
 
 
-##  MacSync-L-RTDX5 Variants
+##   MLTH 301 Variants
 
 <table className="parameter-table">
   <thead>
@@ -492,17 +522,9 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-RTDX1-PO</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-RTDX1-BO</td>
+      <td> MLTH 301-BO</td>
       <td>Battery</td>
-      <td>19 Ah</td>
+      <td>09 Ah</td>
       <td>✖️</td>
       <td>✔️</td>
       <td>Remote or portable deployments with low power</td>
@@ -555,7 +577,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![title image](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
 
 :::note
 
@@ -566,5 +588,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.svg)
+![title image](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.svg)
 
