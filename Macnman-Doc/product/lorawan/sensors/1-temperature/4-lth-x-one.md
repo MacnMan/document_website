@@ -1,49 +1,47 @@
 ---
-id: macsync-lt-one-datasheet
-title: VibeIQ-Gen1
+id: mlth-temp-humi-sensor-datasheet
+title: MLTH 301
 sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan vibration sensor
-  - industrial vibration sensor
-  - condition monitoring sensor
-  - predictive maintenance sensor
-  - machine health monitoring sensor
-  - fft vibration sensor
-  - wireless vibration monitoring
-  - industrial condition monitoring iot
-  - motor vibration monitoring sensor
-  - bearing condition monitoring sensor
-  - rotating equipment monitoring
-  - vibration sensor for predictive maintenance
-  - lorawan condition monitoring device
-  - edge intelligence vibration sensor
-  - iot vibration sensor industrial
-  - vibration monitoring for motors pumps gearboxes
-  - remote machine condition monitoring
-  - smart factory vibration sensor
-  - industry 4.0 condition monitoring
-  - macnman vibeiq
+  - lorawan temperature humidity sensor
+  - compact lorawan temperature sensor
+  - mini lorawan humidity sensor
+  - small form factor lorawan sensor
+  - lorawan environmental sensor
+  - industrial temperature humidity sensor
+  - battery powered lorawan temp humidity sensor
+  - ultra compact iot sensor
+  - lorawan climate monitoring device
+  - indoor lorawan temperature sensor
+  - hvac temperature humidity monitoring
+  - cold chain temperature humidity sensor
+  - greenhouse climate sensor lorawan
+  - smart building iot sensor
+  - industrial iot environmental monitoring
+  - long range wireless temp humidity sensor
+  - low power lorawan sensor
+  - macsync
+  - macnman
+  - ip67 lorawan sensor
 ---
 
-# VibeIQ-Gen 1 Datasheet
+#  MLTH 301 Datasheet
 
 ## Product Overview
 
-**VibeIQ** is an industrial-grade **LoRaWAN® vibration and condition monitoring sensor** designed for **predictive maintenance and machine health monitoring** in demanding industrial environments.
+** MLTH 301** is a premium LoRaWAN® temperature, humidity & pressure sensor, engineered for high-accuracy environmental monitoring in the most demanding industrial and outdoor deployments. Built for precision and longevity, it continuously captures real-time atmospheric data and transmits it over ultra-long-range LoRaWAN® networks—ensuring maximum uptime with minimal power consumption.
 
-Built around a **high-resolution tri-axial vibration sensor**, VibeIQ continuously measures vibration behavior across **X, Y, and Z axes**, enabling early detection of mechanical issues such as **imbalance, misalignment, looseness, and bearing wear** before they lead to equipment failure.
+Powered by industrial-grade sensing elements and advanced thermal-isolation design, the  MLTH 301 delivers fast response, low drift, and exceptional measurement stability even under harsh weather or mechanical stress. Its rugged enclosure and ingress-protected design make it a perfect fit for smart agriculture, cold chain logistics, HVAC automation, smart cities, warehouses, greenhouses, and remote environmental stations.
 
-It also incorporates **surface temperature measurement, ambient temperature sensing, and humidity monitoring**, enabling comprehensive environmental and thermal context alongside vibration data for more accurate condition assessment and diagnostics.
+With support for LoRaWAN® v1.0.4, Class A operation, high-efficiency internal antenna, AES-256 encrypted communication, and optional BLE-based OTA configuration through the Maya App, deployment and maintenance become effortless and scalable for large industrial fleets.
 
-In addition to vibration, VibeIQ supports **velocity-based metrics, frequency-domain (FFT) analysis*, and intelligent edge-level processing**, allowing meaningful condition indicators to be generated directly at the device level. This significantly reduces unnecessary data transmission while improving fault detection accuracy.
-
-Designed for large-scale deployments, VibeIQ uses **ultra-low-power LoRaWAN® communication** to deliver long-range, reliable connectivity to private or public networks, SCADA systems, and cloud-based analytics platforms. BLE-based configuration via the **Macnman Maya App** enables fast commissioning, diagnostics, and parameter tuning in the field.
-
-VibeIQ transforms rotating and structural assets—such as **motors, pumps, gearboxes, conveyors, compressors, pipelines, and industrial structures**—into continuously monitored smart assets, helping industries reduce downtime, extend equipment life, and move confidently toward **Industry 4.0 and condition-based maintenance strategies**.
+Whether you’re modernizing legacy monitoring systems or delivering intelligent environmental analytics at scale,  MLTH 301 provides a future-proof, carrier-grade, and low-maintenance sensing platform—transforming raw climate conditions into actionable intelligence for smarter decisions.
 
 
-![Image 1](/img/lorawan/sensors/macsync/vibeiq-lorawan-viberation-sensor.webp) 
+| ![Image 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
+|--------------------------------|--------------------------------|
+| ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -64,69 +62,78 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for VibeIQ-Gen 1</p>
+      <p>Click here to view the decoders for  MLTH 301</p>
     </div>
   </a>
 </div>
 
 <div class="faint-line"></div>
 
-## Key Parameters
+## Key Features
 
 <div className="reusable-feature-grid">
 
-  <div className="reusable-feature-card">
-    <strong>Vibration Measurement</strong>
-    High‑resolution <b>tri‑axial vibration sensing (X, Y, Z)</b> for complete machine motion analysis.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Vibration Metrics</strong>
-    Acceleration‑based vibration data with derived <b>velocity indicators</b> for machine health assessment.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Frequency Analysis</strong>
-    <b>FFT‑based frequency‑domain analysis*</b> to identify fault‑specific vibration signatures.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Fault Detection</strong>
-    Enables early detection of <b>imbalance, misalignment, mechanical looseness, and bearing faults</b>.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Surface Temperature Monitoring</strong>
-    Direct surface temperature sensing to detect overheating, friction, and abnormal thermal behavior.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Ambient Temperature</strong>
-    Continuous ambient temperature measurement to correlate environmental impact on machinery.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Humidity Measurement</strong>
-    Relative humidity monitoring to assess moisture‑related risks and operating conditions.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Edge‑Level Processing</strong>
-    On‑device signal processing reduces raw data transmission and improves fault accuracy.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Sampling & Reporting Modes</strong>
-    Supports <b>time‑based, threshold‑based, and event‑driven</b> data acquisition strategies.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Wireless Communication</strong>
-    Ultra‑low‑power <b>LoRaWAN®</b> connectivity for long‑range condition monitoring deployments.
-  </div>
-
+<div className="reusable-feature-card">
+  <strong>High‑Accuracy Sensing</strong>
+  Precision temperature, humidity & barometric pressure measurement for reliable climate intelligence.
 </div>
 
+<div className="reusable-feature-card">
+  <strong>Industrial‑Grade Sensors</strong>
+  Low drift, fast response, and long‑term measurement stability in harsh environments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Ultra‑Low Power Operation</strong>
+  Battery‑optimized LoRaWAN® Class A communication for multi‑year field deployments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Smart Uplink Strategies</strong>
+  Periodic reporting, threshold‑based triggers & event‑driven uplinks to reduce battery usage.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Secure Wireless Transmission</strong>
+  AES‑128 encryption with OTAA activation for reliable, long‑range connectivity.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Ingress‑Protected Enclosure</strong>
+  Designed for indoor and outdoor use — IP65 standard (IP67 optional).
+</div>
+
+<div className="reusable-feature-card">
+  <strong>BLE Configuration via Maya App</strong>
+  Local setup, diagnostics, and OTA configuration using a smartphone.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Compatible with All LoRaWAN® Networks</strong>
+  Works seamlessly with major public & private network servers.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Long‑Range Communication</strong>
+  Robust LoRa coverage for agriculture fields, factories & remote outdoor sites.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Internal High‑Efficiency Antenna</strong>
+  Optimized radiation pattern for long‑distance communication stability.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Compact & Lightweight Design</strong>
+  Easy pole/wall mounting for permanent or temporary installations.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Future‑Proof Industrial IoT Ready</strong>
+  Enables automated climate control & intelligent data analytics across industries.
+</div>
+
+</div>
 <div class="faint-line"></div>
 
 ## Suited Applications
@@ -134,48 +141,48 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Motor & Pump Condition Monitoring</strong>
-    Continuous vibration, temperature, and FFT analysis for early detection of bearing wear, imbalance, and misalignment in industrial motors and pumps.
+    <strong>Smart Agriculture</strong>
+    Environmental sensing for farms, greenhouses, vineyards, and horticulture climate automation.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Gearbox & Conveyor Monitoring</strong>
-    Detects abnormal vibration patterns, looseness, and mechanical degradation in gearboxes, conveyor systems, and material handling equipment.
+    <strong>Cold Chain Monitoring</strong>
+    Reliable temperature & humidity tracking for warehouses, cold rooms, vaccine storage & food logistics.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Predictive Maintenance for Rotating Equipment</strong>
-    Enables condition-based maintenance for compressors, fans, blowers, and rotating machinery to reduce unplanned downtime.
+    <strong>Smart Buildings & HVAC</strong>
+    Indoor air comfort and HVAC system efficiency monitoring in offices, malls & industrial buildings.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Manufacturing & Smart Factory</strong>
-    Real-time machine health monitoring for CNC machines, presses, mixers, and production-line assets in Industry 4.0 environments.
+    <strong>Environment & Weather Stations</strong>
+    Pressure, temperature & humidity monitoring for micro‑climate analysis and air health.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Power Plants & Energy Infrastructure</strong>
-    Vibration and thermal monitoring for turbines, generators, cooling systems, and auxiliary equipment in power generation facilities.
+    <strong>Remote Infrastructure</strong>
+    Climate exposure tracking for telecom towers, substations, wind turbines & solar plants.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil, Gas & Process Industries</strong>
-    Condition monitoring of pumps, compressors, pipelines, and rotating assets operating in harsh and remote industrial locations.
+    <strong>Warehouses & Storage Rooms</strong>
+    Ensures temperature/humidity‑controlled storage for pharma, FMCG & raw materials.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Mining, Cement & Heavy Industry</strong>
-    Rugged vibration sensing for crushers, mills, kilns, and heavy-duty machinery exposed to dust, shock, and continuous operation.
+    <strong>Industrial Automation</strong>
+    Environmental influence analysis for manufacturing processes & equipment protection.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote & Unmanned Sites</strong>
-    LoRaWAN®-based long-range monitoring for isolated plants, substations, water treatment facilities, and remote industrial assets.
+    <strong>Smart Cities</strong>
+    Distributed environmental sensing to support sustainability, safety & urban planning.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Structural & Asset Health Monitoring</strong>
-    Monitoring vibration and surface temperature of industrial structures, frames, supports, and critical mechanical assemblies.
+    <strong>Mines, Tunnels & Harsh Sites</strong>
+    Monitoring isolated industrial locations with long‑range LoRaWAN wireless coverage.
   </div>
 
 </div>
@@ -190,7 +197,7 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">VibeIQ-Gen 1</p>
+    <p className="value"> MLTH 301</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -199,48 +206,6 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
 
 <div class="faint-line"></div>
 
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Vibration <br /> Measurement
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Sensor Type</p>
-    <p className="value">Triaxial MEMS Accelerometer</p>
-    <br />
-    <p className="label">Measurement Axes</p>
-    <p className="value">X, Y, Z (Tri-axial)</p>
-    <br />
-    <p className="label">Acceleration Range</p>
-    <p className="value">±16 g</p>
-    <br />
-    <p className="label">Frequency Bandwidth</p>
-    <p className="value">5 Hz to 2500 Hz (±1 dB)*</p>
-    <br />
-    <p className="label">Sampling Capability</p>
-    <p className="value">Up to 2500 Hz</p>
-    <br />
-    <p className="label">Velocity Measurement Range</p>
-    <p className="value">0 to 100 mm/s</p>
-    <br />
-    <p className="label">Vibration Output Data</p>
-    <p className="value">
-      RMS (average), Kurtosis, Crest Factor, Skewness,
-      FFT high‑energy samples (Amplitude + Frequency)*
-    </p>
-    <br />
-    <p className="label">Vibration Metrics</p>
-    <p className="value">Acceleration & Derived Velocity</p>
-    <br />
-    <p className="label">FFT Analysis</p>
-    <p className="value">Frequency‑domain analysis for fault identification*</p>
-    <br />
-    <p className="label">Calibration</p>
-    <p className="value">Factory calibrated</p>
-  </div>
-</div>
-
-<div class="faint-line"></div>
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -259,8 +224,8 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
     <p className="label">Calibration</p>
     <p className="value">Factory calibrated</p>
     <br />
-    <p className="label">Element</p>
-    <p className="value">Internal</p>
+    <p className="label">Probe Options</p>
+    <p className="value">Internal &amp; External Both Options</p>
   </div>
 </div>
 
@@ -290,37 +255,23 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Surface <br /> Temperature
+    Pressure <br /> Measurement*
   </div>
   <div className="spec-block-details">
     <p className="label">Range</p>
-    <p className="value">-40 to +80 °C</p>
+    <p className="value">300 hPa to 1100 hPa</p>
     <br />
     <p className="label">Accuracy</p>
-    <p className="value">+/-2 °C</p>
+    <p className="value">±1.0 hPa (typical at 25°C, 300–1100 hPa)</p>
     <br />
     <p className="label">Resolution</p>
-    <p className="value">0.01°C</p>
+    <p className="value">0.1 hPa</p>
     <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Atm.  <br /> Pressure
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Range</p>
-    <p className="value">-40 to +80 °C</p>
+    <p className="label">Long‑Term Stability</p>
+    <p className="value">≤ ±1 hPa/year</p>
     <br />
-    <p className="label">Accuracy</p>
-    <p className="value">+/-2 °C</p>
-    <br />
-    <p className="label">Resolution</p>
-    <p className="value">0.01°C</p>
-    <br />
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
   </div>
 </div>
 
@@ -378,7 +329,7 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
+    <p className="value">A confirmed parameter of device is being modified</p>
     <br />
 
 
@@ -415,7 +366,7 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
   </div>
   <div className="spec-block-details">
     <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <p className="value">Li-SOCl₂ Cell (09Ah) Industrial grade</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
@@ -475,9 +426,7 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
     <p className="value">~110g</p>    
     <br />
     <p className="label">Mounting Options</p>
-    <p className="value">Magnetic Mounting</p>    
-    <p className="value">Screw Mounting</p> 
-    <p className="value">Adesive Mounting</p>
+    <p className="value">Pole Mounting / Wall Mounting</p>    
     <br />
   </div>
 </div>
@@ -558,7 +507,7 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
 </div>
 
 
-##  VibeIQ-Gen 1 Variants
+##   MLTH 301 Variants
 
 <table className="parameter-table">
   <thead>
@@ -573,9 +522,9 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
   </thead>
   <tbody>
     <tr>
-      <td>VibeIQ-Gen 1-BO</td>
+      <td> MLTH 301-BO</td>
       <td>Battery</td>
-      <td>19 Ah</td>
+      <td>09 Ah</td>
       <td>✖️</td>
       <td>✔️</td>
       <td>Remote or portable deployments with low power</td>
@@ -628,7 +577,7 @@ VibeIQ transforms rotating and structural assets—such as **motors, pumps, gear
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/sensors/macsync/vibeiq-gen-package-contents.svg)
+![title image](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
 
 :::note
 
@@ -637,5 +586,7 @@ not be included in the box.
 
 :::
 
+## Product Dimensions
 
+![title image](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.svg)
 
