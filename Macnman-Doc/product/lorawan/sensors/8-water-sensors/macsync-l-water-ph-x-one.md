@@ -1,46 +1,50 @@
 ---
-id: macsync-l-seven-in-one-soil-sensor
-title: MacSync-LSSX7
+id: macsync-l-water-quality-sensor
+title: MacSync-LWQ-X9
 sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - 7 in 1 lorawan soil sensor
-  - macsync lssx7 soil sensor
-  - multiparameter soil sensor lorawan
-  - smart agriculture soil monitoring device
-  - soil moisture temperature ec sensor
-  - lorawan soil data logger
-  - long range soil monitoring system
-  - precision farming soil sensor
-  - industrial grade soil monitoring probe
-  - soil salinity and ec measurement sensor
-  - smart irrigation automation sensor
-  - greenhouse soil monitoring iot device
-  - field soil health monitoring system
-  - plantation and vineyard soil sensor
-  - solar powered soil monitoring station lorawan
-  - agriculture iot soil sensor
-  - soil volumetric water content sensor lorawan
-  - crop health soil parameter analyzer
-  - remote farm soil sensing node
-  - macnman lorawan soil monitoring module
+  - lorawan water ph sensor
+  - lorawan ph sensor
+  - water quality ph sensor lorawan
+  - industrial ph sensor lorawan
+  - iot water ph monitoring sensor
+  - wireless ph sensor for water
+  - online water ph monitoring system
+  - drinking water ph sensor lorawan
+  - wastewater ph monitoring sensor
+  - stp ph sensor lorawan
+  - wwtp ph monitoring sensor
+  - river water ph monitoring lorawan
+  - lake reservoir ph sensor
+  - effluent ph monitoring sensor
+  - smart water quality monitoring iot
+  - battery powered lorawan ph sensor
+  - low power water ph sensor
+  - long range water quality sensor
+  - macsync water quality sensor
+  - lwqx1 ph sensor
+  - macnman lorawan water sensor
 ---
 
-# MacSync-LSSX7 Datasheet
+# MacSync-LWQ-X9 Datasheet
 
 ## Product Overview
 
-**MacSync‑LSSX7** is a high‑precision **7‑in‑1 LoRaWAN® soil intelligence sensor** engineered for advanced agricultural, horticultural, forestry, and environmental monitoring applications. It simultaneously measures **soil moisture, soil temperature, electrical conductivity (EC), soil Ph leves,and NPK trend estimation**, allowing farmers and agronomists to make data‑driven decisions from a single integrated probe.
+**MacSync-LWQ-X9** is an industrial-grade **LoRaWAN® water quality pH sensor** designed for continuous, real-time monitoring of pH levels in drinking water systems, wastewater treatment plants, industrial effluents, and natural water bodies. Engineered for reliable long-term deployment, it enables accurate pH measurement in remote and distributed locations where wired monitoring systems are impractical.
 
-Optimized for ultra‑low‑power operation and long‑range wireless communication, MacSync‑LSSX7 delivers consistent soil‑health insights even in remote fields, dense plantations, and large‑scale farms. Its **industrial‑grade stainless‑steel electrodes**, reinforced probe structure, and IP67‑rated enclosure ensure highly reliable performance in challenging soil conditions including clay, sandy, saline, and high‑moisture environments.
+Built around a **high-stability electrochemical pH probe** and precision signal conditioning, MacSync-LWQ-X9 delivers consistent and repeatable pH data with minimal drift over extended operation. The sensor supports **online pH monitoring** in tanks, pipelines, reservoirs, rivers, lakes, STP and WWTP facilities—helping operators maintain regulatory compliance, optimize treatment processes, and detect abnormal water conditions at an early stage.
 
-Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **Maya App**, and onboard data‑buffering for zero‑loss transmission, **MacSync‑LSSX7 enables precision farming, irrigation automation, and nutrient‑optimization strategies**—helping growers increase yields, reduce water consumption, and maintain soil vitality.
+Optimized for **ultra-low-power operation** and long-range wireless communication, the device securely transmits pH data over **LoRaWAN® networks**, enabling multi-year battery life even in harsh outdoor environments. Its rugged, ingress-protected enclosure and flexible mounting options make it suitable for permanent installations in municipal, industrial, and environmental monitoring applications.
+
+With support for **LoRaWAN® v1.0.4**, AES-encrypted communication, OTA configuration via the **Macnman Maya App**, and compatibility with all major public and private LoRaWAN® network servers, MacSync-LWQ-X9 provides a scalable and future-ready solution for **IoT-based water quality monitoring**—transforming raw pH measurements into actionable intelligence for smarter water management.
+
 
 <div className="image-grid-2col">
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-health-monitoring-guide.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-datasheet.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-technical-specifications.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-water-ph-probe-front-view.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-water-ph-probe-side-view.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
 </div>
 
 ## Download Center
@@ -60,7 +64,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LSSX7</p>
+      <p>Click here to view the decoders for MacSync-LWQ-X9</p>
     </div>
   </a>
 </div>
@@ -71,50 +75,50 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
 
 <div className="reusable-feature-grid">
 
-<div className="reusable-feature-card">
-  <strong>Seven‑Parameter Soil Intelligence</strong>
-  Measures soil moisture, temperature, EC, salinity, dielectric permittivity, VWC, and NPK trend estimation in a single probe.
-</div>
+  <div className="reusable-feature-card">
+    <strong>High‑Accuracy Water pH Measurement</strong>
+    Continuous and reliable pH monitoring using an industrial‑grade electrochemical pH probe for precise water quality assessment.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>High‑Accuracy Stainless‑Steel Electrodes</strong>
-  Industrial‑grade corrosion‑resistant electrodes ensure precise readings in clay, sandy, saline, and high‑moisture soils.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Online & Real‑Time pH Monitoring</strong>
+    Enables real‑time pH tracking in tanks, pipelines, reservoirs, rivers, STP and WWTP facilities for proactive water management.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>True Long‑Range LoRaWAN® Connectivity</strong>
-  Ultra‑long‑distance communication enabling seamless deployment across large farms and remote agricultural fields.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Long‑Term Stability & Low Drift</strong>
+    Optimized signal conditioning and probe design ensure stable pH readings with minimal drift during long‑term deployments.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Ultra‑Low‑Power Architecture</strong>
-  Optimized hardware ensures multi‑year battery life even with frequent uplinks and continuous sensing.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Ultra‑Low‑Power LoRaWAN® Connectivity</strong>
+    LoRaWAN® Class A architecture enables long‑range wireless transmission with multi‑year battery life.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>IP67 Rugged Outdoor Build</strong>
-  Fully sealed enclosure engineered for long‑term soil burial and harsh outdoor conditions.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Designed for Harsh Water Environments</strong>
+    Rugged, ingress‑protected enclosure suitable for continuous immersion and outdoor water monitoring applications.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>OTA Configuration & Calibration</strong>
-  Update settings, thresholds, sampling intervals, and firmware directly through the Maya App without physical access.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Remote Monitoring & Alerts</strong>
+    Supports threshold‑based alerts and event‑driven reporting for abnormal pH conditions.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Failsafe Data Buffering</strong>
-  Stores thousands of soil‑health samples locally to prevent data loss during network downtime.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Flexible Deployment Options</strong>
+    Supports immersion and inline installations with flexible mounting for different water bodies and process pipelines.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>End‑to‑End Secure LoRaWAN® Communication</strong>
-  AES‑encrypted uplinks ensure reliable and tamper‑proof soil‑analytics data delivery.
-</div>
+  <div className="reusable-feature-card">
+    <strong>BLE Configuration via Maya App</strong>
+    Easy local configuration, diagnostics, and OTA updates using the Macnman Maya mobile application.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Universal LoRaWAN® Network Support</strong>
-  Compatible with private networks, TTN, ChirpStack, Loriot, Orbiwise, MQTT‑based servers, and on‑prem installations.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Secure & Scalable IoT Architecture</strong>
+    AES‑encrypted communication with compatibility across all major public and private LoRaWAN® network servers.
+  </div>
 
 </div>
 
@@ -124,45 +128,45 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
 
 <div className="reusable-feature-grid">
 
-<div className="reusable-feature-card">
-  <strong>Precision Agriculture & Smart Irrigation</strong>
-  Real‑time soil moisture, EC, and VWC analytics for automated irrigation and water‑usage reduction.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Drinking Water Quality Monitoring</strong>
+    Continuous pH monitoring in municipal water supply systems to ensure safe drinking water and regulatory compliance.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Crop Nutrition & Fertigation Optimization</strong>
-  NPK trend and salinity tracking to prevent over‑fertilization and improve crop nutrient uptake.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Sewage Treatment Plants (STP)</strong>
+    Real-time pH tracking across treatment stages to optimize chemical dosing and process efficiency.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Greenhouses & Polyhouses</strong>
-  Closed‑environment soil monitoring for high‑value crops including flowers, vegetables, and herbs.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Wastewater Treatment Plants (WWTP)</strong>
+    Online pH monitoring for influent, effluent, and neutralization processes to meet discharge standards.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Plantations & Orchards</strong>
-  Long‑range soil‑health monitoring in tea, coffee, mango, coconut, rubber, and fruit plantations.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Industrial Effluent Monitoring</strong>
+    pH monitoring of industrial discharge to detect abnormal conditions and ensure environmental compliance.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Vineyards & Wine Cultivation</strong>
-  Soil moisture and EC monitoring for grape quality, disease prevention, and harvest optimization.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Rivers, Lakes & Reservoirs</strong>
+    Long-term environmental pH monitoring of surface water bodies for pollution detection and ecosystem health assessment.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Forestry & Environmental Research</strong>
-  Long‑term soil‑parameter tracking for ecosystem studies, carbon‑sink research, and forest‑health monitoring.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Water Distribution & Storage Tanks</strong>
+    pH monitoring in overhead tanks, underground reservoirs, and distribution networks for early anomaly detection.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Soil Restoration & Land Reclamation</strong>
-  Continuous soil‑quality assessment for degraded land, saline soil rehabilitation, and mining‑site restoration.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Cooling Towers & Process Water</strong>
+    Continuous pH monitoring to prevent corrosion, scaling, and chemical imbalance in industrial water systems.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Smart City Parks & Landscape Irrigation</strong>
-  Automated moisture‑driven watering systems for parks, campuses, golf courses, and urban landscapes.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Environmental & Research Monitoring</strong>
+    Reliable pH data collection for water research, environmental studies, and long-term monitoring projects.
+  </div>
 
 </div>
 
@@ -176,7 +180,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-LSSX7</p>
+    <p className="value">MacSync-LWQ-X9</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -187,57 +191,45 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Environmental <br /> Measurement
+    Water Ph <br /> Measurement
   </div>
   <div className="spec-block-details">
 
-    <p className="label">Soil Temperature Range</p>
-    <p className="value">‑45°C to +115°C</p>
-    <br />
+  <p className="label">Sensing Principle</p>
+  <p className="value">Ion selection method</p>
+  <br />
 
-    <p className="label">Soil Temperature Accuracy</p>
-    <p className="value">±0.5°C</p>
-    <br />
+  <p className="label">Detection Range</p>
+  <p className="value">0 to 14 pH</p>
+  <br />
 
-    <p className="label">Soil Moisture Range</p>
-    <p className="value">0–100% RH</p>
-    <br />
+  <p className="label">Resolution</p>
+  <p className="value">0.01 pH</p>
+  <br />
 
-    <p className="label">Soil Moisture Accuracy</p>
-    <p className="value">±3% (0–53% RH), ±5% (53%+)</p>
-    <br />
+  <p className="label">Accuracy</p>
+  <p className="value">±0.1 pH</p>
+  <br />
 
-    <p className="label">pH Range</p>
-    <p className="value">3–9 pH</p>
-    <br />
+  <p className="label">Calibration Method</p>
+  <p className="value">Two‑point calibration</p>
+  <br />
 
-    <p className="label">pH Accuracy</p>
-    <p className="value">±0.3 pH</p>
-    <br />
+  <p className="label">Response Time</p>
+  <p className="value">10 seconds (typical)</p>
+  <br />
 
-    <p className="label">NPK Range</p>
-    <p className="value">0–1999 mg/kg</p>
-    <br />
+  <p className="label">Temperature Compensation</p>
+  <p className="value">Automatic temperature compensation (NTC)</p>
+  <br />
 
-    <p className="label">NPK Accuracy</p>
-    <p className="value">±2% F.S</p>
-    <br />
+  <p className="label">Protection Level</p>
+  <p className="value">IP68 (up to 20 meters water depth)</p>
+  <br />
 
-    <p className="label">Electrical Conductivity (EC) Range</p>
-    <p className="value">0–10000 μS/cm</p>
-    <br />
-
-    <p className="label">EC Resolution</p>
-    <p className="value">10 μS/cm</p>
-    <br />
-
-    <p className="label">Sensor Response Time</p>
-    <p className="value">&lt; 1 second</p>
-    <br />
-
-    <p className="label">Ingress Protection (Sensor)</p>
-    <p className="value">IP68</p>
-    <br />
+  <p className="label">Service Life</p>
+  <p className="value">Sensor: 1 year (typical)</p>
+  <br />
 
   </div>
 </div>
@@ -251,7 +243,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
   </div>
   <div className="spec-block-details">
     <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
+    <p className="value">LoRaWAN®</p>
     <p className="value">Macnman MacTalk Protocol</p>
     <br />
     <p className="label">Antenna</p>
@@ -261,7 +253,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
     <br />
     <p className="label">Sensitivity</p>
     <p className="value">-137 dBm @ 300 bps</p>
@@ -495,7 +487,7 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
 </div>
 
 
-## MacSync-LSSX7 Variants
+## MacSync-LWQ-X9 Variants
 
 
 <table className="parameter-table">
@@ -510,21 +502,21 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LSSX7-PO</td>
+      <td>MacSync-LWQ-X9-PO</td>
       <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>✖️</td>
       <td>Industrial sites, automation systems & weather‑dependent machinery control</td>
     </tr>
     <tr>
-      <td>MacSync-LSSX7-BO</td>
+      <td>MacSync-LWQ-X9-BO</td>
       <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>✖️</td>
       <td>Remote farms, plantations, research stations — no wired power required</td>
     </tr>
     <tr>
-      <td>MacSync-LSSX7-SO</td>
+      <td>MacSync-LWQ-X9-SO</td>
       <td>Solar + Battery Hybrid</td>
       <td>12 Ah (Rechargeable)</td>
       <td>External solar charging</td>
@@ -589,7 +581,7 @@ not be included in the box.
 
 ## Product Dimensions
 
-![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-dimensions.svg)
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lorawan-water-ph-sensor-dimensions.svg)
 
-![tmacsync lssx soil probe stainless steel electrode dimensions](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lwq-x-ph-probe-overall-dimensions.webp)
