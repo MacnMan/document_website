@@ -1,41 +1,42 @@
 ---
 id: macray-tof-x-series
-title: MacRay-ToF-LXx
+title: MacRay-ToF-WXx
 sidebarposition: 4
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan tof distance sensor
-  - time of flight level monitoring device
-  - high accuracy short range tof sensor
-  - lorawan indoor positioning and height measurement
-  - industrial tof proximity sensor lorawan
-  - power operated lorawan sensor with battery backup
-  - smart building occupancy and space measurement
-  - precision liquid level monitoring lorawan
-  - hatch and gate position monitoring sensor
-  - conveyor object detection iot sensor
-  - equipment clearance and safety distance sensor
-  - factory automation tof wireless sensor
-  - lorawan distance measurement for robotics
-  - short range wireless proximity sensor lorawan
-  - warehouse asset height and placement monitoring
-  - smart tank fill level monitoring iot device
-  - high speed response lorawan sensing solution
-  - real time space utilization monitoring sensor
-  - lorawan industrial automation system sensor
+  - wifi tof distance sensor
+  - wifi time of flight sensor
+  - wifi indoor occupancy sensor
+  - wifi people counting sensor
+  - wifi tof proximity sensor
+  - wifi indoor positioning sensor
+  - wifi short range distance sensor
+  - wifi space utilization sensor
+  - wifi privacy safe people counting
+  - wifi room occupancy monitoring sensor
+  - wifi zone monitoring sensor
+  - wifi entry exit counting sensor
+  - wifi industrial tof sensor
+  - wifi smart building occupancy sensor
+  - wifi facility analytics sensor
+  - wifi automation trigger sensor
+  - wifi conveyor object detection sensor
+  - wifi safety distance monitoring sensor
+  - macray wifi tof sensor
+  - macnman wifi tof sensor
 ---
 
-# MacRay-ToF-LXx Datasheet
+# MacRay-ToF-WXx Datasheet
 
 ## Product Overview
 
-MacRay-ToF-LXx is a high‑precision **LoRaWAN® Time‑of‑Flight (ToF) sensor** designed specifically for **indoor people counting, occupancy analytics, and zone monitoring applications**. With millimeter‑accurate short‑range depth detection technology, it enables smart space utilization, facility automation, and workplace efficiency insights.
+MacRay-ToF-WXx is a high‑precision **Wi‑Fi–based Time‑of‑Flight (ToF) sensor** designed for **indoor people counting, occupancy analytics, and zone monitoring applications** within Wi‑Fi–enabled environments. Using short‑range 3D depth sensing with millimeter‑level accuracy, it enables real‑time space utilization insights, facility automation, and safety monitoring without relying on cameras or capturing personal identity data.
 
-Using **3D distance mapping and motion detection**, the MacRay‑ToF‑Xx can detect human presence, count movement across a defined boundary, determine zone activity, and provide real‑time occupancy metrics — without compromising privacy, as no images or personal identity data is captured.
+The sensor uses **advanced ToF distance mapping and motion detection algorithms** to detect human presence, count bidirectional movement across defined boundaries, monitor zone activity, and generate accurate occupancy metrics. Its privacy‑first design ensures compliance with workplace and public‑space privacy requirements.
 
-Engineered with a **power‑operated design** and **backup battery**, it continues data reporting during intermittent power failures, ensuring uninterrupted monitoring for mission‑critical buildings. The device utilizes **AES‑encrypted LoRaWAN® connectivity**, making it capable of long‑range wireless communication within corporate campuses, commercial buildings, hospitals, hotels, retail stores, and industrial units.
+MacRay-ToF-WXx features a **power‑operated design with inbuilt backup battery**, ensuring uninterrupted operation during short power interruptions. It communicates directly over **standard Wi‑Fi networks (2.4 GHz / 5 GHz)** to **on‑premise servers, building management systems, or cloud platforms** using industry‑standard IP protocols such as **MQTT, HTTP, and HTTPS**, without the need for gateways or long‑range wireless infrastructure.
 
-Supporting configurable rules such as entry/exit counting, restricted zone breach alerts, room occupancy limits, and energy‑saving automation triggers — **MacRay‑ToF‑Xx transforms physical movement into actionable insights**, enabling smart building management, resource optimization, and improved safety compliance.
+With support for **entry/exit counting, room occupancy limits, restricted‑zone alerts, and automation triggers**, MacRay-ToF-WXx transforms physical movement data into actionable insights for **smart buildings, offices, hospitals, retail spaces, industrial facilities, and campuses**, enabling improved space efficiency, energy optimization, and operational safety.
 
 | ![macray tof indoor occupancy sensor with lorawan wireless communication front view](/img/lorawan/macray/macray-tof-sensor-front.webp) | ![ compact macray tof ceiling and wall mount people counting sensor for smart buildings](/img/lorawan/macray/macray-tof-sensor-mounting.webp) |
 |--------------------------------|--------------------------------|
@@ -60,7 +61,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacRay-ToF-LXx</p>
+      <p>Click here to view the decoders for MacRay-ToF-WXx</p>
     </div>
   </a>
 </div>
@@ -70,45 +71,57 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
   <strong>People Counting & Occupancy Detection</strong>
-  Accurate indoor movement and presence analytics without using any camera or capturing identity.
+  Accurate bidirectional people counting and real-time occupancy analytics using privacy-safe ToF sensing.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Time‑of‑Flight 3D Depth Sensing</strong>
-  Millimeter‑level precision for short‑range zone monitoring and entry/exit counting.
+  <strong>Time-of-Flight 3D Depth Sensing</strong>
+  Millimeter-level short-range distance and depth measurement for precise zone monitoring and entry/exit detection.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Privacy‑Safe Monitoring</strong>
-  No images or personal data captured — ideal for offices, restrooms, hospitals and secured facilities.
+  <strong>Privacy-First Design</strong>
+  No images, video, or personally identifiable data captured, making it ideal for sensitive indoor environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>LoRaWAN® Wireless Connectivity</strong>
-  Long‑range encrypted data transmission for large buildings and multi‑floor coverage.
+  <strong>Wi-Fi Based Connectivity</strong>
+  Direct communication over standard Wi-Fi networks (2.4 GHz / 5 GHz) without gateways or long-range infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Events & Automation Triggers</strong>
-  Threshold rules for room occupancy limits, restricted zone alerts and energy‑saving automation.
+  <strong>Real-Time Events & Automation Triggers</strong>
+  Supports occupancy limits, restricted-zone alerts, and automation triggers for HVAC, lighting, and access control.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Power‑Operated with Backup Battery</strong>
-  Ensures uninterrupted operation during power outages for mission‑critical smart building deployments.
+  <strong>Power-Operated with Backup Battery</strong>
+  Continuous operation with inbuilt backup battery support during short power interruptions.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Compact & Easy Ceiling/Wall Mounting</strong>
-  Optimized for narrow beams and zone‑focused detection in corridors, doors and counting points.
+  <strong>Compact Ceiling & Wall Mount Design</strong>
+  Optimized form factor for doors, corridors, rooms, and zone-focused indoor installations.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>BLE for Rapid Setup</strong>
-  Fast field provisioning and parameter configuration via Maya App.
+  <strong>Standard IP Protocol Support</strong>
+  Supports MQTT, HTTP, and HTTPS for seamless integration with BMS, dashboards, and cloud platforms.
 </div>
+
+<div className="reusable-feature-card">
+  <strong>Secure Wireless Communication</strong>
+  WPA2 / WPA3 Wi-Fi security with TLS-encrypted data transmission.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Local Configuration via BLE</strong>
+  Fast provisioning, diagnostics, and configuration using the Macnman Maya mobile application.
+</div>
+
 </div>
 <div class="faint-line"></div>
 
@@ -116,46 +129,45 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
 
 <div className="reusable-feature-grid">
 
-<div className="reusable-feature-card">
-  <strong>People Counting at Entry/Exit Points</strong>
-  Accurate bidirectional movement tracking at doors, corridors, turnstiles, and access gates.
-</div>
+  <div className="reusable-feature-card">
+    <strong>People Counting at Entry & Exit Points</strong>
+    Accurate bidirectional people counting at doors, corridors, turnstiles, and access-controlled entry points using privacy-safe ToF sensing.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Room Occupancy Monitoring</strong>
-  Real-time space utilization for offices, meeting rooms, classrooms, hospitals, and hospitality areas.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Room & Zone Occupancy Monitoring</strong>
+    Real-time occupancy tracking for offices, meeting rooms, classrooms, hospital wards, and conference areas to optimize space usage.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Smart Restroom & Facility Usage</strong>
-  Privacy-safe presence detection for washrooms and closed private spaces without cameras.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Smart Buildings & Facility Management</strong>
+    Occupancy-driven automation for HVAC, lighting, and ventilation systems within Wi‑Fi–enabled buildings and campuses.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Restricted / Secure Zone Monitoring</strong>
-  Alerts on unauthorized entry into production areas, server rooms, storage and safety zones.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Retail Footfall & Queue Analytics</strong>
+    Customer movement analysis, queue length monitoring, and zone engagement insights for retail stores and shopping spaces.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Retail & Store Analytics</strong>
-  Shopper flow analysis, queue monitoring, and aisle engagement insights for sales optimization.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Hospitals & Healthcare Facilities</strong>
+    Privacy-safe monitoring of patient flow, waiting areas, and restricted zones without using cameras.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Warehouse Workforce Movement</strong>
-  Tracks operational activity for logistics planning and safety compliance inside industrial units.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Restricted & Secure Area Monitoring</strong>
+    Detects unauthorized entry into server rooms, labs, storage areas, and sensitive operational zones.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Energy Efficiency Automation</strong>
-  Triggers HVAC and lighting systems based on occupancy for cost saving and sustainability.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Warehouses & Industrial Indoor Areas</strong>
+    Tracks workforce movement and zone activity inside warehouses and factories for safety compliance and operational visibility.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Smart Campus & Public Infrastructure</strong>
-  People movement data for better resource planning, crowd control and facility management.
-</div>
-
+  <div className="reusable-feature-card">
+    <strong>Smart Campuses & Public Facilities</strong>
+    Occupancy and movement analytics for airports, stations, educational campuses, and large public buildings.
+  </div>
 </div>
 
 <div class="faint-line"></div>
@@ -168,7 +180,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacRay-ToF-LXx</p>
+    <p className="value">MacRay-ToF-WXx</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -224,35 +236,42 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
 
 <div class="faint-line"></div>
 
+
+
 <div className="spec-block">
   <div className="spec-block-title">
-    Wireless <br /> Transmission
+    Wireless <br /> Communication
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Wi‑Fi Standards</p>
+    <p className="value">IEEE 802.11 b/g/n/ac</p>
     <br />
 
+    <p className="label">Frequency Bands</p>
+    <p className="value">2.4 GHz & 5 GHz (Dual‑Band)</p>
+    <br />
+
+    <p className="label">Operating Modes</p>
+    <p className="value">Station Mode (Client)</p>
+    <p className="value">Access Point Mode (Configuration)</p>
+    <br />
+
+    <p className="label">Network Protocols</p>
+    <p className="value"> MQTT, HTTP, HTTPS</p>
+    <br />
+
+    <p className="label">Security</p>
+    <p className="value">WPA2‑PSK / WPA3</p>
+    <p className="value">TLS / SSL Encrypted Communication</p>
+    <br />
+
+    <p className="label">IP Configuration</p>
+    <p className="value">DHCP / Static IP</p>
+    <br />
+
+    <p className="label">Typical Indoor Range</p>
+    <p className="value">Up to 100 m (environment dependent)</p>
+    <br />
   </div>
 </div>
 
@@ -276,7 +295,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacRay is being modified</p>
+    <p className="value">A confirmed parameter of MacSync is being modified</p>
     <br />
 
 
@@ -309,38 +328,32 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Battery <br /> Performance
+    Supported <br /> Cloud & Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-Ion Cell (06Ah) Industrial grade</p>
+    <p className="label">Deployment Models</p>
+    <p className="value">On-Premise Servers</p>
+    <p className="value">Private Cloud Deployments</p>
+    <p className="value">Public Cloud Platforms</p>
     <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 4 Hours</p>
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
+    <p className="label">IoT Cloud Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">Google Cloud (via MQTT / HTTPS)</p>
+    <p className="value">Custom IoT Platforms</p>
+    <br />
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <p className="label">Integration Methods</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">REST / HTTPS APIs</p>
+    <p className="value">Webhooks</p>
+    <br />
+
+    <p className="label">Enterprise Systems</p>
+    <p className="value">SCADA Systems</p>
+    <p className="value">BMS / IBMS Platforms</p>
+    <p className="value">Data Lakes & Analytics Engines</p>
   </div>
 </div>
 
@@ -351,7 +364,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
+    <p className="label">Power Supply</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -367,7 +380,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
     <p className="value">Glass field Nylon</p>    
     <br />
     <p className="label">Color</p>
-    <p className="value">Matte Black</p>    
+    <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
     <p className="value">~110g</p>    
@@ -385,12 +398,12 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
+    <p className="label">Input Voltage Range</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">~150 mA during transmission</p>
     <br />
     <p className="label">Input Impedance</p>
     <p className="value">>10 MΩ for voltage inputs</p>
@@ -409,14 +422,13 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS </p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
     <br />
   </div>
 </div>
-
 
 <div class="faint-line"></div>
 
@@ -453,8 +465,7 @@ Supporting configurable rules such as entry/exit counting, restricted zone breac
   </div>
 </div>
 
-
-##  MacRay-ToF-LXx Variants
+##  MacRay-ToF-WXx Variants
 
 <table className="parameter-table">
   <thead>

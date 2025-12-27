@@ -245,8 +245,6 @@ From **industrial process control and predictive maintenance** to **HVAC monitor
 
 <div class="faint-line"></div>
 
-<div class="faint-line"></div>
-
 
 <div className="spec-block">
   <div className="spec-block-title">

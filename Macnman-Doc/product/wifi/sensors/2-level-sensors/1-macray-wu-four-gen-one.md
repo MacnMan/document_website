@@ -1,6 +1,6 @@
 ---
 id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
-title: MacRay-LU4
+title: MacRay-WU4
 sidebarposition: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
@@ -26,17 +26,17 @@ keywords:
   - industrial iot automation device
 ---
 
-# MacRay-LU4 Datasheet
+# MacRay-WU4 Datasheet
 
 ## Product Overview
 
-MacRay-LU4 is a **rugged LoRaWAN® ultrasonic level sensor** designed for short-range precision (0–4 meters) monitoring of liquids and solids in harsh outdoor and industrial environments. With advanced time-of-flight ultrasonic measurement and intelligent echo processing technology, it ensures high-accuracy level detection for tanks, pits, manholes, sumps, reservoirs, waste processing chambers, and flood monitoring systems.
+**MacRay-WU4** is a rugged **Wi‑Fi–based ultrasonic level sensor** designed for short‑range, high‑precision level monitoring (0–4 meters) of liquids and solids in industrial, commercial, and utility environments where reliable IP connectivity is available. Using advanced ultrasonic time‑of‑flight measurement and intelligent echo processing, it delivers accurate and repeatable level data even in challenging conditions such as turbulence, foam, and confined spaces.
 
-Engineered with **IP67 sensor protection**, corrosion-resistant housing, and advanced interference filtering, the MacRay-LU4 operates reliably in moisture-rich, chemically aggressive, and dusty environments where traditional level sensors fail. It supports LoRaWAN® Class A, long-range coverage, and offers multi-year battery performance, making it ideal for remote and unmanned sites.
+Engineered with an **IP67‑rated sensor head**, corrosion‑resistant housing, and industrial‑grade electronics, MacRay-WU4 operates reliably in moisture‑rich, dusty, and chemically exposed environments. It is well suited for tanks, pits, manholes, sumps, reservoirs, wastewater chambers, and flood‑prone installations located within Wi‑Fi–covered premises.
 
-The device integrates AES-256 encrypted LoRaWAN® communication, over-the-air configuration via Maya App (BLE), and supports intelligent uplink modes including periodic, event-driven, and threshold-based triggers — enabling energy-efficient deployments at scale.
+The device transmits level data securely over standard **Wi‑Fi networks (2.4 GHz / 5 GHz)** directly to **on‑premise servers, dashboards, SCADA systems, or cloud platforms** using industry‑standard protocols such as **MQTT, HTTP, and HTTPS**, without the need for gateways or long‑range wireless infrastructure.
 
-Whether supporting smart water utilities, sewer & drainage systems, liquid storage tanks, waste tracking, or environmental flood alerts, MacRay-LU4 converts real-world level conditions into instant data, enabling proactive maintenance, reduced operational costs, and smarter city infrastructure.
+MacRay-WU4 supports **periodic, event‑based, and threshold‑based reporting**, along with **local BLE provisioning and diagnostics** via the Macnman Maya mobile application. Available in **battery‑operated and externally powered variants**, it enables flexible deployment for both fixed industrial installations and locations where wired connectivity is limited, delivering low‑latency, Wi‑Fi‑based level monitoring for modern Industrial IoT applications.
 
 
 | ![](/img/lorawan/macray/macray-lu4-front-view.webp) | ![](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
@@ -62,7 +62,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacRay-LU4</p>
+      <p>Click here to view the decoders for MacRay-WU4</p>
     </div>
   </a>
 </div>
@@ -127,50 +127,47 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 ## Suited Applications
 
 <div className="reusable-feature-grid">
+
   <div className="reusable-feature-card">
-    <strong>Smart Water Utilities</strong>
-    Continuous level monitoring for underground water tanks, overhead tanks, reservoirs, and sumps.
+    <strong>Industrial Tank Level Monitoring</strong>
+    Accurate level measurement for water, chemicals, oils, and process liquids in industrial tanks located within Wi‑Fi‑enabled facilities.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Manhole & Sewer Level Monitoring</strong>
-    Detect overflow risks, blockages, and sewer flooding in drainage networks.
+    <strong>Sumps, Pits & Utility Chambers</strong>
+    Continuous monitoring of liquid levels in sumps, lift pits, pump rooms, and underground utility chambers to prevent overflow and equipment damage.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Flood & Stormwater Monitoring</strong>
-    Real-time alerts for rising levels in rivers, canals, storm drains, and flood-prone zones.
+    <strong>Wastewater & Effluent Treatment Plants</strong>
+    Reliable level monitoring for equalization tanks, aeration basins, sludge pits, and treatment chambers within plant premises.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Wastewater Management</strong>
-    Accurate level detection in effluent treatment plants, sludge pits, and chemical tanks.
+    <strong>Water Storage & Distribution Systems</strong>
+    Level tracking in overhead tanks, underground reservoirs, and buffer tanks for industrial and commercial water management.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Mining & Quarry Operations</strong>
-    Level tracking in slurry pits, water sumps, and tailing dams for safety assurance.
+    <strong>Flood & Basement Water Monitoring</strong>
+    Early detection of rising water levels in basements, parking areas, and flood‑prone zones inside buildings and campuses.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart City Infrastructure</strong>
-    Remote monitoring of drainage networks to prevent urban flooding and road closures.
+    <strong>Industrial Process Automation</strong>
+    Integrates with SCADA and local dashboards over Wi‑Fi for real‑time level data used in automated control and safety systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil & Fuel Storage Tanks</strong>
-    Level measurement for diesel storage, fuel stations, and industrial oil chambers.
+    <strong>Commercial Buildings & Campuses</strong>
+    Level monitoring for water tanks, rainwater harvesting systems, and drainage pits in offices, hospitals, malls, and campuses.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote & Unmanned Locations</strong>
-    Low-maintenance, long-range LoRaWAN® monitoring where wired installation is impractical.
+    <strong>Smart Factories & On‑Premise IoT</strong>
+    Enables low‑latency level monitoring within factories and plants using direct Wi‑Fi connectivity and IP‑based protocols.
   </div>
 
-  <div className="reusable-feature-card">
-    <strong>Environmental Risk Monitoring</strong>
-    Early warning for spill detection, groundwater rise, or hazardous waste overflow.
-  </div>
 </div>
 
 <div class="faint-line"></div>
@@ -183,7 +180,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacRay-LU4</p>
+    <p className="value">MacRay-WU4</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -223,35 +220,41 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 
 <div class="faint-line"></div>
 
+
 <div className="spec-block">
   <div className="spec-block-title">
-    Wireless <br /> Transmission
+    Wireless <br /> Communication
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Wi‑Fi Standards</p>
+    <p className="value">IEEE 802.11 b/g/n/ac</p>
     <br />
 
+    <p className="label">Frequency Bands</p>
+    <p className="value">2.4 GHz & 5 GHz (Dual‑Band)</p>
+    <br />
+
+    <p className="label">Operating Modes</p>
+    <p className="value">Station Mode (Client)</p>
+    <p className="value">Access Point Mode (Configuration)</p>
+    <br />
+
+    <p className="label">Network Protocols</p>
+    <p className="value"> MQTT, HTTP, HTTPS</p>
+    <br />
+
+    <p className="label">Security</p>
+    <p className="value">WPA2‑PSK / WPA3</p>
+    <p className="value">TLS / SSL Encrypted Communication</p>
+    <br />
+
+    <p className="label">IP Configuration</p>
+    <p className="value">DHCP / Static IP</p>
+    <br />
+
+    <p className="label">Typical Indoor Range</p>
+    <p className="value">Up to 100 m (environment dependent)</p>
+    <br />
   </div>
 </div>
 
@@ -275,7 +278,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacRay is being modified</p>
+    <p className="value">A confirmed parameter of MacSync is being modified</p>
     <br />
 
 
@@ -308,38 +311,32 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Battery <br /> Performance
+    Supported <br /> Cloud & Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (12Ah) Industrial grade</p>
+    <p className="label">Deployment Models</p>
+    <p className="value">On-Premise Servers</p>
+    <p className="value">Private Cloud Deployments</p>
+    <p className="value">Public Cloud Platforms</p>
     <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 2 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
+    <p className="label">IoT Cloud Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">Google Cloud (via MQTT / HTTPS)</p>
+    <p className="value">Custom IoT Platforms</p>
+    <br />
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <p className="label">Integration Methods</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">REST / HTTPS APIs</p>
+    <p className="value">Webhooks</p>
+    <br />
+
+    <p className="label">Enterprise Systems</p>
+    <p className="value">SCADA Systems</p>
+    <p className="value">BMS / IBMS Platforms</p>
+    <p className="value">Data Lakes & Analytics Engines</p>
   </div>
 </div>
 
@@ -350,7 +347,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
+    <p className="label">Power Supply</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -366,7 +363,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <p className="value">Glass field Nylon</p>    
     <br />
     <p className="label">Color</p>
-    <p className="value">Matte Black</p>    
+    <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
     <p className="value">~110g</p>    
@@ -384,12 +381,12 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
+    <p className="label">Input Voltage Range</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">~150 mA during transmission</p>
     <br />
     <p className="label">Input Impedance</p>
     <p className="value">>10 MΩ for voltage inputs</p>
@@ -408,14 +405,13 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS </p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
     <br />
   </div>
 </div>
-
 
 <div class="faint-line"></div>
 
@@ -453,7 +449,8 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 </div>
 
 
-##  MacRay-LU4 Variants
+
+##  MacRay-WU4 Variants
 
 <table className="parameter-table">
   <thead>
@@ -468,7 +465,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
   </thead>
   <tbody>
     <tr>
-      <td>MacRay-LU4-PO</td>
+      <td>MacRay-WU4-PO</td>
       <td>12–24 V (Power)</td>
       <td>✖️</td>
       <td>✖️</td>
@@ -476,7 +473,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
       <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
-      <td>MacRay-LU4-BO</td>
+      <td>MacRay-WU4-BO</td>
       <td>Battery</td>
       <td>12 Ah</td>
       <td>✖️</td>
