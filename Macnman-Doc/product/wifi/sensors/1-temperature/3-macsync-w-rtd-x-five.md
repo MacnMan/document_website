@@ -1,49 +1,48 @@
 ---
-id: macsync-l-rtd-x-five-datasheet
-title: MacSync-LRTDX5
+id: macsync-w-rtd-x-five-datasheet
+title: MacSync-WRTDX5
 sidebarposition: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan rtd temperature sensor
-  - PT1000 temperature probe
-  - industrial temperature monitoring
-  - high accuracy rtd sensor
-  - loT temperature transmitter
-  - remote temperature data logging
-  - industrial process automation sensor
-  - cold chain temperature tracking
-  - pipeline and tank temperature monitoring
-  - food and pharma compliance sensor
-  - long range wireless temperature sensor
-  - explosion proof temperature sensing (optional)
-  - battery powered industrial sensor
-  - harsh environment temperature monitoring
-  - smart factory iot sensor
-  - rtd to lorawan converter
-  - industrial iot temperature controller
-  - macsync rtd sensor
-  - macnman lorawan device
-  - ip67 rugged temperature sensor
+  - wifi rtd temperature sensor
+  - pt1000 wifi temperature sensor
+  - wifi pt1000 temperature transmitter
+  - industrial wifi rtd sensor
+  - high accuracy wifi temperature sensor
+  - wifi based rtd temperature monitoring
+  - process temperature monitoring wifi
+  - smart factory wifi temperature sensor
+  - boiler and furnace temperature monitoring wifi
+  - pipeline temperature monitoring wifi
+  - cold chain wifi temperature sensor
+  - food and pharma temperature compliance wifi
+  - predictive maintenance temperature sensor wifi
+  - hvac wifi rtd temperature sensor
+  - industrial iot wifi temperature sensor
+  - battery operated wifi rtd sensor
+  - macsync wrtdx5
+  - macsync wifi rtd sensor
+  - macnman wifi temperature sensor
 ---
 
-# MacSync-L-RTDX5 Datasheet
+# MacSync-WRTDX5 Datasheet
 
 ## Product Overview
 
-**MacSync-L-RTDX5** is a next‑generation **LoRaWAN® RTD temperature sensor** engineered for ultra‑precise thermal monitoring in the most demanding industrial environments. Designed to support **PT1000** probes and IEC 60751 standard linearization, it ensures highly accurate and repeatable temperature measurement from **–200 °C to +850 °C**, covering cryogenic, processing, and high‑temperature applications.
+**MacSync‑WRTDX5** is a high‑accuracy **Wi‑Fi–based RTD (PT1000) temperature sensor** designed for precise and reliable temperature monitoring in industrial and commercial environments where direct IP connectivity is available. Supporting **PT1000 probes with IEC 60751 linearization**, it delivers stable and repeatable measurements across a wide temperature range, making it suitable for both low‑temperature and high‑temperature process applications.
 
-With **industrial‑grade shielding**, **low‑noise analog front‑end**, and **minimal drift**, the MacSync‑L‑RTDX5 delivers dependable performance in reactors, chemical process lines, oil & gas pipelines, cold‑storage logistics, and power utility infrastructures.
+Built with an industrial‑grade analog front end, low‑noise signal conditioning, and minimal long‑term drift, MacSync‑WRTDX5 ensures dependable performance in manufacturing lines, process plants, HVAC systems, cold‑chain facilities, boilers, furnaces, and thermal equipment installed within Wi‑Fi‑covered premises.
 
-The device features **Class A/C LoRaWAN® communication**, a **high‑efficiency internal antenna**, secure **AES‑128 encrypted transmission**, and support for the **Maya App (BLE)** for rapid onboarding, OTA parameter updates, and diagnostic insights — eliminating manual configuration in remote deployments.
+The device transmits temperature data securely over standard **Wi‑Fi networks (2.4 GHz / 5 GHz)** to **on‑premise servers, SCADA systems, local dashboards, or cloud platforms** using industry‑standard protocols such as **MQTT, HTTP, and HTTPS**, without requiring gateways or long‑range wireless infrastructure.
 
-Its rugged **IP65‑rated enclosure**, stainless‑steel probe compatibility (SS304 / SS316), multi‑year **battery operation**, and optional external DC power input make it a long‑life sensor designed to thrive in harsh industrial and outdoor environments.
+MacSync‑WRTDX5 supports **configurable sampling intervals, threshold‑based alerts**, and **local BLE‑based provisioning** via the Macnman Maya mobile application. Available in **battery‑operated and DC‑powered variants**, it offers flexible deployment options for fixed installations as well as locations where wired power is limited.
 
-Whether used for predictive maintenance, compliance monitoring in pharma logistics, or thermal safety in high‑temperature industrial processes, **MacSync‑L‑RTDX5 transforms any RTD probe into a smart, wireless, and future‑ready IoT sensing node**, enabling Industry 4.0 automation and operational excellence.
+From **industrial process control and predictive maintenance** to **HVAC monitoring, food & pharmaceutical compliance, and equipment safety**, **MacSync‑WRTDX5 delivers accurate, low‑latency Wi‑Fi temperature monitoring** for modern Industrial IoT deployments.
 
 
-| ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
+| ![MacSync-WRTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-WRTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync-L-RTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-RTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync-WRTDX5 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-WRTDX5 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -64,7 +63,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-RTDX5</p>
+      <p>Click here to view the decoders for MacSync-WRTDX5</p>
     </div>
   </a>
 </div>
@@ -74,115 +73,114 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>High‑Accuracy RTD Input</strong>
-  Compatible with PT1000 probes for precise industrial temperature monitoring.
+  <strong>High‑Accuracy PT1000 RTD Input</strong>
+  Compatible with PT1000 probes using IEC 60751 linearization for precise and repeatable industrial temperature measurement.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Temperature Range</strong>
-  Supports –200 °C to +850 °C for cryogenic, process, and high‑temperature environments.
+  <strong>Wide Temperature Measurement Range</strong>
+  Supports –200 °C to +850 °C, suitable for cryogenic, process, and high‑temperature industrial applications.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial‑Grade Reliability</strong>
-  Low noise, low drift, and high repeatability for mission‑critical applications.
+  <strong>Wi‑Fi Based Connectivity</strong>
+  Direct temperature data transmission over standard Wi‑Fi networks (2.4 GHz / 5 GHz) without gateways.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ultra‑Low Power LoRaWAN®</strong>
-  Multi‑year battery life with Class A/C support for long‑range connectivity.
+  <strong>Battery or DC Powered Operation</strong>
+  Available in battery‑operated and externally powered variants for flexible industrial deployments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial‑Grade Signal Conditioning</strong>
+  Low‑noise analog front end with excellent stability, low drift, and high repeatability.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Rugged & Ingress‑Protected Enclosure</strong>
-  IP65/IP67 protection for harsh outdoor and industrial deployments.
+  IP65 standard enclosure with optional IP67 variant for harsh industrial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Fast onboarding, OTA parameter tuning, and diagnostics using a smartphone.
+  <strong>Event‑Based & Interval Temperature Alerts</strong>
+  Configurable threshold, interval, and event‑based alerts for process safety and monitoring.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Standard IP Protocol Support</strong>
+  Supports MQTT, HTTP, and HTTPS for seamless integration with SCADA systems, dashboards, and cloud platforms.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Secure Wi‑Fi Communication</strong>
+  WPA2 / WPA3 Wi‑Fi security with TLS‑encrypted data transmission.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Local BLE Configuration</strong>
+  Easy provisioning, diagnostics, and configuration using the Macnman Maya mobile application.
 </div>
 
 <div className="reusable-feature-card">
   <strong>SS304 / SS316 Probe Support</strong>
-  Corrosion‑resistant stainless‑steel probe options for chemical and process industries.
+  Corrosion‑resistant stainless‑steel probe options for chemical, food, and process industries.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic, event‑based, or threshold reporting to extend battery performance.
+  <strong>Predictive Maintenance Ready</strong>
+  Enables early detection of abnormal temperature trends in motors, pumps, pipelines, and thermal assets.
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Secure Data Communication</strong>
-  AES‑128 encrypted LoRaWAN® connectivity ensuring industrial‑grade security.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Industrial IoT Platform Integration</strong>
-  Works with all major LoRaWAN® network servers and cloud systems.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Flexible Deployment</strong>
-  Supports internal or external RTD probe installation for diverse monitoring needs.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Future‑Proof Design</strong>
-  Ideal for Industry 4.0 modernization and remote thermal analytics.
-</div>
 </div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
+
   <div className="reusable-feature-card">
     <strong>Industrial Process Temperature Monitoring</strong>
-    Highly accurate RTD sensing for reactors, tanks, kilns, ovens, boilers, and thermal processing equipment.
+    High‑accuracy PT1000 temperature sensing for reactors, tanks, ovens, kilns, boilers, and continuous process equipment within Wi‑Fi‑enabled facilities.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil & Gas Pipeline Monitoring</strong>
-    Real-time temperature tracking to detect leaks, overheating, and pipeline integrity issues.
+    <strong>Predictive Maintenance for Machines & Motors</strong>
+    Detects abnormal temperature rise in motors, bearings, pumps, compressors, and rotating equipment to prevent failures and downtime.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Chemical & Petrochemical Plants</strong>
-    RTD probes withstand aggressive chemicals and corrosive environments for safe temperature control.
+    <strong>Boilers, Furnaces & Thermal Systems</strong>
+    Reliable high‑temperature monitoring for combustion control, thermal safety, and efficiency optimization.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Chain & Pharmaceutical Storage</strong>
-    Regulatory-compliant monitoring for vaccines, biologics, perishable goods & medical refrigeration.
+    <strong>Pipelines & Heat Exchangers</strong>
+    Temperature monitoring for pipelines, heat exchangers, and process lines installed within industrial plants and utility rooms.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Energy & Power Utilities</strong>
-    Thermal supervision for substations, transformers, turbines, heat exchangers, and district heating.
+    <strong>Cold Chain & Refrigeration Systems</strong>
+    Temperature compliance monitoring for pharmaceutical storage, food processing units, cold rooms, and refrigerated warehouses.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Steel, Foundry & Mining Operations</strong>
-    High-temperature safety monitoring near furnaces, smelters, mines, and metallurgical processes.
+    <strong>HVAC & Building Automation</strong>
+    Integrates with HVAC and BMS systems for thermal control, energy optimization, and indoor comfort monitoring.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>HVAC & Industrial Cooling Systems</strong>
-    Performance monitoring for chillers, heat pumps & climate control industrial systems.
+    <strong>Food, Pharma & Clean‑Room Environments</strong>
+    Ensures temperature compliance in regulated environments such as pharma manufacturing, laboratories, and clean rooms.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Industrial Assets</strong>
-    Reliable LoRaWAN® connectivity in isolated and hazardous locations where wired sensors fail.
+    <strong>Smart Factories & Industrial IoT</strong>
+    Enables real‑time temperature visibility across machines and processes using direct Wi‑Fi connectivity and IP‑based protocols.
   </div>
 
-  <div className="reusable-feature-card">
-    <strong>Industry 4.0 Automation</strong>
-    Smart analytics, predictive maintenance & operational efficiency through long-range IoT sensing.
-  </div>
 </div>
 
 <div class="faint-line"></div>
@@ -195,7 +193,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-RTDX5</p>
+    <p className="value">MacSync-WRTDX5</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -247,35 +245,43 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 
 <div class="faint-line"></div>
 
+<div class="faint-line"></div>
+
+
 <div className="spec-block">
   <div className="spec-block-title">
-    Wireless <br /> Transmission
+    Wireless <br /> Communication
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Wi‑Fi Standards</p>
+    <p className="value">IEEE 802.11 b/g/n/ac</p>
     <br />
 
+    <p className="label">Frequency Bands</p>
+    <p className="value">2.4 GHz & 5 GHz (Dual‑Band)</p>
+    <br />
+
+    <p className="label">Operating Modes</p>
+    <p className="value">Station Mode (Client)</p>
+    <p className="value">Access Point Mode (Configuration)</p>
+    <br />
+
+    <p className="label">Network Protocols</p>
+    <p className="value"> MQTT, HTTP, HTTPS</p>
+    <br />
+
+    <p className="label">Security</p>
+    <p className="value">WPA2‑PSK / WPA3</p>
+    <p className="value">TLS / SSL Encrypted Communication</p>
+    <br />
+
+    <p className="label">IP Configuration</p>
+    <p className="value">DHCP / Static IP</p>
+    <br />
+
+    <p className="label">Typical Indoor Range</p>
+    <p className="value">Up to 100 m (environment dependent)</p>
+    <br />
   </div>
 </div>
 
@@ -332,38 +338,32 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Battery <br /> Performance
+    Supported <br /> Cloud & Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <p className="label">Deployment Models</p>
+    <p className="value">On-Premise Servers</p>
+    <p className="value">Private Cloud Deployments</p>
+    <p className="value">Public Cloud Platforms</p>
     <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
+    <p className="label">IoT Cloud Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">Google Cloud (via MQTT / HTTPS)</p>
+    <p className="value">Custom IoT Platforms</p>
+    <br />
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <p className="label">Integration Methods</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">REST / HTTPS APIs</p>
+    <p className="value">Webhooks</p>
+    <br />
+
+    <p className="label">Enterprise Systems</p>
+    <p className="value">SCADA Systems</p>
+    <p className="value">BMS / IBMS Platforms</p>
+    <p className="value">Data Lakes & Analytics Engines</p>
   </div>
 </div>
 
@@ -374,7 +374,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
+    <p className="label">Power Supply</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -408,12 +408,12 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
+    <p className="label">Input Voltage Range</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">~150 mA during transmission</p>
     <br />
     <p className="label">Input Impedance</p>
     <p className="value">>10 MΩ for voltage inputs</p>
@@ -432,14 +432,13 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS </p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
     <br />
   </div>
 </div>
-
 
 <div class="faint-line"></div>
 
@@ -477,7 +476,9 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
 </div>
 
 
-##  MacSync-L-RTDX5 Variants
+
+
+##  MacSync-WRTDX5 Variants
 
 <table className="parameter-table">
   <thead>
@@ -492,7 +493,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-RTDX5-PO</td>
+      <td>MacSync-WRTDX5-PO</td>
       <td>12–24 V (Power)</td>
       <td>✖️</td>
       <td>✖️</td>
@@ -500,7 +501,7 @@ Whether used for predictive maintenance, compliance monitoring in pharma logisti
       <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
-      <td>MacSync-L-RTDX5-BO</td>
+      <td>MacSync-WRTDX5-BO</td>
       <td>Battery</td>
       <td>19 Ah</td>
       <td>✖️</td>
