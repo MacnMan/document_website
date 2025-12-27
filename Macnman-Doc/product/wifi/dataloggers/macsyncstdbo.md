@@ -1,40 +1,40 @@
 ---
 id: macsync-l-std-battery-operated-gen-one
-title: MacSync-LX1-BO
+title: MacSync-WX1-BO
 sidebarposition: 3
 description: Ultra-rugged LoRaWAN IoT device with long-range wireless and low-power architecture.
 keywords:
-  - rs485 to lorawan
-  - analog to lorawan
-  - modbus rtu lorawan
-  - lorawan data logger
-  - lorawan industrial controller
-  - 4-20ma lorawan transmitter
-  - 0-10v lorawan interface
-  - macsync
-  - macnman
-  - industrial iot data logger
-  - lorawan automation
-  - industrial sensor gateway
-  - rs485 modbus converter
-  - lorawan monitoring device
-  - long range wireless logger
-  - lorawan plc interface
+  - rs485 to wifi data logger
+  - battery operated wifi data logger
+  - modbus rtu wifi data logger
+  - analog to wifi data logger
+  - wifi industrial data logger
+  - low power wifi data logger
+  - battery powered industrial data logger
+  - wifi rs485 modbus gateway
+  - 4-20ma wifi data logger
+  - 0-10v wifi data logger
+  - macsync wx1 bo
+  - macsync wifi battery data logger
+  - macnman wifi data logger
+  - industrial wifi monitoring device
+  - on premise wifi data logger
+  - factory wifi data logger
+  - building automation wifi data logger
+  - battery powered modbus data logger
 ---
 
-# MacSync-L-STD-BO
+# MacSync-WX1-BO
 
 ## Product Overview
 
-**MacSync-L-STD-BO** is a high-reliability, battery-powered RS485 & Analog to LoRaWAN® data logger, engineered for long-term industrial and remote monitoring. Powered by a massive 19Ah battery, it delivers uninterrupted multi-year operation without external power, making it ideal for off-grid locations and hard-to-access installations.
+**MacSync‑WX1‑BO** is a high‑reliability, **battery‑operated RS485 & Analog to Wi‑Fi data logger**, designed for industrial and on‑premise monitoring applications where wired power is unavailable but Wi‑Fi connectivity is present. It combines the proven MacSync data‑logging hardware with an optimized low‑power Wi‑Fi communication architecture.
 
-The device seamlessly integrates with MODBUS RTU sensors, industrial meters, PLCs, transmitters, and analog instruments, converting real-time field data into long-range LoRaWAN® packets with outstanding accuracy and stability. With switchable **RS485 / 4–20 mA / 0–10 V channels**, a single device supports multiple sensor types—minimizing hardware variants and simplifying deployments.
+The device interfaces seamlessly with **MODBUS RTU sensors, energy meters, PLCs, transmitters, and industrial instruments**, supporting **RS485, 4–20 mA, 0–10 V, and digital inputs** on a single platform. Collected field data is transmitted securely to **local servers, on‑premise dashboards, or cloud platforms** using standard IP protocols such as **MQTT, HTTP/HTTPS**, without the need for gateways.
 
-Built inside a rugged IP66 enclosure, MacSync-L-STD-BO is designed for harsh environments, including agriculture, utilities, infrastructure, environmental stations, and industrial telemetry applications. Its ultra-low-power firmware architecture ensures extended battery life, even with periodic reporting and event-based uplinks.
+Powered by a high‑capacity **19 Ah industrial‑grade Li‑SOCl₂ battery**, MacSync‑WX1‑BO is engineered for extended field operation using intelligent sleep‑wake cycles, event‑based reporting, and burst data transmission. **Onboard data buffering and store‑and‑forward mechanisms** ensure zero data loss during temporary Wi‑Fi or server outages.
 
-The device supports **LoRaWAN® v1.0.4, Macnman MacTalk Protocol**, Class A & Class C, BLE-enabled OTA configuration (via the Maya App), and onboard data buffering to prevent data loss during network downtime. An integrated high-efficiency antenna ensures strong, stable long-range connectivity in all terrains.
-
-Whether you’re monitoring remote assets, collecting environmental and process data, or building scalable wireless automation, MacSync-L-STD-BO transforms any industrial sensor into a self-powered, long-range LoRaWAN® endpoint.
+Housed in a rugged IP‑rated enclosure, MacSync‑WX1‑BO is ideal for **factories, buildings, utilities, cold storage facilities, and industrial infrastructure** where battery operation, low latency, and direct Wi‑Fi connectivity are required. It enables reliable industrial data acquisition with simplified deployment and full IT/OT integration.
 
 | ![Front view of MacSync-L-STD-BO battery-powered RS485 and analog to LoRaWAN data logger](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![ Side view of MacSync-L-STD-BO industrial LoRaWAN data logger with 19Ah battery](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
 |--------------------------------|--------------------------------|
@@ -72,72 +72,62 @@ Whether you’re monitoring remote assets, collecting environmental and process 
 
   <div className="reusable-feature-card">
     <strong>RS485 (MODBUS RTU) Interface</strong>
-    Seamlessly connects with industrial controllers, meters, and smart instruments.
+    Seamlessly connects with PLCs, energy meters, RTUs, and industrial controllers using MODBUS RTU.
   </div>
 
   <div className="reusable-feature-card">
     <strong>4–20 mA, 0–10 V & Digital Inputs</strong>
-    Supports industry-standard analog sensors and digital switches.
+    Supports industry‑standard analog sensors, transmitters, and digital field signals.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>19 Ah Inbuilt Battery</strong>
-    Li-SOCl2 multi-year battery life for applications
-  </div>
-  
-  <div className="reusable-feature-card">
-    <strong>Compatible with Energy Meters, PLCs & Transmitters</strong>
-    Designed for universal industrial integration.
+    <strong>Battery‑Operated Design</strong>
+    Powered by a 19 Ah industrial‑grade Li‑SOCl₂ battery for long‑term operation without external power.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Multiple Analog Channels</strong>
-    Enables simultaneous monitoring of multiple process parameters.
+    <strong>Low‑Power Wi‑Fi Communication</strong>
+    Optimized Wi‑Fi operation using intelligent sleep‑wake cycles and burst data transmission.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Robust & Weatherproof</strong>
-    Built with an industrial-grade enclosure suitable for harsh environments.
+    <strong>Multi‑Channel Data Acquisition</strong>
+    Enables simultaneous monitoring of multiple process parameters from RS485 and analog inputs.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Uplink Modes</strong>
-    Supports periodic, threshold-based, and event-driven LoRaWAN uplinks.
+    <strong>Direct Wi‑Fi Connectivity</strong>
+    Communicates directly with local servers and cloud platforms without requiring gateways.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Designed for Industrial & Outdoor Deployments</strong>
-    Perfect for factories, utilities, agriculture, and remote monitoring.
+    <strong>Standard IP Protocol Support</strong>
+    Supports MQTT, HTTP, and HTTPS for seamless IT/OT system integration.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Easy BLE Configuration</strong>
-    Local setup and diagnostics made simple with the Maya mobile app.
+    <strong>Onboard Data Buffering</strong>
+    Store‑and‑forward mechanism prevents data loss during temporary Wi‑Fi or server outages.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol Support</strong>
-    Enables device-to-device LoRa communication without a gateway.
+    <strong>Event, Threshold & Time‑Based Logging</strong>
+    Flexible data logging modes to optimize battery life and network usage.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Secure Onboarding</strong>
-    Ships with pre-flashed DevEUI, AppEUI, and AppKey for fast activation.
+    <strong>Local Configuration via BLE</strong>
+    Easy commissioning and diagnostics using the Macnman Maya mobile application.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Direct Control & Local Automation</strong>
-    Supports local device-to-device actions without cloud dependency.
+    <strong>Rugged Industrial Enclosure</strong>
+    IP‑rated enclosure suitable for factories, buildings, utilities, and harsh environments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Optional Onboard Data Buffering</strong>
-    Prevents data loss during network downtime by storing records locally.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Fully LoRaWAN® Compatible</strong>
-    Works with all network servers and standard LoRaWAN gateways.
+    <strong>Designed for On‑Premise Deployments</strong>
+    Ideal for applications requiring low latency, local data ownership, and battery operation.
   </div>
 
 </div>
@@ -148,53 +138,43 @@ Whether you’re monitoring remote assets, collecting environmental and process 
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Connects PLCs, RTUs, and industrial controllers to LoRaWAN networks for real-time machine monitoring.
+    <strong>Industrial Automation & SCADA</strong>
+    Logs data from PLCs, RTUs, and industrial controllers over RS485 and publishes it to on‑premise SCADA systems via Wi‑Fi.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Energy & Utility Metering</strong>
-    Integrates with RS485 energy meters, water meters, and gas meters for remote automated meter reading.
+    Connects RS485 energy, water, and gas meters for local monitoring and analytics using existing Wi‑Fi networks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Process Monitoring</strong>
-    Ideal for pressure transmitters, flow transmitters, level sensors, and temperature transmitters using 4–20 mA / 0–10 V.
+    <strong>Process & Instrumentation Monitoring</strong>
+    Captures pressure, flow, level, and temperature data from 4–20 mA and 0–10 V industrial transmitters.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Factories & Manufacturing Plants</strong>
+    Enables battery‑powered machine data logging in areas without wired power but with internal Wi‑Fi coverage.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Cold Storage & HVAC Systems</strong>
-    Captures critical temperature, humidity, and equipment health parameters from analog/RS485 sensors.
+    Monitors temperature, humidity, compressors, and HVAC equipment with low‑latency Wi‑Fi reporting.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture</strong>
-    Supports soil moisture sensors, weather probes, irrigation controllers, and pump monitoring systems.
+    <strong>Building Automation & BMS</strong>
+    Integrates meters, controllers, and sensors with BMS / IBMS platforms without requiring gateways.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water & Wastewater Management</strong>
-    Works with flow meters, pressure sensors, water level transmitters, and pump control systems.
+    <strong>Warehouses & Indoor Infrastructure</strong>
+    Suitable for battery‑operated monitoring of power, environment, and equipment across large indoor facilities.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Safety Systems</strong>
-    Monitors critical sensors like leak detectors, vibration sensors, and emergency digital inputs.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Smart Buildings</strong>
-    Integrates with HVAC controllers, AQI sensors, and digital input equipment for automation.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Remote Infrastructure Monitoring</strong>
-    Supports monitoring of telecom towers, generators, solar inverters, and battery banks via RS485.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Environmental & Field Monitoring</strong>
-    Connects environmental sensors such as air quality, weather, and environmental transmitters.
+    <strong>On‑Premise Industrial IoT Deployments</strong>
+    Ideal for enterprises requiring local data ownership, low latency, Wi‑Fi connectivity, and battery operation.
   </div>
 
 </div>
@@ -209,7 +189,7 @@ Whether you’re monitoring remote assets, collecting environmental and process 
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-STD-BO</p>
+    <p className="value">MacSync-WX1-BO</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -244,38 +224,42 @@ Whether you’re monitoring remote assets, collecting environmental and process 
 :::note
 The device use same channels for the RS485 & Analog inputs, either can be used at a time.
 :::
-
 <div class="faint-line"></div>
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Wireless <br /> Transmission
+    Wireless <br /> Communication
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Wi‑Fi Standards</p>
+    <p className="value">IEEE 802.11 b/g/n/ac</p>
     <br />
 
+    <p className="label">Frequency Bands</p>
+    <p className="value">2.4 GHz & 5 GHz (Dual‑Band)</p>
+    <br />
+
+    <p className="label">Operating Modes</p>
+    <p className="value">Station Mode (Client)</p>
+    <p className="value">Access Point Mode (Configuration)</p>
+    <br />
+
+    <p className="label">Network Protocols</p>
+    <p className="value"> MQTT, HTTP, HTTPS</p>
+    <br />
+
+    <p className="label">Security</p>
+    <p className="value">WPA2‑PSK / WPA3</p>
+    <p className="value">TLS / SSL Encrypted Communication</p>
+    <br />
+
+    <p className="label">IP Configuration</p>
+    <p className="value">DHCP / Static IP</p>
+    <br />
+
+    <p className="label">Typical Indoor Range</p>
+    <p className="value">Up to 100 m (environment dependent)</p>
+    <br />
   </div>
 </div>
 
@@ -332,6 +316,39 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
+    Supported <br /> Cloud & Platforms
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Deployment Models</p>
+    <p className="value">On-Premise Servers</p>
+    <p className="value">Private Cloud Deployments</p>
+    <p className="value">Public Cloud Platforms</p>
+    <br />
+
+    <p className="label">IoT Cloud Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">Google Cloud (via MQTT / HTTPS)</p>
+    <p className="value">Custom IoT Platforms</p>
+    <br />
+
+    <p className="label">Integration Methods</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">REST / HTTPS APIs</p>
+    <p className="value">Webhooks</p>
+    <br />
+
+    <p className="label">Enterprise Systems</p>
+    <p className="value">SCADA Systems</p>
+    <p className="value">BMS / IBMS Platforms</p>
+    <p className="value">Data Lakes & Analytics Engines</p>
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
@@ -354,7 +371,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
-    <p className="value">~190g</p>    
+    <p className="value">~110g</p>    
     <br />
     <p className="label">Mounting Options</p>
     <p className="value">Pole Mounting / Wall Mounting</p>    
@@ -366,27 +383,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Battery <br /> Performance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (depending on transmission interval)</p>
-    <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics (Optional)
+    Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
     <p className="label">Input Voltage Range</p>
@@ -394,7 +391,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">~150 mA during transmission</p>
     <br />
     <p className="label">Input Impedance</p>
     <p className="value">>10 MΩ for voltage inputs</p>
@@ -413,7 +410,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS </p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
@@ -458,32 +455,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-## What's in the box ?
-
-Make sure box contains following items before installations
-
-![title image](/img/datalogger/whatsbox.svg)
-
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::
-
-## Product Dimensions
-
-![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
-
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::
-
-
-##  MacSync-LX2-STD-PO Variants
+##  MacSync-WX1-PO Variants
 
 <table className="parameter-table">
   <thead>
@@ -498,7 +470,7 @@ not be included in the box.
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-STD-PO-X1</td>
+      <td>MacSync-WX1-PO</td>
       <td>12–24 V (Power)</td>
       <td>✖️</td>
       <td>✖️</td>
@@ -506,7 +478,7 @@ not be included in the box.
       <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
-      <td>MacSync-L-STD-BO</td>
+      <td>MacSync-WX1-BO </td>
       <td>Battery</td>
       <td>19 Ah</td>
       <td>✖️</td>
@@ -524,45 +496,20 @@ not be included in the box.
   </tbody>
 </table>
 
+## What's in the box ?
 
+Make sure box contains following items before installations
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
+![title image](/img/datalogger/whatsbox.svg)
 
--->
+:::note
+
+Accessories must be purchased separately & may 
+not be included in the box.
+
+:::
+
+## Product Dimensions
+
+![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+

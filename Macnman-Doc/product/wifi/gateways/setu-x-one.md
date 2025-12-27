@@ -1,6 +1,6 @@
 ---
-id: setu-x-one-datasheet
-title: Setu X1
+id: setu-wx-one-datasheet
+title: Setu WX1
 sidebarposition: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
