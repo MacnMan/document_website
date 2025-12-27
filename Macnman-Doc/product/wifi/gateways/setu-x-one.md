@@ -4,37 +4,42 @@ title: Setu X1
 sidebarposition: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - indoor lorawan gateway
-  - smart building iot gateway
-  - lorawan ethernet wifi gateway
-  - compact lorawan access point
-  - private lorawan network gateway
-  - enterprise iot connectivity hub
-  - indoor wide area network gateway
-  - long range wireless indoor gateway
-  - secure lorawan network access point
-  - lorawan network server compatible gateway
-  - remote iot device management gateway
-  - energy efficient lorawan gateway
-  - industry 4.0 indoor automation gateway
-  - smart campus indoor iot backbone
-  - high sensitivity lorawan rf gateway
-  - multi backhaul lorawan gateway
-  - indoor positioning and asset tracking gateway
-  - scalable indoor iot infrastructure
+  - ble to wifi gateway
+  - bluetooth low energy to wifi gateway
+  - ble wifi iot gateway
+  - indoor ble wifi gateway
+  - ble sensor gateway
+  - bluetooth iot gateway
+  - ble data aggregation gateway
+  - ble device to cloud gateway
+  - wifi ble bridge
+  - ble to ip gateway
+  - ble mqtt gateway
+  - ble http gateway
+  - smart building ble gateway
+  - industrial ble wifi gateway
+  - indoor iot connectivity gateway
+  - ble asset tracking gateway
+  - ble occupancy monitoring gateway
+  - healthcare ble gateway
+  - retail ble gateway
+  - edge ble gateway
+  - secure ble wifi gateway
+  - macnman ble gateway
+  - setu wx1 ble gateway
 ---
 
-# Setu X1 Datasheet
+# Setu WX1 Datasheet
 
 ## Product Overview
 
-Setu X1 is a compact and enterprise‑grade **Indoor LoRaWAN® Gateway**, engineered to deliver reliable long‑range wireless connectivity inside smart buildings, commercial spaces, and industrial environments. Designed with a high‑sensitivity LoRaWAN® concentrator and optimized RF performance, Setu X1 enables seamless communication with thousands of IoT devices deployed across large indoor areas.
+Setu WX1 is a compact and industrial-grade **BLE to Wi-Fi IoT gateway**, designed to bridge Bluetooth Low Energy (BLE) devices with local servers and cloud platforms over standard Wi-Fi networks. It enables seamless data aggregation, protocol translation, and secure IP-based communication without requiring internet connectivity on the end BLE devices.
 
-With **Ethernet and Wi‑Fi backhaul** options, the gateway acts as a secure bridge between indoor LoRaWAN® sensors and private or cloud‑hosted network servers. Its fanless low‑power architecture, silent operation, and simple wall/ceiling installation make it the perfect fit for offices, hospitals, data centers, hotels, retail, and manufacturing floors.
+The gateway continuously scans, connects, and collects data from multiple BLE sensors, beacons, meters, and edge devices, and reliably forwards this data to on-premise systems or cloud platforms using **MQTT, HTTP/HTTPS, and TCP/IP(Optional)** protocols. This makes Setu WX1 ideal for environments where low-power BLE devices need centralized connectivity and management.
 
-Setu X1 supports **AES‑128 encrypted communication**, **remote OTA firmware updates**, and centralized fleet management via MacCloud or popular LNS platforms such as ChirpStack, TTN, Orbiwise, Loriot, and more — ensuring scalable and resilient network performance.
+Built for continuous indoor operation, Setu WX1 features a low-power, fanless design, stable power architecture, and an industrial enclosure suitable for commercial, healthcare, retail, and industrial deployments. Local buffering and store-and-forward mechanisms ensure data reliability even during temporary network outages.
 
-Whether enabling energy monitoring, asset tracking, indoor environmental sensing or Industry 4.0 automation — **Setu X1 establishes a secure, scalable, and future‑proof LoRaWAN® network backbone** for enterprise IoT transformation.
+Whether used for asset tracking, occupancy monitoring, environmental sensing, healthcare device integration, or smart building analytics, **Setu WX1 delivers a secure, scalable, and gateway-centric BLE to Wi-Fi connectivity solution** for modern IoT deployments.
 
 | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
 |--------------------------------|--------------------------------|
@@ -70,97 +75,113 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Compact Indoor LoRaWAN® Gateway</strong>
-  Sleek design optimized for indoor deployments in smart buildings, retail, hospitality and enterprise environments.
+  <strong>BLE to Wi‑Fi Protocol Gateway</strong>
+  Seamlessly bridges Bluetooth Low Energy (BLE) devices to IP‑based networks over standard Wi‑Fi connectivity.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>High-Capacity LoRaWAN® Concentrator</strong>
-  Supports thousands of end-devices with strong RF performance and extended indoor coverage.
+  <strong>Multi‑Device BLE Aggregation</strong>
+  Concurrently scans, connects, and manages data from multiple BLE sensors, beacons, and edge devices.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Multi Backhaul Connectivity</strong>
-  Ethernet + Wi-Fi options for simple installation and reliable network access without additional cabling.
+  <strong>Standard IP Protocol Support</strong>
+  Supports MQTT, HTTP, HTTPS, and TCP/IP for easy integration with local servers, SCADA systems, and cloud platforms.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Enterprise-Grade Security</strong>
-  AES-128 network encryption with TLS-secured backhaul for protected data transmission.
+  <strong>Local Buffering & Store‑and‑Forward</strong>
+  Ensures data reliability by buffering BLE data during network interruptions and forwarding once connectivity is restored.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Edge Processing & OTA Management</strong>
-  Supports remote configuration, diagnostics and firmware updates via MacCloud and major LoRaWAN® network servers.
+  <strong>Secure Wi‑Fi Communication</strong>
+  Encrypted Wi‑Fi backhaul with secure authentication and credential‑based access for protected data transmission.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Fanless, Silent Operation</strong>
-  Low heat and noise profile ensures seamless installation in commercial and indoor environments.
+  <strong>OTA Configuration & Firmware Updates</strong>
+  Supports remote configuration, diagnostics, and firmware upgrades without physical access to the device.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Universal Network Server Compatibility</strong>
-  Works with Chirpstack, TTN, Loriot, Orbiwise, private networks and MQTT infrastructure.
+  <strong>Low‑Power, Fanless Design</strong>
+  Optimized for continuous indoor operation with silent, low‑heat performance in commercial and industrial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Simple Wall & Ceiling Mounting</strong>
-  Flexible mounting options for easy deployment in enterprise infrastructure.
+  <strong>Industrial‑Grade Hardware</strong>
+  Built with reliable components, stable power architecture, and rugged enclosure for 24×7 operation.
 </div>
+
+<div className="reusable-feature-card">
+  <strong>Gateway‑Centric Architecture</strong>
+  Eliminates the need for internet connectivity on BLE end devices, simplifying large‑scale deployments.
 </div>
+
+<div className="reusable-feature-card">
+  <strong>Flexible Deployment & Mounting</strong>
+  Compact form factor with wall and ceiling mounting options for rapid indoor installations.
+</div>
+
+</div>
+
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
   <strong>Smart Buildings & Offices</strong>
-  Indoor LoRaWAN® connectivity hub for BMS automation, energy management and workplace monitoring.
+  Aggregates data from BLE sensors for indoor air quality, occupancy monitoring, energy analytics, and building management systems over Wi-Fi.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Hospitals & Healthcare Facilities</strong>
-  Reliable gateway for indoor asset tracking, patient safety systems and environmental compliance.
+  Enables reliable connectivity for BLE medical devices, asset tracking tags, patient monitoring wearables, and compliance sensors.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Retail & Shopping Centers</strong>
-  Supports people counting, occupancy analytics and warehouse-to-store supply chain tracking.
+  Supports BLE-based people counting, footfall analytics, proximity marketing, and in-store asset tracking.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Hotels & Hospitality Spaces</strong>
-  Enables smart room controls, environmental sensors and maintenance alerts for enhanced guest experience.
+  Connects BLE room sensors, smart locks, occupancy sensors, and service devices to centralized hotel management platforms.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Campuses & Education</strong>
-  Wide indoor-area gateway for security, environment sensing and resource optimization in institutions.
+  <strong>Smart Campuses & Educational Institutions</strong>
+  Ideal for BLE-enabled attendance systems, indoor navigation, safety monitoring, and facility analytics across large campuses.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industry 4.0 & Factory Floors</strong>
-  Connects predictive maintenance sensors and equipment monitoring systems across industrial interiors.
+  <strong>Industrial & Factory Interiors</strong>
+  Bridges BLE condition-monitoring sensors, equipment tags, and maintenance beacons to local servers and cloud platforms.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Warehouses & Logistics Facilities</strong>
+  Enables real-time tracking of BLE tags on pallets, racks, tools, and assets with centralized Wi-Fi backhaul.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Data Centers & Server Rooms</strong>
-  Ideal for temperature, humidity and access monitoring in controlled indoor areas.
+  Collects data from BLE temperature, humidity, and access sensors for continuous monitoring of critical indoor infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Warehouses & Inventory Areas</strong>
-  Backbone for indoor logistics, RFID extensions and smart storage infrastructure.
+  <strong>Public Indoor Venues</strong>
+  Supports BLE-based monitoring and analytics in airports, metro stations, malls, and large indoor public spaces.
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Public Venues & Indoor Infrastructure</strong>
-  Reliable LoRaWAN® coverage for airports, metros and community facilities.
-</div>
 </div>
 
+<div class="faint-line"></div>
 <div class="faint-line"></div>
 
 ## Technical Specification
@@ -171,7 +192,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">Setu X1</p>
+    <p className="value">Setu WX1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -183,7 +204,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 
 <div className="spec-block">
   <div className="spec-block-title">
-    System Hardware <br /> Specifications
+    Hardware <br /> Specifications
   </div>
   <div className="spec-block-details">
 <p className="label">Processor Type</p>
@@ -216,44 +237,49 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 </div>
 
 <div class="faint-line"></div>
-
 <div className="spec-block">
   <div className="spec-block-title">
-    LoRaWAN <br /> Specifications
+    BLE <br /> Specifications
   </div>
   <div className="spec-block-details">
-    <p className="label">Compatibility</p>
-    <p className="value">LoRaWAN® Class A / B / C</p>
+    <p className="label">Bluetooth Standard</p>
+    <p className="value">Bluetooth Low Energy (BLE) 5.0 / 5.1</p>
     <br />
-    <p className="label">Frequency Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923‑1/2/3/4</p>
+
+    <p className="label">Operating Role</p>
+    <p className="value">Central / Gateway</p>
     <br />
-    <p className="label">LoRa Demodulators</p>
-    <p className="value">8 × 8 LoRa Packet Detectors</p>
+
+    <p className="label">Supported BLE Devices</p>
+    <p className="value">BLE Sensors, Beacons, Tags, Wearables, Edge Devices</p>
     <br />
-    <p className="label">Demodulation Paths</p>
-    <p className="value">Up to 10 Parallel Paths</p>
+
+    <p className="label">Maximum BLE Connections</p>
+    <p className="value">Multiple Concurrent BLE Devices (Configurable)</p>
     <br />
-    <p className="label">Uplink Channels</p>
-    <p className="value">8 Channels</p>
+
+    <p className="label">Data Handling</p>
+    <p className="value">Periodic Scanning, Event-Based Collection, On-Demand Reads</p>
     <br />
-    <p className="label">Downlink Channel</p>
-    <p className="value">1 Channel</p>
+
+    <p className="label">Data Forwarding Protocols</p>
+    <p className="value">MQTT, HTTP, HTTPS, TCP/IP</p>
     <br />
-    <p className="label">Tx Power</p>
-    <p className="value">Up to 27 dBm @ SF12, BW 125 kHz</p>
+
+    <p className="label">Local Buffering</p>
+    <p className="value">Supported (Store-and-Forward during Network Outages)</p>
     <br />
-    <p className="label">Rx Sensitivity</p>
-    <p className="value">Down to ‑139 dBm @ SF12, BW 125 kHz</p>
+
+    <p className="label">Transmission Range (Indoor)</p>
+    <p className="value">Up to 30–50 meters (Environment Dependent)</p>
     <br />
-    <p className="label">Data‑Rate</p>
-    <p className="value">Adaptive Data‑Rate (ADR)</p>
+
+    <p className="label">Security</p>
+    <p className="value">Secure BLE Pairing, Encrypted Wi-Fi Backhaul</p>
   </div>
 </div>
 
-
 <div class="faint-line"></div>
-
 
 
 <div className="spec-block">
@@ -279,6 +305,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   <div className="spec-block-details">
     <p className="label">Bands</p>
     <p className="value">2.4 GHz ISM Band</p>
+    <p className="value">5 GHz ISM Band</p>
     <br />
     <p className="label">Standards</p>
     <p className="value">IEEE 802.11 b/g/n, 802.3, 802.3u, 802.11e-compatible bursting</p>
@@ -323,18 +350,36 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Supported <br /> LNS
+    Supported <br /> Cloud & Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations Through TCP/IP</p>
-    <br />  
+    <p className="label">Cloud Connectivity</p>
+    <p className="value">Public Cloud Platforms</p>
+    <p className="value">Private Cloud Deployments</p>
+    <p className="value">On-Premise Servers</p>
+    <br />
+
+    <p className="label">Protocol Support</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">HTTP / HTTPS APIs</p>
+    <p className="value">TCP/IP Based Systems</p>
+    <br />
+
+    <p className="label">IoT & Data Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">Google Cloud IoT (via MQTT / HTTP)</p>
+    <p className="value">Custom IoT Platforms</p>
+    <br />
+
+    <p className="label">Enterprise Systems</p>
+    <p className="value">SCADA Systems</p>
+    <p className="value">BMS / IBMS Platforms</p>
+    <p className="value">Data Lakes & Analytics Engines</p>
+    <br />
+
+    <p className="label">Integration Method</p>
+    <p className="value">REST APIs, Webhooks, MQTT Topics</p>
   </div>
 </div>
 
@@ -358,13 +403,13 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
     <p className="value">IP35</p>    
     <br />
     <p className="label">Housing Material</p>
-    <p className="value">Aluminium</p>    
+    <p className="value">Plastic</p>    
     <br />
     <p className="label">Color</p>
     <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
-    <p className="value">~410g</p>    
+    <p className="value">~140g</p>    
     <br />
     <p className="label">Mounting Options(Brackets)</p>
     <p className="value">Pole Mounting / Wall Mounting</p>    
@@ -429,7 +474,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 </div>
 
 
-##  Setu X1 Variants
+##  Setu WX1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -444,7 +489,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   </thead>
   <tbody>
     <tr>
-      <td>Setu X1</td>
+      <td>Setu WX1</td>
       <td>12–24 V (Power)</td>
       <td>✔️</td>
       <td>✖️</td>
@@ -452,7 +497,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
       <td>Ideal for small indoor networks with stable Wi-Fi backhaul such as offices, retail stores and hospitality environments.</td>
     </tr>
     <tr>
-      <td>Setu X2</td>
+      <td>Setu WX2</td>
       <td>12–24 V (Power)</td>
       <td>✔️</td>
       <td>✔️</td>
@@ -460,7 +505,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
       <td>Best for enterprise networks requiring reliable wired Ethernet connectivity and expanded indoor coverage in commercial buildings.</td>
     </tr>
     <tr>
-      <td>Setu X3</td>
+      <td>Setu WX3</td>
       <td>12–24 V (Power)</td>
       <td>✔️</td>
       <td>✔️</td>
@@ -470,46 +515,6 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   </tbody>
 </table>
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
-
--->
 
 ## What's in the box ?
 
