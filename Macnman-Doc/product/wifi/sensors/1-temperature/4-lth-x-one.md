@@ -1,43 +1,47 @@
 ---
-id: macsync-lx-two-datasheet
-title: MacSync-LX2
-sidebarposition: 2
+id: mlth-temp-humi-sensor-datasheet
+title: MLTH 301
+sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - rs485 to lorawan
-  - analog to lorawan
-  - modbus rtu lorawan
-  - lorawan data logger
-  - lorawan industrial controller
-  - 4-20ma lorawan transmitter
-  - 0-10v lorawan interface
+  - lorawan temperature humidity sensor
+  - compact lorawan temperature sensor
+  - mini lorawan humidity sensor
+  - small form factor lorawan sensor
+  - lorawan environmental sensor
+  - industrial temperature humidity sensor
+  - battery powered lorawan temp humidity sensor
+  - ultra compact iot sensor
+  - lorawan climate monitoring device
+  - indoor lorawan temperature sensor
+  - hvac temperature humidity monitoring
+  - cold chain temperature humidity sensor
+  - greenhouse climate sensor lorawan
+  - smart building iot sensor
+  - industrial iot environmental monitoring
+  - long range wireless temp humidity sensor
+  - low power lorawan sensor
   - macsync
   - macnman
-  - industrial iot data logger
-  - lorawan automation
-  - industrial sensor gateway
-  - rs485 modbus converter
-  - lorawan monitoring device
-  - long range wireless logger
-  - lorawan plc interface
-
+  - ip67 lorawan sensor
 ---
 
-# MacSync-LX2-STD-PO
+#  MLTH 301 Datasheet
 
 ## Product Overview
 
-**MacSync-LX2-STD-PO** is a high-performance **RS485 & Analog to LoRaWAN®** data logger, engineered for reliable industrial data acquisition in demanding environments. Designed for seamless integration with a wide range of MODBUS sensors, industrial meters, PLCs, transducers, and analog instruments, this device converts field data into long-range wireless LoRaWAN® packets with exceptional accuracy and stability.
+** MLTH 301** is a premium LoRaWAN® temperature, humidity & pressure sensor, engineered for high-accuracy environmental monitoring in the most demanding industrial and outdoor deployments. Built for precision and longevity, it continuously captures real-time atmospheric data and transmits it over ultra-long-range LoRaWAN® networks—ensuring maximum uptime with minimal power consumption.
 
-Equipped with **switchable RS485 / 4–20 mA / 0–10 V channels**, the MacSync-LX2-STD-PO adapts to virtually any industrial monitoring application—eliminating the need for multiple product variants. Its rugged enclosure, industrial-grade components, and ultra-stable power architecture make it ideal for factories, utilities, agriculture, process industries, environmental monitoring, cold storage, building automation, and remote asset telemetry.
+Powered by industrial-grade sensing elements and advanced thermal-isolation design, the  MLTH 301 delivers fast response, low drift, and exceptional measurement stability even under harsh weather or mechanical stress. Its rugged enclosure and ingress-protected design make it a perfect fit for smart agriculture, cold chain logistics, HVAC automation, smart cities, warehouses, greenhouses, and remote environmental stations.
 
-With support for LoRaWAN® v1.0.4, Macnman MacTalk Protocol, Class A & C modes, and an internal high-efficiency antenna, it offers ultra-long-range communication, minimal power consumption, and carrier-grade reliability. The device also includes secure onboarding, OTA configuration via BLE (Maya App), and optional onboard data buffering for fail-safe operation even during network outages.
+With support for LoRaWAN® v1.0.4, Class A operation, high-efficiency internal antenna, AES-256 encrypted communication, and optional BLE-based OTA configuration through the Maya App, deployment and maintenance become effortless and scalable for large industrial fleets.
 
-Whether you’re building a smart factory, deploying large-scale IoT networks, or retrofitting legacy equipment, MacSync-LX2-STD-PO delivers seamless, scalable, and future-proof connectivity—turning any industrial sensor into a smart LoRaWAN® endpoint.
+Whether you’re modernizing legacy monitoring systems or delivering intelligent environmental analytics at scale,  MLTH 301 provides a future-proof, carrier-grade, and low-maintenance sensing platform—transforming raw climate conditions into actionable intelligence for smarter decisions.
 
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+
+| ![Image 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -58,7 +62,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LX2-STD-PO</p>
+      <p>Click here to view the decoders for  MLTH 301</p>
     </div>
   </a>
 </div>
@@ -69,70 +73,65 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 
 <div className="reusable-feature-grid">
 
-  <div className="reusable-feature-card">
-    <strong>RS485 (MODBUS RTU) Interface</strong>
-    Seamlessly connects with industrial controllers, meters, and smart instruments.
-  </div>
+<div className="reusable-feature-card">
+  <strong>High‑Accuracy Sensing</strong>
+  Precision temperature, humidity & barometric pressure measurement for reliable climate intelligence.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>4–20 mA, 0–10 V & Digital Inputs</strong>
-    Supports industry-standard analog sensors and digital switches.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Industrial‑Grade Sensors</strong>
+  Low drift, fast response, and long‑term measurement stability in harsh environments.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Compatible with Energy Meters, PLCs & Transmitters</strong>
-    Designed for universal industrial integration.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Ultra‑Low Power Operation</strong>
+  Battery‑optimized LoRaWAN® Class A communication for multi‑year field deployments.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Multiple Analog Channels</strong>
-    Enables simultaneous monitoring of multiple process parameters.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Smart Uplink Strategies</strong>
+  Periodic reporting, threshold‑based triggers & event‑driven uplinks to reduce battery usage.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Robust & Weatherproof</strong>
-    Built with an industrial-grade enclosure suitable for harsh environments.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Secure Wireless Transmission</strong>
+  AES‑128 encryption with OTAA activation for reliable, long‑range connectivity.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Smart Uplink Modes</strong>
-    Supports periodic, threshold-based, and event-driven LoRaWAN uplinks.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Ingress‑Protected Enclosure</strong>
+  Designed for indoor and outdoor use — IP65 standard (IP67 optional).
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Designed for Industrial & Outdoor Deployments</strong>
-    Perfect for factories, utilities, agriculture, and remote monitoring.
-  </div>
+<div className="reusable-feature-card">
+  <strong>BLE Configuration via Maya App</strong>
+  Local setup, diagnostics, and OTA configuration using a smartphone.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Easy BLE Configuration</strong>
-    Local setup and diagnostics made simple with the Maya mobile app.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Compatible with All LoRaWAN® Networks</strong>
+  Works seamlessly with major public & private network servers.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol Support</strong>
-    Enables device-to-device LoRa communication without a gateway.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Long‑Range Communication</strong>
+  Robust LoRa coverage for agriculture fields, factories & remote outdoor sites.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Secure Onboarding</strong>
-    Ships with pre-flashed DevEUI, AppEUI, and AppKey for fast activation.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Internal High‑Efficiency Antenna</strong>
+  Optimized radiation pattern for long‑distance communication stability.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Direct Control & Local Automation</strong>
-    Supports local device-to-device actions without cloud dependency.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Compact & Lightweight Design</strong>
+  Easy pole/wall mounting for permanent or temporary installations.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Optional Onboard Data Buffering</strong>
-    Prevents data loss during network downtime by storing records locally.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Fully LoRaWAN® Compatible</strong>
-    Works with all network servers and standard LoRaWAN gateways.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Future‑Proof Industrial IoT Ready</strong>
+  Enables automated climate control & intelligent data analytics across industries.
+</div>
 
 </div>
 <div class="faint-line"></div>
@@ -142,53 +141,48 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Connects PLCs, RTUs, and industrial controllers to LoRaWAN networks for real-time machine monitoring.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Energy & Utility Metering</strong>
-    Integrates with RS485 energy meters, water meters, and gas meters for remote automated meter reading.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Process Monitoring</strong>
-    Ideal for pressure transmitters, flow transmitters, level sensors, and temperature transmitters using 4–20 mA / 0–10 V.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Cold Storage & HVAC Systems</strong>
-    Captures critical temperature, humidity, and equipment health parameters from analog/RS485 sensors.
-  </div>
-
-  <div className="reusable-feature-card">
     <strong>Smart Agriculture</strong>
-    Supports soil moisture sensors, weather probes, irrigation controllers, and pump monitoring systems.
+    Environmental sensing for farms, greenhouses, vineyards, and horticulture climate automation.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water & Wastewater Management</strong>
-    Works with flow meters, pressure sensors, water level transmitters, and pump control systems.
+    <strong>Cold Chain Monitoring</strong>
+    Reliable temperature & humidity tracking for warehouses, cold rooms, vaccine storage & food logistics.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Safety Systems</strong>
-    Monitors critical sensors like leak detectors, vibration sensors, and emergency digital inputs.
+    <strong>Smart Buildings & HVAC</strong>
+    Indoor air comfort and HVAC system efficiency monitoring in offices, malls & industrial buildings.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings</strong>
-    Integrates with HVAC controllers, IAQ sensors, and digital input equipment for automation.
+    <strong>Environment & Weather Stations</strong>
+    Pressure, temperature & humidity monitoring for micro‑climate analysis and air health.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Infrastructure Monitoring</strong>
-    Supports monitoring of telecom towers, generators, solar inverters, and battery banks via RS485.
+    <strong>Remote Infrastructure</strong>
+    Climate exposure tracking for telecom towers, substations, wind turbines & solar plants.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Environmental & Field Monitoring</strong>
-    Connects environmental sensors such as air quality, weather, and environmental transmitters.
+    <strong>Warehouses & Storage Rooms</strong>
+    Ensures temperature/humidity‑controlled storage for pharma, FMCG & raw materials.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Industrial Automation</strong>
+    Environmental influence analysis for manufacturing processes & equipment protection.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Smart Cities</strong>
+    Distributed environmental sensing to support sustainability, safety & urban planning.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Mines, Tunnels & Harsh Sites</strong>
+    Monitoring isolated industrial locations with long‑range LoRaWAN wireless coverage.
   </div>
 
 </div>
@@ -203,7 +197,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-STD-PO-X2</p>
+    <p className="value"> MLTH 301</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -215,29 +209,71 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Interfaces <br /> Available
+    Temperature <br /> Measurement
   </div>
   <div className="spec-block-details">
-    <p className="label">RS485 Interface</p>
-    <p className="value">1 (Switchable)</p>
+    <p className="label">Range</p>
+    <p className="value">-30°C to +70°C</p>
     <br />
-    <p className="label">4-20 mA Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
+    <p className="label">Accuracy</p>
+    <p className="value">0°C to +70°C: ±0.3°C &amp; -30°C to 0°C: ±0.6°C</p>
     <br />
-    <p className="label">0-10 V Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
+    <p className="label">Resolution</p>
+    <p className="value">0.1°C</p>
     <br />
-    <p className="label">Digital Inputs</p>
-    <p className="value">x 2 (Switchable)</p>    
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
     <br />
-    <p className="label">ADC Resolution</p>
-    <p className="value">12-bit</p>
+    <p className="label">Probe Options</p>
+    <p className="value">Internal &amp; External Both Options</p>
   </div>
 </div>
 
-:::note
-The device use same channels for the RS485 & Analog inputs, either can be used at a time.
-:::
+<div class="faint-line"></div>
+
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Humidity <br /> Measurement
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Range</p>
+    <p className="value">0% to 100% RH</p>
+    <br />
+    <p className="label">Accuracy</p>
+    <p className="value">10% to 90% RH: ±3% RH &amp; &lt;10% or &gt;90% RH: ±5% RH</p>
+    <br />
+    <p className="label">Resolution</p>
+    <p className="value">0.5% RH</p>
+    <br />
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Pressure <br /> Measurement*
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Range</p>
+    <p className="value">300 hPa to 1100 hPa</p>
+    <br />
+    <p className="label">Accuracy</p>
+    <p className="value">±1.0 hPa (typical at 25°C, 300–1100 hPa)</p>
+    <br />
+    <p className="label">Resolution</p>
+    <p className="value">0.1 hPa</p>
+    <br />
+    <p className="label">Long‑Term Stability</p>
+    <p className="value">≤ ±1 hPa/year</p>
+    <br />
+    <p className="label">Calibration</p>
+    <p className="value">Factory calibrated</p>
+  </div>
+</div>
 
 <div class="faint-line"></div>
 
@@ -257,7 +293,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
     <br />
     <p className="label">Sensitivity</p>
     <p className="value">-137 dBm @ 300 bps</p>
@@ -293,7 +329,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
+    <p className="value">A confirmed parameter of device is being modified</p>
     <br />
 
 
@@ -326,6 +362,26 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
+    Battery <br /> Performance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Battery Type</p>
+    <p className="value">Li-SOCl₂ Cell (09Ah) Industrial grade</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Battery Life</p>
+    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Supported <br /> LNS
   </div>
   <div className="spec-block-details">
@@ -348,7 +404,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply</p>
+    <p className="label">Power Supply(Optional)</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -382,7 +438,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range</p>
+    <p className="label">Input Voltage Range (Optional Varient)</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
@@ -451,7 +507,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSync-LX2-STD-PO Variants
+##   MLTH 301 Variants
 
 <table className="parameter-table">
   <thead>
@@ -466,28 +522,12 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-STD-PO-X1</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-STD-BO</td>
+      <td> MLTH 301-BO</td>
       <td>Battery</td>
-      <td>19 Ah</td>
+      <td>09 Ah</td>
       <td>✖️</td>
       <td>✔️</td>
       <td>Remote or portable deployments with low power</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-STD-SO-X1</td>
-      <td>Solar + Battery</td>
-      <td>12 Ah</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>Outdoor, off-grid, and energy-autonomous environments</td>
     </tr>
   </tbody>
 </table>
@@ -537,7 +577,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![title image](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
 
 :::note
 
@@ -548,11 +588,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![title image](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.svg)
 
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::

@@ -1,42 +1,38 @@
 ---
-id: macset-lx-one-datasheet
-title: MacSet-LX1
+id: macset-wx-one-datasheet
+title: MacSet-WX1
 sidebarposition: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Ultra-rugged Wi‑Fi IoT controller for remote switching, automation, and edge control.
 keywords:
-  - lorawan controller
-  - iot controller
-  - macset lx1
-  - macnman lorawan
+  - wifi iot controller
+  - wifi industrial controller
+  - macset wx1
+  - macnman wifi controller
   - industrial automation controller
   - remote io controller
-  - lorawan relay controller
-  - digital input controller
+  - wifi relay controller
+  - digital output controller
   - analog input controller
-  - rs485 lorawan gateway
-  - modbus to lorawan controller
-  - smart agriculture controller
-  - industrial iot automation
+  - rs485 wifi controller
+  - modbus wifi controller
+  - smart building controller
+  - industrial wifi automation
   - remote equipment controller
-  - lorawan device control
-  - wireless industrial controller
-  - lorawan edge controller
-  - long range iot controller
-  - lorawan actuator module
-  - lorawan remote switching
+  - edge automation controller
+  - local automation controller
 
 ---
 
-# MacSet-LX1
+# MacSet-WX1
 
 ## Product Overview
-MacSet-LX1 is a robust, power-operated LoRaWAN® controller designed for reliable remote control and automation of industrial and field equipment. Equipped with 2 high-current digital outputs, it enables secure wireless switching of pumps, motors, valves, alarms, solenoids, lighting systems, and other electrical loads through any LoRaWAN network.
+MacSet‑WX1 is a robust, power‑operated Wi‑Fi IoT controller designed for reliable remote control and automation of industrial, commercial, and building infrastructure. Equipped with 2 high‑current digital outputs, it enables secure switching of pumps, motors, valves, alarms, solenoids, lighting systems, and other electrical loads over standard Wi‑Fi networks.
 
-Engineered for demanding industrial environments, the MacSet-LX1 features a stable 12–24 V DC power architecture, noise-immune circuitry, and an IP66-rated enclosure suitable for outdoor and harsh conditions. Its long-range LoRaWAN® radio ensures strong performance across large farms, industrial plants, buildings, and remote infrastructure sites.
+Designed for demanding environments, MacSet‑WX1 features a stable 12–24 V DC power architecture, noise‑immune circuitry, and an IP‑rated industrial enclosure suitable for continuous operation. By leveraging Wi‑Fi connectivity, the controller can communicate directly with on‑premise servers, local dashboards, or cloud platforms without the need for gateways.
 
-The device supports LoRaWAN® v1.0.4, Class A & C, the Macnman MacTalk Protocol, and OTA configuration via BLE using the Maya App, enabling fast deployment and flexible control logic. The controller also supports local automation, enabling direct device-to-device actions without requiring cloud access.
+The device supports MQTT, HTTP/HTTPS communication, along with OTA configuration and firmware updates. Local automation logic allows actions to be executed based on timers, inputs, or rules even when internet connectivity is unavailable.
 
-Whether used for smart agriculture, industrial automation, water management, or remote asset control, MacSet-LX1 provides a powerful, scalable, and future-proof solution for wireless switching and automation across any LoRaWAN-based system.
+Ideal for smart buildings, industrial automation, energy management, and remote equipment control, MacSet‑WX1 delivers a scalable, gateway‑free, and future‑ready Wi‑Fi control solution.
 
 
 | ![Front view of MacSet-LX1 LoRaWAN controller with dual digital outputs](/img/controller/macset-lx1-front-view..webp) | ![Back view of MacSet-LX1 showing enclosure and wiring openings](/img/controller/macset-lx1-back-view.webp) |
@@ -84,13 +80,13 @@ Whether used for smart agriculture, industrial automation, water management, or 
   </div>
 
   <div className="reusable-feature-card">
-    <strong>LoRaWAN® v1.0.4 Controller</strong>
-    Long-range wireless control using standard LoRaWAN networks and servers.
+    <strong>Industrial Wi‑Fi IoT Controller</strong>
+    Direct IP‑based communication over Wi‑Fi for local and cloud automation.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Supports Class A & Class C Modes</strong>
-    Choose low-power command reception or always-on fast-response control.
+    <strong>Local & Cloud Control Modes</strong>
+    Operate devices via local network control or cloud‑based dashboards.
   </div>
 
   <div className="reusable-feature-card">
@@ -99,28 +95,28 @@ Whether used for smart agriculture, industrial automation, water management, or 
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol</strong>
-    Enables peer-to-peer LoRa control between devices without requiring a gateway.
+    <strong>Standard IP Protocols</strong>
+    Supports MQTT, HTTP/HTTPS, and TCP/IP for easy server and cloud integration.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Secure Remote Switching</strong>
-    Uses encrypted LoRaWAN payloads for reliable and safe equipment control.
+    Encrypted Wi‑Fi communication ensures secure and reliable equipment control.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>BLE Configuration via Maya App</strong>
-    Quick on-site setup, testing, and diagnostics using Bluetooth Low Energy.
+    <strong>OTA Configuration & Firmware Updates</strong>
+    Remote device configuration and software upgrades via Wi‑Fi.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>IP66 Industrial-Grade Enclosure</strong>
+    <strong>IP-Rated Industrial Enclosure</strong>
     Rugged design suitable for outdoor, dusty, and moisture-prone environments.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Event-Based Actuation</strong>
-    Trigger outputs based on network commands, scheduled uplinks, or device rules.
+    Trigger outputs based on network commands, schedules, or device rules.
   </div>
 
   <div className="reusable-feature-card">
@@ -129,13 +125,8 @@ Whether used for smart agriculture, industrial automation, water management, or 
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Firmware OTA-Ready</strong>
-    Future upgrades, improvements, and feature releases supported over BLE.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Compatible with All LoRaWAN® Servers</strong>
-    Integrates seamlessly with ChirpStack, The Things Stack, Actility, Everynet, and more.
+    <strong>Flexible Platform Integration</strong>
+    Compatible with on-premise servers, private clouds, and local dashboards.
   </div>
 </div>
 
@@ -249,34 +240,19 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Wireless <br /> Transmission
+    Network & <br /> Communication
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
+    <p className="label">Connectivity</p>
+    <p className="value">Wi‑Fi 2.4 GHz</p>
+    <p className="value">Wi‑Fi 5 GHz</p>
     <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <p className="value">External antenna optional</p>
+    <p className="label">Network Protocols</p>
+    <p className="value"> MQTT, HTTP, HTTPS</p>
     <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
+    <p className="label">Operating Mode</p>
+    <p className="value">Local Network / Cloud Connected</p>
     <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
-    <br />
-
   </div>
 </div>
 
@@ -330,18 +306,14 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Supported <br /> LNS
+    Supported <br /> Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <p className="value">On‑Premise Servers</p>
+    <p className="value">Private Cloud Platforms</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">HTTP/HTTPS APIs</p>
+    <p className="value">Local Dashboards & SCADA Systems</p>
   </div>
 </div>
 
@@ -410,7 +382,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS / HTTP</p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
@@ -446,7 +418,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">AES-256 end-to-end encryption</p>
     <br />
     <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes</p>
+    <p className="value">Secure Wi‑Fi authentication and credential‑based access</p>
     <br />
     <p className="label">Firmware Protection</p>
     <p className="value">Secure boot and signed OTA updates</p>
@@ -455,7 +427,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSync-LX2-STD-PO Variants
+##  MacSet-WX1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -470,7 +442,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </thead>
   <tbody>
     <tr>
-      <td>MacSet LX1</td>
+      <td>MacSet WX1</td>
       <td>12–24 V (Power)</td>
       <td>2</td>
       <td>✖️</td>
@@ -503,3 +475,4 @@ Accessories must be purchased separately & may
 not be included in the box.
 
 :::
+

@@ -1,58 +1,58 @@
 ---
-id: macset-lx-one-datasheet-iot
-title: MacSet-LX1
-sidebarposition: 1
+id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
+title: MacRay-LU4
+sidebarposition: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan controller
-  - iot controller
-  - macset lx1
-  - macnman lorawan
-  - industrial automation controller
-  - remote io controller
-  - lorawan relay controller
-  - digital input controller
-  - analog input controller
-  - rs485 lorawan gateway
-  - modbus to lorawan controller
-  - smart agriculture controller
-  - industrial iot automation
-  - remote equipment controller
-  - lorawan device control
-  - wireless industrial controller
-  - lorawan edge controller
-  - long range iot controller
-  - lorawan actuator module
-  - lorawan remote switching
-
+  - lorawan ultrasonic level sensor
+  - sub 4 meter ultrasonic sensor
+  - manhole level monitoring sensor
+  - smart water management iot device
+  - underground drainage monitoring
+  - sewer level monitoring system
+  - tank liquid level measurement
+  - flood detection sensor lorawan
+  - sump pit level monitoring iot
+  - water utility smart metering solution
+  - ultrasonic distance measurement iot
+  - industrial waste water monitoring
+  - long range wireless water level sensor
+  - battery powered lorawan sensor
+  - ultrasonic level transmitter lorawan
+  - smart city drainage monitoring sensor
+  - environmental monitoring sensor lorawan
+  - ip67 rugged ultrasonic sensor
+  - remote tank monitoring solution
+  - industrial iot automation device
 ---
 
-# MacSet-LX1
+# MacRay-LU4 Datasheet
 
 ## Product Overview
-MacSet-LX1 is a robust, power-operated LoRaWAN® controller designed for reliable remote control and automation of industrial and field equipment. Equipped with 2 high-current digital outputs, it enables secure wireless switching of pumps, motors, valves, alarms, solenoids, lighting systems, and other electrical loads through any LoRaWAN network.
 
-Engineered for demanding industrial environments, the MacSet-LX1 features a stable 12–24 V DC power architecture, noise-immune circuitry, and an IP66-rated enclosure suitable for outdoor and harsh conditions. Its long-range LoRaWAN® radio ensures strong performance across large farms, industrial plants, buildings, and remote infrastructure sites.
+MacRay-LU4 is a **rugged LoRaWAN® ultrasonic level sensor** designed for short-range precision (0–4 meters) monitoring of liquids and solids in harsh outdoor and industrial environments. With advanced time-of-flight ultrasonic measurement and intelligent echo processing technology, it ensures high-accuracy level detection for tanks, pits, manholes, sumps, reservoirs, waste processing chambers, and flood monitoring systems.
 
-The device supports LoRaWAN® v1.0.4, Class A & C, the Macnman MacTalk Protocol, and OTA configuration via BLE using the Maya App, enabling fast deployment and flexible control logic. The controller also supports local automation, enabling direct device-to-device actions without requiring cloud access.
+Engineered with **IP67 sensor protection**, corrosion-resistant housing, and advanced interference filtering, the MacRay-LU4 operates reliably in moisture-rich, chemically aggressive, and dusty environments where traditional level sensors fail. It supports LoRaWAN® Class A, long-range coverage, and offers multi-year battery performance, making it ideal for remote and unmanned sites.
 
-Whether used for smart agriculture, industrial automation, water management, or remote asset control, MacSet-LX1 provides a powerful, scalable, and future-proof solution for wireless switching and automation across any LoRaWAN-based system.
+The device integrates AES-256 encrypted LoRaWAN® communication, over-the-air configuration via Maya App (BLE), and supports intelligent uplink modes including periodic, event-driven, and threshold-based triggers — enabling energy-efficient deployments at scale.
+
+Whether supporting smart water utilities, sewer & drainage systems, liquid storage tanks, waste tracking, or environmental flood alerts, MacRay-LU4 converts real-world level conditions into instant data, enabling proactive maintenance, reduced operational costs, and smarter city infrastructure.
 
 
-| ![Front view of MacSet-LX1 LoRaWAN controller with dual digital outputs](/img/controller/macset-lx1-front-view..webp) | ![Back view of MacSet-LX1 showing enclosure and wiring openings](/img/controller/macset-lx1-back-view.webp) |
+| ![](/img/lorawan/macray/macray-lu4-front-view.webp) | ![](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Side view of MacSet-LX1 industrial LoRaWAN controller unit](/img/controller/macset-lx1-io-ports.webp) | ![MacSet-LX1 I/O ports showing dual digital outputs and power interface](/img/controller/macset-lx1-side-view.webp) |
+| ![](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![](/img/lorawan/macray/macray-lu4-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSet-LX1-datasheet.pdf" 
+  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSet-LX1-datasheet.pdf)</strong>
+      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>
@@ -62,7 +62,7 @@ Whether used for smart agriculture, industrial automation, water management, or 
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LX2-STD-PO</p>
+      <p>Click here to view the decoders for MacRay-LU4</p>
     </div>
   </a>
 </div>
@@ -72,128 +72,105 @@ Whether used for smart agriculture, industrial automation, water management, or 
 ## Key Features
 
 <div className="reusable-feature-grid">
-
-  <div className="reusable-feature-card">
-    <strong>Dual High-Current Digital Outputs</strong>
-    Enables remote switching of pumps, motors, solenoids, alarms, and lighting loads.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Industrial 12–24 V Power Operation</strong>
-    Stable, noise-immune power input designed for factories and field installations.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>LoRaWAN® v1.0.4 Controller</strong>
-    Long-range wireless control using standard LoRaWAN networks and servers.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Supports Class A & Class C Modes</strong>
-    Choose low-power command reception or always-on fast-response control.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Local Automation Logic</strong>
-    Execute actions based on triggers, timers, or inputs—without cloud dependency.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol</strong>
-    Enables peer-to-peer LoRa control between devices without requiring a gateway.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Secure Remote Switching</strong>
-    Uses encrypted LoRaWAN payloads for reliable and safe equipment control.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>BLE Configuration via Maya App</strong>
-    Quick on-site setup, testing, and diagnostics using Bluetooth Low Energy.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>IP66 Industrial-Grade Enclosure</strong>
-    Rugged design suitable for outdoor, dusty, and moisture-prone environments.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Event-Based Actuation</strong>
-    Trigger outputs based on network commands, scheduled uplinks, or device rules.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Fail-Safe Output Handling</strong>
-    Supports power-restore behavior, default states, and safe automation routines.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Firmware OTA-Ready</strong>
-    Future upgrades, improvements, and feature releases supported over BLE.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Compatible with All LoRaWAN® Servers</strong>
-    Integrates seamlessly with ChirpStack, The Things Stack, Actility, Everynet, and more.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Short‑Range Precision Sensing</strong>
+  Optimized ultrasonic measurement for 0–4 meters liquid and solid level monitoring.
 </div>
 
+<div className="reusable-feature-card">
+  <strong>Advanced Echo Processing</strong>
+  Intelligent filtering eliminates false readings from foam, turbulence, and obstructions.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Battery‑Powered LoRaWAN®</strong>
+  Multi‑year autonomous operation with ultra‑low‑power wireless communication.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>IP67 Rugged Design</strong>
+  Durable and corrosion‑resistant enclosure built for harsh outdoor and underground environments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Smart Uplink Strategies</strong>
+  Periodic, event‑based & threshold alerts optimize power consumption and network traffic.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>BLE Configuration via Maya App</strong>
+  Quick setup, OTA parameter adjustment & diagnostics using a smartphone.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Wide Industrial Use</strong>
+  Designed for manholes, sewer drains, tanks, pits, reservoirs & flood monitoring.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Secure & Long‑Range Communication</strong>
+  AES‑128 encrypted LoRaWAN® connectivity with strong penetration in remote areas.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Flexible Deployment Options</strong>
+  Supports pole, wall, and custom mount installation for easy field deployment.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Compatible with All LoRaWAN® Networks</strong>
+  Works seamlessly with private/public network servers and cloud platforms.
+</div>
+</div>
 <div class="faint-line"></div>
 
 ## Suited Applications
+
 <div className="reusable-feature-grid">
-
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture & Irrigation</strong>
-    Remotely control irrigation pumps, valves, solenoids, and fertigation systems using LoRaWAN commands.
+    <strong>Smart Water Utilities</strong>
+    Continuous level monitoring for underground water tanks, overhead tanks, reservoirs, and sumps.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water & Wastewater Management</strong>
-    Operate pumps, blowers, aerators, chlorination units, and valve actuators at remote water sites.
+    <strong>Manhole & Sewer Level Monitoring</strong>
+    Detect overflow risks, blockages, and sewer flooding in drainage networks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Switch motors, relays, contactors, alarms, and machinery as part of factory automation workflows.
+    <strong>Flood & Stormwater Monitoring</strong>
+    Real-time alerts for rising levels in rivers, canals, storm drains, and flood-prone zones.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings & Facilities</strong>
-    Control lighting circuits, exhaust fans, access gates, HVAC auxiliary systems, and building utilities.
+    <strong>Industrial Wastewater Management</strong>
+    Accurate level detection in effluent treatment plants, sludge pits, and chemical tanks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Solar & Energy Systems</strong>
-    Remotely activate inverter controls, battery bank relays, or system bypass/switching mechanisms.
+    <strong>Mining & Quarry Operations</strong>
+    Level tracking in slurry pits, water sumps, and tailing dams for safety assurance.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Infrastructure Control</strong>
-    Manage field devices such as telecom tower equipment, remote panels, and unmanned site actuators.
+    <strong>Smart City Infrastructure</strong>
+    Remote monitoring of drainage networks to prevent urban flooding and road closures.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Storage & Food Industry</strong>
-    Switch compressors, fans, alarms, and standby systems using secure long-range LoRaWAN control.
+    <strong>Oil & Fuel Storage Tanks</strong>
+    Level measurement for diesel storage, fuel stations, and industrial oil chambers.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Pipeline & Industrial Utility Networks</strong>
-    Control valves, pumps, pressure release actuators, and emergency shutoff systems through LoRaWAN.
+    <strong>Remote & Unmanned Locations</strong>
+    Low-maintenance, long-range LoRaWAN® monitoring where wired installation is impractical.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart City Deployments</strong>
-    Operate sirens, public lighting, fountains, signage, and remote utility controllers wirelessly.
+    <strong>Environmental Risk Monitoring</strong>
+    Early warning for spill detection, groundwater rise, or hazardous waste overflow.
   </div>
-
-  <div className="reusable-feature-card">
-    <strong>Environmental Monitoring Systems</strong>
-    Trigger fans, blowers, alarms, or auxiliary devices based on sensor-driven automation rules.
-  </div>
-
 </div>
 
 <div class="faint-line"></div>
@@ -206,7 +183,7 @@ Whether used for smart agriculture, industrial automation, water management, or 
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSet LX1</p>
+    <p className="value">MacRay-LU4</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -218,32 +195,31 @@ Whether used for smart agriculture, industrial automation, water management, or 
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Interfaces <br /> Available
+    Ultrasonic <br /> Level Measurement
   </div>
   <div className="spec-block-details">
-    <p className="label">High Current Relay Outputs</p>
-    <p className="value">x2 @16 Amps</p>
-    <br />
-    <p className="label">RS485 Interface</p>
-    <p className="value">1 (Switchable)</p>
-    <br />
-    <p className="label">4-20 mA Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">0-10 V Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">Digital Inputs</p>
-    <p className="value">x 2 (Switchable)</p>    
-    <br />
-    <p className="label">ADC Resolution</p>
-    <p className="value">12-bit</p>
+<p className="label">Ranging Range</p>
+<p className="value">3 – 450 cm</p>
+<br />
+<p className="label">Blind Zone Distance</p>
+<p className="value">3 cm</p>
+<br />
+<p className="label">Response Time (Sensor)</p>
+<p className="value">100 ms</p>
+<br />
+<p className="label">Resolution</p>
+<p className="value">0.1 cm</p>
+<br />
+<p className="label">Center Frequency</p>
+<p className="value">40 kHz ± 1 kHz</p>
+<br />
+<p className="label">Sensing Angle</p>
+<p className="value">60°</p>
+<br />
+<p className="label">Protection Rating (Sensor)</p>
+<p className="value">IP67</p>
   </div>
 </div>
-
-:::note
-The device use same channels for the RS485 & Analog inputs, either can be used at a time.
-:::
 
 <div class="faint-line"></div>
 
@@ -258,7 +234,6 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <br />
     <p className="label">Antenna</p>
     <p className="value">Internal high-efficiency antenna</p>
-    <p className="value">External antenna optional</p>
     <br />
     <p className="label">Supported Bands</p>
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
@@ -300,7 +275,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSet-LX1 is being modified</p>
+    <p className="value">A confirmed parameter of MacRay is being modified</p>
     <br />
 
 
@@ -320,8 +295,31 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="label">Uplink Modes</p>
     <p className="value">Time Based / Threshold Based / Sampling Based</p>
     <br />
+    <p className="label">Stored Records*</p>
+    <p className="value">30,000 Records</p>
+    <br />
     <p className="label">Remote Configuration</p>
     <p className="value">JSON Format Data - from server</p>    
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Battery <br /> Performance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Battery Type</p>
+    <p className="value">Li-SOCl₂ Cell (12Ah) Industrial grade</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Battery Life</p>
+    <p className="value">Up to 2 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -352,7 +350,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply</p>
+    <p className="label">Power Supply (Optional)</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -368,7 +366,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">Glass field Nylon</p>    
     <br />
     <p className="label">Color</p>
-    <p className="value">Matte White</p>    
+    <p className="value">Matte Black</p>    
     <br />
     <p className="label">Weight</p>
     <p className="value">~110g</p>    
@@ -386,7 +384,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range</p>
+    <p className="label">Input Voltage Range (Optional Varient)</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
@@ -455,14 +453,14 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSync-LX2-STD-PO Variants
+##  MacRay-LU4 Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Relay Outputs</th>
+      <th>Battery Capacity</th>
       <th>Solar Support</th>
       <th>External Flash</th>
       <th>Ideal For</th>
@@ -470,39 +468,23 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </thead>
   <tbody>
     <tr>
-      <td>MacSet LX1</td>
+      <td>MacRay-LU4-PO</td>
       <td>12–24 V (Power)</td>
-      <td>2</td>
       <td>✖️</td>
       <td>✖️</td>
-      <td>Controlling Industrial or commercial sites with stable power supply</td>
+      <td>✔️</td>
+      <td>Industrial or commercial sites with stable power supply</td>
+    </tr>
+    <tr>
+      <td>MacRay-LU4-BO</td>
+      <td>Battery</td>
+      <td>12 Ah</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>Remote or portable deployments with low power</td>
     </tr>
   </tbody>
 </table>
-
-## What's in the box ?
-
-Make sure box contains following items before installations
-
-![macset box contains](/img/controller/macset-what-is-in-box-macnman.svg)
-
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::
-
-## Product Dimensions
-
-![title image](/img/controller/macset-dimensions-of-the-box.svg)
-
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::
 
 <!-- 
 <table className="spec-table">
@@ -544,3 +526,21 @@ not be included in the box.
 </table>
 
 -->
+
+## What's in the box ?
+
+Make sure box contains following items before installations
+
+![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+
+:::note
+
+Accessories must be purchased separately & may 
+not be included in the box.
+
+:::
+
+## Product Dimensions
+
+![title image](/img/lorawan/macray/macray-lu-four-dimensions.svg)
+

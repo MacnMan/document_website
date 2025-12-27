@@ -1,54 +1,58 @@
 ---
-id: macsync-lx-two-datasheet
-title: MacSync-LX2
-sidebarposition: 2
+id: macset-lx-one-datasheet
+title: MacSet-LX1
+sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - rs485 to lorawan
-  - analog to lorawan
-  - modbus rtu lorawan
-  - lorawan data logger
-  - lorawan industrial controller
-  - 4-20ma lorawan transmitter
-  - 0-10v lorawan interface
-  - macsync
-  - macnman
-  - industrial iot data logger
-  - lorawan automation
-  - industrial sensor gateway
-  - rs485 modbus converter
-  - lorawan monitoring device
-  - long range wireless logger
-  - lorawan plc interface
+  - lorawan controller
+  - iot controller
+  - macset lx1
+  - macnman lorawan
+  - industrial automation controller
+  - remote io controller
+  - lorawan relay controller
+  - digital input controller
+  - analog input controller
+  - rs485 lorawan gateway
+  - modbus to lorawan controller
+  - smart agriculture controller
+  - industrial iot automation
+  - remote equipment controller
+  - lorawan device control
+  - wireless industrial controller
+  - lorawan edge controller
+  - long range iot controller
+  - lorawan actuator module
+  - lorawan remote switching
 
 ---
 
-# MacSync-LX2-STD-PO
+# MacSet-LX1
 
 ## Product Overview
+MacSet-LX1 is a robust, power-operated LoRaWAN® controller designed for reliable remote control and automation of industrial and field equipment. Equipped with 2 high-current digital outputs, it enables secure wireless switching of pumps, motors, valves, alarms, solenoids, lighting systems, and other electrical loads through any LoRaWAN network.
 
-**MacSync-LX2-STD-PO** is a high-performance **RS485 & Analog to LoRaWAN®** data logger, engineered for reliable industrial data acquisition in demanding environments. Designed for seamless integration with a wide range of MODBUS sensors, industrial meters, PLCs, transducers, and analog instruments, this device converts field data into long-range wireless LoRaWAN® packets with exceptional accuracy and stability.
+Engineered for demanding industrial environments, the MacSet-LX1 features a stable 12–24 V DC power architecture, noise-immune circuitry, and an IP66-rated enclosure suitable for outdoor and harsh conditions. Its long-range LoRaWAN® radio ensures strong performance across large farms, industrial plants, buildings, and remote infrastructure sites.
 
-Equipped with **switchable RS485 / 4–20 mA / 0–10 V channels**, the MacSync-LX2-STD-PO adapts to virtually any industrial monitoring application—eliminating the need for multiple product variants. Its rugged enclosure, industrial-grade components, and ultra-stable power architecture make it ideal for factories, utilities, agriculture, process industries, environmental monitoring, cold storage, building automation, and remote asset telemetry.
+The device supports LoRaWAN® v1.0.4, Class A & C, the Macnman MacTalk Protocol, and OTA configuration via BLE using the Maya App, enabling fast deployment and flexible control logic. The controller also supports local automation, enabling direct device-to-device actions without requiring cloud access.
 
-With support for LoRaWAN® v1.0.4, Macnman MacTalk Protocol, Class A & C modes, and an internal high-efficiency antenna, it offers ultra-long-range communication, minimal power consumption, and carrier-grade reliability. The device also includes secure onboarding, OTA configuration via BLE (Maya App), and optional onboard data buffering for fail-safe operation even during network outages.
+Whether used for smart agriculture, industrial automation, water management, or remote asset control, MacSet-LX1 provides a powerful, scalable, and future-proof solution for wireless switching and automation across any LoRaWAN-based system.
 
-Whether you’re building a smart factory, deploying large-scale IoT networks, or retrofitting legacy equipment, MacSync-LX2-STD-PO delivers seamless, scalable, and future-proof connectivity—turning any industrial sensor into a smart LoRaWAN® endpoint.
 
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+| ![Front view of MacSet-LX1 LoRaWAN controller with dual digital outputs](/img/controller/macset-lx1-front-view..webp) | ![Back view of MacSet-LX1 showing enclosure and wiring openings](/img/controller/macset-lx1-back-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![Side view of MacSet-LX1 industrial LoRaWAN controller unit](/img/controller/macset-lx1-io-ports.webp) | ![MacSet-LX1 I/O ports showing dual digital outputs and power interface](/img/controller/macset-lx1-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="https://macnman.com/downloads/MacSet-LX1-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
+      <strong>[Download Datasheet](https://macnman.com/downloads/MacSet-LX1-datasheet.pdf)</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>
@@ -70,125 +74,124 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>RS485 (MODBUS RTU) Interface</strong>
-    Seamlessly connects with industrial controllers, meters, and smart instruments.
+    <strong>Dual High-Current Digital Outputs</strong>
+    Enables remote switching of pumps, motors, solenoids, alarms, and lighting loads.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>4–20 mA, 0–10 V & Digital Inputs</strong>
-    Supports industry-standard analog sensors and digital switches.
+    <strong>Industrial 12–24 V Power Operation</strong>
+    Stable, noise-immune power input designed for factories and field installations.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Compatible with Energy Meters, PLCs & Transmitters</strong>
-    Designed for universal industrial integration.
+    <strong>LoRaWAN® v1.0.4 Controller</strong>
+    Long-range wireless control using standard LoRaWAN networks and servers.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Multiple Analog Channels</strong>
-    Enables simultaneous monitoring of multiple process parameters.
+    <strong>Supports Class A & Class C Modes</strong>
+    Choose low-power command reception or always-on fast-response control.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Robust & Weatherproof</strong>
-    Built with an industrial-grade enclosure suitable for harsh environments.
+    <strong>Local Automation Logic</strong>
+    Execute actions based on triggers, timers, or inputs—without cloud dependency.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Uplink Modes</strong>
-    Supports periodic, threshold-based, and event-driven LoRaWAN uplinks.
+    <strong>Macnman MacTalk Protocol</strong>
+    Enables peer-to-peer LoRa control between devices without requiring a gateway.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Designed for Industrial & Outdoor Deployments</strong>
-    Perfect for factories, utilities, agriculture, and remote monitoring.
+    <strong>Secure Remote Switching</strong>
+    Uses encrypted LoRaWAN payloads for reliable and safe equipment control.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Easy BLE Configuration</strong>
-    Local setup and diagnostics made simple with the Maya mobile app.
+    <strong>BLE Configuration via Maya App</strong>
+    Quick on-site setup, testing, and diagnostics using Bluetooth Low Energy.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol Support</strong>
-    Enables device-to-device LoRa communication without a gateway.
+    <strong>IP66 Industrial-Grade Enclosure</strong>
+    Rugged design suitable for outdoor, dusty, and moisture-prone environments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Secure Onboarding</strong>
-    Ships with pre-flashed DevEUI, AppEUI, and AppKey for fast activation.
+    <strong>Event-Based Actuation</strong>
+    Trigger outputs based on network commands, scheduled uplinks, or device rules.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Direct Control & Local Automation</strong>
-    Supports local device-to-device actions without cloud dependency.
+    <strong>Fail-Safe Output Handling</strong>
+    Supports power-restore behavior, default states, and safe automation routines.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Optional Onboard Data Buffering</strong>
-    Prevents data loss during network downtime by storing records locally.
+    <strong>Firmware OTA-Ready</strong>
+    Future upgrades, improvements, and feature releases supported over BLE.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Fully LoRaWAN® Compatible</strong>
-    Works with all network servers and standard LoRaWAN gateways.
+    <strong>Compatible with All LoRaWAN® Servers</strong>
+    Integrates seamlessly with ChirpStack, The Things Stack, Actility, Everynet, and more.
   </div>
-
 </div>
+
 <div class="faint-line"></div>
 
 ## Suited Applications
-
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Connects PLCs, RTUs, and industrial controllers to LoRaWAN networks for real-time machine monitoring.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Energy & Utility Metering</strong>
-    Integrates with RS485 energy meters, water meters, and gas meters for remote automated meter reading.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Process Monitoring</strong>
-    Ideal for pressure transmitters, flow transmitters, level sensors, and temperature transmitters using 4–20 mA / 0–10 V.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Cold Storage & HVAC Systems</strong>
-    Captures critical temperature, humidity, and equipment health parameters from analog/RS485 sensors.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Smart Agriculture</strong>
-    Supports soil moisture sensors, weather probes, irrigation controllers, and pump monitoring systems.
+    <strong>Smart Agriculture & Irrigation</strong>
+    Remotely control irrigation pumps, valves, solenoids, and fertigation systems using LoRaWAN commands.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Water & Wastewater Management</strong>
-    Works with flow meters, pressure sensors, water level transmitters, and pump control systems.
+    Operate pumps, blowers, aerators, chlorination units, and valve actuators at remote water sites.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Safety Systems</strong>
-    Monitors critical sensors like leak detectors, vibration sensors, and emergency digital inputs.
+    <strong>Industrial Automation</strong>
+    Switch motors, relays, contactors, alarms, and machinery as part of factory automation workflows.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings</strong>
-    Integrates with HVAC controllers, IAQ sensors, and digital input equipment for automation.
+    <strong>Smart Buildings & Facilities</strong>
+    Control lighting circuits, exhaust fans, access gates, HVAC auxiliary systems, and building utilities.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Infrastructure Monitoring</strong>
-    Supports monitoring of telecom towers, generators, solar inverters, and battery banks via RS485.
+    <strong>Solar & Energy Systems</strong>
+    Remotely activate inverter controls, battery bank relays, or system bypass/switching mechanisms.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Environmental & Field Monitoring</strong>
-    Connects environmental sensors such as air quality, weather, and environmental transmitters.
+    <strong>Remote Infrastructure Control</strong>
+    Manage field devices such as telecom tower equipment, remote panels, and unmanned site actuators.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Cold Storage & Food Industry</strong>
+    Switch compressors, fans, alarms, and standby systems using secure long-range LoRaWAN control.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Pipeline & Industrial Utility Networks</strong>
+    Control valves, pumps, pressure release actuators, and emergency shutoff systems through LoRaWAN.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Smart City Deployments</strong>
+    Operate sirens, public lighting, fountains, signage, and remote utility controllers wirelessly.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Environmental Monitoring Systems</strong>
+    Trigger fans, blowers, alarms, or auxiliary devices based on sensor-driven automation rules.
   </div>
 
 </div>
@@ -203,7 +206,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-STD-PO-X2</p>
+    <p className="value">MacSet LX1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -218,6 +221,9 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
     Interfaces <br /> Available
   </div>
   <div className="spec-block-details">
+    <p className="label">High Current Relay Outputs</p>
+    <p className="value">x2 @16 Amps</p>
+    <br />
     <p className="label">RS485 Interface</p>
     <p className="value">1 (Switchable)</p>
     <br />
@@ -252,6 +258,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <br />
     <p className="label">Antenna</p>
     <p className="value">Internal high-efficiency antenna</p>
+    <p className="value">External antenna optional</p>
     <br />
     <p className="label">Supported Bands</p>
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
@@ -293,7 +300,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
+    <p className="value">A confirmed parameter of MacSet-LX1 is being modified</p>
     <br />
 
 
@@ -312,9 +319,6 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <br />
     <p className="label">Uplink Modes</p>
     <p className="value">Time Based / Threshold Based / Sampling Based</p>
-    <br />
-    <p className="label">Stored Records*</p>
-    <p className="value">30,000 Records</p>
     <br />
     <p className="label">Remote Configuration</p>
     <p className="value">JSON Format Data - from server</p>    
@@ -458,7 +462,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
+      <th>Relay Outputs</th>
       <th>Solar Support</th>
       <th>External Flash</th>
       <th>Ideal For</th>
@@ -466,28 +470,12 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-STD-PO-X1</td>
+      <td>MacSet LX1</td>
       <td>12–24 V (Power)</td>
+      <td>2</td>
       <td>✖️</td>
       <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-STD-BO</td>
-      <td>Battery</td>
-      <td>19 Ah</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-STD-SO-X1</td>
-      <td>Solar + Battery</td>
-      <td>12 Ah</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>Outdoor, off-grid, and energy-autonomous environments</td>
+      <td>Controlling Industrial or commercial sites with stable power supply</td>
     </tr>
   </tbody>
 </table>
@@ -537,7 +525,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![macset box contains](/img/controller/macset-what-is-in-box-macnman.svg)
 
 :::note
 
@@ -548,7 +536,7 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![title image](/img/controller/macset-dimensions-of-the-box.svg)
 
 :::note
 

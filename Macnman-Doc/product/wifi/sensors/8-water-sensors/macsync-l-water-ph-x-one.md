@@ -1,45 +1,51 @@
 ---
-id: macsync-lx-two-datasheet
-title: MacSync-LX2
-sidebarposition: 2
+id: macsync-l-water-quality-sensor
+title: MacSync-LWQ-X9
+sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - rs485 to lorawan
-  - analog to lorawan
-  - modbus rtu lorawan
-  - lorawan data logger
-  - lorawan industrial controller
-  - 4-20ma lorawan transmitter
-  - 0-10v lorawan interface
-  - macsync
-  - macnman
-  - industrial iot data logger
-  - lorawan automation
-  - industrial sensor gateway
-  - rs485 modbus converter
-  - lorawan monitoring device
-  - long range wireless logger
-  - lorawan plc interface
-
+  - lorawan water ph sensor
+  - lorawan ph sensor
+  - water quality ph sensor lorawan
+  - industrial ph sensor lorawan
+  - iot water ph monitoring sensor
+  - wireless ph sensor for water
+  - online water ph monitoring system
+  - drinking water ph sensor lorawan
+  - wastewater ph monitoring sensor
+  - stp ph sensor lorawan
+  - wwtp ph monitoring sensor
+  - river water ph monitoring lorawan
+  - lake reservoir ph sensor
+  - effluent ph monitoring sensor
+  - smart water quality monitoring iot
+  - battery powered lorawan ph sensor
+  - low power water ph sensor
+  - long range water quality sensor
+  - macsync water quality sensor
+  - lwqx1 ph sensor
+  - macnman lorawan water sensor
 ---
 
-# MacSync-LX2-STD-PO
+# MacSync-LWQ-X9 Datasheet
 
 ## Product Overview
 
-**MacSync-LX2-STD-PO** is a high-performance **RS485 & Analog to LoRaWAN®** data logger, engineered for reliable industrial data acquisition in demanding environments. Designed for seamless integration with a wide range of MODBUS sensors, industrial meters, PLCs, transducers, and analog instruments, this device converts field data into long-range wireless LoRaWAN® packets with exceptional accuracy and stability.
+**MacSync-LWQ-X9** is an industrial-grade **LoRaWAN® water quality pH sensor** designed for continuous, real-time monitoring of pH levels in drinking water systems, wastewater treatment plants, industrial effluents, and natural water bodies. Engineered for reliable long-term deployment, it enables accurate pH measurement in remote and distributed locations where wired monitoring systems are impractical.
 
-Equipped with **switchable RS485 / 4–20 mA / 0–10 V channels**, the MacSync-LX2-STD-PO adapts to virtually any industrial monitoring application—eliminating the need for multiple product variants. Its rugged enclosure, industrial-grade components, and ultra-stable power architecture make it ideal for factories, utilities, agriculture, process industries, environmental monitoring, cold storage, building automation, and remote asset telemetry.
+Built around a **high-stability electrochemical pH probe** and precision signal conditioning, MacSync-LWQ-X9 delivers consistent and repeatable pH data with minimal drift over extended operation. The sensor supports **online pH monitoring** in tanks, pipelines, reservoirs, rivers, lakes, STP and WWTP facilities—helping operators maintain regulatory compliance, optimize treatment processes, and detect abnormal water conditions at an early stage.
 
-With support for LoRaWAN® v1.0.4, Macnman MacTalk Protocol, Class A & C modes, and an internal high-efficiency antenna, it offers ultra-long-range communication, minimal power consumption, and carrier-grade reliability. The device also includes secure onboarding, OTA configuration via BLE (Maya App), and optional onboard data buffering for fail-safe operation even during network outages.
+Optimized for **ultra-low-power operation** and long-range wireless communication, the device securely transmits pH data over **LoRaWAN® networks**, enabling multi-year battery life even in harsh outdoor environments. Its rugged, ingress-protected enclosure and flexible mounting options make it suitable for permanent installations in municipal, industrial, and environmental monitoring applications.
 
-Whether you’re building a smart factory, deploying large-scale IoT networks, or retrofitting legacy equipment, MacSync-LX2-STD-PO delivers seamless, scalable, and future-proof connectivity—turning any industrial sensor into a smart LoRaWAN® endpoint.
+With support for **LoRaWAN® v1.0.4**, AES-encrypted communication, OTA configuration via the **Macnman Maya App**, and compatibility with all major public and private LoRaWAN® network servers, MacSync-LWQ-X9 provides a scalable and future-ready solution for **IoT-based water quality monitoring**—transforming raw pH measurements into actionable intelligence for smarter water management.
 
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
-|--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
-<div class="faint-line"></div>
+<div className="image-grid-2col">
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-water-ph-probe-front-view.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
+  <img src="/docs/img/lorawan/sensors/macsync/lorawan-water-ph-probe-side-view.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
+</div>
 
 ## Download Center
 
@@ -58,7 +64,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LX2-STD-PO</p>
+      <p>Click here to view the decoders for MacSync-LWQ-X9</p>
     </div>
   </a>
 </div>
@@ -70,71 +76,52 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>RS485 (MODBUS RTU) Interface</strong>
-    Seamlessly connects with industrial controllers, meters, and smart instruments.
+    <strong>High‑Accuracy Water pH Measurement</strong>
+    Continuous and reliable pH monitoring using an industrial‑grade electrochemical pH probe for precise water quality assessment.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>4–20 mA, 0–10 V & Digital Inputs</strong>
-    Supports industry-standard analog sensors and digital switches.
+    <strong>Online & Real‑Time pH Monitoring</strong>
+    Enables real‑time pH tracking in tanks, pipelines, reservoirs, rivers, STP and WWTP facilities for proactive water management.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Compatible with Energy Meters, PLCs & Transmitters</strong>
-    Designed for universal industrial integration.
+    <strong>Long‑Term Stability & Low Drift</strong>
+    Optimized signal conditioning and probe design ensure stable pH readings with minimal drift during long‑term deployments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Multiple Analog Channels</strong>
-    Enables simultaneous monitoring of multiple process parameters.
+    <strong>Ultra‑Low‑Power LoRaWAN® Connectivity</strong>
+    LoRaWAN® Class A architecture enables long‑range wireless transmission with multi‑year battery life.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Robust & Weatherproof</strong>
-    Built with an industrial-grade enclosure suitable for harsh environments.
+    <strong>Designed for Harsh Water Environments</strong>
+    Rugged, ingress‑protected enclosure suitable for continuous immersion and outdoor water monitoring applications.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Uplink Modes</strong>
-    Supports periodic, threshold-based, and event-driven LoRaWAN uplinks.
+    <strong>Remote Monitoring & Alerts</strong>
+    Supports threshold‑based alerts and event‑driven reporting for abnormal pH conditions.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Designed for Industrial & Outdoor Deployments</strong>
-    Perfect for factories, utilities, agriculture, and remote monitoring.
+    <strong>Flexible Deployment Options</strong>
+    Supports immersion and inline installations with flexible mounting for different water bodies and process pipelines.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Easy BLE Configuration</strong>
-    Local setup and diagnostics made simple with the Maya mobile app.
+    <strong>BLE Configuration via Maya App</strong>
+    Easy local configuration, diagnostics, and OTA updates using the Macnman Maya mobile application.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol Support</strong>
-    Enables device-to-device LoRa communication without a gateway.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Secure Onboarding</strong>
-    Ships with pre-flashed DevEUI, AppEUI, and AppKey for fast activation.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Direct Control & Local Automation</strong>
-    Supports local device-to-device actions without cloud dependency.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Optional Onboard Data Buffering</strong>
-    Prevents data loss during network downtime by storing records locally.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Fully LoRaWAN® Compatible</strong>
-    Works with all network servers and standard LoRaWAN gateways.
+    <strong>Secure & Scalable IoT Architecture</strong>
+    AES‑encrypted communication with compatibility across all major public and private LoRaWAN® network servers.
   </div>
 
 </div>
+
 <div class="faint-line"></div>
 
 ## Suited Applications
@@ -142,53 +129,43 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Connects PLCs, RTUs, and industrial controllers to LoRaWAN networks for real-time machine monitoring.
+    <strong>Drinking Water Quality Monitoring</strong>
+    Continuous pH monitoring in municipal water supply systems to ensure safe drinking water and regulatory compliance.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Energy & Utility Metering</strong>
-    Integrates with RS485 energy meters, water meters, and gas meters for remote automated meter reading.
+    <strong>Sewage Treatment Plants (STP)</strong>
+    Real-time pH tracking across treatment stages to optimize chemical dosing and process efficiency.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Process Monitoring</strong>
-    Ideal for pressure transmitters, flow transmitters, level sensors, and temperature transmitters using 4–20 mA / 0–10 V.
+    <strong>Wastewater Treatment Plants (WWTP)</strong>
+    Online pH monitoring for influent, effluent, and neutralization processes to meet discharge standards.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Storage & HVAC Systems</strong>
-    Captures critical temperature, humidity, and equipment health parameters from analog/RS485 sensors.
+    <strong>Industrial Effluent Monitoring</strong>
+    pH monitoring of industrial discharge to detect abnormal conditions and ensure environmental compliance.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture</strong>
-    Supports soil moisture sensors, weather probes, irrigation controllers, and pump monitoring systems.
+    <strong>Rivers, Lakes & Reservoirs</strong>
+    Long-term environmental pH monitoring of surface water bodies for pollution detection and ecosystem health assessment.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water & Wastewater Management</strong>
-    Works with flow meters, pressure sensors, water level transmitters, and pump control systems.
+    <strong>Water Distribution & Storage Tanks</strong>
+    pH monitoring in overhead tanks, underground reservoirs, and distribution networks for early anomaly detection.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Safety Systems</strong>
-    Monitors critical sensors like leak detectors, vibration sensors, and emergency digital inputs.
+    <strong>Cooling Towers & Process Water</strong>
+    Continuous pH monitoring to prevent corrosion, scaling, and chemical imbalance in industrial water systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings</strong>
-    Integrates with HVAC controllers, IAQ sensors, and digital input equipment for automation.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Remote Infrastructure Monitoring</strong>
-    Supports monitoring of telecom towers, generators, solar inverters, and battery banks via RS485.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Environmental & Field Monitoring</strong>
-    Connects environmental sensors such as air quality, weather, and environmental transmitters.
+    <strong>Environmental & Research Monitoring</strong>
+    Reliable pH data collection for water research, environmental studies, and long-term monitoring projects.
   </div>
 
 </div>
@@ -203,7 +180,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-STD-PO-X2</p>
+    <p className="value">MacSync-LWQ-X9</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -212,32 +189,51 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 
 <div class="faint-line"></div>
 
-
 <div className="spec-block">
   <div className="spec-block-title">
-    Interfaces <br /> Available
+    Water Ph <br /> Measurement
   </div>
   <div className="spec-block-details">
-    <p className="label">RS485 Interface</p>
-    <p className="value">1 (Switchable)</p>
-    <br />
-    <p className="label">4-20 mA Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">0-10 V Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">Digital Inputs</p>
-    <p className="value">x 2 (Switchable)</p>    
-    <br />
-    <p className="label">ADC Resolution</p>
-    <p className="value">12-bit</p>
+
+  <p className="label">Sensing Principle</p>
+  <p className="value">Ion selection method</p>
+  <br />
+
+  <p className="label">Detection Range</p>
+  <p className="value">0 to 14 pH</p>
+  <br />
+
+  <p className="label">Resolution</p>
+  <p className="value">0.01 pH</p>
+  <br />
+
+  <p className="label">Accuracy</p>
+  <p className="value">±0.1 pH</p>
+  <br />
+
+  <p className="label">Calibration Method</p>
+  <p className="value">Two‑point calibration</p>
+  <br />
+
+  <p className="label">Response Time</p>
+  <p className="value">10 seconds (typical)</p>
+  <br />
+
+  <p className="label">Temperature Compensation</p>
+  <p className="value">Automatic temperature compensation (NTC)</p>
+  <br />
+
+  <p className="label">Protection Level</p>
+  <p className="value">IP68 (up to 20 meters water depth)</p>
+  <br />
+
+  <p className="label">Service Life</p>
+  <p className="value">Sensor: 1 year (typical)</p>
+  <br />
+
   </div>
 </div>
 
-:::note
-The device use same channels for the RS485 & Analog inputs, either can be used at a time.
-:::
 
 <div class="faint-line"></div>
 
@@ -247,7 +243,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
   <div className="spec-block-details">
     <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
+    <p className="value">LoRaWAN®</p>
     <p className="value">Macnman MacTalk Protocol</p>
     <br />
     <p className="label">Antenna</p>
@@ -257,7 +253,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
     <br />
     <p className="label">Sensitivity</p>
     <p className="value">-137 dBm @ 300 bps</p>
@@ -326,6 +322,26 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
+    Battery <br /> Performance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Battery Type</p>
+    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Battery Life</p>
+    <p className="value">Up to 04 years (10 Mins Uplink Interval)</p>
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Supported <br /> LNS
   </div>
   <div className="spec-block-details">
@@ -348,7 +364,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply</p>
+    <p className="label">Power Supply (Optional)</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -367,7 +383,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
-    <p className="value">~110g</p>    
+    <p className="value">~210g</p>    
     <br />
     <p className="label">Mounting Options</p>
     <p className="value">Pole Mounting / Wall Mounting</p>    
@@ -379,10 +395,30 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 <div className="spec-block">
   <div className="spec-block-title">
+    Battery <br /> Performance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Battery Type</p>
+    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Battery Life</p>
+    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range</p>
+    <p className="label">Input Voltage Range (Optional Varient)</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
@@ -409,7 +445,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
     <br />
     <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (optional)</p>
+    <p className="value">RS485 Modbus RTU support (via gateway*)</p>
     <br />
   </div>
 </div>
@@ -451,7 +487,8 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSync-LX2-STD-PO Variants
+## MacSync-LWQ-X9 Variants
+
 
 <table className="parameter-table">
   <thead>
@@ -460,34 +497,30 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
       <th>Power Source</th>
       <th>Battery Capacity</th>
       <th>Solar Support</th>
-      <th>External Flash</th>
-      <th>Ideal For</th>
+      <th>Ideal Deployment</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-STD-PO-X1</td>
-      <td>12–24 V (Power)</td>
+      <td>MacSync-LWQ-X9-PO</td>
+      <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
+      <td>Industrial sites, automation systems & weather‑dependent machinery control</td>
     </tr>
     <tr>
-      <td>MacSync-L-STD-BO</td>
-      <td>Battery</td>
+      <td>MacSync-LWQ-X9-BO</td>
+      <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>✖️</td>
-      <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>Remote farms, plantations, research stations — no wired power required</td>
     </tr>
     <tr>
-      <td>MacSync-L-STD-SO-X1</td>
-      <td>Solar + Battery</td>
-      <td>12 Ah</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>Outdoor, off-grid, and energy-autonomous environments</td>
+      <td>MacSync-LWQ-X9-SO</td>
+      <td>Solar + Battery Hybrid</td>
+      <td>12 Ah (Rechargeable)</td>
+      <td>External solar charging</td>
+      <td>Long-term field deployments with real‑time climate automation in remote areas</td>
     </tr>
   </tbody>
 </table>
@@ -548,11 +581,7 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lorawan-water-ph-sensor-dimensions.svg)
 
-:::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lwq-x-ph-probe-overall-dimensions.webp)

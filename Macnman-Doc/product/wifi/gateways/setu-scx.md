@@ -1,44 +1,44 @@
 ---
-id: setu-x-one-datasheet
-title: Setu X1
-sidebarposition: 2
+id: setu-scx-single-channel-datasheet
+title: Setu SCX
+sidebarposition: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - indoor lorawan gateway
-  - smart building iot gateway
-  - lorawan ethernet wifi gateway
-  - compact lorawan access point
-  - private lorawan network gateway
-  - enterprise iot connectivity hub
-  - indoor wide area network gateway
-  - long range wireless indoor gateway
-  - secure lorawan network access point
-  - lorawan network server compatible gateway
-  - remote iot device management gateway
-  - energy efficient lorawan gateway
-  - industry 4.0 indoor automation gateway
-  - smart campus indoor iot backbone
-  - high sensitivity lorawan rf gateway
-  - multi backhaul lorawan gateway
-  - indoor positioning and asset tracking gateway
-  - scalable indoor iot infrastructure
+  - single channel LoRa gateway
+  - indoor cellular LoRa gateway
+  - wifi enabled LoRa gateway
+  - compact LoRa iot gateway
+  - low cost LoRa access point
+  - smart building LoRa gateway
+  - iot network extender for indoor coverage
+  - LoRa gateway for retail and offices
+  - single channel long range wireless gateway
+  - plug and play indoor LoRa gateway
+  - enterprise iot connectivity device
+  - LoRa gateway for small deployments
+  - scalable indoor LoRa network node
+  - smart campus indoor LoRa bridge
+  - indoor industrial iot communication hub
+  - LoRa device onboarding gateway
+  - LoRa cellular backhaul gateway
+  - cost-efficient LoRa indoor coverage
 ---
 
-# Setu X1 Datasheet
+# Setu SCX Datasheet
 
 ## Product Overview
 
-Setu X1 is a compact and enterprise‑grade **Indoor LoRaWAN® Gateway**, engineered to deliver reliable long‑range wireless connectivity inside smart buildings, commercial spaces, and industrial environments. Designed with a high‑sensitivity LoRaWAN® concentrator and optimized RF performance, Setu X1 enables seamless communication with thousands of IoT devices deployed across large indoor areas.
+Setu SCX is a cost‑efficient and compact **single‑channel Indoor LoRa® gateway** designed for small‑scale IoT deployments inside commercial and enterprise environments. Engineered for seamless and reliable wireless coverage in localized spaces, it acts as the perfect network extender for smart buildings and industrial interiors.
 
-With **Ethernet and Wi‑Fi backhaul** options, the gateway acts as a secure bridge between indoor LoRaWAN® sensors and private or cloud‑hosted network servers. Its fanless low‑power architecture, silent operation, and simple wall/ceiling installation make it the perfect fit for offices, hospitals, data centers, hotels, retail, and manufacturing floors.
+With **Wi‑Fi and Cellular backhaul connectivity**, Setu SCX eliminates the need for wired infrastructure—making it ideal for installations in places where Ethernet cabling is not available or practical. The ultra‑low‑power, fanless design ensures silent operation in offices, retail stores, hospitals, hotels, and indoor utility rooms.
 
-Setu X1 supports **AES‑128 encrypted communication**, **remote OTA firmware updates**, and centralized fleet management via MacCloud or popular LNS platforms such as ChirpStack, TTN, Orbiwise, Loriot, and more — ensuring scalable and resilient network performance.
+Setu SCX supports **AES‑128 encrypted communication**, OTA configuration and monitoring through MQTT / HTTPS secure and scalable network performance.
 
-Whether enabling energy monitoring, asset tracking, indoor environmental sensing or Industry 4.0 automation — **Setu X1 establishes a secure, scalable, and future‑proof LoRaWAN® network backbone** for enterprise IoT transformation.
+Whether enabling indoor environmental monitoring, asset tracking, energy management, occupancy sensing, or small‑area automation—**Setu SCX provides a simple, powerful, and plug‑and‑play LoRa® network entry point** for rapid IoT adoption.
 
-| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
+| ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-front.webp) | ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-integration.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-front-view.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-dimensions-drawing.webp) |
+| ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-mounting.webp) | ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-side.webp) |
 
 
 <div class="faint-line"></div>
@@ -60,7 +60,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
     <div className="icon">📝</div>
     <div>
       <strong>Firmware/SDK</strong>
-      <p>Click here to view the decoders for Setu X1</p>
+      <p>Click here to view the decoders for Setu SCX</p>
     </div>
   </a>
 </div>
@@ -71,43 +71,43 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>Compact Indoor LoRaWAN® Gateway</strong>
-  Sleek design optimized for indoor deployments in smart buildings, retail, hospitality and enterprise environments.
+  <strong>Compact Single‑Channel LoRa® Gateway</strong>
+  Designed for localized indoor IoT deployments with small device density and focused wireless coverage.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>High-Capacity LoRaWAN® Concentrator</strong>
-  Supports thousands of end-devices with strong RF performance and extended indoor coverage.
+  <strong>Dual Backhaul Connectivity</strong>
+  Wi‑Fi and Cellular connectivity for environments without Ethernet cabling or wired network access.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Multi Backhaul Connectivity</strong>
-  Ethernet + Wi-Fi options for simple installation and reliable network access without additional cabling.
+  <strong>Plug‑and‑Play Installation</strong>
+  Simple onboarding using MacCloud, DHCP auto‑connect and rapid provisioning for non‑technical deployment teams.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Enterprise-Grade Security</strong>
-  AES-128 network encryption with TLS-secured backhaul for protected data transmission.
+  <strong>Enterprise‑Grade Security</strong>
+  AES‑128 encrypted LoRa® communication with secure TLS‑based OTA configuration and device authentication.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Edge Processing & OTA Management</strong>
-  Supports remote configuration, diagnostics and firmware updates via MacCloud and major LoRaWAN® network servers.
+  <strong>Fanless Silent Operation</strong>
+  Zero‑noise design ideal for commercial indoor spaces like offices, hospitals and retail stores.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Fanless, Silent Operation</strong>
-  Low heat and noise profile ensures seamless installation in commercial and indoor environments.
+  <strong>Low‑Power Architecture</strong>
+  Efficient operation optimized for 24/7 uptime while reducing overall infrastructure cost.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Universal Network Server Compatibility</strong>
-  Works with Chirpstack, TTN, Loriot, Orbiwise, private networks and MQTT infrastructure.
+  <strong>Universal Server Compatibility</strong>
+  Works with private network servers with MQTT, HTTP, HTTPS integration.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Simple Wall & Ceiling Mounting</strong>
-  Flexible mounting options for easy deployment in enterprise infrastructure.
+  <strong>Flexible Mounting</strong>
+  Wall and ceiling installation supported for optimized RF propagation inside buildings.
 </div>
 </div>
 <div class="faint-line"></div>
@@ -117,7 +117,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
   <strong>Smart Buildings & Offices</strong>
-  Indoor LoRaWAN® connectivity hub for BMS automation, energy management and workplace monitoring.
+  Indoor LoRa® connectivity hub for BMS automation, energy management and workplace monitoring.
 </div>
 
 <div className="reusable-feature-card">
@@ -157,7 +157,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 
 <div className="reusable-feature-card">
   <strong>Public Venues & Indoor Infrastructure</strong>
-  Reliable LoRaWAN® coverage for airports, metros and community facilities.
+  Reliable LoRa® coverage for airports, metros and community facilities.
 </div>
 </div>
 
@@ -171,7 +171,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">Setu X1</p>
+    <p className="value">Setu SCX</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -187,22 +187,22 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   </div>
   <div className="spec-block-details">
 <p className="label">Processor Type</p>
-<p className="value">ARM Cortex Processor</p>
+<p className="value">nRF5340 Dual‑Core Bluetooth® LE & LoRa Gateway MCU</p>
 <br />
 <p className="label">Number of Cores</p>
-<p className="value">Duel Core</p>
+<p className="value">Dual‑Core (1× Application + 1× Network Core)</p>
 <br />
 <p className="label">Clock Speed</p>
-<p className="value">960 MHz per Core</p>
+<p className="value">128 MHz (Application Core) / 64 MHz (Network Core)</p>
 <br />
 <p className="label">Memory Size</p>
-<p className="value">256 MB RAM</p>
+<p className="value">512 KB RAM</p>
 <br />
-<p className="label">Memory Speed</p>
-<p className="value">Up to 1066 MHz</p>
+<p className="label">Memory Architecture</p>
+<p className="value">Low‑Power Multi‑Core Shared Memory Architecture</p>
 <br />
-<p className="label">Internal Storage</p>
-<p className="value">4 GB eMMC</p>
+<p className="label">Internal Flash</p>
+<p className="value">1 MB On‑Chip Flash + External Flash Support</p>
 <br />
 <p className="label">USB Port</p>
 <p className="value">Debug Interface (Bottom of Enclosure)</p>
@@ -210,7 +210,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 <p className="label">Connector Type</p>
 <p className="value">USB Type‑C</p>
 <br />
-<p className="label">Interface Protection (External*)</p>
+<p className="label">Interface Protection</p>
 <p className="value">Surge Protection Enabled</p>
   </div>
 </div>
@@ -219,54 +219,32 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 
 <div className="spec-block">
   <div className="spec-block-title">
-    LoRaWAN <br /> Specifications
+    LoRa <br /> Specifications
   </div>
   <div className="spec-block-details">
-    <p className="label">Compatibility</p>
-    <p className="value">LoRaWAN® Class A / B / C</p>
-    <br />
-    <p className="label">Frequency Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923‑1/2/3/4</p>
-    <br />
-    <p className="label">LoRa Demodulators</p>
-    <p className="value">8 × 8 LoRa Packet Detectors</p>
-    <br />
-    <p className="label">Demodulation Paths</p>
-    <p className="value">Up to 10 Parallel Paths</p>
-    <br />
-    <p className="label">Uplink Channels</p>
-    <p className="value">8 Channels</p>
-    <br />
-    <p className="label">Downlink Channel</p>
-    <p className="value">1 Channel</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">Up to 27 dBm @ SF12, BW 125 kHz</p>
-    <br />
-    <p className="label">Rx Sensitivity</p>
-    <p className="value">Down to ‑139 dBm @ SF12, BW 125 kHz</p>
-    <br />
-    <p className="label">Data‑Rate</p>
-    <p className="value">Adaptive Data‑Rate (ADR)</p>
-  </div>
-</div>
-
-
-<div class="faint-line"></div>
-
-
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Backhual  <br /> Ethernet
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Number of Ports</p>
-    <p className="value">x 1</p>
-    <br />
-    <p className="label">Type</p>
-    <p className="value">1 x 10/100M</p>
-    <br />
+<p className="label">Compatibility</p>
+<p className="value">Macnman LoRa Nodes & Controllers</p>
+<br />
+<p className="label">Supported Frequency Bands</p>
+<p className="value">IN865</p>
+<br />
+<p className="label">Channel Support</p>
+<p className="value">Single‑Channel (1 × Uplink / 1 × Downlink)</p>
+<br />
+<p className="label">Data‑Rate</p>
+<p className="value">Fixed Data‑Rate – No ADR (single‑channel limitation)</p>
+<br />
+<p className="label">Tx Power</p>
+<p className="value">+23 dBm @ IN865/868 MHz &nbsp;&nbsp; +20 dBm @ 915 MHz</p>
+<br />
+<p className="label">Rx Sensitivity</p>
+<p className="value">Down to –136 dBm @ SF12, BW 125 kHz</p>
+<br />
+<p className="label">Antenna Type</p>
+<p className="value">External High‑Efficiency LoRa Antenna</p>
+<br />
+<p className="label">Device Capacity</p>
+<p className="value">Optimized for Localized Indoor Installations with Small Node Density</p>
   </div>
 </div>
 
@@ -279,6 +257,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   <div className="spec-block-details">
     <p className="label">Bands</p>
     <p className="value">2.4 GHz ISM Band</p>
+    <p className="value">5 GHz ISM Band</p>
     <br />
     <p className="label">Standards</p>
     <p className="value">IEEE 802.11 b/g/n, 802.3, 802.3u, 802.11e-compatible bursting</p>
@@ -290,7 +269,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
     <p className="value">WEP, TKIP, AES, WPA, WPA2</p>
     <br />
     <p className="label">Antenna</p>
-    <p className="value">Internal Antenna Integrated in Enclosure</p>
+    <p className="value">External Antenna Integrated in Enclosure</p>
   </div>
 </div>
 
@@ -323,17 +302,12 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Supported <br /> LNS
+    Supported <br /> Protocols
   </div>
   <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations Through TCP/IP</p>
+    <p className="label">MQTT</p>
+    <p className="value">HTTP</p>
+    <p className="value">HTTPS</p>
     <br />  
   </div>
 </div>
@@ -364,32 +338,11 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
     <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
-    <p className="value">~410g</p>    
+    <p className="value">~190g</p>    
     <br />
     <p className="label">Mounting Options(Brackets)</p>
     <p className="value">Pole Mounting / Wall Mounting</p>    
     <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Input</p>
-    <p className="value">PoE IEEE 802.3af / 802.3at or 12–24 V DC</p>
-    <br />
-    <p className="label">Power Consumption (Typical)</p>
-    <p className="value">4.5 W (with Ethernet Backhaul)</p>
-    <br />
-    <p className="label">Power Consumption (Peak)</p>
-    <p className="value">Up to 7 W (with LTE & Wi‑Fi Active)</p>
-    <br />
-    <p className="label">Lightning / Surge Protection</p>
-    <p className="value">Integrated surge protection on power & RF ports</p>
   </div>
 </div>
 
@@ -417,7 +370,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   </div>
   <div className="spec-block-details">
     <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
+    <p className="value">AES-128 end-to-end encryption</p>
     <br />
     <p className="label">Authentication</p>
     <p className="value">OTAA activation modes (Nodes)</p>
@@ -429,7 +382,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 </div>
 
 
-##  Setu X1 Variants
+##  Setu SCX Variants
 
 <table className="parameter-table">
   <thead>
@@ -444,7 +397,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   </thead>
   <tbody>
     <tr>
-      <td>Setu X1</td>
+      <td>Setu SCX1</td>
       <td>12–24 V (Power)</td>
       <td>✔️</td>
       <td>✖️</td>
@@ -452,18 +405,10 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
       <td>Ideal for small indoor networks with stable Wi-Fi backhaul such as offices, retail stores and hospitality environments.</td>
     </tr>
     <tr>
-      <td>Setu X2</td>
+      <td>Setu SCX2</td>
       <td>12–24 V (Power)</td>
-      <td>✔️</td>
       <td>✔️</td>
       <td>✖️</td>
-      <td>Best for enterprise networks requiring reliable wired Ethernet connectivity and expanded indoor coverage in commercial buildings.</td>
-    </tr>
-    <tr>
-      <td>Setu X3</td>
-      <td>12–24 V (Power)</td>
-      <td>✔️</td>
-      <td>✔️</td>
       <td>✔️</td>
       <td>Designed for mission‑critical deployments where Ethernet, Wi‑Fi and LTE failover ensure uninterrupted connectivity in industrial and multi‑site facilities.</td>
     </tr>
@@ -480,7 +425,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
   <tbody>
     <tr>
       <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
+      <td>LoRa® (v1.0.4), Macnman MacTalk Protocol</td>
     </tr>
     <tr>
       <td>Antenna</td>
@@ -503,7 +448,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
       <td>OTAA / ABP</td>
     </tr>
     <tr>
-      <td>LoRaWAN® Class</td>
+      <td>LoRa® Class</td>
       <td>Class A (default), Configurable to Class C via Maya</td>
     </tr>
   </tbody>
@@ -515,7 +460,7 @@ Whether enabling energy monitoring, asset tracking, indoor environmental sensing
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-boxs.svg)
+![title image](/img/lorawan/gateways/setu-scx-what-in-box.svg)
 
 :::note
 
@@ -526,5 +471,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-dimensions.svg)
+![title image](/img/lorawan/gateways/setu-scx-lora-gateway-dimensions.svg)
 

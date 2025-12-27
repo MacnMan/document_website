@@ -1,45 +1,47 @@
 ---
-id: macsync-lx-two-datasheet
-title: MacSync-LX2
-sidebarposition: 2
+id: macsync-lorawan-pressure-sensor-x-series
+title: MacSync-L-PSXx
+sidebarposition: 6
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - rs485 to lorawan
-  - analog to lorawan
-  - modbus rtu lorawan
-  - lorawan data logger
-  - lorawan industrial controller
-  - 4-20ma lorawan transmitter
-  - 0-10v lorawan interface
-  - macsync
-  - macnman
-  - industrial iot data logger
-  - lorawan automation
-  - industrial sensor gateway
-  - rs485 modbus converter
-  - lorawan monitoring device
-  - long range wireless logger
-  - lorawan plc interface
-
+  - lorawan industrial pressure sensor
+  - liquid pipeline pressure monitoring
+  - water pressure monitoring iot device
+  - lorawan pressure transmitter
+  - fire hydrant pressure monitoring sensor
+  - industrial process automation pressure sensor
+  - sewage and effluent pressure monitoring
+  - wireless smart pressure logger
+  - oil and gas pressure monitoring system
+  - remote pipeline leakage detection lorawan
+  - ip67 waterproof pressure sensor
+  - battery powered pressure monitoring
+  - long range wireless sensor lorawan
+  - water utility pressure telemetry solution
+  - surge resistant industrial iot sensor
 ---
 
-# MacSync-LX2-STD-PO
+# MacSync-L-PSXx Datasheet
 
 ## Product Overview
 
-**MacSync-LX2-STD-PO** is a high-performance **RS485 & Analog to LoRaWAN®** data logger, engineered for reliable industrial data acquisition in demanding environments. Designed for seamless integration with a wide range of MODBUS sensors, industrial meters, PLCs, transducers, and analog instruments, this device converts field data into long-range wireless LoRaWAN® packets with exceptional accuracy and stability.
+MacSync-L-PSXx is a **high‑accuracy LoRaWAN® industrial liquid pressure monitoring device** engineered for real‑time measurement of water, chemical, and industrial fluid networks. It converts critical pressure data into secure wireless telemetry, enabling operators to detect leaks, pump inefficiencies, over‑pressure risks, and system failures before they escalate.
 
-Equipped with **switchable RS485 / 4–20 mA / 0–10 V channels**, the MacSync-LX2-STD-PO adapts to virtually any industrial monitoring application—eliminating the need for multiple product variants. Its rugged enclosure, industrial-grade components, and ultra-stable power architecture make it ideal for factories, utilities, agriculture, process industries, environmental monitoring, cold storage, building automation, and remote asset telemetry.
+Built using an **industrial‑grade stainless steel pressure transducer (SS316 diaphragm)**, the device delivers stable performance even in corrosive, high‑humidity, and vibration‑prone environments. Its **IP67‑rated enclosure**, wide operating temperature range, and robust surge protection make it suitable for harsh outdoor deployments.
 
-With support for LoRaWAN® v1.0.4, Macnman MacTalk Protocol, Class A & C modes, and an internal high-efficiency antenna, it offers ultra-long-range communication, minimal power consumption, and carrier-grade reliability. The device also includes secure onboarding, OTA configuration via BLE (Maya App), and optional onboard data buffering for fail-safe operation even during network outages.
+MacSync‑L‑PSXx supports **multi‑year battery operation** or external DC powering for versatile installation in both powered and fully remote locations. With **LoRaWAN® long‑range communication**, BLE‑based configuration using the Maya App, and intelligent sampling with event‑based alerts — the device supports zero‑maintenance pressure surveillance at scale.
 
-Whether you’re building a smart factory, deploying large-scale IoT networks, or retrofitting legacy equipment, MacSync-LX2-STD-PO delivers seamless, scalable, and future-proof connectivity—turning any industrial sensor into a smart LoRaWAN® endpoint.
+From **fire hydrant & fire‑pump discharge monitoring**, **municipal water distribution**, **industrial process control**, to **oil & gas pipeline pressure assurance** — **MacSync‑L‑PSXx unlocks smarter infrastructure decisions** with continuous visibility into fluid network health and operational safety.
 
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
-|--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+<div className="image-grid-2col">
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pressure-transducer-ss316.webp" alt="ss316 transducer" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pipeline-pressure-monitoring.webp" alt="pipeline monitoring" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pressure-sensor-front.webp" alt="industrial pressure sensor front" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="hydrant monitoring" />
+</div>
 
-<div class="faint-line"></div>
+
+<div class="faint-line"></div>  
 
 ## Download Center
 
@@ -58,7 +60,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LX2-STD-PO</p>
+      <p>Click here to view the decoders for MacSync-L-PSXx</p>
     </div>
   </a>
 </div>
@@ -68,129 +70,105 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 ## Key Features
 
 <div className="reusable-feature-grid">
+<div className="reusable-feature-card">
+  <strong>Short‑Range Precision Sensing</strong>
+  Optimized ultrasonic measurement for 0–4 meters liquid and solid level monitoring.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>RS485 (MODBUS RTU) Interface</strong>
-    Seamlessly connects with industrial controllers, meters, and smart instruments.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Advanced Echo Processing</strong>
+  Intelligent filtering eliminates false readings from foam, turbulence, and obstructions.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>4–20 mA, 0–10 V & Digital Inputs</strong>
-    Supports industry-standard analog sensors and digital switches.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Battery‑Powered LoRaWAN®</strong>
+  Multi‑year autonomous operation with ultra‑low‑power wireless communication.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Compatible with Energy Meters, PLCs & Transmitters</strong>
-    Designed for universal industrial integration.
-  </div>
+<div className="reusable-feature-card">
+  <strong>IP67 Rugged Design</strong>
+  Durable and corrosion‑resistant enclosure built for harsh outdoor and underground environments.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Multiple Analog Channels</strong>
-    Enables simultaneous monitoring of multiple process parameters.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Smart Uplink Strategies</strong>
+  Periodic, event‑based & threshold alerts optimize power consumption and network traffic.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Robust & Weatherproof</strong>
-    Built with an industrial-grade enclosure suitable for harsh environments.
-  </div>
+<div className="reusable-feature-card">
+  <strong>BLE Configuration via Maya App</strong>
+  Quick setup, OTA parameter adjustment & diagnostics using a smartphone.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Smart Uplink Modes</strong>
-    Supports periodic, threshold-based, and event-driven LoRaWAN uplinks.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Wide Industrial Use</strong>
+  Designed for manholes, sewer drains, tanks, pits, reservoirs & flood monitoring.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Designed for Industrial & Outdoor Deployments</strong>
-    Perfect for factories, utilities, agriculture, and remote monitoring.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Secure & Long‑Range Communication</strong>
+  AES‑128 encrypted LoRaWAN® connectivity with strong penetration in remote areas.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Easy BLE Configuration</strong>
-    Local setup and diagnostics made simple with the Maya mobile app.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Flexible Deployment Options</strong>
+  Supports pole, wall, and custom mount installation for easy field deployment.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol Support</strong>
-    Enables device-to-device LoRa communication without a gateway.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Secure Onboarding</strong>
-    Ships with pre-flashed DevEUI, AppEUI, and AppKey for fast activation.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Direct Control & Local Automation</strong>
-    Supports local device-to-device actions without cloud dependency.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Optional Onboard Data Buffering</strong>
-    Prevents data loss during network downtime by storing records locally.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Fully LoRaWAN® Compatible</strong>
-    Works with all network servers and standard LoRaWAN gateways.
-  </div>
-
+<div className="reusable-feature-card">
+  <strong>Compatible with All LoRaWAN® Networks</strong>
+  Works seamlessly with private/public network servers and cloud platforms.
+</div>
 </div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
-
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Connects PLCs, RTUs, and industrial controllers to LoRaWAN networks for real-time machine monitoring.
+    <strong>Smart Water Utilities</strong>
+    Continuous level monitoring for underground water tanks, overhead tanks, reservoirs, and sumps.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Energy & Utility Metering</strong>
-    Integrates with RS485 energy meters, water meters, and gas meters for remote automated meter reading.
+    <strong>Manhole & Sewer Level Monitoring</strong>
+    Detect overflow risks, blockages, and sewer flooding in drainage networks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Process Monitoring</strong>
-    Ideal for pressure transmitters, flow transmitters, level sensors, and temperature transmitters using 4–20 mA / 0–10 V.
+    <strong>Flood & Stormwater Monitoring</strong>
+    Real-time alerts for rising levels in rivers, canals, storm drains, and flood-prone zones.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Storage & HVAC Systems</strong>
-    Captures critical temperature, humidity, and equipment health parameters from analog/RS485 sensors.
+    <strong>Industrial Wastewater Management</strong>
+    Accurate level detection in effluent treatment plants, sludge pits, and chemical tanks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture</strong>
-    Supports soil moisture sensors, weather probes, irrigation controllers, and pump monitoring systems.
+    <strong>Mining & Quarry Operations</strong>
+    Level tracking in slurry pits, water sumps, and tailing dams for safety assurance.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water & Wastewater Management</strong>
-    Works with flow meters, pressure sensors, water level transmitters, and pump control systems.
+    <strong>Smart City Infrastructure</strong>
+    Remote monitoring of drainage networks to prevent urban flooding and road closures.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Safety Systems</strong>
-    Monitors critical sensors like leak detectors, vibration sensors, and emergency digital inputs.
+    <strong>Oil & Fuel Storage Tanks</strong>
+    Level measurement for diesel storage, fuel stations, and industrial oil chambers.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings</strong>
-    Integrates with HVAC controllers, IAQ sensors, and digital input equipment for automation.
+    <strong>Remote & Unmanned Locations</strong>
+    Low-maintenance, long-range LoRaWAN® monitoring where wired installation is impractical.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Infrastructure Monitoring</strong>
-    Supports monitoring of telecom towers, generators, solar inverters, and battery banks via RS485.
+    <strong>Environmental Risk Monitoring</strong>
+    Early warning for spill detection, groundwater rise, or hazardous waste overflow.
   </div>
-
-  <div className="reusable-feature-card">
-    <strong>Environmental & Field Monitoring</strong>
-    Connects environmental sensors such as air quality, weather, and environmental transmitters.
-  </div>
-
 </div>
 
 <div class="faint-line"></div>
@@ -203,7 +181,7 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-STD-PO-X2</p>
+    <p className="value">MacSync-L-PSXx</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -215,29 +193,35 @@ Whether you’re building a smart factory, deploying large-scale IoT networks, o
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Interfaces <br /> Available
+    Pressure <br /> Measurement
   </div>
   <div className="spec-block-details">
-    <p className="label">RS485 Interface</p>
-    <p className="value">1 (Switchable)</p>
-    <br />
-    <p className="label">4-20 mA Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">0-10 V Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">Digital Inputs</p>
-    <p className="value">x 2 (Switchable)</p>    
-    <br />
-    <p className="label">ADC Resolution</p>
-    <p className="value">12-bit</p>
+<p className="label">Range</p>
+<p className="value">0 ~ 0.5 MPa</p>
+<p className="value">0 ~ 1.5 MPa</p>
+<p className="value">0 ~ 2.5 MPa</p>
+<p className="value">0 ~ 10 MPa</p>
+<p className="value">0 ~ 30 MPa</p>
+<br />
+<p className="label">Accuracy</p>
+<p className="value">±1.5% Full Scale (FS)</p>
+<br />
+<p className="label">Max. Pressure</p>
+<p className="value">2.4 MPa</p>
+<br />
+<p className="label">Destructive Pressure</p>
+<p className="value">3.0 MPa</p>
+<br />
+<p className="label">Response Time (Sensor)</p>
+<p className="value">≤ 2.0 ms</p>
+<br />
+<p className="label">Cycle Life</p>
+<p className="value">1,000,000 cycles</p>
+<br />
+<p className="label">Protection Rating (Sensor)</p>
+<p className="value">IP67</p>
   </div>
 </div>
-
-:::note
-The device use same channels for the RS485 & Analog inputs, either can be used at a time.
-:::
 
 <div class="faint-line"></div>
 
@@ -295,8 +279,6 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
     <br />
-
-
   </div>
 </div>
 
@@ -318,6 +300,26 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <br />
     <p className="label">Remote Configuration</p>
     <p className="value">JSON Format Data - from server</p>    
+    <br />
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Battery <br /> Performance
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Battery Type</p>
+    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <br />
+    <p className="label">Power Consumption</p>
+    <p className="value">~100 µA in sleep mode</p>
+    <p className="value">~50 mA during transmission</p>
+    <br />
+    <p className="label">Battery Life</p>
+    <p className="value">Up to 2 years (10 Mins Uplink Interval)</p>
     <br />
   </div>
 </div>
@@ -348,7 +350,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply</p>
+    <p className="label">Power Supply (Optional)</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -364,7 +366,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">Glass field Nylon</p>    
     <br />
     <p className="label">Color</p>
-    <p className="value">Matte White</p>    
+    <p className="value">Matte Black</p>    
     <br />
     <p className="label">Weight</p>
     <p className="value">~110g</p>    
@@ -382,7 +384,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range</p>
+    <p className="label">Input Voltage Range (Optional Varient)</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
@@ -451,43 +453,77 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSync-LX2-STD-PO Variants
+##  MacSync-L-PSXx Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>Power Source</th>
-      <th>Battery Capacity</th>
-      <th>Solar Support</th>
-      <th>External Flash</th>
-      <th>Ideal For</th>
+      <th>Pressure Range</th>
+      <th>Power Option</th>
+      <th>Ideal Use Case</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-STD-PO-X1</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
+      <td>MacSync-L-PSX0.5-PO</td>
+      <td>0 ~ 0.5 MPa</td>
+      <td>12–24 V DC Power</td>
+      <td>Water distribution lines & low-pressure industrial monitoring</td>
     </tr>
     <tr>
-      <td>MacSync-L-STD-BO</td>
-      <td>Battery</td>
-      <td>19 Ah</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>MacSync-L-PSX0.5-BO</td>
+      <td>0 ~ 0.5 MPa</td>
+      <td>Battery (Multi-year)</td>
+      <td>Remote low-pressure pipelines & control rooms</td>
     </tr>
     <tr>
-      <td>MacSync-L-STD-SO-X1</td>
-      <td>Solar + Battery</td>
-      <td>12 Ah</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>Outdoor, off-grid, and energy-autonomous environments</td>
+      <td>MacSync-L-PSX1.5-PO</td>
+      <td>0 ~ 1.5 MPa</td>
+      <td>12–24 V DC Power</td>
+      <td>Municipal hydrants & medium pressure lines</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-PSX1.5-BO</td>
+      <td>0 ~ 1.5 MPa</td>
+      <td>Battery (Multi-year)</td>
+      <td>Unmanned water networks & industrial equipment</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-PSX2.5-PO</td>
+      <td>0 ~ 2.5 MPa</td>
+      <td>12–24 V DC Power</td>
+      <td>Fire-fighting discharge pressure & industrial pumps</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-PSX2.5-BO</td>
+      <td>0 ~ 2.5 MPa</td>
+      <td>Battery (Multi-year)</td>
+      <td>Remote firefighting pressure monitoring & booster stations</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-PSX10-PO</td>
+      <td>0 ~ 10 MPa</td>
+      <td>12–24 V DC Power</td>
+      <td>High-pressure industrial systems & heavy pipelines</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-PSX10-BO</td>
+      <td>0 ~ 10 MPa</td>
+      <td>Battery (Multi-year)</td>
+      <td>Oil & gas networks with no power access</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-PSX30-PO</td>
+      <td>0 ~ 30 MPa</td>
+      <td>12–24 V DC Power</td>
+      <td>Industrial high stress pipelines, hydraulic systems</td>
+    </tr>
+    <tr>
+      <td>MacSync-L-PSX30-BO</td>
+      <td>0 ~ 30 MPa</td>
+      <td>Battery (Multi-year)</td>
+      <td>Critical infrastructure monitoring in remote high-pressure applications</td>
     </tr>
   </tbody>
 </table>
@@ -548,11 +584,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![title image](/img/lorawan/sensors/macsync/macsync-psx-pipeline-pressure-monitoring-dimensions.svg)
 
-:::note
-
-Accessories must be purchased separately & may 
-not be included in the box.
-
-:::
