@@ -1,46 +1,48 @@
 ---
-id: macsync-l-nh-three-h-two-s-2-sensors
-title: MacSync-L-GSX2x
+id: macsync-w-nh-three-h-two-s-2-sensors
+title: MacSync-WGSX2x
 sidebarposition: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan h2s nh3 gas sensor
-  - wireless toxic gas monitoring device
-  - odor monitoring sensor for wastewater plants
-  - long range gas leak detection lorawan
-  - hydrogen sulfide environmental monitoring iot
-  - ammonia emission monitoring for livestock farms
-  - industrial gas safety sensor lorawan
-  - sewer gas monitoring aqi sensor
-  - hazardous gas detection wireless iot device
-  - refinery and chemical plant gas alarm system
-  - smart city odor surveillance sensor
-  - nh3 air quality monitoring device
-  - h2s detector for wastewater treatment
-  - battery powered lorawan gas detector
-  - toxic gas monitoring for industrial safety
-  - mining and tunnel hazardous gas sensor
-  - hydrogen sulfide ppm monitoring automation
-  - ammonia odor compliance monitoring
-  - macsync lorawan gas and odor sensor
-  - environmental odor control and AQI monitoring
+  - wifi h2s nh3 gas sensor
+  - wifi hydrogen sulfide sensor
+  - wifi ammonia gas sensor
+  - quantitative h2s gas monitoring wifi
+  - quantitative nh3 gas monitoring wifi
+  - ppm h2s monitoring wifi sensor
+  - ppm nh3 monitoring wifi sensor
+  - industrial wifi gas detection sensor
+  - wifi toxic gas monitoring device
+  - wastewater h2s nh3 monitoring wifi
+  - stp wwtp gas monitoring wifi
+  - industrial safety gas sensor wifi
+  - sewer gas monitoring wifi sensor
+  - factory toxic gas detection wifi
+  - indoor hazardous gas monitoring wifi
+  - occupational safety gas sensor wifi
+  - battery operated wifi gas sensor
+  - low power wifi h2s nh3 sensor
+  - macsync wifi gas sensor
+  - macnman wifi h2s nh3 sensor
 ---
 
-# MacSync-L-GSX2 Datasheet
+# MacSync-WGSX2 Datasheet
 
 ## Product Overview
 
-**MacSync‑L‑GSX2** is a high‑precision **LoRaWAN® H₂S & NH₃ gas monitoring sensor**, engineered for odor management and hazardous air‑quality surveillance in industrial, municipal, and environmental applications. It continuously detects hydrogen sulfide (H₂S) and ammonia (NH₃) concentrations — gases commonly associated with worker safety risks, toxic exposure, and odor pollution.
+**MacSync‑WGSX2** is a high‑precision **Wi‑Fi–based quantitative H₂S & NH₃ gas monitoring sensor** designed for real‑time measurement of **hydrogen sulfide (H₂S)** and **ammonia (NH₃)** concentrations in ppm for industrial safety, environmental compliance, and occupational health applications within Wi‑Fi‑enabled environments.
 
-Designed for **wastewater facilities, refineries, chemical plants, livestock farms, landfills, and smart‑city pollution monitoring**, this sensor provides real‑time alerts to prevent dangerous gas accumulation and enable rapid safety response.
+Built using **industrial‑grade electrochemical gas sensors**, the device delivers accurate, stable, and repeatable ppm‑level measurements with fast response times, enabling early detection of hazardous gas buildup and proactive safety intervention. Unlike qualitative odor sensors, MacSync‑WGSX2 provides **true quantitative gas concentration data**, making it suitable for regulatory monitoring, safety audits, and process control.
 
-With ultra‑long‑range **LoRaWAN® wireless connectivity**, multi‑year battery operation, and rugged **IP65-rated construction**, MacSync‑L‑GSX2 ensures reliable deployment in corrosive and harsh outdoor environments. The device also includes **BLE support via Maya App**, enabling fast provisioning, calibration check, diagnostics, and OTA configuration — without professional tools.
+MacSync‑WGSX2 communicates directly over **standard Wi‑Fi networks (2.4 GHz / 5 GHz)** to **on‑premise servers, SCADA systems, safety dashboards, or cloud platforms** using industry‑standard protocols such as **MQTT, HTTP, and HTTPS**, without the need for gateways or long‑range wireless infrastructure.
 
-Whether deployed for **odor complaint intelligence**, worker safety, environmental compliance, or automated ventilation control — **MacSync‑L‑GSX2 delivers accurate, secure, and scalable toxic gas monitoring for the most demanding field environments.**
+Housed in a **rugged IP‑rated enclosure**, the sensor is suitable for deployment in **sewage treatment plants (STP), wastewater facilities (WWTP), chemical plants, factories, confined indoor spaces, utility rooms, and industrial work zones** where reliable Wi‑Fi connectivity is available. **BLE‑based configuration via the Macnman Maya App** enables quick provisioning, diagnostics, calibration checks, and maintenance.
 
-| ![MacSync-L-GSX2 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image-front.webp) | ![MacSync-L-GSX2 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image.webp) |
+Whether deployed for **worker safety, toxic gas exposure monitoring, ventilation control, or compliance reporting**, **MacSync‑WGSX2 delivers reliable, real‑time Wi‑Fi‑based toxic gas monitoring**, transforming hazardous gas risks into actionable data.
+
+| ![MacSync-WGSX2 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image-front.webp) | ![MacSync-WGSX2 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync-L-GSX2 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-GSX2 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync-WGSX2 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-WGSX2 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 
 ## Download Center
@@ -60,7 +62,7 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-GSX2</p>
+      <p>Click here to view the decoders for MacSync-WGSX2</p>
     </div>
   </a>
 </div>
@@ -70,55 +72,57 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
 ## Key Features
 
 <div className="reusable-feature-grid">
-<div className="reusable-feature-card">
-  <strong>Dual‑Gas Detection (H₂S + NH₃)</strong>
-  Continuous monitoring of toxic and odor‑causing gases for worker safety & environmental compliance.
-</div>
 
-<div className="reusable-feature-card">
-  <strong>High Sensitivity Electrochemical Sensors</strong>
-  Accurate ppm‑level measurement with excellent repeatability and fast response.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Dual‑Gas Quantitative Measurement (H₂S + NH₃)</strong>
+    Real‑time ppm‑level measurement of hydrogen sulfide (H₂S) and ammonia (NH₃) for safety‑critical and compliance applications.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Industrial‑Grade Corrosion Resistance</strong>
-  Built for harsh gas‑rich atmospheres in wastewater, refineries & livestock zones.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Industrial‑Grade Electrochemical Sensors</strong>
+    High sensitivity, fast response, and stable electrochemical sensing elements ensure accurate and repeatable gas concentration readings.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Real‑Time Toxic Gas Alerts</strong>
-  Instant threshold‑based alarms enabling rapid safety and odor‑control response.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Wi‑Fi Based Connectivity</strong>
+    Direct IP communication over standard Wi‑Fi networks (2.4 GHz / 5 GHz) without gateways or long‑range wireless infrastructure.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Long‑Range LoRaWAN® Connectivity</strong>
-  Reliable remote monitoring across wide industrial campuses and smart‑city areas.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Real‑Time Gas Alerts & Threshold Events</strong>
+    Configurable alarms for toxic gas exposure, ventilation control, and worker safety interventions.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Rugged IP65 Outdoor Enclosure</strong>
-  Weatherproof construction for dust, rain, humidity and corrosive gas resistance.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Industrial & Corrosion‑Resistant Design</strong>
+    Rugged IP‑rated enclosure engineered for gas‑rich, corrosive environments such as STP, WWTP, factories, and utility areas.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Multi‑Year Battery Operation</strong>
-  Designed for remote installations with no wired power dependency.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Battery‑Operated & Externally Powered Variants</strong>
+    Available in battery‑powered and 9–36 V DC powered versions to suit both fixed and flexible indoor deployments.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Zero‑touch onboarding, diagnostics, and OTA configuration on‑site.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Standard IoT Protocol Support</strong>
+    Supports MQTT, HTTP, and HTTPS for seamless integration with SCADA systems, safety dashboards, and cloud platforms.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Secure Encrypted Data Transmission</strong>
-  AES‑128 & AES‑256 protections for network‑grade security and data integrity.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Secure Wi‑Fi Communication</strong>
+    WPA2 / WPA3 authentication with TLS‑encrypted data transmission for secure IP‑based communication.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Wide Deployment Compatibility</strong>
-  Works with all major LoRaWAN® Network Servers & Smart‑City IoT platforms.
-</div>
+  <div className="reusable-feature-card">
+    <strong>BLE Configuration via Maya App</strong>
+    Local provisioning, diagnostics, calibration checks, and configuration using the Macnman Maya mobile application.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Designed for Safety & Compliance</strong>
+    Suitable for occupational safety monitoring, toxic gas exposure control, and regulatory reporting requirements.
+  </div>
+
 </div>
 <div class="faint-line"></div>
 
@@ -126,45 +130,45 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
 
 <div className="reusable-feature-grid">
 
-<div className="reusable-feature-card">
-  <strong>Wastewater & Sewage Treatment</strong>
-  Odor and toxic gas monitoring near sludge tanks, aeration basins, and pumping stations.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Sewage & Wastewater Treatment Plants (STP / WWTP)</strong>
+    Continuous ppm‑level monitoring of H₂S and NH₃ near inlet chambers, aeration tanks, sludge handling areas, and pumping stations within Wi‑Fi‑enabled facilities.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Refineries & Petrochemical Plants</strong>
-  Hazardous gas detection for worker safety and leak prevention in gas‑handling zones.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Industrial Safety & Worker Protection</strong>
+    Real‑time toxic gas detection in factories, process plants, and production floors to prevent hazardous exposure and ensure occupational safety compliance.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Livestock & Poultry Farms</strong>
-  NH₃ monitoring for protecting animal health and ensuring ventilation compliance.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Chemical & Process Industries</strong>
+    Quantitative gas monitoring around reactors, storage areas, and handling zones for early leak detection and process safety.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Mining & Confined Spaces</strong>
-  Real‑time warning against dangerous gas build‑up in tunnels and underground sites.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Confined Indoor Spaces</strong>
+    Monitoring H₂S and NH₃ buildup in utility rooms, basements, pump rooms, tunnels, and enclosed work zones with reliable Wi‑Fi coverage.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Landfills & Municipal Solid Waste Sites</strong>
-  Environmental odor surveillance and regulatory enforcement support.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Livestock & Poultry Facilities</strong>
+    Ammonia (NH₃) concentration monitoring to protect animal health, improve ventilation efficiency, and maintain welfare standards.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Chemical Storage & Industrial Warehouses</strong>
-  Monitoring corrosive vapor exposure and preventing toxic gas accumulation.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Industrial Warehouses & Storage Areas</strong>
+    Detection of toxic and corrosive gas accumulation in chemical storage rooms, fertilizer warehouses, and logistics facilities.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Ports & Cargo Handling Zones</strong>
-  Gas hazard detection during chemical and fertilizer transport operations.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Environmental Compliance & Safety Audits</strong>
+    Supports regulatory monitoring programs, safety audits, and data‑driven reporting using accurate ppm‑level gas measurements.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Smart City Odor Monitoring</strong>
-  Deployment near drainage lines and urban hotspots to minimize public odor complaints.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Ventilation Control & Automation</strong>
+    Enables automated ventilation triggers and alarms based on real‑time H₂S and NH₃ concentration thresholds.
+  </div>
 
 </div>
 
@@ -178,7 +182,7 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-GSX2</p>
+    <p className="value">MacSync-WGSX2</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -289,35 +293,41 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
 
 <div class="faint-line"></div>
 
+
 <div className="spec-block">
   <div className="spec-block-title">
-    Wireless <br /> Transmission
+    Wireless <br /> Communication
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Wi‑Fi Standards</p>
+    <p className="value">IEEE 802.11 b/g/n/ac</p>
     <br />
 
+    <p className="label">Frequency Bands</p>
+    <p className="value">2.4 GHz & 5 GHz (Dual‑Band)</p>
+    <br />
+
+    <p className="label">Operating Modes</p>
+    <p className="value">Station Mode (Client)</p>
+    <p className="value">Access Point Mode (Configuration)</p>
+    <br />
+
+    <p className="label">Network Protocols</p>
+    <p className="value"> MQTT, HTTP, HTTPS</p>
+    <br />
+
+    <p className="label">Security</p>
+    <p className="value">WPA2‑PSK / WPA3</p>
+    <p className="value">TLS / SSL Encrypted Communication</p>
+    <br />
+
+    <p className="label">IP Configuration</p>
+    <p className="value">DHCP / Static IP</p>
+    <br />
+
+    <p className="label">Typical Indoor Range</p>
+    <p className="value">Up to 100 m (environment dependent)</p>
+    <br />
   </div>
 </div>
 
@@ -374,38 +384,32 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Battery <br /> Performance
+    Supported <br /> Cloud & Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <p className="label">Deployment Models</p>
+    <p className="value">On-Premise Servers</p>
+    <p className="value">Private Cloud Deployments</p>
+    <p className="value">Public Cloud Platforms</p>
     <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
+    <p className="label">IoT Cloud Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">Google Cloud (via MQTT / HTTPS)</p>
+    <p className="value">Custom IoT Platforms</p>
+    <br />
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <p className="label">Integration Methods</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">REST / HTTPS APIs</p>
+    <p className="value">Webhooks</p>
+    <br />
+
+    <p className="label">Enterprise Systems</p>
+    <p className="value">SCADA Systems</p>
+    <p className="value">BMS / IBMS Platforms</p>
+    <p className="value">Data Lakes & Analytics Engines</p>
   </div>
 </div>
 
@@ -416,7 +420,7 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
+    <p className="label">Power Supply</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -450,12 +454,12 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
+    <p className="label">Input Voltage Range</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">~150 mA during transmission</p>
     <br />
     <p className="label">Input Impedance</p>
     <p className="value">>10 MΩ for voltage inputs</p>
@@ -474,14 +478,13 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS </p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
     <br />
   </div>
 </div>
-
 
 <div class="faint-line"></div>
 
@@ -518,8 +521,14 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
   </div>
 </div>
 
+<div class="faint-line"></div>
 
-## MacSync-L-GSX2 Variants
+
+
+
+
+
+## MacSync-WGSX2 Variants
 
 <table className="parameter-table">
   <thead>
@@ -533,14 +542,14 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-GSX2-PO</td>
+      <td>MacSync-WGSX2-PO</td>
       <td>H₂S + NH₃</td>
       <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>Industrial sites with stable power — refineries, chemical plants & smart-city nodes</td>
     </tr>
     <tr>
-      <td>MacSync-L-GSX2-BO</td>
+      <td>MacSync-WGSX2-BO</td>
       <td>H₂S + NH₃</td>
       <td>Battery Powered</td>
       <td>19 Ah</td>

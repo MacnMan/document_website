@@ -1,48 +1,48 @@
 ---
-id: macsync-l-co-2-sensors
-title: MacSync-L-CO2Xx
+id: macsync-w-co-2-sensors
+title: MacSync-WCO2Xx
 sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan co2 sensor
-  - indoor air quality monitoring device
-  - wireless co2 ppm measurement
-  - smart building ventilation automation sensor
-  - co2 temperature humidity sensor lorawan
-  - real time indoor air quality iot monitoring
-  - classroom co2 level monitoring for safety
-  - hvac energy optimization sensor
-  - office and commercial iaq monitoring
-  - battery powered lorawan environmental sensor
-  - co2 detection for bms and scada integration
-  - long range wireless co2 transmitter
-  - workplace ventilation compliance monitoring
-  - industrial co2 detection iot device
-  - warehouse and factory air quality sensor
-  - smart city public building air monitoring
-  - low power indoor environmental sensor
-  - co2 monitoring for occupancy detection assistance
-  - macsync lorawan co2 sensor
-  - macnman environmental monitoring device
+  - wifi co2 sensor
+  - wifi indoor air quality sensor
+  - wifi co2 ppm monitoring device
+  - smart building wifi co2 sensor
+  - wifi co2 temperature humidity sensor
+  - real time co2 monitoring wifi
+  - classroom co2 monitoring wifi sensor
+  - hvac ventilation optimization wifi sensor
+  - office indoor air quality monitoring wifi
+  - commercial building iaq wifi sensor
+  - wifi battery powered co2 sensor
+  - wifi environmental monitoring sensor
+  - co2 sensor for bms scada wifi
+  - workplace ventilation compliance wifi
+  - industrial indoor co2 monitoring wifi
+  - warehouse factory air quality sensor wifi
+  - indoor occupancy co2 monitoring wifi
+  - low power wifi co2 sensor
+  - macsync wifi co2 sensor
+  - macnman wifi co2 sensor
 ---
 
-# MacSync-L-CO2X Datasheet
+# MacSync-WCO2X Datasheet
 
 ## Product Overview
 
-**MacSync-L-CO2X** is an advanced **LoRaWAN® CO₂ indoor air‑quality monitoring sensor** designed for smart buildings, workplaces, schools, hospitals, and industrial indoor environments where air quality and ventilation performance directly impact safety, comfort, and productivity.
+**MacSync‑WCO2X** is a high‑accuracy **Wi‑Fi–based CO₂ indoor air quality (IAQ) sensor** designed for continuous monitoring of carbon dioxide levels in smart buildings, workplaces, schools, hospitals, and industrial indoor environments where reliable IP connectivity is available.
 
-Powered by a highly accurate **NDIR CO₂ sensing module** with automatic calibration, it continuously measures CO₂ levels and supports **temperature & humidity monitoring** — delivering complete IAQ (Indoor Air Quality) intelligence for demand‑controlled ventilation and energy‑efficient HVAC automation.
+Powered by an industrial‑grade **NDIR CO₂ sensing module** with automatic baseline calibration, the device delivers precise CO₂ measurements in ppm along with **temperature and humidity monitoring**, providing complete indoor air quality intelligence for ventilation assessment and HVAC optimization.
 
-Featuring **long‑range LoRaWAN® wireless communication**, multi‑year battery life, and embedded **AES‑encrypted data security**, MacSync‑L‑CO2X eliminates the need for wired infrastructure — making it ideal for both new and retrofit deployments.
+MacSync‑WCO2X communicates directly over **standard Wi‑Fi networks (2.4 GHz / 5 GHz)** to **on‑premise servers, building management systems (BMS), SCADA platforms, or cloud dashboards** using industry‑standard protocols such as **MQTT, HTTP, and HTTPS**—without requiring gateways or long‑range wireless infrastructure.
 
-The device includes **BLE connectivity via Maya App** for fast provisioning, diagnostics, and OTA configuration — without requiring professional install tools. Its **sleek IP65‑rated enclosure**, low‑profile wall‑mount design, and silent operation make it perfectly suited for public indoor environments.
+Designed for both new installations and retrofit deployments, the sensor supports **battery‑operated and externally powered variants**, enabling flexible installation across diverse indoor locations. **BLE‑based provisioning via the Macnman Maya App** allows fast configuration, diagnostics, and parameter updates without specialized tools.
 
-From classroom ventilation compliance, office occupancy analytics, healthcare safety monitoring, to optimized industrial workspace conditions — **MacSync‑L‑CO2X transforms indoor spaces into intelligent, wellness‑driven, and energy‑efficient environments.**
+From **classroom ventilation compliance and office occupancy insights** to **healthcare safety monitoring and industrial workspace air‑quality management**, **MacSync‑WCO2X transforms indoor CO₂ data into actionable intelligence**, enabling healthier, more energy‑efficient, and compliant indoor environments.
 
-| ![MacSync-L-CO2X LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-back-view.webp) | ![MacSync-L-CO2X RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-front-view.webp) |
+| ![MacSync-WCO2X LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-back-view.webp) | ![MacSync-WCO2X RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync-L-CO2X back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-iso-view.webp) | ![MacSync-L-CO2X installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-side-view.webp) |
+| ![MacSync-WCO2X back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-iso-view.webp) | ![MacSync-WCO2X installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-side-view.webp) |
 
 
 ## Download Center
@@ -62,7 +62,7 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-CO2X</p>
+      <p>Click here to view the decoders for MacSync-WCO2X</p>
     </div>
   </a>
 </div>
@@ -72,105 +72,104 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
   <strong>High‑Accuracy NDIR CO₂ Sensing</strong>
-  Reliable ppm monitoring with intelligent auto‑calibration for long‑term stability.
+  Industrial‑grade NDIR sensor delivers precise CO₂ measurements in ppm with automatic baseline calibration for long‑term stability.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Temperature & Humidity Measurement</strong>
-  Combined IAQ insights for HVAC efficiency and comfort analytics.
+  <strong>Integrated Temperature & Humidity Monitoring</strong>
+  Simultaneous CO₂, temperature, and humidity measurement for complete indoor air‑quality (IAQ) assessment.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>LoRaWAN® Long‑Range Wireless Connectivity</strong>
-  Ultra‑low‑power wireless communication enabling multi‑year battery life.
+  <strong>Wi‑Fi Based Connectivity</strong>
+  Direct IP communication over standard Wi‑Fi networks (2.4 GHz / 5 GHz) without the need for gateways.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Indoor‑Optimized Design</strong>
-  Sleek IP65 enclosure for offices, workplaces, classrooms & public buildings.
+  <strong>Battery‑Powered & Externally Powered Variants</strong>
+  Available in battery‑operated and 9–36 V DC powered versions for flexible indoor deployment.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Event‑Based CO₂ Alerts</strong>
-  Threshold reporting for ventilation control and indoor air safety compliance.
+  <strong>Real‑Time CO₂ Alerts & Threshold Events</strong>
+  Configurable alerts for ventilation control, indoor air‑quality compliance, and occupant safety.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Smart Building & HVAC Ready</strong>
+  Enables demand‑controlled ventilation and energy optimization based on real‑time CO₂ levels.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Standard IoT Protocol Support</strong>
+  Supports MQTT, HTTP, and HTTPS for seamless integration with BMS, SCADA systems, and cloud platforms.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Secure Wi‑Fi Communication</strong>
+  WPA2 / WPA3 authentication with TLS‑encrypted data transmission for secure IP‑based communication.
 </div>
 
 <div className="reusable-feature-card">
   <strong>BLE Configuration via Maya App</strong>
-  Fast provisioning, diagnostics & OTA parameter updates using mobile.
+  Fast provisioning, diagnostics, and parameter configuration using the Macnman Maya mobile application.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Supports Smart Building Automation</strong>
-  Enables ventilation optimization and occupancy‑based control strategies.
+  <strong>Indoor‑Optimized Industrial Design</strong>
+  Compact IP‑rated enclosure designed for offices, classrooms, hospitals, and commercial indoor environments.
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Secure Encrypted Transmission</strong>
-  AES‑128 data protection ensures privacy and network‑grade security.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Works with All LoRaWAN® Networks</strong>
-  Full compatibility with commercial, campus & city infrastructure.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>No‑Wiring Installation</strong>
-  Ideal for retrofit projects and remote indoor IAQ upgrades.
-</div>
 </div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
-<div className="reusable-feature-card">
-  <strong>Smart Building IAQ Monitoring</strong>
-  Continuous CO₂ tracking for offices, commercial buildings, airports & public facilities.
-</div>
 
-<div className="reusable-feature-card">
-  <strong>Schools & Educational Institutions</strong>
-  Ensures healthy ventilation levels for classrooms, labs & auditoriums.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Smart Buildings & Offices</strong>
+    Continuous CO₂ monitoring to maintain healthy indoor air quality, improve occupant comfort, and optimize energy usage.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>HVAC Automation & Energy Savings</strong>
-  Demand‑controlled ventilation based on occupancy-driven CO₂ insights.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Schools & Educational Institutions</strong>
+    Ensures adequate ventilation in classrooms, laboratories, libraries, and auditoriums to support student health and learning outcomes.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Hospitals & Healthcare Facilities</strong>
-  Air‑quality compliance in wards, ICUs, waiting halls and clean areas.
-</div>
+  <div className="reusable-feature-card">
+    <strong>HVAC & Ventilation Optimization</strong>
+    Enables demand‑controlled ventilation based on real‑time CO₂ levels to reduce energy consumption while maintaining IAQ compliance.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Cold Storage & Pharma Warehouses</strong>
-  Maintains regulated CO₂ exposure limits for personnel & stored goods.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Hospitals & Healthcare Facilities</strong>
+    Supports indoor air‑quality compliance in wards, ICUs, waiting areas, pharmacies, and diagnostic rooms.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Factories & Industrial Workspaces</strong>
-  Worker health assurance with real‑time CO₂ risk notifications.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Commercial Buildings & Campuses</strong>
+    CO₂ monitoring across offices, corporate campuses, malls, and shared workspaces for centralized facility management.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Retail Shops & Fitness Centers</strong>
-  Occupancy‑aware ventilation for comfort and operational efficiency.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Industrial Indoor Workspaces</strong>
+    Protects worker health by monitoring CO₂ accumulation in factories, production floors, control rooms, and workshops.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Hospitality Spaces</strong>
-  Hotels, restaurants & cafes ensuring a healthy guest experience.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Warehouses & Logistics Facilities</strong>
+    Maintains safe air quality levels in enclosed storage areas and high‑occupancy logistics environments.
+  </div>
 
-<div className="reusable-feature-card">
-  <strong>Smart City Infrastructure</strong>
-  Monitoring CO₂ levels in public libraries, transit hubs & community centers.
-</div>
+  <div className="reusable-feature-card">
+    <strong>Hospitality & Public Indoor Spaces</strong>
+    Improves guest comfort and regulatory compliance in hotels, restaurants, gyms, conference halls, and indoor public areas.
+  </div>
+
 </div>
 
 <div class="faint-line"></div>
@@ -183,7 +182,7 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-CO2X</p>
+    <p className="value">MacSync-WCO2X</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -290,35 +289,41 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
 
 <div class="faint-line"></div>
 
+
 <div className="spec-block">
   <div className="spec-block-title">
-    Wireless <br /> Transmission
+    Wireless <br /> Communication
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Wi‑Fi Standards</p>
+    <p className="value">IEEE 802.11 b/g/n/ac</p>
     <br />
 
+    <p className="label">Frequency Bands</p>
+    <p className="value">2.4 GHz & 5 GHz (Dual‑Band)</p>
+    <br />
+
+    <p className="label">Operating Modes</p>
+    <p className="value">Station Mode (Client)</p>
+    <p className="value">Access Point Mode (Configuration)</p>
+    <br />
+
+    <p className="label">Network Protocols</p>
+    <p className="value"> MQTT, HTTP, HTTPS</p>
+    <br />
+
+    <p className="label">Security</p>
+    <p className="value">WPA2‑PSK / WPA3</p>
+    <p className="value">TLS / SSL Encrypted Communication</p>
+    <br />
+
+    <p className="label">IP Configuration</p>
+    <p className="value">DHCP / Static IP</p>
+    <br />
+
+    <p className="label">Typical Indoor Range</p>
+    <p className="value">Up to 100 m (environment dependent)</p>
+    <br />
   </div>
 </div>
 
@@ -375,38 +380,32 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Battery <br /> Performance
+    Supported <br /> Cloud & Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
+    <p className="label">Deployment Models</p>
+    <p className="value">On-Premise Servers</p>
+    <p className="value">Private Cloud Deployments</p>
+    <p className="value">Public Cloud Platforms</p>
     <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
+    <p className="label">IoT Cloud Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">Google Cloud (via MQTT / HTTPS)</p>
+    <p className="value">Custom IoT Platforms</p>
+    <br />
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <p className="label">Integration Methods</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">REST / HTTPS APIs</p>
+    <p className="value">Webhooks</p>
+    <br />
+
+    <p className="label">Enterprise Systems</p>
+    <p className="value">SCADA Systems</p>
+    <p className="value">BMS / IBMS Platforms</p>
+    <p className="value">Data Lakes & Analytics Engines</p>
   </div>
 </div>
 
@@ -417,7 +416,7 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
+    <p className="label">Power Supply</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -451,12 +450,12 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
+    <p className="label">Input Voltage Range</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">~150 mA during transmission</p>
     <br />
     <p className="label">Input Impedance</p>
     <p className="value">>10 MΩ for voltage inputs</p>
@@ -475,14 +474,13 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS </p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
     <br />
   </div>
 </div>
-
 
 <div class="faint-line"></div>
 
@@ -519,8 +517,12 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
   </div>
 </div>
 
+<div class="faint-line"></div>
 
-##  MacSync-L-CO2X Variants
+
+
+
+##  MacSync-WCO2X Variants
 
 <table className="parameter-table">
   <thead>
@@ -534,28 +536,28 @@ From classroom ventilation compliance, office occupancy analytics, healthcare sa
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-CO2X1-PO</td>
+      <td>MacSync-WCO2X1-PO</td>
       <td>400–2,000 ppm</td>
       <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>HVAC automation in commercial buildings with stable power</td>
     </tr>
     <tr>
-      <td>MacSync-L-CO2X1-BO</td>
+      <td>MacSync-WCO2X1-BO</td>
       <td>400–2,000 ppm</td>
       <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>Schools, offices & hospitals focused on IAQ compliance</td>
     </tr>
     <tr>
-      <td>MacSync-L-CO2X2-PO</td>
+      <td>MacSync-WCO2X2-PO</td>
       <td>400–5,000 ppm</td>
       <td>External Power (9–36 V DC)</td>
       <td>✖️</td>
       <td>Industrial & high‑density areas requiring extended CO₂ sensing</td>
     </tr>
     <tr>
-      <td>MacSync-L-CO2X2-BO</td>
+      <td>MacSync-WCO2X2-BO</td>
       <td>400–5,000 ppm</td>
       <td>Battery Powered</td>
       <td>19 Ah</td>
