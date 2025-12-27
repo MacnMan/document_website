@@ -1,6 +1,6 @@
 ---
-id: macsync-lt-one-datasheet
-title: MacSync-LT1
+id: macsync-wt-one-datasheet
+title: MacSync-WT1
 sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
