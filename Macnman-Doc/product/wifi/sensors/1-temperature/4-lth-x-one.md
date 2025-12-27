@@ -503,8 +503,7 @@ Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart
   </div>
 </div>
 
-
-##  MacSync-WX1-PO Variants
+##   MWTH 301 Variants
 
 <table className="parameter-table">
   <thead>
@@ -519,28 +518,12 @@ Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-WX1-PO</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacSync-WX1-BO </td>
+      <td> MLTH 301-BO</td>
       <td>Battery</td>
-      <td>19 Ah</td>
+      <td>09 Ah</td>
       <td>✖️</td>
       <td>✔️</td>
       <td>Remote or portable deployments with low power</td>
-    </tr>
-    <tr>
-      <td>MacSync-L-STD-SO-X1</td>
-      <td>Solar + Battery</td>
-      <td>12 Ah</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>Outdoor, off-grid, and energy-autonomous environments</td>
     </tr>
   </tbody>
 </table>
