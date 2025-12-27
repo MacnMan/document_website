@@ -591,4 +591,6 @@ not be included in the box.
 
 
 ![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![title image](/img/lorawan/sensors/macsync/macsync-lorawan-weather-station-overall-dimensions-drawing.webp)
+
 

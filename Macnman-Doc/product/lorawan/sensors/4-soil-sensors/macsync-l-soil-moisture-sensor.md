@@ -573,7 +573,7 @@ not be included in the box.
 
 ## Product Dimensions
 
-![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-dimensions.svg)
+![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-probe-diameter-dimensions.svg)
 
-![tmacsync lssx soil probe stainless steel electrode dimensions](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![tmacsync lssx soil probe stainless steel electrode dimensions](/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-probe-overall-length-dimensions.svg)
 
