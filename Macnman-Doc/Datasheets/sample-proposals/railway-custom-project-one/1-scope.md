@@ -12,6 +12,7 @@ To design and deploy an automated, non-contact, and industrial-grade Coal Wagon 
 The system uses a fusion of 3D LiDAR, distance LiDAR, and AI-based LPR cameras combined with edge-level IoT processing to operate reliably in harsh railway environments such as dust, vibration, rain, and variable lighting conditions.
 
 This system shall enable the Customer to:
+
 - Automatically count the total number of wagons in each train
 - Identify loaded, partially loaded, and empty coal wagons
 - Estimate coal fill level on a per-wagon basis using 3D profiling
@@ -19,6 +20,11 @@ This system shall enable the Customer to:
 - Capture and associate train / locomotive number with wagon data
 - Eliminate manual inspection and reduce operational errors
 - Maintain a time-stamped digital record for audits and analytics
+
+## Concept Design of System
+<br/>
+![lorawan architecutre](/img/custom-products/macnman-coal-wagon-counting-load-assessment-system.webp)
+
 
 ## System Components & Definitions
 
