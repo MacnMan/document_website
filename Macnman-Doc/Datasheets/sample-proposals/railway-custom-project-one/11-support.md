@@ -7,7 +7,7 @@ title: After Sales & Support
 
 Macnman provides structured, industry-standard after‑sales and support services to ensure reliable operation, performance continuity, and long‑term maintainability of deployed systems.
 
-These support terms apply to the **Welding Data Collection & Monitoring System** and associated product deployments.
+These support terms apply to the **Automated Coal Wagon Counting & Load Assessment System** and associated MacSync W Series deployments.
 
 ---
 
