@@ -36,7 +36,6 @@ The device securely publishes temperature and humidity data to **local servers, 
 
 Housed in a rugged, ingress‑protected enclosure, MacSync‑WT1 is well suited for **smart buildings, HVAC systems, cold rooms, warehouses, laboratories, healthcare facilities, and industrial indoor environments**, delivering low‑latency, reliable Wi‑Fi‑based environmental monitoring with minimal maintenance.
 
-
 | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-environmental-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-front-view.webp) |
 |--------------------------------|--------------------------------|
 | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-mounting-guide.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-side-view.webp) |
