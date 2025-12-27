@@ -1,43 +1,45 @@
 ---
-id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
-title: MacRay-LU4
+id: ble-tag-one
+title: Tag X3
 sidebarposition: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan ultrasonic level sensor
-  - sub 4 meter ultrasonic sensor
-  - manhole level monitoring sensor
-  - smart water management iot device
-  - underground drainage monitoring
-  - sewer level monitoring system
-  - tank liquid level measurement
-  - flood detection sensor lorawan
-  - sump pit level monitoring iot
-  - water utility smart metering solution
-  - ultrasonic distance measurement iot
-  - industrial waste water monitoring
-  - long range wireless water level sensor
-  - battery powered lorawan sensor
-  - ultrasonic level transmitter lorawan
-  - smart city drainage monitoring sensor
-  - environmental monitoring sensor lorawan
-  - ip67 rugged ultrasonic sensor
-  - remote tank monitoring solution
-  - industrial iot automation device
+  - ble beacon tag
+  - ble asset tracking tag
+  - ble sensor tag
+  - ibeacon ble tag
+  - eddystone ble beacon
+  - bluetooth low energy beacon
+  - ble imu sensor tag
+  - ble motion sensor tag
+  - ble temperature humidity sensor
+  - ble pressure sensor tag
+  - indoor positioning ble beacon
+  - ble rtds location tag
+  - ble people and asset tracking
+  - ble environmental sensor tag
+  - ble condition monitoring tag
+  - ble industrial asset tag
+  - ble smart building sensor
+  - ble warehouse tracking tag
+  - ble cold chain monitoring tag
+  - ble gateway compatible tag
+  - macnman ble tag
+  - macnman ble beacon
+  - tag x3 ble sensor
 ---
 
-# MacRay-LU4 Datasheet
+# TagX3 Datasheet
 
 ## Product Overview
 
-MacRay-LU4 is a **rugged LoRaWAN® ultrasonic level sensor** designed for short-range precision (0–4 meters) monitoring of liquids and solids in harsh outdoor and industrial environments. With advanced time-of-flight ultrasonic measurement and intelligent echo processing technology, it ensures high-accuracy level detection for tanks, pits, manholes, sumps, reservoirs, waste processing chambers, and flood monitoring systems.
+**Tag X3** is a compact and rugged **Bluetooth Low Energy (BLE) sensor tag and beacon** designed for **asset tracking, indoor location services, and condition monitoring** across industrial and commercial environments. Supporting both **iBeacon** and **Eddystone** protocols, Tag X3 enables seamless identification, proximity detection, and location tracking using BLE gateways, mobile devices, and edge receivers.
 
-Engineered with **IP67 sensor protection**, corrosion-resistant housing, and advanced interference filtering, the MacRay-LU4 operates reliably in moisture-rich, chemically aggressive, and dusty environments where traditional level sensors fail. It supports LoRaWAN® Class A, long-range coverage, and offers multi-year battery performance, making it ideal for remote and unmanned sites.
+In addition to beaconing, Tag X3 integrates multiple onboard sensors including an **IMU (motion and orientation sensing)**, **temperature**, **humidity**, and **barometric pressure**, allowing it to capture real-time movement and environmental conditions directly from the asset. This makes it ideal for monitoring **asset usage, movement patterns, handling events, and storage conditions**.
 
-The device integrates AES-256 encrypted LoRaWAN® communication, over-the-air configuration via Maya App (BLE), and supports intelligent uplink modes including periodic, event-driven, and threshold-based triggers — enabling energy-efficient deployments at scale.
+Engineered for **ultra-low power operation**, Tag X3 supports configurable advertising intervals, transmit power levels, and event-based triggers to maximize battery life while maintaining reliable visibility. The device can operate continuously for long durations in both **broadcast-only** and **sensor-enabled** modes.
 
-Whether supporting smart water utilities, sewer & drainage systems, liquid storage tanks, waste tracking, or environmental flood alerts, MacRay-LU4 converts real-world level conditions into instant data, enabling proactive maintenance, reduced operational costs, and smarter city infrastructure.
-
+Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and industrial edge devices**, enabling data forwarding to **on-premise systems or cloud platforms** for analytics, alerts, and automation. Its small form factor and rugged enclosure make it suitable for **tools, containers, equipment, pallets, and movable assets** in warehouses, factories, campuses, and smart buildings.
 
 | ![](/img/lorawan/macray/macray-lu4-front-view.webp) | ![](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
 |--------------------------------|--------------------------------|
