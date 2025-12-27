@@ -37,9 +37,9 @@ Designed for rugged outdoor deployment, the LSX2 features an **IP67‑rated encl
 With seamless integration into leading LoRaWAN® network servers, OTA configuration via the **Maya App**, and on‑device data buffering for zero‑loss transmission, **MacSync‑LSX2 enables precision soil‑pH monitoring, nutrient‑management automation, and long‑term soil‑health tracking for farms, plantations, estates, and municipal green‑zones.**
 
 <div className="image-grid-2col">
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-health-monitoring-guide.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-datasheet.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-technical-specifications.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-lorawan-soil-ph-sensor-front-view.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-lorawan-soil-ph-sensor-side-view.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
   <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
 </div>
 

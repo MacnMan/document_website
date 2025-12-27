@@ -38,15 +38,11 @@ Optimized for **ultra‑low‑power operation** and long‑range wireless commun
 
 With support for **LoRaWAN® v1.0.4**, AES‑encrypted communication, OTA configuration via the **Macnman Maya App**, and compatibility with all major public and private LoRaWAN® network servers, MacSync‑LWQ‑X4 provides a scalable and future‑ready solution for **IoT‑based water quality and conductivity monitoring**.
 
-Macnman-Doc/static/img/lorawan/sensors/macsync/macsync-lwq-x-ec-sensor-enclosure-dimensions.svg
-Macnman-Doc/static/img/lorawan/sensors/macsync/macsync-lwq-x-ec-probe-length-dimensions.webp
-Macnman-Doc/static/img/lorawan/sensors/macsync/
-Macnman-Doc/static/img/lorawan/sensors/macsync/
 
 <div className="image-grid-2col">
   <img src="/docs/img/lorawan/sensors/macsync/lwq-x-ec-sensor-side.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
   <img src="/docs/img/lorawan/sensors/macsync/lwq-x-ec-sensor-front.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-technical-specifications.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
+  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
   <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
 </div>
 
