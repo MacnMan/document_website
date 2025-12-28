@@ -36,9 +36,9 @@ Setu X1 supports **AES‑128 encrypted communication**, **remote OTA firmware up
 
 Whether enabling energy monitoring, asset tracking, indoor environmental sensing or Industry 4.0 automation — **Setu X1 establishes a secure, scalable, and future‑proof LoRaWAN® network backbone** for enterprise IoT transformation.
 
-| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image.webp) |
+| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image.webp) |
+| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-front-view.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-dimensions-drawing.webp) |
 
 
 <div class="faint-line"></div>

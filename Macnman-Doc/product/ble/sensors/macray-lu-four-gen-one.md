@@ -1,47 +1,49 @@
 ---
-id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
-title: MacRay-LU4
+id: ble-tag-one
+title: Tag X3
 sidebarposition: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan ultrasonic level sensor
-  - sub 4 meter ultrasonic sensor
-  - manhole level monitoring sensor
-  - smart water management iot device
-  - underground drainage monitoring
-  - sewer level monitoring system
-  - tank liquid level measurement
-  - flood detection sensor lorawan
-  - sump pit level monitoring iot
-  - water utility smart metering solution
-  - ultrasonic distance measurement iot
-  - industrial waste water monitoring
-  - long range wireless water level sensor
-  - battery powered lorawan sensor
-  - ultrasonic level transmitter lorawan
-  - smart city drainage monitoring sensor
-  - environmental monitoring sensor lorawan
-  - ip67 rugged ultrasonic sensor
-  - remote tank monitoring solution
-  - industrial iot automation device
+  - ble beacon tag
+  - ble asset tracking tag
+  - ble sensor tag
+  - ibeacon ble tag
+  - eddystone ble beacon
+  - bluetooth low energy beacon
+  - ble imu sensor tag
+  - ble motion sensor tag
+  - ble temperature humidity sensor
+  - ble pressure sensor tag
+  - indoor positioning ble beacon
+  - ble rtds location tag
+  - ble people and asset tracking
+  - ble environmental sensor tag
+  - ble condition monitoring tag
+  - ble industrial asset tag
+  - ble smart building sensor
+  - ble warehouse tracking tag
+  - ble cold chain monitoring tag
+  - ble gateway compatible tag
+  - macnman ble tag
+  - macnman ble beacon
+  - tag x3 ble sensor
 ---
 
-# MacRay-LU4 Datasheet
+# TagX3 Datasheet
 
 ## Product Overview
 
-MacRay-LU4 is a **rugged LoRaWAN® ultrasonic level sensor** designed for short-range precision (0–4 meters) monitoring of liquids and solids in harsh outdoor and industrial environments. With advanced time-of-flight ultrasonic measurement and intelligent echo processing technology, it ensures high-accuracy level detection for tanks, pits, manholes, sumps, reservoirs, waste processing chambers, and flood monitoring systems.
+**Tag X3** is a compact and rugged **Bluetooth Low Energy (BLE) sensor tag and beacon** designed for **asset tracking, indoor location services, and condition monitoring** across industrial and commercial environments. Supporting both **iBeacon** and **Eddystone** protocols, Tag X3 enables seamless identification, proximity detection, and location tracking using BLE gateways, mobile devices, and edge receivers.
 
-Engineered with **IP67 sensor protection**, corrosion-resistant housing, and advanced interference filtering, the MacRay-LU4 operates reliably in moisture-rich, chemically aggressive, and dusty environments where traditional level sensors fail. It supports LoRaWAN® Class A, long-range coverage, and offers multi-year battery performance, making it ideal for remote and unmanned sites.
+In addition to beaconing, Tag X3 integrates multiple onboard sensors including an **IMU (motion and orientation sensing)**, **temperature**, **humidity**, and **barometric pressure**, allowing it to capture real-time movement and environmental conditions directly from the asset. This makes it ideal for monitoring **asset usage, movement patterns, handling events, and storage conditions**.
 
-The device integrates AES-256 encrypted LoRaWAN® communication, over-the-air configuration via Maya App (BLE), and supports intelligent uplink modes including periodic, event-driven, and threshold-based triggers — enabling energy-efficient deployments at scale.
+Engineered for **ultra-low power operation**, Tag X3 supports configurable advertising intervals, transmit power levels, and event-based triggers to maximize battery life while maintaining reliable visibility. The device can operate continuously for long durations in both **broadcast-only** and **sensor-enabled** modes.
 
-Whether supporting smart water utilities, sewer & drainage systems, liquid storage tanks, waste tracking, or environmental flood alerts, MacRay-LU4 converts real-world level conditions into instant data, enabling proactive maintenance, reduced operational costs, and smarter city infrastructure.
+Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and industrial edge devices**, enabling data forwarding to **on-premise systems or cloud platforms** for analytics, alerts, and automation. Its small form factor and rugged enclosure make it suitable for **tools, containers, equipment, pallets, and movable assets** in warehouses, factories, campuses, and smart buildings.
 
-
-| ![](/img/lorawan/macray/macray-lu4-front-view.webp) | ![](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
+| ![](/img/ble/tag-x-ble-asset-tracking-sensor-side-profile.webp) | ![](/img/ble/tag-x-ble-beacon-ibeacon-eddystone-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![](/img/lorawan/macray/macray-lu4-side-view.webp) |
+| ![](/img/ble/tag-x-ble-beacon-industrial-rugged-design.webp) | ![](/img/ble/tag-x-ble-sensor-tag-back-battery-compartment.webp) |
 
 <div class="faint-line"></div>
 
@@ -62,7 +64,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacRay-LU4</p>
+      <p>Click here to view the decoders for TagX3</p>
     </div>
   </a>
 </div>
@@ -72,104 +74,102 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Short‑Range Precision Sensing</strong>
-  Optimized ultrasonic measurement for 0–4 meters liquid and solid level monitoring.
+  <strong>BLE Beacon with iBeacon & Eddystone Support</strong>
+  Fully supports industry-standard iBeacon and Eddystone protocols for indoor positioning, proximity detection, and asset identification.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Advanced Echo Processing</strong>
-  Intelligent filtering eliminates false readings from foam, turbulence, and obstructions.
+  <strong>Integrated IMU for Motion & Orientation</strong>
+  Built-in inertial sensor enables motion detection, tilt sensing, shock events, and movement-based triggers.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Battery‑Powered LoRaWAN®</strong>
-  Multi‑year autonomous operation with ultra‑low‑power wireless communication.
+  <strong>Temperature, Humidity & Pressure Sensing</strong>
+  Onboard environmental sensors provide real-time monitoring of temperature, relative humidity, and barometric pressure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Rugged Design</strong>
-  Durable and corrosion‑resistant enclosure built for harsh outdoor and underground environments.
+  <strong>Ultra-Low Power BLE Operation</strong>
+  Optimized BLE advertising and sensor sampling for long battery life in continuous broadcast and event-driven modes.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic, event‑based & threshold alerts optimize power consumption and network traffic.
+  <strong>Configurable Advertising Parameters</strong>
+  Adjustable advertising interval, transmit power, and payload structure to balance range, visibility, and power consumption.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Event-Based Sensor Triggers</strong>
+  Supports motion-based, orientation-based, and threshold-based triggers for intelligent tracking and alerts.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Gateway & Smartphone Compatible</strong>
+  Works seamlessly with BLE gateways, smartphones, tablets, and industrial edge devices for data collection.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Compact & Rugged Form Factor</strong>
+  Small, lightweight enclosure suitable for tools, pallets, containers, equipment, and movable assets.
 </div>
 
 <div className="reusable-feature-card">
   <strong>BLE Configuration via Maya App</strong>
-  Quick setup, OTA parameter adjustment & diagnostics using a smartphone.
+  Easy local configuration, diagnostics, and parameter updates using the Macnman Maya mobile application.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Industrial Use</strong>
-  Designed for manholes, sewer drains, tanks, pits, reservoirs & flood monitoring.
+  <strong>Indoor Asset Tracking & Condition Monitoring Ready</strong>
+  Designed for RTLS, asset tracking, usage analytics, and environmental condition visibility.
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Secure & Long‑Range Communication</strong>
-  AES‑128 encrypted LoRaWAN® connectivity with strong penetration in remote areas.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Flexible Deployment Options</strong>
-  Supports pole, wall, and custom mount installation for easy field deployment.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Compatible with All LoRaWAN® Networks</strong>
-  Works seamlessly with private/public network servers and cloud platforms.
-</div>
 </div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
+
   <div className="reusable-feature-card">
-    <strong>Smart Water Utilities</strong>
-    Continuous level monitoring for underground water tanks, overhead tanks, reservoirs, and sumps.
+    <strong>Asset Tracking & RTLS</strong>
+    Real-time tracking of tools, equipment, pallets, containers, and movable assets using BLE gateways and indoor location systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Manhole & Sewer Level Monitoring</strong>
-    Detect overflow risks, blockages, and sewer flooding in drainage networks.
+    <strong>Warehouse & Logistics Operations</strong>
+    Asset visibility across warehouses, distribution centers, and logistics hubs to track movement, utilization, and dwell time.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Flood & Stormwater Monitoring</strong>
-    Real-time alerts for rising levels in rivers, canals, storm drains, and flood-prone zones.
+    <strong>Smart Buildings & Campuses</strong>
+    Indoor location, proximity detection, and environmental monitoring across offices, campuses, and commercial buildings.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Wastewater Management</strong>
-    Accurate level detection in effluent treatment plants, sludge pits, and chemical tanks.
+    <strong>Cold Chain & Storage Condition Monitoring</strong>
+    Temperature, humidity, and pressure monitoring for sensitive goods during storage and indoor transportation.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Mining & Quarry Operations</strong>
-    Level tracking in slurry pits, water sumps, and tailing dams for safety assurance.
+    <strong>Industrial Equipment Monitoring</strong>
+    Motion, shock, and usage detection for machines, tools, and equipment to improve asset utilization and maintenance planning.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart City Infrastructure</strong>
-    Remote monitoring of drainage networks to prevent urban flooding and road closures.
+    <strong>Personnel & Safety Monitoring</strong>
+    Proximity and movement tracking for workforce safety, zone compliance, and restricted area monitoring.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil & Fuel Storage Tanks</strong>
-    Level measurement for diesel storage, fuel stations, and industrial oil chambers.
+    <strong>Retail & Indoor Analytics</strong>
+    Footfall analysis, zone activity tracking, and customer movement insights without using cameras.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote & Unmanned Locations</strong>
-    Low-maintenance, long-range LoRaWAN® monitoring where wired installation is impractical.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Environmental Risk Monitoring</strong>
-    Early warning for spill detection, groundwater rise, or hazardous waste overflow.
+    <strong>Facility & Infrastructure Monitoring</strong>
+    Environmental condition visibility and asset movement tracking inside factories, plants, and infrastructure facilities.
   </div>
 </div>
 
@@ -183,7 +183,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacRay-LU4</p>
+    <p className="value">TagX3</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -195,31 +195,97 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Ultrasonic <br /> Level Measurement
+    Environmental <br /> Sensor Specifications
   </div>
   <div className="spec-block-details">
-<p className="label">Ranging Range</p>
-<p className="value">3 – 450 cm</p>
-<br />
-<p className="label">Blind Zone Distance</p>
-<p className="value">3 cm</p>
-<br />
-<p className="label">Response Time (Sensor)</p>
-<p className="value">100 ms</p>
-<br />
-<p className="label">Resolution</p>
-<p className="value">0.1 cm</p>
-<br />
-<p className="label">Center Frequency</p>
-<p className="value">40 kHz ± 1 kHz</p>
-<br />
-<p className="label">Sensing Angle</p>
-<p className="value">60°</p>
-<br />
-<p className="label">Protection Rating (Sensor)</p>
-<p className="value">IP67</p>
+
+    <p className="label">Temperature Sensor</p>
+    <p className="value">Integrated digital temperature sensor</p>
+    <br />
+
+    <p className="label">Temperature Measurement Range</p>
+    <p className="value">-20°C to +60°C</p>
+    <br />
+
+    <p className="label">Temperature Accuracy</p>
+    <p className="value">±0.5°C (typical)</p>
+    <br />
+
+    <p className="label">Humidity Sensor</p>
+    <p className="value">Integrated digital humidity sensor</p>
+    <br />
+
+    <p className="label">Humidity Measurement Range</p>
+    <p className="value">0% to 100% RH (non-condensing)</p>
+    <br />
+
+    <p className="label">Humidity Accuracy</p>
+    <p className="value">±3% RH (typical)</p>
+    <br />
+
+    <p className="label">Pressure Sensor</p>
+    <p className="value">Integrated barometric pressure sensor</p>
+    <br />
+
+    <p className="label">Pressure Measurement Range</p>
+    <p className="value">300 hPa to 1100 hPa</p>
+    <br />
+
+    <p className="label">Pressure Accuracy</p>
+    <p className="value">±1 hPa (typical)</p>
+    <br />
+
   </div>
 </div>
+
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    IMU <br /> Specifications
+  </div>
+  <div className="spec-block-details">
+
+    <p className="label">IMU Type</p>
+    <p className="value">Integrated MEMS Inertial Measurement Unit</p>
+    <br />
+
+    <p className="label">Sensors Included</p>
+    <p className="value">3-axis Accelerometer</p>
+    <p className="value">3-axis Gyroscope (variant dependent)</p>
+    <br />
+
+    <p className="label">Acceleration Range</p>
+    <p className="value">±2g / ±4g / ±8g / ±16g (configurable)</p>
+    <br />
+
+    <p className="label">Motion Detection</p>
+    <p className="value">Movement detection</p>
+    <p className="value">Shock & impact detection</p>
+    <p className="value">Tilt & orientation change detection</p>
+    <br />
+
+    <p className="label">Sampling Rate</p>
+    <p className="value">Configurable (Typical: 1 Hz to 100 Hz)</p>
+    <br />
+
+    <p className="label">Trigger Modes</p>
+    <p className="value">Event-based triggers</p>
+    <p className="value">Threshold-based triggers</p>
+    <p className="value">Periodic sampling</p>
+    <br />
+
+    <p className="label">Use Cases</p>
+    <p className="value">Asset movement tracking</p>
+    <p className="value">Drop / shock detection</p>
+    <p className="value">Usage pattern analysis</p>
+    <br />
+
+  </div>
+</div>
+
+
 
 <div class="faint-line"></div>
 
@@ -228,30 +294,35 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     Wireless <br /> Transmission
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Wireless Technology</p>
+    <p className="value">Bluetooth Low Energy (BLE)</p>
     <br />
 
+    <p className="label">Supported Beacon Protocols</p>
+    <p className="value">iBeacon</p>
+    <p className="value">Eddystone (UID / URL / TLM)</p>
+    <br />
+
+    <p className="label">Operating Frequency</p>
+    <p className="value">2.4 GHz ISM Band</p>
+    <br />
+
+    <p className="label">Transmit Power</p>
+    <p className="value">Configurable (Typical: -20 dBm to +4 dBm)</p>
+    <br />
+
+    <p className="label">Advertising Interval</p>
+    <p className="value">Configurable (100 ms to 10 s)</p>
+    <br />
+
+    <p className="label">Antenna</p>
+    <p className="value">Internal high-efficiency BLE antenna</p>
+    <br />
+
+    <p className="label">Communication Mode</p>
+    <p className="value">Broadcast (Beacon Advertising)</p>
+    <p className="value">Connectable BLE (for configuration & diagnostics)</p>
+    <br />
   </div>
 </div>
 
@@ -275,7 +346,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacRay is being modified</p>
+    <p className="value">A confirmed parameter of tag is being modified</p>
     <br />
 
 
@@ -312,14 +383,24 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
   </div>
   <div className="spec-block-details">
     <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (12Ah) Industrial grade</p>
+    <p className="value">CR Series Lithium Coin Cell (Replaceable)</p>
     <br />
+
+    <p className="label">Typical Battery Models</p>
+    <p className="value">CR2477 / CR2450 (Variant dependent)</p>
+    <br />
+
     <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">Ultra-low power BLE operation</p>
+    <p className="value">Optimized for beacon advertising and sensor event-based transmission</p>
     <br />
+
     <p className="label">Battery Life</p>
-    <p className="value">Up to 2 years (10 Mins Uplink Interval)</p>
+    <p className="value">Up to 12–24 months (depending on advertising interval, Tx power, and sensor usage)</p>
+    <br />
+
+    <p className="label">Battery Replacement</p>
+    <p className="value">User-replaceable coin cell</p>
     <br />
   </div>
 </div>
@@ -328,18 +409,28 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Supported <br /> LNS
+    Supported <br /> BLE Protocols
   </div>
   <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+
+    <p className="label">Beacon Protocols</p>
+    <p className="value">iBeacon</p>
+    <p className="value">Eddystone-UID</p>
+    <p className="value">Eddystone-URL</p>
+    <p className="value">Eddystone-TLM</p>
+    <br />
+
+    <p className="label">BLE Communication</p>
+    <p className="value">BLE Advertising (Broadcast Mode)</p>
+    <p className="value">Connectable BLE (Configuration & Diagnostics)</p>
+    <br />
+
+    <p className="label">Compatibility</p>
+    <p className="value">BLE Gateways</p>
+    <p className="value">Smartphones & Tablets (Android / iOS)</p>
+    <p className="value">Industrial Edge Devices</p>
+    <br />
+
   </div>
 </div>
 
@@ -350,72 +441,39 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
-    <p className="value">9-36 V DC</p>
+    <p className="label">Power Supply</p>
+    <p className="value">Internal CR Series Lithium Coin Cell</p>
     <br />
+
     <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
+    <p className="value">-20°C to +60°C</p>
     <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
+
+    <p className="label">Operating Humidity</p>
+    <p className="value">0% to 95% RH (non-condensing)</p>
     <br />
+
     <p className="label">Ingress Protection</p>
-    <p className="value">IP65 standard (IP67 optional variant)</p>    
+    <p className="value">IP54 (IP65 optional variant)</p>
     <br />
+
     <p className="label">Housing Material</p>
-    <p className="value">Glass field Nylon</p>    
+    <p className="value">Industrial-grade ABS / Polycarbonate enclosure</p>
     <br />
+
     <p className="label">Color</p>
-    <p className="value">Matte Black</p>    
+    <p className="value">Matte Black</p>
     <br />
+
     <p className="label">Weight</p>
-    <p className="value">~110g</p>    
+    <p className="value">&lt; 50 g (with battery)</p>
     <br />
+
     <p className="label">Mounting Options</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
+    <p className="value">Adhesive mount / Screw mount / Lanyard / Clip (variant dependent)</p>
     <br />
   </div>
 </div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
-    <p className="value">9-36 V DC (External Supply)</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Input Impedance</p>
-    <p className="value">>10 MΩ for voltage inputs</p>
-    <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Communication <br /> Options
-  </div>
-  <div className="spec-block-details">
-    <p className="label">BLE Connectivity</p>
-    <p className="value">For local configuration and diagnostics via Maya App</p>
-    <br />
-    <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
-    <br />
-    <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (optional)</p>
-    <br />
-  </div>
-</div>
-
 
 <div class="faint-line"></div>
 
@@ -453,79 +511,34 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 </div>
 
 
-##  MacRay-LU4 Variants
+##  TagX3 Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
+      <th>Battery Type</th>
       <th>Battery Capacity</th>
-      <th>Solar Support</th>
       <th>External Flash</th>
       <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacRay-LU4-PO</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
+      <td>TagX3-BO</td>
+      <td>Battery Powered</td>
+      <td>CR Series Lithium Coin Cell</td>
+      <td>CR2450 / CR2477</td>
       <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacRay-LU4-BO</td>
-      <td>Battery</td>
-      <td>12 Ah</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>
+        Asset tracking, RTLS, condition monitoring, cold chain, 
+        warehouse logistics, smart buildings, and portable deployments
+      </td>
     </tr>
   </tbody>
 </table>
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
-
--->
 
 ## What's in the box ?
 

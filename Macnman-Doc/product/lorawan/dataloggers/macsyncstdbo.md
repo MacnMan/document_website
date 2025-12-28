@@ -1,6 +1,6 @@
 ---
 id: macsync-l-std-battery-operated-gen-one
-title: MacSync-L-STD-BO
+title: MacSync-LX1-BO
 sidebarposition: 3
 description: Ultra-rugged LoRaWAN IoT device with long-range wireless and low-power architecture.
 keywords:

@@ -1,47 +1,44 @@
 ---
-id: mlth-temp-humi-sensor-datasheet
-title: MLTH 301
+id: macsync-wt-one-datasheet
+title: MacSync-WT1
 sidebarposition: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan temperature humidity sensor
-  - compact lorawan temperature sensor
-  - mini lorawan humidity sensor
-  - small form factor lorawan sensor
-  - lorawan environmental sensor
-  - industrial temperature humidity sensor
-  - battery powered lorawan temp humidity sensor
-  - ultra compact iot sensor
-  - lorawan climate monitoring device
-  - indoor lorawan temperature sensor
-  - hvac temperature humidity monitoring
-  - cold chain temperature humidity sensor
-  - greenhouse climate sensor lorawan
-  - smart building iot sensor
-  - industrial iot environmental monitoring
-  - long range wireless temp humidity sensor
-  - low power lorawan sensor
-  - macsync
-  - macnman
-  - ip67 lorawan sensor
+  - wifi temperature humidity sensor
+  - battery operated wifi temperature sensor
+  - low power wifi temperature humidity sensor
+  - wifi humidity sensor
+  - industrial wifi temperature humidity sensor
+  - indoor wifi temperature sensor
+  - wifi environmental sensor
+  - wifi climate monitoring device
+  - hvac wifi temperature humidity sensor
+  - cold chain wifi temperature humidity monitoring
+  - smart building wifi sensor
+  - industrial iot wifi sensor
+  - compact wifi temperature humidity sensor
+  - battery powered wifi environmental sensor
+  - macsync wifi temperature sensor
+  - macsync temperature humidity sensor
+  - macnman wifi sensor
+  - wifi iot temperature sensor
 ---
 
-#  MLTH 301 Datasheet
+# MacSync-WT1 Datasheet
 
 ## Product Overview
 
-** MLTH 301** is a premium LoRaWAN® temperature, humidity & pressure sensor, engineered for high-accuracy environmental monitoring in the most demanding industrial and outdoor deployments. Built for precision and longevity, it continuously captures real-time atmospheric data and transmits it over ultra-long-range LoRaWAN® networks—ensuring maximum uptime with minimal power consumption.
+**MacSync-WT1** is a compact, **Wi-Fi–based temperature and humidity sensor with an inbuilt battery**, designed for accurate indoor and semi‑industrial environmental monitoring where direct IP connectivity is preferred. It enables real-time climate data transmission over standard Wi‑Fi networks without the need for gateways or long‑range network infrastructure.
 
-Powered by industrial-grade sensing elements and advanced thermal-isolation design, the  MLTH 301 delivers fast response, low drift, and exceptional measurement stability even under harsh weather or mechanical stress. Its rugged enclosure and ingress-protected design make it a perfect fit for smart agriculture, cold chain logistics, HVAC automation, smart cities, warehouses, greenhouses, and remote environmental stations.
+Engineered with industrial‑grade sensing elements and optimized power management, MacSync‑WT1 delivers fast response, low drift, and long‑term measurement stability while operating on battery power using intelligent sleep‑wake cycles. This makes it ideal for deployments where wired power is unavailable but reliable Wi‑Fi coverage exists.
 
-With support for LoRaWAN® v1.0.4, Class A operation, high-efficiency internal antenna, AES-256 encrypted communication, and optional BLE-based OTA configuration through the Maya App, deployment and maintenance become effortless and scalable for large industrial fleets.
+The device securely publishes temperature and humidity data to **local servers, on‑premise dashboards, or cloud platforms** using standard protocols such as **MQTT, HTTP, and HTTPS**. Built‑in BLE support allows easy provisioning, diagnostics, and configuration through the Macnman Maya mobile application.
 
-Whether you’re modernizing legacy monitoring systems or delivering intelligent environmental analytics at scale,  MLTH 301 provides a future-proof, carrier-grade, and low-maintenance sensing platform—transforming raw climate conditions into actionable intelligence for smarter decisions.
+Housed in a rugged, ingress‑protected enclosure, MacSync‑WT1 is well suited for **smart buildings, HVAC systems, cold rooms, warehouses, laboratories, healthcare facilities, and industrial indoor environments**, delivering low‑latency, reliable Wi‑Fi‑based environmental monitoring with minimal maintenance.
 
-
-| ![Image 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-environmental-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-mounting-guide.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-side-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -62,7 +59,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for  MLTH 301</p>
+      <p>Click here to view the decoders for MacSync-WT1</p>
     </div>
   </a>
 </div>
@@ -74,63 +71,63 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>High‑Accuracy Sensing</strong>
-  Precision temperature, humidity & barometric pressure measurement for reliable climate intelligence.
+  <strong>High‑Accuracy Temperature & Humidity Sensing</strong>
+  Precision temperature and humidity measurements using industrial‑grade sensing elements for reliable indoor climate monitoring.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial‑Grade Sensors</strong>
-  Low drift, fast response, and long‑term measurement stability in harsh environments.
+  <strong>Low‑Power Wi‑Fi Operation</strong>
+  Optimized Wi‑Fi communication with intelligent sleep‑wake cycles to enable long battery life.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ultra‑Low Power Operation</strong>
-  Battery‑optimized LoRaWAN® Class A communication for multi‑year field deployments.
+  <strong>Battery‑Operated Design</strong>
+  Inbuilt industrial‑grade battery enables flexible deployment where wired power is unavailable.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic reporting, threshold‑based triggers & event‑driven uplinks to reduce battery usage.
+  <strong>Direct IP Connectivity</strong>
+  Sends data directly to local servers or cloud platforms over Wi‑Fi without requiring gateways.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Wireless Transmission</strong>
-  AES‑128 encryption with OTAA activation for reliable, long‑range connectivity.
+  <strong>Standard IoT Protocol Support</strong>
+  Supports MQTT, HTTP, and HTTPS for seamless integration with dashboards, BMS, and IoT platforms.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ingress‑Protected Enclosure</strong>
-  Designed for indoor and outdoor use — IP65 standard (IP67 optional).
+  <strong>Fast Response & Long‑Term Stability</strong>
+  Low sensor drift and stable performance over long operating periods in indoor and semi‑industrial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Local setup, diagnostics, and OTA configuration using a smartphone.
+  <strong>Secure Wireless Communication</strong>
+  WPA2 / WPA3 Wi‑Fi security with TLS‑encrypted data transmission.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Compatible with All LoRaWAN® Networks</strong>
-  Works seamlessly with major public & private network servers.
+  <strong>Local Configuration via BLE</strong>
+  Easy provisioning, diagnostics, and configuration using the Macnman Maya mobile application.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Long‑Range Communication</strong>
-  Robust LoRa coverage for agriculture fields, factories & remote outdoor sites.
+  <strong>Compact & Lightweight Enclosure</strong>
+  Small form factor suitable for wall or ceiling mounting in offices, warehouses, and equipment rooms.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Internal High‑Efficiency Antenna</strong>
-  Optimized radiation pattern for long‑distance communication stability.
+  <strong>Ingress‑Protected Housing</strong>
+  IP‑rated enclosure designed for reliable operation in industrial and commercial indoor environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Compact & Lightweight Design</strong>
-  Easy pole/wall mounting for permanent or temporary installations.
+  <strong>Smart Data Reporting</strong>
+  Supports time‑based, threshold‑based, and event‑driven reporting to optimize battery usage.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Future‑Proof Industrial IoT Ready</strong>
-  Enables automated climate control & intelligent data analytics across industries.
+  <strong>Smart Building & HVAC Ready</strong>
+  Ideal for comfort monitoring, energy optimization, and indoor environmental intelligence.
 </div>
 
 </div>
@@ -141,48 +138,48 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture</strong>
-    Environmental sensing for farms, greenhouses, vineyards, and horticulture climate automation.
+    <strong>Smart Buildings & Offices</strong>
+    Continuous indoor temperature and humidity monitoring for occupant comfort, energy optimization, and building management systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Chain Monitoring</strong>
-    Reliable temperature & humidity tracking for warehouses, cold rooms, vaccine storage & food logistics.
+    <strong>HVAC Monitoring & Optimization</strong>
+    Real-time temperature and humidity tracking across HVAC zones to improve efficiency, performance, and preventive maintenance.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings & HVAC</strong>
-    Indoor air comfort and HVAC system efficiency monitoring in offices, malls & industrial buildings.
+    <strong>Cold Rooms & Cold Storage</strong>
+    Reliable environmental monitoring for pharmaceutical storage, vaccine cold rooms, food storage, and cold-chain facilities.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Environment & Weather Stations</strong>
-    Pressure, temperature & humidity monitoring for micro‑climate analysis and air health.
+    <strong>Warehouses & Storage Facilities</strong>
+    Ensures controlled temperature and humidity conditions for FMCG, electronics, raw materials, and finished goods.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Infrastructure</strong>
-    Climate exposure tracking for telecom towers, substations, wind turbines & solar plants.
+    <strong>Laboratories & Clean Rooms</strong>
+    Accurate climate monitoring for research labs, testing facilities, calibration rooms, and controlled environments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Warehouses & Storage Rooms</strong>
-    Ensures temperature/humidity‑controlled storage for pharma, FMCG & raw materials.
+    <strong>Hospitals & Healthcare Facilities</strong>
+    Supports temperature and humidity monitoring in wards, pharmacies, equipment rooms, and medical storage areas.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Environmental influence analysis for manufacturing processes & equipment protection.
+    <strong>Data Centers & Server Rooms</strong>
+    Monitors temperature and humidity to protect critical IT infrastructure and ensure operational reliability.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Cities</strong>
-    Distributed environmental sensing to support sustainability, safety & urban planning.
+    <strong>Retail & Commercial Spaces</strong>
+    Maintains indoor comfort and climate conditions in malls, stores, hotels, and commercial buildings.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Mines, Tunnels & Harsh Sites</strong>
-    Monitoring isolated industrial locations with long‑range LoRaWAN wireless coverage.
+    <strong>Industrial Indoor Areas</strong>
+    Monitors environmental conditions inside factories, production floors, control rooms, and utility spaces with Wi‑Fi coverage.
   </div>
 
 </div>
@@ -197,7 +194,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value"> MLTH 301</p>
+    <p className="value">MacSync-WT1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -255,7 +252,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Pressure <br /> Measurement*
+    Pressure <br /> Measurement
   </div>
   <div className="spec-block-details">
     <p className="label">Range</p>
@@ -277,35 +274,41 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 
 <div class="faint-line"></div>
 
+
 <div className="spec-block">
   <div className="spec-block-title">
-    Wireless <br /> Transmission
+    Wireless <br /> Communication
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Wi‑Fi Standards</p>
+    <p className="value">IEEE 802.11 b/g/n/ac</p>
     <br />
 
+    <p className="label">Frequency Bands</p>
+    <p className="value">2.4 GHz & 5 GHz (Dual‑Band)</p>
+    <br />
+
+    <p className="label">Operating Modes</p>
+    <p className="value">Station Mode (Client)</p>
+    <p className="value">Access Point Mode (Configuration)</p>
+    <br />
+
+    <p className="label">Network Protocols</p>
+    <p className="value"> MQTT, HTTP, HTTPS</p>
+    <br />
+
+    <p className="label">Security</p>
+    <p className="value">WPA2‑PSK / WPA3</p>
+    <p className="value">TLS / SSL Encrypted Communication</p>
+    <br />
+
+    <p className="label">IP Configuration</p>
+    <p className="value">DHCP / Static IP</p>
+    <br />
+
+    <p className="label">Typical Indoor Range</p>
+    <p className="value">Up to 100 m (environment dependent)</p>
+    <br />
   </div>
 </div>
 
@@ -329,7 +332,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of device is being modified</p>
+    <p className="value">A confirmed parameter of MacSync is being modified</p>
     <br />
 
 
@@ -362,38 +365,32 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Battery <br /> Performance
+    Supported <br /> Cloud & Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (09Ah) Industrial grade</p>
+    <p className="label">Deployment Models</p>
+    <p className="value">On-Premise Servers</p>
+    <p className="value">Private Cloud Deployments</p>
+    <p className="value">Public Cloud Platforms</p>
     <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
+    <p className="label">IoT Cloud Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">Google Cloud (via MQTT / HTTPS)</p>
+    <p className="value">Custom IoT Platforms</p>
+    <br />
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <p className="label">Integration Methods</p>
+    <p className="value">MQTT Brokers</p>
+    <p className="value">REST / HTTPS APIs</p>
+    <p className="value">Webhooks</p>
+    <br />
+
+    <p className="label">Enterprise Systems</p>
+    <p className="value">SCADA Systems</p>
+    <p className="value">BMS / IBMS Platforms</p>
+    <p className="value">Data Lakes & Analytics Engines</p>
   </div>
 </div>
 
@@ -404,7 +401,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply(Optional)</p>
+    <p className="label">Power Supply</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -438,12 +435,12 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
+    <p className="label">Input Voltage Range</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">~150 mA during transmission</p>
     <br />
     <p className="label">Input Impedance</p>
     <p className="value">>10 MΩ for voltage inputs</p>
@@ -462,7 +459,7 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS </p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
@@ -506,8 +503,9 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
   </div>
 </div>
 
+<div class="faint-line"></div>
 
-##   MLTH 301 Variants
+##  MacSync-WT1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -522,9 +520,17 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
   </thead>
   <tbody>
     <tr>
-      <td> MLTH 301-BO</td>
+      <td>MacSync-WT1-PO</td>
+      <td>12–24 V (Power)</td>
+      <td>✖️</td>
+      <td>✖️</td>
+      <td>✔️</td>
+      <td>Industrial or commercial sites with stable power supply</td>
+    </tr>
+    <tr>
+      <td>MacSync-WT1-BO</td>
       <td>Battery</td>
-      <td>09 Ah</td>
+      <td>19 Ah</td>
       <td>✖️</td>
       <td>✔️</td>
       <td>Remote or portable deployments with low power</td>
@@ -532,12 +538,52 @@ Whether you’re modernizing legacy monitoring systems or delivering intelligent
   </tbody>
 </table>
 
+<!-- 
+<table className="spec-table">
+  <thead>
+    <tr>
+      <th colSpan="2" className="spec-title">Wireless Transmission</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Technology</td>
+      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
+    </tr>
+    <tr>
+      <td>Antenna</td>
+      <td>Internal high-efficiency antenna</td>
+    </tr>
+    <tr>
+      <td>Supported Bands</td>
+      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
+    </tr>
+    <tr>
+      <td>Tx Power</td>
+      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
+    </tr>
+    <tr>
+      <td>Sensitivity</td>
+      <td>-137 dBm @ 300 bps</td>
+    </tr>
+    <tr>
+      <td>Activation</td>
+      <td>OTAA / ABP</td>
+    </tr>
+    <tr>
+      <td>LoRaWAN® Class</td>
+      <td>Class A (default), Configurable to Class C via Maya</td>
+    </tr>
+  </tbody>
+</table>
+
+-->
 
 ## What's in the box ?
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
+![title image](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -548,5 +594,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.svg)
+![title image](/img/lorawan/sensors/macsync/macsync-probe-dimensions.svg)
 
