@@ -44,9 +44,10 @@ Designed as an **edge automation device**, Mini Scheduler X2 operates independen
 
 With its compact design, flexible task scheduling engine, and industrial-ready control capability, **Mini Scheduler X2 serves as a powerful yet easy-to-use automation controller** for smart lighting, energy management, alarms, and time-based control applications.
 
-| ![FireGuard Gen-1 smart fire equipment health monitoring controller front view](/img/lorawan/gateways/fireguard-gen-one-control-outputs.webp) | ![FireGuard Gen-1 UART I2C RS485 sensor ports for fire hydrant sprinkler pump monitoring](/img/lorawan/gateways/fireguard-gen-one-fire-panel-integration.webp) |
+
+| ![FireGuard Gen-1 smart fire equipment health monitoring controller front view](/img/otherProducts/mini-scheduler-front-view.webp) | ![FireGuard Gen-1 UART I2C RS485 sensor ports for fire hydrant sprinkler pump monitoring](/img/otherProducts/mini-scheduler-panel-mount-installation.webp) |
 |--------------------------------|--------------------------------|
-| ![FireGuard Gen-1 digital outputs for fire pump siren exhaust and emergency door control](/img/lorawan/gateways/fireguard-gen-one-front-view.webp) | ![FireGuard Gen-1 connected with fire panel BMS and SCADA for real-time fire equipment alerts](/img/lorawan/gateways/fireguard-gen-one-sensor-interface-ports.webp) |
+| ![FireGuard Gen-1 digital outputs for fire pump siren exhaust and emergency door control](/img/otherProducts/mini-scheduler-smart-lighting-control.webp) | ![FireGuard Gen-1 connected with fire panel BMS and SCADA for real-time fire equipment alerts](/img/otherProducts/mini-scheduler-touchscreen-interface.webp) |
 
 <div class="faint-line"></div>
 
@@ -77,46 +78,49 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Fire Equipment Health Monitoring</strong>
-  Constant supervision of critical fire‑fighting systems such as pumps, hydrants, extinguishers, fire doors, and water storage levels.
+  <strong>BLE-Based Smart Scheduler</strong>
+  Bluetooth® Low Energy connectivity for local configuration, control, and diagnostics without cloud or internet dependency.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>8 Multi‑Protocol Sensor Interfaces</strong>
-  Supports UART, I²C, and RS‑485 sensors for seamless integration with diverse fire protection peripherals.
+  <strong>Single-Phase Relay Control</strong>
+  Integrated industrial-grade relay for controlling lights, pumps, motors, signage, and other single-phase electrical loads.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>4 Digital Outputs for Automation</strong>
-  Capable of triggering fire pumps, sirens, exhaust fans, and door release mechanisms during emergency events.
+  <strong>Touchscreen User Interface</strong>
+  Built-in touchscreen enables intuitive task creation, schedule editing, manual control, and real-time status monitoring.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>SCADA, BMS & Fire Panel Connectivity</strong>
-  Sends real‑time equipment health signals and alarms directly to building safety infrastructure.
+  <strong>Flexible Task Scheduling Engine</strong>
+  Supports alarms, time-based ON/OFF schedules, interval timers, recurring tasks, and rule-based automation.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Edge Intelligence & Fault Diagnosis</strong>
-  Local processing enables early failure detection, preventive alerts, and malfunction reporting before emergencies occur.
+  <strong>Alarm & Notification Tasks</strong>
+  Configure local alarms and event-triggered notifications for operational alerts and reminders.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure and Reliable Operation</strong>
-  Features industrial surge protection and secure communication for uninterrupted fire safety compliance.
+  <strong>Standalone Edge Operation</strong>
+  Executes all schedules and tasks locally, ensuring uninterrupted operation even without network connectivity.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Simple Installation & Zero Interruption</strong>
-  Works with existing fire layouts without changes to current fire alarm systems or infrastructure.
+  <strong>Manual Override & Local Control</strong>
+  Allows instant manual switching via touchscreen for maintenance, emergency, or override scenarios.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Designed for Life‑Saving Reliability</strong>
-  Built to ensure equipment readiness and compliance to protect people, assets, and infrastructure when every second counts.
+  <strong>Industrial-Ready Design</strong>
+  Designed for continuous operation in industrial and commercial environments with reliable performance.
 </div>
+
 </div>
+
 <div class="faint-line"></div>
 
 ## Suited Applications
@@ -124,46 +128,48 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Fire Pump Monitoring Rooms</strong>
-  Continuous diagnostics of motor condition, controller health, and pump readiness for immediate emergency activation.
+  <strong>Smart Lighting Control</strong>
+  Time-based and event-based ON/OFF scheduling for indoor and outdoor lighting in factories, offices, warehouses, and commercial buildings.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Fire Hydrant & Sprinkler Networks</strong>
-  Pressure and flow monitoring ensuring water delivery systems remain active and compliant.
+  <strong>Pump & Motor Scheduling</strong>
+  Automated control of single-phase pumps, exhaust fans, and motors using timers, alarms, and predefined schedules.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Fire Extinguisher Stations</strong>
-  Health status and tamper alerts for handheld extinguishers located across commercial and industrial facilities.
+  <strong>Industrial Equipment Automation</strong>
+  Control auxiliary machines, heaters, blowers, and process equipment based on time schedules or manual override.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Water Tank & Reservoir Supervision</strong>
-  Level monitoring ensures adequate fire‑water availability for hydrants and sprinklers at all times.
+  <strong>Alarm & Reminder Systems</strong>
+  Configure local alarms and notifications for shift changes, maintenance reminders, safety alerts, and operational events.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Emergency Exit Doors</strong>
-  Monitors door status and enables controlled release during alarm or evacuation scenarios.
+  <strong>Energy Management & Load Control</strong>
+  Reduce energy consumption by scheduling non-critical loads and preventing unnecessary runtime of electrical equipment.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Data Centers & Server Rooms</strong>
-  Automated monitoring of fire suppression infrastructure supporting mission‑critical equipment protection.
+  <strong>Building & Facility Automation</strong>
+  Automate lighting, utilities, signage, and auxiliary systems in commercial buildings, campuses, and facilities.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Hospitals, Hotels & High‑Occupancy Buildings</strong>
-  Ensures fire‑protection system reliability across sensitive and public safety‑critical indoor spaces.
+  <strong>Standalone Automation Panels</strong>
+  Ideal for deployments where local control and independent operation are required without cloud or internet connectivity.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial Plants & Warehouses</strong>
-  Supports proactive maintenance and alerting for extensive fire protection equipment layouts.
+  <strong>Retrofit Automation Projects</strong>
+  Easily retrofit existing electrical panels with BLE-based scheduling and touchscreen control without major rewiring.
 </div>
 
 </div>
+
+<div class="faint-line"></div>
 
 <div class="faint-line"></div>
 
@@ -174,54 +180,14 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
     General <br /> Specifications
   </div>
   <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value">FireGaurd Gen 1</p>
+    <p className="label">Product Name</p>
+    <p className="value">Mini Scheduler X2</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Hardware <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-<p className="label">Processor Type</p>
-<p className="value">nRF52840 Industrial‑grade MCU</p>
-<br />
-<p className="label">CPU Architecture</p>
-<p className="value">32‑bit ARM® Cortex®‑M4 with FPU</p>
-<br />
-<p className="label">Clock Speed</p>
-<p className="value">64 MHz</p>
-<br />
-<p className="label">Flash Memory</p>
-<p className="value">1 MB On‑Chip Flash</p>
-<br />
-<p className="label">RAM</p>
-<p className="value">256 KB On‑Chip RAM</p>
-<br />
-<p className="label">Sensor Interface Channels</p>
-<p className="value">08 (Configurable UART / I²C / RS‑485)</p>
-<br />
-<p className="label">Control Output Channels</p>
-<p className="value">04 Digital Outputs (Relay / DO Based)</p>
-<br />
-<p className="label">Industrial Protection</p>
-<p className="value">Surge & ESD Protected IO</p>
-<br />
-<p className="label">Debug Interface</p>
-<p className="value">USB Type‑C (Service Only)</p>
-<br />
-<p className="label">Local Indicators</p>
-<p className="value">Multi‑Status LEDs for Fault / Power / Alarm</p>
-<br />
-<p className="label">Safety Grade</p>
-<p className="value">Designed for Fire‑System Equipment Monitoring</p>
+    <br />
+    <p className="label">Device Type</p>
+    <p className="value">BLE-based Single-Phase Smart Relay Scheduler with Touchscreen</p>
   </div>
 </div>
 
@@ -229,39 +195,23 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Sensor Interface <br /> Compatibility
+    Core <br /> Hardware
   </div>
   <div className="spec-block-details">
-
-<p className="label">Supported Sensor Types</p>
-<p className="value">Pressure Sensors (Hydrants, Sprinkler Lines)</p>
-<p className="value">Flow Sensors for Water Networks</p>
-<p className="value">Water Tank Level Sensors (Ultrasonic / Float Type)</p>
-<p className="value">Fire Extinguisher Health Modules</p>
-<p className="value">Fire Door Status & Magnetic Contact Sensors</p>
-<p className="value">Pump Controller Health Monitoring Inputs</p>
-<p className="value">Battery / Power Backup Status Modules</p>
-<p className="value">Alarm Annunciator Feedback Inputs</p>
-<br />
-
-<p className="label">Sensor Communication Ports</p>
-<p className="value">UART × 2</p>
-<p className="value">I²C × 2</p>
-<p className="value">RS‑485 × 1</p>
-<p className="value">Dry Contact / Digital Inputs × 3</p>
-<br />
-
-<p className="label">Diagnostic Feedback</p>
-<p className="value">Fault, Tamper, Low Pressure, Water Refill Alerts</p>
-<br />
-
-<p className="label">Data Handling</p>
-<p className="value">Real‑time polling, alerts & timestamped events</p>
-<br />
-
-<p className="label">Integration Support</p>
-<p className="value">Connects with Fire Panels, BMS & SCADA Networks</p>
-
+    <p className="label">Processor</p>
+    <p className="value">nRF52 Series Bluetooth® Low Energy SoC</p>
+    <br />
+    <p className="label">CPU Architecture</p>
+    <p className="value">32-bit ARM® Cortex®-M4</p>
+    <br />
+    <p className="label">Flash Memory</p>
+    <p className="value">≥ 512 KB</p>
+    <br />
+    <p className="label">RAM</p>
+    <p className="value">≥ 128 KB</p>
+    <br />
+    <p className="label">Local Interface</p>
+    <p className="value">Capacitive Touchscreen Display</p>
   </div>
 </div>
 
@@ -269,58 +219,57 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Native <br /> RS485 Output
+    Relay <br /> Specifications
   </div>
   <div className="spec-block-details">
-    <p className="label">Interface Type</p>
-    <p className="value">RS‑485 Half‑Duplex</p>
+    <p className="label">Relay Type</p>
+    <p className="value">Single-Phase Electromechanical Relay</p>
     <br />
-    <p className="label">Protocol</p>
-    <p className="value">Modbus RTU (Slave Mode)</p>
+    <p className="label">Rated Voltage</p>
+    <p className="value">230 VAC</p>
     <br />
-    <p className="label">Baud Rates Supported</p>
-    <p className="value">9600 / 19200 / 38400 / 57600 / 115200 bps (Configurable)</p>
+    <p className="label">Rated Current</p>
+    <p className="value">Up to 16 A (resistive load)</p>
     <br />
-    <p className="label">Data Format</p>
-    <p className="value">8‑N‑1 (Default) / Configurable</p>
-    <br />
-    <p className="label">Command Processing</p>
-    <p className="value">Receives LoRa® sensor data and responds to host read commands via Modbus Holding Registers</p>
-    <br />
-    <p className="label">Isolation</p>
-    <p className="value">Built‑in surge and ESD protection for industrial environments</p>
-    <br />
-    <p className="label">Connector</p>
-    <p className="value">2‑Pin Terminal Block</p>
-    <br />
-    <p className="label">Integration</p>
-    <p className="value">Compatible with Industrial PLCs, BMS, HVAC Controllers and SCADA systems</p>
+    <p className="label">Control Modes</p>
+    <p className="value">Scheduled / Manual / Event-Based</p>
   </div>
 </div>
-
 
 <div class="faint-line"></div>
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Backhual <br /> WiFi
+    Task & <br /> Scheduling
   </div>
   <div className="spec-block-details">
-    <p className="label">Bands</p>
+    <p className="label">Supported Tasks</p>
+    <p className="value">Time-based ON/OFF</p>
+    <p className="value">Interval Timers</p>
+    <p className="value">Recurring Schedules</p>
+    <p className="value">Alarms & Reminders</p>
+    <p className="value">Manual Override Tasks</p>
+    <br />
+    <p className="label">Task Storage</p>
+    <p className="value">Non-volatile internal memory</p>
+  </div>
+</div>
+
+<div class="faint-line"></div>
+
+<div className="spec-block">
+  <div className="spec-block-title">
+    Wireless <br /> Connectivity
+  </div>
+  <div className="spec-block-details">
+    <p className="label">Wireless Technology</p>
+    <p className="value">Bluetooth® Low Energy (BLE)</p>
+    <br />
+    <p className="label">Frequency Band</p>
     <p className="value">2.4 GHz ISM Band</p>
-    <p className="value">5 GHz ISM Band</p>
     <br />
-    <p className="label">Standards</p>
-    <p className="value">IEEE 802.11 b/g/n, 802.3, 802.3u, 802.11e-compatible bursting</p>
-    <br />
-    <p className="label">Modulation Schemes</p>
-    <p className="value">BPSK, QPSK, 16 QAM, 64 QAM</p>
-    <br />
-    <p className="label">Security</p>
-    <p className="value">WEP, TKIP, AES, WPA, WPA2</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">External Antenna Integrated in Enclosure</p>
+    <p className="label">Configuration Method</p>
+    <p className="value">BLE Mobile Application</p>
   </div>
 </div>
 
@@ -328,39 +277,14 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Backhual <br /> Cellular Lte*
+    Power <br /> Requirements
   </div>
   <div className="spec-block-details">
-    <p className="label">Cellular Bands</p>
-    <p className="value">B1 / B3 / B5 / B7 / B8 / B20 / B28</p>
+    <p className="label">Input Power</p>
+    <p className="value">110–240 VAC, 50/60 Hz</p>
     <br />
-    <p className="label">Standards</p>
-    <p className="value">3GPP LTE, IEEE 802.3, IEEE 802.3u, 802.11e-compatible bursting</p>
-    <br />
-    <p className="label">Modulation Schemes</p>
-    <p className="value">BPSK, QPSK, 16‑QAM, 64‑QAM</p>
-    <br />
-    <p className="label">Security</p>
-    <p className="value">WEP, TKIP, AES, WPA, WPA2</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal Antenna Integrated in Enclosure</p>
-  </div>
-</div>
-
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> Protocols
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supported Protocols</p>
-    <p className="value">MQTT</p>
-    <p className="value">HTTP</p>
-    <p className="value">HTTPS</p>
-    <br />  
+    <p className="label">Power Consumption</p>
+    <p className="value">Low-power edge operation</p>
   </div>
 </div>
 
@@ -371,30 +295,17 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply</p>
-    <p className="value">9-36 V PoE</p>
-    <br />
     <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
+    <p className="value">-20°C to +60°C</p>
     <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
+    <p className="label">Humidity</p>
+    <p className="value">0–95% RH (non-condensing)</p>
     <br />
-    <p className="label">Ingress Protection</p>
-    <p className="value">IP35</p>    
+    <p className="label">Mounting</p>
+    <p className="value">Wall / Panel Mount</p>
     <br />
-    <p className="label">Housing Material</p>
-    <p className="value">Aluminium</p>    
-    <br />
-    <p className="label">Color</p>
-    <p className="value">Matte White</p>    
-    <br />
-    <p className="label">Weight</p>
-    <p className="value">~120g</p>    
-    <br />
-    <p className="label">Mounting Options(Brackets)</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
-    <br />
+    <p className="label">Enclosure</p>
+    <p className="value">Industrial-grade plastic enclosure</p>
   </div>
 </div>
 
@@ -402,111 +313,18 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Certifications & <br /> Compliance
+    Security
   </div>
   <div className="spec-block-details">
-    <p className="label">WPC</p>
-    <p className="value">Compliant</p>
-    <br />
-    <p className="label">RoHS</p>
-    <p className="value">Conforms to RoHS directive</p>
-    <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Security & <br /> Encryption
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Data Encryption</p>
-    <p className="value">AES-128 end-to-end encryption</p>
-    <br />
-    <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes (Nodes)</p>
+    <p className="label">BLE Security</p>
+    <p className="value">Authenticated pairing with encrypted communication</p>
     <br />
     <p className="label">Firmware Protection</p>
-    <p className="value">Secure boot and signed OTA updates </p>
-    <br />
+    <p className="value">Secure boot and signed firmware updates</p>
   </div>
 </div>
 
-
-##  FireGaurd Gen 1 Variants
-
-<table className="parameter-table">
-  <thead>
-    <tr>
-      <th>Variant Name</th>
-      <th>Power Source</th>
-      <th>Wifi</th>
-      <th>Ethernet</th>
-      <th>Cellular</th>
-      <th>Ideal For</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>FireGaurd Gen 11</td>
-      <td>12–24 V (Power)</td>
-      <td>✔️</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>Ideal for small indoor networks with stable Wi-Fi backhaul such as offices, retail stores and hospitality environments.</td>
-    </tr>
-    <tr>
-      <td>FireGaurd Gen 12</td>
-      <td>12–24 V (Power)</td>
-      <td>✔️</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Designed for mission‑critical deployments where Ethernet, Wi‑Fi and LTE failover ensure uninterrupted connectivity in industrial and multi‑site facilities.</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRa® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRa® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
-
--->
+<div class="faint-line"></div>
 
 ## What's in the box ?
 

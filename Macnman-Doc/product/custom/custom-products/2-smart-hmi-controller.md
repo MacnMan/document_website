@@ -1,40 +1,47 @@
 ---
-id: indilora-single-channel-datasheet
-title: IndiLoRa X
+id: ble-wifi-based-hmi-controller-x-one
+title: Smart HMI X1
 sidebarposition: 4
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - single channel LoRa gateway
-  - indoor cellular LoRa gateway
-  - wifi enabled LoRa gateway
-  - compact LoRa iot gateway
-  - low cost LoRa access point
-  - smart building LoRa gateway
-  - iot network extender for indoor coverage
-  - LoRa gateway for retail and offices
-  - single channel long range wireless gateway
-  - plug and play indoor LoRa gateway
-  - enterprise iot connectivity device
-  - LoRa gateway for small deployments
-  - scalable indoor LoRa network node
-  - smart campus indoor LoRa bridge
-  - indoor industrial iot communication hub
-  - LoRa device onboarding gateway
-  - LoRa cellular backhaul gateway
-  - cost-efficient LoRa indoor coverage
+  - smart hmi controller
+  - wifi ble based hmi controller
+  - industrial touchscreen controller
+  - iot hmi controller wifi ble
+  - smart industrial controller with display
+  - wifi based automation controller
+  - ble based industrial controller
+  - industrial iot hmi panel
+  - smart hmi with analog digital inputs
+  - industrial controller with rs485
+  - modbus hmi controller
+  - machine monitoring hmi controller
+  - industrial data acquisition controller
+  - smart factory hmi controller
+  - building automation hmi controller
+  - edge automation controller wifi ble
+  - industrial controller with analog inputs
+  - industrial controller with digital inputs outputs
+  - touchscreen plc alternative
+  - smart control panel industrial
+  - macnman smart hmi controller
+  - smart hmix controller
+  - smart hmix1
 ---
 
-# IndiLoRa X Datasheet
+# Smart HMIX1 Datasheet
 
 ## Product Overview
 
-**IndiLoRa X1 is an ultra-affordable single-channel indoor LoRaWAN® gateway** designed for small-scale IoT deployments and legacy industrial system upgrades. Built on the powerful nRF5340 dual-core MCU, it bridges LoRa® sensors with both cloud platforms and local RS-485 networks simultaneously — enabling seamless modernization of existing PLCs, meters, and building automation systems.
+**Smart HMIX1** is a **Wi‑Fi and Bluetooth® Low Energy (BLE)–based industrial HMI controller** with an **integrated touchscreen**, designed for **machine monitoring, data acquisition, and edge‑level automation** in industrial and commercial environments.
 
-With Wi-Fi backhaul, IndiLoRa X1 eliminates the need for Ethernet cabling, making installation fast and extremely cost-efficient in retail stores, warehouses, apartments, hospitals, small factories, and utility rooms. The fanless design ensures silent operation and support for 24×7 monitoring applications.
+The controller features a rich set of I/O interfaces including **8 analog inputs**, **8 digital inputs**, **1 × RS‑485 interface**, and **4 digital outputs**, enabling seamless integration with sensors, meters, actuators, and legacy industrial equipment. This makes Smart HMIX1 an ideal choice for applications requiring **real‑time data visualization, control logic execution, and local decision‑making**.
 
-Supporting AES-128 encrypted communication, OTA updates, **MQTT/HTTPS cloud delivery**, and **direct RS-485 Modbus output**, IndiLoRa X1 allows rapid integration into SCADA, BMS, EMS, utility monitoring and more — without replacing existing equipment.
+With its intuitive touchscreen interface, users can **monitor live signals, configure thresholds, trigger outputs, and visualize machine or process status** directly on the device without relying on external HMIs or PLCs. Wi‑Fi connectivity enables cloud and local server integration, while BLE allows **secure local commissioning, diagnostics, and maintenance**.
 
-Whether enabling indoor environmental monitoring, asset tracking, energy meters, or low-density sensor networks — IndiLoRa X1 delivers a budget-friendly indoor LoRa® gateway solution that bridges Industry 3.0 with Industry 4.0.
+Designed as an **edge automation controller**, Smart HMIX1 continues to operate independently once configured, ensuring reliable control even during network interruptions. Its compact, industrial‑ready design makes it suitable for **smart factories, building automation systems, energy monitoring panels, and retrofit industrial control projects**.
+
+Smart HMIX1 bridges the gap between traditional control panels and modern Industrial IoT platforms by combining **HMI, I/O control, and wireless connectivity** into a single, scalable solution.
 
 | ![IndiLoRa single channel indoor LoRa gateway front view with wifi connectivity](/img/lorawan/gateways/indilora-single-channel-gateway-front.webp) | ![IndiLoRa compact LoRa to wifi indoor gateway side view for smart building automation](/img/lorawan/gateways/indilora-single-channel-gateway-installation.webp) |
 |--------------------------------|--------------------------------|
