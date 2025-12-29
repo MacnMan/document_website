@@ -1,47 +1,52 @@
 ---
 id: fire-guard-single-channel-lora-gateway-for-firedatasheet
-title: FireGaurd Gen 1
+title: Mini Scheduler X2 
 sidebarposition: 5
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - fire equipment monitoring system
-  - smart fire safety controller
-  - fire hydrant pressure monitoring
-  - fire pump health monitoring device
-  - fire extinguisher status monitoring
-  - fire protection system diagnostics
-  - building fire safety automation controller
-  - industrial fire protection monitoring
-  - fire sprinkler system remote monitoring
-  - fire door and exit monitoring gateway
-  - fire suppression equipment IoT monitoring
-  - rs485 fire system monitoring controller
-  - bms fire safety system integration
-  - fire compliance monitoring solution
-  - emergency system health monitoring device
-  - fire alarm equipment connectivity module
-  - smart emergency infrastructure monitoring
-  - cloud connected fire safety device
+  - ble smart scheduler controller
+  - bluetooth relay controller industrial
+  - single phase ble relay controller
+  - touchscreen smart scheduler switch
+  - ble based timer controller
+  - industrial ble automation controller
+  - smart light on off scheduler
+  - programmable relay controller ble
+  - ble based alarm and notification controller
+  - smart task scheduler iot device
+  - industrial time based automation controller
+  - ble smart switch with touchscreen
+  - event based relay automation controller
+  - factory automation ble relay module
+  - building automation ble controller
+  - smart lighting scheduler industrial
+  - ble controller for alarms notifications
+  - edge automation ble device
+  - iot scheduler controller for machines
+  - smart relay controller with display
+  - ble enabled automation panel
+  - industrial ble control device
+  - smart energy control ble relay
+  - macnman mini scheduler x2
 ---
 
-# FireGaurd Gen 1 Datasheet
+# Mini Scheduler X2 Datasheet
 
 ## Product Overview
 
-**FireGaurd Gen 1** is a smart **Fire Equipment Health Monitoring Controller** designed to ensure that building fire protection systems are always ready to operate during emergencies. Instead of monitoring environmental fire events, FireGaurd Gen 1 continuously tracks the **operational status, health, and alert conditions** of critical fire‑fighting equipment installed inside commercial and industrial infrastructure.
+**Mini Scheduler X2** is a **Bluetooth® Low Energy (BLE)–based single-phase smart relay controller** with an **integrated touchscreen**, designed for **time-based, event-based, and manual automation** in industrial, commercial, and building environments.
 
-It supports **eight fire‑safety sensor inputs** over **UART, I²C, and RS‑485**, enabling seamless connectivity with equipment such as fire hydrants, sprinkler pumps, water tank level sensors, pressure transmitters, fire extinguisher health sensors, fire door status modules, and power backup supervision units.
+The device allows users to configure and execute **multiple task types** such as **simple alarms, scheduled ON/OFF control, timed operations, notifications, and rule-based actions** directly from the touchscreen or via a BLE-enabled mobile application. This makes Mini Scheduler X2 ideal for applications where **local control, simplicity, and reliability** are critical.
 
-With **four Digital Outputs**, FireGaurd Gen 1 can trigger **fire pumps, sirens, emergency exhausts, or fire door releases** — allowing automated responses and onsite control signals through BMS or SCADA integration.
+At its core, Mini Scheduler X2 features a **single-phase relay output** capable of controlling lighting circuits, pumps, motors, signage, and other electrical loads. The intuitive touchscreen interface enables **quick task creation, schedule modification, and real-time status visibility** without requiring external controllers or cloud dependency.
 
-Data can be delivered securely to **Fire Panels, BMS systems, or cloud analytics platforms**, ensuring real‑time alerts for malfunctions, abnormal pressure drops, disconnections, and preventive maintenance conditions.
+Designed as an **edge automation device**, Mini Scheduler X2 operates independently once configured, ensuring continued operation even without network connectivity. BLE connectivity is used for **secure configuration, diagnostics, and updates**, making deployment fast and maintenance simple.
 
-Whether supporting **fire compliance, safety inspections, emergency readiness**, or remote monitoring operations — **FireGaurd Gen 1 brings Industry‑grade intelligence, automation, and reliability to building fire safety systems**.
+With its compact design, flexible task scheduling engine, and industrial-ready control capability, **Mini Scheduler X2 serves as a powerful yet easy-to-use automation controller** for smart lighting, energy management, alarms, and time-based control applications.
 
 | ![FireGuard Gen-1 smart fire equipment health monitoring controller front view](/img/lorawan/gateways/fireguard-gen-one-control-outputs.webp) | ![FireGuard Gen-1 UART I2C RS485 sensor ports for fire hydrant sprinkler pump monitoring](/img/lorawan/gateways/fireguard-gen-one-fire-panel-integration.webp) |
 |--------------------------------|--------------------------------|
 | ![FireGuard Gen-1 digital outputs for fire pump siren exhaust and emergency door control](/img/lorawan/gateways/fireguard-gen-one-front-view.webp) | ![FireGuard Gen-1 connected with fire panel BMS and SCADA for real-time fire equipment alerts](/img/lorawan/gateways/fireguard-gen-one-sensor-interface-ports.webp) |
-
 
 <div class="faint-line"></div>
 
