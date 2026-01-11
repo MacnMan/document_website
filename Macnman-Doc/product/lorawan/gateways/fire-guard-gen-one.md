@@ -1,7 +1,7 @@
 ---
 id: fire-guard-single-channel-lora-gateway-for-firedatasheet
 title: FireGaurd Gen 1
-sidebarposition: 5
+sidebar_position: 5
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - fire equipment monitoring system

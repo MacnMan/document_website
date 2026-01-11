@@ -1,7 +1,7 @@
 ---
 id: macsync-odor-x-one-datasheet
 title: MacSync-L-Odor-X1
-sidebarposition: 1
+sidebar_position: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan odor sensor

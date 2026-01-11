@@ -1,7 +1,7 @@
 ---
 id: macsync-l-n-x-one-noise-sensor
 title: MacSync-LNX1
-sidebarposition: 12
+sidebar_position: 12
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan noise sensor

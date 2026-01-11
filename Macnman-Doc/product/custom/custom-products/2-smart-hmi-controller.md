@@ -1,7 +1,7 @@
 ---
 id: ble-wifi-based-hmi-controller-x-one
 title: Smart HMI X1
-sidebarposition: 4
+sidebar_position: 4
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - smart hmi controller

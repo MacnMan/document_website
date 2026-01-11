@@ -1,7 +1,7 @@
 ---
 id: indilora-single-channel-datasheet
 title: IndiLoRa X
-sidebarposition: 4
+sidebar_position: 4
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - single channel LoRa gateway

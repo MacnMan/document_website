@@ -1,7 +1,7 @@
 ---
 id: macsync-l-v-x-one-vibration-sensor
 title: MacSync-LVX1
-sidebarposition: 11
+sidebar_position: 11
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan vibration sensor

@@ -1,7 +1,7 @@
 ---
 id: ble-tag-three
 title: Tag X3
-sidebarposition: 3
+sidebar_position: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - ble beacon tag

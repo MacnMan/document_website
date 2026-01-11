@@ -1,7 +1,7 @@
 ---
 id: macray-tof-x-series
 title: MacRay-ToF-Xx
-sidebarposition: 4
+sidebar_position: 4
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan tof distance sensor

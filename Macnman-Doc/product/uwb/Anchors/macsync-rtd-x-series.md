@@ -1,7 +1,7 @@
 ---
 id: macsync-lorawan-rtd-sensor-x-series
 title: MacSync-L-RTDX2
-sidebarposition: 6
+sidebar_position: 6
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan rtd temperature sensor

@@ -1,7 +1,7 @@
 ---
 id: macsync-w-nh-three-h-two-s-2-sensors
 title: MacSync-WGSX2x
-sidebarposition: 9
+sidebar_position: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - wifi h2s nh3 gas sensor

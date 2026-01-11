@@ -1,7 +1,7 @@
 ---
 id: macsync-w-power-operated-x-two
 title: MacSync-WX1-PO
-sidebarposition: 1
+sidebar_position: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - rs485 to wifi data logger

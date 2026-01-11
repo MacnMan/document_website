@@ -1,7 +1,7 @@
 ---
 id: macsync-l-six-in-one-weather-station-x-six
 title: MacSync-LWSX6
-sidebarposition: 9
+sidebar_position: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan weather station

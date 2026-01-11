@@ -1,7 +1,7 @@
 ---
 id: macset-wx-one-datasheet
 title: MacSet-WX1
-sidebarposition: 1
+sidebar_position: 1
 description: Ultra-rugged Wi‑Fi IoT controller for remote switching, automation, and edge control.
 keywords:
   - wifi iot controller

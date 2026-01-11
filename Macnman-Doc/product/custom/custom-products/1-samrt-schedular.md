@@ -1,7 +1,7 @@
 ---
 id: fire-guard-single-channel-lora-gateway-for-firedatasheet
 title: Mini Scheduler X2 
-sidebarposition: 5
+sidebar_position: 5
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - ble smart scheduler controller

@@ -1,7 +1,7 @@
 ---
 id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
 title: MacRay-LU4
-sidebarposition: 3
+sidebar_position: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan ultrasonic level sensor

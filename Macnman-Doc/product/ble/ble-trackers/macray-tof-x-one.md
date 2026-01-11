@@ -1,7 +1,7 @@
 ---
 id: ble-tag-x-two
 title: Ble Tag X2
-sidebarposition: 4
+sidebar_position: 4
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - industrial ble tracker

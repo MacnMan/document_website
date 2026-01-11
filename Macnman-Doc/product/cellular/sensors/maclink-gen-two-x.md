@@ -1,7 +1,7 @@
 ---
 id: maclink-gen-two
 title: MacLink Gen-2
-sidebarposition: 1
+sidebar_position: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - industrial lorawan gateway

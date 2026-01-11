@@ -1,7 +1,7 @@
 ---
 id: macsync-l-soil-ph-sensor-datasheet
 title: MacSync-LSXX2
-sidebarposition: 9
+sidebar_position: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan soil ph sensor

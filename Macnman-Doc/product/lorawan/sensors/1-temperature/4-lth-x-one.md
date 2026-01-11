@@ -1,7 +1,7 @@
 ---
 id: mlth-temp-humi-sensor-datasheet
 title: MLTH 301
-sidebarposition: 1
+sidebar_position: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan temperature humidity sensor

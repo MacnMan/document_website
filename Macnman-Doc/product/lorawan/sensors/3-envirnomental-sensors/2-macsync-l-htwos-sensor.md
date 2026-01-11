@@ -1,7 +1,7 @@
 ---
 id: macsync-h2s-x-one-datasheet
 title: MacSync-LH2S-X1
-sidebarposition: 1
+sidebar_position: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan h2s sensor
