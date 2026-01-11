@@ -1,7 +1,7 @@
 ---
 id: parknode-gen-one-lorawan-parking-sensor
 title: ParkNode Gen-2
-sidebarposition: 5
+sidebar_position: 5
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan geomagnetic parking sensor

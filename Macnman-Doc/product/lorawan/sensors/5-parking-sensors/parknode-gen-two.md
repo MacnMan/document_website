@@ -1,7 +1,7 @@
 ---
 id: parknode-gen-two-lorawan-parking-sensor
 title: ParkNode Gen-2
-sidebarposition: 5
+sidebar_position: 5
 description: Dual-technology LoRaWAN parking sensor combining geomagnetic and radar sensing for ultra-accurate vehicle detection in smart parking deployments.
 keywords:
   - lorawan geomagnetic parking sensor

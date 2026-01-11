@@ -1,7 +1,7 @@
 ---
 id: macsync-w-rtd-x-five-datasheet
 title: MacSync-WRTDX5
-sidebarposition: 2
+sidebar_position: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - wifi rtd temperature sensor

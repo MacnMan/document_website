@@ -1,7 +1,7 @@
 ---
 id: macsync-l-optical-rainfall-sensor
 title: MacSync-LRX1
-sidebarposition: 9
+sidebar_position: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan optical rainfall sensor

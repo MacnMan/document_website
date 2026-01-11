@@ -1,7 +1,7 @@
 ---
 id: setu-scx-single-channel-datasheet
 title: Setu SCX
-sidebarposition: 3
+sidebar_position: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - single channel LoRa gateway

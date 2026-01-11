@@ -1,7 +1,7 @@
 ---
 id: macsync-lx-two-datasheet
 title: MacSync-LX2
-sidebarposition: 2
+sidebar_position: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - rs485 to lorawan

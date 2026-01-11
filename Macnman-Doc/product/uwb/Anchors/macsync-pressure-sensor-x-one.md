@@ -1,7 +1,7 @@
 ---
 id: macsync-lorawan-pressure-sensor-x-series
 title: MacSync-L-PSXx
-sidebarposition: 6
+sidebar_position: 6
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan industrial pressure sensor

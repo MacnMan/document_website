@@ -1,7 +1,7 @@
 ---
 id: macsync-l-water-quality-sensor
 title: MacSync-LWQ-X9
-sidebarposition: 9
+sidebar_position: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan water ph sensor

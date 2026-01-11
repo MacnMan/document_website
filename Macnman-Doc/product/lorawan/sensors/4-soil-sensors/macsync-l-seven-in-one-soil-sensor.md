@@ -1,7 +1,7 @@
 ---
 id: macsync-l-seven-in-one-soil-sensor
 title: MacSync-LSSX7
-sidebarposition: 9
+sidebar_position: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - 7 in 1 lorawan soil sensor

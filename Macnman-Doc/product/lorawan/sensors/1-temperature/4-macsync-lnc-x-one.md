@@ -1,7 +1,7 @@
 ---
 id: macsync-l-nc-x-one-datasheet
 title: MacSync-LNC-Xx
-sidebarposition: 2
+sidebar_position: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - non contact laser temperature sensor

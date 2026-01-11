@@ -1,7 +1,7 @@
 ---
 id: setu-x-one-datasheet
 title: Setu X1
-sidebarposition: 2
+sidebar_position: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - indoor lorawan gateway

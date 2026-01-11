@@ -1,7 +1,7 @@
 ---
 id: macsync-lt-one-datasheet
 title: VibeIQ-Gen1
-sidebarposition: 1
+sidebar_position: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan vibration sensor

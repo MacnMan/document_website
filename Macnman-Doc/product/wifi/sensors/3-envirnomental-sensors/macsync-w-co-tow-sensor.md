@@ -1,7 +1,7 @@
 ---
 id: macsync-w-co-2-sensors
 title: MacSync-WCO2Xx
-sidebarposition: 1
+sidebar_position: 1
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - wifi co2 sensor

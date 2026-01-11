@@ -1,7 +1,7 @@
 ---
 id: macsync-l-soil-moisture-sensor-datasheet
 title: MacSync-LSSX3
-sidebarposition: 9
+sidebar_position: 9
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
   - lorawan soil moisture sensor
