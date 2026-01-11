@@ -43,9 +43,9 @@ Designed as an **edge automation controller**, Smart HMIX1 continues to operate 
 
 Smart HMIX1 bridges the gap between traditional control panels and modern Industrial IoT platforms by combining **HMI, I/O control, and wireless connectivity** into a single, scalable solution.
 
-| ![IndiLoRa single channel indoor LoRa gateway front view with wifi connectivity](/img/lorawan/gateways/indilora-single-channel-gateway-front.webp) | ![IndiLoRa compact LoRa to wifi indoor gateway side view for smart building automation](/img/lorawan/gateways/indilora-single-channel-gateway-installation.webp) |
+| ![IndiLoRa single channel indoor LoRa gateway front view with wifi connectivity](/img/otherProducts/industrial-hmi-relay-controller.webp) | ![IndiLoRa compact LoRa to wifi indoor gateway side view for smart building automation](/img/otherProducts/hmi-touchscreen-relay-controller-board.webp) |
 |--------------------------------|--------------------------------|
-| ![IndiLoRa LoRa to RS485 Modbus RTU gateway interface terminal connector](/img/lorawan/gateways/indilora-single-channel-gateway-rs485.webp) | ![IndiLoRa installed inside building enabling low cost IoT network extension and sensor monitoring](/img/lorawan/gateways/indilora-single-channel-gateway-side.webp) |
+| ![IndiLoRa LoRa to RS485 Modbus RTU gateway interface terminal connector](/img/otherProducts/hmi-relay-controller-for-industrial-automation.webp) | ![IndiLoRa installed inside building enabling low cost IoT network extension and sensor monitoring](/img/otherProducts/hmi-based-relay-controller-board.webp) |
 
 
 <div class="faint-line"></div>

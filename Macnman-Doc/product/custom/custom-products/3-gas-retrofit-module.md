@@ -1,47 +1,89 @@
 ---
-id: maclink-gen-two
-title: MacLink Gen-2
+id: gas-meter-module-version-one
+title: MeterLink Gen1 – LoRaWAN Retrofit Gas Meter Module
 sidebar_position: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: LoRaWAN-based retrofit gas meter module for smart gas metering, prepaid billing, and remote shutoff without replacing existing mechanical meters.
 keywords:
-  - industrial lorawan gateway
-  - outdoor lorawan gateway ip67
-  - smart city iot gateway
-  - lorawan 8 channel gateway
-  - lorawan base station for utilities
-  - long range wireless gateway
-  - lorawan backhaul ethernet lte wifi
-  - carrier grade lorawan network gateway
-  - remote iot connectivity solution
-  - smart water and energy iot gateway
-  - industrial automation lorawan gateway
-  - high capacity lorawan concentrator
-  - rooftop pole mount lorawan antenna gateway
-  - secure lorawan network access point
-  - solar powered lorawan gateway
-  - private lorawan network deployment
-  - lorawan network server compatible gateway
-  - high sensitivity lorawan rf gateway
-  - rugged outdoor iot infrastructure
-  - industry 4.0 wireless gateway
+  - lorawan retrofit gas meter
+  - smart gas meter retrofit module
+  - prepaid gas meter lorawan
+  - remote gas meter reading iot
+  - utility gas metering iot
+  - mechanical gas meter retrofit
+  - gas meter telemetry lorawan
+  - gas consumption monitoring iot
+  - city gas distribution smart metering
+  - automatic gas shutoff valve iot
+  - legacy gas meter digital conversion
+  - low power gas meter lorawan
+  - scalable smart gas metering solution
 ---
 
-# MacLink Gen-2 Datasheet
+# MeterLink Gen1 Datasheet
 
 ## Product Overview
 
-MacLink Gen-2 is a carrier-grade industrial outdoor LoRaWAN® gateway engineered for ultra-long-range connectivity, high network capacity, and mission-critical performance in harsh environments. Built with a high-sensitivity 8-channel LoRaWAN® concentrator, edge-intelligent packet filtering, and rugged IP67 housing, it establishes a reliable wireless infrastructure for large-scale Smart Cities, Utilities, Industrial Automation, Agriculture, and Environmental Monitoring deployments.
+MeterLink Gen1 is a compact, industrial-grade **LoRaWAN® retrofit gas meter module** designed to convert existing mechanical gas meters into smart, connected utility devices—without replacing installed meters.
 
-With 4G/LTE + Ethernet + Wi-Fi backhaul, built-in GPS for gateway positioning, surge-protected RF front-end, and advanced interference immunity, MacLink Gen-2 ensures uninterrupted operation in extreme weather, remote locations, and RF-challenging sites.
+The module accurately reads the mechanical gas totalizer and securely transmits consumption data over long‑range **LoRaWAN® networks**, enabling real‑time gas usage monitoring, automated billing, and operational visibility for utilities and city gas distribution companies.
 
-Multi-layer AES-128 + TLS secured communication, remote OTA firmware upgrades, and centralized management via Macnman’s MacCloud (or any LoRaWAN® Network Server) deliver a flexible and future-proof IoT network backbone. Optional solar-power support and edge buffering guarantee zero data loss and smooth connectivity even during network outages.
+MeterLink Gen1 supports **prepaid gas metering**, allowing remote credit recharge and balance enforcement. An **integrated automatic shutoff valve** ensures safety and revenue protection by immediately closing gas flow when prepaid credit is exhausted or when a remote shutoff command is issued.
 
-Whether connecting thousands of sensors across water utilities, industrial plants, street-lighting networks, smart campuses, or wildlife monitoring systems — MacLink Gen-2 provides a powerful, scalable, and secure LoRaWAN® access point that bridges remote field assets to the cloud, enabling true Industry 4.0 and Smart City growth.
+Optimized for **low‑power, long‑life field operation**, MeterLink Gen1 enables large‑scale smart gas metering rollouts with minimal installation effort and reduced CAPEX. It is an ideal retrofit solution for utilities upgrading legacy gas infrastructure to scalable, secure, and future‑ready IoT‑based smart metering systems.
 
-| ![Image 1](/img/lorawan/gateways/lorawan-outdoor-gateway-maclink-gen-two.webp) | ![Image 1](/img/lorawan/gateways/lorawan-maclink-gen-two-internal-pcb.webp) |
+
+| ![Image 1](/img/otherProducts/lorawan-gas-meter-retrofit-module-front-view.webp) | ![Image 1](/img/otherProducts/lorawan-gas-meter-retrofit-module-installed-on-gas-meter.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/maclink-gen-two-pole-mounting-kit.webp) | ![Image 1](/img/lorawan/gateways/maclink-gen-two-sealed-ports.webp) |
+| ![Image 1](/img/otherProducts/lorawan-gas-meter-retrofit-module-side-view.webp) | ![Image 1](/img/otherProducts/lorawan-gas-meter-retrofit-module-top-antenna-view.webp) |
 
+
+<div class="faint-line"></div>
+
+## Key Benefits
+
+<div className="reusable-feature-grid">
+
+<div className="reusable-feature-card">
+  <strong>No Meter Replacement Required</strong>
+  Upgrades existing mechanical gas meters into smart meters without civil work or meter change, reducing installation time and cost.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Lower CAPEX for Utilities</strong>
+  Retrofit architecture avoids large-scale meter replacement programs, significantly lowering capital expenditure.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Prepaid Billing & Revenue Protection</strong>
+  Enables prepaid gas usage models with automatic credit enforcement and shutoff to prevent revenue leakage.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Remote Control & Operational Safety</strong>
+  Allows secure remote valve control to shut off gas supply during emergencies, non-payment, or maintenance.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Long Battery Life</strong>
+  Ultra-low power LoRaWAN operation supports multi-year battery life, minimizing field maintenance visits.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Scalable Utility Deployments</strong>
+  Designed for mass rollout across residential, commercial, and industrial consumers with centralized monitoring.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Accurate Consumption Visibility</strong>
+  Provides real-time and historical gas usage data for billing, analytics, and demand forecasting.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Future-Ready Smart Metering</strong>
+  Enables utilities to transition to smart gas metering without disrupting existing infrastructure.
+</div>
+
+</div>
 
 <div class="faint-line"></div>
 
@@ -72,105 +114,104 @@ Whether connecting thousands of sensors across water utilities, industrial plant
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Industrial Outdoor Gateway</strong>
-  Rugged IP67 enclosure with lightning protection designed for extreme weather conditions.
+  <strong>LoRaWAN® Retrofit Gas Meter Module</strong>
+  Converts existing mechanical gas meters into smart IoT-enabled devices without replacing installed meters.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>8‑Channel High‑Capacity LoRaWAN®</strong>
-  Supports thousands of end‑devices with long‑range, high‑sensitivity RF performance.
+  <strong>Mechanical Totalizer Reading</strong>
+  Accurately reads gas consumption from mechanical index or pulse output for reliable billing data.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Multi‑Backhaul Connectivity</strong>
-  Ethernet + 2 X 4G/LTE + Wi‑Fi options for reliable network redundancy and flexible deployment.
+  <strong>Prepaid Gas Metering Support</strong>
+  Enables remote prepaid credit recharge, balance enforcement, and consumption-based billing models.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Encryption & Authentication</strong>
-  AES‑128 & TLS secured communication for carrier‑grade data protection.
+  <strong>Integrated Automatic Shutoff Valve</strong>
+  Automatically closes gas flow when prepaid credit is exhausted or upon secure remote command.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>GPS for Gateway Positioning</strong>
-  Built‑in GPS for network server placement, geofencing & triangulation.
+  <strong>Secure LoRaWAN® Communication</strong>
+  Long-range, low-power data transmission with AES encryption and OTAA-based device authentication.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Edge Intelligence</strong>
-  Adaptive packet filtering & buffering to prevent data loss during backhaul outages.
+  <strong>Ultra‑Low Power Operation</strong>
+  Optimized for long battery life, enabling multi‑year field operation with minimal maintenance.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>OTA Firmware & Configuration</strong>
-  Fully remote updates & management via MacCloud and popular LNS platforms.
+  <strong>Utility‑Grade Reliability</strong>
+  Designed for continuous operation in residential, commercial, and industrial gas metering environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Flexible Power Options</strong>
-  Supports PoE and DC input with optional solar integration for remote sites.
+  <strong>Remote Monitoring & Control</strong>
+  Supports real-time gas usage monitoring, valve control, and status alerts over LoRaWAN networks.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart City Ready</strong>
-  Ideal for street lighting, utilities, water networks & environmental monitoring.
+  <strong>Scalable Mass Deployment Ready</strong>
+  Ideal for city gas distribution companies and utilities deploying thousands of smart gas meters.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>All‑Network Server Compatibility</strong>
-  Works with Chirpstack, TTN, Loriot, Orbiwise, Actility & private LoRaWAN® servers.
+  <strong>Legacy Infrastructure Friendly</strong>
+  Seamlessly integrates with existing gas meters, reducing CAPEX and accelerating smart metering rollouts.
 </div>
+
 </div>
 <div class="faint-line"></div>
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
-  <div className="reusable-feature-card">
-    <strong>Smart Cities</strong>
-    Reliable LoRaWAN® backbone for street lighting, waste management and environmental monitoring networks.
-  </div>
 
-  <div className="reusable-feature-card">
-    <strong>Water & Utility Networks</strong>
-    Scalable connectivity for water meters, pumping stations, distribution lines and leak detection systems.
-  </div>
+<div className="reusable-feature-card">
+  <strong>City Gas Distribution (CGD)</strong>
+  Smart gas metering for residential and commercial consumers under city gas distribution networks.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Industrial Automation & Process Plants</strong>
-    High‑capacity gateway for remote asset monitoring, predictive maintenance and energy optimization.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Residential Gas Metering</strong>
+  Enables prepaid and postpaid gas metering for apartments, housing societies, and individual homes.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Oil, Gas & Energy Infrastructure</strong>
-    Secure wireless coverage for substations, wind farms, pipelines and hazardous remote assets.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Commercial & Industrial Gas Consumers</strong>
+  Accurate gas consumption monitoring for factories, hotels, hospitals, and large commercial facilities.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Agriculture & Irrigation Systems</strong>
-    Long‑range coverage for farms, irrigation controllers, soil sensors and livestock monitoring.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Utility Smart Metering Programs</strong>
+  Ideal for government and utility-led smart gas metering and digitization initiatives.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Transportation & Smart Logistics</strong>
-    Gateway connectivity for fleet tracking, parking systems and authorized zone access control.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Prepaid Gas Supply Systems</strong>
+  Supports prepaid gas distribution models with automated credit enforcement and shutoff.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Mining & Harsh Locations</strong>
-    Reliable communication in high‑dust, high‑vibration and deep‑coverage environments.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Legacy Gas Meter Modernization</strong>
+  Digitizes installed mechanical gas meters without replacement or service disruption.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Campuses & Smart Buildings</strong>
-    Connectivity hub for wide‑area automation, indoor‑outdoor coverage and security monitoring.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Remote & Hard-to-Access Installations</strong>
+  Enables reliable gas monitoring in basements, apartments, and distributed urban locations.
+</div>
 
-  <div className="reusable-feature-card">
-    <strong>Remote & Off‑Grid Deployments</strong>
-    Solar‑powered network edge nodes for unmanned sites, wildlife zones and rural connectivity.
-  </div>
+<div className="reusable-feature-card">
+  <strong>Smart City Utility Infrastructure</strong>
+  Integrates gas metering into broader smart city and smart utility IoT platforms.
+</div>
+
 </div>
 
 <div class="faint-line"></div>
