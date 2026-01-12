@@ -1,0 +1,8 @@
+{
+  "label": "LoRaWAN Range Test MacLink Gen 2",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Your go-to manual for setting up, using, and maintaining MacSync LoRa-based sensor nodes."
+  }
+}
