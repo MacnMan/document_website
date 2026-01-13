@@ -1,6 +1,6 @@
 ---
 id: lorawan_range_test-report_maclink_gen_2
-title: Scope
+title: Introduction
 ---
 
 # LoRaWAN Range & Coverage Test
