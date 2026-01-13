@@ -1,9 +1,9 @@
 ---
 id: testing-scope
-title: Outdoor Coverage Testing
+title: Indoor Coverage Testing
 ---
 
-# Location 2 - Outdoor Testing
+# Location 1 - Indoor Testing
 
 <br/>
 ![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-field-testing-environment.webp)
