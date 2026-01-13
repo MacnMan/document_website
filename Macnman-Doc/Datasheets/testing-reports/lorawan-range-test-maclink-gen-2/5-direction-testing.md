@@ -31,14 +31,26 @@ title: Direction Testing
 ### RSSI & SNR vs Distance
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-urban-northeast-packet-delivery-vs-distance.svg)
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-urban-southeast-direction-range-map.svg)
 
 
 ### Distance vs Packet Loss & Average SNR & RSSI
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-urban-northeast-average-rssi-snr.svg)
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-urban-southeast-rssi-vs-distance.svg)
+
+## North-East Direction
+
+<br/>
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-directional-range-map-north.webp)
+
+### RSSI & SNR vs Distance
+
+<br/>
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-urban-southeast-direction-range-map.svg)
 
 
+### Distance vs Packet Loss & Average SNR & RSSI
 
-
+<br/>
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-urban-southeast-rssi-vs-distance.svg)
