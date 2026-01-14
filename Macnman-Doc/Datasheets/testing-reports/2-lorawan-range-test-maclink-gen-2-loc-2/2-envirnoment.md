@@ -1,12 +1,13 @@
 ---
 id: testing_envirnoment
-title: Testing Envirnoment
+title: Testing Environment
 ---
 
-
-# Testing Envirnoment
+# Testing Environment
 
 ## General Specifications
+
+This testing environment was designed to represent **real-world LoRaWAN deployments in India**, covering indoor, urban, rooftop, and open outdoor scenarios under varying environmental and structural conditions. The selected locations and deployment methods reflect practical installation challenges commonly encountered in **smart buildings, industrial facilities, and urban infrastructure**.
 
 As most **LoRaWAN gateway and device deployments** take place in **urban environments, industrial facilities, and multi-storey buildings**, extensive field testing was conducted to closely simulate real-world installation scenarios.
 
@@ -15,6 +16,17 @@ The testing campaign began with the **MacLink Gen-2 LoRaWAN Outdoor Gateway** de
 In the second phase of testing, the gateway was mounted on the **building rooftop** to assess **horizontal and radial LoRaWAN range** in three different directions. This setup accounted for **varying geographic conditions, partial obstructions, and non-uniform terrain**, which are common in real deployments and directly influence LoRaWAN performance.
 
 The gateway was further evaluated under **near line-of-sight (LOS) and non-LOS conditions**, reflecting practical deployment constraints where perfectly clear LOS is rarely achievable in urban and industrial environments. This approach ensured that the results accurately represent **realistic LoRaWAN network behavior rather than ideal laboratory conditions**.
+
+### Environmental and Deployment Conditions Considered
+
+The testing environment also accounted for **seasonal and environmental variations** observed during repeated test cycles, including:
+
+- High ambient temperatures during summer conditions
+- Elevated humidity and rainfall during monsoon periods
+- Dust-prone outdoor conditions affecting antenna exposure
+- Partial obstructions and non-line-of-sight (NLOS) scenarios common in urban deployments
+
+These factors were intentionally included to ensure the test results reflect **year-round operational conditions** rather than short-term or idealized scenarios.
 
 Detailed performance metrics, observations, and corresponding graphs are presented below to support **deployment planning, gateway placement decisions, and network design optimization**.
 

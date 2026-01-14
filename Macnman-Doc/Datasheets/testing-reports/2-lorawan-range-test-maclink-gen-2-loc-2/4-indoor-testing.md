@@ -6,7 +6,7 @@ title: Indoor Coverage Testing
 # Location 1 - Indoor Testing
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-field-testing-environment.webp)
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-deployment-environment.webp)
 
 ## Analysis of Data Trends
 
