@@ -3,7 +3,7 @@ id: lorawan_range_test-report_maclink_gen_2
 title: Introduction
 ---
 
-# LoRaWAN Range & Coverage Test
+# LoRaWAN gateway performance in Indian climate
 
 <br/>
 ![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-range-coverage-test.webp)
