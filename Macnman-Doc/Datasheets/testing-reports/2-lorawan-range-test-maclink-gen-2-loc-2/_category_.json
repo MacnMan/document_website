@@ -1,0 +1,8 @@
+{
+  "label": "LoRaWAN gateway performance in Indian climate MacLink Gen 2 ",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Detailed real-world LoRaWAN gateway performance test report conducted across multiple Indian weather conditions, including monsoon rainfall, high temperatures, extreme humidity, dust, and seasonal variations. This section documents indoor multi-floor testing, rooftop and urban directional deployments, open-space long-range performance, RSSI and SNR behavior, packet loss trends, antenna orientation impact, and deployment recommendations based on year-round field validation of the MacLink Gen 2 LoRaWAN gateway."
+  }
+}
