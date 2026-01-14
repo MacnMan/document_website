@@ -14,7 +14,7 @@ Location : NEW GAJARA SOC, 635 1B, Vaibhav Society, Bibwewadi, Pune, Maharashtra
 ## North-West Direction
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-directional-range-map-east.webp)
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-outdoor-terrain-deployment.webp)
 
 ### RSSI & SNR vs Distance
 
@@ -32,7 +32,7 @@ Location : NEW GAJARA SOC, 635 1B, Vaibhav Society, Bibwewadi, Pune, Maharashtra
 ## South-East Direction
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-directional-range-map-north.webp)
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-outdoor-open-environment-deployment.webp)
 
 ### RSSI & SNR vs Distance
 
@@ -48,7 +48,7 @@ Location : NEW GAJARA SOC, 635 1B, Vaibhav Society, Bibwewadi, Pune, Maharashtra
 ## North-East Direction
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-directional-range-map-west.webp)
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-near-line-of-sight-outdoor-deployment.webp)
 
 ### RSSI & SNR vs Distance
 

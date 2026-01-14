@@ -76,3 +76,8 @@ This configuration delivered consistent baseline performance for mid- and upper-
 A downward antenna tilt proved beneficial during **monsoon and high-humidity conditions**, reducing packet loss on lower floors by minimizing signal reflections from wet surfaces and metallic structures.
 
 These observations highlight that **antenna orientation optimization becomes increasingly important in harsh Indian indoor environments**, offering a practical and low-cost method to maintain reliable LoRaWAN performance year-round.
+
+
+Macnman-Doc/static
+Macnman-Doc/static
+Macnman-Doc/static
