@@ -9,22 +9,24 @@ This section evaluates the **impact of harsh Indian weather conditions** on LoRa
 
 Near LoS conditions represent common outdoor deployments where partial obstructions, terrain variations, vegetation, and atmospheric factors influence signal propagation. These scenarios are particularly relevant for **urban perimeters, highways, campuses, utilities, and semi-open industrial environments**.
 
+Macnman-Doc/static/img/tech-reports/lorawan/lorawan-gateway-near-los-outdoor-deployment.webp
+
 ## Location - Outdoor
 
 Location : Sinhagad Ghat Road, Maharashtra 411025
+
+<br/>
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-near-los-outdoor-deployment.webp)
 
 ### RSSI & SNR vs Distance
 
 
 ### Impact of Weather Conditions Under Near LoS Outdoor Deployment
 
-Outdoor near LoS testing showed that **LoRaWAN link stability remains largely resilient across seasonal weather variations**, with environmental conditions influencing performance indirectly rather than causing abrupt degradation.
+Near line-of-sight (LoS) outdoor testing demonstrates that **LoRaWAN gateway performance remains highly resilient under harsh Indian weather conditions**, with environmental factors influencing link behavior gradually rather than causing sudden degradation.
 
-During **monsoon and high-humidity conditions**, a slight reduction in RSSI was observed at longer distances. This behavior is attributed to increased atmospheric moisture, wet ground surfaces, and vegetation, which contribute to additional signal absorption and scattering. Despite these factors, SNR values remained within operational limits, allowing consistent packet delivery.
+During **monsoon and high-humidity conditions**, a modest reduction in RSSI was observed at longer distances. This effect is primarily due to increased atmospheric moisture, wet ground surfaces, and surrounding vegetation, which introduce additional signal absorption and scattering. Despite these conditions, **SNR levels remained within stable operational margins**, ensuring consistent packet delivery and reliable uplink performance.
 
-Under **high-temperature summer conditions**, RSSI and SNR trends remained comparatively stable across distances, indicating that temperature alone has minimal impact on outdoor LoRaWAN propagation when humidity levels are low.
+Under **high-temperature summer conditions**, RSSI and SNR trends across distance remained largely stable. Elevated temperatures alone did not result in noticeable degradation of link quality, confirming that LoRaWAN outdoor propagation is minimally impacted by temperature when humidity levels are low.
 
-Overall, near LoS outdoor deployments demonstrated **better weather resilience compared to dense indoor environments**, making them suitable for long-range monitoring even under harsh Indian climatic conditions.
-
-### Distance vs Packet Loss & Average SNR & RSSI
-
+Overall, the near LoS deployment results indicate that **weather conditions affect outdoor LoRaWAN performance indirectly**, mainly by amplifying environmental absorption and multipath effects rather than disrupting connectivity. Compared to dense indoor environments, near LoS outdoor deployments exhibit **superior weather tolerance**, making them well-suited for long-range monitoring applications across urban perimeters, campuses, highways, and utility corridors throughout the year.
