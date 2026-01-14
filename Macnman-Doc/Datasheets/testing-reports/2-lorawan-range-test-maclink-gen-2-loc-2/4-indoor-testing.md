@@ -77,7 +77,3 @@ A downward antenna tilt proved beneficial during **monsoon and high-humidity con
 
 These observations highlight that **antenna orientation optimization becomes increasingly important in harsh Indian indoor environments**, offering a practical and low-cost method to maintain reliable LoRaWAN performance year-round.
 
-
-Macnman-Doc/static
-Macnman-Doc/static
-Macnman-Doc/static
