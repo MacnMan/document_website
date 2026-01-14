@@ -10,7 +10,7 @@ title: Outdoor Testing
 Location : Sinhagad Ghat Road, Maharashtra 411025
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-outdoor-gateway-rooftop-installation.webp)
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-urban-rooftop-deployment.webp)
 
 
 <br/>

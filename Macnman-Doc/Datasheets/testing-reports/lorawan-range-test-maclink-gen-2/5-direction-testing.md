@@ -7,6 +7,10 @@ title: Direction Testing
 
 Location : NEW GAJARA SOC, 635 1B, Vaibhav Society, Bibwewadi, Pune, Maharashtra 411037
 
+<br/>
+![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-indoor-building-deployment.webp)
+
+
 ## North-West Direction
 
 <br/>
