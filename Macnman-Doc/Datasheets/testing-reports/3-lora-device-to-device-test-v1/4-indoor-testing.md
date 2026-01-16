@@ -14,7 +14,6 @@ The analysis focuses on **RSSI, SNR, packet delivery reliability, and link stabi
 ### Signal Degradation with Distance in Urban Conditions
 
 
-
 In the urban deployment scenario, both **RSSI (Received Signal Strength Indicator)** and **SNR (Signal-to-Noise Ratio)** exhibited a gradual decline with increasing distance between peer devices. This behavior is expected due to **urban attenuation factors**, including building density, reflective surfaces, and non-line-of-sight (NLoS) paths.
 
 Despite these constraints, **stable device-to-device communication was maintained across the tested urban range**, indicating that MacTalk can operate reliably even in environments with significant RF complexity.
