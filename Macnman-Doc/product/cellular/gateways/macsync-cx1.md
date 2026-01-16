@@ -1,47 +1,55 @@
 ---
-id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
-title: MacRay-LU4
+id: macsync-cx1-datasheet
+title: MacSync CX1 
 sidebar_position: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - lorawan ultrasonic level sensor
-  - sub 4 meter ultrasonic sensor
-  - manhole level monitoring sensor
-  - smart water management iot device
-  - underground drainage monitoring
-  - sewer level monitoring system
-  - tank liquid level measurement
-  - flood detection sensor lorawan
-  - sump pit level monitoring iot
-  - water utility smart metering solution
-  - ultrasonic distance measurement iot
-  - industrial waste water monitoring
-  - long range wireless water level sensor
-  - battery powered lorawan sensor
-  - ultrasonic level transmitter lorawan
-  - smart city drainage monitoring sensor
-  - environmental monitoring sensor lorawan
-  - ip67 rugged ultrasonic sensor
-  - remote tank monitoring solution
-  - industrial iot automation device
+  - cellular rs485 datalogger
+  - 4g rs485 modbus datalogger
+  - lte modbus data logger
+  - rs485 to cloud data logger
+  - industrial cellular data logger
+  - 4-20ma to 4g datalogger
+  - 0-10v to 4g data logger
+  - analog to cloud data logger
+  - modbus rtu to mqtt gateway
+  - rs485 to mqtt device
+  - rs485 to https iot device
+  - remote data logging device
+  - plc data logger 4g
+  - scada data logger cellular
+  - industrial iot gateway 4g
+  - cellular iot edge gateway
+  - remote machine monitoring data logger
+  - energy meter data logger 4g
+  - pump monitoring datalogger
+  - pressure sensor 4-20ma datalogger
+  - industrial automation data logger
+  - multi channel data logger cellular
+  - telemetry data logger 4g
+  - modbus to cloud converter
+  - rs485 modbus gateway 4g
+  - iot data logger with sim
+  - 4g data logger with nano sim
+  - edge data logger mqtt
+  - remote rtu 4g
+  - 4g rtu data logger
 ---
 
-# MacRay-LU4 Datasheet
+# MacSync CX1 Datasheet
 
 ## Product Overview
 
-MacRay-LU4 is a **rugged LoRaWAN® ultrasonic level sensor** designed for short-range precision (0–4 meters) monitoring of liquids and solids in harsh outdoor and industrial environments. With advanced time-of-flight ultrasonic measurement and intelligent echo processing technology, it ensures high-accuracy level detection for tanks, pits, manholes, sumps, reservoirs, waste processing chambers, and flood monitoring systems.
+**MacSync CX1** is an industrial-grade **4G LTE Cellular Data Logger** designed to connect **RS485 (Modbus RTU)** and **analog sensors (4–20 mA / 0–10 V)** directly to the cloud for real-time monitoring and analytics. Built for demanding outdoor deployments, CX1 features a rugged enclosure, stable performance, and reliable cellular connectivity — making it ideal for remote industrial sites where Wi‑Fi or Ethernet is not available.
 
-Engineered with **IP67 sensor protection**, corrosion-resistant housing, and advanced interference filtering, the MacRay-LU4 operates reliably in moisture-rich, chemically aggressive, and dusty environments where traditional level sensors fail. It supports LoRaWAN® Class A, long-range coverage, and offers multi-year battery performance, making it ideal for remote and unmanned sites.
+Powered by a wide **9–36 V DC input**, MacSync CX1 is engineered for permanent installations in utilities, factories, water infrastructure, energy metering, and process monitoring systems. It supports multi-channel data acquisition, periodic and event-based reporting, and enables instant alerts for critical parameter changes.
 
-The device integrates AES-256 encrypted LoRaWAN® communication, over-the-air configuration via Maya App (BLE), and supports intelligent uplink modes including periodic, event-driven, and threshold-based triggers — enabling energy-efficient deployments at scale.
-
-Whether supporting smart water utilities, sewer & drainage systems, liquid storage tanks, waste tracking, or environmental flood alerts, MacRay-LU4 converts real-world level conditions into instant data, enabling proactive maintenance, reduced operational costs, and smarter city infrastructure.
+With an **in-house high-efficiency internal antenna** and optimized low-noise RF design, CX1 ensures stable long-range connectivity in harsh environments. Whether you are monitoring pumps, pressure transmitters, flow meters, energy meters, or industrial machines — **MacSync CX1 transforms field signals into cloud-ready data with industrial reliability.**
 
 
-| ![](/img/lorawan/macray/macray-lu4-front-view.webp) | ![](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
+| ![Front view of MacSync-L-STD-BO battery-powered RS485 and analog to LoRaWAN data logger](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![ Side view of MacSync-L-STD-BO industrial LoRaWAN data logger with 19Ah battery](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
 |--------------------------------|--------------------------------|
-| ![](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![](/img/lorawan/macray/macray-lu4-side-view.webp) |
+| ![Back view of MacSync-L-STD-BO showing enclosure and wiring ports for RS485 and analog inputs](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Internal layout of MacSync-L-STD-BO battery-operated LoRaWAN telemetry device](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -72,55 +80,57 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Short‑Range Precision Sensing</strong>
-  Optimized ultrasonic measurement for 0–4 meters liquid and solid level monitoring.
+  <strong>4G LTE Cellular Data Logger</strong>
+  Direct-to-cloud connectivity for remote monitoring without Wi‑Fi, Ethernet, or gateway dependency.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Advanced Echo Processing</strong>
-  Intelligent filtering eliminates false readings from foam, turbulence, and obstructions.
+  <strong>RS485 (Modbus RTU) Integration</strong>
+  Seamlessly connects with industrial PLCs, energy meters, flow meters, and smart instruments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Battery‑Powered LoRaWAN®</strong>
-  Multi‑year autonomous operation with ultra‑low‑power wireless communication.
+  <strong>Analog Inputs (4–20 mA / 0–10 V)</strong>
+  Supports industry-standard analog sensors such as pressure, level, flow, and temperature transmitters.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Rugged Design</strong>
-  Durable and corrosion‑resistant enclosure built for harsh outdoor and underground environments.
+  <strong>Wide Input Power (9–36 V DC)</strong>
+  Designed for stable outdoor and industrial installations with wide-range DC power compatibility.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic, event‑based & threshold alerts optimize power consumption and network traffic.
+  <strong>Outdoor Rugged Enclosure</strong>
+  Built for harsh field environments with reliable performance in dust, heat, and moisture conditions.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>BLE Configuration via Maya App</strong>
-  Quick setup, OTA parameter adjustment & diagnostics using a smartphone.
+  <strong>In‑House High‑Efficiency Internal Antenna</strong>
+  Optimized RF design ensures stable long-range cellular connectivity for remote deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Industrial Use</strong>
-  Designed for manholes, sewer drains, tanks, pits, reservoirs & flood monitoring.
+  <strong>Smart Reporting & Alerts</strong>
+  Supports periodic reporting and threshold-based alerts for critical parameter changes.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure & Long‑Range Communication</strong>
-  AES‑128 encrypted LoRaWAN® connectivity with strong penetration in remote areas.
+  <strong>Off‑the‑Shelf Cloud Compatibility</strong>
+  Works with AWS IoT Core, Azure IoT Hub, ThingsBoard, Ubidots, Datacake, TagoIO, Blynk, and custom cloud.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Flexible Deployment Options</strong>
-  Supports pole, wall, and custom mount installation for easy field deployment.
+  <strong>Local BLE Configuration</strong>
+  Quick on-site setup and diagnostics using the Macnman Maya mobile app.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Compatible with All LoRaWAN® Networks</strong>
-  Works seamlessly with private/public network servers and cloud platforms.
+  <strong>Secure & Reliable Data Delivery</strong>
+  Supports encrypted communication and robust buffering strategies for dependable industrial telemetry.
 </div>
+
 </div>
 <div class="faint-line"></div>
 
@@ -175,6 +185,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 
 <div class="faint-line"></div>
 
+
 ## Technical Specification
 
 <div className="spec-block">
@@ -183,7 +194,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">MacRay-LU4</p>
+    <p className="value">MacSync-CX1</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -195,31 +206,29 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Ultrasonic <br /> Level Measurement
+    Interfaces <br /> Available
   </div>
   <div className="spec-block-details">
-<p className="label">Ranging Range</p>
-<p className="value">3 – 450 cm</p>
-<br />
-<p className="label">Blind Zone Distance</p>
-<p className="value">3 cm</p>
-<br />
-<p className="label">Response Time (Sensor)</p>
-<p className="value">100 ms</p>
-<br />
-<p className="label">Resolution</p>
-<p className="value">0.1 cm</p>
-<br />
-<p className="label">Center Frequency</p>
-<p className="value">40 kHz ± 1 kHz</p>
-<br />
-<p className="label">Sensing Angle</p>
-<p className="value">60°</p>
-<br />
-<p className="label">Protection Rating (Sensor)</p>
-<p className="value">IP67</p>
+    <p className="label">RS485 Interface</p>
+    <p className="value">1 (Switchable)</p>
+    <br />
+    <p className="label">4-20 mA Analog Channels</p>
+    <p className="value">x 2 (Switchable)</p>
+    <br />
+    <p className="label">0-10 V Analog Channels</p>
+    <p className="value">x 2 (Switchable)</p>
+    <br />
+    <p className="label">Digital Inputs</p>
+    <p className="value">x 2 (Switchable)</p>    
+    <br />
+    <p className="label">ADC Resolution</p>
+    <p className="value">12-bit</p>
   </div>
 </div>
+
+:::note
+The device use same channels for the RS485 & Analog inputs, either can be used at a time.
+:::
 
 <div class="faint-line"></div>
 
@@ -228,34 +237,44 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     Wireless <br /> Transmission
   </div>
   <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
+    <p className="label">Communication Module</p>
+    <p className="value">Quectel EC200 Series</p>
     <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
+    <p className="label">Network Technology</p>
+    <p className="value">4G LTE (Cat 1)</p>
+    <p className="value">2G GSM (Fallback)</p>
     <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
+    <p className="label">Supported LTE Bands*</p>
+    <p className="value">B1 / B3 / B5 / B8 / B40 / B41 (Region dependent)</p>
+    <br />
+    <p className="label">Supported GSM Bands*</p>
+    <p className="value">900 / 1800 MHz</p>
     <br />
     <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
+    <p className="value">LTE: Up to +23 dBm</p>
+    <p className="value">GSM: Up to +33 dBm</p>
     <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
+    <p className="label">Receiver Sensitivity*</p>
+    <p className="value">LTE: Up to -100 dBm (typical)</p>
+    <p className="value">GSM: Up to -109 dBm (typical)</p>
     <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
+    <p className="label">Cloud Protocols</p>
+    <p className="value">MQTT / HTTPS</p>
     <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
+    <p className="label">Antenna</p>
+    <p className="value">External high-efficiency cellular antenna</p>
     <br />
-
+    <p className="label">SIM Support</p>
+    <p className="value">Nano SIM</p>
+    <br />
+    <p className="label">Data Transmission</p>
+    <p className="value">Configurable reporting interval with event-based alerts</p>
+    <br />
   </div>
 </div>
 
 <div class="faint-line"></div>
+
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -275,7 +294,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <p className="value">Attempting to connect to the LoRaWAN® network</p>    
     <br />
     <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacRay is being modified</p>
+    <p className="value">A confirmed parameter of MacSync is being modified</p>
     <br />
 
 
@@ -308,38 +327,19 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 
 <div className="spec-block">
   <div className="spec-block-title">
-    Battery <br /> Performance
+    Supported <br /> Cloud Platforms
   </div>
   <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (12Ah) Industrial grade</p>
+    <p className="label">Supports Major Cloud Platforms</p>
+    <p className="value">AWS IoT Core</p>
+    <p className="value">Microsoft Azure IoT Hub</p>
+    <p className="value">ThingsBoard</p>
+    <p className="value">Ubidots</p>
+    <p className="value">Datacake</p>
+    <p className="value">TagoIO</p>
+    <p className="value">Blynk</p>
+    <p className="value">Custom Cloud via MQTT / HTTPS</p>
     <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 2 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
   </div>
 </div>
 
@@ -350,7 +350,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     Physical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
+    <p className="label">Power Supply</p>
     <p className="value">9-36 V DC</p>
     <br />
     <p className="label">Operating Temperature</p>
@@ -366,7 +366,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <p className="value">Glass field Nylon</p>    
     <br />
     <p className="label">Color</p>
-    <p className="value">Matte Black</p>    
+    <p className="value">Matte White</p>    
     <br />
     <p className="label">Weight</p>
     <p className="value">~110g</p>    
@@ -384,12 +384,12 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     Electrical <br /> Characteristics
   </div>
   <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
+    <p className="label">Input Voltage Range</p>
     <p className="value">9-36 V DC (External Supply)</p>
     <br />
     <p className="label">Power Consumption</p>
     <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
+    <p className="value">~50 to 250 mA during transmission</p>
     <br />
     <p className="label">Input Impedance</p>
     <p className="value">>10 MΩ for voltage inputs</p>
@@ -408,7 +408,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
     <p className="value">For local configuration and diagnostics via Maya App</p>
     <br />
     <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
+    <p className="value">MQTT / HTTPS</p>
     <br />
     <p className="label">Serial Interface</p>
     <p className="value">RS485 Modbus RTU support (optional)</p>
@@ -441,7 +441,7 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
   </div>
   <div className="spec-block-details">
     <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
+    <p className="value">AES-128 end-to-end encryption</p>
     <br />
     <p className="label">Authentication</p>
     <p className="value">OTAA activation modes</p>
@@ -453,14 +453,14 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
 </div>
 
 
-##  MacRay-LU4 Variants
+## MacSync CX1 Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
+      <th>Input Voltage</th>
       <th>Solar Support</th>
       <th>External Flash</th>
       <th>Ideal For</th>
@@ -468,70 +468,21 @@ Whether supporting smart water utilities, sewer & drainage systems, liquid stora
   </thead>
   <tbody>
     <tr>
-      <td>MacRay-LU4-PO</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✔️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
-    </tr>
-    <tr>
-      <td>MacRay-LU4-BO</td>
-      <td>Battery</td>
-      <td>12 Ah</td>
+      <td>MacSync CX1 - PO</td>
+      <td>External Power</td>
+      <td>9–36 V DC</td>
       <td>✖️</td>
       <td>✔️</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>Outdoor industrial installations with always-on cellular connectivity</td>
     </tr>
   </tbody>
 </table>
-
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
-
--->
 
 ## What's in the box ?
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![title image](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -540,7 +491,7 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacSync CX1 Dimensions
 
-![title image](/img/lorawan/macray/macray-lu-four-dimensions.svg)
+![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 
