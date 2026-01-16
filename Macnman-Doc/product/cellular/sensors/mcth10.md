@@ -1,52 +1,50 @@
 ---
-id: indilora-single-channel-datasheet
-title: IndiLoRa X
-sidebar_position: 4
+id: mcth10
+title: MCTH10 
+sidebar_position: 5
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
-  - single channel LoRa gateway
-  - indoor cellular LoRa gateway
-  - wifi enabled LoRa gateway
-  - compact LoRa iot gateway
-  - low cost LoRa access point
-  - smart building LoRa gateway
-  - iot network extender for indoor coverage
-  - LoRa gateway for retail and offices
-  - single channel long range wireless gateway
-  - plug and play indoor LoRa gateway
-  - enterprise iot connectivity device
-  - LoRa gateway for small deployments
-  - scalable indoor LoRa network node
-  - smart campus indoor LoRa bridge
-  - indoor industrial iot communication hub
-  - LoRa device onboarding gateway
-  - LoRa cellular backhaul gateway
-  - cost-efficient LoRa indoor coverage
+  - fire equipment monitoring system
+  - smart fire safety controller
+  - fire hydrant pressure monitoring
+  - fire pump health monitoring device
+  - fire extinguisher status monitoring
+  - fire protection system diagnostics
+  - building fire safety automation controller
+  - industrial fire protection monitoring
+  - fire sprinkler system remote monitoring
+  - fire door and exit monitoring gateway
+  - fire suppression equipment IoT monitoring
+  - rs485 fire system monitoring controller
+  - bms fire safety system integration
+  - fire compliance monitoring solution
+  - emergency system health monitoring device
+  - fire alarm equipment connectivity module
+  - smart emergency infrastructure monitoring
+  - cloud connected fire safety device
 ---
 
-# IndiLoRa X Datasheet
+# MCTH10 Datasheet
 
 ## Product Overview
 
-**IndiLoRa X1 is an ultra-affordable single-channel indoor LoRaWAN® gateway** designed for small-scale IoT deployments and legacy industrial system upgrades. Built on the powerful nRF5340 dual-core MCU, it bridges LoRa® sensors with both cloud platforms and local RS-485 networks simultaneously — enabling seamless modernization of existing PLCs, meters, and building automation systems.
+**MCTH10** is an industrial-grade **Cellular Temperature & Humidity Monitoring Sensor** designed for continuous environmental monitoring in commercial and industrial infrastructure. Powered by a stable **12–24V DC supply**, the device delivers reliable 24/7 operation without battery limitations, making it ideal for permanent installations and mission-critical monitoring points.
 
-With Wi-Fi backhaul, IndiLoRa X1 eliminates the need for Ethernet cabling, making installation fast and extremely cost-efficient in retail stores, warehouses, apartments, hospitals, small factories, and utility rooms. The fanless design ensures silent operation and support for 24×7 monitoring applications.
+MCTH10 measures **temperature and humidity with high accuracy** and transmits real-time data over **cellular connectivity**, eliminating the need for gateways, Wi-Fi networks, or local IT infrastructure. This makes it perfect for deployments across distributed sites such as **cold storage facilities, warehouses, pharma storage rooms, data centers, server rooms, greenhouses, and industrial buildings**.
 
-Supporting AES-128 encrypted communication, OTA updates, **MQTT/HTTPS cloud delivery**, and **direct RS-485 Modbus output**, IndiLoRa X1 allows rapid integration into SCADA, BMS, EMS, utility monitoring and more — without replacing existing equipment.
+With cloud connectivity, MCTH10 enables **live dashboards, instant alerts, automated compliance logging, and preventive maintenance reporting**, ensuring your operations stay protected from temperature excursions, humidity rise, and environmental instability.
 
-Whether enabling indoor environmental monitoring, asset tracking, energy meters, or low-density sensor networks — IndiLoRa X1 delivers a budget-friendly indoor LoRa® gateway solution that bridges Industry 3.0 with Industry 4.0.
+Whether you need **remote monitoring, compliance readiness, or 24/7 environmental visibility**, **MCTH10 delivers always-on performance with cellular reliability and industrial-grade durability.**
 
-| ![IndiLoRa single channel indoor LoRa gateway front view with wifi connectivity](/img/lorawan/gateways/indilora-single-channel-gateway-front.webp) | ![IndiLoRa compact LoRa to wifi indoor gateway side view for smart building automation](/img/lorawan/gateways/indilora-single-channel-gateway-installation.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![IndiLoRa LoRa to RS485 Modbus RTU gateway interface terminal connector](/img/lorawan/gateways/indilora-single-channel-gateway-rs485.webp) | ![IndiLoRa installed inside building enabling low cost IoT network extension and sensor monitoring](/img/lorawan/gateways/indilora-single-channel-gateway-side.webp) |
-
-
+| ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="#" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -60,7 +58,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
     <div className="icon">📝</div>
     <div>
       <strong>Firmware/SDK</strong>
-      <p>Click here to view the decoders for IndiLoRa X</p>
+      <p>Click here to view the decoders for MCTH10</p>
     </div>
   </a>
 </div>
@@ -70,45 +68,47 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 ## Key Features
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Ultra‑Low Cost LoRa® Gateway</strong>
-  Designed for cost‑sensitive IoT installations with compact coverage needs in smart buildings and commercial environments.
+  <strong>Cellular Temperature & Humidity Monitoring</strong>
+  Accurate real-time monitoring of temperature and humidity for industrial and commercial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wi‑Fi Backhaul Connectivity</strong>
-  Cloud communication using Wi‑Fi no Ethernet wiring required for installation.
+  <strong>12–24V DC Powered Operation</strong>
+  Always-on performance with stable DC supply, ideal for fixed installations and critical monitoring locations.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>RS‑485 Modbus Output Support</strong>
-  Direct interface with legacy PLCs, meters and BMS systems for simultaneous LoRa‑to‑wired integration.
+  <strong>Direct-to-Cloud Connectivity</strong>
+  Sends sensor data over cellular network without requiring Wi‑Fi, Ethernet, or any gateway infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Powered by nRF5340 MCU</strong>
-  Dual‑core processing with secure and power‑efficient wireless communication.
+  <strong>Instant Alerts & Threshold Triggers</strong>
+  Configure high/low temperature and humidity limits to receive instant alerts for excursions and abnormal conditions.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Focused Single‑Channel LoRa® Operation</strong>
-  Ideal for low‑density sensor networks inside controlled indoor areas.
+  <strong>Live Dashboard & Data Logging</strong>
+  Continuous data capture with timestamped logs for trend analysis, audits, and compliance reporting.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Communication</strong>
-  AES‑128 data encryption and TLS‑based secure OTA firmware upgrades.
+  <strong>Industrial-Grade Rugged Design</strong>
+  Built for long-term deployments in harsh environments with stable performance and durable enclosure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Plug‑and‑Play Deployment</strong>
-  Zero‑touch provisioning using MacCloud for rapid installation by onsite technicians.
+  <strong>Remote Configuration & Easy Deployment</strong>
+  Quick installation with remote device setup for reporting intervals, alert rules, and site configuration.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Quiet & Low‑Power Design</strong>
-  Fanless architecture built for 24×7 uptime in noise‑sensitive environments.
+  <strong>Ideal for Cold Storage & Critical Rooms</strong>
+  Perfect for cold rooms, pharma storage, warehouses, data centers, and other temperature-sensitive operations.
 </div>
+
 </div>
 <div class="faint-line"></div>
 
@@ -117,43 +117,43 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Small Smart Building Deployments</strong>
-  Cost‑efficient indoor LoRa® coverage for energy monitoring, room comfort sensors and building automation in compact areas.
+  <strong>Cold Storage & Freezer Rooms</strong>
+  Continuous temperature and humidity monitoring to prevent spoilage, excursions, and compliance failures.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Commercial Retail Outlets</strong>
-  Enables IoT connectivity for shelf monitoring, occupancy analytics and refrigeration compliance without wired infrastructure.
+  <strong>Pharma & Vaccine Storage</strong>
+  Ensures stable storage conditions with real-time alerts and logging for audits and regulatory compliance.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Warehouse & Storage Spaces</strong>
-  Ideal for indoor asset tracking, stock environment monitoring and automated supply chain alerts.
+  <strong>Warehouses & Logistics Facilities</strong>
+  Tracks environmental conditions across large storage zones to protect inventory and reduce losses.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Hospitals & Healthcare Rooms</strong>
-  Adds secure connectivity for patient safety, air quality monitoring and equipment status without major installation work.
+  <strong>Data Centers & Server Rooms</strong>
+  Monitors heat and humidity rise to prevent equipment damage and reduce unexpected downtime.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Apartments & Residential Smart Homes</strong>
-  Facilitates LoRa®‑based water meters, energy monitoring and safety sensors for housing automation.
+  <strong>HVAC Monitoring & Utility Rooms</strong>
+  Helps validate HVAC performance and detect ventilation or cooling issues early.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Legacy Industrial Machine Rooms</strong>
-  Provides RS‑485 integration for PLCs and meters, bridging Industry 3.0 devices with modern IoT cloud systems.
+  <strong>Greenhouses & Indoor Farming</strong>
+  Maintains optimal temperature and humidity conditions for improved yield and crop consistency.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Hotels & Hospitality Spaces</strong>
-  Supports smart room solutions and maintenance alert systems without disturbing infrastructure aesthetics.
+  <strong>Industrial Plants & Production Areas</strong>
+  Supports stable environmental monitoring for sensitive processes, machines, and quality control zones.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Data Center & IT Racks</strong>
-  Perfect for localized monitoring of temperature, humidity and access conditions inside server environments.
+  <strong>Remote Sites Without Local Network</strong>
+  Ideal for locations where Wi‑Fi/Ethernet is unavailable — cellular enables direct cloud connectivity.
 </div>
 
 </div>
@@ -168,7 +168,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
   </div>
   <div className="spec-block-details">
     <p className="label">Part Order Number</p>
-    <p className="value">IndiLoRa X</p>
+    <p className="value">MCTH10</p>
     <br />
     <p className="label">Product Brand</p>
     <p className="value">Macnman Technologies Pvt Ltd</p>
@@ -184,31 +184,37 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
   </div>
   <div className="spec-block-details">
 <p className="label">Processor Type</p>
-<p className="value">nRF5340 Dual‑Core Bluetooth® LE & LoRa Gateway MCU</p>
+<p className="value">nRF52840 Industrial‑grade MCU</p>
 <br />
-<p className="label">Number of Cores</p>
-<p className="value">Dual‑Core (1× Application + 1× Network Core)</p>
+<p className="label">CPU Architecture</p>
+<p className="value">32‑bit ARM® Cortex®‑M4 with FPU</p>
 <br />
 <p className="label">Clock Speed</p>
-<p className="value">128 MHz (Application Core) / 64 MHz (Network Core)</p>
+<p className="value">64 MHz</p>
 <br />
-<p className="label">Memory Size</p>
-<p className="value">512 KB RAM</p>
+<p className="label">Flash Memory</p>
+<p className="value">1 MB On‑Chip Flash</p>
 <br />
-<p className="label">Memory Architecture</p>
-<p className="value">Low‑Power Multi‑Core Shared Memory Architecture</p>
+<p className="label">RAM</p>
+<p className="value">256 KB On‑Chip RAM</p>
 <br />
-<p className="label">Internal Flash</p>
-<p className="value">1 MB On‑Chip Flash + External Flash Support</p>
+<p className="label">Sensor Interface Channels</p>
+<p className="value">08 (Configurable UART / I²C / RS‑485)</p>
 <br />
-<p className="label">USB Port</p>
-<p className="value">Debug Interface (Bottom of Enclosure)</p>
+<p className="label">Control Output Channels</p>
+<p className="value">04 Digital Outputs (Relay / DO Based)</p>
 <br />
-<p className="label">Connector Type</p>
-<p className="value">USB Type‑C</p>
+<p className="label">Industrial Protection</p>
+<p className="value">Surge & ESD Protected IO</p>
 <br />
-<p className="label">Interface Protection</p>
-<p className="value">Surge Protection Enabled</p>
+<p className="label">Debug Interface</p>
+<p className="value">USB Type‑C (Service Only)</p>
+<br />
+<p className="label">Local Indicators</p>
+<p className="value">Multi‑Status LEDs for Fault / Power / Alarm</p>
+<br />
+<p className="label">Safety Grade</p>
+<p className="value">Designed for Fire‑System Equipment Monitoring</p>
   </div>
 </div>
 
@@ -216,32 +222,39 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 
 <div className="spec-block">
   <div className="spec-block-title">
-    LoRa <br /> Specifications
+    Sensor Interface <br /> Compatibility
   </div>
   <div className="spec-block-details">
-<p className="label">Compatibility</p>
-<p className="value">Macnman LoRa Nodes & Controllers</p>
+
+<p className="label">Supported Sensor Types</p>
+<p className="value">Pressure Sensors (Hydrants, Sprinkler Lines)</p>
+<p className="value">Flow Sensors for Water Networks</p>
+<p className="value">Water Tank Level Sensors (Ultrasonic / Float Type)</p>
+<p className="value">Fire Extinguisher Health Modules</p>
+<p className="value">Fire Door Status & Magnetic Contact Sensors</p>
+<p className="value">Pump Controller Health Monitoring Inputs</p>
+<p className="value">Battery / Power Backup Status Modules</p>
+<p className="value">Alarm Annunciator Feedback Inputs</p>
 <br />
-<p className="label">Supported Frequency Bands</p>
-<p className="value">IN865</p>
+
+<p className="label">Sensor Communication Ports</p>
+<p className="value">UART × 2</p>
+<p className="value">I²C × 2</p>
+<p className="value">RS‑485 × 1</p>
+<p className="value">Dry Contact / Digital Inputs × 3</p>
 <br />
-<p className="label">Channel Support</p>
-<p className="value">Single‑Channel (1 × Uplink / 1 × Downlink)</p>
+
+<p className="label">Diagnostic Feedback</p>
+<p className="value">Fault, Tamper, Low Pressure, Water Refill Alerts</p>
 <br />
-<p className="label">Data‑Rate</p>
-<p className="value">Fixed Data‑Rate – No ADR (single‑channel limitation)</p>
+
+<p className="label">Data Handling</p>
+<p className="value">Real‑time polling, alerts & timestamped events</p>
 <br />
-<p className="label">Tx Power</p>
-<p className="value">+23 dBm @ IN865/868 MHz &nbsp;&nbsp; +20 dBm @ 915 MHz</p>
-<br />
-<p className="label">Rx Sensitivity</p>
-<p className="value">Down to –136 dBm @ SF12, BW 125 kHz</p>
-<br />
-<p className="label">Antenna Type</p>
-<p className="value">External High‑Efficiency LoRa Antenna</p>
-<br />
-<p className="label">Device Capacity</p>
-<p className="value">Optimized for Localized Indoor Installations with Small Node Density</p>
+
+<p className="label">Integration Support</p>
+<p className="value">Connects with Fire Panels, BMS & SCADA Networks</p>
+
   </div>
 </div>
 
@@ -414,7 +427,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 </div>
 
 
-##  IndiLoRa X Variants
+##  MCTH10 Variants
 
 <table className="parameter-table">
   <thead>
@@ -429,7 +442,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
   </thead>
   <tbody>
     <tr>
-      <td>IndiLoRa X1</td>
+      <td>MCTH101</td>
       <td>12–24 V (Power)</td>
       <td>✔️</td>
       <td>✖️</td>
@@ -437,7 +450,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
       <td>Ideal for small indoor networks with stable Wi-Fi backhaul such as offices, retail stores and hospitality environments.</td>
     </tr>
     <tr>
-      <td>IndiLoRa X2</td>
+      <td>MCTH102</td>
       <td>12–24 V (Power)</td>
       <td>✔️</td>
       <td>✖️</td>
@@ -447,52 +460,11 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
   </tbody>
 </table>
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRa® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRa® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
-
--->
-
 ## What's in the box ?
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/indilora-lora-gateway-dimensions-box-item.svg)
+![title image](/img/lorawan/gateways/fireguard-gen-one-control-output-box-item.svg)
 
 :::note
 
