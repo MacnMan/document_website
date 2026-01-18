@@ -1,6 +1,6 @@
 ---
-id: macedge-cx308-datasheet
-title: MacEdge CX308 
+id: macedge-cx08-datasheet
+title: MacEdge CX08 
 sidebar_position: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
