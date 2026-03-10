@@ -12,7 +12,9 @@ MacSet also supports direct external power input (12–24 V DC):
 
 ## Terminal Connections
 
-![macset terminal](/img/controller/connection_dia_controller.webp)
+![MacSet LoRaWAN Controller terminal wiring diagram for power and sensor connections](/img/controller/macset-lorawan-controller-terminal-connection-diagram.webp)
+
+![MacSet LoRaWAN Controller terminal connection diagram showing power supply and IO wiring](/img/controller/macset-relay-connections-lorawan-controller.webp)
 
 ## Procedure for Connecting External Power
 
