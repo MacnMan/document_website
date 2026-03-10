@@ -1,9 +1,9 @@
 ---
-id: controller_power-options
-title: Power Options & Led Status
+id: lorawan_controller_terminial_connections_macset_lx1
+title: Terminal Connections & Led Indications
 ---
 
-# Power Options in MacSet
+# Terminal Connections in MacSet LX1
 
 ## External Power Supply
 MacSet also supports direct external power input (12–24 V DC):
