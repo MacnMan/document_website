@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "MacSync-L-STD-PO-X2",
+    "name": "MacSync-LX1-PO",
     "technology": "LoRaWAN®",
     "category": "Nodes",
     "applications": [
@@ -56,7 +56,7 @@
     ],
     "description": "LoRaWAN ultrasonic level and distance sensor.",
     "image": "/docs/img/devices/lorawan-ultrasonic-sensor-logo-flat.webp",
-    "link": "/docs/product/lorawan/sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one"
+    "link": "/docs/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one"
   },
   {
     "id": 4,
@@ -94,7 +94,7 @@
     ],
     "description": "Precise ToF distance measurement over LoRaWAN.",
     "image": "/docs/img/devices/lorawan-time-of-flight-sensor-macnman.webp",
-    "link": "/docs/product/lorawan/sensors/macray-tof-x-series"
+    "link": "/docs/product/lorawan/sensors/level-sensors/macray-tof-x-series"
   },
   {
     "id": 6,
@@ -113,7 +113,7 @@
     ],
     "description": "LoRaWAN parking occupancy sensor.",
     "image": "/docs/img/devices/lorawan-parking-sensor.webp",
-    "link": "/docs/product/lorawan/sensors/parknode-gen-one-lorawan-parking-sensor"
+    "link": "/docs/product/lorawan/sensors/parking-sensors/parknode-gen-one-lorawan-parking-sensor"
   },
   {
     "id": 7,
@@ -210,7 +210,7 @@
     ],
     "description": "Wireless LoRaWAN pressure sensor.",
     "image": "/docs/img/devices/macsync-pressure-sensor-logo-gen-one.webp",
-    "link": "/docs/product/lorawan/sensors/macsync-lorawan-pressure-sensor-x-series"
+    "link": "/docs/product/lorawan/sensors/envirnomental-sensors/macsync-lorawan-pressure-sensor-x-series"
   },
   {
     "id": 12,

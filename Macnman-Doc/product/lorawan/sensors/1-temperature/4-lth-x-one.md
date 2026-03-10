@@ -30,7 +30,7 @@ keywords:
 
 ## Product Overview
 
-** MLTH 301** is a premium LoRaWAN® temperature, humidity & pressure sensor, engineered for high-accuracy environmental monitoring in the most demanding industrial and outdoor deployments. Built for precision and longevity, it continuously captures real-time atmospheric data and transmits it over ultra-long-range LoRaWAN® networks—ensuring maximum uptime with minimal power consumption.
+**MLTH 301** is a premium LoRaWAN® temperature, humidity & pressure sensor, engineered for high-accuracy environmental monitoring in the most demanding industrial and outdoor deployments. Built for precision and longevity, it continuously captures real-time atmospheric data and transmits it over ultra-long-range LoRaWAN® networks—ensuring maximum uptime with minimal power consumption.
 
 Powered by industrial-grade sensing elements and advanced thermal-isolation design, the  MLTH 301 delivers fast response, low drift, and exceptional measurement stability even under harsh weather or mechanical stress. Its rugged enclosure and ingress-protected design make it a perfect fit for smart agriculture, cold chain logistics, HVAC automation, smart cities, warehouses, greenhouses, and remote environmental stations.
 
