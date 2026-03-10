@@ -1,6 +1,6 @@
 ---
-id: fire-guard-single-channel-lora-gateway-for-firedatasheet
-title: Mini Scheduler X2 
+id: mini-ble-wifi-relay-controller
+title: Mini Doer Gen-1
 sidebar_position: 5
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:
