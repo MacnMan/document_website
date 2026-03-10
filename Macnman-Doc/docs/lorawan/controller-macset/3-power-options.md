@@ -1,9 +1,9 @@
 ---
-id: controller_power-options
-title: Power Options & Led Status
+id: lorawan_controller_terminial_connections_macset_lx1
+title: Terminal Connections & Led Indications
 ---
 
-# Power Options in MacSet
+# Terminal Connections in MacSet LX1
 
 ## External Power Supply
 MacSet also supports direct external power input (12–24 V DC):
@@ -12,7 +12,9 @@ MacSet also supports direct external power input (12–24 V DC):
 
 ## Terminal Connections
 
-![macset terminal](/img/controller/connection_dia_controller.webp)
+![MacSet LoRaWAN Controller terminal wiring diagram for power and sensor connections](/img/controller/macset-lorawan-controller-terminal-connection-diagram.webp)
+
+![MacSet LoRaWAN Controller terminal connection diagram showing power supply and IO wiring](/img/controller/macset-relay-connections-lorawan-controller.webp)
 
 ## Procedure for Connecting External Power
 

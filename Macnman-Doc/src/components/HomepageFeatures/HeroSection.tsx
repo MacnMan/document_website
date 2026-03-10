@@ -40,7 +40,7 @@ const SupportSection: React.FC = () => {
                     />
                     <div>
                         <p className={styles.description}>Discover complete lineup</p>
-                        <a href="#" className={styles.link}>Explore Our Store</a>
+                        <a href="https://www.macnman.com/Products" className={styles.link}>Explore Our Store</a>
                     </div>
                 </div>
             </div>
