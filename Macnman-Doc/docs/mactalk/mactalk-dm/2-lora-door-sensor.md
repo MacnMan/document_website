@@ -2,126 +2,92 @@
 id: mactalk_lora_door_sensor_configuration
 title: LoRa Door Sensor
 ---
-# Gateway Configuration Guide
+# LoRa Door Sensor Configuration Guide
 
-## 1. App Setup & Device Connection
+## 1. Device Naming
 
-Use the **Macnman Maya** mobile application to configure the gateway.
-
-**Steps:**
-- Install the app from Play Store
-- Login using your Gmail ID
-- Scan for nearby devices
-- Connect via:
-  - Device selection, or
-  - QR code scan
-
-**What this does:**  
-Establishes initial communication between your phone and the gateway for configuration.
-
----
-
-## 2. Device Overview & Basic Controls
-
-Once connected, the home screen allows:
-
-- **Device Naming** → Assign a unique identifier for easier management  
-- **Heartbeat Setting** → Defines how frequently the device communicates  
-- **Data Read** → View live device data  
-
-**Why it matters:**  
-Helps in organizing multiple devices and controlling communication intervals.
-
----
-
-## 3. Device Naming
-
-To rename:
 - Open **Name field**
 - Enter new name
 - Save
 
-![title image](/img/mayascreens/name.svg)Macnman-Doc/static/img/mayascreens/mactalk-lora-setting.svg
+![title image](/img/mayascreens/name.svg)
 
-**Best Practice:**  
-Use structured naming (e.g., `Site-Floor-DeviceType`) for scalability.
+
+**Recommendation:**  
+Use location-based naming (e.g., `Warehouse-Door-01`) for clarity.
 
 ---
 
-## 4. LoRa Communication Setup
+## 2. LoRa Communication Settings
 
-Navigate to **LoRa Settings** and ensure all parameters match between:
-👉 Gateway ↔ Sensor Device
+Navigate to **LoRa Settings** and verify parameters.
 
-### Key Parameters
+All values must match between:
+👉 Door Sensor ↔ Gateway
 
-- **Class**  
-  Must be identical on both ends (defines communication behavior)
+### Required Parameters
 
-- **Frequency (IN865)**  
-  Standard LoRa band for India
-
+- **Class** → Must match  
+- **Frequency (IN865)** → Standard in India  
 - **Spreading Factor (SF)**  
-  - Lower SF → faster, shorter range  
-  - Higher SF → slower, longer range  
+  - Lower SF → Faster, shorter range  
+  - Higher SF → Slower, longer range  
 
-- **Channel**  
-  Must be the same for successful communication
+- **Channel** → Must be identical  
+- **Slave ID** → Unique per device  
+- **Encryption Key** → Required for secure communication  
 
-- **Slave ID**  
-  Unique ID for each connected device
-
-- **Encryption Key**  
-  Required for secure data transmission
-
-![title image](/img/mayascreens/mactalk-lora-setting.svg)
-
-
-**What this does:**  
-Ensures reliable and secure wireless communication between devices.
+**Purpose:**  
+Ensures reliable and secure LoRaWAN communication.
 
 ---
 
-## 5. Network Capacity
+## 3. Network Capacity
 
-- Supports up to **20 devices per gateway**
-- Recommended with **5-minute uplink interval**
+- Up to **20 devices per gateway**
+- Recommended at **5-minute uplink interval**
 
 **Note:**  
-Higher frequency of data transmission may reduce capacity.
+Higher transmission frequency can reduce supported device count.
 
 ---
 
-## 6. RS485 Communication Setup
+## 4. Viewing Sensor Data
 
-Used when connecting external sensors via RS485.
+Go to: **Device Data**
 
-Navigate to **RS485 Settings**
+You can monitor:
+- **Door Status**
+- **Door Cycle Count**
+- **Battery Status**
 
-### Parameters
+### Status Values
+- `0` → Door Closed  
+- `1` → Door Open  
 
-- **Baud Rate**  
-  Must match sensor specification (e.g., 9600, 19200)
+![title image](/img/mayascreens/door-sensor-data-mactalk.svg)
 
-- **Parity**  
-  Options:
-  - None  
-  - Even  
-  - Odd  
-
-**What this does:**  
-Ensures correct serial communication and accurate data acquisition.
+**Purpose:**  
+Provides real-time monitoring of door activity.
 
 ---
 
-## ✔️ Key Takeaways
+## 5. Modbus Data Reading (Advanced)
 
-- Configuration is done entirely via the **Maya app**
-- **LoRa settings must match exactly** between gateway and sensors
-- **RS485 settings must match the sensor device**
-- Proper configuration avoids:
-  - Data loss  
-  - Communication failure  
-  - Incorrect readings  
+To read data via Modbus:
+
+- Connect gateway to PC using **RS485 converter**
+- Use the following parameters:
+
+| Parameter       | Value |
+|----------------|------|
+| Slave ID       | 6    |
+| Function Code  | 4    |
+| Address        | 0    |
+
+![title image](/img/mayascreens/register-info-for-door-sensor-mactalk.png)
+
+**Purpose:**  
+Allows integration with external systems or software for data logging.
 
 ---

@@ -2,126 +2,118 @@
 id: mactalk_lora_temperature_humidity_sensor_configuration
 title: LoRa Temperature & Humidity Sensor
 ---
-# Gateway Configuration Guide
+
+# LoRaWAN Temperature Sensor Configuration Guide
 
 ## 1. App Setup & Device Connection
 
-Use the **Macnman Maya** mobile application to configure the gateway.
+Use the **Maya (Macnman)** app to connect with the temperature sensor.
 
 **Steps:**
-- Install the app from Play Store
-- Login using your Gmail ID
+- Install and login using Gmail
 - Scan for nearby devices
-- Connect via:
-  - Device selection, or
-  - QR code scan
+- Connect via device list or QR code
 
-**What this does:**  
-Establishes initial communication between your phone and the gateway for configuration.
+**Purpose:**  
+Enables initial configuration and communication with the sensor.
 
 ---
 
-## 2. Device Overview & Basic Controls
+## 2. Device Controls
 
-Once connected, the home screen allows:
+After connection, the app allows to see & change :
 
-- **Device Naming** → Assign a unique identifier for easier management  
-- **Heartbeat Setting** → Defines how frequently the device communicates  
-- **Data Read** → View live device data  
+- **Device Name** → Identify the sensor  
+- **Heartbeat** → Controls reporting interval  
+- **Data Access** → View live readings  
 
 **Why it matters:**  
-Helps in organizing multiple devices and controlling communication intervals.
+Helps manage device behavior and communication frequency.
 
 ---
 
 ## 3. Device Naming
 
-To rename:
 - Open **Name field**
-- Enter new name
+- Enter desired name
 - Save
 
-![title image](/img/mayascreens/name.svg)Macnman-Doc/static/img/mayascreens/mactalk-lora-setting.svg
+![title image](/img/mayascreens/name.svg)
 
 **Best Practice:**  
-Use structured naming (e.g., `Site-Floor-DeviceType`) for scalability.
+Use structured naming (e.g., `ColdStorage-Zone1`).
 
 ---
 
-## 4. LoRa Communication Setup
+## 4. LoRa Communication Settings
 
-Navigate to **LoRa Settings** and ensure all parameters match between:
-👉 Gateway ↔ Sensor Device
+Go to **LoRa Settings** and verify parameters.
 
-### Key Parameters
+All settings must match:
+👉 Sensor ↔ Gateway
 
-- **Class**  
-  Must be identical on both ends (defines communication behavior)
+### Required Parameters
 
-- **Frequency (IN865)**  
-  Standard LoRa band for India
-
+- **Class** → Must match  
+- **Frequency (IN865)** → Standard band in India  
 - **Spreading Factor (SF)**  
-  - Lower SF → faster, shorter range  
-  - Higher SF → slower, longer range  
+  - Lower SF → Faster transmission, shorter range  
+  - Higher SF → Slower transmission, longer range  
 
-- **Channel**  
-  Must be the same for successful communication
+- **Channel** → Must be identical  
+- **Slave ID** → Unique per device  
+- **Encryption Key** → Must match for secure communication  
 
-- **Slave ID**  
-  Unique ID for each connected device
-
-- **Encryption Key**  
-  Required for secure data transmission
-
-![title image](/img/mayascreens/mactalk-lora-setting.svg)
-
-
-**What this does:**  
-Ensures reliable and secure wireless communication between devices.
+**Purpose:**  
+Ensures stable and secure wireless communication.
 
 ---
 
 ## 5. Network Capacity
 
 - Supports up to **20 devices per gateway**
-- Recommended with **5-minute uplink interval**
+- Recommended at **5-minute uplink interval**
 
 **Note:**  
-Higher frequency of data transmission may reduce capacity.
+Reducing interval may affect scalability.
 
 ---
 
-## 6. RS485 Communication Setup
+## 6. Viewing Sensor Data
 
-Used when connecting external sensors via RS485.
+Navigate to: **Device Data**
 
-Navigate to **RS485 Settings**
+Available readings:
+- **Temperature**
+- **Humidity**
+- **Battery Status**
 
-### Parameters
+![title image](/img/mayascreens/mactalk-temperature-data-sample.svg)
 
-- **Baud Rate**  
-  Must match sensor specification (e.g., 9600, 19200)
+> As shown on *page 4*, if the sensor is not properly connected, readings may display as errors.
 
-- **Parity**  
-  Options:
-  - None  
-  - Even  
-  - Odd  
-
-**What this does:**  
-Ensures correct serial communication and accurate data acquisition.
+**Purpose:**  
+Provides real-time environmental monitoring.
 
 ---
 
-## ✔️ Key Takeaways
+## 7. Modbus Data Reading (Advanced)
 
-- Configuration is done entirely via the **Maya app**
-- **LoRa settings must match exactly** between gateway and sensors
-- **RS485 settings must match the sensor device**
-- Proper configuration avoids:
-  - Data loss  
-  - Communication failure  
-  - Incorrect readings  
+For wired data access:
+
+- Connect gateway to PC via **RS485 converter**
+- Use the following parameters:
+
+| Parameter       | Value |
+|----------------|------|
+| Slave ID       | 1    |
+| Function Code  | 4    |
+| Address        | 8    |
+
+![title image](/img/mayascreens/register-info-mactalk-temp-humi-sensor-sample.png)
+
+
+**Purpose:**  
+Allows integration with external monitoring or SCADA systems.
 
 ---

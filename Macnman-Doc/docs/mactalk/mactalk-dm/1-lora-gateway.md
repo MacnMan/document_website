@@ -41,7 +41,7 @@ To rename:
 - Enter new name
 - Save
 
-![title image](/img/mayascreens/name.svg)Macnman-Doc/static/img/mayascreens/mactalk-lora-setting.svg
+![title image](/img/mayascreens/name.svg)
 
 **Best Practice:**  
 Use structured naming (e.g., `Site-Floor-DeviceType`) for scalability.
@@ -111,17 +111,5 @@ Navigate to **RS485 Settings**
 
 **What this does:**  
 Ensures correct serial communication and accurate data acquisition.
-
----
-
-## ✔️ Key Takeaways
-
-- Configuration is done entirely via the **Maya app**
-- **LoRa settings must match exactly** between gateway and sensors
-- **RS485 settings must match the sensor device**
-- Proper configuration avoids:
-  - Data loss  
-  - Communication failure  
-  - Incorrect readings  
 
 ---
