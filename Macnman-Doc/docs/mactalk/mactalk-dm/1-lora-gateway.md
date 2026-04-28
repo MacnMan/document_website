@@ -48,39 +48,116 @@ Use structured naming (e.g., `Site-Floor-DeviceType`) for scalability.
 
 ---
 
-## 4. LoRa Communication Setup
+## 4. LoRa Communication Settings
 
-Navigate to **LoRa Settings** and ensure all parameters match between:
-👉 Gateway ↔ Sensor Device
+Go to **LoRa Settings** and verify parameters.
 
-### Key Parameters
+All settings must match:
+Sensor ↔ Gateway
 
-- **Class**  
-  Must be identical on both ends (defines communication behavior)
+### Required Parameters
 
-- **Frequency (IN865)**  
-  Standard LoRa band for India
-
+- **Class** → Must match  
+- **Frequency (IN865)** → Standard band in India  
 - **Spreading Factor (SF)**  
-  - Lower SF → faster, shorter range  
-  - Higher SF → slower, longer range  
+  - Lower SF → Faster transmission, shorter range  
+  - Higher SF → Slower transmission, longer range  
 
-- **Channel**  
-  Must be the same for successful communication
+- **Channel** → Must be identical  
+- **Slave ID** → Unique per device  
+- **Encryption Key** → Must match for secure communication  
 
-- **Slave ID**  
-  Unique ID for each connected device
-
-- **Encryption Key**  
-  Required for secure data transmission
-
-![title image](/img/mayascreens/mactalk-lora-setting.svg)
+**Purpose:**  
+Ensures stable and secure wireless communication.
 
 
-**What this does:**  
-Ensures reliable and secure wireless communication between devices.
+#### How to change LoRa Class? (Video Demo) :
+
+![lorawan classes](/img/lorawan/class.svg)
+
+**LoRa Class**  
+Select the appropriate **LoRa Class** based on your device’s power source and application needs:
+
+- **Class A**  
+  Recommended for **battery-powered** devices. It offers the **lowest power consumption** and is suitable for sensors that transmit data occasionally.
+  
+- **Class C**  
+  Designed for **mains-powered devices**.
+  It keeps the receiver **always on**, allowing near-instant downlink communication from the server.  
+
+Choosing the correct class helps optimize battery life and network responsiveness based on your deployment.
+
+:::note
+
+Controller are available in the Class C mode only
+:::
 
 ---
+
+## LoRa Frequency
+
+
+![lorawan frequency](/img/lorawan/freq.svg)
+
+Select the appropriate LoRa frequency band **based on your deployment region** and **local regulatory** standards.
+
+- **Example**  
+  `IN865(India)` , `IN868(Europe)` ,`US915(North America)`
+
+--- 
+
+## LoRa SF
+
+#### How to LoRa Spreading Factors ? :
+
+Inside LoRa settings, navigate to SF (Spreading Factor) and toggle up and down as per requirement.
+
+![lorawan frequency](/img/mayascreens/lora-spreading-factor-mactalk.svg)
+
+--- 
+
+## LoRa Channels
+
+#### How to setup LoRa channels ? :
+
+Inside LoRa settings, navigate to channels and type in channel number as per requirement.
+
+![lorawan frequency](/img/mayascreens/lora-spreading-factor-mactalk.svg)
+
+--- 
+
+## LoRa Channels
+
+#### How to setup LoRa channels ? :
+
+Inside LoRa settings, navigate to channels and type in channel number as per requirement.
+
+![lorawan frequency](/img/mayascreens/lora-channels-input.svg)
+
+---
+
+## Slave ID
+
+#### How to setup device slave ID ? :
+
+Inside LoRa settings, navigate to Slave ID and type in Slave ID number as per requirement.
+
+![lorawan frequency](/img/mayascreens/mactalk-slave-id-dm.svg)
+
+---
+
+## Encryption Key
+
+#### How to setup device Encryption Key ? :
+
+Inside LoRa settings, navigate to Encryption Key and type in Encryption Key number as per requirement.
+
+![lorawan frequency](/img/mayascreens/lora-en-key-mactalk.svg)
+
+---
+
+
+
 
 ## 5. Network Capacity
 
