@@ -41,7 +41,7 @@ Sensor ↔ Gateway
 Ensures stable and secure wireless communication.
 
 
-#### How to change LoRa Class? (Video Demo) :
+#### How to change LoRa Class? :
 
 ![lorawan classes](/img/lorawan/class.svg)
 
@@ -84,19 +84,6 @@ Inside LoRa settings, navigate to SF (Spreading Factor) and toggle up and down a
 
 ![lorawan frequency](/img/mayascreens/lora-spreading-factor-mactalk.svg)
 
-
----
-
---- 
-
-## LoRa Channels
-
-#### How to setup LoRa channels ? :
-
-Inside LoRa settings, navigate to channels and type in channel number as per requirement.
-
-![lorawan frequency](/img/mayascreens/lora-spreading-factor-mactalk.svg)
-
 --- 
 
 ## LoRa Channels
@@ -107,7 +94,7 @@ Inside LoRa settings, navigate to channels and type in channel number as per req
 
 ![lorawan frequency](/img/mayascreens/lora-channels-input.svg)
 
----
+--- 
 
 ## Slave ID
 
@@ -125,10 +112,9 @@ Inside LoRa settings, navigate to Slave ID and type in Slave ID number as per re
 
 Inside LoRa settings, navigate to Encryption Key and type in Encryption Key number as per requirement.
 
-![lorawan frequency](/img/mayascreens/lora-en-key-mactalk.svg)
+![lorawan frequency](/img/mayascreens/lora-en-key-mactalk-sample.svg)
 
 ---
-
 
 
 ## 3. Network Capacity
