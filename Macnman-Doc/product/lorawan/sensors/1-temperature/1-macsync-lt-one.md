@@ -598,3 +598,57 @@ not be included in the box.
 
 ![title image](/img/lorawan/sensors/macsync/macsync-probe-dimensions.svg)
 
+
+Updated your .spec-table CSS to match the clean premium layout from the screenshot:
+
+* Large red section heading
+* Soft gray section rows
+* Alternating row backgrounds
+* Bold values on the right side
+* Cleaner spacing & typography
+* Dark mode support
+* Mobile responsive layout
+
+<div class="device-config-section">
+  <h2 class="device-config-title">Device Configuration Parameters</h2>
+
+  <div class="device-config-table">
+    
+    <div class="device-config-row shaded">
+      <div class="device-config-left">
+        Data Reporting Mode
+      </div>
+      <div class="device-config-right">
+        <strong>Periodic / Event-based / Hybrid</strong>
+      </div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">
+        Transmission Interval
+      </div>
+      <div class="device-config-right">
+        <strong>Independent uplink interval for optimized power consumption</strong>
+      </div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">
+        Threshold-Based Alerts
+      </div>
+      <div class="device-config-right">
+        <strong>Configurable Level threshold for event-triggered transmission</strong>
+      </div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">
+        Sampling Interval
+      </div>
+      <div class="device-config-right">
+        <strong>Configurable data acquisition interval (e.g., 1 min to 24 hours)</strong>
+      </div>
+    </div>
+
+  </div>
+</div>
