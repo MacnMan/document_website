@@ -64,7 +64,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 
 <div className="icon-card-grid">
-  <a href="/downloads/macsync-lts-x1-lorawan-temperature-humidity-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-lts-x1-lorawan-temperature-humidity-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
