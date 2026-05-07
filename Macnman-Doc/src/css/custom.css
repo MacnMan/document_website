@@ -129,12 +129,36 @@ body::-webkit-scrollbar {
 .navbar__link--active {
   color: rgb(11, 9, 9);
   font-weight: 200;
+  position: relative;
+}
+
+.navbar__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: -13.5px; /* Moves the line further down */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #100e0e;
+}
+
+/* Remove focus outline that can appear as a line on click */
+.navbar__link:focus,
+.navbar__link:active,
+.menu__link:focus,
+.menu__link:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Light theme: slightly darker gray */
 html[data-theme='light'] .navbar__link--active {
   color: #100e0e !important;
   font-weight: 600;
+}
+
+html[data-theme='light'] .navbar__link--active::after {
+  background-color: #100e0e;
 }
 
 html[data-theme='light'] .navbar__link:hover {
@@ -146,6 +170,10 @@ html[data-theme='light'] .navbar__link:hover {
 html[data-theme='dark'] .navbar__link--active {
   color: white !important;
   font-weight: 700;
+}
+
+html[data-theme='dark'] .navbar__link--active::after {
+  background-color: white;
 }
 
 html[data-theme='dark'] .navbar__link:hover {
