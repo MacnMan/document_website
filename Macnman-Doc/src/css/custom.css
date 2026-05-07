@@ -1053,3 +1053,23 @@ html[data-theme='dark'] .device-config-left {
 html[data-theme='dark'] .device-config-right {
   color: #ffffff;
 }
+
+/* for the h2 titles starts here */
+.device-section-title {
+  color: #DA2744;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 768px) {
+  .device-section-title {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+/* for the h2 titles ends here */

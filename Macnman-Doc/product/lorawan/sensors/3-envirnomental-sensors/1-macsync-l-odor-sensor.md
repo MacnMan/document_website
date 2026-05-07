@@ -43,10 +43,9 @@ With support for **LoRaWAN® v1.0.4**, AES‑encrypted communication, wide regio
 
 Whether used for regulatory reporting, community odor complaint management, or proactive operational control, MacSync-L-Odor-X1 delivers a **reliable, low‑maintenance, and future‑ready odor monitoring solution**—transforming subjective smell complaints into measurable, data‑driven intelligence.
 
-
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-environmental-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-front-view.webp) |
+| ![MacSync LTS X1 LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) | ![MacSync LTS X1 wireless LoRaWAN temperature humidity sensor mounted installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-mounting-guide.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lt-one-side-view.webp) |
+| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) |
 
 <div class="faint-line"></div>
 
