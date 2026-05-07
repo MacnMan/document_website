@@ -129,12 +129,36 @@ body::-webkit-scrollbar {
 .navbar__link--active {
   color: rgb(11, 9, 9);
   font-weight: 200;
+  position: relative;
+}
+
+.navbar__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: -13.5px; /* Moves the line further down */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #100e0e;
+}
+
+/* Remove focus outline that can appear as a line on click */
+.navbar__link:focus,
+.navbar__link:active,
+.menu__link:focus,
+.menu__link:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Light theme: slightly darker gray */
 html[data-theme='light'] .navbar__link--active {
   color: #100e0e !important;
   font-weight: 600;
+}
+
+html[data-theme='light'] .navbar__link--active::after {
+  background-color: #100e0e;
 }
 
 html[data-theme='light'] .navbar__link:hover {
@@ -146,6 +170,10 @@ html[data-theme='light'] .navbar__link:hover {
 html[data-theme='dark'] .navbar__link--active {
   color: white !important;
   font-weight: 700;
+}
+
+html[data-theme='dark'] .navbar__link--active::after {
+  background-color: white;
 }
 
 html[data-theme='dark'] .navbar__link:hover {
@@ -952,310 +980,124 @@ html[data-theme='dark'] .menu__list .theme-doc-sidebar-item-category .menu__list
   /* or a hardcoded rem/px value */
 }
 
-
-
-/* ────────────── table of contents (ToC) ────────────────────────── */
-/* Container ToC styles (optional - ensures layout doesn't break) */
-.table-of-contents {
-  position: relative;
-  padding-left: 0.15rem;
-  border-left: 2px solid #3a3a3a;
-  /* the light gray full-height line */
-  margin-top: 10px;
-}
-
-/* Base link */
-.table-of-contents__link {
-  position: relative;
-  color: #cfcfcf;
-  display: block;
-  padding: 0.25rem 0 0.25rem 1rem;
-  transition: color 0.2s ease;
-}
-
-/* Active link */
-.table-of-contents__link--active {
-  color: #ffffff !important;
-  font-weight: 600;
-}
-
-/* Add small left white indicator */
-.table-of-contents__link--active::before {
-  content: '';
-  position: absolute;
-  left: -0.75rem;
-  /* Align with border-left */
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background-color: white;
-}
-
-/* Light mode styles */
-:root[data-theme='light'] .table-of-contents {
-  border-left: 2px solid #e0e0e0;
-  /* light gray for light mode */
-}
-
-:root[data-theme='light'] .table-of-contents__link {
-  color: #333333;
-}
-
-:root[data-theme='light'] .table-of-contents__link--active {
-  color: #000000 !important;
-  font-weight: 600;
-}
-
-:root[data-theme='light'] .table-of-contents__link--active::before {
-  background-color: #000000;
-  /* dark indicator on white background */
-}
-
-/* Search button border and text */
-.DocSearch-Button {
-  border-color: #ccc !important;
-  color: #666 !important;
-}
-
-/* On button hover or focus */
-.DocSearch-Button:focus,
-.DocSearch-Button:hover {
-  box-shadow: none !important;
-  border-color: #bbb !important;
-  background-color: #f9f9f9 !important;
-}
-
-/* When modal (popup) opens — the top border */
-.DocSearch-Container {
-  --docsearch-primary-color: #888;
-  /* fallback */
-  border-color: #ccc !important;
-  outline: none !important;
-}
-
-/* Input field active state */
-.DocSearch-Input:focus {
-  border-color: #ccc !important;
-  outline: none !important;
-}
-
-/* Reset (clear) button — the ‘x’ icon */
-.DocSearch-Reset {
-  color: #888 !important;
-  fill: #888 !important;
-}
-
-/* Reset button on hover */
-.DocSearch-Reset:hover {
-  background-color: #eee !important;
-  color: #555 !important;
-  fill: #555 !important;
-}
-
-/* Hover and active search hit */
-.DocSearch-Hit--active,
-.DocSearch-Hit:hover {
-  background-color: #f0f0f0 !important;
-  color: #444 !important;
-}
-
-/* Focus ring around the search box */
-.DocSearch-Modal {
-  box-shadow: 0 0 0 2px #ccc !important;
-  border-color: #ccc !important;
-}
-
-
-
-/* Highlight active navbar link with underline */
-.navbar__link--active {
-  position: relative;
-  font-weight: bold;
-  /* optional, to emphasize */
-}
-
-.navbar__link--active::after {
-  content: '';
-  position: absolute;
-  bottom: -13.5px;
-  /* spacing under text */
-  left: 0;
+.device-config-section {
   width: 100%;
-  height: 2px;
-  background-color: #0a0a0acf;
-  /* white line in dark theme */
-  border-radius: 1px;
+  margin: 40px 0;
 }
 
-html[data-theme='dark'] .navbar__link--active::after {
-  background-color: rgba(255, 255, 255, 0.614);
-  /* white line in dark theme */
-
-
+.device-config-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #d92b4c;
+  margin-bottom: 34px;
+  line-height: 1.05;
+  letter-spacing: -1px;
 }
 
-.theme-toggle-btn {
-  display: inline-block;
-  text-transform: lowercase;
-
-  /* Your existing styling */
-  background-color: transparent;
-  border: 1px solid rgba(128, 128, 128, 0.311);
-  border-radius: 10%;
-  font-size: 1rem;
-  line-height: 1;
-  color: inherit;
-  font-family: inherit;
-  font-weight: inherit;
-  cursor: pointer;
-  width: 70px;
-  height: 25px;
-  text-align: center;
-  transition: background-color 0.2s ease;
-
-  /* If needed for alignment: disable flex display */
+.device-config-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
 }
 
-.theme-toggle-btn:hover,
-.theme-toggle-btn:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.theme-toggle-btn:active {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.theme-toggle-btn::first-letter {
-  text-transform: uppercase;
-}
-
-.faint-line {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  /* Light mode: faint black line */
-  width: 100%;
-  margin-top: 10px;
-}
-
-/* Dark mode */
-html[data-theme='dark'] .faint-line {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  /* Dark mode: faint white line */
-}
-
-
-
-/* Footer */
-footer a {
-  color: inherit; /* or set a default color */
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-footer a:hover {
-  color: rgba(128, 128, 128, 0.6);
-}
-
-
-.spec-block {
+.device-config-row {
   display: grid;
-  grid-template-columns: 260px 1fr; /* perfect spacing */
-  align-items: flex-start;
-  margin: 35px 0;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-radius: 2px;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #1f1f1f;
+  box-sizing: border-box;
+  min-height: 48px;
 }
 
-.spec-block-title {
-  font-size: 24px;
-  font-weight: bold;
+.device-config-row.shaded {
+  background: #f3f3f3;
+  /* background: #ebebeb; */
 }
 
-.spec-block-details {
+.device-config-left {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   text-align: left;
+  box-sizing: border-box;
+  align-self: stretch;
 }
 
-.spec-block-details p {
-  margin: 0;
-}
-
-.spec-block-details .label {
-  color: rgb(142, 142, 142); font-weight: lighter;
-}
-
-.spec-block-details .value {
-  font-weight: bold;
-}
-
-/* ────────────── table of contents (with gradient on the heading) ────────────────────────── */
-
-.spec-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-size: 15px;
-  border-radius: 0px;
-  overflow: hidden;
-}
-
-/* Header with gradient */
-.spec-table thead th.spec-title {
+.device-config-right {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   text-align: left;
-  padding: 12px 16px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fff;
-  background: linear-gradient(90deg, #e72c83 0%, #5a48f5 100%);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  box-sizing: border-box;
+  align-self: stretch;
 }
 
-/* Table cells */
-.spec-table td {
-  padding: 12px 16px;
-  border-top: 1px solid var(--ifm-table-border-color);
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .device-config-title {
+    font-size: 34px;
+    margin-bottom: 24px;
+  }
+
+  .device-config-row {
+    grid-template-columns: 1fr;
+    text-align: left;
+    gap: 6px;
+    padding: 8px 18px;
+    font-size: 17px;
+    min-height: unset;
+  }
+
+  .device-config-right {
+    line-height: 1.4;
+  }
 }
 
-/* Alternate row background - adapts to theme */
-.spec-table tr:nth-child(even) td {
-  background: var(--ifm-table-stripe-background);
+/* Dark Mode */
+html[data-theme='dark'] .device-config-title {
+  color: #DA2744;
 }
 
-/* Last row keeps rounded corners */
-.spec-table tr:last-child td:first-child {
-  border-bottom-left-radius: 0px;
-}
-.spec-table tr:last-child td:last-child {
-  border-bottom-right-radius: 0px;
-}
-.youtube-video-wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 800px; /* adjust as needed */
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  margin: 0 auto; /* center horizontally */
-  border-radius: 16px; /* rounded corners */
-  overflow: hidden; /* ensures corners apply to iframe */
+html[data-theme='dark'] .device-config-row {
+  color: #f5f5f5;
+  background: transparent;
 }
 
-.youtube-video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
-  margin: 0;
-  padding: 0;
+html[data-theme='dark'] .device-config-row.shaded {
+  background: rgba(255, 255, 255, 0.06);
 }
 
-/* images for the grids */
-.image-grid-2col {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+html[data-theme='dark'] .device-config-left {
+  color: rgba(255, 255, 255, 0.88);
 }
 
-.image-grid-2col img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+html[data-theme='dark'] .device-config-right {
+  color: #ffffff;
 }
+
+/* for the h2 titles starts here */
+.device-section-title {
+  color: #DA2744;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 768px) {
+  .device-section-title {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+/* for the h2 titles ends here */
