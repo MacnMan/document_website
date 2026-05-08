@@ -1101,3 +1101,13 @@ html[data-theme='dark'] .device-config-right {
   }
 }
 /* for the h2 titles ends here */
+
+/* "On this page" (Table of Contents) active link color */
+.table-of-contents__link--active {
+  color: #DA2744 !important;
+  border-left-color: #DA2744 !important;
+}
+
+
+
+
