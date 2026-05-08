@@ -1,37 +1,57 @@
 ---
 id: macsync-lorawan-rtd-sensor-x-series
-title: MacSync-LRTDX2
+title: MacSync LRTD X1
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: MacSync LRTD X1 LoRaWAN RTD Temperature Sensor for industrial PT100 temperature monitoring with long-range wireless connectivity, high-accuracy sensing, IP67 rugged enclosure, and low-power IoT architecture.
 keywords:
   - lorawan rtd temperature sensor
-  - pt100 lorawan temperature transmitter
-  - PT100 industrial temperature monitoring iot
-  - high accuracy industrial rtd sensor
-  - remote temperature monitoring lorawan
-  - smart factory temperature sensor
-  - pipeline temperature monitoring wireless
-  - ip67 rugged rtd sensor outdoor
-  - low power lorawan temperature probe
-  - industrial automation temperature measurement
-  - chemical plant temperature monitoring iot
-  - boiler and furnace temperature sensor lorawan
-  - process control temperature monitoring
-  - predictive maintenance temperature sensing
-  - food grade temperature monitoring rtd
+  - lorawan pt100 temperature sensor
+  - pt100 lorawan sensor
+  - industrial lorawan temperature sensor
+  - wireless rtd temperature sensor
+  - industrial pt100 temperature transmitter
+  - remote temperature monitoring sensor
+  - lorawan industrial temperature monitoring
+  - smart factory temperature monitoring
+  - predictive maintenance temperature sensor
+  - pipeline temperature monitoring sensor
+  - boiler temperature monitoring lorawan
+  - furnace temperature monitoring sensor
+  - industrial iot temperature sensor
+  - wireless process temperature monitoring
+  - battery powered lorawan temperature sensor
+  - ip67 industrial temperature sensor
+  - rugged outdoor temperature monitoring sensor
+  - chemical plant temperature monitoring
+  - cold chain temperature monitoring lorawan
+  - food industry temperature monitoring sensor
+  - pharma temperature monitoring system
+  - scada compatible temperature sensor
+  - industrial automation temperature sensor
+  - long range wireless temperature sensor
+  - low power lorawan temperature transmitter
+  - industrial wireless pt100 monitoring
+  - high accuracy rtd sensor
+  - pt100 remote monitoring device
+  - industrial thermal monitoring sensor
 ---
 
-# MacSync-L-RTDX2 Datasheet
+# MacSync LRTD X1 LoRaWAN® RTD Temperature Sensor
 
-## Product Overview
 
-MacSync‑L‑RTDXx is a **high‑precision LoRaWAN® RTD temperature monitoring device** designed for industrial applications where accuracy, reliability, and long‑distance wireless communication are critical. Supporting **PT100** sensors with **IEC 60751 linearization**, it ensures stable and precise temperature measurement across a wide operating range.
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
 
-Engineered for harsh environments, the device features **IP67 protection**, surge‑resistant electronics, and rugged industrial‑grade construction suitable for pipelines, machinery, furnaces, cold‑chain systems, and process lines. With **multi‑year battery life** or optional **DC power**, the sensor is ideal for both fixed and remote installations.
+MacSync LRTD X1 is a **high-accuracy LoRaWAN® RTD Temperature Sensor** designed for industrial temperature monitoring applications requiring reliable long-range wireless communication, precision PT100 sensing, and rugged industrial performance. Engineered specifically for **PT100 RTD temperature probes**, the device delivers stable and accurate temperature measurements using IEC 60751 linearization, making it ideal for Industrial IoT, process automation, predictive maintenance, and remote thermal monitoring applications.
 
-MacSync‑L‑RTDX2 supports **event‑based alerts, configurable sampling**, and BLE‑based field configuration using the Maya App. Using **secure LoRaWAN® connectivity**, data is transmitted directly to cloud dashboards, SCADA, CMMS, or any private/public LNS.
+This **LoRaWAN RTD Temperature Sensor** enables real-time wireless monitoring of pipelines, boilers, furnaces, compressors, motors, HVAC systems, refrigeration units, chemical plants, pharmaceutical storage, manufacturing machinery, and industrial processing equipment. With ultra-low power architecture and long-range LoRaWAN® communication, MacSync LRTD X1 is optimized for large-scale deployments where wired RTD monitoring systems are difficult, expensive, or impractical.
 
-From **industrial process control, predictive maintenance, HVAC monitoring, thermal safety compliance**, to **food & pharma cold‑chain assurance** — **MacSync‑L‑RTDX2 delivers continuous and accurate visibility** into temperature‑critical assets that keep industries running efficiently and safely.
+Built with a rugged industrial enclosure, surge protection, and industrial-grade electronics, the MacSync LRTD X1 LoRaWAN PT100 Temperature Sensor operates reliably in harsh indoor and outdoor environments exposed to dust, vibration, moisture, and extreme temperatures. The device supports battery-powered as well as external DC-powered operation for flexible deployment across industrial infrastructure.
+
+MacSync LRTD X1 supports secure LoRaWAN® connectivity, configurable uplink intervals, threshold-based alerts, event-driven reporting, BLE-based configuration through the Macnman Maya App, and seamless integration with SCADA systems, MQTT platforms, cloud dashboards, CMMS software, and industrial automation platforms. The sensor is fully compatible with public and private LoRaWAN® network servers including ChirpStack, The Things Stack, LORIOT, and enterprise industrial gateways.
+
+From predictive maintenance and industrial process monitoring to cold-chain compliance, smart factory automation, industrial safety systems, and remote temperature monitoring, the MacSync LRTD X1 LoRaWAN® RTD Temperature Sensor provides continuous visibility into temperature-critical assets while helping industries reduce downtime, improve operational efficiency, and lower maintenance costs.
 
 | ![MacSync-L-RTDX5 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-front-view.webp) | ![MacSync-L-RTDX5 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-l-rtdx-five-side-view.webp) |
 |--------------------------------|--------------------------------|
