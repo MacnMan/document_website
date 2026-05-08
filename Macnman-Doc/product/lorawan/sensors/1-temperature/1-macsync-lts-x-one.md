@@ -64,13 +64,12 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 
 <div className="icon-card-grid">
-  <a href="/downloads/macsync-lts-x1-lorawan-temperature-humidity-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-lts-x1-industrial-lorawan-temperature-humidity-sensor.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -78,7 +77,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LTS X1</p>
+      <p>Click here to view the decoders for MacSync LTS X1</p>
     </div>
   </a>
 </div>
@@ -157,7 +156,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 ----
 
 <h2 className="device-section-title">
-  ## Suited Applications
+  ## Applications
 </h2>
 
 
@@ -326,12 +325,12 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">LoRaWAN® Class</div>
-      <div class="device-config-right">Class A (default), Configurable to Class C via Maya</div>
+      <div class="device-config-right">Class A (Default), Configurable to Class C via Maya</div>
     </div>
 
-        <div class="device-config-row">
+    <div class="device-config-row">
       <div class="device-config-left">Supports Major LNS</div>
-      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, Direct PLC On-Prem Installations</div>
+      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations</div>
     </div>
 
   </div>
@@ -360,7 +359,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row">
       <div class="device-config-left">Status LED</div>
-      <div class="device-config-right">X1 Internal Multi-Color LED</div>
+      <div class="device-config-right">1 × Internal Multi-Color LED</div>
     </div>
 
   </div>
@@ -384,7 +383,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Threshold-Based Alerts</div>
-      <div class="device-config-right">Configurable Level threshold for event-triggered transmission</div>
+      <div class="device-config-right">Configurable temperature and humidity thresholds for event-triggered transmission</div>
     </div>
 
     <div class="device-config-row">
@@ -445,10 +444,6 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
       <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
     </div>
 
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Input Impedance</div>
-      <div class="device-config-right">&gt;10 MΩ for voltage inputs</div>
-    </div>
 
   </div>
 </div>
@@ -466,12 +461,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row">
       <div class="device-config-left">Cloud Protocols</div>
-      <div class="device-config-right">MQTT / HTTPS / TCP IP (Gateway Dependent)</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Serial Interface</div>
-      <div class="device-config-right">RS485 Modbus RTU support (optional)</div>
+      <div class="device-config-right">MQTT / HTTPS / TCP/IP (Gateway Dependent)</div>
     </div>
 
   </div>
@@ -485,12 +475,12 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Data Encryption</div>
-      <div class="device-config-right">AES-256 end-to-end encryption (Optional)</div>
+      <div class="device-config-right">AES-128 LoRaWAN® encryption</div>
     </div>
 
     <div class="device-config-row">
       <div class="device-config-left">Authentication</div>
-      <div class="device-config-right">OTAA activation modes</div>
+      <div class="device-config-right">OTAA Device Activation</div>
     </div>
 
     <div class="device-config-row shaded">
@@ -511,12 +501,12 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">LED Type</div>
-      <div class="device-config-right">1 Internal Multi-Color LED</div>
+      <div class="device-config-right">1 × Internal Multi-Color LED</div>
     </div>
 
     <div class="device-config-row">
       <div class="device-config-left">Solid Blue</div>
-      <div class="device-config-right">Device is connected with Maya App</div>
+      <div class="device-config-right">Device connected to Maya App</div>
     </div>
 
     <div class="device-config-row shaded">
@@ -531,7 +521,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Single Red Blink</div>
-      <div class="device-config-right">A confirmed parameter of MacSync is being modified</div>
+      <div class="device-config-right">A device parameter is being modified</div>
     </div>
 
   </div>
@@ -559,7 +549,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Housing Material</div>
-      <div class="device-config-right">Glass field Nylon</div>
+      <div class="device-config-right">Glass Filled Nylon</div>
     </div>
 
     <div class="device-config-row">
@@ -569,12 +559,12 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Weight</div>
-      <div class="device-config-right">~175g</div>
+      <div class="device-config-right">~175 g</div>
     </div>
 
     <div class="device-config-row">
       <div class="device-config-left">Mounting Options</div>
-      <div class="device-config-right">Pole Mounting / Wall Mounting</div>
+      <div class="device-config-right">Pole Mount / Wall Mount</div>
     </div>
 
   </div>
@@ -603,7 +593,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 ---
 
 <h2 className="device-section-title">
-  ## MacSync-LTS X1 Variants
+  ## MacSync LTS X1 Variants
 </h2>
 
 
@@ -621,7 +611,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
   <tbody>
     <tr>
       <td>MacSync-LTS X1 PO</td>
-      <td>12–24 V (Power)</td>
+      <td>12–24 V DC</td>
       <td>✖️</td>
       <td>✖️</td>
       <td>✔️</td>
@@ -641,18 +631,17 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 ---
 
 <h2 className="device-section-title">
-  ## What's in the box ?
+  ## What's in the Box?
 </h2>
 
 
-Make sure box contains following items before installations
+Ensure the following items are available before installation.
 
 ![title image](/img/datalogger/whatsbox.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Accessories may not be included in the package and must be purchased separately.
 
 :::
 
@@ -660,7 +649,7 @@ not be included in the box.
 
 
 <h2 className="device-section-title">
-  ##  MacSync-LTS X1 Dimensions
+  ##  MacSync LTS X1 Dimensions
 </h2>
 
 
