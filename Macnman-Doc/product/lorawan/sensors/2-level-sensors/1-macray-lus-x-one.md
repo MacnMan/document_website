@@ -565,7 +565,7 @@ not be included in the box.
 ## MacRay LUS X1 Dimensions
 </h2>
 
-Compact industrial enclosure with dimensions of 96 mm × 96 mm × 28 mm, optimized for wall mounting, pole mounting, and space-constrained industrial deployments.
+Compact industrial enclosure with dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, and space-constrained industrial deployments.
 
 
 ![MacRay LUS X1 LoRaWAN Ultrasonic Level Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/macray/macray-lus-x1-lorawan-ultrasonic-level-sensor-dimensions.webp)
