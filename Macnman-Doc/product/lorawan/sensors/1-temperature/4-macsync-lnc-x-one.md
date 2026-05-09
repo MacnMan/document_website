@@ -1,78 +1,99 @@
 ---
 id: macsync-l-nc-x-one-datasheet
-title: MacSync-LNC-Xx
+title: MacSync-LNCT-Xx
 sidebar_position: 2
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Industrial-grade LoRaWAN® non-contact infrared temperature sensor engineered for accurate surface temperature monitoring in extreme, high-temperature, moving, and hazardous industrial environments.
 keywords:
-  - non contact laser temperature sensor
-  - lorawan laser temperature sensor
-  - infrared laser temperature sensor
-  - non contact temperature sensor industrial
-  - laser infrared temperature sensor iot
+  - lorawan non contact temperature sensor
+  - industrial lorawan temperature sensor
+  - lorawan infrared temperature sensor
+  - industrial infrared temperature sensor
+  - wireless infrared temperature sensor
+  - non contact infrared temperature sensor
   - wireless non contact temperature sensor
-  - battery powered laser temperature sensor
-  - low power infrared temperature sensor
+  - industrial wireless temperature monitoring sensor
   - industrial iot temperature sensor
-  - non contact surface temperature sensor
-  - high temperature laser sensor
-  - remote temperature monitoring sensor
-  - laser temperature sensor for hot surfaces
-  - furnace temperature monitoring sensor
-  - kiln temperature monitoring laser sensor
-  - steel plant temperature monitoring sensor
-  - foundry temperature monitoring sensor
-  - rolling mill temperature sensor
-  - power plant surface temperature sensor
-  - transformer surface temperature monitoring
-  - conveyor belt temperature monitoring sensor
-  - hazardous area temperature sensor
-  - explosion proof laser temperature sensor optional
-  - harsh environment temperature monitoring
-  - ip67 laser temperature sensor
-  - outdoor infrared temperature sensor
-  - smart factory temperature sensor
-  - industrial process temperature monitoring
+  - industrial thermal monitoring sensor
   - predictive maintenance temperature sensor
-  - thermal monitoring sensor industrial
-  - macsync laser temperature sensor
+  - high temperature infrared sensor
+  - non contact surface temperature sensor
+  - industrial surface temperature monitoring
+  - furnace temperature monitoring sensor
+  - kiln temperature monitoring sensor
+  - rolling mill temperature monitoring
+  - steel plant thermal monitoring sensor
+  - foundry temperature monitoring system
+  - molten metal temperature monitoring
+  - conveyor belt temperature monitoring
+  - motor temperature monitoring sensor
+  - transformer temperature monitoring sensor
+  - switchgear thermal monitoring
+  - power plant temperature monitoring
+  - turbine temperature monitoring sensor
+  - boiler temperature monitoring system
+  - hazardous area temperature sensor
+  - outdoor industrial temperature sensor
+  - industrial process temperature monitoring
+  - remote temperature monitoring sensor
+  - long range wireless temperature sensor
+  - battery powered industrial temperature sensor
+  - low power temperature monitoring device
+  - smart factory thermal monitoring
+  - industry 4.0 temperature sensor
+  - industrial automation temperature sensor
+  - lorawan predictive maintenance sensor
+  - industrial condition monitoring sensor
+  - thermal analytics sensor
+  - industrial temperature transmitter
+  - infrared laser temperature sensor
+  - industrial infrared pyrometer sensor
+  - wireless pyrometer sensor
+  - ip67 industrial temperature sensor
+  - industrial thermal safety monitoring
+  - industrial heat monitoring sensor
   - macsync lnc x1
-  - macnman lorawan temperature device
-  - non contact temperature transmitter
-  - laser temperature sensor lorawan
-  - industrial wireless temperature sensor
-  - real time temperature monitoring iot
+  - macsync non contact temperature sensor
+  - macnman lorawan temperature sensor
 ---
 
-#  MacSync-LNC-Xx Datasheet
+# MacSync-LNCT-Xx Industrial LoRaWAN® Non-Contact Infrared Temperature Sensor
 
-## Product Overview
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
 
-**MacSync-LNC-Xx** is an industrial-grade **non-contact laser (infrared) temperature sensor** engineered for accurate surface temperature monitoring in extreme, moving, hazardous, or hard-to-reach environments. By measuring **infrared thermal radiation instead of physical contact**, it enables safe and reliable temperature sensing of **hot, rotating, electrified, or inaccessible surfaces** without mechanical wear, probe failure, or process interruption.
+**MacSync-LNCT-Xx** is an ultra-rugged industrial-grade **LoRaWAN® non-contact infrared temperature sensor** engineered for accurate and continuous surface temperature monitoring in extreme, high-temperature, moving, hazardous, and hard-to-reach industrial environments. By measuring **infrared thermal radiation instead of physical contact**, the device enables safe, maintenance-free, and highly reliable temperature sensing of **hot surfaces, rotating machinery, electrically live assets, molten materials, conveyors, furnaces, and inaccessible process equipment** without probe wear, mechanical damage, or process interruption.
 
-Designed for harsh industrial deployments, the MacSync-LNC-Xx delivers fast response, stable readings, and repeatable performance across **high-temperature process environments** such as furnaces, kilns, rolling mills, conveyors, transformers, reactors, boilers, and power equipment. The integrated **laser targeting system** ensures precise spot measurement, allowing accurate temperature capture even on small, fast-moving, or distant objects.
+Built specifically for demanding industrial operations, the MacSync-LNCT-Xx delivers fast response times, stable readings, and repeatable performance across **steel plants, foundries, rolling mills, kilns, cement plants, transformers, boilers, reactors, dryers, turbines, and power infrastructure**. The integrated **laser targeting mechanism** ensures precise spot alignment and accurate thermal capture even for small, fast-moving, or distant targets operating in dynamic industrial conditions.
 
-The device features **LoRaWAN® Class A/C long-range wireless connectivity**, **AES-128 encrypted data transmission**, and an ultra-low-power architecture optimized for **multi-year battery operation**. Integrated **BLE configuration via the Macnman Maya App** enables rapid commissioning, emissivity configuration, OTA parameter updates, and diagnostics — eliminating manual calibration and reducing on-site maintenance effort.
+The device combines **LoRaWAN® Class A/C long-range wireless connectivity**, **AES-128 encrypted communication**, and an ultra-low-power architecture optimized for **multi-year battery-powered deployments**. Integrated **BLE configuration via the Macnman Maya App** enables quick commissioning, emissivity adjustment, threshold configuration, diagnostics, OTA parameter updates, and remote operational tuning without opening the enclosure or interrupting field operations.
 
-Housed in a rugged **IP65/IP67-rated industrial enclosure**, the MacSync-LNC-Xx is built to operate reliably in **dusty, high-vibration, high-EMI, and outdoor environments**. Optional external DC power input and flexible industrial mounting options make it suitable for both fixed installations and remote monitoring applications.
+Housed inside a rugged **IP65/IP67-rated industrial enclosure**, the MacSync-LNCT-Xx is designed to operate reliably in **dusty, high-vibration, high-EMI, humid, and outdoor industrial environments**. Flexible power options including **battery-operated and external DC-powered variants**, combined with industrial mounting support, make the device suitable for fixed installations, remote industrial assets, predictive maintenance systems, Industry 4.0 deployments, and large-scale wireless thermal monitoring networks.
 
-Ideal for **predictive maintenance, thermal safety monitoring, process optimization, and Industry 4.0 automation**, **MacSync-LNC-Xx transforms non-contact temperature measurement into a smart, wireless, and scalable IoT sensing solution**, delivering real-time thermal intelligence across industrial and smart infrastructure deployments.
+Ideal for **predictive maintenance, thermal safety monitoring, process optimization, and Industry 4.0 automation**, **MacSync-LNCT-Xx transforms non-contact temperature measurement into a smart, wireless, and scalable IoT sensing solution**, delivering real-time thermal intelligence across industrial and smart infrastructure deployments.
 
-| ![ MacSync-LNC-Xx LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-lnc-x-industrial-mounting-options.webp) | ![ MacSync-LNC-Xx RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-lnc-x-laser-temperature-sensor-dimensions.webp) |
+The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built for organizations deploying **industrial IoT temperature monitoring systems**, enabling continuous thermal visibility across critical assets without expensive wiring infrastructure. Whether used for **predictive maintenance, smart factory automation, industrial safety monitoring, process efficiency optimization, or remote thermal analytics**, the device delivers highly accurate non-contact temperature sensing with enterprise-grade wireless scalability. Its rugged industrial design, ultra-long-range wireless communication, and support for high-temperature monitoring applications make it an ideal solution for modern Industry 4.0 deployments requiring reliable real-time thermal intelligence.
+
+
+| ![ MacSync-LNCT-Xx LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/MacSync-LNC-xx-industrial-mounted-thermal-monitoring-sensor.webp) | ![ MacSync-LNCT-Xx RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/MacSync-LNC-xx-industrial-lorawan-infrared-temperature-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![ MacSync-LNC-Xx back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![ MacSync-LNC-Xx installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![ MacSync-LNCT-Xx back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![ MacSync-LNCT-Xx installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
-<div class="faint-line"></div>
 
-## Download Center
+----
+
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
+
 
 <div className="icon-card-grid">
-  <a href="https://drive.google.com/file/d/1gjd6MRH98a6fctF9kxNAcmv-dtYPBpM9/view?usp=drive_link" 
+  <a href="/docs/downloads/macsync-lts-x1-industrial-lorawan-temperature-humidity-sensor.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](/downloads/macsync-ltnc-xx-datasheet.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -80,92 +101,87 @@ Ideal for **predictive maintenance, thermal safety monitoring, process optimizat
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for  MacSync-LNC-Xx</p>
+      <p>Click here to view the decoders for MacSync LTS X1</p>
     </div>
   </a>
 </div>
 
-<div class="faint-line"></div>
+----
 
-## Key Features
+
+<h2 className="device-section-title">
+  ## Key Features
+</h2>
+
 
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Non-Contact Infrared (Laser-Assisted) Temperature Sensing</strong>
-  Measures surface temperature without physical contact, enabling safe and accurate monitoring of hot, moving, live, or inaccessible objects.
+  <strong>Industrial LoRaWAN® Non-Contact Temperature Sensor</strong>
+  Advanced infrared temperature sensing with long-range LoRaWAN® connectivity for real-time wireless thermal monitoring across industrial plants, smart factories, and remote assets.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Extreme Temperature Measurement up to 1500&nbsp;°C</strong>
-  Designed for high-temperature industrial environments such as furnaces, kilns, rolling mills, foundries, and power equipment.
+  <strong>Non-Contact Infrared Surface Temperature Measurement</strong>
+  Measures surface temperature without physical contact, making it ideal for hot surfaces, moving machinery, rotating equipment, molten materials, and inaccessible industrial assets.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ideal for Moving & Hazardous Targets</strong>
-  Accurately monitors rotating shafts, conveyors, molten surfaces, and electrically live equipment without sensor wear or process interruption.
+  <strong>High-Temperature Monitoring up to 1500&nbsp;°C</strong>
+  Designed for extreme-temperature industrial applications including furnaces, kilns, foundries, rolling mills, boilers, reactors, turbines, and metallurgical processes.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial-Grade IP65 / IP67 Enclosure</strong>
-  Rugged housing ensures reliable operation in dusty, high-vibration, high-EMI, and outdoor industrial environments.
+  <strong>Wireless Temperature Monitoring Using LoRaWAN®</strong>
+  Enables ultra-long-range industrial temperature monitoring without RS485 wiring, reducing installation complexity and deployment costs across large industrial facilities.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Flexible Uplink & Reporting Strategies</strong>
-  Supports periodic, threshold-based, and event-driven uplinks to optimize network traffic, alerting, and battery life.
+  <strong>Laser-Assisted Precision Thermal Targeting</strong>
+  Integrated laser alignment mechanism ensures accurate infrared temperature sensing for small, fast-moving, distant, and continuously operating industrial targets.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ultra-Low Power Design with 19Ah Battery</strong>
-  Powered by an industrial-grade lithium battery, delivering up to 10+ years of operational life depending on configuration.
+  <strong>Predictive Maintenance & Thermal Fault Detection</strong>
+  Detects overheating, abnormal thermal behavior, friction hotspots, insulation failures, and bearing degradation before critical equipment failure occurs.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>BLE Configuration via Macnman Maya App</strong>
-  Enables quick local setup, emissivity adjustment, diagnostics, and OTA parameter updates without opening the enclosure.
+  <strong>Industrial IoT Temperature Sensor for Smart Factories</strong>
+  Supports Industry&nbsp;4.0 deployments by delivering real-time thermal analytics, cloud connectivity, equipment health monitoring, and process optimization data.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure LoRaWAN® Connectivity</strong>
-  Uses AES-128 encrypted communication with secure onboarding via pre-flashed DevEUI, AppEUI, and AppKey.
+  <strong>Ultra-Low Power Architecture with 10+ Year Battery Life</strong>
+  Optimized for battery-powered industrial IoT deployments using a 19Ah industrial lithium battery for long-term wireless monitoring applications.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Supports Macnman Beam Protocol</strong>
-  Enables direct control, local device-to-device actions, and edge-level automation without continuous cloud dependency.
+  <strong>Industrial IP65 / IP67 Rugged Enclosure</strong>
+  Engineered for harsh industrial environments including dusty areas, outdoor installations, high vibration zones, humid facilities, and EMI-heavy infrastructures.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Optional Onboard Data Buffering</strong>
-  Prevents data loss during network outages by storing records locally and synchronizing automatically once connectivity is restored.
+  <strong>BLE Configuration Using Macnman Maya App</strong>
+  Configure emissivity, uplink intervals, thresholds, diagnostics, OTA updates, and operational parameters locally using secure BLE connectivity.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Universal LoRaWAN® Network Compatibility</strong>
-  Fully compatible with all standard LoRaWAN® network servers and gateways, including private and public LNS deployments.
+  <strong>Secure AES-128 Encrypted LoRaWAN® Communication</strong>
+  Supports secure industrial IoT communication using OTAA onboarding with pre-configured DevEUI, AppEUI, and AppKey credentials.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Built for Predictive Maintenance & Industry&nbsp;4.0</strong>
-  Delivers real-time thermal intelligence for early fault detection, safety monitoring, and process optimization.
+  <strong>Compatible with All Major LoRaWAN® Gateways & LNS</strong>
+  Fully interoperable with ChirpStack, The Things Stack, Orbiwise, LORIOT, MQTT platforms, and private industrial LoRaWAN® network deployments.
 </div>
 
 </div>
 
-<div class="faint-line"></div>
-
-
-
-
-
-
-
-
-
-
-
-## Suited Applications
+---
+<h2 className="device-section-title">
+  ## Applications
+</h2>
 
 <div className="reusable-feature-grid">
 
@@ -216,320 +232,379 @@ Ideal for **predictive maintenance, thermal safety monitoring, process optimizat
 
 </div>
 
-<div class="faint-line"></div>
+---
 
+<h2 className="device-section-title">
+  ## Technical Specifications
+</h2>
 
+<div class="device-config-section">
+  <div class="device-config-title">Temperature Measurement</div>
+  <div class="device-config-table">
 
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensor Type</div>
+      <div class="device-config-right">Infrared (Non‑Contact) Temperature Sensor</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Measurement Range</div>
+      <div class="device-config-right">0 °C to 600 °C (Standard) • 0 °C to 1500 °C (High‑Temperature Variant)</div>
+    </div>
 
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Accuracy</div>
+      <div class="device-config-right">±1 % of reading or ±1 °C (whichever is greater)</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Resolution</div>
+      <div class="device-config-right">0.1 °C</div>
+    </div>
 
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Repeatability</div>
+      <div class="device-config-right">±0.5 % of reading</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Optical Resolution (D:S)</div>
+      <div class="device-config-right">15:1 (Standard) • 30:1 (Optional)</div>
+    </div>
 
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Spectral Response</div>
+      <div class="device-config-right">8 – 14 µm</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Response Time</div>
+      <div class="device-config-right">&lt; 250 ms (95 %)</div>
+    </div>
 
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Emissivity Adjustment</div>
+      <div class="device-config-right">0.10 – 1.00 (Configurable)</div>
+    </div>
 
-## Technical Specification
+    <div class="device-config-row">
+      <div class="device-config-left">Power Supply</div>
+      <div class="device-config-right">12 – 24 V DC</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    General <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value"> MacSync-LNC-Xx</p>
-    <br />
-    <p className="label">Product Brand</p>
-    <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Temperature <br /> Measurement
-  </div>
-  <div className="spec-block-details">
-<p className="label">Sensor Type</p>
-<p className="value">Infrared (Non‑Contact) Temperature Sensor</p>
-<br />
-
-<p className="label">Measurement Range</p>
-<p className="value">0&nbsp;°C to 600&nbsp;°C (Standard)</p>
-<p className="value">0&nbsp;°C to 1500&nbsp;°C (High‑Temperature Variant)</p>
-<br />
-
-<p className="label">Accuracy</p>
-<p className="value">±1&nbsp;% of reading or ±1&nbsp;°C (whichever is greater)</p>
-<br />
-
-<p className="label">Resolution</p>
-<p className="value">0.1&nbsp;°C</p>
-<br />
-
-<p className="label">Repeatability</p>
-<p className="value">±0.5&nbsp;% of reading</p>
-<br />
-
-<p className="label">Optical Resolution (D:S)</p>
-<p className="value">15&nbsp;:&nbsp;1 (Standard)</p>
-<p className="value">30&nbsp;:&nbsp;1 (Optional)</p>
-<br />
-
-<p className="label">Spectral Response</p>
-<p className="value">8 – 14&nbsp;µm</p>
-<br />
-
-<p className="label">Response Time (95&nbsp;%)</p>
-<p className="value">&lt;&nbsp;250&nbsp;ms</p>
-<br />
-
-<p className="label">Emissivity Adjustment</p>
-<p className="value">0.10 – 1.00 (Configurable)</p>
-<br />
-
-<p className="label">Power Supply</p>
-<p className="value">12 – 24&nbsp;V&nbsp;DC</p>
-<br />
-
-<p className="label">Power Consumption</p>
-<p className="value">&lt;&nbsp;50&nbsp;mA (Typical)</p>
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Wireless <br /> Transmission
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">26 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Power Consumption</div>
+      <div class="device-config-right">&lt; 50 mA (Typical)</div>
+    </div>
 
   </div>
 </div>
 
-<div class="faint-line"></div>
+<div class="device-config-section">
+  <div class="device-config-title">Wireless Transmission</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    LED <br /> Status
-  </div>
-  <div className="spec-block-details">
-    <p className="label">LED Type</p>
-    <p className="value">1 Internal Multi-Color LED</p>
-    <br />
-    <p className="label">Solid Blue</p>
-    <p className="value">Device is connected with Maya App</p>
-    <br />
-    <p className="label">Flashing Blue</p>
-    <p className="value">OTA (Over-the-Air) update in progress</p>
-    <br />
-    <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
-    <br />
-    <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
-    <br />
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Wireless Protocols</div>
+      <div class="device-config-right">LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">Antenna</div>
+      <div class="device-config-right">Internal high-efficiency antenna</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Device <br /> Configuration
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Configuration</p>
-    <p className="value">Via Macnman Maya Android App</p>
-    <br />
-    <p className="label">Uplink Modes</p>
-    <p className="value">Time Based / Threshold Based / Sampling Based</p>
-    <br />
-    <p className="label">Stored Records*</p>
-    <p className="value">30,000 Records</p>
-    <br />
-    <p className="label">Remote Configuration</p>
-    <p className="value">JSON Format Data - from server</p>    
-    <br />
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Supported Bands</div>
+      <div class="device-config-right">IN865 / RU864 / EU868 / US915 / AU915 </div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">Tx Power</div>
+      <div class="device-config-right">23 dBm @ 865 MHz </div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Battery <br /> Performance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensitivity</div>
+      <div class="device-config-right">-137 dBm @ 300 bps</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Activation</div>
+      <div class="device-config-right">OTAA</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LoRaWAN® Class</div>
+      <div class="device-config-right">Class A (Default), Configurable to Class C via Maya</div>
+    </div>
+
+        <div class="device-config-row">
+      <div class="device-config-left">Supports Major LNS</div>
+      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, Direct PLC On-Prem Installations</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Device Management</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Configuration Method</div>
+      <div class="device-config-right">Via Macnman Maya Android App</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Physical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
-    <p className="value">9-36 V DC</p>
-    <br />
-    <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
-    <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
-    <br />
-    <p className="label">Ingress Protection</p>
-    <p className="value">IP65 standard (IP67 optional variant)</p>    
-    <br />
-    <p className="label">Housing Material</p>
-    <p className="value">Glass field Nylon</p>    
-    <br />
-    <p className="label">Color</p>
-    <p className="value">Matte White</p>    
-    <br />
-    <p className="label">Weight</p>
-    <p className="value">~110g</p>    
-    <br />
-    <p className="label">Mounting Options</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Local Configuration</div>
+      <div class="device-config-right">BLE-Based Local Configuration</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Remote Configuration</div>
+      <div class="device-config-right">Over-the-Air Configuration (Downlink Commands)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Status LED</div>
+      <div class="device-config-right">X1 Internal Multi-Color LED</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
-    <p className="value">9-36 V DC (External Supply)</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Input Impedance</p>
-    <p className="value">>10 MΩ for voltage inputs</p>
-    <br />
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Server Data Reporting Modes</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Reporting Mode</div>
+      <div class="device-config-right">Periodic / Event-based / Hybrid</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Communication <br /> Options
-  </div>
-  <div className="spec-block-details">
-    <p className="label">BLE Connectivity</p>
-    <p className="value">For local configuration and diagnostics via Maya App</p>
-    <br />
-    <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
-    <br />
-    <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (optional)</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Transmission Interval</div>
+      <div class="device-config-right">Independent uplink interval for optimized power consumption</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Threshold-Based Alerts</div>
+      <div class="device-config-right">Configurable temperature threshold for event-triggered transmission</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Sampling Interval</div>
+      <div class="device-config-right">Configurable data acquisition interval (e.g., 1 min to 24 hours)</div>
+    </div>
+
   </div>
 </div>
 
+---
 
-<div class="faint-line"></div>
+<div class="device-config-section">
+  <div class="device-config-title">Battery Performance (BO Series)</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Certifications & <br /> Compliance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">WPC</p>
-    <p className="value">Compliant</p>
-    <br />
-    <p className="label">RoHS</p>
-    <p className="value">Conforms to RoHS directive</p>
-    <br />
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Battery Type</div>
+      <div class="device-config-right">Li-SOCl₂ Cell (19Ah) Industrial grade</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption</div>
+      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Security & <br /> Encryption
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
-    <br />
-    <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes</p>
-    <br />
-    <p className="label">Firmware Protection</p>
-    <p className="value">Secure boot and signed OTA updates</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">5-Minute Reporting Interval</div>
+      <div class="device-config-right">~2 Years (Estimated)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">15-Minute Reporting Interval</div>
+      <div class="device-config-right">~4 Years (Estimated)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">60-Minute Reporting Interval</div>
+      <div class="device-config-right">~7+ Years (Estimated)</div>
+    </div>
+
   </div>
 </div>
 
+---
 
-## MacSync-LNC-Xx Variants
+<div class="device-config-section">
+  <div class="device-config-title">Power Performance (PO Series)</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Input Voltage Range (Optional Variant)</div>
+      <div class="device-config-right">9-36 V DC (External Supply)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption</div>
+      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+    </div>
+
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Communication Options</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">BLE Connectivity</div>
+      <div class="device-config-right">For local configuration and diagnostics via Maya App</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Cloud Protocols</div>
+      <div class="device-config-right">MQTT / HTTPS / TCP IP (Gateway Dependent)</div>
+    </div>
+
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Security & Encryption</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Encryption</div>
+      <div class="device-config-right">AES-128 LoRaWAN® encryption</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Authentication</div>
+      <div class="device-config-right">OTAA Device Activation</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Firmware Protection</div>
+      <div class="device-config-right">Secure boot and signed OTA updates</div>
+    </div>
+
+  </div>
+</div>
+
+--- 
+
+
+
+<div class="device-config-section">
+  <div class="device-config-title">LED Status</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LED Type</div>
+      <div class="device-config-right">1 Internal Multi-Color LED</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Solid Blue</div>
+      <div class="device-config-right">Device is connected with Maya App</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Flashing Blue</div>
+      <div class="device-config-right">OTA (Over-the-Air) update in progress</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Slow Blinking Green</div>
+      <div class="device-config-right">Attempting to connect to the LoRaWAN® network</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Single Red Blink</div>
+      <div class="device-config-right">A confirmed parameter of MacSync is being modified</div>
+    </div>
+
+  </div>
+</div>
+
+---
+<div class="device-config-section">
+  <div class="device-config-title">Physical Characteristics</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">-40°C to +80°C</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Humidity Range</div>
+      <div class="device-config-right">0% to 100% RH (non-condensing)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Ingress Protection</div>
+      <div class="device-config-right">IP65 standard (IP67 optional variant)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Housing Material</div>
+      <div class="device-config-right">Glass Filled Nylon</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Color</div>
+      <div class="device-config-right">Matte White</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Weight</div>
+      <div class="device-config-right">~175g</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Mounting Options</div>
+      <div class="device-config-right">Pole Mounting / Wall Mounting</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Certifications & Compliance</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">WPC</div>
+      <div class="device-config-right">Compliant</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">RoHS</div>
+      <div class="device-config-right">Conforms to RoHS directive</div>
+    </div>
+
+  </div>
+</div>
+
+
+---
+
+## MacSync-LNCT-Xx Variants
 
 <table className="parameter-table">
   <thead>
@@ -543,70 +618,70 @@ Ideal for **predictive maintenance, thermal safety monitoring, process optimizat
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LNC-X1-PO</td>
+      <td>MacSync-LNCT-X1-PO</td>
       <td>Up to 150&nbsp;°C</td>
       <td>12–24&nbsp;V DC (External Power)</td>
       <td>—</td>
       <td>Low-temperature industrial surfaces, machinery, and process equipment</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X1-BO</td>
+      <td>MacSync-LNCT-X1-BO</td>
       <td>Up to 150&nbsp;°C</td>
       <td>Battery Operated</td>
       <td>19&nbsp;Ah</td>
       <td>Remote assets and installations with no external power availability</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X2-PO</td>
+      <td>MacSync-LNCT-X2-PO</td>
       <td>Up to 300&nbsp;°C</td>
       <td>12–24&nbsp;V DC (External Power)</td>
       <td>—</td>
       <td>Medium-temperature processes, conveyors, motors, and rotating equipment</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X2-BO</td>
+      <td>MacSync-LNCT-X2-BO</td>
       <td>Up to 300&nbsp;°C</td>
       <td>Battery Operated</td>
       <td>19&nbsp;Ah</td>
       <td>Battery-powered monitoring of moving or hard-to-wire assets</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X3-PO</td>
+      <td>MacSync-LNCT-X3-PO</td>
       <td>Up to 600&nbsp;°C</td>
       <td>12–24&nbsp;V DC (External Power)</td>
       <td>—</td>
       <td>High-temperature industrial equipment such as ovens, dryers, and heaters</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X3-BO</td>
+      <td>MacSync-LNCT-X3-BO</td>
       <td>Up to 600&nbsp;°C</td>
       <td>Battery Operated</td>
       <td>19&nbsp;Ah</td>
       <td>Remote high-temperature assets requiring long battery life</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X4-PO</td>
+      <td>MacSync-LNCT-X4-PO</td>
       <td>Up to 1200&nbsp;°C</td>
       <td>12–24&nbsp;V DC (External Power)</td>
       <td>—</td>
       <td>Steel plants, foundries, furnaces, kilns, and metallurgical processes</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X4-BO</td>
+      <td>MacSync-LNCT-X4-BO</td>
       <td>Up to 1200&nbsp;°C</td>
       <td>Battery Operated</td>
       <td>19&nbsp;Ah</td>
       <td>Remote furnace and kiln monitoring where wiring is impractical</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X5-PO</td>
+      <td>MacSync-LNCT-X5-PO</td>
       <td>Up to 1500&nbsp;°C</td>
       <td>12–24&nbsp;V DC (External Power)</td>
       <td>—</td>
       <td>Extreme-temperature applications such as molten metal and high-energy furnaces</td>
     </tr>
     <tr>
-      <td>MacSync-LNC-X5-BO</td>
+      <td>MacSync-LNCT-X5-BO</td>
       <td>Up to 1500&nbsp;°C</td>
       <td>Battery Operated</td>
       <td>19&nbsp;Ah</td>
@@ -656,7 +731,9 @@ Ideal for **predictive maintenance, thermal safety monitoring, process optimizat
 
 -->
 
-## What's in the box ?
+<h2 className="device-section-title">
+  ## What's in the Box ?
+</h2>
 
 Make sure box contains following items before installations
 
@@ -669,7 +746,9 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+<h2 className="device-section-title">
+  ##  MacSync LNCT Dimensions
+</h2>
 
-![title image](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.svg)
+![MacSync LRTD X1 LoRaWAN RTD Temperature Sensor device dimensions for industrial PT100 temperature monitoring applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-lorawan-rtd-temperature-sensor-device-dimensions.webp)
 

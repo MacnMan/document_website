@@ -207,6 +207,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 </div>
 
 ---
+
 <div class="device-config-section">
   <div class="device-config-title">RTD Temperature Measurement</div>
   <div class="device-config-table">
