@@ -65,8 +65,6 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 
 ---
 
-----
-
 <h2 className="device-section-title">
   ## Download Center
 </h2>
