@@ -88,7 +88,7 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-lts-x1-industrial-lorawan-temperature-humidity-sensor.pdf" 
+  <a href="/docs/downloads/macsync-lnct-xx-lorawan-non-contact-temperature-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
