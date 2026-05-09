@@ -750,5 +750,5 @@ not be included in the box.
   ##  MacSync LNCT Dimensions
 </h2>
 
-![MacSync LRTD X1 LoRaWAN RTD Temperature Sensor device dimensions for industrial PT100 temperature monitoring applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-lorawan-rtd-temperature-sensor-device-dimensions.webp)
+![MacSync-LNC-Xx Industrial LoRaWAN Non-Contact Infrared Temperature Sensor Dimensions Drawing](/img/lorawan/sensors/macsync/macsync-lnc-xx-industrial-lorawan-infrared-temperature-sensor-dimensions.webp)
 
