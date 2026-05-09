@@ -604,7 +604,7 @@ not be included in the box.
 
 
 <h2 className="device-section-title">
-  ## ## MacRay LToF Series Dimensions
+  ## MacRay LToF Series Dimensions
 </h2>
 
 Compact industrial enclosure with dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, and space-constrained industrial deployments.
