@@ -1,56 +1,77 @@
 ---
-id: macsync-lorawan-pressure-sensor-x-series
-title: MacSync-L-PSXx
+id: macsync-lps-xx-lorawan-pressure-sensor
+title: MacSync LPS Xx 
 sidebar_position: 6
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Industrial LoRaWAN® hydrostatic pressure transducer engineered for wireless pressure monitoring, pipeline pressure sensing, water utility telemetry, fire hydrant monitoring, and industrial process automation.
 keywords:
-  - lorawan industrial pressure sensor
-  - liquid pipeline pressure monitoring
-  - water pressure monitoring iot device
+  - lorawan pressure sensor
+  - lorawan pressure transducer
+  - lorawan hydrostatic pressure transducer
+  - wireless pressure monitoring sensor
+  - industrial pressure sensor
+  - industrial pressure transducer
+  - water pressure monitoring sensor
   - lorawan pressure transmitter
-  - fire hydrant pressure monitoring sensor
-  - industrial process automation pressure sensor
-  - sewage and effluent pressure monitoring
-  - wireless smart pressure logger
-  - oil and gas pressure monitoring system
-  - remote pipeline leakage detection lorawan
-  - ip67 waterproof pressure sensor
-  - battery powered pressure monitoring
-  - long range wireless sensor lorawan
-  - water utility pressure telemetry solution
-  - surge resistant industrial iot sensor
+  - pipeline pressure monitoring sensor
+  - wireless pressure logger
+  - fire hydrant pressure monitoring
+  - industrial process pressure monitoring
+  - wireless pressure telemetry sensor
+  - hydrostatic pressure sensor lorawan
+  - pressure monitoring iot device
+  - oil and gas pressure monitoring
+  - sewage pressure monitoring sensor
+  - industrial water pressure sensor
+  - battery powered pressure sensor
+  - long range wireless pressure sensor
+  - smart water utility pressure sensor
+  - industrial pipeline monitoring sensor
+  - pressure monitoring for factories
+  - remote pressure monitoring system
+  - pressure analytics sensor
+  - industrial automation pressure sensor
+  - lorawan industrial sensor
+  - pressure transducer for pipelines
+  - wireless industrial pressure monitoring
+  - industrial iot pressure sensor
+  - macsync lps xx
+  - macnman lorawan pressure sensor
+
 ---
 
-# MacSync-L-PSXx Datasheet
+# MacSync LPS Xx LoRaWAN® Pressure Transducer
 
-## Product Overview
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
 
-MacSync-L-PSXx is a **high‑accuracy LoRaWAN® industrial liquid pressure monitoring device** engineered for real‑time measurement of water, chemical, and industrial fluid networks. It converts critical pressure data into secure wireless telemetry, enabling operators to detect leaks, pump inefficiencies, over‑pressure risks, and system failures before they escalate.
+**MacSync LPS Xx** is an industrial-grade **LoRaWAN® hydrostatic pressure transducer** engineered for high-accuracy wireless pressure monitoring across water pipelines, industrial process systems, fire hydrants, sewage networks, oil & gas infrastructure, hydraulic systems, and smart utility deployments. Designed for Industrial IoT environments, the device continuously measures pressure variations and transmits real-time telemetry over ultra-long-range LoRaWAN® wireless networks.
 
-Built using an **industrial‑grade stainless steel pressure transducer (SS316 diaphragm)**, the device delivers stable performance even in corrosive, high‑humidity, and vibration‑prone environments. Its **IP67‑rated enclosure**, wide operating temperature range, and robust surge protection make it suitable for harsh outdoor deployments.
+Built using a precision **SS316 stainless steel hydrostatic pressure sensing element**, the **MacSync LPS Xx LoRaWAN® pressure sensor** delivers highly stable pressure analytics even in corrosive, vibration-prone, moisture-rich, and high-pressure industrial environments. Its rugged IP67-rated architecture, surge-resistant design, and wide operating temperature range make it ideal for outdoor industrial deployments, underground utility infrastructure, remote pumping stations, and harsh process automation environments.
 
-MacSync‑L‑PSXx supports **multi‑year battery operation** or external DC powering for versatile installation in both powered and fully remote locations. With **LoRaWAN® long‑range communication**, BLE‑based configuration using the Maya App, and intelligent sampling with event‑based alerts — the device supports zero‑maintenance pressure surveillance at scale.
+The device supports **LoRaWAN® v1.0.4 Class A communication**, AES-128 encrypted wireless transmission, BLE-based configuration through the Macnman Maya App, and intelligent pressure analytics including threshold-based alerts, leakage detection, pressure anomaly monitoring, and event-driven telemetry reporting. Optimized for battery-powered or external DC-powered operation, the MacSync LPS Xx enables scalable wireless pressure monitoring deployments without expensive wiring infrastructure.
 
-From **fire hydrant & fire‑pump discharge monitoring**, **municipal water distribution**, **industrial process control**, to **oil & gas pipeline pressure assurance** — **MacSync‑L‑PSXx unlocks smarter infrastructure decisions** with continuous visibility into fluid network health and operational safety.
+Whether deployed for municipal water distribution monitoring, fire pump discharge pressure analytics, industrial process automation, wastewater infrastructure monitoring, oil & gas pipeline supervision, hydraulic system diagnostics, or remote utility telemetry, the **MacSync LPS Xx industrial LoRaWAN® pressure transducer** transforms critical pressure data into actionable operational intelligence for Industry 4.0 and connected infrastructure ecosystems.
 
-<div className="image-grid-2col">
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pressure-transducer-ss316.webp" alt="ss316 transducer" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pipeline-pressure-monitoring.webp" alt="pipeline monitoring" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-psx-pressure-sensor-front.webp" alt="industrial pressure sensor front" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="hydrant monitoring" />
-</div>
+The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible with major LoRaWAN® gateways and network servers including ChirpStack, The Things Stack, MQTT platforms, Orbiwise, LORIOT, and private industrial LoRaWAN® infrastructures — enabling seamless integration into SCADA systems, Industrial IoT dashboards, cloud analytics platforms, and smart utility management infrastructure.
+
+| ![MacSync LRTD X1 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-whats-in-the-box.webp) | ![MacSync LRTD X1 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-dimensions.webp) |
+|--------------------------------|--------------------------------|
+| ![MacSync LRTD X1 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp) | ![MacSync LRTD X1 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
 
 
-<div class="faint-line"></div>  
+---
 
-## Download Center
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-lrtd-x1-lorawan-rtd-temperature-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
+      <strong>Download Datasheet</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>
@@ -60,170 +81,168 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-PSXx</p>
+      <p>Click here to view the decoders for MacSync LRTD X1</p>
     </div>
   </a>
 </div>
 
-<div class="faint-line"></div>
+---
 
 ## Key Features
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>Short‑Range Precision Sensing</strong>
-  Optimized ultrasonic measurement for 0–4 meters liquid and solid level monitoring.
+  <strong>Industrial LoRaWAN® Pressure Sensor</strong>
+  High-accuracy wireless pressure monitoring engineered for industrial pipelines, hydraulic systems, utilities, and process automation.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Advanced Echo Processing</strong>
-  Intelligent filtering eliminates false readings from foam, turbulence, and obstructions.
+  <strong>SS316 Hydrostatic Pressure Transducer</strong>
+  Precision stainless steel sensing element designed for corrosive, high-pressure, and moisture-rich industrial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Battery‑Powered LoRaWAN®</strong>
-  Multi‑year autonomous operation with ultra‑low‑power wireless communication.
+  <strong>Long-Range LoRaWAN® Connectivity</strong>
+  Ultra-long-range wireless telemetry for remote pressure monitoring across large industrial and utility infrastructures.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Rugged Design</strong>
-  Durable and corrosion‑resistant enclosure built for harsh outdoor and underground environments.
+  <strong>Battery & DC Powered Variants</strong>
+  Supports multi-year battery-powered deployments and continuous DC-powered industrial monitoring applications.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Uplink Strategies</strong>
-  Periodic, event‑based & threshold alerts optimize power consumption and network traffic.
+  <strong>Pressure Threshold & Leakage Alerts</strong>
+  Intelligent event-triggered transmission for pressure anomalies, sudden drops, leakage detection, and over-pressure alerts.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>IP67 Industrial Rugged Design</strong>
+  Durable industrial enclosure optimized for outdoor deployments, underground infrastructure, and harsh industrial conditions.
 </div>
 
 <div className="reusable-feature-card">
   <strong>BLE Configuration via Maya App</strong>
-  Quick setup, OTA parameter adjustment & diagnostics using a smartphone.
+  Fast local configuration, diagnostics, parameter tuning, and firmware updates using the Macnman Maya Android App.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Industrial Use</strong>
-  Designed for manholes, sewer drains, tanks, pits, reservoirs & flood monitoring.
+  <strong>Industrial Process Automation Ready</strong>
+  Ideal for SCADA integration, industrial process monitoring, utility telemetry, and Industry 4.0 deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure & Long‑Range Communication</strong>
-  AES‑128 encrypted LoRaWAN® connectivity with strong penetration in remote areas.
+  <strong>Secure AES-128 LoRaWAN® Communication</strong>
+  Encrypted wireless telemetry ensures secure industrial pressure data transmission across public and private LoRaWAN® networks.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Flexible Deployment Options</strong>
-  Supports pole, wall, and custom mount installation for easy field deployment.
+  <strong>Compatible with Major LoRaWAN® LNS</strong>
+  Works seamlessly with ChirpStack, TTN, MQTT platforms, Orbiwise, LORIOT, and private industrial LoRaWAN® infrastructures.
+</div>
 </div>
 
-<div className="reusable-feature-card">
-  <strong>Compatible with All LoRaWAN® Networks</strong>
-  Works seamlessly with private/public network servers and cloud platforms.
-</div>
-</div>
-<div class="faint-line"></div>
+---
 
 ## Suited Applications
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">
-    <strong>Smart Water Utilities</strong>
-    Continuous level monitoring for underground water tanks, overhead tanks, reservoirs, and sumps.
+    <strong>Municipal Water Pressure Monitoring</strong>
+    Continuous pressure monitoring for water distribution pipelines, pumping stations, reservoirs, and smart water utility infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Manhole & Sewer Level Monitoring</strong>
-    Detect overflow risks, blockages, and sewer flooding in drainage networks.
+    <strong>Fire Hydrant & Fire Pump Monitoring</strong>
+    Real-time pressure analytics for firefighting systems, hydrants, discharge pipelines, and fire safety infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Flood & Stormwater Monitoring</strong>
-    Real-time alerts for rising levels in rivers, canals, storm drains, and flood-prone zones.
+    <strong>Industrial Process Automation</strong>
+    Wireless pressure telemetry for manufacturing plants, industrial fluid systems, and automated process control infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Wastewater Management</strong>
-    Accurate level detection in effluent treatment plants, sludge pits, and chemical tanks.
+    <strong>Oil & Gas Pipeline Monitoring</strong>
+    Monitor pipeline pressure variations, leakage risks, and abnormal operating conditions in remote energy infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Mining & Quarry Operations</strong>
-    Level tracking in slurry pits, water sumps, and tailing dams for safety assurance.
+    <strong>Wastewater & Sewage Infrastructure</strong>
+    Pressure monitoring for sewage treatment plants, effluent systems, underground utility networks, and wastewater pipelines.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart City Infrastructure</strong>
-    Remote monitoring of drainage networks to prevent urban flooding and road closures.
+    <strong>Hydraulic System Diagnostics</strong>
+    High-accuracy pressure sensing for hydraulic machinery, industrial pumps, compressors, and fluid control systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil & Fuel Storage Tanks</strong>
-    Level measurement for diesel storage, fuel stations, and industrial oil chambers.
+    <strong>Smart Utility Telemetry</strong>
+    Remote wireless pressure monitoring for distributed utility infrastructure and smart city deployments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote & Unmanned Locations</strong>
-    Low-maintenance, long-range LoRaWAN® monitoring where wired installation is impractical.
+    <strong>Remote & Unmanned Installations</strong>
+    Multi-year battery-powered LoRaWAN® pressure monitoring for isolated industrial and utility locations.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Environmental Risk Monitoring</strong>
-    Early warning for spill detection, groundwater rise, or hazardous waste overflow.
+    <strong>Industry 4.0 Pressure Analytics</strong>
+    Real-time industrial pressure analytics for predictive maintenance, operational intelligence, and connected infrastructure monitoring.
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-## Technical Specification
+<div class="device-config-section">
+  <div class="device-config-title">Pressure Measurement</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    General <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-PSXx</p>
-    <br />
-    <p className="label">Product Brand</p>
-    <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Supported Pressure Ranges</div>
+      <div class="device-config-right">0 ~ 0.5 MPa / 0 ~ 1.5 MPa / 0 ~ 2.5 MPa / 0 ~ 10 MPa / 0 ~ 30 MPa</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">Sensor Type</div>
+      <div class="device-config-right">SS316 Hydrostatic Pressure Transducer</div>
+    </div>
 
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Accuracy</div>
+      <div class="device-config-right">±1.5% Full Scale (FS)</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Pressure <br /> Measurement
-  </div>
-  <div className="spec-block-details">
-<p className="label">Range</p>
-<p className="value">0 ~ 0.5 MPa</p>
-<p className="value">0 ~ 1.5 MPa</p>
-<p className="value">0 ~ 2.5 MPa</p>
-<p className="value">0 ~ 10 MPa</p>
-<p className="value">0 ~ 30 MPa</p>
-<br />
-<p className="label">Accuracy</p>
-<p className="value">±1.5% Full Scale (FS)</p>
-<br />
-<p className="label">Max. Pressure</p>
-<p className="value">2.4 MPa</p>
-<br />
-<p className="label">Destructive Pressure</p>
-<p className="value">3.0 MPa</p>
-<br />
-<p className="label">Response Time (Sensor)</p>
-<p className="value">≤ 2.0 ms</p>
-<br />
-<p className="label">Cycle Life</p>
-<p className="value">1,000,000 cycles</p>
-<br />
-<p className="label">Protection Rating (Sensor)</p>
-<p className="value">IP67</p>
+    <div class="device-config-row">
+      <div class="device-config-left">Maximum Pressure</div>
+      <div class="device-config-right">2.4 MPa</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Destructive Pressure</div>
+      <div class="device-config-right">3.0 MPa</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Sensor Response Time</div>
+      <div class="device-config-right">≤ 2.0 ms</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Cycle Life</div>
+      <div class="device-config-right">1,000,000 cycles</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Protection Rating</div>
+      <div class="device-config-right">IP67</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -257,7 +276,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -282,7 +301,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -304,7 +323,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -324,7 +343,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -343,7 +362,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -377,7 +396,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -397,7 +416,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -417,7 +436,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
 </div>
 
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -433,7 +452,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -453,7 +472,7 @@ From **fire hydrant & fire‑pump discharge monitoring**, **municipal water dist
 </div>
 
 
-##  MacSync-L-PSXx Variants
+##  MacSync LPS Xx Variants
 
 <table className="parameter-table">
   <thead>

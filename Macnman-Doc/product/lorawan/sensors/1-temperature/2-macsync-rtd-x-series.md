@@ -58,7 +58,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 | ![MacSync LRTD X1 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp) | ![MacSync LRTD X1 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
 
 
-----
+---
 
 <h2 className="device-section-title">
   ## Download Center
@@ -85,7 +85,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
   </a>
 </div>
 
-----
+---
 
 <h2 className="device-section-title">
  ## Key Features
