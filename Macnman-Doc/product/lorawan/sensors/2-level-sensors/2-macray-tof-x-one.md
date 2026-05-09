@@ -71,7 +71,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/narmada-tsx1-compact-lorawan-temperature-humidity-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macray-ltof-xx-lorawan-time-of-flight-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -90,7 +90,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
   </a>
 </div>
 
-----
+---
 
 <h2 className="device-section-title">
   ## Key Features
@@ -295,7 +295,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
     <div class="device-config-row">
       <div class="device-config-left">Supports Major LNS</div>
-      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations</div>
+      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial LoRaWAN® deployments</div>
     </div>
 
   </div>
@@ -538,7 +538,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 ---
 
 <h2 className="device-section-title">
-  ## MacRay-ToF-LXx Variants
+  ## MacRay LToF Series Variants
 </h2>
 
 
@@ -593,7 +593,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![![MacRay LToF LoRaWAN Time-of-Flight Sensor What's Included in the Box]](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
@@ -604,10 +604,10 @@ not be included in the box.
 
 
 <h2 className="device-section-title">
-  ## MacRay LToF Xx Dimensions
+  ## ## MacRay LToF Series Dimensions
 </h2>
 
 Compact industrial enclosure with dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, and space-constrained industrial deployments.
 
-![title image](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
+![MacRay LToF LoRaWAN Time-of-Flight Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
 
