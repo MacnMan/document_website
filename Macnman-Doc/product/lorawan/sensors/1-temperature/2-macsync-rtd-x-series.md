@@ -607,14 +607,21 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 </table>
 
 
-
 <h2 className="device-section-title">
   ## What's in the Box ?
 </h2>
 
-Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+Make sure box contains following items before installations
+- MacSync Model
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
+
+![MacSync LPS Xx LoRaWAN Pressure Transducer What's Included in the Box](/img/datalogger/whatsbox.svg)
 
 :::note
 
