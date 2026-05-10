@@ -1,5 +1,5 @@
 ---
-id: macsync-l-odor-x1-datasheet
+id: MacSync L Odor X1-datasheet
 title: MacSync L Odor X1
 sidebar_position: 1
 description: Industrial LoRaWAN® qualitative odor sensor for smart washrooms, smart cities, sewage plants, chemical factories, and public infrastructure odor monitoring applications.
@@ -42,23 +42,23 @@ keywords:
   - macnman odor monitoring solution
 ---
 
-# MacSync-L-Odor-X1 Datasheet
+# MacSync L Odor X1 Datasheet
 
 <h2 className="device-section-title">
   ## Product Introduction 
 </h2>
 
-**MacSync-L-Odor-X1** is an industrial-grade **LoRaWAN® qualitative odor monitoring sensor** engineered for continuous odor intensity monitoring across smart washrooms, smart cities, sewage treatment plants, chemical factories, waste management facilities, and other odor-sensitive environments. The device intelligently detects and trends overall odor presence, enabling organizations to proactively identify odor spikes, hygiene issues, process abnormalities, and nuisance odor events before they escalate.
+**MacSync L Odor X1** is an industrial-grade **LoRaWAN® qualitative odor monitoring sensor** engineered for continuous odor intensity monitoring across smart washrooms, smart cities, sewage treatment plants, chemical factories, waste management facilities, and other odor-sensitive environments. The device intelligently detects and trends overall odor presence, enabling organizations to proactively identify odor spikes, hygiene issues, process abnormalities, and nuisance odor events before they escalate.
 
-Unlike traditional gas detectors that focus only on ppm measurement of individual gases, MacSync-L-Odor-X1 evaluates the combined odor signature and converts it into a simplified **odor index / odor level**, making odor monitoring practical, scalable, and easy to interpret. This approach is especially useful in applications where human comfort, environmental compliance, hygiene management, or community odor complaints are critical.
+Unlike traditional gas detectors that focus only on ppm measurement of individual gases, MacSync L Odor X1 evaluates the combined odor signature and converts it into a simplified **odor index / odor level**, making odor monitoring practical, scalable, and easy to interpret. This approach is especially useful in applications where human comfort, environmental compliance, hygiene management, or community odor complaints are critical.
 
 Designed for real-world deployments, the sensor combines advanced sensing technology, intelligent signal processing, and ultra-low-power LoRaWAN® communication to deliver reliable long-range monitoring with minimal maintenance. The device continuously tracks odor behavior, helping operators identify recurring odor patterns, ventilation failures, waste accumulation, chemical leaks, or abnormal environmental conditions.
 
 The rugged IP-rated enclosure enables stable operation in harsh indoor and outdoor environments including public toilets, STP & WWTP facilities, waste transfer stations, composting plants, industrial processing zones, and landfill sites. Its wireless LoRaWAN® Class A architecture supports multi-year battery operation, making it ideal for remote and unmanned installations.
 
-MacSync-L-Odor-X1 supports **LoRaWAN® v1.0.4**, AES-encrypted communication, multiple regional frequency bands, and optional BLE-based local configuration through the **Macnman Maya App** for rapid deployment and simplified device management.
+MacSync L Odor X1 supports **LoRaWAN® v1.0.4**, AES-encrypted communication, multiple regional frequency bands, and optional BLE-based local configuration through the **Macnman Maya App** for rapid deployment and simplified device management.
 
-Whether deployed for smart washroom hygiene monitoring, industrial safety, environmental odor tracking, or smart city infrastructure projects, MacSync-L-Odor-X1 transforms subjective odor complaints into actionable, data-driven intelligence—helping organizations improve operational efficiency, public experience, and environmental accountability.
+Whether deployed for smart washroom hygiene monitoring, industrial safety, environmental odor tracking, or smart city infrastructure projects, MacSync L Odor X1 transforms subjective odor complaints into actionable, data-driven intelligence—helping organizations improve operational efficiency, public experience, and environmental accountability.
 
 | ![MacSync L Odor X1 LoRaWAN odor monitoring sensor for smart washroom and industrial odor detection](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) | ![MacSync L Odor X1 wireless odor sensor with LoRaWAN connectivity for smart city monitoring](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
@@ -69,9 +69,8 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
   ## Download Center
 </h2>
 
-
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-l-odor-x1-lorawan-odor-monitoring-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/MacSync L Odor X1-lorawan-odor-monitoring-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -460,17 +459,17 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
 
     <div class="device-config-row shaded">
       <div class="device-config-left">5-Minute Reporting Interval</div>
-      <div class="device-config-right">~2 Years (Estimated)</div>
+      <div class="device-config-right">~6 Months (Estimated)</div>
     </div>
 
     <div class="device-config-row">
       <div class="device-config-left">15-Minute Reporting Interval</div>
-      <div class="device-config-right">~4 Years (Estimated)</div>
+      <div class="device-config-right">~1 Year (Estimated)</div>
     </div>
 
     <div class="device-config-row shaded">
       <div class="device-config-left">60-Minute Reporting Interval</div>
-      <div class="device-config-right">~7+ Years (Estimated)</div>
+      <div class="device-config-right">~3+ Years (Estimated)</div>
     </div>
 
   </div>
@@ -665,7 +664,7 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
       <td>MacSync L Odor X1 PO</td>
       <td>External Power (9–36 V DC)</td>
       <td>-</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>Continuous powered industrial and infrastructure deployments</td>
     </tr>
   </tbody>
 </table>
@@ -673,10 +672,18 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
 --- 
 
 <h2 className="device-section-title">
-  ## What's in the box ?
+  ## What's in the Box ?
 </h2>
 
 Make sure box contains following items before installations
+
+- MacSync L Odor X1 Sensor
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
 
 ![title image](/img/datalogger/whatsbox.svg)
 
