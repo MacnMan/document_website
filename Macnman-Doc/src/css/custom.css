@@ -135,7 +135,8 @@ body::-webkit-scrollbar {
 .navbar__link--active::after {
   content: '';
   position: absolute;
-  bottom: -13.5px; /* Moves the line further down */
+  bottom: -13.5px;
+  /* Moves the line further down */
   left: 0;
   width: 100%;
   height: 2px;
@@ -846,7 +847,9 @@ html[data-theme='dark'] {
   letter-spacing: 0.8px;
   font-weight: 200;
   padding: 0.5rem 0.75rem;
-  display: block;
+  display: flex !important; /* Changed to flex for arrow alignment */
+  align-items: center !important;
+  justify-content: space-between !important;
   border-radius: 4px;
   color: var(--primary-neutral-800);
   transition: background-color 0.2s ease;
@@ -933,12 +936,24 @@ html[data-theme='dark'] .menu__list .theme-doc-sidebar-item-category .menu__list
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* ────────────── CARET ICON ───────────────────────────────────────────────── */
+/* ────────────── CARET ICON (SIDEBAR ARROWS) ─────────────────────────────── */
+/* This ensures arrows appear on the right and rotate correctly for all sections */
 .menu__caret:before,
-.menu__link--sublist-caret:after {
-  background: var(--ifm-menu-link-sublist-icon) center / 1.2rem no-repeat;
-  width: 0.875rem;
-  height: 0.875rem;
+.menu__link--sublist-caret::after {
+  content: '';
+  background: var(--ifm-menu-link-sublist-icon) center / 1.2rem no-repeat !important;
+  width: 0.875rem !important;
+  height: 0.875rem !important;
+  display: inline-block !important;
+  margin-left: auto !important; /* Pushes arrow to the right side */
+  margin-right: 0.2rem !important; /* Ensures vertical alignment on the right edge */
+  filter: var(--ifm-menu-link-sublist-icon-filter);
+  transition: transform var(--ifm-transition-fast) linear !important;
+}
+
+/* Rotate the arrow when the category is expanded */
+.menu__list-item:not(.menu__list-item--collapsed) > .menu__link--sublist-caret::after {
+  transform: rotate(90deg) !important;
 }
 
 /* ────────────── ITEM DIVIDERS ────────────────────────────────────────────── */
@@ -1100,6 +1115,7 @@ html[data-theme='dark'] .device-config-right {
     margin-bottom: 1rem;
   }
 }
+
 /* for the h2 titles ends here */
 
 /* "On this page" (Table of Contents) active link color */
@@ -1112,4 +1128,3 @@ html[data-theme='dark'] .device-config-right {
 .table-of-contents__link:hover {
   color: #2e2e2e !important;
 }
-
