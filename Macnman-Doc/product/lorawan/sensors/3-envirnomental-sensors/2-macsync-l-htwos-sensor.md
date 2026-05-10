@@ -39,7 +39,7 @@ keywords:
   - macnman lorawan gas sensor
 ---
 
-# MacSync LH2S X1 Industrial LoRaWAN H2S Gas Monitoring Sensor
+# MacSync LH2S X1 - Industrial LoRaWAN H2S Gas Monitoring Sensor
 
 <h2 className="device-section-title">
   ## Product Overview
@@ -49,7 +49,7 @@ keywords:
 
 Hydrogen sulfide is one of the most dangerous toxic gases found in **sewage treatment plants (STP), wastewater treatment facilities (WWTP), sewer networks, oil & gas infrastructure, chemical factories, biogas plants, landfill sites, pumping stations, and confined industrial spaces**. Even low concentrations of H₂S can cause serious health hazards, corrosion, equipment damage, and operational risks. MacSync LH2S X1 enables organizations to continuously monitor gas concentration trends, detect hazardous buildup conditions early, and improve worker safety through intelligent remote monitoring.
 
-The device is built around an industrial electrochemical gas sensor capable of delivering stable, repeatable, and highly sensitive H₂S concentration measurements in ppm. The sensor continuously tracks toxic gas behavior and supports threshold-based alerting, trend analysis, and historical gas concentration monitoring for proactive safety management.
+The device is built around an industrial electrochemical H₂S gas sensor capable of delivering stable, repeatable, and highly sensitive H₂S concentration measurements in ppm. The sensor continuously tracks toxic gas behavior and supports threshold-based alerting, trend analysis, and historical gas concentration monitoring for proactive safety management.
 
 Powered by an ultra-low-power **LoRaWAN® Class A architecture**, MacSync LH2S X1 enables long-range wireless communication with multi-year battery operation, making it ideal for remote and unmanned deployments where wired infrastructure is impractical. Secure AES-encrypted communication ensures reliable data transmission over both public and private LoRaWAN® networks.
 
@@ -71,7 +71,7 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-l-odor-x1-lorawan-odor-monitoring-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-l-h2s-x1-lorawan-hydrogen-sulfide-gas-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -84,7 +84,7 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync LTS X1</p>
+      <p>Click here to view the decoders for MacSync LH2S X1</p>
     </div>
   </a>
 </div>
@@ -104,7 +104,7 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 
   <div className="reusable-feature-card">
     <strong>Real-Time H₂S Gas Monitoring in ppm</strong>
-    High-sensitivity electrochemical gas sensor delivers continuous real-time hydrogen sulfide concentration measurements in ppm for toxic gas exposure monitoring.
+    High-sensitivity industrial electrochemical H₂S gas sensor delivers continuous real-time hydrogen sulfide concentration measurements in ppm for toxic gas exposure monitoring.
   </div>
 
   <div className="reusable-feature-card">
@@ -118,12 +118,12 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Long-Range Wireless Gas Monitoring</strong>
+    <strong>Long-Range LoRaWAN® H₂S Monitoring</strong>
     Reliable LoRaWAN® connectivity enables toxic gas monitoring across large industrial plants, underground utility networks, and smart city infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Real-Time H₂S Alerts & Threshold Detection</strong>
+    <strong>Real-Time LoRaWAN® H₂S Alerts</strong>
     Configurable threshold alerts instantly notify operators during hazardous H₂S gas buildup and abnormal environmental conditions.
   </div>
 
@@ -375,7 +375,7 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Threshold-Based Alerts</div>
-      <div class="device-config-right">Configurable temperature and humidity thresholds for event-triggered transmission</div>
+      <div class="device-config-right">Configurable H₂S gas concentration threshold alerts for event-triggered transmission</div>
     </div>
 
     <div class="device-config-row">
@@ -428,7 +428,7 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Input Voltage Range (Optional Variant)</div>
-      <div class="device-config-right">9-36 V DC (External Supply)</div>
+      <div class="device-config-right">9 ~ 36 V DC (External Supply)</div>
     </div>
 
     <div class="device-config-row">
@@ -513,7 +513,7 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Single Red Blink</div>
-      <div class="device-config-right">A device parameter is being modified</div>
+      <div class="device-config-right">Confirmed parameter modification</div>
     </div>
 
   </div>
@@ -531,7 +531,7 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Humidity Range</div>
-      <div class="device-config-right">0% to 100% RH (non-condensing)</div>
+      <div class="device-config-right">0% ~ 100% RH (non-condensing)</div>
     </div>
 
     <div class="device-config-row">
@@ -584,9 +584,8 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 
 ---
 
-
 <h2 className="device-section-title">
-  ##  MacSync L Odor X1 Variants
+  ## MacSync LH2S X1 Variants
 </h2>
 
 <table className="parameter-table">
@@ -600,27 +599,26 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
   </thead>
   <tbody>
     <tr>
-      <td>MacSync L Odor X1 BO</td>
-      <td>Battery</td>
+      <td>MacSync LH2S X1 BO</td>
+      <td>Battery Powered</td>
       <td>19 Ah</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>Remote and low-power LoRaWAN® H₂S monitoring deployments</td>
     </tr>
-        <tr>
-      <td>MacSync L Odor X1 PO</td>
-      <td>External Power (9–36 V DC)</td>
+    <tr>
+      <td>MacSync LH2S X1 PO</td>
+      <td>External Power (9 ~ 36 V DC)</td>
       <td>-</td>
-      <td>Remote or portable deployments with low power</td>
+      <td>Continuous powered industrial H₂S monitoring deployments</td>
     </tr>
   </tbody>
 </table>
 
 --- 
-
 <h2 className="device-section-title">
   ## What's in the Box ?
 </h2>
 
-Make sure box contains following items before installations
+Make sure the box contains the following items before installation.
 
 - MacSync L H2S X1 Sensor
 - Mounting Clip
@@ -628,26 +626,25 @@ Make sure box contains following items before installations
 - Warranty Card
 - IP68 Cable Extender *
 - Mounting Screws 
-- Power Adapters *
+- Power Adapter *
 
 ![title image](/img/datalogger/whatsbox.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
-
+Accessories marked with * must be purchased separately and may not be included in the box.
 :::
 
 ---
 
 <h2 className="device-section-title">
-  ## Product Dimensions
+  ## MacSync LH2S X1 Product Dimensions
 </h2>
 
-The MacSync L Odor X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart washrooms, industrial facilities, and environmental monitoring deployments.
+The MacSync LH2S X1 features a compact industrial-grade enclosure with overall dimensions of **166 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across industrial facilities, wastewater infrastructure, sewer monitoring deployments, and hazardous gas monitoring environments.
 
-![MacSync L Odor X1 LoRaWAN odor sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
+![MacSync LH2S X1 LoRaWAN H2S sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-dimensions.webp)
+
 
 
 
