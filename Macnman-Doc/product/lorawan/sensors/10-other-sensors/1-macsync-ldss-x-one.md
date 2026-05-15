@@ -52,6 +52,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 |--------------------------------|--------------------------------|
 | ![Industrial IP65 LoRaWAN door sensor for real-time open and close detection](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-toxic-gas-sensor-industrial-view.webp) | ![MacSync LDSS X1 wireless magnetic door status sensor for Industrial IoT deployments](/img/lorawan/sensors/macsync/macsync-lh2s-x1-wireless-h2s-gas-monitoring-sensor.webp) |
 
+--- 
 
 <h2 className="device-section-title">
   ## Download Center
@@ -77,7 +78,6 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </div>
 
 ---
-
 
 <h2 className="device-section-title">
   ## Key Features
@@ -215,7 +215,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Trigger Distance</div>
-      <div class="device-config-right">Configurable magnetic trigger gap</div>
+      <div class="device-config-right">15mm</div>
     </div>
 
     <div class="device-config-row">
@@ -225,12 +225,12 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Tamper Detection</div>
-      <div class="device-config-right">Supported</div>
+      <div class="device-config-right">Supported with Software</div>
     </div>
 
     <div class="device-config-row">
       <div class="device-config-left">Door Activity Logging</div>
-      <div class="device-config-right">Supported</div>
+      <div class="device-config-right">with Timestamp</div>
     </div>
 
     <div class="device-config-row shaded">
@@ -242,7 +242,6 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </div>
 
 ---
-
  
 <div class="device-config-section">
   <div class="device-config-title">Wireless Transmission</div>
@@ -386,26 +385,6 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 ---
 
 <div class="device-config-section">
-  <div class="device-config-title">Power Performance (PO Series)</div>
-  <div class="device-config-table">
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Input Voltage Range (Optional Variant)</div>
-      <div class="device-config-right">9 ~ 36 V DC (External Supply)</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Power Consumption</div>
-      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
-    </div>
-
-
-  </div>
-</div>
-
----
-
-<div class="device-config-section">
   <div class="device-config-title">Communication Options</div>
   <div class="device-config-table">
 
@@ -448,8 +427,6 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 --- 
 
-
-
 <div class="device-config-section">
   <div class="device-config-title">LED Status</div>
   <div class="device-config-table">
@@ -483,6 +460,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </div>
 
 ---
+
 <div class="device-config-section">
   <div class="device-config-title">Physical Characteristics</div>
   <div class="device-config-table">
@@ -564,13 +542,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
       <td>MacSync LDSS X1 BO</td>
       <td>Battery Powered</td>
       <td>Remote and low-power LoRaWAN® door monitoring deployments</td>
-      <td>833</td>
-    </tr>
-    <tr>
-      <td>MacSync LDSS X1 PO</td>
-      <td>External Power (9 ~ 36 V DC)</td>
-      <td>Continuous powered industrial door monitoring deployments</td>
-      <td>832</td>
+      <td>837</td>
     </tr>
   </tbody>
 </table>
@@ -604,9 +576,9 @@ Accessories marked with * must be purchased separately and may not be included i
   ## MacSync LDSS X1 Product Dimensions
 </h2>
 
-The MacSync LDSS X1 features a compact industrial-grade enclosure with overall dimensions of **165 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across warehouses, industrial facilities, smart buildings, utility infrastructure, and Industrial IoT deployments.
+The MacSync LDSS X1 features a compact industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm** (Without sensor), enabling easy wall and pole mounting across warehouses, industrial facilities, smart buildings, utility infrastructure, and Industrial IoT deployments.
 
-![MacSync LDSS X1 LoRaWAN door status sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-dimensions.webp)
+![MacSync LDSS X1 LoRaWAN door status sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-ldss-x1-lorawan-door-status-sensor-dimensions.webp)
 
 
 
