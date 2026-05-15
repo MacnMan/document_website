@@ -558,7 +558,6 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
   </div>
 </div>
 
-
 ---
 
 <h2 className="device-section-title">
