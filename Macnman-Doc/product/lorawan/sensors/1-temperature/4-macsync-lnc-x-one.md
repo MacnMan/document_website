@@ -108,7 +108,6 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 ----
 
-
 <h2 className="device-section-title">
   ## Key Features
 </h2>
