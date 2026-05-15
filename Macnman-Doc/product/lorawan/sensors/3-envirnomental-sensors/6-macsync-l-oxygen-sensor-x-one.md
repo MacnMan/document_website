@@ -61,7 +61,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-l-h2s-x1-lorawan-hydrogen-sulfide-gas-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-loxgs-x1-lorawan-oxygen-monitoring-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
