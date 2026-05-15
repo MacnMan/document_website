@@ -50,7 +50,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 | ![MacSync LDSS X1 LoRaWAN door status sensor for industrial door monitoring](/img/lorawan/sensors/macsync/macsync-ldss-x1-lorawan-door-status-sensor-front-view.webp) | ![Wireless LoRaWAN door status sensor for warehouse and smart building monitoring](/img/lorawan/sensors/macsync/macsync-ldss-x1-lorawan-door-status-sensor-side-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Industrial IP65 LoRaWAN door sensor for real-time open and close detection](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-toxic-gas-sensor-industrial-view.webp) | ![MacSync LDSS X1 wireless magnetic door status sensor for Industrial IoT deployments](/img/lorawan/sensors/macsync/macsync-lh2s-x1-wireless-h2s-gas-monitoring-sensor.webp) |
+| ![Industrial IP65 LoRaWAN door sensor for real-time open and close detection](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LDSS X1 wireless magnetic door status sensor for Industrial IoT deployments](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 --- 
 
