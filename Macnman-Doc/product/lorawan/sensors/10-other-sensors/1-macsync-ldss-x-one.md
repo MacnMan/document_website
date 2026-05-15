@@ -48,8 +48,7 @@ With configurable uplink intervals, event-based transmission, BLE configuration 
 
 Its rugged industrial enclosure, IP65 protection, low-power battery operation, and AES-encrypted wireless communication make it suitable for harsh indoor and outdoor industrial deployments requiring reliable wireless door status monitoring.
 
-
-| ![MacSync LDSS X1 LoRaWAN door status sensor for industrial door monitoring](/img/lorawan/sensors/macsync/macsync-lh2s-x1-industrial-hydrogen-sulfide-sensor-mounted.webp) | ![Wireless LoRaWAN door status sensor for warehouse and smart building monitoring](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-front-view.webp) |
+| ![MacSync LDSS X1 LoRaWAN door status sensor for industrial door monitoring](/img/lorawan/sensors/macsync/macsync-ldss-x1-lorawan-door-status-sensor-front-view.webp) | ![Wireless LoRaWAN door status sensor for warehouse and smart building monitoring](/img/lorawan/sensors/macsync/macsync-ldss-x1-lorawan-door-status-sensor-side-view.webp) |
 |--------------------------------|--------------------------------|
 | ![Industrial IP65 LoRaWAN door sensor for real-time open and close detection](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-toxic-gas-sensor-industrial-view.webp) | ![MacSync LDSS X1 wireless magnetic door status sensor for Industrial IoT deployments](/img/lorawan/sensors/macsync/macsync-lh2s-x1-wireless-h2s-gas-monitoring-sensor.webp) |
 
@@ -59,7 +58,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-lc2h4gs-x1-lorawan-ethylene-gas-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-ldss-x1-lorawan-door-status-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -72,7 +71,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync LC2H4 X1</p>
+      <p>Click here to view the decoders for MacSync LDSS X1</p>
     </div>
   </a>
 </div>
@@ -87,53 +86,53 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Industrial Grade Ethylene Gas Sensing</strong>
-  High‑accuracy electrochemical ethylene sensing technology for reliable real‑time ethylene (C₂H₄) concentration monitoring.
+  <strong>Real-Time Door Open & Close Detection</strong>
+  Continuously monitors door open and close activity for industrial facilities, warehouses, smart buildings, and Industrial IoT deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Real-Time LoRaWAN® Ethylene Monitoring</strong>
-  Continuously monitors ethylene gas concentration using long‑range LoRaWAN® wireless communication for Industrial IoT deployments.
+  <strong>LoRaWAN® Wireless Door Monitoring</strong>
+  Long-range wireless communication enables remote door status monitoring across large industrial and commercial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Fruit Ripening Analytics</strong>
-  Designed for monitoring ethylene levels in banana ripening chambers, apple storage facilities, and post‑harvest agriculture environments.
+  <strong>Magnetic Reed Switch Sensing</strong>
+  High-reliability magnetic contact sensing technology for accurate door position and access detection.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Cold Storage Ethylene Detection</strong>
-  Helps optimize food storage conditions and monitor ethylene accumulation in cold storage warehouses and food logistics infrastructure.
+  <strong>Instant Event-Based Transmission</strong>
+  Real-time event-triggered uplink transmission for immediate door open, close, and tamper alerts.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ultra-Low-Power LoRaWAN® Connectivity</strong>
-  Long‑range wireless communication with ultra‑low‑power architecture for multi‑year battery‑powered operation.
+  <strong>Ultra-Low-Power Architecture</strong>
+  Optimized low-power electronics enable long battery life for multi-year wireless deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Threshold-Based Ethylene Alerts</strong>
-  Configurable threshold alerts provide rapid notification during abnormal ethylene gas concentration conditions.
+  <strong>Cold Storage Door Monitoring</strong>
+  Monitor freezer and cold storage door activity to improve energy efficiency and reduce temperature leakage.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Industrial-Grade IP65 Enclosure</strong>
-  Rugged enclosure designed for harsh industrial, agriculture, greenhouse, and food warehouse deployments.
+  Rugged enclosure designed for warehouses, factories, utility infrastructure, and harsh industrial environments.
 </div>
 
 <div className="reusable-feature-card">
   <strong>BLE Configuration via Maya App</strong>
-  Configure, diagnose, and manage the LoRaWAN® ethylene sensor wirelessly using the Macnman Maya mobile application.
+  Configure, diagnose, and manage the LoRaWAN® door status sensor wirelessly using the Macnman Maya mobile application.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Cloud & Industrial IoT Integration</strong>
-  Seamlessly integrates with LoRaWAN® gateways, MQTT platforms, SCADA systems, and cloud analytics dashboards.
+  <strong>Cloud, SCADA & Industrial IoT Integration</strong>
+  Seamlessly integrates with LoRaWAN® gateways, MQTT servers, SCADA systems, and cloud monitoring dashboards.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Wireless Gas Monitoring</strong>
-  AES‑encrypted wireless communication ensures secure and reliable ethylene monitoring data transmission.
+  <strong>Secure AES-Encrypted Communication</strong>
+  AES-128 encrypted wireless communication ensures secure and reliable transmission of door activity data.
 </div>
 
 </div>
@@ -147,53 +146,53 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Cold Storage Ethylene Monitoring</strong>
-  Real‑time ethylene gas monitoring inside cold storage facilities to maintain produce freshness and storage quality.
+  <strong>Warehouse Door Monitoring</strong>
+  Real-time monitoring of warehouse shutter doors, loading bays, storage access points, and inventory movement areas.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Fruit Ripening Chambers</strong>
-  Monitor ethylene concentration inside banana ripening chambers and fruit processing facilities.
+  <strong>Cold Storage Door Monitoring</strong>
+  Detect freezer and cold storage door activity to maintain temperature stability and improve energy efficiency.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Agriculture Monitoring</strong>
-  Wireless LoRaWAN® ethylene monitoring for agriculture automation and smart farming infrastructure.
+  <strong>Smart Building Access Monitoring</strong>
+  Wireless monitoring of office doors, restricted access zones, and commercial building infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Food Warehouses & Logistics</strong>
-  Detect ethylene accumulation across food warehouses, storage containers, and logistics infrastructure.
+  <strong>Industrial Security Monitoring</strong>
+  Monitor unauthorized door access and industrial facility activity across factories and manufacturing plants.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Apple & Produce Storage Facilities</strong>
-  Optimize post‑harvest storage conditions by continuously monitoring ethylene gas concentration.
+  <strong>Server Room Door Monitoring</strong>
+  Detect server room access events and maintain visibility of critical infrastructure activity.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Greenhouse Monitoring</strong>
-  Monitor ethylene levels inside greenhouses and controlled agriculture environments.
+  <strong>Remote Facility Monitoring</strong>
+  Long-range LoRaWAN® door monitoring for unmanned utility stations, telecom sites, and remote industrial facilities.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Post-Harvest Agriculture Analytics</strong>
-  Improve crop shelf life and freshness using real‑time ethylene analytics and predictive monitoring.
+  <strong>Utility Cabinet & Panel Monitoring</strong>
+  Monitor electrical cabinets, telecom enclosures, and outdoor utility infrastructure for unauthorized access.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Agriculture Supply Chain Monitoring</strong>
-  Track ethylene concentration during transportation and storage of fruits and vegetables.
+  <strong>Logistics & Supply Chain Monitoring</strong>
+  Track loading dock access, cargo movement, and storage area activity across logistics operations.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial IoT Ethylene Analytics</strong>
-  Integrate ethylene monitoring data into SCADA systems, cloud dashboards, and Industrial IoT analytics platforms.
+  <strong>Industrial IoT Door Analytics</strong>
+  Integrate real-time door activity data into SCADA systems, cloud dashboards, and Industrial IoT platforms.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Remote LoRaWAN® Ethylene Monitoring</strong>
-  Long‑range wireless ethylene monitoring for distributed agriculture and industrial deployments.
+  <strong>Smart Factory Infrastructure Monitoring</strong>
+  Enable centralized visibility of factory door activity and operational access events in Industry 4.0 deployments.
 </div>
 
 </div>
@@ -201,57 +200,42 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 ---
 
 <div class="device-config-section">
-  <div class="device-config-title">Ethylene (C₂H₄) Measurement</div>
+  <div class="device-config-title">Door Status Detection</div>
   <div class="device-config-table">
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Gas Detected</div>
-      <div class="device-config-right">Ethylene (C₂H₄)</div>
+      <div class="device-config-left">Detection Technology</div>
+      <div class="device-config-right">Magnetic Reed Switch Detection</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Detection Range</div>
-      <div class="device-config-right">0 – 100 ppm</div>
+      <div class="device-config-left">Door Status Detection</div>
+      <div class="device-config-right">Open / Close Status</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Maximum Detectable Concentration</div>
-      <div class="device-config-right">200 ppm</div>
+      <div class="device-config-left">Trigger Distance</div>
+      <div class="device-config-right">Configurable magnetic trigger gap</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Sensitivity</div>
-      <div class="device-config-right">0.04 ± 0.012 µA/ppm</div>
+      <div class="device-config-left">Event Reporting</div>
+      <div class="device-config-right">Instant event-based uplink transmission</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Filter Characteristics</div>
-      <div class="device-config-right">Filtering SOₓ / NOₓ & H₂S</div>
+      <div class="device-config-left">Tamper Detection</div>
+      <div class="device-config-right">Supported</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Measurement Resolution</div>
-      <div class="device-config-right">0.5 ppm</div>
+      <div class="device-config-left">Door Activity Logging</div>
+      <div class="device-config-right">Supported</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Repeatability</div>
-      <div class="device-config-right">1% of Output</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Response Time (T90)</div>
-      <div class="device-config-right">&lt; 30 Seconds</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Operating Temperature Range</div>
-      <div class="device-config-right">-20°C ~ +50°C</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Expected Sensor Operating Life</div>
-      <div class="device-config-right">3 Years in Air</div>
+      <div class="device-config-left">Detection Accuracy</div>
+      <div class="device-config-right">High reliability magnetic sensing</div>
     </div>
 
   </div>
@@ -354,7 +338,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Threshold-Based Alerts</div>
-      <div class="device-config-right">Configurable oxygen concentration threshold alerts for event-triggered transmission</div>
+      <div class="device-config-right">Configurable door open/close event alerts for event-triggered transmission</div>
     </div>
 
     <div class="device-config-row">
@@ -563,7 +547,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 ---
 
 <h2 className="device-section-title">
-  ## MacSync LC2H4 X1 Variants
+  ## MacSync LDSS X1 Variants
 </h2>
 
 <table className="parameter-table">
@@ -577,15 +561,15 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LC2H4 X1 BO</td>
+      <td>MacSync LDSS X1 BO</td>
       <td>Battery Powered</td>
-      <td>Remote and low-power LoRaWAN® ethylene monitoring deployments</td>
+      <td>Remote and low-power LoRaWAN® door monitoring deployments</td>
       <td>833</td>
     </tr>
     <tr>
-      <td>MacSync LC2H4 X1 PO</td>
+      <td>MacSync LDSS X1 PO</td>
       <td>External Power (9 ~ 36 V DC)</td>
-      <td>Continuous powered industrial ethylene monitoring deployments</td>
+      <td>Continuous powered industrial door monitoring deployments</td>
       <td>832</td>
     </tr>
   </tbody>
@@ -599,7 +583,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 Make sure the box contains the following items before installation.
 
-- MacSync LC2H4 X1 LoRaWAN® Ethylene Sensor
+- MacSync LDSS X1 LoRaWAN® Door Status Sensor
 - Mounting Clip
 - User Manual
 - Warranty Card
@@ -617,12 +601,12 @@ Accessories marked with * must be purchased separately and may not be included i
 ---
 
 <h2 className="device-section-title">
-  ## MacSync LC2H4 X1 Product Dimensions
+  ## MacSync LDSS X1 Product Dimensions
 </h2>
 
-The MacSync LC2H4 X1 features a compact industrial-grade enclosure with overall dimensions of **165 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across cold storage facilities, food warehouses, agriculture deployments, industrial environments, and smart monitoring infrastructure.
+The MacSync LDSS X1 features a compact industrial-grade enclosure with overall dimensions of **165 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across warehouses, industrial facilities, smart buildings, utility infrastructure, and Industrial IoT deployments.
 
-![MacSync LC2H4 X1 LoRaWAN ethylene sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-dimensions.webp)
+![MacSync LDSS X1 LoRaWAN door status sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-dimensions.webp)
 
 
 
