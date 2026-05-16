@@ -699,5 +699,4 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 The MacSync LCO2 X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart buildings, offices, hospitals, classrooms, warehouses, commercial facilities, and indoor environmental monitoring deployments.
 
-![MacSync LCO2 X1 LoRaWAN CO2 sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
-
+![MacSync LCO2 X1 LoRaWAN CO2 sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-l-odor-x2-lorawan-odor-monitoring-sensor-dimensions.webp)
