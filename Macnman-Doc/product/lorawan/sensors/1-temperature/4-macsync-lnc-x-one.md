@@ -611,128 +611,49 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
       <th>Variant Code</th>
       <th>Temperature Range</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
       <th>Ideal Use Case</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LNCT-X1-PO</td>
-      <td>Up to 150&nbsp;°C</td>
-      <td>12–24&nbsp;V DC (External Power)</td>
-      <td>—</td>
-      <td>Low-temperature industrial surfaces, machinery, and process equipment</td>
+      <td>MacSync LNCT X1 PO</td>
+      <td>0 °C to 600 °C</td>
+      <td>External Power (9–36 V DC)</td>
+      <td>Industrial machinery, process equipment, furnaces, ovens, and surface temperature monitoring applications</td>
+      <th>804</th>
     </tr>
     <tr>
-      <td>MacSync-LNCT-X1-BO</td>
-      <td>Up to 150&nbsp;°C</td>
-      <td>Battery Operated</td>
-      <td>19&nbsp;Ah</td>
-      <td>Remote assets and installations with no external power availability</td>
+      <td>MacSync LNCT X1 BO</td>
+      <td>0 °C to 600 °C</td>
+      <td>Inbuilt Battery (19 Ah)</td>
+      <td>Remote industrial assets and wireless thermal monitoring deployments without external power availability</td>
+      <th>805</th>
     </tr>
     <tr>
-      <td>MacSync-LNCT-X2-PO</td>
-      <td>Up to 300&nbsp;°C</td>
-      <td>12–24&nbsp;V DC (External Power)</td>
-      <td>—</td>
-      <td>Medium-temperature processes, conveyors, motors, and rotating equipment</td>
-    </tr>
-    <tr>
-      <td>MacSync-LNCT-X2-BO</td>
-      <td>Up to 300&nbsp;°C</td>
-      <td>Battery Operated</td>
-      <td>19&nbsp;Ah</td>
-      <td>Battery-powered monitoring of moving or hard-to-wire assets</td>
-    </tr>
-    <tr>
-      <td>MacSync-LNCT-X3-PO</td>
-      <td>Up to 600&nbsp;°C</td>
-      <td>12–24&nbsp;V DC (External Power)</td>
-      <td>—</td>
-      <td>High-temperature industrial equipment such as ovens, dryers, and heaters</td>
-    </tr>
-    <tr>
-      <td>MacSync-LNCT-X3-BO</td>
-      <td>Up to 600&nbsp;°C</td>
-      <td>Battery Operated</td>
-      <td>19&nbsp;Ah</td>
-      <td>Remote high-temperature assets requiring long battery life</td>
-    </tr>
-    <tr>
-      <td>MacSync-LNCT-X4-PO</td>
-      <td>Up to 1200&nbsp;°C</td>
-      <td>12–24&nbsp;V DC (External Power)</td>
-      <td>—</td>
-      <td>Steel plants, foundries, furnaces, kilns, and metallurgical processes</td>
-    </tr>
-    <tr>
-      <td>MacSync-LNCT-X4-BO</td>
-      <td>Up to 1200&nbsp;°C</td>
-      <td>Battery Operated</td>
-      <td>19&nbsp;Ah</td>
-      <td>Remote furnace and kiln monitoring where wiring is impractical</td>
-    </tr>
-    <tr>
-      <td>MacSync-LNCT-X5-PO</td>
-      <td>Up to 1500&nbsp;°C</td>
-      <td>12–24&nbsp;V DC (External Power)</td>
-      <td>—</td>
-      <td>Extreme-temperature applications such as molten metal and high-energy furnaces</td>
-    </tr>
-    <tr>
-      <td>MacSync-LNCT-X5-BO</td>
-      <td>Up to 1500&nbsp;°C</td>
-      <td>Battery Operated</td>
-      <td>19&nbsp;Ah</td>
-      <td>Wireless extreme-temperature monitoring in hazardous or inaccessible areas</td>
+      <td>MacSync LNCT X2 PO</td>
+      <td>0 °C to 1500 °C</td>
+      <td>External Power (9–36 V DC)</td>
+      <td>Steel plants, foundries, kilns, rolling mills, molten metal monitoring, and extreme-temperature industrial processes</td>
+      <th>806</th>
     </tr>
   </tbody>
 </table>
-
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
-
--->
 
 <h2 className="device-section-title">
   ## What's in the Box ?
 </h2>
+
+Make sure box contains following items before installations
+
+- MacSync LNCT Sensor 
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
+
 
 Make sure box contains following items before installations
 
@@ -748,6 +669,8 @@ not be included in the box.
 <h2 className="device-section-title">
   ##  MacSync LNCT Dimensions
 </h2>
+
+The MacSync LNCT Xx features a rugged industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across factories, furnaces, kilns, power plants, steel industries, outdoor industrial environments, and Industrial IoT thermal monitoring deployments.
 
 ![MacSync-LNC-Xx Industrial LoRaWAN Non-Contact Infrared Temperature Sensor Dimensions Drawing](/img/lorawan/sensors/macsync/macsync-lnc-xx-industrial-lorawan-infrared-temperature-sensor-dimensions.webp)
 

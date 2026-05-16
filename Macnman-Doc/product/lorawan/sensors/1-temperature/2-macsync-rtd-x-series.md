@@ -588,6 +588,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
       <th>RTD Type</th>
       <th>Power Option</th>
       <th>Ideal Use Case</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
@@ -596,12 +597,14 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
       <td>PT100</td>
       <td>9–36 V DC Power</td>
       <td>High-precision temperature monitoring in automation systems</td>
+      <th>807</th>
     </tr>
     <tr>
       <td>MacSync LRTD X1 BO</td>
       <td>PT100</td>
       <td>Battery (Multi-year)</td>
       <td>Cold-chain, pipelines & predictive maintenance monitoring</td>
+      <th>808</th>
     </tr>
   </tbody>
 </table>
@@ -611,9 +614,9 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
   ## What's in the Box ?
 </h2>
 
-
 Make sure box contains following items before installations
-- MacSync Model
+
+- MacSync LRTD X1
 - Mounting Clip
 - User Manual
 - Warranty Card
