@@ -83,7 +83,7 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync LTS X1</p>
+      <p>Click here to view the decoders for MacSync L Odor X1</p>
     </div>
   </a>
 </div>
@@ -430,7 +430,7 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Threshold-Based Alerts</div>
-      <div class="device-config-right">Configurable temperature and humidity thresholds for event-triggered transmission</div>
+      <div class="device-config-right">Configurable odor threshold alerts for event-triggered transmission</div>
     </div>
 
     <div class="device-config-row">
@@ -649,22 +649,22 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>MacSync L Odor X1 BO</td>
-      <td>Battery</td>
-      <td>19 Ah</td>
+      <td>19,000 mAh Battery</td>
       <td>Remote or portable deployments with low power</td>
+      <th>818</th>
     </tr>
         <tr>
       <td>MacSync L Odor X1 PO</td>
       <td>External Power (9–36 V DC)</td>
-      <td>-</td>
       <td>Continuous powered industrial and infrastructure deployments</td>
+      <th>817</th>
     </tr>
   </tbody>
 </table>
@@ -689,8 +689,7 @@ Make sure box contains following items before installations
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Accessories marked with (*) must be purchased separately and may not be included in the box.
 
 :::
 
@@ -700,7 +699,7 @@ not be included in the box.
   ## Product Dimensions
 </h2>
 
-The MacSync L Odor X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart washrooms, industrial facilities, and environmental monitoring deployments.
+The MacSync L Odor X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart washrooms, STP & WWTP facilities, waste management infrastructure, chemical factories, and environmental odor monitoring deployments.
 
 ![MacSync L Odor X1 LoRaWAN odor sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
 

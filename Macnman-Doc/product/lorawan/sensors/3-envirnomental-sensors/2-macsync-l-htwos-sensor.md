@@ -39,7 +39,7 @@ keywords:
   - macnman lorawan gas sensor
 ---
 
-# MacSync LH2S X1 - Industrial LoRaWAN H2S Gas Monitoring Sensor
+# MacSync LH2S X1 LoRaWAN H₂S Gas Monitoring Sensor Datasheet
 
 <h2 className="device-section-title">
   ## Product Overview
