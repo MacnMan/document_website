@@ -603,8 +603,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
       <th>Variant Name</th>
       <th>Power Source</th>
       <th>Battery Capacity</th>
-      <th>Solar Support</th>
-      <th>External Flash</th>
+      <th>SKU</th>
       <th>Ideal For</th>
     </tr>
   </thead>
@@ -613,16 +612,14 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
       <td>MacSync-LTS X1 PO</td>
       <td>12–24 V DC</td>
       <td>✖️</td>
-      <td>✖️</td>
-      <td>✔️</td>
+      <td>802</td>
       <td>Industrial or commercial sites with stable power supply</td>
     </tr>
     <tr>
       <td>MacSync-LTS X1 BO</td>
       <td>Battery</td>
       <td>19 Ah</td>
-      <td>✖️</td>
-      <td>✔️</td>
+      <td>801</td>
       <td>Remote or portable deployments with low power</td>
     </tr>
   </tbody>
@@ -634,6 +631,15 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
   ## What's in the Box?
 </h2>
 
+Make sure box contains following items before installations
+
+- MacSync LTS X1 Sensor
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
 
 Ensure the following items are available before installation.
 
@@ -647,11 +653,11 @@ Accessories may not be included in the package and must be purchased separately.
 
 ---
 
-
 <h2 className="device-section-title">
   ##  MacSync LTS X1 Dimensions
 </h2>
 
+The MacSync LTS X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across warehouses, cold storage facilities, smart agriculture deployments, industrial environments, and outdoor IoT monitoring infrastructure.
 
 ![MacSync LTS X1 LoRaWAN temperature humidity sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
 

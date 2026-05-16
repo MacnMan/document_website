@@ -634,5 +634,7 @@ not be included in the box.
   ##  MacSync LRTD X1 Dimensions
 </h2>
 
+The MacSync LRTD X1 features a compact industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across factories, process plants, pipelines, cold-chain infrastructure, industrial automation systems, and outdoor Industrial IoT deployments.
+
 ![MacSync LRTD X1 LoRaWAN RTD Temperature Sensor device dimensions for industrial PT100 temperature monitoring applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-lorawan-rtd-temperature-sensor-device-dimensions.webp)
 
