@@ -84,7 +84,7 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for Narmada TSX1</p>
+      <p>Click here to view the decoders for MacRay LUS X1</p>
     </div>
   </a>
 </div>
@@ -92,7 +92,7 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 ---
 
 <h2 className="device-section-title">
-  ## Key Feaures
+  ## Key Features
 </h2>
 
 
@@ -526,37 +526,44 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>MacRay LUS X1 PO</td>
       <td>External Power (9–36 V DC)</td>
-      <td>-</td>
-      <td>Remote sewer systems, underground drainage monitoring, flood detection infrastructure, smart city manholes, wastewater monitoring, reservoirs, industrial tanks, and unmanned Industrial IoT deployments</td>
+      <td>Industrial tanks, wastewater treatment plants, reservoirs, smart drainage infrastructure, process automation systems, and continuous industrial level monitoring deployments</td>
+      <th>809</th>
     </tr>
-        <tr>
+    <tr>
       <td>MacRay LUS X1 BO</td>
-      <td>Battery</td>
-      <td>8 Ah</td>
-      <td>Industrial tanks, wastewater treatment plants, chemical storage systems, reservoirs, process automation infrastructure, smart water utilities, and continuous industrial level monitoring applications</td>
+      <td>Inbuilt Battery 08 Ah</td>
+      <td>Remote sewer systems, underground drainage monitoring, flood detection infrastructure, smart city manholes, reservoirs, wastewater monitoring, and unmanned Industrial IoT deployments</td>
+      <th>810</th>
     </tr>
   </tbody>
 </table>
 
 
-## What's in the box ?
+## What's in the Box?
 
 Make sure box contains following items before installations
+
+- MacRay LUS X1 Sensor 
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
 
 ![MacRay LUS X1 LoRaWAN ultrasonic level sensor what's included in the box](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Accessories marked with (*) must be purchased separately and may not be included in the box.
 
 :::
 
@@ -565,7 +572,7 @@ not be included in the box.
 ## MacRay LUS X1 Dimensions
 </h2>
 
-Compact industrial enclosure with dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, and space-constrained industrial deployments.
+The MacRay LUS X1 features a compact industrial-grade enclosure with overall dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, tanks, manholes, drainage systems, and space-constrained industrial IoT deployments.
 
 
 ![MacRay LUS X1 LoRaWAN Ultrasonic Level Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/macray/macray-lus-x1-lorawan-ultrasonic-level-sensor-dimensions.webp)

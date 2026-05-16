@@ -549,6 +549,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
       <th>Sensor Grid Pattern</th>
       <th>Coverage</th>
       <th>Recommended Use</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
@@ -557,34 +558,38 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
       <td>2 × 2 (4‑point ToF)</td>
       <td>Narrow zone detection</td>
       <td>Doorway people counting / Access control</td>
+      <th>811</th>
     </tr>
     <tr>
   <td>MacRay LToF X1 BO</td>
   <td>2 × 2 (4-point ToF)</td>
   <td>Narrow zone detection</td>
   <td>Battery-powered doorway occupancy monitoring / Remote access analytics</td>
+  <th>812</th>
 </tr>
     <tr>
       <td>MacRay LToF X2 PO</td>
       <td>4 × 4 (16‑point ToF)</td>
       <td>Medium area coverage</td>
       <td>Room occupancy analytics / Facility automation</td>
+      <th>813</th>
     </tr>
     <tr>
   <td>MacRay LToF X2 BO</td>
   <td>4 × 4 (16-point ToF)</td>
   <td>Medium area coverage</td>
   <td>Battery-powered room occupancy analytics / Smart building monitoring</td>
+  <th>814</th>
 </tr>
     <tr>
       <td>MacRay LToF X3 PO</td>
       <td>8 × 8 (64‑point ToF)</td>
       <td>Wider coverage with higher precision</td>
       <td>Zone activity mapping / Retail & smart workspace analytics</td>
+      <th>815</th>
     </tr>
   </tbody>
 </table>
-
 
 
 <h2 className="device-section-title">
@@ -592,6 +597,15 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 </h2>
 
 Make sure box contains following items before installations
+
+- MacRay LToF Xx Sensor 
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
+
 
 ![![MacRay LToF LoRaWAN Time-of-Flight Sensor What's Included in the Box]](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
