@@ -5,6 +5,7 @@ sidebar_position: 1
 description: Industrial LoRaWAN® H2S sensor for continuous hydrogen sulfide gas monitoring in STP, WWTP, sewers, oil & gas facilities, confined spaces, and industrial safety applications.
 
 keywords:
+
   - lorawan h2s sensor
   - hydrogen sulfide sensor lorawan
   - lorawan hydrogen sulfide sensor
