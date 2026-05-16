@@ -71,7 +71,6 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
   ## Download Center
 </h2>
 
-
 <div className="icon-card-grid">
   <a href="/docs/downloads/macsync-lco2-xx-lorawan-co2-monitoring-sensor-datasheet.pdf" 
   className="icon-card">
@@ -699,8 +698,8 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
       <th>Variant Name</th>
       <th>CO₂ Range</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
@@ -708,29 +707,29 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
       <td>MacSync LCO2 X1 BO</td>
       <td>400 ppm ~ 2,000 ppm</td>
       <td>Battery Powered</td>
-      <td>19 Ah</td>
       <td>Classrooms, offices, smart buildings, schools, and indoor air quality monitoring deployments</td>
+      <th>820</th>
     </tr>
     <tr>
       <td>MacSync LCO2 X1 PO</td>
       <td>400 ppm ~ 2,000 ppm</td>
       <td>External Power (9 ~ 36 V DC)</td>
-      <td>-</td>
       <td>Continuous powered HVAC automation and commercial indoor environmental monitoring</td>
+      <th>821</th>
     </tr>
     <tr>
       <td>MacSync L CO2 X2 BO</td>
       <td>400 ppm ~ 5,000 ppm</td>
       <td>Battery Powered</td>
-      <td>19 Ah</td>
       <td>Industrial indoor air quality monitoring, warehouses, laboratories, and high CO₂ concentration environments</td>
+      <th>822</th>
     </tr>
     <tr>
       <td>MacSync L CO2 X2 PO</td>
       <td>400 ppm ~ 5,000 ppm</td>
       <td>External Power (9 ~ 36 V DC)</td>
-      <td>-</td>
       <td>Factories, underground parking areas, commercial kitchens, industrial HVAC systems, and continuous high-range CO₂ monitoring deployments</td>
+      <th>823</th>
     </tr>
   </tbody>
 </table>
