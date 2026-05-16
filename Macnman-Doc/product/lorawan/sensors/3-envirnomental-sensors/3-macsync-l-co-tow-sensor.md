@@ -1,6 +1,6 @@
 ---
 id: macsync-l-co2-xx-datasheet
-title: MacSync L CO2 X1
+title: MacSync LCO2 X1
 sidebar_position: 1
 
 description: Industrial LoRaWAN® CO2 sensor for real-time indoor air quality monitoring, HVAC automation, smart buildings, classrooms, offices, hospitals, warehouses, and industrial environmental monitoring applications.
@@ -38,32 +38,32 @@ keywords:
   - low power co2 sensor
   - indoor environmental monitoring sensor
   - macsync co2 sensor
-  - macsync l co2 x1
+  - MacSync LCO2 X1
   - macnman lorawan co2 sensor
 ---
 
-# MacSync L CO2 X1 Industrial LoRaWAN CO2 Sensor Datasheet
+# MacSync LCO2 X1 Industrial LoRaWAN CO2 Sensor Datasheet
 <h2 className="device-section-title">
   ## Product Overview
 </h2>
 
-**MacSync L CO2 X1** is an industrial-grade **LoRaWAN® CO₂ Sensor** engineered for continuous, real-time monitoring of indoor carbon dioxide (CO₂) concentration, temperature, and humidity across smart buildings, offices, schools, hospitals, warehouses, factories, commercial facilities, and industrial indoor environments. Designed for intelligent indoor air quality (IAQ) monitoring and energy-efficient HVAC automation, the sensor delivers reliable long-range wireless CO₂ monitoring using ultra-low-power LoRaWAN® connectivity.
+**MacSync LCO2 X1** is an industrial-grade **LoRaWAN® CO₂ Sensor** engineered for continuous, real-time monitoring of indoor carbon dioxide (CO₂) concentration, temperature, and humidity across smart buildings, offices, schools, hospitals, warehouses, factories, commercial facilities, and industrial indoor environments. Designed for intelligent indoor air quality (IAQ) monitoring and energy-efficient HVAC automation, the sensor delivers reliable long-range wireless CO₂ monitoring using ultra-low-power LoRaWAN® connectivity.
 
-Built around a highly accurate **NDIR (Non-Dispersive Infrared) CO₂ sensing module**, MacSync L CO2 X1 continuously measures carbon dioxide concentration in ppm with exceptional long-term stability and automatic calibration support. The device also integrates temperature and humidity monitoring, enabling complete environmental intelligence for occupancy-based ventilation control, workplace wellness, indoor comfort optimization, and smart building automation.
+Built around a highly accurate **NDIR (Non-Dispersive Infrared) CO₂ sensing module**, MacSync LCO2 X1 continuously measures carbon dioxide concentration in ppm with exceptional long-term stability and automatic calibration support. The device also integrates temperature and humidity monitoring, enabling complete environmental intelligence for occupancy-based ventilation control, workplace wellness, indoor comfort optimization, and smart building automation.
 
-Poor indoor air quality and elevated CO₂ levels can significantly impact productivity, concentration, cognitive performance, ventilation efficiency, and occupant health. MacSync L CO2 X1 enables organizations to proactively monitor indoor environmental conditions, optimize fresh-air circulation, improve ventilation efficiency, and maintain healthier indoor environments through real-time wireless CO₂ monitoring.
+Poor indoor air quality and elevated CO₂ levels can significantly impact productivity, concentration, cognitive performance, ventilation efficiency, and occupant health. MacSync LCO2 X1 enables organizations to proactively monitor indoor environmental conditions, optimize fresh-air circulation, improve ventilation efficiency, and maintain healthier indoor environments through real-time wireless CO₂ monitoring.
 
 Powered by ultra-low-power **LoRaWAN® Class A wireless communication**, the sensor supports long-range indoor deployment with multi-year battery operation and secure AES-encrypted data transmission over both public and private LoRaWAN® networks. This makes the device ideal for retrofit projects, large campus deployments, smart city infrastructure, and industrial indoor monitoring applications where wired installations are difficult or expensive.
 
 The compact industrial enclosure is designed for reliable operation across commercial and industrial indoor environments including offices, classrooms, conference rooms, healthcare facilities, factories, clean rooms, warehouses, shopping centers, laboratories, and public infrastructure buildings. Its modern low-profile design enables clean wall-mounted installation while maintaining industrial-grade durability.
 
-MacSync L CO2 X1 also supports BLE-based configuration through the **Macnman Maya App** for simplified provisioning, diagnostics, OTA configuration, and field maintenance without requiring specialized commissioning tools.
+MacSync LCO2 X1 also supports BLE-based configuration through the **Macnman Maya App** for simplified provisioning, diagnostics, OTA configuration, and field maintenance without requiring specialized commissioning tools.
 
-Whether deployed for **smart building automation, HVAC optimization, indoor air quality compliance, classroom ventilation monitoring, hospital air-quality monitoring, occupancy-driven ventilation control, industrial indoor safety, or energy-efficient infrastructure projects**, MacSync L CO2 X1 transforms indoor environmental data into actionable real-time intelligence for healthier, safer, and more energy-efficient spaces.
+Whether deployed for **smart building automation, HVAC optimization, indoor air quality compliance, classroom ventilation monitoring, hospital air-quality monitoring, occupancy-driven ventilation control, industrial indoor safety, or energy-efficient infrastructure projects**, MacSync LCO2 X1 transforms indoor environmental data into actionable real-time intelligence for healthier, safer, and more energy-efficient spaces.
 
-| ![MacSync L CO2 X1 LoRaWAN CO2 sensor front view for indoor air quality monitoring](/img/lorawan/sensors/macsync/macsync-l-co2-x1-industrial-co2-monitoring-sensor.webp)     | ![MacSync L CO2 X1 wireless CO2 monitoring sensor with LoRaWAN connectivity for smart buildings](/img/lorawan/sensors/macsync/macsync-l-co2-x1-lorawan-co2-sensor-front-view.webp) |
+| ![MacSync LCO2 X1 LoRaWAN CO2 sensor front view for indoor air quality monitoring](/img/lorawan/sensors/macsync/macsync-l-co2-x1-industrial-co2-monitoring-sensor.webp)     | ![MacSync LCO2 X1 wireless CO2 monitoring sensor with LoRaWAN connectivity for smart buildings](/img/lorawan/sensors/macsync/macsync-l-co2-x1-lorawan-co2-sensor-front-view.webp) |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Industrial LoRaWAN CO2 sensor with wall-mount enclosure for indoor environmental monitoring](/img/lorawan/sensors/macsync/macsync-l-co2-x1-smart-building-co2-sensor.webp) | ![MacSync L CO2 X1 indoor air quality sensor for HVAC and classroom ventilation monitoring](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-side-view.webp)             |
+| ![Industrial LoRaWAN CO2 sensor with wall-mount enclosure for indoor environmental monitoring](/img/lorawan/sensors/macsync/macsync-l-co2-x1-smart-building-co2-sensor.webp) | ![MacSync LCO2 X1 indoor air quality sensor for HVAC and classroom ventilation monitoring](/img/lorawan/sensors/macsync/macsync-lorawan-co-tow-sensor-side-view.webp)             |
 
 ---
 
@@ -73,7 +73,7 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
 
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-l-co2-x1-industrial-lorawan-co2-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-lco2-xx-lorawan-co2-monitoring-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -86,7 +86,7 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync L CO2 X1</p>
+      <p>Click here to view the decoders for MacSync LCO2 X1</p>
     </div>
   </a>
 </div>
@@ -690,7 +690,7 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
 
 ---
 <h2 className="device-section-title">
-  ## MacSync L CO2 X1 Variants
+  ## MacSync LCO2 X1 Variants
 </h2>
 
 <table className="parameter-table">
@@ -705,14 +705,14 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
   </thead>
   <tbody>
     <tr>
-      <td>MacSync L CO2 X1 BO</td>
+      <td>MacSync LCO2 X1 BO</td>
       <td>400 ppm ~ 2,000 ppm</td>
       <td>Battery Powered</td>
       <td>19 Ah</td>
       <td>Classrooms, offices, smart buildings, schools, and indoor air quality monitoring deployments</td>
     </tr>
     <tr>
-      <td>MacSync L CO2 X1 PO</td>
+      <td>MacSync LCO2 X1 PO</td>
       <td>400 ppm ~ 2,000 ppm</td>
       <td>External Power (9 ~ 36 V DC)</td>
       <td>-</td>
@@ -743,7 +743,7 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
 
 Make sure the box contains the following items before installation.
 
-- MacSync L CO2 X1 Sensor
+- MacSync LCO2 X1 Sensor
 - Mounting Clip
 - User Manual
 - Warranty Card
@@ -761,10 +761,10 @@ Accessories marked with * must be purchased separately and may not be included i
 ---
 
 <h2 className="device-section-title">
-  ## MacSync L CO2 X1 Product Dimensions
+  ## MacSync LCO2 X1 Product Dimensions
 </h2>
 
-The MacSync L CO2 X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart buildings, offices, hospitals, classrooms, warehouses, commercial facilities, and indoor environmental monitoring deployments.
+The MacSync LCO2 X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart buildings, offices, hospitals, classrooms, warehouses, commercial facilities, and indoor environmental monitoring deployments.
 
-![MacSync L CO2 X1 LoRaWAN CO2 sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
+![MacSync LCO2 X1 LoRaWAN CO2 sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
 

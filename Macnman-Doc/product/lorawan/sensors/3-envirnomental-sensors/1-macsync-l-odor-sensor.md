@@ -70,7 +70,7 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/MacSync L Odor X1-lorawan-odor-monitoring-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-l-odor-x1-lorawan-odor-monitoring-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
