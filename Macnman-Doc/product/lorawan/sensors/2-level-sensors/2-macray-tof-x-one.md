@@ -85,7 +85,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for Narmada TSX1</p>
+      <p>Click here to view the decoders for MacRay LToF</p>
     </div>
   </a>
 </div>
@@ -226,7 +226,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Field of View (FoV)</div>
-      <div class="device-config-right">Programmable • 26° to 60°</div>
+      <div class="device-config-right">Programmable (26° to 60°)</div>
     </div>
 
     <div class="device-config-row">
@@ -611,8 +611,7 @@ Make sure box contains following items before installations
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Accessories marked with (*) must be purchased separately and may not be included in the box.
 
 :::
 
@@ -621,7 +620,8 @@ not be included in the box.
   ## MacRay LToF Series Dimensions
 </h2>
 
-Compact industrial enclosure with dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, and space-constrained industrial deployments.
+The MacRay LToF Series features a compact industrial-grade enclosure with overall dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, smart building deployments, occupancy analytics, people counting infrastructure, and space-constrained Industrial IoT environments.
+
 
 ![MacRay LToF LoRaWAN Time-of-Flight Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
 
