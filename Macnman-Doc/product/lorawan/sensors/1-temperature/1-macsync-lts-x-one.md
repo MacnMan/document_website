@@ -603,8 +603,8 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
       <th>Variant Name</th>
       <th>Power Source</th>
       <th>Battery Capacity</th>
-      <th>SKU</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
@@ -612,15 +612,15 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
       <td>MacSync-LTS X1 PO</td>
       <td>12–24 V DC</td>
       <td>✖️</td>
-      <td>802</td>
       <td>Industrial or commercial sites with stable power supply</td>
+      <td>802</td>
     </tr>
     <tr>
       <td>MacSync-LTS X1 BO</td>
       <td>Battery</td>
       <td>19 Ah</td>
-      <td>801</td>
       <td>Remote or portable deployments with low power</td>
+      <td>801</td>
     </tr>
   </tbody>
 </table>

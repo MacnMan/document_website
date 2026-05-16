@@ -588,9 +588,8 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
       <th>Variant Name</th>
       <th>Power Source</th>
       <th>Battery Capacity</th>
-      <th>Solar Support</th>
-      <th>Flash</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
@@ -598,9 +597,8 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
       <td>Narmada TSX1</td>
       <td>Battery</td>
       <td>8 Ah</td>
-      <td>✖️</td>
-      <td>✔️</td>
       <td>Smart buildings, HVAC automation, factories, offices, warehouses, and indoor environmental monitoring</td>
+    <th>803</th>
     </tr>
   </tbody>
 </table>
@@ -611,6 +609,13 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
   ## What's in the Box?
 </h2>
 
+- Narmada TSX1 Sensor
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
 
 Ensure the following items are available before installation.
 
@@ -629,6 +634,7 @@ Accessories may not be included in the package and must be purchased separately.
 ## Narmada TSX1 Dimensions
 </h2>
 
+The Narmada TSX1 features an ultra-compact industrial enclosure with overall dimensions of **83 mm × 53 mm × 38 mm**, enabling easy installation across smart buildings, offices, HVAC systems, warehouses, server rooms, and indoor Industrial IoT monitoring deployments.
 
 ![Narmada TSX1 LoRaWAN Temperature Humidity Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/sensors/macsync/narmada-tsx1-lorawan-temperature-humidity-sensor-dimensions.webp)
 
