@@ -42,7 +42,8 @@ keywords:
   - macnman lorawan co2 sensor
 ---
 
-# MacSync LCO2 X1 Industrial LoRaWAN CO2 Sensor Datasheet
+# MacSync LCO2 X1 LoRaWAN CO₂ Sensor Datasheet
+
 <h2 className="device-section-title">
   ## Product Overview
 </h2>
@@ -427,7 +428,7 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
 
     <div class="device-config-row">
       <div class="device-config-left">Supports Major LNS</div>
-      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, On-Premise Installations</div>
+      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments</div>
     </div>
 
   </div>
@@ -706,7 +707,7 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
     <tr>
       <td>MacSync LCO2 X1 BO</td>
       <td>400 ppm ~ 2,000 ppm</td>
-      <td>Battery Powered</td>
+      <td>Inbuilt Battery (19 Ah)</td>
       <td>Classrooms, offices, smart buildings, schools, and indoor air quality monitoring deployments</td>
       <th>820</th>
     </tr>
@@ -750,11 +751,11 @@ Make sure the box contains the following items before installation.
 - Mounting Screws 
 - Power Adapter *
 
-![title image](/img/datalogger/whatsbox.svg)
+![MacSync LCO2 X1 LoRaWAN CO₂ sensor package contents](/img/datalogger/whatsbox.svg)
 
 :::note
 
-Accessories marked with * must be purchased separately and may not be included in the box.
+Accessories marked with (*) must be purchased separately and may not be included in the box.
 :::
 
 ---
