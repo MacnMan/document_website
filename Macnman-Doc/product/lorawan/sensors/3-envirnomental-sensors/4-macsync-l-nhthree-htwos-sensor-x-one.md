@@ -1,58 +1,70 @@
 ---
-id: macsync-l-nh-three-h-two-s-2-sensors
-title: MacSync-L-GSX2x
+id: macsync-lodor-x2
+title: MacSync L Odor X2
 sidebar_position: 9
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Industrial LoRaWAN odor monitoring sensor with high-precision NH₃ and H₂S sensing for wastewater plants, smart cities, industrial odor monitoring, environmental compliance, and Industrial IoT applications.
 keywords:
-  - lorawan h2s nh3 gas sensor
-  - wireless toxic gas monitoring device
-  - odor monitoring sensor for wastewater plants
-  - long range gas leak detection lorawan
-  - hydrogen sulfide environmental monitoring iot
-  - ammonia emission monitoring for livestock farms
-  - industrial gas safety sensor lorawan
-  - sewer gas monitoring aqi sensor
-  - hazardous gas detection wireless iot device
-  - refinery and chemical plant gas alarm system
-  - smart city odor surveillance sensor
-  - nh3 air quality monitoring device
-  - h2s detector for wastewater treatment
-  - battery powered lorawan gas detector
-  - toxic gas monitoring for industrial safety
-  - mining and tunnel hazardous gas sensor
-  - hydrogen sulfide ppm monitoring automation
-  - ammonia odor compliance monitoring
-  - macsync lorawan gas and odor sensor
-  - environmental odor control and AQI monitoring
+  - lorawan odor sensor
+  - wireless odor monitoring sensor
+  - industrial odor monitoring
+  - nh3 h2s odor sensor
+  - wastewater odor monitoring sensor
+  - odor monitoring system
+  - smart city odor monitoring
+  - environmental odor monitoring
+  - industrial odor analytics
+  - ammonia h2s gas sensor
+  - lorawan nh3 h2s sensor
+  - wireless odor detection sensor
+  - odor monitoring for wastewater plants
+  - sewage treatment odor monitoring
+  - industrial air quality sensor
+  - odor pollution monitoring
+  - battery powered odor sensor
+  - toxic gas odor sensor
+  - smart odor monitoring device
+  - industrial iot odor sensor
+  - h2s ammonia monitoring sensor
+  - environmental compliance monitoring
+  - odor analytics sensor
+  - macsync odor sensor
+
 ---
 
-# MacSync-L-GSX2 Datasheet
+# MacSync L Odor X2 LoRaWAN Odor Monitoring Sensor Datasheet
 
-## Product Overview
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
 
-**MacSync‑L‑GSX2** is a high‑precision **LoRaWAN® H₂S & NH₃ gas monitoring sensor**, engineered for odor management and hazardous air‑quality surveillance in industrial, municipal, and environmental applications. It continuously detects hydrogen sulfide (H₂S) and ammonia (NH₃) concentrations — gases commonly associated with worker safety risks, toxic exposure, and odor pollution.
+**MacSync LODS X2 LoRaWAN® Odor Monitoring Sensor** is a high-precision industrial odor monitoring solution designed for continuous real-time NH₃ (Ammonia) and H₂S (Hydrogen Sulfide) concentration monitoring across wastewater treatment plants, sewage infrastructure, industrial facilities, chemical factories, livestock farms, landfills, smart cities, and environmental monitoring deployments.
 
-Designed for **wastewater facilities, refineries, chemical plants, livestock farms, landfills, and smart‑city pollution monitoring**, this sensor provides real‑time alerts to prevent dangerous gas accumulation and enable rapid safety response.
+Built using ultra-low-power electronics and long-range **LoRaWAN® wireless technology**, the sensor enables reliable remote odor monitoring without requiring complex wired infrastructure. The device continuously measures NH₃ and H₂S gas concentrations to help organizations detect odor pollution, monitor hazardous gas exposure, improve worker safety, maintain environmental compliance, and reduce public odor complaints.
 
-With ultra‑long‑range **LoRaWAN® wireless connectivity**, multi‑year battery operation, and rugged **IP65-rated construction**, MacSync‑L‑GSX2 ensures reliable deployment in corrosive and harsh outdoor environments. The device also includes **BLE support via Maya App**, enabling fast provisioning, calibration check, diagnostics, and OTA configuration — without professional tools.
+The **LoRaWAN Odor Sensor** is engineered for Industrial IoT deployments where long battery life, wide-area coverage, secure wireless communication, and centralized cloud monitoring are critical. It is ideal for STP & WWTP plants, sludge treatment facilities, pumping stations, waste management infrastructure, smart city odor analytics, industrial safety systems, and environmental air-quality monitoring.
 
-Whether deployed for **odor complaint intelligence**, worker safety, environmental compliance, or automated ventilation control — **MacSync‑L‑GSX2 delivers accurate, secure, and scalable toxic gas monitoring for the most demanding field environments.**
+With configurable uplink intervals, threshold-based odor alerts, BLE configuration via the **Macnman Maya App**, and seamless integration with LoRaWAN® gateways and cloud IoT platforms, the **MacSync LODS X2** delivers scalable odor analytics for Industry 4.0 and environmental monitoring deployments.
+
+Its rugged industrial enclosure, IP65 protection, low-power battery operation, and AES-encrypted wireless communication make it suitable for harsh indoor and outdoor industrial deployments requiring reliable wireless odor monitoring.
+
 
 | ![MacSync-L-GSX2 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image-front.webp) | ![MacSync-L-GSX2 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image.webp) |
 |--------------------------------|--------------------------------|
 | ![MacSync-L-GSX2 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-GSX2 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
+--- 
 
-## Download Center
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-lco2-xx-lorawan-co2-monitoring-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -60,550 +72,632 @@ Whether deployed for **odor complaint intelligence**, worker safety, environment
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-L-GSX2</p>
+      <p>Click here to view the decoders for MacSync LCO2 X1</p>
     </div>
   </a>
 </div>
 
-<div class="faint-line"></div>
-
-## Key Features
+---
+<h2 className="device-section-title">
+  ## Key Features
+</h2>
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Dual‑Gas Detection (H₂S + NH₃)</strong>
-  Continuous monitoring of toxic and odor‑causing gases for worker safety & environmental compliance.
+  <strong>High-Precision NH₃ & H₂S Monitoring</strong>
+  Simultaneous real-time monitoring of ammonia (NH₃) and hydrogen sulfide (H₂S) concentrations for industrial odor analytics and environmental compliance.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>High Sensitivity Electrochemical Sensors</strong>
-  Accurate ppm‑level measurement with excellent repeatability and fast response.
+  <strong>LoRaWAN® Wireless Odor Monitoring</strong>
+  Long-range wireless communication enables reliable odor monitoring across wastewater plants, industrial facilities, smart cities, and remote infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial‑Grade Corrosion Resistance</strong>
-  Built for harsh gas‑rich atmospheres in wastewater, refineries & livestock zones.
+  <strong>Industrial Odor Pollution Detection</strong>
+  Detect odor-causing gases near STP, WWTP, sludge handling systems, drainage infrastructure, and waste management facilities.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Real‑Time Toxic Gas Alerts</strong>
-  Instant threshold‑based alarms enabling rapid safety and odor‑control response.
+  <strong>Real-Time Threshold-Based Alerts</strong>
+  Configurable NH₃ and H₂S threshold alerts for immediate odor event notification and rapid response.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Long‑Range LoRaWAN® Connectivity</strong>
-  Reliable remote monitoring across wide industrial campuses and smart‑city areas.
+  <strong>Ultra-Low-Power Architecture</strong>
+  Optimized low-power electronics enable long-term battery-powered wireless odor monitoring deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Rugged IP65 Outdoor Enclosure</strong>
-  Weatherproof construction for dust, rain, humidity and corrosive gas resistance.
+  <strong>Smart City Odor Analytics</strong>
+  Ideal for smart city environmental monitoring and public odor complaint management systems.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Multi‑Year Battery Operation</strong>
-  Designed for remote installations with no wired power dependency.
+  <strong>Industrial-Grade IP65 Enclosure</strong>
+  Rugged enclosure designed for harsh industrial, wastewater, chemical, and outdoor environmental monitoring deployments.
 </div>
 
 <div className="reusable-feature-card">
   <strong>BLE Configuration via Maya App</strong>
-  Zero‑touch onboarding, diagnostics, and OTA configuration on‑site.
+  Configure, diagnose, and manage the LoRaWAN® odor sensor wirelessly using the Macnman Maya mobile application.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Secure Encrypted Data Transmission</strong>
-  AES‑128 & AES‑256 protections for network‑grade security and data integrity.
+  <strong>Cloud, SCADA & Industrial IoT Integration</strong>
+  Integrates with LoRaWAN® gateways, MQTT servers, SCADA systems, and cloud monitoring dashboards.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Wide Deployment Compatibility</strong>
-  Works with all major LoRaWAN® Network Servers & Smart‑City IoT platforms.
+  <strong>Secure AES-Encrypted Communication</strong>
+  AES-128 encrypted wireless communication ensures secure and reliable odor monitoring data transmission.
 </div>
-</div>
-<div class="faint-line"></div>
 
-## Suited Applications
+</div>
+
+---
+
+<h2 className="device-section-title">
+  ## Applications
+</h2>
 
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Wastewater & Sewage Treatment</strong>
-  Odor and toxic gas monitoring near sludge tanks, aeration basins, and pumping stations.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Refineries & Petrochemical Plants</strong>
-  Hazardous gas detection for worker safety and leak prevention in gas‑handling zones.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Livestock & Poultry Farms</strong>
-  NH₃ monitoring for protecting animal health and ensuring ventilation compliance.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Mining & Confined Spaces</strong>
-  Real‑time warning against dangerous gas build‑up in tunnels and underground sites.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Landfills & Municipal Solid Waste Sites</strong>
-  Environmental odor surveillance and regulatory enforcement support.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Chemical Storage & Industrial Warehouses</strong>
-  Monitoring corrosive vapor exposure and preventing toxic gas accumulation.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Ports & Cargo Handling Zones</strong>
-  Gas hazard detection during chemical and fertilizer transport operations.
+  <strong>Wastewater Treatment Plant Odor Monitoring</strong>
+  Continuous NH₃ and H₂S odor monitoring across STP, WWTP, sludge handling systems, aeration tanks, and sewage treatment infrastructure.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Smart City Odor Monitoring</strong>
-  Deployment near drainage lines and urban hotspots to minimize public odor complaints.
+  Deploy LoRaWAN® odor sensors near drainage lines, sewage networks, waste collection zones, and urban odor hotspots to reduce public odor complaints.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial Odor Pollution Monitoring</strong>
+  Monitor odor-causing gases across chemical factories, process industries, wastewater facilities, and industrial production environments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Landfill & Waste Management Monitoring</strong>
+  Detect ammonia and hydrogen sulfide emissions across landfill sites, garbage transfer stations, and municipal waste management facilities.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Livestock & Poultry Farm Monitoring</strong>
+  Real-time NH₃ monitoring to improve ventilation management, animal safety, and environmental compliance in livestock operations.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial Worker Safety Monitoring</strong>
+  Detect hazardous NH₃ and H₂S gas exposure in confined industrial environments to improve worker safety and operational visibility.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Sewer Network & Pumping Station Monitoring</strong>
+  Monitor toxic gas accumulation and odor emissions across underground sewage networks, pumping stations, and drainage infrastructure.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Environmental Compliance Monitoring</strong>
+  Support industrial environmental compliance and air-quality monitoring using long-range LoRaWAN® odor monitoring infrastructure.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial IoT Odor Analytics</strong>
+  Integrate odor monitoring data into SCADA systems, cloud dashboards, MQTT servers, and Industrial IoT analytics platforms.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Chemical Storage & Hazardous Gas Monitoring</strong>
+  Monitor NH₃ and H₂S concentration levels near chemical storage areas, gas handling systems, and industrial processing zones.
 </div>
 
 </div>
 
-<div class="faint-line"></div>
+---
 
-## Technical Specification
+<h2 className="device-section-title">
+  ## Technical Specifications
+</h2>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    General <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value">MacSync-L-GSX2</p>
-    <br />
-    <p className="label">Product Brand</p>
-    <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">NH₃ Measurement</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Measurement Range</div>
+      <div class="device-config-right">0 – 100 ppm</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    NH₃ <br /> Measurement
-  </div>
-  <div className="spec-block-details">
+    <div class="device-config-row">
+      <div class="device-config-left">Maximum Detectable Concentration</div>
+      <div class="device-config-right">200 ppm</div>
+    </div>
 
-    <p className="label">Measurement Range</p>
-    <p className="value">0 – 100 ppm</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensitivity</div>
+      <div class="device-config-right">(50–100) nA/ppm</div>
+    </div>
 
-    <p className="label">Max Detecting Concentration</p>
-    <p className="value">200 ppm</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Measurement Resolution</div>
+      <div class="device-config-right">0.5 ppm</div>
+    </div>
 
-    <p className="label">Sensitivity</p>
-    <p className="value">(50–100) nA/ppm</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Repeatability</div>
+      <div class="device-config-right">&lt; 10% of output value</div>
+    </div>
 
-    <p className="label">Resolution</p>
-    <p className="value">0.5 ppm</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Stability (Per Month)</div>
+      <div class="device-config-right">&lt; 10%</div>
+    </div>
 
-    <p className="label">Repeatability</p>
-    <p className="value">&lt; 10% of output value</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Zero Drift</div>
+      <div class="device-config-right">-3 to +10 ppm (at -20°C to +40°C)</div>
+    </div>
 
-    <p className="label">Stability (per month)</p>
-    <p className="value">&lt; 10%</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Expected Sensor Life</div>
+      <div class="device-config-right">2 Years @ 2 ppm NH₃</div>
+    </div>
 
-    <p className="label">Zero Drift</p>
-    <p className="value">-3 to +10 ppm (at -20°C to +40°C)</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensor Type</div>
+      <div class="device-config-right">Electrochemical NH₃ Gas Sensor</div>
+    </div>
 
-    <p className="label">Expected Lifetime</p>
-    <p className="value">2 years @ 2 ppm NH₃</p>
-    <br />
-
-    <p className="label">Sensor Type</p>
-    <p className="value">Electrochemical NH₃ gas sensor</p>
-    <br />
-
-    <p className="label">Calibration</p>
-    <p className="value">Factory calibrated</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Calibration</div>
+      <div class="device-config-right">Factory Calibrated</div>
+    </div>
 
   </div>
 </div>
 
+---
 
-<div class="faint-line"></div>
+<div class="device-config-section">
+  <div class="device-config-title">H₂S Measurement</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    H₂S <br /> Measurement
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Measurement Range</p>
-    <p className="value">0 – 100 ppm</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Measurement Range</div>
+      <div class="device-config-right">0 – 100 ppm</div>
+    </div>
 
-    <p className="label">Max Detecting Concentration</p>
-    <p className="value">500 ppm</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Maximum Detectable Concentration</div>
+      <div class="device-config-right">500 ppm</div>
+    </div>
 
-    <p className="label">Sensitivity</p>
-    <p className="value">(0.8 ± 0.15) µA/ppm</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensitivity</div>
+      <div class="device-config-right">(0.8 ± 0.15) µA/ppm</div>
+    </div>
 
-    <p className="label">Resolution</p>
-    <p className="value">0.1 ppm</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Measurement Resolution</div>
+      <div class="device-config-right">0.1 ppm</div>
+    </div>
 
-    <p className="label">Repeatability</p>
-    <p className="value">&lt; 2% of output value</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Repeatability</div>
+      <div class="device-config-right">&lt; 2% of output value</div>
+    </div>
 
-    <p className="label">Stability (per month)</p>
-    <p className="value">&lt; 2%</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Stability (Per Month)</div>
+      <div class="device-config-right">&lt; 2%</div>
+    </div>
 
-    <p className="label">Zero Drift</p>
-    <p className="value">≤ 0.2 ppm</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Zero Drift</div>
+      <div class="device-config-right">≤ 0.2 ppm</div>
+    </div>
 
-    <p className="label">Expected Lifetime</p>
-    <p className="value">2 years (in clean air)</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Expected Sensor Life</div>
+      <div class="device-config-right">2 Years (in Clean Air)</div>
+    </div>
 
-    <p className="label">Sensor Type</p>
-    <p className="value">Electrochemical H₂S gas sensor</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensor Type</div>
+      <div class="device-config-right">Electrochemical H₂S Gas Sensor</div>
+    </div>
 
-    <p className="label">Calibration</p>
-    <p className="value">Factory calibrated</p>
-    <br />
-  </div>
-</div>
-
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Wireless <br /> Transmission
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Calibration</div>
+      <div class="device-config-right">Factory Calibrated</div>
+    </div>
 
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    LED <br /> Status
+<div class="device-config-section">
+  <div class="device-config-title">Wireless Transmission</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Wireless Protocols</div>
+      <div class="device-config-right">LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Antenna</div>
+      <div class="device-config-right">Internal high-efficiency antenna</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Supported Bands</div>
+      <div class="device-config-right">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Tx Power</div>
+      <div class="device-config-right">23 dBm @ 865 MHz </div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensitivity</div>
+      <div class="device-config-right">-137 dBm @ 300 bps</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Activation</div>
+      <div class="device-config-right">OTAA</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LoRaWAN® Class</div>
+      <div class="device-config-right">Class A (Default), Configurable to Class C via Maya</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Supports Major LNS</div>
+      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments</div>
+    </div>
+
   </div>
-  <div className="spec-block-details">
-    <p className="label">LED Type</p>
-    <p className="value">1 Internal Multi-Color LED</p>
-    <br />
-    <p className="label">Solid Blue</p>
-    <p className="value">Device is connected with Maya App</p>
-    <br />
-    <p className="label">Flashing Blue</p>
-    <p className="value">OTA (Over-the-Air) update in progress</p>
-    <br />
-    <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
-    <br />
-    <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
-    <br />
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Device Management</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Configuration Method</div>
+      <div class="device-config-right">Via Macnman Maya Android App</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Local Configuration</div>
+      <div class="device-config-right">BLE-Based Local Configuration</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Remote Configuration</div>
+      <div class="device-config-right">Over-the-Air Configuration (Downlink Commands)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Status LED</div>
+      <div class="device-config-right">1 × Internal Multi-Color LED</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Server Data Reporting Modes</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Reporting Mode</div>
+      <div class="device-config-right">Periodic / Event-based / Hybrid</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Transmission Interval</div>
+      <div class="device-config-right">Independent uplink interval for optimized power consumption</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Threshold-Based Alerts</div>
+      <div class="device-config-right">Configurable CO₂ concentration threshold alerts for event-triggered transmission</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Sampling Interval</div>
+      <div class="device-config-right">Configurable data acquisition interval (e.g., 1 min to 24 hours)</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Battery Performance (BO Series)</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Battery Type</div>
+      <div class="device-config-right">Li-SOCl₂ Cell (19Ah) Industrial grade</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption</div>
+      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">5-Minute Reporting Interval</div>
+      <div class="device-config-right">~2 Years (Estimated)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">15-Minute Reporting Interval</div>
+      <div class="device-config-right">~4 Years (Estimated)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">60-Minute Reporting Interval</div>
+      <div class="device-config-right">~7+ Years (Estimated)</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Power Performance (PO Series)</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Input Voltage Range (Optional Variant)</div>
+      <div class="device-config-right">9 ~ 36 V DC (External Supply)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption</div>
+      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+    </div>
 
 
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Device <br /> Configuration
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Configuration</p>
-    <p className="value">Via Macnman Maya Android App</p>
-    <br />
-    <p className="label">Uplink Modes</p>
-    <p className="value">Time Based / Threshold Based / Sampling Based</p>
-    <br />
-    <p className="label">Stored Records*</p>
-    <p className="value">30,000 Records</p>
-    <br />
-    <p className="label">Remote Configuration</p>
-    <p className="value">JSON Format Data - from server</p>    
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">Communication Options</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">BLE Connectivity</div>
+      <div class="device-config-right">For local configuration and diagnostics via Maya App</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Cloud Protocols</div>
+      <div class="device-config-right">MQTT / HTTPS / TCP/IP (Gateway Dependent)</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Battery <br /> Performance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Security & Encryption</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Encryption</div>
+      <div class="device-config-right">AES-128 LoRaWAN® encryption</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <div class="device-config-row">
+      <div class="device-config-left">Authentication</div>
+      <div class="device-config-right">OTAA Device Activation</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Firmware Protection</div>
+      <div class="device-config-right">Secure boot and signed OTA updates</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+--- 
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Physical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
-    <p className="value">9-36 V DC</p>
-    <br />
-    <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
-    <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
-    <br />
-    <p className="label">Ingress Protection</p>
-    <p className="value">IP65 standard (IP67 optional variant)</p>    
-    <br />
-    <p className="label">Housing Material</p>
-    <p className="value">Glass field Nylon</p>    
-    <br />
-    <p className="label">Color</p>
-    <p className="value">Matte White</p>    
-    <br />
-    <p className="label">Weight</p>
-    <p className="value">~110g</p>    
-    <br />
-    <p className="label">Mounting Options</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
-    <p className="value">9-36 V DC (External Supply)</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Input Impedance</p>
-    <p className="value">>10 MΩ for voltage inputs</p>
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">LED Status</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LED Type</div>
+      <div class="device-config-right">1 × Internal Multi-Color LED</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Solid Blue</div>
+      <div class="device-config-right">Device connected to Maya App</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Flashing Blue</div>
+      <div class="device-config-right">OTA (Over-the-Air) update in progress</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Slow Blinking Green</div>
+      <div class="device-config-right">Attempting to connect to the LoRaWAN® network</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Single Red Blink</div>
+      <div class="device-config-right">Confirmed parameter modification</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
+<div class="device-config-section">
+  <div class="device-config-title">Physical Characteristics</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Communication <br /> Options
-  </div>
-  <div className="spec-block-details">
-    <p className="label">BLE Connectivity</p>
-    <p className="value">For local configuration and diagnostics via Maya App</p>
-    <br />
-    <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
-    <br />
-    <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (optional)</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">-40°C to +80°C</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Humidity Range</div>
+      <div class="device-config-right">0% ~ 100% RH (non-condensing)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Ingress Protection</div>
+      <div class="device-config-right">IP65 standard (IP67 optional variant)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Housing Material</div>
+      <div class="device-config-right">Glass Filled Nylon</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Color</div>
+      <div class="device-config-right">Matte White</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Weight</div>
+      <div class="device-config-right">~175 g</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Mounting Options</div>
+      <div class="device-config-right">Pole Mount / Wall Mount</div>
+    </div>
+
   </div>
 </div>
 
+---
 
-<div class="faint-line"></div>
+<div class="device-config-section">
+  <div class="device-config-title">Certifications & Compliance</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Certifications & <br /> Compliance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">WPC</p>
-    <p className="value">Compliant</p>
-    <br />
-    <p className="label">RoHS</p>
-    <p className="value">Conforms to RoHS directive</p>
-    <br />
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">WPC</div>
+      <div class="device-config-right">Compliant</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">RoHS</div>
+      <div class="device-config-right">Conforms to RoHS directive</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Security & <br /> Encryption
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
-    <br />
-    <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes</p>
-    <br />
-    <p className="label">Firmware Protection</p>
-    <p className="value">Secure boot and signed OTA updates</p>
-    <br />
   </div>
 </div>
 
 
-## MacSync-L-GSX2 Variants
+---
+<h2 className="device-section-title">
+  ## MacSync LCO2 X1 Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>Gas Type</th>
+      <th>CO₂ Range</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
-      <th>Ideal Deployment</th>
+      <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-L-GSX2-PO</td>
-      <td>H₂S + NH₃</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>✖️</td>
-      <td>Industrial sites with stable power — refineries, chemical plants & smart-city nodes</td>
+      <td>MacSync LCO2 X1 BO</td>
+      <td>400 ppm ~ 2,000 ppm</td>
+      <td>Inbuilt Battery (19 Ah)</td>
+      <td>Classrooms, offices, smart buildings, schools, and indoor air quality monitoring deployments</td>
+      <th>820</th>
     </tr>
     <tr>
-      <td>MacSync-L-GSX2-BO</td>
-      <td>H₂S + NH₃</td>
+      <td>MacSync LCO2 X1 PO</td>
+      <td>400 ppm ~ 2,000 ppm</td>
+      <td>External Power (9 ~ 36 V DC)</td>
+      <td>Continuous powered HVAC automation and commercial indoor environmental monitoring</td>
+      <th>821</th>
+    </tr>
+    <tr>
+      <td>MacSync L CO2 X2 BO</td>
+      <td>400 ppm ~ 5,000 ppm</td>
       <td>Battery Powered</td>
-      <td>19 Ah</td>
-      <td>Remote sewer lines, pumping stations, livestock farms & outdoor odor monitoring</td>
+      <td>Industrial indoor air quality monitoring, warehouses, laboratories, and high CO₂ concentration environments</td>
+      <th>822</th>
+    </tr>
+    <tr>
+      <td>MacSync L CO2 X2 PO</td>
+      <td>400 ppm ~ 5,000 ppm</td>
+      <td>External Power (9 ~ 36 V DC)</td>
+      <td>Factories, underground parking areas, commercial kitchens, industrial HVAC systems, and continuous high-range CO₂ monitoring deployments</td>
+      <th>823</th>
     </tr>
   </tbody>
 </table>
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
+--- 
 
--->
+<h2 className="device-section-title">
+  ## What's in the Box ?
+</h2>
 
-## What's in the box ?
+Make sure the box contains the following items before installation.
 
-Make sure box contains following items before installations
+- MacSync LCO2 X1 Sensor
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapter *
 
-![title image](/img/datalogger/whatsbox.svg)
+![MacSync LCO2 X1 LoRaWAN CO₂ sensor package contents](/img/datalogger/whatsbox.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
-
+Accessories marked with (*) must be purchased separately and may not be included in the box.
 :::
 
-## Product Dimensions
+---
 
-![title image](/img/lorawan/sensors/macsync/macsync-odor-sensor-dimensions-nhthree-cotwo.svg)
+<h2 className="device-section-title">
+  ## MacSync LCO2 X1 Product Dimensions
+</h2>
+
+The MacSync LCO2 X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart buildings, offices, hospitals, classrooms, warehouses, commercial facilities, and indoor environmental monitoring deployments.
+
+![MacSync LCO2 X1 LoRaWAN CO2 sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
 
