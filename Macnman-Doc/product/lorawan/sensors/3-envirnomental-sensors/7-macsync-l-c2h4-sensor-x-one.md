@@ -580,13 +580,13 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
       <td>MacSync LC2H4 X1 BO</td>
       <td>Battery Powered</td>
       <td>Remote and low-power LoRaWAN® ethylene monitoring deployments</td>
-      <td>833</td>
+      <td>828</td>
     </tr>
     <tr>
       <td>MacSync LC2H4 X1 PO</td>
       <td>External Power (9 ~ 36 V DC)</td>
       <td>Continuous powered industrial ethylene monitoring deployments</td>
-      <td>832</td>
+      <td>829</td>
     </tr>
   </tbody>
 </table>

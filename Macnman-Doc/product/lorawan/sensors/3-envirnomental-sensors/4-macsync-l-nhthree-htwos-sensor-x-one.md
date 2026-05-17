@@ -656,7 +656,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 --- 
 
-<h2 className="device-section-title">
+<h2 className="device-section-title"> 
   ## What's in the Box?
 </h2>
 

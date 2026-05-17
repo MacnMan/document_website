@@ -578,13 +578,13 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
       <td>MacSync LOXGS X1 BO</td>
       <td>Battery Powered</td>
       <td>Remote and low-power LoRaWAN® O2 monitoring deployments</td>
-      <td>11103</td>
+      <td>826</td>
     </tr>
     <tr>
       <td>MacSync LOXGS X1 PO</td>
       <td>External Power (9 ~ 36 V DC)</td>
       <td>Continuous powered industrial O2 monitoring deployments</td>
-      <td>11203</td>
+      <td>827</td>
     </tr>
   </tbody>
 </table>
@@ -617,7 +617,7 @@ Accessories marked with * must be purchased separately and may not be included i
   ## MacSync LOXGS X1 Product Dimensions
 </h2>
 
-The MacSync LOXGS X1 features a compact industrial-grade enclosure with overall dimensions of **166 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across industrial facilities, wastewater infrastructure, sewer monitoring deployments, and hazardous gas monitoring environments.
+The MacSync LOXGS X1 features a compact industrial-grade enclosure with overall dimensions of **165 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across industrial facilities, wastewater infrastructure, sewer monitoring deployments, and hazardous gas monitoring environments.
 
 ![MacSync LOXGS X1 LoRaWAN H2S sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-dimensions.webp)
 
