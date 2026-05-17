@@ -70,7 +70,7 @@ MacSync LSS X1 is ideal for:
 </h2>
 
 <div className="icon-card-grid">
-<a href="/docs/downloads/macsync-lss-x1-lorawan-soil-npk-sensor-datasheet.pdf" 
+<a href="/docs/downloads/macsync-lorawan-soil-npk-sensor-lss-x1-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -155,50 +155,49 @@ MacSync LSS X1 is ideal for:
 </h2>
 
 <div className="reusable-feature-grid">
-
 <div className="reusable-feature-card">
   <strong>Precision Agriculture & Smart Farming</strong>
-  Real-time soil moisture and soil temperature monitoring for precision agriculture, smart farming analytics, and crop health optimization.
+  Real-time soil nutrient monitoring for precision agriculture, smart farming analytics, crop-health optimization, and fertilizer efficiency management.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Irrigation Automation</strong>
-  Automate irrigation systems using live soil moisture data to reduce water consumption and improve irrigation efficiency.
+  <strong>Soil Fertility & Nutrient Monitoring</strong>
+  Continuously monitor Nitrogen (N), Phosphorus (P), and Potassium (K) levels to maintain balanced soil fertility and improve crop yield.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Drip Irrigation Monitoring</strong>
-  Monitor moisture levels across drip irrigation networks to ensure uniform water distribution and prevent over-irrigation.
+  <strong>Fertigation Optimization</strong>
+  Improve fertilizer dosing and fertigation strategies using real-time soil nutrient data and intelligent nutrient management.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Greenhouses & Polyhouses</strong>
-  Continuous soil temperature and moisture monitoring for greenhouse crops, vegetables, herbs, flowers, and controlled farming environments.
+  Continuous soil nutrient monitoring for greenhouse vegetables, herbs, flowers, and controlled-environment agriculture.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Vineyards & Orchards</strong>
-  Improve grape, fruit, and plantation yield quality through accurate soil moisture tracking and irrigation optimization.
+  Improve grape cultivation, fruit orchards, and plantation yield quality using accurate soil NPK monitoring.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Plantations & Commercial Farming</strong>
-  Long-range LoRaWAN® soil monitoring for tea, coffee, sugarcane, coconut, cotton, and large-scale agricultural deployments.
+  Long-range LoRaWAN® soil nutrient monitoring for tea, coffee, sugarcane, coconut, cotton, and commercial agricultural deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Research Farms & Soil Analysis</strong>
-  Collect long-term soil moisture and temperature data for agricultural research, environmental studies, and soil behavior analysis.
+  <strong>Agricultural Research & Soil Analysis</strong>
+  Collect long-term soil nutrient and soil fertility data for agricultural research, environmental studies, and soil behavior analysis.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Landscape & Smart City Irrigation</strong>
-  Enable automated watering systems for parks, campuses, golf courses, gardens, and urban green-zone irrigation management.
+  <strong>Landscape & Smart City Soil Monitoring</strong>
+  Enable intelligent soil nutrient management across parks, campuses, golf courses, gardens, and urban green-zone projects.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Water Conservation Projects</strong>
-  Support sustainable farming and water-saving initiatives using intelligent irrigation scheduling based on real soil conditions.
+  <strong>Sustainable Farming Projects</strong>
+  Support sustainable farming initiatives using intelligent fertilizer optimization and real-time nutrient analysis.
 </div>
 
 <div className="reusable-feature-card">
@@ -416,7 +415,7 @@ MacSync LSS X1 is ideal for:
 
   <div class="device-config-row shaded">
       <div class="device-config-left">Threshold-Based Alerts</div>
-      <div class="device-config-right">Configurable soil moisture and soil temperature threshold alerts for intelligent event-triggered transmission</div>
+      <div class="device-config-right">Configurable soil nutrient threshold alerts for intelligent event-triggered transmission</div>
   </div>
 
   <div class="device-config-row">
@@ -622,7 +621,7 @@ MacSync LSS X1 is ideal for:
 
 ---
 
-## MacSync LSS X2 Variants
+## MacSync LSS X1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -635,21 +634,21 @@ MacSync LSS X1 is ideal for:
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>MacSync LSS X2 BO</td>
-      <td>Soil Moisture + Soil Temperature</td>
-      <td>19 Ah Li-SOCl₂ Battery</td>
-      <td>Remote agricultural deployments, smart irrigation systems, greenhouse monitoring, and long-term soil telemetry</td>
-      <th>832</th>
-    </tr>
-    <tr>
-      <td>MacSync LSS X2 SO</td>
-      <td>Soil Moisture + Soil Temperature</td>
-      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
-      <td>Continuous precision farming, solar-powered irrigation automation, and remote agricultural monitoring</td>
-      <th>833</th>
-    </tr>
-  </tbody>
+  <tr>
+    <td>MacSync LSS X1 BO</td>
+    <td>Soil Nitrogen (N), Phosphorus (P), and Potassium (K) Monitoring</td>
+    <td>19 Ah Li-SOCl₂ Battery</td>
+    <td>Remote agricultural deployments, soil nutrient monitoring, greenhouse farming, and smart agriculture applications</td>
+    <th>838</th>
+  </tr>
+  <tr>
+    <td>MacSync LSS X1 SO</td>
+    <td>Soil Nitrogen (N), Phosphorus (P), and Potassium (K) Monitoring</td>
+    <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+    <td>Continuous remote soil nutrient monitoring, fertigation optimization, and precision agriculture deployments</td>
+    <th>839</th>
+  </tr>
+</tbody>
 </table>
 
 --- 
