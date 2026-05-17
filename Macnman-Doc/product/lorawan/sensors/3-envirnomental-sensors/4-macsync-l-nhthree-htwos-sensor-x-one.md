@@ -1,5 +1,5 @@
 ---
-id: macsync-lodor-x2
+id: macsync-l-odor-x2
 title: Quantitative Odor Sensor
 sidebar_position: 9
 description: Industrial LoRaWAN odor monitoring sensor with high-precision NH₃ and H₂S sensing for wastewater plants, smart cities, industrial odor monitoring, environmental compliance, and Industrial IoT applications.
@@ -48,9 +48,9 @@ With configurable uplink intervals, threshold-based odor alerts, BLE configurati
 Its rugged industrial enclosure, IP65 protection, low-power battery operation, and AES-encrypted wireless communication make it suitable for harsh indoor and outdoor industrial deployments requiring reliable wireless odor monitoring.
 
 
-| ![MacSync-L-GSX2 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image-front.webp) | ![MacSync-L-GSX2 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image.webp) |
+| ![MacSync L Odor X2 LoRaWAN odor monitoring sensor front view](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image-front.webp) | ![MacSync L Odor X2 odor monitoring sensor side view](/img/lorawan/sensors/macsync/macsync-co-tow-sensor-image.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync-L-GSX2 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-L-GSX2 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync L Odor X2 back view showing mounting support](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync L Odor X2 installed for industrial odor monitoring application](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 --- 
 
@@ -59,7 +59,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-lco2-xx-lorawan-co2-monitoring-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-l-odor-x2-lorawan-odor-level-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -72,7 +72,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync LCO2 X1</p>
+      <p>Click here to view the decoders for MacSync L Odor X2</p>
     </div>
   </a>
 </div>
@@ -414,7 +414,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Threshold-Based Alerts</div>
-      <div class="device-config-right">Configurable CO₂ concentration threshold alerts for event-triggered transmission</div>
+      <div class="device-config-right">Configurable NH₃ and H₂S concentration threshold alerts for event-triggered transmission</div>
     </div>
 
     <div class="device-config-row">
@@ -623,14 +623,14 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 ---
 <h2 className="device-section-title">
-  ## MacSync LCO2 X1 Variants
+  ## MacSync L Odor X2 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>CO₂ Range</th>
+      <th>Gas Monitoring</th>
       <th>Power Source</th>
       <th>Ideal For</th>
       <th>SKU</th>
@@ -638,32 +638,18 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LCO2 X1 BO</td>
-      <td>400 ppm ~ 2,000 ppm</td>
+      <td>MacSync L Odor X2 BO</td>
+      <td>NH₃ + H₂S</td>
       <td>Inbuilt Battery (19 Ah)</td>
-      <td>Classrooms, offices, smart buildings, schools, and indoor air quality monitoring deployments</td>
-      <th>820</th>
+      <td>Wastewater treatment plants, sewage monitoring, landfill odor monitoring, and smart city odor analytics</td>
+      <th>824</th>
     </tr>
     <tr>
-      <td>MacSync LCO2 X1 PO</td>
-      <td>400 ppm ~ 2,000 ppm</td>
+      <td>MacSync L Odor X2 PO</td>
+      <td>NH₃ + H₂S</td>
       <td>External Power (9 ~ 36 V DC)</td>
-      <td>Continuous powered HVAC automation and commercial indoor environmental monitoring</td>
-      <th>821</th>
-    </tr>
-    <tr>
-      <td>MacSync L CO2 X2 BO</td>
-      <td>400 ppm ~ 5,000 ppm</td>
-      <td>Battery Powered</td>
-      <td>Industrial indoor air quality monitoring, warehouses, laboratories, and high CO₂ concentration environments</td>
-      <th>822</th>
-    </tr>
-    <tr>
-      <td>MacSync L CO2 X2 PO</td>
-      <td>400 ppm ~ 5,000 ppm</td>
-      <td>External Power (9 ~ 36 V DC)</td>
-      <td>Factories, underground parking areas, commercial kitchens, industrial HVAC systems, and continuous high-range CO₂ monitoring deployments</td>
-      <th>823</th>
+      <td>Continuous industrial odor monitoring, chemical plants, industrial safety systems, and environmental compliance deployments</td>
+      <th>825</th>
     </tr>
   </tbody>
 </table>
@@ -671,12 +657,12 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 --- 
 
 <h2 className="device-section-title">
-  ## What's in the Box ?
+  ## What's in the Box?
 </h2>
 
 Make sure the box contains the following items before installation.
 
-- MacSync LCO2 X1 Sensor
+- MacSync L Odor X2 Sensor
 - Mounting Clip
 - User Manual
 - Warranty Card
@@ -684,7 +670,7 @@ Make sure the box contains the following items before installation.
 - Mounting Screws 
 - Power Adapter *
 
-![MacSync LCO2 X1 LoRaWAN CO₂ sensor package contents](/img/datalogger/whatsbox.svg)
+![MacSync L Odor X2 LoRaWAN odor sensor package contents](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -694,9 +680,9 @@ Accessories marked with (*) must be purchased separately and may not be included
 ---
 
 <h2 className="device-section-title">
-  ## MacSync LCO2 X1 Product Dimensions
+  ## MacSync L Odor X2 Product Dimensions
 </h2>
 
-The MacSync LCO2 X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart buildings, offices, hospitals, classrooms, warehouses, commercial facilities, and indoor environmental monitoring deployments.
+The MacSync L Odor X2 features a compact industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across wastewater treatment plants, industrial facilities, sewage infrastructure, landfill monitoring deployments, and environmental odor monitoring applications.
 
-![MacSync LCO2 X1 LoRaWAN CO2 sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-l-odor-x2-lorawan-odor-monitoring-sensor-dimensions.webp)
+![MacSync L Odor X2 LoRaWAN odor sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-l-odor-x2-lorawan-odor-monitoring-sensor-dimensions.webp)
