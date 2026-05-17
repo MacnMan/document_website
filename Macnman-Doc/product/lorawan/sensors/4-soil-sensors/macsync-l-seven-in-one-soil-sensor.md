@@ -35,7 +35,10 @@ keywords:
 
 # MacSync LSS X5 LoRaWAN Soil Sensor Datasheet
 
-## Product Overview
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
+
 
 **MacSync LSS X5** is an industrial-grade **multi-parameter LoRaWAN® soil sensor** designed for precision agriculture, smart irrigation, greenhouse automation, plantation monitoring, and remote soil intelligence applications. The sensor continuously measures **soil moisture, soil temperature, electrical conductivity (EC), pH, salinity, and NPK trend estimation** from a single rugged stainless-steel probe.
 
@@ -59,7 +62,7 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-loxgs-x1-lorawan-oxygen-monitoring-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-lss-x5-lorawan-7-in-1-soil-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -79,7 +82,9 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 ---
 
-## Key Features
+<h2 className="device-section-title">
+  ## Key Features
+</h2>
 
 <div className="reusable-feature-grid">
 
@@ -132,7 +137,10 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 ---
 
-## Suited Applications
+<h2 className="device-section-title">
+  ## Suited Applications
+</h2>
+
 
 <div className="reusable-feature-grid">
 
