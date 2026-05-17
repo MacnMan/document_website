@@ -2,88 +2,66 @@
 id: macsync-l-npk-sensor-datasheet
 title: Soil NPK Sensor
 sidebar_position: 9
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Industrial LoRaWAN® Soil NPK Sensor for real-time nitrogen, phosphorus, and potassium monitoring in precision agriculture, smart farming, fertigation, greenhouse automation, and remote soil nutrient management applications.
 keywords:
-  - lorawan soil moisture sensor
-  - macsync lsx3 soil moisture sensor
-  - wireless soil moisture monitoring device
-  - long range soil moisture probe lorawan
-  - smart irrigation soil moisture sensor
-  - agriculture iot moisture monitoring
-  - precision farming soil moisture sensor
-  - soil volumetric water content sensor
-  - field soil moisture telemetry system
-  - rugged outdoor soil moisture node
-  - low power lorawan soil sensor
-  - greenhouse soil moisture automation
-  - plantation soil moisture monitoring
-  - smart city landscape irrigation control sensor
-  - industrial grade soil moisture detector
-  - remote farmland moisture sensing device
-  - lorawan agriculture moisture data logger
-  - soil hydration monitoring sensor
-  - crop irrigation optimization sensor
-  - macnman lorawan moisture monitoring module
-  - lorawan soil temperature sensor
-  - wireless soil temperature monitoring sensor
-  - soil temperature and moisture sensor
-  - smart agriculture soil sensor
-  - irrigation automation sensor
-  - precision irrigation monitoring device
+  - lorawan soil npk sensor
+  - wireless soil npk monitoring sensor
+  - industrial soil nutrient sensor
+  - smart farming soil npk sensor
+  - soil nitrogen phosphorus potassium sensor
+  - precision agriculture soil nutrient sensor
+  - remote soil npk telemetry device
+  - greenhouse soil nutrient monitoring
+  - plantation soil nutrient monitoring
+  - fertigation nutrient monitoring sensor
+  - soil fertility monitoring sensor
+  - agricultural nutrient monitoring device
+  - wireless soil chemistry sensor
+  - long range soil npk probe lorawan
+  - agriculture iot soil nutrient sensor
   - industrial lorawan agriculture sensor
-  - soil moisture telemetry device
-  - battery powered soil sensor
-  - long range agriculture sensor
-  - vineyard soil moisture sensor
-  - greenhouse soil temperature monitoring
-  - soil water content sensor lorawan
-  - remote irrigation monitoring system
-  - smart farming moisture monitoring
-  - soil temperature monitoring sensor
-  - soil moisture sensor for smart irrigation
-  - wireless soil probe
-  - lorawan farm monitoring sensor
-  - precision agriculture moisture sensor
-  - agriculture telemetry sensor
+  - smart irrigation nutrient monitoring
+  - crop nutrient optimization sensor
+  - soil nutrient balance sensor
+  - macsync lss x1 soil npk sensor
 ---
 
-# MacSync LSS X2 LoRaWAN Soil Moisture & Temperature Sensor
+# MacSync LSS X1 LoRaWAN Soil NPK Sensor
 
 <h2 className="device-section-title">
   ## Product Overview
 </h2>
 
+**MacSync LSS X1** is an industrial-grade **LoRaWAN® Soil NPK Sensor** designed for precision agriculture, smart farming, fertigation systems, greenhouse automation, plantations, vineyards, orchards, crop monitoring, and long-range environmental soil analysis applications. Built for ultra-low-power remote deployments, the sensor continuously measures **soil Nitrogen (N), Phosphorus (P), and Potassium (K)** levels in real time to help farmers and agricultural integrators optimize soil fertility, fertilizer usage, nutrient balance, and crop productivity.
 
-**MacSync LSS X2** is an industrial-grade **LoRaWAN® soil moisture and soil temperature sensor** designed for precision agriculture, smart irrigation systems, greenhouse automation, crop monitoring, plantations, vineyards, orchards, and environmental soil analysis applications. Built for long-range wireless communication and ultra-low-power field deployments, the sensor continuously measures **soil volumetric water content (VWC)** and **soil temperature** in real time.
+The device enables continuous monitoring of essential soil nutrients across agricultural fields, helping growers maintain balanced soil conditions for healthier crop development and improved fertilizer management strategies.
 
-The device helps farmers, irrigation consultants, greenhouse operators, agricultural researchers, and smart farming integrators optimize irrigation scheduling, improve crop health, reduce water consumption, and prevent over-irrigation or soil stress conditions.
+Engineered using Macnman’s low-power wireless architecture, the **MacSync LSS X1 LoRaWAN soil NPK monitoring sensor** provides stable and accurate soil nutrient measurements across multiple soil environments including clay soil, sandy soil, red soil, cocopeat, greenhouse media, plantation soil, and high-moisture agricultural fields.
 
-Engineered using Macnman’s low-power wireless architecture, the **MacSync LSS X2 LoRaWAN soil moisture sensor** provides stable measurements across multiple soil conditions including clay soil, sandy soil, red soil, cocopeat, greenhouse media, saline regions, and high-moisture agricultural environments.
+Its rugged IP67/IP68-ready outdoor enclosure and corrosion-resistant industrial soil nutrient probe enable long-term deployment in harsh agricultural and environmental conditions. The sensor supports seamless integration with **The Things Network (TTN), ChirpStack, MQTT servers, Loriot, Orbiwise, private LoRaWAN® gateways, and industrial IoT dashboards.**
 
-Its rugged IP67/IP68-ready outdoor enclosure and corrosion-resistant soil probe enable long-term deployment in harsh agricultural and industrial conditions. The sensor supports seamless integration with **The Things Network (TTN), ChirpStack, MQTT servers, Loriot, Orbiwise, private LoRaWAN® gateways, and industrial IoT dashboards.**
+The device supports configurable uplink intervals, threshold-based soil nutrient alerts, OTA configuration via the Maya App, local BLE diagnostics, onboard data buffering, and multi-year battery operation for remote farmland deployments.
 
-The device supports configurable uplink intervals, threshold-based irrigation alerts, OTA configuration via the Maya App, local BLE diagnostics, onboard data buffering, and multi-year battery operation for remote farmland deployments.
-
-MacSync LSS X2 is ideal for:
+MacSync LSS X1 is ideal for:
 
 - Precision agriculture and smart farming
-- Automated irrigation systems
-- Drip irrigation monitoring
-- Greenhouse environmental monitoring
-- Orchard and vineyard irrigation optimization
-- Plantation moisture monitoring
-- Soil health analytics
-- Remote agriculture telemetry systems
-- Landscape irrigation automation
-- Smart city green-zone irrigation control
-- Water conservation projects
-- Agricultural research and soil analysis
+- Soil nutrient and fertility monitoring
+- Fertigation optimization and fertilizer management
+- Greenhouse and polyhouse farming
+- Plantation and commercial agriculture
+- Vineyard and orchard soil monitoring
+- Soil health analytics and research
+- Remote agricultural telemetry systems
+- Smart irrigation and fertigation projects
+- Agricultural universities and research farms
+- Landscape and smart city soil monitoring
+- Long-range LoRaWAN® environmental monitoring
 
 ---
 
-| ![MacSync LSS X5 LoRaWAN multi-parameter soil sensor front view for smart agriculture and precision farming](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-multi-parameter-soil-sensor-front-view.webp) | ![MacSync LSS X5 wireless LoRaWAN soil sensor side view for greenhouse and irrigation monitoring](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-soil-sensor-side-view.webp) |
+| ![MacSync LSS X1 LoRaWAN soil NPK sensor front view for precision agriculture and smart farming](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-front-view.webp) | ![MacSync LSS X1 wireless soil nutrient monitoring sensor side view for greenhouse and fertigation monitoring](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-main-image.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync LSS X5 industrial LoRaWAN soil monitoring sensor back view with rugged outdoor enclosure](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LSS X5 real-time soil health monitoring sensor for smart farming and precision agriculture](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync LSS X1 industrial LoRaWAN soil NPK monitoring sensor rear view with rugged outdoor enclosure](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LSS X1 real-time soil nutrient and fertility monitoring sensor for smart agriculture](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 ---
 
@@ -92,7 +70,7 @@ MacSync LSS X2 is ideal for:
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-lss-x2-lorawan-soil-temperature-moisture-sensor-datasheet.pdf" 
+<a href="/docs/downloads/macsync-lss-x1-lorawan-soil-npk-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -105,7 +83,7 @@ MacSync LSS X2 is ideal for:
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync LSS X2</p>
+      <p>Click here to view the decoders for MacSync LSS X1</p>
     </div>
   </a>
 </div>
@@ -119,38 +97,43 @@ MacSync LSS X2 is ideal for:
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Real-Time Soil Moisture & Temperature Monitoring</strong>
-  Continuously measures soil volumetric water content (VWC) and soil temperature for precision irrigation and crop health optimization.
+  <strong>Industrial LoRaWAN® Soil NPK Sensor</strong>
+  High-precision soil nutrient monitoring sensor designed for precision agriculture, greenhouse automation, fertigation systems, plantations, vineyards, orchards, and smart farming deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial LoRaWAN® Soil Sensor</strong>
-  Designed for long-range wireless agricultural monitoring across farms, greenhouses, orchards, vineyards, plantations, and remote irrigation systems.
+  <strong>Real-Time Soil Nitrogen, Phosphorus & Potassium Monitoring</strong>
+  Continuously monitors soil NPK levels to help optimize fertilizer usage, nutrient concentration, crop productivity, and soil fertility management.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Irrigation Automation Ready</strong>
-  Enables intelligent irrigation scheduling using real-time soil moisture analytics to reduce water consumption and improve irrigation efficiency.
+  <strong>Improve Fertilizer & Nutrient Management</strong>
+  Helps farmers and agronomists maintain balanced soil nutrients for healthier crop growth and improved fertilizer utilization.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Long-Range LoRaWAN® Wireless Connectivity</strong>
+  Enables ultra-low-power wireless soil nutrient monitoring across large farms and remote agricultural deployments using public or private LoRaWAN® networks.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>High Accuracy Industrial Soil Nutrient Probe</strong>
+  Industrial-grade corrosion-resistant soil NPK probe delivers stable and reliable measurements across multiple soil environments.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Ultra-Low-Power Agriculture IoT Device</strong>
-  Optimized low-power architecture provides multi-year battery life for remote agricultural deployments and unattended field operation.
+  Optimized low-power architecture enables multi-year battery operation for remote farmland monitoring and unattended outdoor deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Rugged Outdoor Soil Monitoring Enclosure</strong>
-  Industrial-grade IP67 enclosure and corrosion-resistant sensing probe support continuous outdoor operation in harsh environmental conditions.
+  <strong>Rugged Outdoor Agricultural Enclosure</strong>
+  IP67/IP68-ready industrial enclosure supports continuous operation in harsh outdoor farming and environmental conditions.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>High Accuracy Soil VWC Measurement</strong>
-  Provides stable and accurate soil water content monitoring across sandy soil, clay soil, cocopeat, greenhouse media, and agricultural fields.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Long-Range LoRaWAN® Connectivity</strong>
-  Supports reliable low-power wireless communication over large agricultural areas using public or private LoRaWAN® networks.
+  <strong>Supports Smart Irrigation & Fertigation</strong>
+  Improve irrigation and fertigation strategies using real-time soil nutrient data and intelligent threshold-based alerts.
 </div>
 
 <div className="reusable-feature-card">
@@ -160,12 +143,7 @@ MacSync LSS X2 is ideal for:
 
 <div className="reusable-feature-card">
   <strong>Remote OTA Configuration via Maya App</strong>
-  Configure uplink interval, thresholds, reporting modes, and device parameters remotely without physical access to the sensor.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Ideal for Precision Agriculture Applications</strong>
-  Suitable for smart farming, drip irrigation systems, greenhouse automation, soil research, plantation monitoring, and water conservation projects.
+  Configure uplink intervals, calibration parameters, alerts, and reporting modes remotely without physical access to the sensor.
 </div>
 
 </div>
@@ -237,27 +215,37 @@ MacSync LSS X2 is ideal for:
 </h2>
 
 <div class="device-config-section">
-  <div class="device-config-title">Soil Moisture Sensor Measurement</div>
+  <div class="device-config-title">Nitrogen (N) Measurement</div>
   <div class="device-config-table">
+
     <div class="device-config-row shaded">
-      <div class="device-config-left">Moisture Range</div>
-      <div class="device-config-right">0% – 100% VWC</div>
+      <div class="device-config-left">Nitrogen Range</div>
+      <div class="device-config-right">0 – 1999 mg/kg</div>
     </div>
+
     <div class="device-config-row">
-      <div class="device-config-left">Measurement Type</div>
-      <div class="device-config-right">Capacitive Sensing (VWC-Based)</div>
+      <div class="device-config-left">Nitrogen Accuracy</div>
+      <div class="device-config-right">±2% F.S</div>
     </div>
+
     <div class="device-config-row shaded">
-      <div class="device-config-left">Moisture Accuracy</div>
-      <div class="device-config-right">±3% (0–53% VWC), ±5% (53%+ VWC)</div>
+      <div class="device-config-left">Nitrogen Resolution</div>
+      <div class="device-config-right">1 mg/kg (mg/l)</div>
     </div>
+
     <div class="device-config-row">
-      <div class="device-config-left">Moisture Resolution</div>
-      <div class="device-config-right">0.1%</div>
-    </div>
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Sensor Response Time</div>
+      <div class="device-config-left">Response Time (T90)</div>
       <div class="device-config-right">&lt; 10 Seconds</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">5°C ~ 45°C</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Humidity</div>
+      <div class="device-config-right">5% ~ 95% RH</div>
     </div>
 
   </div>
@@ -266,25 +254,82 @@ MacSync LSS X2 is ideal for:
 ---
 
 <div class="device-config-section">
-  <div class="device-config-title">Soil Temperature Sensor Measurement</div>
+  <div class="device-config-title">Phosphorus (P) Measurement</div>
   <div class="device-config-table">
+
     <div class="device-config-row shaded">
-      <div class="device-config-left">Temperature Range</div>
-      <div class="device-config-right">-40°C to +80°C</div>
+      <div class="device-config-left">Phosphorus Range</div>
+      <div class="device-config-right">0 – 1999 mg/kg</div>
     </div>
+
     <div class="device-config-row">
-      <div class="device-config-left">Temperature Accuracy</div>
-      <div class="device-config-right">±0.5°C</div>
+      <div class="device-config-left">Phosphorus Accuracy</div>
+      <div class="device-config-right">±2% F.S</div>
     </div>
+
     <div class="device-config-row shaded">
-      <div class="device-config-left">Sensor Response Time</div>
+      <div class="device-config-left">Phosphorus Resolution</div>
+      <div class="device-config-right">1 mg/kg (mg/l)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Response Time (T90)</div>
       <div class="device-config-right">&lt; 10 Seconds</div>
     </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">5°C ~ 45°C</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Humidity</div>
+      <div class="device-config-right">5% ~ 95% RH</div>
+    </div>
+
   </div>
 </div>
 
 ---
 
+<div class="device-config-section">
+  <div class="device-config-title">Potassium (K) Measurement</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Potassium Range</div>
+      <div class="device-config-right">0 – 1999 mg/kg</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Potassium Accuracy</div>
+      <div class="device-config-right">±2% F.S</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Potassium Resolution</div>
+      <div class="device-config-right">1 mg/kg (mg/l)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Response Time (T90)</div>
+      <div class="device-config-right">&lt; 10 Seconds</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">5°C ~ 45°C</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Humidity</div>
+      <div class="device-config-right">5% ~ 95% RH</div>
+    </div>
+
+  </div>
+</div>
+
+---
 
 <div class="device-config-section">
   <div class="device-config-title">Wireless Transmission</div>

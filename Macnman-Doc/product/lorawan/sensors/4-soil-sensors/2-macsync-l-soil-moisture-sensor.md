@@ -81,9 +81,9 @@ MacSync LSS X2 is ideal for:
 
 ---
 
-| ![MacSync LSS X5 LoRaWAN multi-parameter soil sensor front view for smart agriculture and precision farming](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-multi-parameter-soil-sensor-front-view.webp) | ![MacSync LSS X5 wireless LoRaWAN soil sensor side view for greenhouse and irrigation monitoring](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-soil-sensor-side-view.webp) |
+| ![MacSync LSS X3 LoRaWAN soil EC sensor front view for precision agriculture and smart farming](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-front-view.webp) | ![MacSync LSS X3 wireless soil conductivity monitoring sensor side view for greenhouse and fertigation monitoring](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-main-image.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync LSS X5 industrial LoRaWAN soil monitoring sensor back view with rugged outdoor enclosure](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LSS X5 real-time soil health monitoring sensor for smart farming and precision agriculture](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync LSS X3 industrial LoRaWAN soil EC monitoring sensor rear view with rugged outdoor enclosure](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LSS X3 real-time soil salinity and conductivity monitoring sensor for smart agriculture](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 ---
 
