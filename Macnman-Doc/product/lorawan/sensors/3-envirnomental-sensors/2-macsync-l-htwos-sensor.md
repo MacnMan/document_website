@@ -1,10 +1,11 @@
 ---
 id: macsync-lh2s-x1-datasheet
-title: MacSync LH2S X1
+title: H₂S Sensor
 sidebar_position: 1
 description: Industrial LoRaWAN® H2S sensor for continuous hydrogen sulfide gas monitoring in STP, WWTP, sewers, oil & gas facilities, confined spaces, and industrial safety applications.
 
 keywords:
+
   - lorawan h2s sensor
   - hydrogen sulfide sensor lorawan
   - lorawan hydrogen sulfide sensor
@@ -39,7 +40,7 @@ keywords:
   - macnman lorawan gas sensor
 ---
 
-# MacSync LH2S X1 - Industrial LoRaWAN H2S Gas Monitoring Sensor
+# MacSync LH2S X1 LoRaWAN H₂S Gas Monitoring Sensor Datasheet
 
 <h2 className="device-section-title">
   ## Product Overview
@@ -58,7 +59,6 @@ The rugged industrial enclosure is designed for reliable operation in harsh outd
 MacSync LH2S X1 supports configurable periodic reporting, threshold-based uplinks, event-triggered alerts, and remote diagnostics. Optional BLE-based configuration through the **Macnman Maya App** simplifies installation, provisioning, maintenance, and field diagnostics.
 
 Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confined-space worker safety, industrial toxic gas monitoring, landfill gas monitoring, or smart city environmental safety projects**, MacSync LH2S X1 transforms hazardous H₂S gas data into actionable real-time intelligence—helping organizations improve operational safety, environmental compliance, predictive maintenance, and workforce protection.
-
 | ![MacSync LH2S X1 LoRaWAN H2S gas monitoring sensor for industrial toxic gas detection](/img/lorawan/sensors/macsync/macsync-lh2s-x1-industrial-hydrogen-sulfide-sensor-mounted.webp) | ![MacSync LH2S X1 wireless hydrogen sulfide sensor with LoRaWAN connectivity for STP and WWTP monitoring](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
 | ![Industrial LoRaWAN H2S sensor with rugged IP65 enclosure for hazardous gas monitoring](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-toxic-gas-sensor-industrial-view.webp) | ![MacSync LH2S X1 real-time hydrogen sulfide gas monitoring sensor for sewer and landfill applications](/img/lorawan/sensors/macsync/macsync-lh2s-x1-wireless-h2s-gas-monitoring-sensor.webp) |
@@ -593,22 +593,22 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>MacSync LH2S X1 BO</td>
       <td>Battery Powered</td>
-      <td>19 Ah</td>
       <td>Remote and low-power LoRaWAN® H₂S monitoring deployments</td>
+      <td>819</td>
     </tr>
     <tr>
       <td>MacSync LH2S X1 PO</td>
       <td>External Power (9 ~ 36 V DC)</td>
-      <td>-</td>
       <td>Continuous powered industrial H₂S monitoring deployments</td>
+      <td>820</td>
     </tr>
   </tbody>
 </table>

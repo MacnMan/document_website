@@ -579,7 +579,3 @@ Accessories marked with * must be purchased separately and may not be included i
 The MacSync LDSS X1 features a compact industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm** (Without sensor), enabling easy wall and pole mounting across warehouses, industrial facilities, smart buildings, utility infrastructure, and Industrial IoT deployments.
 
 ![MacSync LDSS X1 LoRaWAN door status sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-ldss-x1-lorawan-door-status-sensor-dimensions.webp)
-
-
-
-

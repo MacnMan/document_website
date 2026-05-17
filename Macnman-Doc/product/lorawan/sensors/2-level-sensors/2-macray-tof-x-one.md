@@ -1,6 +1,6 @@
 ---
 id: macray-ltof-lorawan-time-of-flight-sensor
-title: MacRay LToF Xx
+title: Time of Flight Sensor
 sidebar_position: 4
 description: Industrial LoRaWAN® Time-of-Flight sensor engineered for occupancy monitoring, people counting, smart buildings, indoor analytics, distance measurement, and wireless laser sensing applications.
 keywords:
@@ -85,7 +85,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for Narmada TSX1</p>
+      <p>Click here to view the decoders for MacRay LToF</p>
     </div>
   </a>
 </div>
@@ -226,7 +226,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Field of View (FoV)</div>
-      <div class="device-config-right">Programmable • 26° to 60°</div>
+      <div class="device-config-right">Programmable (26° to 60°)</div>
     </div>
 
     <div class="device-config-row">
@@ -549,6 +549,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
       <th>Sensor Grid Pattern</th>
       <th>Coverage</th>
       <th>Recommended Use</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
@@ -557,34 +558,38 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
       <td>2 × 2 (4‑point ToF)</td>
       <td>Narrow zone detection</td>
       <td>Doorway people counting / Access control</td>
+      <th>811</th>
     </tr>
     <tr>
   <td>MacRay LToF X1 BO</td>
   <td>2 × 2 (4-point ToF)</td>
   <td>Narrow zone detection</td>
   <td>Battery-powered doorway occupancy monitoring / Remote access analytics</td>
+  <th>812</th>
 </tr>
     <tr>
       <td>MacRay LToF X2 PO</td>
       <td>4 × 4 (16‑point ToF)</td>
       <td>Medium area coverage</td>
       <td>Room occupancy analytics / Facility automation</td>
+      <th>813</th>
     </tr>
     <tr>
   <td>MacRay LToF X2 BO</td>
   <td>4 × 4 (16-point ToF)</td>
   <td>Medium area coverage</td>
   <td>Battery-powered room occupancy analytics / Smart building monitoring</td>
+  <th>814</th>
 </tr>
     <tr>
       <td>MacRay LToF X3 PO</td>
       <td>8 × 8 (64‑point ToF)</td>
       <td>Wider coverage with higher precision</td>
       <td>Zone activity mapping / Retail & smart workspace analytics</td>
+      <th>815</th>
     </tr>
   </tbody>
 </table>
-
 
 
 <h2 className="device-section-title">
@@ -593,12 +598,20 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 Make sure box contains following items before installations
 
+- MacRay LToF Xx Sensor 
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
+
+
 ![![MacRay LToF LoRaWAN Time-of-Flight Sensor What's Included in the Box]](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Accessories marked with (*) must be purchased separately and may not be included in the box.
 
 :::
 
@@ -607,7 +620,8 @@ not be included in the box.
   ## MacRay LToF Series Dimensions
 </h2>
 
-Compact industrial enclosure with dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, and space-constrained industrial deployments.
+The MacRay LToF Series features a compact industrial-grade enclosure with overall dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, smart building deployments, occupancy analytics, people counting infrastructure, and space-constrained Industrial IoT environments.
+
 
 ![MacRay LToF LoRaWAN Time-of-Flight Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
 
