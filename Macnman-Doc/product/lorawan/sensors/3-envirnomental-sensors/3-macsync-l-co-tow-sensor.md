@@ -1,6 +1,6 @@
 ---
 id: macsync-l-co2-xx-datasheet
-title: MacSync LCO2 X1
+title: Outdoor CO₂ Sensor
 sidebar_position: 1
 
 description: Industrial LoRaWAN® CO2 sensor for real-time indoor air quality monitoring, HVAC automation, smart buildings, classrooms, offices, hospitals, warehouses, and industrial environmental monitoring applications.

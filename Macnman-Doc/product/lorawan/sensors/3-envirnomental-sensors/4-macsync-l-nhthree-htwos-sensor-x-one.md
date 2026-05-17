@@ -1,6 +1,6 @@
 ---
 id: macsync-lodor-x2
-title: MacSync L Odor X2
+title: Quantitative Odor Sensor
 sidebar_position: 9
 description: Industrial LoRaWAN odor monitoring sensor with high-precision NH₃ and H₂S sensing for wastewater plants, smart cities, industrial odor monitoring, environmental compliance, and Industrial IoT applications.
 keywords:

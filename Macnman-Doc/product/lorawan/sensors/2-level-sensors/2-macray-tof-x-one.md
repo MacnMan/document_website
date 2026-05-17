@@ -1,6 +1,6 @@
 ---
 id: macray-ltof-lorawan-time-of-flight-sensor
-title: MacRay LToF Xx
+title: Time of Flight Sensor
 sidebar_position: 4
 description: Industrial LoRaWAN® Time-of-Flight sensor engineered for occupancy monitoring, people counting, smart buildings, indoor analytics, distance measurement, and wireless laser sensing applications.
 keywords:

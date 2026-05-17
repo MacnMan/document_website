@@ -1,6 +1,6 @@
 ---
 id: macsync-lts-x1-datasheet
-title: MacSync LTS X1
+title: Outdoor TH Sensor
 sidebar_position: 1
 description: Industrial LoRaWAN® temperature humidity sensor for wireless environmental monitoring, smart agriculture, HVAC, cold chain, and industrial IoT applications.
 keywords:

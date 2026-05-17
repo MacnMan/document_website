@@ -1,6 +1,6 @@
 ---
 id: macsync-l-oxygen-sensor-x-one
-title: MacSync LOXGS X1
+title: Outdoor Oxygen Sensor
 sidebar_position: 12
 description: Industrial LoRaWAN oxygen sensor for real-time oxygen concentration monitoring in industrial, medical, environmental, and safety-critical applications.
 keywords:

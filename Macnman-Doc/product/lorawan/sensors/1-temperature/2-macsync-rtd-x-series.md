@@ -1,6 +1,6 @@
 ---
 id: macsync-lorawan-rtd-sensor-x-series
-title: MacSync LRTD X1
+title: RTD Temperature Sensor
 sidebar_position: 3
 description: MacSync LRTD X1 LoRaWAN RTD Temperature Sensor for industrial PT100 temperature monitoring with long-range wireless connectivity, high-accuracy sensing, IP67 rugged enclosure, and low-power IoT architecture.
 keywords:

@@ -1,6 +1,6 @@
 ---
 id: macsync-lh2s-x1-datasheet
-title: MacSync LH2S X1
+title: H₂S Sensor
 sidebar_position: 1
 description: Industrial LoRaWAN® H2S sensor for continuous hydrogen sulfide gas monitoring in STP, WWTP, sewers, oil & gas facilities, confined spaces, and industrial safety applications.
 

@@ -1,6 +1,6 @@
 ---
 id: narmada-tsx1-lorawan-temperature-humidity-sensor-datasheet
-title: Narmada TSX1
+title: Indoor TH Sensor 
 sidebar_position: 1
 description: Compact industrial LoRaWAN® temperature humidity sensor engineered for smart buildings, HVAC automation, factories, offices, warehouses, and indoor environmental monitoring.
 keywords:

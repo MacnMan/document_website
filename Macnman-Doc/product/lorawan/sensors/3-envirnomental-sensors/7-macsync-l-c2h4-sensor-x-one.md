@@ -1,6 +1,6 @@
 ---
 id: macsync-l-c2h4-sensor-x-one
-title: MacSync LC2H4 X1
+title: Outdoor Ethylene Sensor
 sidebar_position: 13
 description: Industrial LoRaWAN ethylene sensor for real-time ethylene gas monitoring in cold storage, ripening chambers, agriculture, food logistics, and Industrial IoT applications.
 keywords:

@@ -1,6 +1,6 @@
 ---
 id: MacSync L Odor X1-datasheet
-title: MacSync L Odor X1
+title: Qualitative Odor Sensor
 sidebar_position: 1
 description: Industrial LoRaWAN® qualitative odor sensor for smart washrooms, smart cities, sewage plants, chemical factories, and public infrastructure odor monitoring applications.
 keywords:

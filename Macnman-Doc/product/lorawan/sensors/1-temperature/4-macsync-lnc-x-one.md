@@ -1,6 +1,6 @@
 ---
 id: macsync-l-nc-x-one-datasheet
-title: MacSync LNCT Xx
+title: Non-Contact Temperature Sensor
 sidebar_position: 2
 description: Industrial-grade LoRaWAN® non-contact infrared temperature sensor engineered for accurate surface temperature monitoring in extreme, high-temperature, moving, and hazardous industrial environments.
 keywords:

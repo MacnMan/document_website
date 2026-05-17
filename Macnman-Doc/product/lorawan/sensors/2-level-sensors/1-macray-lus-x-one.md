@@ -1,6 +1,6 @@
 ---
 id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
-title: MacRay LUS X1
+title: Ultrasonic Sensor
 sidebar_position: 3
 description: Industrial LoRaWAN® ultrasonic level sensor engineered for wireless liquid level monitoring, tank level measurement, sewer monitoring, flood detection, and industrial IoT level sensing applications.
 keywords:
