@@ -59,7 +59,7 @@ MacSync LSS X3 is ideal for:
 
 ---
 
-| ![MacSync LSS X3 LoRaWAN soil EC sensor front view for precision agriculture and smart farming](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-multi-parameter-soil-sensor-front-view.webp) | ![MacSync LSS X3 wireless soil conductivity monitoring sensor side view for greenhouse and fertigation monitoring](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-soil-sensor-side-view.webp) |
+| ![MacSync LSS X3 LoRaWAN soil EC sensor front view for precision agriculture and smart farming](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-front-view.webp) | ![MacSync LSS X3 wireless soil conductivity monitoring sensor side view for greenhouse and fertigation monitoring](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-main-image.webp) |
 |--------------------------------|--------------------------------|
 | ![MacSync LSS X3 industrial LoRaWAN soil EC monitoring sensor rear view with rugged outdoor enclosure](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LSS X3 real-time soil salinity and conductivity monitoring sensor for smart agriculture](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
@@ -589,7 +589,7 @@ MacSync LSS X3 is ideal for:
 
 Make sure the box contains the following items before installation.
 
-- MacSync LSS X2 Soil Moisture & Temperature Sensor
+- MacSync LSS X3 LoRaWAN Soil EC Sensor
 - Mounting Clip
 - User Manual
 - Warranty Card
@@ -597,7 +597,7 @@ Make sure the box contains the following items before installation.
 - Mounting Screws 
 - Power Adapter *
 
-![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor package contents](/img/datalogger/whatsbox.svg)
+![MacSync LSS X3 LoRaWAN soil EC sensor package contents](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -607,12 +607,13 @@ Accessories marked with (*) must be purchased separately and may not be included
 ---
 
 <h2 className="device-section-title">
-  ## MacSync LSS X2 Product Dimensions
+  ## MacSync LSS X3 Product Dimensions
 </h2>
 
-The MacSync LSS X2 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. Its compact structure enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
+The MacSync LSS X3 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. The compact enclosure dimensions of **152 mm × 62 mm × 43 mm** enable easy installation across farms, vineyards, orchards, greenhouses, fertigation systems, research fields, plantations, and precision agriculture infrastructure.
 
-![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x2-lorawan-soil-temperature-moisture-sensor-probe-dimensions.webp)
+![MacSync LSS X3 LoRaWAN soil EC sensor probe dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x2-lorawan-soil-temperature-moisture-sensor-probe-dimensions.webp)
 
-![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x2-soil-sensor-enclosure-dimensions.webp)
+![MacSync LSS X3 industrial enclosure dimensions for LoRaWAN soil EC monitoring sensor](/img/lorawan/sensors/macsync/macsync-lss-x2-soil-sensor-enclosure-dimensions.webp)
 
+---
