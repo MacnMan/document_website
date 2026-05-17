@@ -638,7 +638,8 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 The MacSync LSS X2 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. Its compact structure enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
 
-![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x2-lorawan-soil-temperature-moisture-sensor-probe-dimensions.webp)
+![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-probe-dimensions.webp)
 
-![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x2-soil-sensor-enclosure-dimensions.webp)
+![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-device-dimensions.webp)
 
+---

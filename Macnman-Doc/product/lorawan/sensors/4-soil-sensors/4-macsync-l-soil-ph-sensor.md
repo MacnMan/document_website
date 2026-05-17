@@ -33,6 +33,7 @@ keywords:
   - greenhouse soil acidity monitoring
   - vineyard soil ph optimization sensor
   - plantation soil chemistry monitoring
+
 ---
 
 # MacSync LSS X4 LoRaWAN Soil pH Sensor Datasheet
@@ -79,7 +80,7 @@ MacSync LSS X4 is ideal for:
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-lss-x2-lorawan-soil-temperature-moisture-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-lorawan-soil-ph-sensor-lss-x4-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
