@@ -86,8 +86,6 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
   ## Key Features
 </h2>
 
-
-
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">

@@ -1,58 +1,70 @@
 ---
 id: macsync-l-seven-in-one-soil-sensor
-title: MacSync-LSSX7
+title: 7 Multi-Parameter Soil Sensor
 sidebar_position: 9
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Industrial-grade multi-parameter LoRaWAN soil sensor for monitoring soil moisture, temperature, EC, pH, salinity, and NPK trends in smart agriculture and precision farming applications.
 keywords:
-  - 7 in 1 lorawan soil sensor
-  - macsync lssx7 soil sensor
-  - multiparameter soil sensor lorawan
-  - smart agriculture soil monitoring device
+  - multi parameter lorawan soil sensor
+  - macsync lss x5 soil sensor
+  - lorawan soil monitoring sensor
+  - smart agriculture soil sensor
   - soil moisture temperature ec sensor
-  - lorawan soil data logger
-  - long range soil monitoring system
-  - precision farming soil sensor
-  - industrial grade soil monitoring probe
-  - soil salinity and ec measurement sensor
-  - smart irrigation automation sensor
-  - greenhouse soil monitoring iot device
-  - field soil health monitoring system
-  - plantation and vineyard soil sensor
-  - solar powered soil monitoring station lorawan
-  - agriculture iot soil sensor
-  - soil volumetric water content sensor lorawan
-  - crop health soil parameter analyzer
-  - remote farm soil sensing node
-  - macnman lorawan soil monitoring module
+  - industrial soil monitoring sensor
+  - precision farming soil monitoring system
+  - remote soil health monitoring sensor
+  - soil npk monitoring sensor
+  - greenhouse soil monitoring device
+  - wireless soil sensor lorawan
+  - long range agricultural soil sensor
+  - soil salinity monitoring sensor
+  - smart irrigation soil sensor
+  - crop monitoring soil sensor
+  - environmental soil monitoring system
+  - macnman soil intelligence sensor
+  - soil analytics lorawan device
+  - industrial grade soil sensor
+  - agricultural iot soil sensor
+  - 7 in 1 soil sensor
+  - lorawan npk sensor
+  - soil ec ph moisture sensor
+  - smart farming sensor
+  - agriculture automation sensor
+  - wireless soil fertility sensor
+  - industrial soil probe
 ---
 
-# MacSync-LSSX7 Datasheet
+# MacSync LSS X5 LoRaWAN Soil Sensor Datasheet
 
 ## Product Overview
 
-**MacSync‑LSSX7** is a high‑precision **7‑in‑1 LoRaWAN® soil intelligence sensor** engineered for advanced agricultural, horticultural, forestry, and environmental monitoring applications. It simultaneously measures **soil moisture, soil temperature, electrical conductivity (EC), soil Ph leves,and NPK trend estimation**, allowing farmers and agronomists to make data‑driven decisions from a single integrated probe.
+**MacSync LSS X5** is an industrial-grade **multi-parameter LoRaWAN® soil sensor** designed for precision agriculture, smart irrigation, greenhouse automation, plantation monitoring, and remote soil intelligence applications. The sensor continuously measures **soil moisture, soil temperature, electrical conductivity (EC), pH, salinity, and NPK trend estimation** from a single rugged stainless-steel probe.
 
-Optimized for ultra‑low‑power operation and long‑range wireless communication, MacSync‑LSSX7 delivers consistent soil‑health insights even in remote fields, dense plantations, and large‑scale farms. Its **industrial‑grade stainless‑steel electrodes**, reinforced probe structure, and IP67‑rated enclosure ensure highly reliable performance in challenging soil conditions including clay, sandy, saline, and high‑moisture environments.
+Built for long-range wireless deployments, the **MacSync LSS X5 LoRaWAN Soil Sensor** enables real-time soil health monitoring across large agricultural farms, vineyards, orchards, polyhouses, research fields, and smart farming environments. Its ultra-low-power architecture combined with LoRaWAN® connectivity allows seamless deployment in remote areas without relying on Wi-Fi or cellular infrastructure.
 
-Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **Maya App**, and onboard data‑buffering for zero‑loss transmission, **MacSync‑LSSX7 enables precision farming, irrigation automation, and nutrient‑optimization strategies**—helping growers increase yields, reduce water consumption, and maintain soil vitality.
+The sensor is engineered using industrial-grade corrosion-resistant stainless-steel sensing electrodes, reinforced field-ready housing, and an IP67-rated enclosure to ensure accurate performance in clay, sandy, saline, wet, and high-moisture soil conditions. The rugged design makes the device suitable for long-term outdoor agricultural deployments and environmental soil monitoring systems.
 
-<div className="image-grid-2col">
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-health-monitoring-guide.webp" alt="macsync lssx advanced lorawan soil sensor front view for precision agriculture" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-datasheet.webp" alt="industrial grade stainless steel soil probe electrodes for macsync lssx multiparameter soil sensor" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lssx-technical-specifications.webp" alt="side profile of macsync lssx lorawan soil health monitoring sensor" />
-  <img src="/docs/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp" alt="macsync lssx lorawan soil sensor installed in field for smart irrigation and farm automation" />
-</div>
+Powered by Macnman’s secure LoRaWAN® stack, onboard data logging, AES-encrypted communication, and OTA configuration through the Maya App, **MacSync LSS X5** helps growers and agronomists optimize irrigation cycles, improve fertilizer efficiency, reduce water consumption, increase crop productivity, and maintain long-term soil health.
 
-## Download Center
+The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart agriculture IoT deployments requiring reliable soil analytics, wireless soil monitoring, and industrial-grade remote sensing infrastructure.
+
+---
+| ![MacSync LSS X5 LoRaWAN multi-parameter soil sensor front view for smart agriculture and precision farming](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-multi-parameter-soil-sensor-front-view.webp) | ![MacSync LSS X5 wireless LoRaWAN soil sensor side view for greenhouse and irrigation monitoring](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-soil-sensor-side-view.webp) |
+|--------------------------------|--------------------------------|
+| ![MacSync LSS X5 industrial LoRaWAN soil monitoring sensor back view with rugged outdoor enclosure](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LSS X5 real-time soil health monitoring sensor for smart farming and precision agriculture](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+
+---
+
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-loxgs-x1-lorawan-oxygen-monitoring-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -60,65 +72,65 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LSSX7</p>
+      <p>Click here to view the decoders for MacSync LSS X5</p>
     </div>
   </a>
 </div>
 
-<div class="faint-line"></div>
+---
 
 ## Key Features
 
 <div className="reusable-feature-grid">
 
 <div className="reusable-feature-card">
-  <strong>Seven‑Parameter Soil Intelligence</strong>
-  Measures soil moisture, temperature, EC, salinity, dielectric permittivity, VWC, and NPK trend estimation in a single probe.
+  <strong>Multi-Parameter LoRaWAN® Soil Sensor</strong>
+  Continuously monitors soil moisture, soil temperature, EC, pH, salinity, and NPK trend estimation from a single industrial-grade soil probe.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>High‑Accuracy Stainless‑Steel Electrodes</strong>
-  Industrial‑grade corrosion‑resistant electrodes ensure precise readings in clay, sandy, saline, and high‑moisture soils.
+  <strong>Precision Agriculture & Smart Irrigation Ready</strong>
+  Enables real-time soil analytics for automated irrigation systems, fertigation optimization, crop health monitoring, and water conservation.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>True Long‑Range LoRaWAN® Connectivity</strong>
-  Ultra‑long‑distance communication enabling seamless deployment across large farms and remote agricultural fields.
+  <strong>Long-Range LoRaWAN® Connectivity</strong>
+  Reliable long-distance wireless communication for farms, greenhouses, orchards, vineyards, plantations, and remote agricultural deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Ultra‑Low‑Power Architecture</strong>
-  Optimized hardware ensures multi‑year battery life even with frequent uplinks and continuous sensing.
+  <strong>Industrial Stainless-Steel Soil Probe</strong>
+  Corrosion-resistant sensing electrodes ensure accurate readings in saline, wet, clay, sandy, and high-moisture soil conditions.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Rugged Outdoor Build</strong>
-  Fully sealed enclosure engineered for long‑term soil burial and harsh outdoor conditions.
+  <strong>Ultra-Low-Power Soil Monitoring Device</strong>
+  Optimized low-power architecture delivers multi-year battery performance for remote agricultural IoT deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>OTA Configuration & Calibration</strong>
-  Update settings, thresholds, sampling intervals, and firmware directly through the Maya App without physical access.
+  <strong>IP67 Rugged Outdoor Enclosure</strong>
+  Built for continuous outdoor operation in harsh environmental conditions including rain, mud, irrigation zones, and agricultural fields.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Failsafe Data Buffering</strong>
-  Stores thousands of soil‑health samples locally to prevent data loss during network downtime.
+  <strong>Remote OTA Configuration via Maya App</strong>
+  Configure sampling intervals, uplink timing, thresholds, and device parameters remotely without physical access to the sensor.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>End‑to‑End Secure LoRaWAN® Communication</strong>
-  AES‑encrypted uplinks ensure reliable and tamper‑proof soil‑analytics data delivery.
+  <strong>Secure AES-Encrypted LoRaWAN® Communication</strong>
+  Enterprise-grade encrypted wireless communication ensures reliable and tamper-resistant soil analytics data transmission.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Universal LoRaWAN® Network Support</strong>
-  Compatible with private networks, TTN, ChirpStack, Loriot, Orbiwise, MQTT‑based servers, and on‑prem installations.
+  <strong>Compatible with Major LoRaWAN® Platforms</strong>
+  Supports ChirpStack, The Things Network, MQTT servers, LORIOT, private LoRaWAN networks, and industrial on-prem deployments.
 </div>
 
 </div>
 
-<div class="faint-line"></div>
+---
 
 ## Suited Applications
 
@@ -166,430 +178,482 @@ Powered by Macnman’s robust LoRaWAN® stack, OTA configurability using the **M
 
 </div>
 
-<div class="faint-line"></div>
+---
 
-## Technical Specification
+<h2 className="device-section-title">
+  ## Technical Specifications
+</h2>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    General <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value">MacSync-LSSX7</p>
-    <br />
-    <p className="label">Product Brand</p>
-    <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Soil Sensor Measurement</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Temperature Range</div>
+      <div class="device-config-right">-45°C to +115°C</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Environmental <br /> Measurement
-  </div>
-  <div className="spec-block-details">
+    <div class="device-config-row">
+      <div class="device-config-left">Temperature Accuracy</div>
+      <div class="device-config-right">±0.5°C</div>
+    </div>
 
-    <p className="label">Soil Temperature Range</p>
-    <p className="value">‑45°C to +115°C</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Temperature Resolution</div>
+      <div class="device-config-right">0.1°C</div>
+    </div>
 
-    <p className="label">Soil Temperature Accuracy</p>
-    <p className="value">±0.5°C</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Temperature Repeatability</div>
+      <div class="device-config-right">±0.2°C</div>
+    </div>
 
-    <p className="label">Soil Moisture Range</p>
-    <p className="value">0–100% RH</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Moisture Range</div>
+      <div class="device-config-right">0% – 100% VWC</div>
+    </div>
 
-    <p className="label">Soil Moisture Accuracy</p>
-    <p className="value">±3% (0–53% RH), ±5% (53%+)</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Moisture Accuracy</div>
+      <div class="device-config-right">±5%</div>
+    </div>
 
-    <p className="label">pH Range</p>
-    <p className="value">3–9 pH</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Moisture Resolution</div>
+      <div class="device-config-right">0.1% RH</div>
+    </div>
 
-    <p className="label">pH Accuracy</p>
-    <p className="value">±0.3 pH</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Moisture Repeatability</div>
+      <div class="device-config-right">±1% RH</div>
+    </div>
 
-    <p className="label">NPK Range</p>
-    <p className="value">0–1999 mg/kg</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">pH Range</div>
+      <div class="device-config-right">3 – 9 pH</div>
+    </div>
 
-    <p className="label">NPK Accuracy</p>
-    <p className="value">±2% F.S</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">pH Accuracy</div>
+      <div class="device-config-right">±0.3 pH</div>
+    </div>
 
-    <p className="label">Electrical Conductivity (EC) Range</p>
-    <p className="value">0–10000 μS/cm</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">pH Resolution</div>
+      <div class="device-config-right">0.1 pH</div>
+    </div>
 
-    <p className="label">EC Resolution</p>
-    <p className="value">10 μS/cm</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">pH Repeatability</div>
+      <div class="device-config-right">±0.1 pH</div>
+    </div>
 
-    <p className="label">Sensor Response Time</p>
-    <p className="value">&lt; 1 second</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">NPK Range</div>
+      <div class="device-config-right">0 – 1999 mg/kg</div>
+    </div>
 
-    <p className="label">Ingress Protection (Sensor)</p>
-    <p className="value">IP68</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">NPK Accuracy</div>
+      <div class="device-config-right">±2% F.S</div>
+    </div>
 
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">NPK Resolution</div>
+      <div class="device-config-right">1 mg/kg</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">NPK Repeatability</div>
+      <div class="device-config-right">±1% F.S</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">EC Range</div>
+      <div class="device-config-right">0 – 10000 µS/cm</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Wireless <br /> Transmission
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">EC Accuracy</div>
+      <div class="device-config-right">±3% F.S</div>
+    </div>
 
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">EC Resolution</div>
+      <div class="device-config-right">10 µS/cm</div>
+    </div>
 
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    LED <br /> Status
-  </div>
-  <div className="spec-block-details">
-    <p className="label">LED Type</p>
-    <p className="value">1 Internal Multi-Color LED</p>
-    <br />
-    <p className="label">Solid Blue</p>
-    <p className="value">Device is connected with Maya App</p>
-    <br />
-    <p className="label">Flashing Blue</p>
-    <p className="value">OTA (Over-the-Air) update in progress</p>
-    <br />
-    <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
-    <br />
-    <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSync is being modified</p>
-    <br />
-
+    <div class="device-config-row">
+      <div class="device-config-left">EC Repeatability</div>
+      <div class="device-config-right">±1% F.S</div>
+    </div>
 
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Device <br /> Configuration
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Configuration</p>
-    <p className="value">Via Macnman Maya Android App</p>
-    <br />
-    <p className="label">Uplink Modes</p>
-    <p className="value">Time Based / Threshold Based / Sampling Based</p>
-    <br />
-    <p className="label">Stored Records*</p>
-    <p className="value">30,000 Records</p>
-    <br />
-    <p className="label">Remote Configuration</p>
-    <p className="value">JSON Format Data - from server</p>    
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
+<div class="device-config-section">
+  <div class="device-config-title">Wireless Transmission</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Battery <br /> Performance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 04 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Wireless Protocols</div>
+      <div class="device-config-right">LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">Antenna</div>
+      <div class="device-config-right">Internal high-efficiency antenna</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Supported Bands</div>
+      <div class="device-config-right">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Tx Power</div>
+      <div class="device-config-right">23 dBm @ 865 MHz </div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensitivity</div>
+      <div class="device-config-right">-137 dBm @ 300 bps</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Activation</div>
+      <div class="device-config-right">OTAA</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LoRaWAN® Class</div>
+      <div class="device-config-right">Class A (Default), Configurable to Class C via Maya</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Supports Major LNS</div>
+      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Physical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Supply (Optional)</p>
-    <p className="value">9-36 V DC</p>
-    <br />
-    <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
-    <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
-    <br />
-    <p className="label">Ingress Protection</p>
-    <p className="value">IP65 standard (IP67 optional variant)</p>    
-    <br />
-    <p className="label">Housing Material</p>
-    <p className="value">Glass field Nylon</p>    
-    <br />
-    <p className="label">Color</p>
-    <p className="value">Matte White</p>    
-    <br />
-    <p className="label">Weight</p>
-    <p className="value">~210g</p>    
-    <br />
-    <p className="label">Mounting Options</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">Device Management</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Configuration Method</div>
+      <div class="device-config-right">Via Macnman Maya Android App</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Local Configuration</div>
+      <div class="device-config-right">BLE-Based Local Configuration</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Remote Configuration</div>
+      <div class="device-config-right">Over-the-Air Configuration (Downlink Commands)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Status LED</div>
+      <div class="device-config-right">1 × Internal Multi-Color LED</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Battery <br /> Performance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-SOCl₂ Cell (19Ah) Industrial grade</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 years (10 Mins Uplink Interval)</p>
-    <br />
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Server Data Reporting Modes</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Reporting Mode</div>
+      <div class="device-config-right">Periodic / Event-based / Hybrid</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Input Voltage Range (Optional Varient)</p>
-    <p className="value">9-36 V DC (External Supply)</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Input Impedance</p>
-    <p className="value">>10 MΩ for voltage inputs</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Transmission Interval</div>
+      <div class="device-config-right">Independent uplink interval for optimized power consumption</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Threshold-Based Alerts</div>
+      <div class="device-config-right">Configurable soil moisture, EC, pH, salinity, and NPK threshold alerts for event-triggered transmission</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Sampling Interval</div>
+      <div class="device-config-right">Configurable data acquisition interval (e.g., 1 min to 24 hours)</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Communication <br /> Options
+<div class="device-config-section">
+  <div class="device-config-title">Battery Performance (BO Series)</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Battery Type</div>
+      <div class="device-config-right">Li-SOCl₂ Cell (19Ah) Industrial grade</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption</div>
+      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">5-Minute Reporting Interval</div>
+      <div class="device-config-right">~2 Years (Estimated)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">15-Minute Reporting Interval</div>
+      <div class="device-config-right">~4 Years (Estimated)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">60-Minute Reporting Interval</div>
+      <div class="device-config-right">~7+ Years (Estimated)</div>
+    </div>
+
   </div>
-  <div className="spec-block-details">
-    <p className="label">BLE Connectivity</p>
-    <p className="value">For local configuration and diagnostics via Maya App</p>
-    <br />
-    <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
-    <br />
-    <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (via gateway*)</p>
-    <br />
+</div>
+
+---
+<div class="device-config-section">
+  <div class="device-config-title">Solar Option</div>
+  <div class="device-config-table">
+
+  <div class="device-config-row shaded">
+  <div class="device-config-left">Solar Panel</div>
+  <div class="device-config-right">20 W High-Efficiency Solar Panel</div>
+  </div>
+
+  <div class="device-config-row">
+  <div class="device-config-left">Rechargeable Battery</div>
+  <div class="device-config-right">Integrated 8000 mAh Solar Rechargeable Battery</div>
+  </div>  
+</div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Communication Options</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">BLE Connectivity</div>
+      <div class="device-config-right">For local configuration and diagnostics via Maya App</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Cloud Protocols</div>
+      <div class="device-config-right">MQTT / HTTPS / TCP/IP (Gateway Dependent)</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Security & Encryption</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Encryption</div>
+      <div class="device-config-right">AES-128 LoRaWAN® encryption</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Authentication</div>
+      <div class="device-config-right">OTAA Device Activation</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Firmware Protection</div>
+      <div class="device-config-right">Secure boot and signed OTA updates</div>
+    </div>
+
+  </div>
+</div>
+
+--- 
+
+
+
+<div class="device-config-section">
+  <div class="device-config-title">LED Status</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LED Type</div>
+      <div class="device-config-right">1 × Internal Multi-Color LED</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Solid Blue</div>
+      <div class="device-config-right">Device connected to Maya App</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Flashing Blue</div>
+      <div class="device-config-right">OTA (Over-the-Air) update in progress</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Slow Blinking Green</div>
+      <div class="device-config-right">Attempting to connect to the LoRaWAN® network</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Single Red Blink</div>
+      <div class="device-config-right">Confirmed parameter modification</div>
+    </div>
+
+  </div>
+</div>
+
+---
+<div class="device-config-section">
+  <div class="device-config-title">Physical Characteristics</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">-40°C to +80°C</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Humidity Range</div>
+      <div class="device-config-right">0% ~ 100% RH (non-condensing)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Ingress Protection</div>
+      <div class="device-config-right">IP65 standard (IP67 optional variant)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Housing Material</div>
+      <div class="device-config-right">Glass Filled Nylon</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Color</div>
+      <div class="device-config-right">Matte White</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Weight</div>
+      <div class="device-config-right">~175 g</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Mounting Options</div>
+      <div class="device-config-right">Pole Mount / Wall Mount</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Certifications & Compliance</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">WPC</div>
+      <div class="device-config-right">Compliant</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">RoHS</div>
+      <div class="device-config-right">Conforms to RoHS directive</div>
+    </div>
+
   </div>
 </div>
 
 
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Certifications & <br /> Compliance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">WPC</p>
-    <p className="value">Compliant</p>
-    <br />
-    <p className="label">RoHS</p>
-    <p className="value">Conforms to RoHS directive</p>
-    <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Security & <br /> Encryption
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
-    <br />
-    <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes</p>
-    <br />
-    <p className="label">Firmware Protection</p>
-    <p className="value">Secure boot and signed OTA updates</p>
-    <br />
-  </div>
-</div>
-
-
-## MacSync-LSSX7 Variants
-
+---
+## MacSync LSS X5 Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
+      <th>Sensor Parameters</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
-      <th>Solar Support</th>
-      <th>Ideal Deployment</th>
+      <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync-LSSX7-PO</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>Industrial sites, automation systems & weather‑dependent machinery control</td>
+      <td>MacSync LSS X5 BO</td>
+      <td>Moisture + Temperature + EC + pH + Salinity + NPK Trends</td>
+      <td>19 Ah Li-SOCl₂ Battery</td>
+      <td>Remote agricultural deployments, smart irrigation systems, and long-term soil monitoring</td>
+      <th>830</th>
     </tr>
     <tr>
-      <td>MacSync-LSSX7-BO</td>
-      <td>Battery Powered</td>
-      <td>19 Ah</td>
-      <td>✖️</td>
-      <td>Remote farms, plantations, research stations — no wired power required</td>
-    </tr>
-    <tr>
-      <td>MacSync-LSSX7-SO</td>
-      <td>Solar + Battery Hybrid</td>
-      <td>12 Ah (Rechargeable)</td>
-      <td>External solar charging</td>
-      <td>Long-term field deployments with real‑time climate automation in remote areas</td>
+      <td>MacSync LSS X5 SO</td>
+      <td>Moisture + Temperature + EC + pH + Salinity + NPK Trends</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>Continuous precision farming, greenhouse automation, and solar-powered agricultural monitoring</td>
+      <th>831</th>
     </tr>
   </tbody>
 </table>
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
+--- 
 
--->
+<h2 className="device-section-title"> 
+  ## What's in the Box?
+</h2>
 
-## What's in the box ?
+Make sure the box contains the following items before installation.
 
-Make sure box contains following items before installations
+- MacSync LSS X5 Soil Sensor
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapter *
 
-![title image](/img/datalogger/whatsbox.svg)
+![MacSync LSS X5 LoRaWAN soil sensor package contents](/img/datalogger/whatsbox.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
-
+Accessories marked with (*) must be purchased separately and may not be included in the box.
 :::
 
-## Product Dimensions
+---
 
-![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lssx-soil-sensor-dimensions.svg)
+<h2 className="device-section-title">
+  ## MacSync LSS X5 Product Dimensions
+</h2>
 
-![tmacsync lssx soil probe stainless steel electrode dimensions](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+The MacSync LSS X5 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. Its compact structure enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
 
+![MacSync L Odor X2 LoRaWAN odor sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/7-multi-parameter-soil-sensor-macsync-lss-x5-dimensions.webp)
+
+![MacSync L Odor X2 LoRaWAN odor sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-soil-sensor-dimensions.webp)
