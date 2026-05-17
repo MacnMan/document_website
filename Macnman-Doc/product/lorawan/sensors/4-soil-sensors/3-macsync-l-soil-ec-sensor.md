@@ -569,14 +569,14 @@ MacSync LSS X3 is ideal for:
       <td>Soil EC Monitoring</td>
       <td>19 Ah Li-SOCl₂ Battery</td>
       <td>Remote agricultural deployments, soil conductivity monitoring, greenhouse farming, and smart agriculture applications</td>
-      <th>832</th>
+      <th>836</th>
     </tr>
     <tr>
       <td>MacSync LSS X3 SO</td>
       <td>Soil EC Monitoring</td>
       <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
       <td>Continuous remote soil EC monitoring, fertigation optimization, and precision agriculture deployments</td>
-      <th>833</th>
+      <th>837</th>
     </tr>
   </tbody>
 </table>
@@ -612,8 +612,8 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 The MacSync LSS X3 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. The compact enclosure dimensions of **152 mm × 62 mm × 43 mm** enable easy installation across farms, vineyards, orchards, greenhouses, fertigation systems, research fields, plantations, and precision agriculture infrastructure.
 
-![MacSync LSS X3 LoRaWAN soil EC sensor probe dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x2-lorawan-soil-temperature-moisture-sensor-probe-dimensions.webp)
+![MacSync LSS X3 LoRaWAN soil EC sensor probe dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-probe-dimensions.webp)
 
-![MacSync LSS X3 industrial enclosure dimensions for LoRaWAN soil EC monitoring sensor](/img/lorawan/sensors/macsync/macsync-lss-x2-soil-sensor-enclosure-dimensions.webp)
+![MacSync LSS X3 industrial enclosure dimensions for LoRaWAN soil EC monitoring sensor](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-device-dimensions.webp)
 
 ---
