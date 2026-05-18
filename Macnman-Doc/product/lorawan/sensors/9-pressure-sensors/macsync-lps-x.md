@@ -1,6 +1,6 @@
 ---
 id: macsync-lps-xx-lorawan-pressure-sensor
-title: MacSync LPS Xx 
+title: Liquid Pressure Sensor
 sidebar_position: 6
 description: Industrial LoRaWAN® hydrostatic pressure transducer engineered for wireless pressure monitoring, pipeline pressure sensing, water utility telemetry, fire hydrant monitoring, and industrial process automation.
 keywords:
@@ -36,7 +36,6 @@ keywords:
   - industrial iot pressure sensor
   - macsync lps xx
   - macnman lorawan pressure sensor
-
 ---
 
 # MacSync LPS Xx LoRaWAN® Pressure Transducer
@@ -55,10 +54,9 @@ Whether deployed for municipal water distribution monitoring, fire pump discharg
 
 The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible with major LoRaWAN® gateways and network servers including ChirpStack, The Things Stack, MQTT platforms, Orbiwise, LORIOT, and private industrial LoRaWAN® infrastructures — enabling seamless integration into SCADA systems, Industrial IoT dashboards, cloud analytics platforms, and smart utility management infrastructure.
 
-| ![MacSync LRTD X1 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-whats-in-the-box.webp) | ![MacSync LRTD X1 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-dimensions.webp) |
-|--------------------------------|--------------------------------|
-| ![MacSync LRTD X1 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp) | ![MacSync LRTD X1 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
-
+| ![MacSync LRTD X1 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-whats-in-the-box.webp) | ![MacSync LRTD X1 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-dimensions.webp)      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![MacSync LRTD X1 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp)       | ![MacSync LRTD X1 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
 
 ---
 
@@ -88,7 +86,9 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 
 ---
 
-## Key Features
+<h2 className="device-section-title">
+  ## Key Features
+</h2>
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
@@ -144,7 +144,9 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 
 ---
 
-## Suited Applications
+<h2 className="device-section-title">
+  ## Applications
+</h2>
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">
@@ -258,7 +260,6 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 </div>
 
 ---
-
 
 <div class="device-config-section">
   <div class="device-config-title">Pressure Measurement Model : X2</div>
@@ -543,7 +544,6 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
       <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
     </div>
 
-
   </div>
 </div>
 
@@ -562,7 +562,6 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
       <div class="device-config-left">Cloud Protocols</div>
       <div class="device-config-right">MQTT / HTTPS / TCP IP (Gateway Dependent)</div>
     </div>
-
 
   </div>
 </div>
@@ -591,9 +590,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
   </div>
 </div>
 
---- 
-
-
+---
 
 <div class="device-config-section">
   <div class="device-config-title">LED Status</div>
@@ -628,6 +625,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 </div>
 
 ---
+
 <div class="device-config-section">
   <div class="device-config-title">Physical Characteristics</div>
   <div class="device-config-table">
@@ -689,89 +687,96 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
   </div>
 </div>
 
-
 ---
 
-
-
-##  MacSync LPS Xx Variants
+<h2 className="device-section-title">
+  ## MacSync LPS Xx Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
       <th>Pressure Range</th>
-      <th>Power Option</th>
+      <th>Power Source</th>
       <th>Ideal Use Case</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>MacSync LPS X1 PO</td>
       <td>0 ~ 2.5 MPa</td>
-      <td>12–24 V DC Power</td>
-      <td>Water distribution lines & low-pressure industrial monitoring</td>
+      <td>External Power (9–36 V DC)</td>
+      <td>Water distribution lines, industrial utility systems, low-pressure process monitoring, and continuous wired industrial deployments.</td>
+      <td>847</td>
     </tr>
     <tr>
-      <td>MacSync LPS X1 PO</td>
-      <td>0 ~ 2.5 MPa</td>
-      <td>Battery (Multi-year)</td>
-      <td>Remote low-pressure pipelines & control rooms</td>
-    </tr>
-    <tr>
-    <td>MacSync LPS X2 PO</td>
+      <td>MacSync LPS X1 BO</td>
       <td>0 ~ 5 MPa</td>
-      <td>12–24 V DC Power</td>
-      <td>Municipal hydrants & medium pressure lines</td>
+      <td>Integrated Battery (19 Ah)</td>
+      <td>Remote industrial pressure monitoring, unmanned utility infrastructure, isolated pumping stations, and battery-powered field deployments.</td>
+      <td>848</td>
     </tr>
     <tr>
-    <td>MacSync LPS X2 BO</td>
+  <td>MacSync LPS X2 PO</td>
+  <td>0 ~ 5 MPa</td>
+  <td>External Power (9–36 V DC)</td>
+  <td>Continuous wired industrial pressure monitoring for hydraulic systems, utility pipelines, industrial automation, pumping stations, and process monitoring infrastructure.</td>
+  <td>859</td>
+</tr>
+    <tr>
+      <td>MacSync LPS X2 BO</td>
       <td>0 ~ 5 MPa</td>
-      <td>Battery (Multi-year)</td>
-      <td>Unmanned water networks & industrial equipment</td>
+      <td>Integrated Battery (19 Ah)</td>
+      <td>Battery-powered industrial pressure monitoring for remote utility infrastructure, outdoor hydraulic systems, isolated pumping stations, and unmanned monitoring deployments.</td>
+      <td>850</td>
     </tr>
     <tr>
-    <td>MacSync LPS X3 PO</td>
+      <td>MacSync LPS X3 PO</td>
       <td>0 ~ 10 MPa</td>
-      <td>12–24 V DC Power</td>
-      <td>Fire-fighting discharge pressure & industrial pumps</td>
+      <td>External Power (9–36 V DC)</td>
+      <td>High-pressure industrial pipelines, fire-fighting systems, hydraulic monitoring, industrial automation, and continuous wired process pressure analytics.</td>
+      <td>851</td>
     </tr>
     <tr>
-    <td>MacSync LPS X3 BO</td>
+      <td>MacSync LPS X3 BO</td>
       <td>0 ~ 10 MPa</td>
-      <td>Battery (Multi-year)</td>
-      <td>Remote firefighting pressure monitoring & booster stations</td>
+      <td>Integrated Battery (19 Ah)</td>
+      <td>Remote high-pressure monitoring for industrial pipelines, oil & gas infrastructure, hydraulic systems, and battery-powered outdoor utility deployments.</td>
+      <td>852</td>
     </tr>
-      </tbody>
+  </tbody>
 </table>
 
+---
 
 <h2 className="device-section-title">
-  ## What's in the Box ?
+  ## What's in the Box?
 </h2>
 
+Make sure the package contains the following items before installation and deployment of the MacSync LPS Xx LoRaWAN® Pressure Transducer.
 
-Make sure box contains following items before installations
-- MacSync Model
+- MacSync LPS Xx LoRaWAN® Pressure Transducer
 - Mounting Clip
 - User Manual
 - Warranty Card
-- IP68 Cable Extender *
-- Mounting Screws 
-- Power Adapters *
+- IP68 Cable Extender \*
+- Mounting Screws
+- Power Adapter \*
 
-![MacSync LPS Xx LoRaWAN Pressure Transducer What's Included in the Box](/img/datalogger/whatsbox.svg)
+![MacSync LPS Xx LoRaWAN Pressure Transducer box contents with mounting accessories and installation kit](/img/datalogger/whatsbox.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Accessories marked with (\*) may vary depending on deployment requirements and ordering configuration.
 
 :::
 
+---
+
 ## Product Dimensions
 
-Compact industrial enclosure designed for rugged field deployments with overall dimensions **152 mm X 62 mm X 43 mm ( Without Sensor Probe )**  optimized for wall mounting and industrial pressure monitoring installations.
+Compact industrial enclosure designed for rugged field deployments with overall dimensions **152 mm X 62 mm X 43 mm ( Without Sensor Probe )** optimized for wall mounting and industrial pressure monitoring installations.
 
 ![MacSync LPS Xx LoRaWAN Hydrostatic Pressure Transducer Mechanical Dimensions and Mounting Layout](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-transducer-dimensions.webp)
-
