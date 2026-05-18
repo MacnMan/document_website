@@ -61,14 +61,12 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 
 ---
 
----
-
 <h2 className="device-section-title">
   ## Download Center
 </h2>
 
 <div className="icon-card-grid">
-<a href="/docs/downloads/macnman-parknode-gen1-lorawan-geomagnetic-parking-sensor-datasheet.pdf" 
+<a href="/docs/downloads/macnman-parknode-gen1-lorawan-geomagnetic-parking-sensor-datasheet-updated.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
