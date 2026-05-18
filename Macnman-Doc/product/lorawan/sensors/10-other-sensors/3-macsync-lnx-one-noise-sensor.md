@@ -37,7 +37,7 @@ keywords:
 
 **MacSync LNS X1** is an industrial‑grade **LoRaWAN® outdoor sound level monitoring sensor** designed for continuous environmental sound measurement, industrial acoustic analysis, and smart‑city sound level compliance monitoring. Engineered for harsh outdoor deployments, the sensor delivers accurate real‑time sound level measurements for traffic zones, industrial facilities, construction sites, airports, railway corridors, commercial complexes, and urban environmental monitoring projects.
 
-Built with a precision acoustic sensing front‑end, advanced digital signal processing, and high‑stability microphone architecture, MacSync LNS X1 provides reliable **dBA sound monitoring, peak sound level detection, environmental sound level analytics, and long‑term acoustic trend monitoring**.
+Built with a precision acoustic sensing front‑end, industrial acoustic signal processing, and high‑stability microphone architecture, MacSync LNS X1 provides reliable **dBA sound monitoring, real-time sound level monitoring, environmental sound level analytics, and long‑term acoustic trend monitoring**.
 
 Its ultra‑low‑power architecture combined with **long‑range LoRaWAN® wireless connectivity** enables large‑scale distributed outdoor sound level monitoring networks without complex wired infrastructure. The rugged IP65 industrial enclosure, wind‑sound level protection design, and weather‑resistant construction ensure stable operation in rain, dust, humidity, vibration, and high‑sound level outdoor environments.
 
@@ -45,11 +45,9 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
 
 ---
 
-| ![MacSync LWS X2 LoRaWAN 6-in-1 weather station front view with integrated optical rain sensor for industrial environmental monitoring](/img/lorawan/sensors/macsync/macsync-lns-x1-lorawan-outdoor-sound-level-sensor-front-view.webp) | ![MacSync LWS X2 wireless weather monitoring station side view for smart agriculture and rainfall monitoring systems](/img/lorawan/sensors/macsync/macsync-lns-x1-lorawan-outdoor-sound-level-sensor-main-image.webp) |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![MacSync LWS X2 industrial LoRaWAN weather station rear enclosure view for outdoor meteorological and precipitation monitoring](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp)                                        | ![MacSync LWS X2 real-time rainfall and weather monitoring station for environmental analytics and flood monitoring](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp)                              |
-
-
+| ![MacSync LNS X1 LoRaWAN outdoor sound level sensor front view for environmental acoustic monitoring deployments](/img/lorawan/sensors/macsync/macsync-lns-x1-lorawan-outdoor-sound-level-sensor-front-view.webp) | ![MacSync LNS X1 outdoor sound level sensor main installation view for industrial and smart city monitoring deployments](/img/lorawan/sensors/macsync/macsync-lns-x1-lorawan-outdoor-sound-level-sensor-main-image.webp) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![MacSync LNS X1 industrial outdoor sound level sensor rear enclosure design for LoRaWAN environmental monitoring deployments](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LNS X1 outdoor sound level sensor side installation view for smart city acoustic monitoring systems](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 ---
  
@@ -71,7 +69,7 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p><p>Click here to view the decoders for MacSync LWS X2</p></p>
+      <p><p>Click here to view the decoders for MacSync LNS X1</p></p>
     </div>
   </a>
 </div>
@@ -585,7 +583,7 @@ Accessories marked with (*) may vary depending on deployment requirements and or
 
 ---
 <h2 className="device-section-title">
-  ## MacSync LNS X1 Product Dimensions
+  ## MacSync LNS X1 Outdoor Sound Level Sensor Dimensions
 </h2>
 
 The **MacSync LNS X1 LoRaWAN® Sound Level Sensor** features a rugged industrial-grade enclosure engineered for long-term environmental sound level monitoring and smart-city acoustic monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables flexible installation across highways, industrial facilities, construction zones, railway corridors, airports, smart-city infrastructure, mining environments, commercial complexes, and environmental monitoring networks.
