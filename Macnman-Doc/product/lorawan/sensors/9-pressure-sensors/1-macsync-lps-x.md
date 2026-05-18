@@ -1,6 +1,6 @@
 ---
 id: macsync-lps-xx-lorawan-pressure-sensor
-title: Liquid Pressure Sensor
+title: Hydrant Pressure Sensor
 sidebar_position: 6
 description: Industrial LoRaWAN® hydrostatic pressure transducer engineered for wireless pressure monitoring, pipeline pressure sensing, water utility telemetry, fire hydrant monitoring, and industrial process automation.
 keywords:
@@ -65,7 +65,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-lrtd-x1-lorawan-rtd-temperature-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-lps-xx-lorawan-pressure-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
