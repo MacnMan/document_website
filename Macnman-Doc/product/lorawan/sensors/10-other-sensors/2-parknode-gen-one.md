@@ -1,60 +1,79 @@
 ---
 id: parknode-gen-one-lorawan-parking-sensor
-title: ParkNode Gen-1
+title: Geomagnetic Parking Sensor
 sidebar_position: 5
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: ParkNode Gen-1 is an industrial LoRaWAN parking sensor designed for real-time vehicle detection, smart parking occupancy monitoring, and smart city parking automation.
 keywords:
-  - lorawan geomagnetic parking sensor
-  - smart parking detection sensor
-  - vehicle presence detection iot
-  - magnetic parking occupancy sensor
-  - off street parking monitoring solution
-  - parking bay occupancy detection
-  - industrial wireless parking sensor
-  - underground parking spot availability sensor
-  - real time parking space monitoring
-  - ip67 outdoor parking detector device
-  - smart city parking management system
-  - low power long range parking sensor
-  - vehicle arrival departure detection lorawans
-  - parking enforcement automation device
-  - surface mount parking sensor
-  - curbside parking analytics iot
-  - private parking access management sensor
-  - commercial building parking automation
-  - high accuracy magnetic vehicle detection
-  - industry grade parking bay monitoring device
-  
+  - lorawan parking sensor
+  - lorawan smart parking sensor
+  - lorawan parking occupancy sensor
+  - wireless parking sensor
+  - smart parking sensor
+  - parking occupancy sensor
+  - parking bay occupancy sensor
+  - vehicle detection sensor
+  - geomagnetic parking sensor
+  - magnetic parking sensor
+  - smart city parking sensor
+  - outdoor parking occupancy sensor
+  - real time parking monitoring system
+  - parking guidance system sensor
+  - long range parking sensor
+  - battery powered parking sensor
+  - industrial parking sensor
+  - ip68 parking sensor
+  - curbside parking detection sensor
+  - off street parking monitoring
+  - parking space availability sensor
+  - parking automation sensor
+  - smart parking management system
+  - lorawan vehicle presence sensor
+  - embedded parking sensor
+  - underground parking sensor
+  - commercial parking occupancy monitoring
+  - intelligent parking sensor
+  - parking lot occupancy sensor
+  - smart mobility parking solution
 ---
 
-# ParkNode Gen-1 Datasheet
+# ParkNode Gen-1 LoRaWAN® Geomagnetic Smart Parking Sensor
 
-## Product Overview
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
 
-ParkNode Gen‑1 is an intelligent **LoRaWAN® geomagnetic parking occupancy sensor** designed for real‑time vehicle presence detection in off‑street, curbside, and commercial parking spaces. Using industrial‑grade geomagnetic sensing technology with advanced signal processing, the device precisely detects a vehicle’s arrival, stay duration, and departure — even in challenging environments.
 
-Engineered for **outdoor deployment**, ParkNode Gen‑1 features a rugged enclosure, IP‑rated sealing, and high immunity to temperature variation, vibration, and electromagnetic interference. It supports **surface‑mount and flush‑mount installation**, enabling easy deployment across city streets, gated societies, business parks, airports, and shopping complexes.
+ParkNode Gen‑1 is an industrial‑grade **LoRaWAN® smart parking occupancy sensor** designed for accurate real‑time vehicle detection across smart cities, commercial parking lots, airports, railway stations, residential societies, industrial facilities, and curbside parking infrastructures.
 
-Built on **low‑power LoRaWAN® wireless communication**, the device delivers long‑range connectivity to smart‑city gateways and parking management platforms while maintaining years of battery life. Instant occupancy updates help reduce traffic congestion, optimize parking revenue, automate enforcement, and improve the driver experience with accurate space‑availability guidance.
+Powered by advanced **geomagnetic vehicle detection technology**, the sensor intelligently detects vehicle arrival, occupancy duration, and departure events with extremely high accuracy while maintaining ultra‑low power consumption for long‑term outdoor deployment.
 
-With intelligent filtering for vehicle motion, metal type, and multi‑vehicle parking interactions — **ParkNode Gen‑1 transforms traditional parking spaces into smart, connected assets**, enabling efficient and scalable parking automation for modern cities.
+Built for modern intelligent parking ecosystems, ParkNode Gen‑1 combines **long‑range LoRaWAN® wireless connectivity**, rugged IP68 protection, and intelligent magnetic filtering algorithms to deliver stable and reliable parking occupancy monitoring even in harsh outdoor and high‑traffic environments.
 
-| ![lorawan geomagnetic parking occupancy sensor surface mount for smart parking](/img/otherProducts/parknode-smart-city-parking-automation.webp) | ![ flush mounted parking bay detection sensor for vehicle presence monitoring](/img/otherProducts/parknode-sensor-surface-view.webp) |
-|--------------------------------|--------------------------------|
-| ![real time parking space occupancy detection using geomagnetic wireless sensor](/img/otherProducts/parknode-sensor-flush-mount.webp) | ![smart city parking automation with lorawan wireless vehicle detection sensor](/img/otherProducts/parknode-parking-spot-detection.webp) |
+The sensor supports both **surface‑mount and flush‑mount installation**, making it suitable for asphalt roads, concrete parking bays, basement parking areas, smart mobility infrastructure, private parking zones, and public parking automation projects.
 
-<div class="faint-line"></div>
+With instant occupancy reporting, multi‑year battery life, and seamless integration with smart parking management platforms, ParkNode Gen‑1 helps municipalities and enterprises reduce traffic congestion, improve parking utilization, automate parking enforcement, optimize parking revenue, and enhance driver experience through real‑time parking space availability monitoring.
 
-## Download Center
+ParkNode Gen‑1 transforms conventional parking spaces into connected digital assets for scalable, intelligent, and data‑driven smart parking management systems.
+
+| ![lorawan geomagnetic parking occupancy sensor surface mount for smart parking](/img/otherProducts/parknode-smart-city-parking-automation.webp) | ![ flush mounted parking bay detection sensor for vehicle presence monitoring](/img/otherProducts/parknode-sensor-surface-view.webp)     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ![real time parking space occupancy detection using geomagnetic wireless sensor](/img/otherProducts/parknode-sensor-flush-mount.webp)           | ![smart city parking automation with lorawan wireless vehicle detection sensor](/img/otherProducts/parknode-parking-spot-detection.webp) |
+
+---
+
+---
+
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+<a href="/docs/downloads/macnman-parknode-gen1-lorawan-geomagnetic-parking-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong> 
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -62,479 +81,446 @@ With intelligent filtering for vehicle motion, metal type, and multi‑vehicle p
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for ParkNode Gen-1</p>
+      <p>Click here to view the decoders for ParkNode Gen 1</p>
     </div>
   </a>
 </div>
 
-<div class="faint-line"></div>
+---
 
-## Key Features
-
-<div className="reusable-feature-grid">
-<div className="reusable-feature-card">
-  <strong>High-Accuracy Geomagnetic Vehicle Detection</strong>
-  Detects vehicle arrival, presence, and departure with fast response and zero false alerts.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>LoRaWAN® Long-Range Wireless Connectivity</strong>
-  Real-time parking occupancy reporting over secure, encrypted LoRaWAN® networks.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Ultra-Low Power with Multi-Year Battery Life</strong>
-  Designed for outdoor deployment with maintenance-free operation for years.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Rugged Outdoor Design</strong>
-  Shock-resistant and weather-proof construction ready for road-side and curbside installations.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Surface or Flush Mount Options</strong>
-  Flexible installation for asphalt roads, parking lots, industrial yards, and private spaces.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Intelligent Magnetic Filtering</strong>
-  Advanced algorithms to differentiate between vehicles, bicycles, and environmental magnetic noise.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Smart City Integration</strong>
-  Compatible with parking management platforms for guidance systems, reservations, and enforcement.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Event-Based Uplinks</strong>
-  Arrival/Departure events and parking duration analytics for cost and network optimization.
-</div>
-</div>
-<div class="faint-line"></div>
-
-## Suited Applications
+<h2 className="device-section-title">
+  ## Key Features
+</h2>
 
 <div className="reusable-feature-grid">
-
 <div className="reusable-feature-card">
-  <strong>On‑Street & Curbside Parking</strong>
-  Real‑time detection of individual parking bay occupancy for smart city enforcement and driver guidance.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Commercial Parking Lots</strong>
-  Optimizes space usage and supports automated access management in malls, business parks, and shopping centers.
+  <strong>High‑Accuracy LoRaWAN® Parking Occupancy Detection</strong>
+  Detects vehicle arrival, occupancy duration, and departure events with ultra‑high detection accuracy and minimal false triggers.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Basement & Covered Parking</strong>
-  Magnetic sensing works reliably even where GNSS and cameras fail due to low visibility.
+  <strong>Long‑Range LoRaWAN® Wireless Communication</strong>
+  Secure real‑time parking occupancy reporting over encrypted long‑range LoRaWAN® smart city networks.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Residential & Society Parking</strong>
-  Ensures proper allocation, prevents unauthorized vehicle parking and enhances security.
+  <strong>Ultra‑Low Power Smart Parking Sensor</strong>
+  Engineered for multi‑year battery operation with extremely low maintenance requirements.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Airport & Railway Parking Zones</strong>
-  Real‑time vehicle turnover analytics and occupancy tracking for high‑traffic mobility hubs.
+  <strong>Industrial IP68 Outdoor Parking Sensor</strong>
+  Rugged weather‑resistant housing designed for harsh outdoor, roadside, and curbside parking deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>EV Parking Enforcement</strong>
-  Detects overstays and improper parking in dedicated EV charging bays.
+  <strong>Flexible Surface & Flush Mount Installation</strong>
+  Supports deployment in asphalt roads, concrete parking bays, industrial facilities, and private parking zones.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial Logistics Areas</strong>
-  Monitors reserved parking for loading vehicles, forklifts, and workforce transport vehicles.
+  <strong>Advanced Geomagnetic Vehicle Detection Algorithms</strong>
+  Intelligent magnetic filtering differentiates vehicles from bicycles, carts, pedestrians, and environmental interference.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Mobility & Fleet Allocation</strong>
-  Enables dynamic space assignment and automated guidance for taxis, buses and shared fleets.
+  <strong>Smart Parking Platform Integration</strong>
+  Compatible with parking guidance systems, enforcement platforms, reservations, and smart city parking management software.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Real‑Time Parking Event Reporting</strong>
+  Instant arrival, departure, occupancy duration, and parking analytics for operational optimization.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Tilt & Tamper Detection Protection</strong>
+  Detects unauthorized movement, lifting, tilt attempts, and sensor tampering for enhanced parking infrastructure security.
+</div>
+</div>
+
+---
+
+<h2 className="device-section-title">
+  ## Suited Applications
+</h2>
+
+<div className="reusable-feature-grid">
+
+<div className="reusable-feature-card">
+  <strong>Smart City Parking Management</strong>
+  Enables real‑time parking occupancy monitoring, parking guidance, and digital parking infrastructure for smart city deployments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>On‑Street & Curbside Parking Detection</strong>
+  Accurate parking bay occupancy detection for roadside parking enforcement, dynamic pricing, and urban traffic optimization.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Commercial Parking Automation</strong>
+  Optimizes parking utilization and vehicle flow management in malls, business parks, hospitals, and shopping complexes.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Basement & Indoor Parking Monitoring</strong>
+  Reliable vehicle presence detection in underground and covered parking environments where cameras and GNSS systems fail.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Residential & Society Parking Control</strong>
+  Prevents unauthorized parking, improves parking allocation, and enhances vehicle security in gated communities.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Airport, Railway & Transit Parking</strong>
+  Provides real‑time occupancy analytics and parking turnover monitoring for high‑traffic transportation hubs.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>EV Charging Bay Monitoring</strong>
+  Detects EV parking occupancy, overstays, and unauthorized vehicle usage in dedicated electric vehicle charging zones.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial & Logistics Vehicle Parking</strong>
+  Monitors reserved parking areas for trucks, forklifts, loading vehicles, and workforce transportation systems.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Fleet & Smart Mobility Infrastructure</strong>
+  Supports automated fleet parking allocation, taxi zones, bus depots, and shared mobility parking operations.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Parking Guidance & Navigation Systems</strong>
+  Integrates with smart parking platforms to provide live parking availability updates and driver navigation assistance.
 </div>
 
 </div>
 
-<div class="faint-line"></div>
+---
 
-## Technical Specification
+<h2 className="device-section-title">
+  ## Technical Specifications
+</h2>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    General <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value">ParkNode Gen-1</p>
-    <br />
-    <p className="label">Product Brand</p>
-    <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Geomagnetic Vehicle Detection</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Detection Method</div>
+      <div class="device-config-right">3‑Axis Geomagnetic Field Sensing</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Magnetic Sensitivity</div>
+      <div class="device-config-right">±200 to ±1000 μT Dynamic Range</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Geomagnetic <br /> Detection
-  </div>
-  <div className="spec-block-details">
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Vehicle Detection Accuracy</div>
+      <div class="device-config-right">&gt; 98% Vehicle Presence Detection Accuracy</div>
+    </div>
 
-    <p className="label">Detection Method</p>
-    <p className="value">3‑axis geomagnetic field sensing</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Detection Latency</div>
+      <div class="device-config-right">&lt; 7~10 Seconds (Arrival / Departure)</div>
+    </div>
 
-    <p className="label">Magnetic Sensitivity</p>
-    <p className="value">±200 to ±1000 μT dynamic range</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Self‑Calibration</div>
+      <div class="device-config-right">Automatic Baseline Calibration & Drift Compensation</div>
+    </div>
 
-    <p className="label">Detection Accuracy</p>
-    <p className="value">&gt; 98% vehicle presence detection accuracy *</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Anti‑Noise Filtering</div>
+      <div class="device-config-right">Resistant to EMI from Motors, HVAC Systems & Power Lines</div>
+    </div>
 
-    <p className="label">Detection Latency</p>
-    <p className="value">&lt; 7~10 seconds (arrival/departure)</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Multi‑Vehicle Handling</div>
+      <div class="device-config-right">Intelligent Algorithms for Sequential Vehicle Detection</div>
+    </div>
 
-    <p className="label">Self‑Calibration</p>
-    <p className="value">Automatic baseline calibration & drift compensation</p>
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">False Trigger Prevention</div>
+      <div class="device-config-right">Filters Bicycles, Carts, Pedestrians & Environmental Magnetic Noise</div>
+    </div>
 
-    <p className="label">Anti‑Noise Filtering</p>
-    <p className="value">Resistant to EMI from motors, HVAC, power lines</p>
-    <br />
-
-    <p className="label">Multi‑Vehicle Handling</p>
-    <p className="value">Intelligent algorithms for vehicles parked in sequence</p>
-    <br />
-
-    <p className="label">False Trigger Prevention</p>
-    <p className="value">Filters bicycles, carts, and pedestrians</p>
-    <br />
-
-    <p className="label">Installation Height</p>
-    <p className="value">Surface mount or flush in asphalt/concrete</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Installation Method</div>
+      <div class="device-config-right">Surface Mount & Flush Mount for Asphalt & Concrete Roads</div>
+    </div>
 
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Wireless <br /> Transmission
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">Device Management</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Configuration Method</div>
+      <div class="device-config-right">Factory Pre-Configured</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Local Configuration</div>
+      <div class="device-config-right">NA</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Remote Configuration</div>
+      <div class="device-config-right">Over-the-Air Configuration (Downlink Commands)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Status LED</div>
+      <div class="device-config-right">NA</div>
+    </div>
 
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    LED <br /> Status
-  </div>
-  <div className="spec-block-details">
-    <p className="label">LED Type</p>
-    <p className="value">1 Internal Multi-Color LED</p>
-    <br />
-    <p className="label">Solid Blue</p>
-    <p className="value">Device is connected LoRaWAN Network (On for 30 sec still)</p>
-    <br />
-    <p className="label">Flashing Blue</p>
-    <p className="value">OTA (Over-the-Air) update in progress</p>
-    <br />
-    <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
-    <br />
-    <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of device is being modified</p>
-    <br />
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Device Configuration Parameters</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Reporting Mode</div>
+      <div class="device-config-right">Event-Based</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Device <br /> Configuration
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Configuration</p>
-    <p className="value">LoRaWAN QR keys QR Code</p>
-    <br />
-    <p className="label">Uplink Modes</p>
-    <p className="value">Trigger Based</p>
-    <br />
-    <p className="label">Stored Records*</p>
-    <p className="value">30,000 Records</p>
-    <br />
-    <p className="label">Remote Configuration</p>
-    <p className="value">JSON Format Data - from server</p>    
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Transmission Interval</div>
+      <div class="device-config-right">Independent uplink interval for optimized power consumption</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Tamper Alerts</div>
+      <div class="device-config-right">Detects Device Displacement, Tilt Variations & Unauthorized Access</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Periodic Transmission</div>
+      <div class="device-config-right">Yes Supported (Heartbeat - Message Type)</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Battery <br /> Performance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Battery Type</p>
-    <p className="value">Li-Ion Cell (06Ah) Industrial grade</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Battery Life</p>
-    <p className="value">Up to 10 Years(20 Vehicals detected in day)</p>
-    <br />
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Battery Performance</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Power Supply</div>
+      <div class="device-config-right">Integrated Battery - 6,000 mAh</div>
   </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
-  </div>
-</div>
 
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Physical <br /> Characteristics
+  <div class="device-config-row">
+      <div class="device-config-left">Battery Type</div>
+      <div class="device-config-right">Lithium Thionyl Chloride (Li-SOCl₂)</div>
   </div>
-  <div className="spec-block-details">
-    <p className="label">Power Supply</p>
-    <p className="value">Inbuilt Battery</p>
-    <br />
-    <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
-    <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
-    <br />
-    <p className="label">Ingress Protection</p>
-    <p className="value">IP68</p>    
-    <br />
-    <p className="label">Housing Material</p>
-    <p className="value">Glass field Nylon</p>    
-    <br />
-    <p className="label">Color</p>
-    <p className="value">Matte Black</p>    
-    <p className="value">Matte Yellow</p> 
-    <br />
-    <p className="label">Weight</p>
-    <p className="value">~310g</p>    
-    <br />
-    <p className="label">Mounting Options</p>
-    <p className="value">Surface Mounting</p>    
-    <br />
+
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Estimated Battery Life at 25 °C</div>
+      <div class="device-config-right">Based on Event Frequency</div>
+  </div>
+
+  <div class="device-config-row">
+      <div class="device-config-left">50 Events / Day</div>
+      <div class="device-config-right">~7 Years</div>
+  </div>
+
+  <div class="device-config-row shaded">
+      <div class="device-config-left">100 Events / Day</div>
+      <div class="device-config-right">~3.5 Years</div>
+  </div>
+
+  <div class="device-config-row">
+      <div class="device-config-left">250 Events / Day</div>
+      <div class="device-config-right">~1 Year</div>
+  </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Inbuilt Battery</p>
-    <p className="value">Lithium Cell</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Input Impedance</p>
-    <p className="value">>10 MΩ for voltage inputs</p>
-    <br />
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Communication Options</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Communication <br /> Options
+  <div class="device-config-row shaded">
+      <div class="device-config-left">BLE Connectivity</div>
+      <div class="device-config-right">--</div>
   </div>
-  <div className="spec-block-details">
-    <p className="label">BLE Connectivity (Optional Varient)</p>
-    <p className="value">For local configuration and diagnostics via Maya App</p>
-    <br />
-    <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
-    <br />
-    <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (Gateway)</p>
-    <br />
+
+  <div class="device-config-row">
+      <div class="device-config-left">Cloud Protocols</div>
+      <div class="device-config-right">MQTT / HTTPS / TCP/IP (Gateway Dependent)</div>
+  </div>
+
   </div>
 </div>
 
+---
 
-<div class="faint-line"></div>
+<div class="device-config-section">
+  <div class="device-config-title">Security & Encryption</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Certifications & <br /> Compliance
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Data Encryption</div>
+      <div class="device-config-right">AES-128 LoRaWAN® encryption</div>
   </div>
-  <div className="spec-block-details">
-    <p className="label">WPC</p>
-    <p className="value">Compliant</p>
-    <br />
-    <p className="label">RoHS</p>
-    <p className="value">Conforms to RoHS directive</p>
-    <br />
-  </div>
-</div>
 
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Security & <br /> Encryption
+  <div class="device-config-row">
+      <div class="device-config-left">Authentication</div>
+      <div class="device-config-right">OTAA Device Activation</div>
   </div>
-  <div className="spec-block-details">
-    <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
-    <br />
-    <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes</p>
-    <br />
-    <p className="label">Firmware Protection</p>
-    <p className="value">Secure boot and signed OTA updates</p>
-    <br />
+
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Firmware Protection</div>
+      <div class="device-config-right">Secure boot and signed OTA updates</div>
+  </div>
+
   </div>
 </div>
 
+---
 
-##  ParkNode Gen-1 Variants
+<div class="device-config-section">
+  <div class="device-config-title">Physical Characteristics</div>
+  <div class="device-config-table">
+
+  <div class="device-config-row">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">-40°C to +80°C</div>
+  </div>
+
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Humidity Range</div>
+      <div class="device-config-right">0% ~ 100% RH (non-condensing)</div>
+  </div>
+
+  <div class="device-config-row">
+      <div class="device-config-left">Ingress Protection</div>
+      <div class="device-config-right">IP68 Standard</div>
+  </div>
+
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Housing Material</div>
+      <div class="device-config-right">Glass Filled Nylon</div>
+  </div>
+
+  <div class="device-config-row">
+      <div class="device-config-left">Color</div>
+      <div class="device-config-right">Matte White</div>
+  </div>
+
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Weight</div>
+      <div class="device-config-right">~290 g</div>
+  </div>
+
+  <div class="device-config-row">
+      <div class="device-config-left">Mounting Options</div>
+      <div class="device-config-right">Surface Mount on Asphalt / Concrete</div>
+  </div>
+
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Device Dimensions</div>
+      <div class="device-config-right">202 mm X 33 mm</div>
+  </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Certifications & Compliance</div>
+  <div class="device-config-table">
+
+  <div class="device-config-row shaded">
+      <div class="device-config-left">WPC</div>
+      <div class="device-config-right">Compliant</div>
+  </div>
+
+  <div class="device-config-row">
+      <div class="device-config-left">RoHS</div>
+      <div class="device-config-right">Conforms to RoHS directive</div>
+  </div>
+  </div>
+</div>
+
+---
+<h2 className="device-section-title"> 
+  ## ParkNode Gen-1 Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>Battery Life</th>
-      <th>Recommended Use</th>
+      <th>Power Source</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>ParkNode Gen‑1‑X1</td>
-      <td>Up to 10 Years (Ultra‑Long Life)</td>
-      <td>Public smart parking deployments with minimal service access</td>
-    </tr>
-    <tr>
-      <td>ParkNode Gen‑1‑X2</td>
-      <td>Up to 5 Years (Standard Life)</td>
-      <td>Private parking areas and cost‑optimized smart parking solutions</td>
+      <td>ParkNode Gen-1</td>
+      <td>Integrated Battery - 6,000 mAh</td>
+      <td>838</td>
     </tr>
   </tbody>
 </table>
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
+---
 
--->
+<h2 className="device-section-title"> 
+  ## What's in the Box?
+</h2>
 
-## What's in the box ?
+Make sure the package contains the following items before installation and outdoor deployment of the ParkNode Gen-1 smart parking sensor.
 
-Make sure box contains following items before installations
+- ParkNode Gen-1 Sensor
+- Mounting Clip \*
+- User Manual
+- Warranty Card
+- Fasteners \*
+- Mounting Screws \*
+- Base Rubber Sheet \*
 
-![title image](/img/lorawan/parknode-gen-one-what-in-box.svg)
+![ParkNode Gen-1 LoRaWAN smart parking sensor box contents with mounting accessories and installation kit](/img/lorawan/sensors/macsync/parknode-gen-1-whats-in-the-box.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
-
+Accessories marked with (\*) may vary depending on deployment requirements and ordering configuration.
 :::
 
-## Product Dimensions
+---
 
-![title image](/img/lorawan/parknode-gen-one-dimensions.svg)
+<h2 className="device-section-title">
+  ## ParkNode Gen-1 Product Dimensions
+</h2>
 
+The **ParkNode Gen-1 LoRaWAN® smart parking occupancy sensor** features a rugged low-profile industrial enclosure engineered for long-term outdoor parking infrastructure deployments. Designed specifically for smart parking applications, the sensor supports reliable vehicle occupancy detection across asphalt roads, concrete parking bays, curbside parking areas, commercial parking facilities, industrial campuses, airports, railway stations, and smart city mobility projects.
+
+With its compact and durable **202 mm × 33 mm** industrial form factor, ParkNode Gen-1 enables quick surface-mount installation while maintaining high detection stability in harsh outdoor environments exposed to rain, dust, vibration, vehicle movement, humidity, and extreme temperatures.
+
+The sensor’s industrial-grade IP68 enclosure ensures dependable operation for continuous real-time parking occupancy monitoring and smart parking automation deployments.
+
+![ParkNode Gen-1 LoRaWAN smart parking sensor mechanical dimensions and surface mount installation layout for outdoor parking occupancy monitoring deployments](/img/lorawan/sensors/macsync/parknode-gen-1-dimensions.webp)
+
+---
