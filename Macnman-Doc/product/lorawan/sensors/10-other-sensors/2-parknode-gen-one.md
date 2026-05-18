@@ -24,6 +24,7 @@ keywords:
   - commercial building parking automation
   - high accuracy magnetic vehicle detection
   - industry grade parking bay monitoring device
+  
 ---
 
 # ParkNode Gen-1 Datasheet

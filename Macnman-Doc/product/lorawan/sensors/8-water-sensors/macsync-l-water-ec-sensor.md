@@ -24,6 +24,7 @@ keywords:
   - macsync water quality sensor
   - lwqx4 ec sensor
   - macnman lorawan water sensor
+  
 ---
  
 # MacSync-LWQ-X4 Datasheet
