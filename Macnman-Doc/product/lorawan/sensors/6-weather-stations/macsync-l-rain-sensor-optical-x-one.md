@@ -364,30 +364,30 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
   <div class="device-config-title">Battery Performance (BO Series)</div>
   <div class="device-config-table">
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">Battery Type</div>
       <div class="device-config-right">Li-SOCl₂ Cell (19Ah) Industrial grade</div>
-    </div>
+  </div>
 
-    <div class="device-config-row">
+  <div class="device-config-row">
       <div class="device-config-left">Power Consumption</div>
       <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
-    </div>
+  </div>
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">5-Minute Reporting Interval</div>
       <div class="device-config-right">~2 Years (Estimated)</div>
-    </div>
+  </div>
 
-    <div class="device-config-row">
+  <div class="device-config-row">
       <div class="device-config-left">15-Minute Reporting Interval</div>
       <div class="device-config-right">~4 Years (Estimated)</div>
-    </div>
+  </div>
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">60-Minute Reporting Interval</div>
       <div class="device-config-right">~7+ Years (Estimated)</div>
-    </div>
+  </div>
 
   </div>
 </div>
@@ -415,15 +415,15 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
   <div class="device-config-title">Communication Options</div>
   <div class="device-config-table">
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">BLE Connectivity</div>
       <div class="device-config-right">For local configuration and diagnostics via Maya App</div>
-    </div>
+  </div>
 
-    <div class="device-config-row">
+  <div class="device-config-row">
       <div class="device-config-left">Cloud Protocols</div>
       <div class="device-config-right">MQTT / HTTPS / TCP/IP (Gateway Dependent)</div>
-    </div>
+  </div>
 
   </div>
 </div>
@@ -434,53 +434,51 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
   <div class="device-config-title">Security & Encryption</div>
   <div class="device-config-table">
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">Data Encryption</div>
       <div class="device-config-right">AES-128 LoRaWAN® encryption</div>
-    </div>
+  </div>
 
-    <div class="device-config-row">
+  <div class="device-config-row">
       <div class="device-config-left">Authentication</div>
       <div class="device-config-right">OTAA Device Activation</div>
-    </div>
+  </div>
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">Firmware Protection</div>
       <div class="device-config-right">Secure boot and signed OTA updates</div>
-    </div>
+  </div>
 
   </div>
 </div>
 
 --- 
 
-
-
 <div class="device-config-section">
   <div class="device-config-title">LED Status</div>
   <div class="device-config-table">
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">LED Type</div>
       <div class="device-config-right">1 × Internal Multi-Color LED</div>
-    </div>
+  </div>
 
-    <div class="device-config-row">
+  <div class="device-config-row">
       <div class="device-config-left">Solid Blue</div>
       <div class="device-config-right">Device connected to Maya App</div>
-    </div>
+  </div>
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">Flashing Blue</div>
       <div class="device-config-right">OTA (Over-the-Air) update in progress</div>
-    </div>
+  </div>
 
-    <div class="device-config-row">
+  <div class="device-config-row">
       <div class="device-config-left">Slow Blinking Green</div>
       <div class="device-config-right">Attempting to connect to the LoRaWAN® network</div>
-    </div>
+  </div>
 
-    <div class="device-config-row shaded">
+  <div class="device-config-row shaded">
       <div class="device-config-left">Single Red Blink</div>
       <div class="device-config-right">Confirmed parameter modification</div>
     </div>
