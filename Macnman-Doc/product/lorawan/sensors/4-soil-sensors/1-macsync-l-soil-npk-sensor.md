@@ -74,7 +74,7 @@ MacSync LSS X1 is ideal for:
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>Download Datasheet</strong>
+      <strong>Download Datasheet</strong> 
       <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
@@ -680,7 +680,7 @@ Accessories marked with (*) must be purchased separately and may not be included
   ## MacSync LSS X2 Product Dimensions
 </h2>
 
-The MacSync LSS X2 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. Its compact structure enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
+The MacSync LSS X2 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
 
 ![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-probe-dimensions.webp)
 
