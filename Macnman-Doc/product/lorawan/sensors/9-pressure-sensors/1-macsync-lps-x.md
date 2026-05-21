@@ -79,7 +79,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync LRTD X1</p>
+      <p>Click here to view the decoders for MacSync LPS Xx</p>
     </div>
   </a>
 </div>
