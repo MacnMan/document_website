@@ -561,13 +561,13 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
       <td>MacSync LWQS X1 BO</td>
       <td>19 Ah Industrial Lithium Battery</td>
       <td>Ideal for remote drinking water systems, borewells, reservoirs, STP/WWTP installations, industrial process water monitoring, and outdoor water quality monitoring deployments without wired power availability.</td>
-      <td>855</td>
+      <td>857</td>
     </tr>
     <tr>
       <td>MacSync LWQS X1 SO</td>
       <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
       <td>Designed for long-term industrial water quality monitoring, wastewater treatment infrastructure, smart water utility deployments, reservoirs, rivers, lakes, and Industrial IoT outdoor water monitoring applications.</td>
-      <td>856</td>
+      <td>858</td>
     </tr>
   </tbody>
 </table>
