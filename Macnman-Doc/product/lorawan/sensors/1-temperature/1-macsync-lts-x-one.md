@@ -56,7 +56,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 |--------------------------------|--------------------------------|
 | ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) |
 
-----
+---
 
 <h2 className="device-section-title">
   ## Download Center

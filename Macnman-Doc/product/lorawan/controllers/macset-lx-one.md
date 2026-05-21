@@ -1,220 +1,214 @@
 ---
 id: macset-lx-one-datasheet
-title: MacSet-LX1
+title: 2 DI / DO Controller
 sidebar_position: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Industrial LoRaWAN® controller for remote automation, relay switching, industrial equipment control, RS485 Modbus integration, analog and digital I/O monitoring, smart agriculture automation, water management systems, and Industrial IoT deployments.
 keywords:
   - lorawan controller
-  - iot controller
-  - macset lx1
-  - macnman lorawan
-  - industrial automation controller
-  - remote io controller
+  - industrial lorawan controller
   - lorawan relay controller
-  - digital input controller
-  - analog input controller
-  - rs485 lorawan gateway
-  - modbus to lorawan controller
+  - lorawan automation controller
+  - industrial iot controller
+  - remote io controller
+  - wireless relay controller
+  - industrial automation controller
   - smart agriculture controller
-  - industrial iot automation
-  - remote equipment controller
-  - lorawan device control
-  - wireless industrial controller
-  - lorawan edge controller
-  - long range iot controller
-  - lorawan actuator module
-  - lorawan remote switching
-
+  - lorawan plc controller
+  - modbus lorawan controller
+  - rs485 lorawan controller
+  - analog input lorawan controller
+  - digital input lorawan controller
+  - industrial remote switching controller
+  - wireless industrial automation
+  - industrial iot automation device
+  - remote pump controller lorawan
+  - water management controller
+  - smart irrigation controller
+  - industrial monitoring controller
+  - edge automation controller
+  - lorawan actuator controller
+  - long range industrial controller
+  - industrial relay switching device
+  - macset lx1
+  - macnman lorawan controller
+  - industrial wireless controller
+  - lorawan remote equipment controller
+  - smart factory automation controller
+  
 ---
 
-# MacSet-LX1
+# MacSet LX1 Industrial LoRaWAN Controller
 
 ## Product Overview
-MacSet-LX1 is a robust, power-operated LoRaWAN® controller designed for reliable remote control and automation of industrial and field equipment. Equipped with 2 high-current digital outputs, it enables secure wireless switching of pumps, motors, valves, alarms, solenoids, lighting systems, and other electrical loads through any LoRaWAN network.
 
-Engineered for demanding industrial environments, the MacSet-LX1 features a stable 12–24 V DC power architecture, noise-immune circuitry, and an IP66-rated enclosure suitable for outdoor and harsh conditions. Its long-range LoRaWAN® radio ensures strong performance across large farms, industrial plants, buildings, and remote infrastructure sites.
+**MacSet LX1** is an industrial-grade **LoRaWAN® Controller** engineered for remote automation, industrial equipment control, relay switching, analog and digital I/O monitoring, and wireless Industrial IoT deployments. Designed for long-range low-power industrial automation, the controller enables reliable remote operation of pumps, motors, solenoid valves, alarms, contactors, lighting systems, actuators, and field devices over secure LoRaWAN® networks.
 
-The device supports LoRaWAN® v1.0.4, Class A & C, the Macnman MacTalk Protocol, and OTA configuration via BLE using the Maya App, enabling fast deployment and flexible control logic. The controller also supports local automation, enabling direct device-to-device actions without requiring cloud access.
+Built for demanding industrial and outdoor environments, the **MacSet LX1 LoRaWAN Controller** combines industrial-grade relay outputs, RS485 Modbus support, analog sensing interfaces, digital input monitoring, and intelligent automation logic inside a rugged IP-rated enclosure. The device is ideal for smart agriculture automation, industrial process control, water management systems, smart irrigation, factory automation, utility infrastructure, energy systems, environmental monitoring, and remote unmanned industrial sites.
 
-Whether used for smart agriculture, industrial automation, water management, or remote asset control, MacSet-LX1 provides a powerful, scalable, and future-proof solution for wireless switching and automation across any LoRaWAN-based system.
+With support for **LoRaWAN® v1.0.4**, Class A and Class C operation, the controller delivers ultra-long-range wireless communication with low power consumption for highly scalable Industrial IoT deployments. The integrated **Macnman MacTalk Protocol** enables direct peer-to-peer device communication and local automation workflows without requiring cloud connectivity, reducing response time and improving reliability in mission-critical industrial operations.
+
+The controller supports flexible industrial interfacing including **2 high-current relay outputs**, **RS485 Modbus RTU communication**, **4–20 mA analog inputs**, **0–10 V analog channels**, and configurable digital I/O monitoring. This enables seamless integration with industrial sensors, PLC systems, pumps, SCADA infrastructure, process instruments, and industrial automation equipment.
+
+Optimized for Industrial IoT scalability, the device supports secure AES-encrypted communication, OTA configuration using the **Macnman Maya App**, remote parameter management, event-driven automation logic, threshold-based actuation, and compatibility with major LoRaWAN® platforms including ChirpStack, TTN, MQTT, Orbiwise, LORIOT, and private industrial LoRaWAN® servers.
+
+Whether deployed for **remote pump control**, **wireless industrial automation**, **smart agriculture irrigation control**, **water utility automation**, **industrial relay switching**, or **edge-based Industrial IoT control systems**, **MacSet LX1** delivers a reliable, scalable, and future-ready solution for modern wireless automation infrastructure.
 
 
-| ![Front view of MacSet-LX1 LoRaWAN controller with dual digital outputs](/img/controller/macset-lx1-front-view..webp) | ![Back view of MacSet-LX1 showing enclosure and wiring openings](/img/controller/macset-lx1-back-view.webp) |
+| ![MacSync LTS X1 LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) | ![MacSync LTS X1 wireless LoRaWAN temperature humidity sensor mounted installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Side view of MacSet-LX1 industrial LoRaWAN controller unit](/img/controller/macset-lx1-io-ports.webp) | ![MacSet-LX1 I/O ports showing dual digital outputs and power interface](/img/controller/macset-lx1-side-view.webp) |
+| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) |
 
-<div class="faint-line"></div>
-
-## Download Center
-
-<div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSet-LX1-datasheet.pdf" 
-  className="icon-card">
-    <div className="icon">📂</div>  
-    <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSet-LX1-datasheet.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
-    </div>
-  </a>
-  <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
-  className="icon-card">
-    <div className="icon">📝</div>
-    <div>
-      <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync-LX2-STD-PO</p>
-    </div>
-  </a>
-</div>
-
-<div class="faint-line"></div>
-
+---
 ## Key Features
 
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Dual High-Current Digital Outputs</strong>
-    Enables remote switching of pumps, motors, solenoids, alarms, and lighting loads.
+    <strong>Industrial LoRaWAN® Controller</strong>
+    Industrial-grade LoRaWAN® controller engineered for remote automation, relay switching, industrial equipment control, and Industrial IoT deployments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial 12–24 V Power Operation</strong>
-    Stable, noise-immune power input designed for factories and field installations.
+    <strong>Dual High-Current Relay Outputs</strong>
+    High-current industrial relay outputs for reliable remote switching of pumps, motors, contactors, solenoid valves, alarms, lighting systems, and automation equipment.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>LoRaWAN® v1.0.4 Controller</strong>
-    Long-range wireless control using standard LoRaWAN networks and servers.
+    <strong>Offline & Local Automation Capability</strong>
+    Supports edge-based automation workflows and local device-to-device logic execution without requiring continuous internet or cloud connectivity.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Supports Class A & Class C Modes</strong>
-    Choose low-power command reception or always-on fast-response control.
+    <strong>RS485 Modbus RTU Interface</strong>
+    Seamless integration with industrial PLCs, Modbus sensors, SCADA systems, VFDs, industrial instruments, and process automation infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Local Automation Logic</strong>
-    Execute actions based on triggers, timers, or inputs—without cloud dependency.
+    <strong>Support for Analog & Digital Inputs (0-10 V & 4-20 mA)</strong>
+    Flexible industrial input support for pressure sensors, flow meters, level sensors, environmental sensors, switches, and industrial monitoring devices.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>LoRaWAN® v1.0.4 Industrial Automation</strong>
+    Long-range wireless communication with LoRaWAN® Class A and Class C support for reliable Industrial IoT automation and remote control.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Smart Agriculture & Irrigation Automation</strong>
+    Enables wireless control of irrigation systems, fertigation systems, borewell pumps, water valves, and agricultural automation equipment.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Industrial Pump & Motor Control</strong>
+    Designed for remote operation and monitoring of industrial pumps, motors, blowers, compressors, and factory automation systems.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Macnman MacTalk Protocol</strong>
-    Enables peer-to-peer LoRa control between devices without requiring a gateway.
+    Supports direct peer-to-peer LoRa communication between devices for fast local automation and gateway-independent control logic.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Secure Remote Switching</strong>
-    Uses encrypted LoRaWAN payloads for reliable and safe equipment control.
+    AES-encrypted LoRaWAN® communication for secure industrial remote switching and reliable automation workflows.
   </div>
 
   <div className="reusable-feature-card">
     <strong>BLE Configuration via Maya App</strong>
-    Quick on-site setup, testing, and diagnostics using Bluetooth Low Energy.
+    Fast on-site configuration, diagnostics, commissioning, and firmware management using the Macnman Maya Android App.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>IP66 Industrial-Grade Enclosure</strong>
-    Rugged design suitable for outdoor, dusty, and moisture-prone environments.
+    <strong>Industrial IP-Rated Enclosure</strong>
+    Rugged industrial enclosure engineered for outdoor deployments, industrial facilities, utility infrastructure, and harsh operating environments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Event-Based Actuation</strong>
-    Trigger outputs based on network commands, scheduled uplinks, or device rules.
+    <strong>Event-Based Automation & Actuation</strong>
+    Trigger industrial actions based on timers, sensor thresholds, digital inputs, network commands, or local automation rules.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Fail-Safe Output Handling</strong>
-    Supports power-restore behavior, default states, and safe automation routines.
+    <strong>Fail-Safe Industrial Control Logic</strong>
+    Supports safe automation routines, power-restore states, watchdog monitoring, and industrial-grade output handling.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Firmware OTA-Ready</strong>
-    Future upgrades, improvements, and feature releases supported over BLE.
+    <strong>Compatible with Major LoRaWAN® Platforms</strong>
+    Fully compatible with ChirpStack, TTN, MQTT, Orbiwise, LORIOT, private LoRaWAN® servers, and industrial cloud platforms.
   </div>
 
-  <div className="reusable-feature-card">
-    <strong>Compatible with All LoRaWAN® Servers</strong>
-    Integrates seamlessly with ChirpStack, The Things Stack, Actility, Everynet, and more.
-  </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 ## Suited Applications
+
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture & Irrigation</strong>
-    Remotely control irrigation pumps, valves, solenoids, and fertigation systems using LoRaWAN commands.
+    <strong>Industrial LoRaWAN® IO Controller Applications</strong>
+    Advanced LoRaWAN® IO Controller for industrial automation, remote relay switching, digital input monitoring, analog sensor interfacing, and wireless Industrial IoT deployments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water & Wastewater Management</strong>
-    Operate pumps, blowers, aerators, chlorination units, and valve actuators at remote water sites.
+    <strong>Smart Agriculture & Irrigation Automation</strong>
+    Remotely control irrigation pumps, borewell motors, solenoid valves, fertigation systems, greenhouse equipment, and agricultural automation infrastructure using LoRaWAN®.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation</strong>
-    Switch motors, relays, contactors, alarms, and machinery as part of factory automation workflows.
+    <strong>Industrial Automation & Factory Control</strong>
+    Wireless control and monitoring of industrial machines, motors, compressors, conveyors, alarms, contactors, and process automation systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings & Facilities</strong>
-    Control lighting circuits, exhaust fans, access gates, HVAC auxiliary systems, and building utilities.
+    <strong>Water Management & Pump Automation</strong>
+    Intelligent LoRaWAN® pump controller for water treatment plants, STP/WWTP systems, reservoirs, utility pumping stations, and remote water infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Solar & Energy Systems</strong>
-    Remotely activate inverter controls, battery bank relays, or system bypass/switching mechanisms.
+    <strong>Remote IO Monitoring & Control</strong>
+    Real-time monitoring of analog and digital inputs including pressure sensors, flow meters, level sensors, switches, and industrial field devices.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote Infrastructure Control</strong>
-    Manage field devices such as telecom tower equipment, remote panels, and unmanned site actuators.
+    <strong>RS485 Modbus Industrial Integration</strong>
+    Connect PLCs, VFDs, Modbus sensors, industrial meters, SCADA systems, and automation equipment over long-range LoRaWAN® networks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Cold Storage & Food Industry</strong>
-    Switch compressors, fans, alarms, and standby systems using secure long-range LoRaWAN control.
+    <strong>Smart Buildings & Facility Automation</strong>
+    Operate lighting systems, HVAC equipment, exhaust fans, access gates, DG systems, utility infrastructure, and building automation systems remotely.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Pipeline & Industrial Utility Networks</strong>
-    Control valves, pumps, pressure release actuators, and emergency shutoff systems through LoRaWAN.
+    <strong>Solar & Energy Infrastructure Monitoring</strong>
+    Automate solar energy systems, inverter controls, battery bank relays, energy distribution systems, and remote power management infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart City Deployments</strong>
-    Operate sirens, public lighting, fountains, signage, and remote utility controllers wirelessly.
+    <strong>Cold Storage & Refrigeration Systems</strong>
+    Control compressors, refrigeration systems, ventilation equipment, alarms, and emergency systems in cold-chain and food processing environments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Environmental Monitoring Systems</strong>
-    Trigger fans, blowers, alarms, or auxiliary devices based on sensor-driven automation rules.
+    <strong>Oil, Gas & Pipeline Utility Networks</strong>
+    Remote operation of valves, pumps, pressure-release systems, actuators, and emergency shutdown systems across distributed utility infrastructure.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Environmental Monitoring & Safety Automation</strong>
+    Trigger sirens, alarms, ventilation systems, exhaust blowers, and safety systems based on industrial sensor thresholds and event conditions.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Smart City & Remote Infrastructure Control</strong>
+    Wireless automation for public lighting, fountains, utility cabinets, telecom infrastructure, remote panels, signage systems, and unmanned field installations.
   </div>
 
 </div>
 
-<div class="faint-line"></div>
-
-## Technical Specification
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    General <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value">MacSet LX1</p>
-    <br />
-    <p className="label">Product Brand</p>
-    <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -245,7 +239,7 @@ Whether used for smart agriculture, industrial automation, water management, or 
 The device use same channels for the RS485 & Analog inputs, either can be used at a time.
 :::
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -280,7 +274,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -307,7 +301,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -326,7 +320,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -345,7 +339,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -379,7 +373,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -399,7 +393,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -419,7 +413,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -435,7 +429,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
 <div className="spec-block">
   <div className="spec-block-title">
@@ -463,43 +457,54 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
       <th>Variant Name</th>
       <th>Power Source</th>
       <th>Relay Outputs</th>
-      <th>Solar Support</th>
-      <th>External Flash</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSet LX1</td>
-      <td>12–24 V (Power)</td>
-      <td>2</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>Controlling Industrial or commercial sites with stable power supply</td>
+      <td>MacSet LX1 PO</td>
+      <td>230 V AC / 9–36 V DC External Power</td>
+      <td>2 High-Current Relay Outputs</td>
+      <td>Industrial automation, pump control, smart agriculture systems, factory automation, RS485 Modbus control systems, and Industrial IoT remote switching applications.</td>
+      <td>901</td>
     </tr>
   </tbody>
 </table>
 
-## What's in the box ?
+
+<h2 className="device-section-title">
+  ## What's in the Box?
+</h2>
 
 Make sure box contains following items before installations
 
-![macset box contains](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
+- MacSet LX1 Controller
+- Mounting Clip
+- User Manual
+- Warranty Card
+- IP68 Cable Extender *
+- Mounting Screws 
+- Power Adapters *
+
+Ensure the following items are available before installation.
+
+![title image](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Accessories may not be included in the package and must be purchased separately.
 
 :::
 
-## Product Dimensions
+<h2 className="device-section-title">
+  ## MacSet LX1 Controller Dimensions
+</h2>
 
-![title image](/img/controller/macset-dimensions-of-the-box.svg)
+The **MacSet LX1 LoRaWAN® IO Controller** features a rugged industrial-grade enclosure engineered for long-term Industrial IoT automation, remote control, and wireless monitoring deployments. With compact dimensions of **142 mm × 80 mm × 32 mm**, the controller enables easy wall mounting and pole mounting across industrial facilities, smart agriculture systems, pump control panels, utility infrastructure, factory automation systems, remote monitoring stations, and outdoor Industrial IoT installations.
 
-:::note
+Designed for harsh industrial and outdoor operating environments, the enclosure provides reliable protection against dust, humidity, vibration, and industrial environmental conditions while maintaining easy access to relay outputs, power terminals, RS485 interfaces, analog inputs, and digital I/O connections.
 
-Accessories must be purchased separately & may 
-not be included in the box.
+The compact low-profile mechanical design simplifies installation inside electrical panels, automation cabinets, pump houses, industrial utility enclosures, agricultural automation systems, and smart infrastructure deployments.
 
-:::
+![MacSet LX1 LoRaWAN IO controller enclosure dimensions and industrial mounting layout](/img/controller/macset-dimensions-of-the-box.svg)
