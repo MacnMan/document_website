@@ -79,7 +79,7 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-lps-xx-lorawan-pressure-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-lps-x7-lorawan-hydrostatic-liquid-level-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -580,7 +580,7 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
       <td>-10 kPa to +10 kPa</td>
       <td>Integrated Battery (19 Ah)</td>
       <td>Battery-powered hydro-static liquid-level monitoring for soap dispensers, water tanks, diesel containers, beverage systems, chemical reservoirs, and remote IoT liquid telemetry deployments.</td>
-      <td>847</td>
+      <td>853</td>
     </tr>
   </tbody>
 </table>
