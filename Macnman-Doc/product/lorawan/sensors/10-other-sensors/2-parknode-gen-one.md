@@ -479,7 +479,7 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
     <tr>
       <td>ParkNode Gen-1</td>
       <td>Integrated Battery - 6,000 mAh</td>
-      <td>838</td>
+      <td>844</td>
     </tr>
   </tbody>
 </table>
