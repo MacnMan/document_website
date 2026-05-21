@@ -651,13 +651,13 @@ With support for OTA configuration through the **Maya App**, onboard data loggin
       <td>MacSync LWS X2 BO</td>
       <td>19 Ah Industrial Lithium Battery</td>
       <td>Ideal for remote farms, reservoirs, flood-monitoring infrastructure, industrial weather monitoring stations, smart agriculture deployments, highways, and outdoor environmental monitoring applications without wired power availability.</td>
-      <td>842</td>
+      <td>855</td>
     </tr>
     <tr>
       <td>MacSync LWS X2 SO</td>
       <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
       <td>Designed for long-term smart agriculture, rainfall monitoring, meteorological weather stations, smart-city environmental infrastructure, renewable-energy plants, and Industrial IoT outdoor monitoring deployments.</td>
-      <td>843</td>
+      <td>856</td>
     </tr>
   </tbody>
 </table>
