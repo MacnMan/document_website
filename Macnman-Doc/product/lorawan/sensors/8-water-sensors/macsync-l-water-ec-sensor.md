@@ -62,7 +62,7 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 </h2>
 
 <div className="icon-card-grid">
-<a href="/docs/downloads/macsync-lws-x2-lorawan-weather-station-datasheet.pdf" 
+<a href="/docs/downloads/macsync-lwqs-x1-lorawan-water-ec-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -560,13 +560,13 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
     <tr>
       <td>MacSync LWQS X1 BO</td>
       <td>19 Ah Industrial Lithium Battery</td>
-      <td>Ideal for remote farms, reservoirs, flood-monitoring infrastructure, industrial weather monitoring stations, smart agriculture deployments, highways, and outdoor environmental monitoring applications without wired power availability.</td>
+      <td>Ideal for remote drinking water systems, borewells, reservoirs, STP/WWTP installations, industrial process water monitoring, and outdoor water quality monitoring deployments without wired power availability.</td>
       <td>855</td>
     </tr>
     <tr>
       <td>MacSync LWQS X1 SO</td>
       <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
-      <td>Designed for long-term smart agriculture, rainfall monitoring, meteorological weather stations, smart-city environmental infrastructure, renewable-energy plants, and Industrial IoT outdoor monitoring deployments.</td>
+      <td>Designed for long-term industrial water quality monitoring, wastewater treatment infrastructure, smart water utility deployments, reservoirs, rivers, lakes, and Industrial IoT outdoor water monitoring applications.</td>
       <td>856</td>
     </tr>
   </tbody>
