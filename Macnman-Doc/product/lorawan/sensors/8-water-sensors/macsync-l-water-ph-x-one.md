@@ -575,13 +575,12 @@ Accessories marked with (*) must be purchased separately and may not be included
 ---
 
 <h2 className="device-section-title">
-  ## MacSync LWQS X1 Product Dimensions
+  ## MacSync LWQS X2 Product Dimensions
 </h2>
 
-The **MacSync LWQS X1 LoRaWAN Water Quality EC Sensor** features a rugged industrial-grade enclosure engineered for long-term industrial and outdoor water quality monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables flexible installation across drinking water systems, wastewater treatment plants (WWTP), sewage treatment plants (STP), industrial process lines, reservoirs, borewells, cooling towers, rivers, lakes, and smart IoT water infrastructure.
+The **MacSync LWQS X2 LoRaWAN Water pH Sensor** features a rugged industrial-grade enclosure engineered for long-term industrial and outdoor water quality monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables flexible installation across drinking water systems, wastewater treatment plants (WWTP), sewage treatment plants (STP), industrial process water systems, reservoirs, borewells, cooling towers, rivers, lakes, aquaculture systems, and smart IoT water infrastructure.
 
-Its compact low-profile design simplifies wall mounting and industrial installation while maintaining reliable conductivity monitoring performance in harsh operating environments including high humidity, water exposure, industrial contamination, dust, and extreme outdoor temperatures.
-
+Its compact low-profile design simplifies wall mounting and industrial installation while maintaining reliable pH monitoring performance in harsh operating environments including high humidity, water exposure, industrial contamination, chemical environments, dust, and extreme outdoor temperatures.
 
 ![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lorawan-water-ph-sensor-dimensions.svg)
 
