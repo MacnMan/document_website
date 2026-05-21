@@ -1,5 +1,5 @@
 ---
-id: macsync-lps-x-2-lorawan-pressure-sensor
+id: macsync-lps-x-7-lorawan-pressure-sensor
 title: Hydro-static Pressure Sensor
 sidebar_position: 6
 description: Industrial LoRaWAN® hydro-static liquid level sensor engineered for soap level monitoring, small water tank monitoring, diesel tank level sensing, liquid container telemetry, and smart IoT liquid-level monitoring applications.
@@ -34,7 +34,7 @@ keywords:
   - lorawan industrial liquid sensor
   - smart utility liquid monitoring
   - wireless fluid level sensor
-  - macsync lps xx
+  - macsync lps x7
   - macnman lorawan liquid level sensor
   - Smart Soap Level Monitoring
   - Small Water Tank Level Monitoring
@@ -48,7 +48,7 @@ keywords:
   - IoT Liquid Consumption Analytics
 ---
 
-# MacSync LPS Xx LoRaWAN® Hydro-Static Liquid Level Sensor
+# MacSync LPS X7 LoRaWAN® Hydro-Static Liquid Level Sensor
 
 <h2 className="device-section-title">
   ## Product Overview 
@@ -68,7 +68,8 @@ MacSync LPS Xx supports BLE-based configuration through the Macnman Maya App, se
 
 Whether deployed in smart buildings, industrial facilities, public infrastructure, utility monitoring systems, hospitality environments, fuel storage systems, or remote liquid monitoring installations, the **MacSync LPS Xx LoRaWAN® liquid-level monitoring sensor** transforms real-time liquid telemetry into actionable operational intelligence.
 
-| ![MacSync LPS X7 LoRaWAN hydro-static liquid level sensor package contents and industrial monitoring accessories](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-whats-in-the-box.webp) | ![MacSync LPS X7 LoRaWAN hydro-static pressure sensor dimensions and industrial enclosure layout](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-dimensions.webp) |
+
+| ![MacSync LPS X7 LoRaWAN hydro-static liquid level sensor package contents and industrial monitoring accessories](/img/lorawan/sensors/macsync/macsync-lps-x7-wireless-liquid-level-monitoring-sensor-main-image.webp) | ![MacSync LPS X7 LoRaWAN hydro-static pressure sensor dimensions and industrial enclosure layout](/img/lorawan/sensors/macsync/macsync-lps-x7-lorawan-hydrostatic-liquid-level-sensor-front-view.webp) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![MacSync LPS X7 wireless hydro-static liquid level monitoring sensor for water tank and diesel tank applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp) | ![MacSync LPS X7 LoRaWAN hydro-static liquid level sensor installed for industrial liquid tank monitoring applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
 ---
@@ -105,53 +106,53 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
-  <strong>Industrial LoRaWAN® Pressure Sensor</strong>
-  High-accuracy wireless pressure monitoring engineered for industrial pipelines, hydraulic systems, utilities, and process automation.
+  <strong>LoRaWAN® Hydro-Static Liquid Level Sensor</strong>
+  Industrial wireless hydro-static liquid level sensor engineered for soap dispensers, water tanks, diesel tanks, chemical containers, and smart liquid-level monitoring applications.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>SS316 Hydrostatic Pressure Transducer</strong>
-  Precision stainless steel sensing element designed for corrosive, high-pressure, and moisture-rich industrial environments.
+  <strong>Precision Hydro-Static Pressure Sensing</strong>
+  High-stability liquid-column pressure measurement technology designed for accurate low-level liquid detection and real-time fluid analytics.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Long-Range LoRaWAN® Connectivity</strong>
-  Ultra-long-range wireless telemetry for remote pressure monitoring across large industrial and utility infrastructures.
+  Ultra-long-range wireless telemetry for distributed liquid-level monitoring across industrial facilities, smart buildings, utilities, and remote infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Battery & DC Powered Variants</strong>
-  Supports multi-year battery-powered deployments and continuous DC-powered industrial monitoring applications.
+  <strong>Smart Soap & Water Level Monitoring</strong>
+  Ideal for soap dispenser monitoring, restroom utility analytics, water bottle level detection, and smart facility liquid consumption tracking.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Pressure Threshold & Leakage Alerts</strong>
-  Intelligent event-triggered transmission for pressure anomalies, sudden drops, leakage detection, and over-pressure alerts.
+  <strong>Diesel Tank & Fuel Monitoring Ready</strong>
+  Reliable liquid-level monitoring solution for small diesel tanks, fuel reservoirs, lubricant containers, and industrial liquid storage systems.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>IP67 Industrial Rugged Design</strong>
-  Durable industrial enclosure optimized for outdoor deployments, underground infrastructure, and harsh industrial conditions.
+  <strong>Battery & External Power Variants</strong>
+  Available in ultra-low-power battery-operated models and continuous DC-powered industrial deployment configurations.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Threshold-Based Liquid-Level Alerts</strong>
+  Intelligent event-triggered reporting for low-level alerts, refill notifications, overflow conditions, and abnormal liquid consumption detection.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial IP65/IP67 Rugged Enclosure</strong>
+  Rugged industrial housing engineered for moisture-rich, corrosive, outdoor, and vibration-prone industrial operating environments.
 </div>
 
 <div className="reusable-feature-card">
   <strong>BLE Configuration via Maya App</strong>
-  Fast local configuration, diagnostics, parameter tuning, and firmware updates using the Macnman Maya Android App.
+  Simplified local configuration, diagnostics, firmware management, and deployment commissioning using the Macnman Maya Android App.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industrial Process Automation Ready</strong>
-  Ideal for SCADA integration, industrial process monitoring, utility telemetry, and Industry 4.0 deployments.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Secure AES-128 LoRaWAN® Communication</strong>
-  Encrypted wireless telemetry ensures secure industrial pressure data transmission across public and private LoRaWAN® networks.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Compatible with Major LoRaWAN® LNS</strong>
-  Works seamlessly with ChirpStack, TTN, MQTT platforms, Orbiwise, LORIOT, and private industrial LoRaWAN® infrastructures.
+  <strong>Compatible with Major LoRaWAN® Platforms</strong>
+  Seamless integration with ChirpStack, TTN, MQTT platforms, SCADA systems, Orbiwise, LORIOT, and private industrial LoRaWAN® networks.
 </div>
 </div>
 
@@ -163,110 +164,95 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">
-    <strong>Municipal Water Pressure Monitoring</strong>
-    Continuous pressure monitoring for water distribution pipelines, pumping stations, reservoirs, and smart water utility infrastructure.
+    <strong>Smart Soap Dispenser Monitoring</strong>
+    Real-time soap level monitoring for commercial restrooms, malls, airports, hospitals, hotels, and smart facility management systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Fire Hydrant & Fire Pump Monitoring</strong>
-    Real-time pressure analytics for firefighting systems, hydrants, discharge pipelines, and fire safety infrastructure.
+    <strong>Small Water Tank Level Monitoring</strong>
+    Wireless liquid-level analytics for overhead tanks, compact storage tanks, drinking water reservoirs, and utility water monitoring applications.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Process Automation</strong>
-    Wireless pressure telemetry for manufacturing plants, industrial fluid systems, and automated process control infrastructure.
+    <strong>Diesel Tank & Fuel Reservoir Monitoring</strong>
+    Monitor diesel level variations, fuel consumption, refill cycles, and low-fuel alerts in generators, industrial fuel tanks, and backup power systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil & Gas Pipeline Monitoring</strong>
-    Monitor pipeline pressure variations, leakage risks, and abnormal operating conditions in remote energy infrastructure.
+    <strong>Water Bottle & Beverage Container Analytics</strong>
+    Smart liquid-level detection for beverage containers, industrial dispensers, bottled water systems, and automated refill monitoring infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Wastewater & Sewage Infrastructure</strong>
-    Pressure monitoring for sewage treatment plants, effluent systems, underground utility networks, and wastewater pipelines.
+    <strong>Chemical Container Monitoring</strong>
+    Industrial liquid-level telemetry for chemical tanks, reagent storage systems, cleaning fluid containers, and process liquid monitoring applications.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Hydraulic System Diagnostics</strong>
-    High-accuracy pressure sensing for hydraulic machinery, industrial pumps, compressors, and fluid control systems.
+    <strong>Remote Liquid Storage Monitoring</strong>
+    Long-range LoRaWAN® liquid-level monitoring for distributed storage infrastructure deployed across industrial and utility environments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Utility Telemetry</strong>
-    Remote wireless pressure monitoring for distributed utility infrastructure and smart city deployments.
+    <strong>Industrial Utility Consumption Analytics</strong>
+    Track liquid usage patterns, refill schedules, abnormal consumption, and operational efficiency across connected utility systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote & Unmanned Installations</strong>
-    Multi-year battery-powered LoRaWAN® pressure monitoring for isolated industrial and utility locations.
+    <strong>Hospitality & Smart Building Automation</strong>
+    Integrated liquid-level monitoring for hotels, smart washrooms, office campuses, restaurants, and connected building infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industry 4.0 Pressure Analytics</strong>
-    Real-time industrial pressure analytics for predictive maintenance, operational intelligence, and connected infrastructure monitoring.
+    <strong>IoT Liquid-Level Telemetry Platforms</strong>
+    Seamless integration into industrial IoT dashboards, MQTT platforms, SCADA systems, smart city deployments, and cloud monitoring infrastructures.
   </div>
 </div>
 
 ---
 
 <div class="device-config-section">
-  <div class="device-config-title">Pressure Measurement Model : X1</div>
+  <div class="device-config-title">Hydro-Static Pressure Sensing</div>
   <div class="device-config-table">
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Working Pressure</div>
-      <div class="device-config-right">0 ~ 2.5 MPa</div>
+      <div class="device-config-left">Sensor Type</div>
+      <div class="device-config-right">Hydrostatic Pressure Sensor</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Thread Size</div>
-      <div class="device-config-right">G1/4</div>
+      <div class="device-config-left">Measurement Range</div>
+      <div class="device-config-right">-10 kPa to +10 kPa</div>
     </div>
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Measurement Accuracy</div>
-      <div class="device-config-right">±0.05 %FS</div>
+      <div class="device-config-right">±0.2% FS</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Temperature Effects</div>
-      <div class="device-config-right">±0.02 %FS/℃</div>
+      <div class="device-config-left">Resolution</div>
+      <div class="device-config-right">0.1 kPa</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Overload Pressure</div>
-      <div class="device-config-right">200%</div>
+      <div class="device-config-left">Pressure Cycle Durability</div>
+      <div class="device-config-right">10⁶ Pressure Cycles</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Breaking Pressure</div>
-      <div class="device-config-right">300%</div>
+      <div class="device-config-left">Compensated Temperature Range</div>
+      <div class="device-config-right">0°C to +50°C</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Response Time</div>
-      <div class="device-config-right">≤10 ms</div>
+      <div class="device-config-left">Long-Term Stability</div>
+      <div class="device-config-right">±0.2% FS / Year</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Load Impedance</div>
-      <div class="device-config-right">≤500 Ω</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Cycle Life</div>
-      <div class="device-config-right">≥1,000,000 cycles</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Sealing Grade</div>
-      <div class="device-config-right">IP65</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Suitable For</div>
-      <div class="device-config-right">Pressure detection in oil tanks, gas tanks, hydraulic systems, and industrial process pipelines</div>
+      <div class="device-config-left">Suitable Applications</div>
+      <div class="device-config-right">Soap dispensers, water tanks, diesel containers, beverage systems, chemical reservoirs, and low-pressure liquid-level monitoring applications</div>
     </div>
 
   </div>
@@ -274,133 +260,6 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 
 ---
 
-<div class="device-config-section">
-  <div class="device-config-title">Pressure Measurement Model : X2</div>
-  <div class="device-config-table">
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Working Pressure</div>
-      <div class="device-config-right">0 ~ 5 MPa</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Thread Size</div>
-      <div class="device-config-right">G1/4</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Measurement Accuracy</div>
-      <div class="device-config-right">±0.05 %FS</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Temperature Effects</div>
-      <div class="device-config-right">±0.02 %FS/℃</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Overload Pressure</div>
-      <div class="device-config-right">200%</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Breaking Pressure</div>
-      <div class="device-config-right">300%</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Response Time</div>
-      <div class="device-config-right">≤10 ms</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Load Impedance</div>
-      <div class="device-config-right">≤500 Ω</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Cycle Life</div>
-      <div class="device-config-right">≥1,000,000 cycles</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Sealing Grade</div>
-      <div class="device-config-right">IP65</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Suitable For</div>
-      <div class="device-config-right">Pressure detection in oil tanks, gas tanks, hydraulic systems, and industrial process pipelines</div>
-    </div>
-
-  </div>
-</div>
-
----
-
-<div class="device-config-section">
-  <div class="device-config-title">Pressure Measurement Model : X3</div>
-  <div class="device-config-table">
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Working Pressure</div>
-      <div class="device-config-right">0 ~ 10 MPa</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Thread Size</div>
-      <div class="device-config-right">G1/4</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Measurement Accuracy</div>
-      <div class="device-config-right">±0.05 %FS</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Temperature Effects</div>
-      <div class="device-config-right">±0.02 %FS/℃</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Overload Pressure</div>
-      <div class="device-config-right">200%</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Breaking Pressure</div>
-      <div class="device-config-right">300%</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Response Time</div>
-      <div class="device-config-right">≤10 ms</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Load Impedance</div>
-      <div class="device-config-right">≤500 Ω</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Cycle Life</div>
-      <div class="device-config-right">≥1,000,000 cycles</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Sealing Grade</div>
-      <div class="device-config-right">IP65</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Suitable For</div>
-      <div class="device-config-right">Pressure detection in oil tanks, gas tanks, hydraulic systems, and industrial process pipelines</div>
-    </div>
-
-  </div>
-</div>
-
----
 
 <div class="device-config-section">
   <div class="device-config-title">Wireless Transmission</div>
@@ -701,16 +560,15 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 </div>
 
 ---
-
 <h2 className="device-section-title">
-  ## MacSync LPS Xx Variants
+  ## MacSync LPS X7 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>Pressure Range</th>
+      <th>Measurement Range</th>
       <th>Power Source</th>
       <th>Ideal Use Case</th>
       <th>SKU</th>
@@ -718,46 +576,11 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LPS X1 PO</td>
-      <td>0 ~ 2.5 MPa</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>Water distribution lines, industrial utility systems, low-pressure process monitoring, and continuous wired industrial deployments.</td>
+      <td>MacSync LPS X7 BO</td>
+      <td>-10 kPa to +10 kPa</td>
+      <td>Integrated Battery (19 Ah)</td>
+      <td>Battery-powered hydro-static liquid-level monitoring for soap dispensers, water tanks, diesel containers, beverage systems, chemical reservoirs, and remote IoT liquid telemetry deployments.</td>
       <td>847</td>
-    </tr>
-    <tr>
-      <td>MacSync LPS X1 BO</td>
-      <td>0 ~ 5 MPa</td>
-      <td>Integrated Battery (19 Ah)</td>
-      <td>Remote industrial pressure monitoring, unmanned utility infrastructure, isolated pumping stations, and battery-powered field deployments.</td>
-      <td>848</td>
-    </tr>
-    <tr>
-  <td>MacSync LPS X2 PO</td>
-  <td>0 ~ 5 MPa</td>
-  <td>External Power (9–36 V DC)</td>
-  <td>Continuous wired industrial pressure monitoring for hydraulic systems, utility pipelines, industrial automation, pumping stations, and process monitoring infrastructure.</td>
-  <td>859</td>
-</tr>
-    <tr>
-      <td>MacSync LPS X2 BO</td>
-      <td>0 ~ 5 MPa</td>
-      <td>Integrated Battery (19 Ah)</td>
-      <td>Battery-powered industrial pressure monitoring for remote utility infrastructure, outdoor hydraulic systems, isolated pumping stations, and unmanned monitoring deployments.</td>
-      <td>850</td>
-    </tr>
-    <tr>
-      <td>MacSync LPS X3 PO</td>
-      <td>0 ~ 10 MPa</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>High-pressure industrial pipelines, fire-fighting systems, hydraulic monitoring, industrial automation, and continuous wired process pressure analytics.</td>
-      <td>851</td>
-    </tr>
-    <tr>
-      <td>MacSync LPS X3 BO</td>
-      <td>0 ~ 10 MPa</td>
-      <td>Integrated Battery (19 Ah)</td>
-      <td>Remote high-pressure monitoring for industrial pipelines, oil & gas infrastructure, hydraulic systems, and battery-powered outdoor utility deployments.</td>
-      <td>852</td>
     </tr>
   </tbody>
 </table>
@@ -770,7 +593,7 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 
 Make sure the package contains the following items before installation and deployment of the MacSync LPS Xx LoRaWAN® Pressure Transducer.
 
-- MacSync LPS Xx LoRaWAN® Pressure Transducer
+- MacSync LPS X7 LoRaWAN® Pressure Transducer
 - Mounting Clip
 - User Manual
 - Warranty Card
@@ -778,7 +601,7 @@ Make sure the package contains the following items before installation and deplo
 - Mounting Screws
 - Power Adapter \*
 
-![MacSync LPS Xx LoRaWAN Pressure Transducer box contents with mounting accessories and installation kit](/img/datalogger/whatsbox.svg)
+![MacSync LPS X7 LoRaWAN Pressure Transducer box contents with mounting accessories and installation kit](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -792,4 +615,4 @@ Accessories marked with (\*) may vary depending on deployment requirements and o
 
 Compact industrial enclosure designed for rugged field deployments with overall dimensions **152 mm X 62 mm X 43 mm ( Without Sensor Probe )** optimized for wall mounting and industrial pressure monitoring installations.
 
-![MacSync LPS Xx LoRaWAN Hydrostatic Pressure Transducer Mechanical Dimensions and Mounting Layout](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-transducer-dimensions.webp)
+![MacSync LPS X7 LoRaWAN Hydrostatic Pressure Transducer Mechanical Dimensions and Mounting Layout](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-transducer-dimensions.webp)
