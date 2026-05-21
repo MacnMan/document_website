@@ -80,6 +80,8 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
   </a>
 </div>
 
+---
+
 <h2 className="device-section-title"> 
   ## Key Features
 </h2>

@@ -51,10 +51,35 @@ Optimized for ultra-low-power operation and long-range wireless telemetry, the s
 With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA configuration using the **Macnman Maya App**, and compatibility with ChirpStack, TTN, MQTT, Orbiwise, LORIOT, and private LoRaWAN® infrastructures, **MacSync LWQS X2** provides a scalable and future-ready solution for **wireless water quality monitoring and industrial water pH analytics**.
 
 
-| ![MacSync LWQS X1 LoRaWAN water quality EC sensor front view for industrial water conductivity monitoring](/img/lorawan/sensors/macsync/macsync-lwqs-x1-lorawan-water-quality-ec-sensor-front-view.webp) | ![MacSync LWQS X1 industrial water EC sensor side profile for IoT water quality analytics](/img/lorawan/sensors/macsync/macsync-lwqs-x1-industrial-water-conductivity-sensor-main-image.webp) |
+| ![MacSync LWQS X2 LoRaWAN water pH sensor front view for industrial water quality monitoring](/img/lorawan/sensors/macsync/macsync-lwqs-x2-lorawan-water-ph-sensor-enclosure-dimensions.webp) | ![MacSync LWQS X2 industrial LoRaWAN water pH sensor side profile for IoT water quality analytics](/img/lorawan/sensors/macsync/macsync-lwqs-x2-industrial-water-ph-probe-dimensions.webp) |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![MacSync LWQS X1 wireless LoRaWAN water quality monitoring sensor rear enclosure for industrial deployments](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LWQS X1 industrial LoRaWAN water EC sensor for smart water quality monitoring applications](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync LWQS X2 wireless LoRaWAN water pH monitoring sensor rear enclosure for industrial deployments](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LWQS X2 industrial LoRaWAN water pH sensor for smart water quality monitoring applications](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
+
+---
+
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
+
+<div className="icon-card-grid">
+<a href="/docs/downloads/macsync-lwqs-x2-lorawan-water-ph-sensor-datasheet.pdf" 
+  className="icon-card">
+    <div className="icon">📂</div>  
+    <div>
+      <strong>Download Datasheet</strong> 
+      <p>Download the PDF version of the datasheet.</p>
+    </div>
+  </a>
+  <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
+  className="icon-card">
+    <div className="icon">📝</div>
+    <div>
+      <strong>Decoders</strong>
+      <p><p>Click here to view the decoders for MacSync LWQS X2</p></p>
+    </div>
+  </a>
+</div>
 
 ---
 
@@ -174,51 +199,48 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 
 ---
 
-
-
 <h2 className="device-section-title">
   ## Technical Specifications
 </h2>
 
 <div className="device-config-section">
-  <div className="device-config-title">EC Sensor Measurement</div>
+  <div className="device-config-title">pH Sensor Measurement</div>
   <div className="device-config-table">
 
     <div className="device-config-row shaded">
       <div className="device-config-left">Sensing Principle</div>
-      <div className="device-config-right">2-Electrode Contact Method</div>
+      <div className="device-config-right">Ion Selection Method</div>
     </div>
 
     <div className="device-config-row">
       <div className="device-config-left">Range</div>
-      <div className="device-config-right">0–2000 μS/cm, 0–5000 μS/cm (Cell Constant: 1.0)</div>
+      <div className="device-config-right">0 to 14 pH</div>
     </div>
 
     <div className="device-config-row shaded">
       <div className="device-config-left">Resolution</div>
-      <div className="device-config-right">1 μS/cm</div>
+      <div className="device-config-right">0.01 pH</div>
     </div>
 
     <div className="device-config-row">
       <div className="device-config-left">Accuracy</div>
-      <div className="device-config-right">±1% of Full Scale (FS)</div>
+      <div className="device-config-right">±0.1 pH</div>
     </div>
 
     <div className="device-config-row shaded">
-      <div className="device-config-left">Working Temperature</div>
-      <div className="device-config-right">0°C to +65°C</div>
+      <div className="device-config-left">Calibration Method</div>
+      <div className="device-config-right">Two-Point Calibration</div>
     </div>
 
     <div className="device-config-row">
-      <div className="device-config-left">Working Pressure</div>
-      <div className="device-config-right">&lt; 0.6 MPa</div>
+      <div className="device-config-left">Temperature Compensation</div>
+      <div className="device-config-right">Automatic Temperature Compensation (NTC)</div>
     </div>
 
     <div className="device-config-row shaded">
-      <div className="device-config-left">Ingress Protection (Probe)</div>
-      <div className="device-config-right">IP68</div>
+      <div className="device-config-left">Service Life</div>
+      <div className="device-config-right">Sensor - 1 Year (Typical)</div>
     </div>
-
   </div>
 </div>
 
@@ -582,7 +604,7 @@ The **MacSync LWQS X2 LoRaWAN Water pH Sensor** features a rugged industrial-gra
 
 Its compact low-profile design simplifies wall mounting and industrial installation while maintaining reliable pH monitoring performance in harsh operating environments including high humidity, water exposure, industrial contamination, chemical environments, dust, and extreme outdoor temperatures.
 
-![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lorawan-water-ph-sensor-dimensions.svg)
+![MacSync LWQS X2 LoRaWAN water pH sensor enclosure dimensions](/img/lorawan/sensors/macsync/macsync-lorawan-water-ph-sensor-dimensions.svg)
 
 
-![macsync lssx lorawan soil sensor detailed dimensions drawing image](/img/lorawan/sensors/macsync/macsync-lwq-x-ph-probe-overall-dimensions.webp)
+![MacSync LWQS X2 industrial water pH probe dimensions drawing](/img/lorawan/sensors/macsync/macsync-lwq-x-ph-probe-overall-dimensions.webp)
