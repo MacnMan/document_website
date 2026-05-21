@@ -210,243 +210,368 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Interfaces <br /> Available
-  </div>
-  <div className="spec-block-details">
-    <p className="label">High Current Relay Outputs</p>
-    <p className="value">x2 @16 Amps</p>
-    <br />
-    <p className="label">RS485 Interface</p>
-    <p className="value">1 (Switchable)</p>
-    <br />
-    <p className="label">4-20 mA Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">0-10 V Analog Channels</p>
-    <p className="value">x 2 (Switchable)</p>
-    <br />
-    <p className="label">Digital Inputs</p>
-    <p className="value">x 2 (Switchable)</p>    
-    <br />
-    <p className="label">ADC Resolution</p>
-    <p className="value">12-bit</p>
+## Technical Specifications 
+
+<div class="device-config-section">
+  <div class="device-config-title">Temperature Measurement</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Range</div>
+      <div class="device-config-right">-30°C to +70°C</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Accuracy</div>
+      <div class="device-config-right">0°C to +70°C: ±0.3°C &amp; -30°C to 0°C: ±0.6°C</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Resolution</div>
+      <div class="device-config-right">0.1°C</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Calibration</div>
+      <div class="device-config-right">Factory calibrated</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Probe Options</div>
+      <div class="device-config-right">Internal &amp; External Both Options</div>
+    </div>
+
   </div>
 </div>
-
-:::note
-The device use same channels for the RS485 & Analog inputs, either can be used at a time.
-:::
-
 ---
+<div class="device-config-section">
+  <div class="device-config-title">Humidity Measurement</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Wireless <br /> Transmission
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Wireless Protocols</p>
-    <p className="value">LoRaWAN® (v1.0.4)</p>
-    <p className="value">Macnman MacTalk Protocol</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal high-efficiency antenna</p>
-    <p className="value">External antenna optional</p>
-    <br />
-    <p className="label">Supported Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">23 dBm @ 868 MHz / 20 dBm @ 915 MHz / 19 dBm @ 470 MHz</p>    
-    <br />
-    <p className="label">Sensitivity</p>
-    <p className="value">-137 dBm @ 300 bps</p>
-    <br />
-    <p className="label">Activation</p>
-    <p className="value">OTAA</p>
-    <br />
-    <p className="label">LoRaWAN® Class</p>
-    <p className="value">Class A (default)</p>
-    <p className="value">Configurable to Class C via Maya</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Range</div>
+      <div class="device-config-right">0% to 100% RH</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Accuracy</div>
+      <div class="device-config-right">10% to 90% RH: ±3% RH &amp; &lt;10% or &gt;90% RH: ±5% RH</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Resolution</div>
+      <div class="device-config-right">0.5% RH</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Calibration</div>
+      <div class="device-config-right">Factory calibrated</div>
+    </div>
 
   </div>
 </div>
 
----
+--- 
+<div class="device-config-section">
+  <div class="device-config-title">Wireless Transmission</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    LED <br /> Status
-  </div>
-  <div className="spec-block-details">
-    <p className="label">LED Type</p>
-    <p className="value">1 Internal Multi-Color LED</p>
-    <br />
-    <p className="label">Solid Blue</p>
-    <p className="value">Device is connected with Maya App</p>
-    <br />
-    <p className="label">Flashing Blue</p>
-    <p className="value">OTA (Over-the-Air) update in progress</p>
-    <br />
-    <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
-    <br />
-    <p className="label">Single Red Blink</p>
-    <p className="value">A confirmed parameter of MacSet-LX1 is being modified</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Wireless Protocols</div>
+      <div class="device-config-right">LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Antenna</div>
+      <div class="device-config-right">Internal high-efficiency antenna</div>
+    </div>
 
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Supported Bands</div>
+      <div class="device-config-right">IN865 / RU864 / EU868 / US915 / AU915 </div>
+    </div>
 
----
+    <div class="device-config-row">
+      <div class="device-config-left">Tx Power</div>
+      <div class="device-config-right">23 dBm @ 865 MHz </div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Device <br /> Configuration
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Configuration</p>
-    <p className="value">Via Macnman Maya Android App</p>
-    <br />
-    <p className="label">Uplink Modes</p>
-    <p className="value">Time Based / Threshold Based / Sampling Based</p>
-    <br />
-    <p className="label">Remote Configuration</p>
-    <p className="value">JSON Format Data - from server</p>    
-    <br />
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sensitivity</div>
+      <div class="device-config-right">-137 dBm @ 300 bps</div>
+    </div>
 
----
+    <div class="device-config-row">
+      <div class="device-config-left">Activation</div>
+      <div class="device-config-right">OTAA</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations</p>
-    <br />  
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LoRaWAN® Class</div>
+      <div class="device-config-right">Class A (Default), Configurable to Class C via Maya</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Supports Major LNS</div>
+      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations</div>
+    </div>
+
   </div>
 </div>
 
 ---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Physical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Supply</p>
-    <p className="value">9-36 V DC</p>
-    <br />
-    <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
-    <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
-    <br />
-    <p className="label">Ingress Protection</p>
-    <p className="value">IP65 standard (IP67 optional variant)</p>    
-    <br />
-    <p className="label">Housing Material</p>
-    <p className="value">Glass field Nylon</p>    
-    <br />
-    <p className="label">Color</p>
-    <p className="value">Matte White</p>    
-    <br />
-    <p className="label">Weight</p>
-    <p className="value">~110g</p>    
-    <br />
-    <p className="label">Mounting Options</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">Device Management</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Configuration Method</div>
+      <div class="device-config-right">Via Macnman Maya Android App</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Local Configuration</div>
+      <div class="device-config-right">BLE-Based Local Configuration</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Remote Configuration</div>
+      <div class="device-config-right">Over-the-Air Configuration (Downlink Commands)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Status LED</div>
+      <div class="device-config-right">1 × Internal Multi-Color LED</div>
+    </div>
+
   </div>
 </div>
 
 ---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Input Voltage Range</p>
-    <p className="value">9-36 V DC (External Supply)</p>
-    <br />
-    <p className="label">Power Consumption</p>
-    <p className="value">~100 µA in sleep mode</p>
-    <p className="value">~50 mA during transmission</p>
-    <br />
-    <p className="label">Input Impedance</p>
-    <p className="value">>10 MΩ for voltage inputs</p>
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">Server Data Reporting Modes</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Reporting Mode</div>
+      <div class="device-config-right">Periodic / Event-based / Hybrid</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Transmission Interval</div>
+      <div class="device-config-right">Independent uplink interval for optimized power consumption</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Threshold-Based Alerts</div>
+      <div class="device-config-right">Configurable temperature and humidity thresholds for event-triggered transmission</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Sampling Interval</div>
+      <div class="device-config-right">Configurable data acquisition interval (e.g., 1 min to 24 hours)</div>
+    </div>
+
   </div>
 </div>
 
 ---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Communication <br /> Options
-  </div>
-  <div className="spec-block-details">
-    <p className="label">BLE Connectivity</p>
-    <p className="value">For local configuration and diagnostics via Maya App</p>
-    <br />
-    <p className="label">Cloud Protocols</p>
-    <p className="value">MQTT / HTTPS / TCP IP (Gateway Dependent )</p>
-    <br />
-    <p className="label">Serial Interface</p>
-    <p className="value">RS485 Modbus RTU support (optional)</p>
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">Battery Performance (BO Series)</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Battery Type</div>
+      <div class="device-config-right">Li-SOCl₂ Cell (19Ah) Industrial grade</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption</div>
+      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">5-Minute Reporting Interval</div>
+      <div class="device-config-right">~2 Years (Estimated)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">15-Minute Reporting Interval</div>
+      <div class="device-config-right">~4 Years (Estimated)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">60-Minute Reporting Interval</div>
+      <div class="device-config-right">~7+ Years (Estimated)</div>
+    </div>
+
   </div>
 </div>
-
 
 ---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Certifications & <br /> Compliance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">WPC</p>
-    <p className="value">Compliant</p>
-    <br />
-    <p className="label">RoHS</p>
-    <p className="value">Conforms to RoHS directive</p>
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">Power Performance (PO Series)</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Input Voltage Range (Optional Variant)</div>
+      <div class="device-config-right">9-36 V DC (External Supply)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption</div>
+      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+    </div>
+
+
   </div>
 </div>
 
 ---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Security & <br /> Encryption
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
-    <br />
-    <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes</p>
-    <br />
-    <p className="label">Firmware Protection</p>
-    <p className="value">Secure boot and signed OTA updates</p>
-    <br />
+<div class="device-config-section">
+  <div class="device-config-title">Communication Options</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">BLE Connectivity</div>
+      <div class="device-config-right">For local configuration and diagnostics via Maya App</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Cloud Protocols</div>
+      <div class="device-config-right">MQTT / HTTPS / TCP/IP (Gateway Dependent)</div>
+    </div>
+
   </div>
 </div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Security & Encryption</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Encryption</div>
+      <div class="device-config-right">AES-128 LoRaWAN® encryption</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Authentication</div>
+      <div class="device-config-right">OTAA Device Activation</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Firmware Protection</div>
+      <div class="device-config-right">Secure boot and signed OTA updates</div>
+    </div>
+
+  </div>
+</div>
+
+--- 
+
+
+
+<div class="device-config-section">
+  <div class="device-config-title">LED Status</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LED Type</div>
+      <div class="device-config-right">1 × Internal Multi-Color LED</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Solid Blue</div>
+      <div class="device-config-right">Device connected to Maya App</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Flashing Blue</div>
+      <div class="device-config-right">OTA (Over-the-Air) update in progress</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Slow Blinking Green</div>
+      <div class="device-config-right">Attempting to connect to the LoRaWAN® network</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Single Red Blink</div>
+      <div class="device-config-right">A device parameter is being modified</div>
+    </div>
+
+  </div>
+</div>
+
+---
+<div class="device-config-section">
+  <div class="device-config-title">Physical Characteristics</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">-40°C to +80°C</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Humidity Range</div>
+      <div class="device-config-right">0% to 100% RH (non-condensing)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Ingress Protection</div>
+      <div class="device-config-right">IP65 standard (IP67 optional variant)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Housing Material</div>
+      <div class="device-config-right">Glass Filled Nylon</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Color</div>
+      <div class="device-config-right">Matte White</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Weight</div>
+      <div class="device-config-right">~175 g</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Mounting Options</div>
+      <div class="device-config-right">Pole Mount / Wall Mount</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Certifications & Compliance</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">WPC</div>
+      <div class="device-config-right">Compliant</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">RoHS</div>
+      <div class="device-config-right">Conforms to RoHS directive</div>
+    </div>
+
+  </div>
+</div>
+
 
 
 ##  MacSync-LX2-STD-PO Variants
