@@ -68,11 +68,9 @@ MacSync LPS Xx supports BLE-based configuration through the Macnman Maya App, se
 
 Whether deployed in smart buildings, industrial facilities, public infrastructure, utility monitoring systems, hospitality environments, fuel storage systems, or remote liquid monitoring installations, the **MacSync LPS Xx LoRaWAN® liquid-level monitoring sensor** transforms real-time liquid telemetry into actionable operational intelligence.
 
-
-| ![MacSync LRTD X1 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-whats-in-the-box.webp) | ![MacSync LRTD X1 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-dimensions.webp)      |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![MacSync LRTD X1 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp)       | ![MacSync LRTD X1 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
-
+| ![MacSync LPS X7 LoRaWAN hydro-static liquid level sensor package contents and industrial monitoring accessories](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-whats-in-the-box.webp) | ![MacSync LPS X7 LoRaWAN hydro-static pressure sensor dimensions and industrial enclosure layout](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-dimensions.webp) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![MacSync LPS X7 wireless hydro-static liquid level monitoring sensor for water tank and diesel tank applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp) | ![MacSync LPS X7 LoRaWAN hydro-static liquid level sensor installed for industrial liquid tank monitoring applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
 ---
 
 <h2 className="device-section-title">
