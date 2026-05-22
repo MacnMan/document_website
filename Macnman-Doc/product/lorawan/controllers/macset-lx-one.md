@@ -65,7 +65,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macset-lx1-industrial-lorawan-controller.pdf" 
+  <a href="/docs/downloads/macset-lx1-industrial-lorawan-relay-controller-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
