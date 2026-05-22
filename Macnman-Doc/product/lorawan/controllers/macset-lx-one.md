@@ -54,9 +54,9 @@ Optimized for Industrial IoT scalability, the device supports secure AES-encrypt
 
 Whether deployed for **remote pump control**, **wireless industrial automation**, **smart agriculture irrigation control**, **water utility automation**, **industrial relay switching**, or **edge-based Industrial IoT control systems**, **MacSet LX1** delivers a reliable, scalable, and future-ready solution for modern wireless automation infrastructure.
 
-| ![MacSync LTS X1 LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/controller/macset-lx1-industrial-lorawan-controller-front-view.webp) | ![MacSync LTS X1 wireless LoRaWAN temperature humidity sensor mounted installation view](/img/controller/macset-lx1-rs485-modbus-io-controller-mounted-view.webp)        |
+| ![MacSet LX1 industrial LoRaWAN controller front view for industrial automation](/img/controller/macset-lx1-industrial-lorawan-controller-front-view.webp) | ![MacSet LX1 RS485 Modbus IO controller mounted installation view](/img/controller/macset-lx1-rs485-modbus-io-controller-mounted-view.webp)        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/controller/macset-lx1-wireless-industrial-automation-controller-side-view.webp)            | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/controller/macset-lx1-lorawan-relay-controller-industrial-installation.webp) |
+| ![MacSet LX1 wireless industrial automation controller side profile](/img/controller/macset-lx1-wireless-industrial-automation-controller-side-view.webp)            | ![MacSet LX1 LoRaWAN relay controller industrial installation view](/img/controller/macset-lx1-lorawan-relay-controller-industrial-installation.webp) |
 
 ---
 
@@ -65,7 +65,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-lts-x1-industrial-lorawan-temperature-humidity-sensor.pdf" 
+  <a href="/docs/downloads/macset-lx1-industrial-lorawan-controller.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -480,7 +480,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
     <div class="device-config-row">
       <div class="device-config-left">Supports Major LNS</div>
-      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations</div>
+      <div class="device-config-right">Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore</div>
     </div>
 
   </div>
@@ -533,7 +533,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Threshold-Based Alerts</div>
-      <div class="device-config-right">Configurable temperature and humidity thresholds for event-triggered transmission</div>
+      <div class="device-config-right">Configurable analog, digital, and Modbus event thresholds for event-triggered transmission</div>
     </div>
 
     <div class="device-config-row">
@@ -581,7 +581,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
     <div class="device-config-row">
       <div class="device-config-left">Power Consumption</div>
-      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+      <div class="device-config-right">Depends on connected relay load and operating mode</div>
     </div>
 
   </div>
@@ -714,27 +714,27 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
       <div class="device-config-right">0% to 100% RH (non-condensing)</div>
     </div>
 
-    <div class="device-config-row">
+    <div class="device-config-row shaded">
       <div class="device-config-left">Ingress Protection</div>
       <div class="device-config-right">IP65 standard (IP67 optional variant)</div>
     </div>
 
-    <div class="device-config-row shaded">
+    <div class="device-config-row">
       <div class="device-config-left">Housing Material</div>
       <div class="device-config-right">Glass Filled Nylon</div>
     </div>
 
-    <div class="device-config-row">
+    <div class="device-config-row shaded">
       <div class="device-config-left">Color</div>
       <div class="device-config-right">Matte White</div>
     </div>
 
-    <div class="device-config-row shaded">
+    <div class="device-config-row">
       <div class="device-config-left">Weight</div>
       <div class="device-config-right">~175 g</div>
     </div>
 
-    <div class="device-config-row">
+    <div class="device-config-row shaded">
       <div class="device-config-left">Mounting Options</div>
       <div class="device-config-right">Pole Mount / Wall Mount</div>
     </div>
@@ -764,7 +764,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 ---
 
 <h2 className="device-section-title">
-  ## MacSync-LX2-STD-PO Variants
+  ## MacSet LX1 Variants
 </h2>
 
 <table className="parameter-table">
