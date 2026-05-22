@@ -1,6 +1,6 @@
 ---
 id: macset-lx-one-datasheet
-title: 2 DI / DO Controller
+title: 2 x DO Controller
 sidebar_position: 1
 description: Industrial LoRaWAN® controller for remote automation, relay switching, industrial equipment control, RS485 Modbus integration, analog and digital I/O monitoring, smart agriculture automation, water management systems, and Industrial IoT deployments.
 keywords:
@@ -34,12 +34,13 @@ keywords:
   - industrial wireless controller
   - lorawan remote equipment controller
   - smart factory automation controller
-  
 ---
 
 # MacSet LX1 Industrial LoRaWAN Controller
 
-## Product Overview
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
 
 **MacSet LX1** is an industrial-grade **LoRaWAN® Controller** engineered for remote automation, industrial equipment control, relay switching, analog and digital I/O monitoring, and wireless Industrial IoT deployments. Designed for long-range low-power industrial automation, the controller enables reliable remote operation of pumps, motors, solenoid valves, alarms, contactors, lighting systems, actuators, and field devices over secure LoRaWAN® networks.
 
@@ -53,13 +54,40 @@ Optimized for Industrial IoT scalability, the device supports secure AES-encrypt
 
 Whether deployed for **remote pump control**, **wireless industrial automation**, **smart agriculture irrigation control**, **water utility automation**, **industrial relay switching**, or **edge-based Industrial IoT control systems**, **MacSet LX1** delivers a reliable, scalable, and future-ready solution for modern wireless automation infrastructure.
 
-
-| ![MacSync LTS X1 LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) | ![MacSync LTS X1 wireless LoRaWAN temperature humidity sensor mounted installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
-|--------------------------------|--------------------------------|
-| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) |
+| ![MacSync LTS X1 LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/controller/macset-lx1-industrial-lorawan-controller-front-view.webp) | ![MacSync LTS X1 wireless LoRaWAN temperature humidity sensor mounted installation view](/img/controller/macset-lx1-rs485-modbus-io-controller-mounted-view.webp)        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/controller/macset-lx1-wireless-industrial-automation-controller-side-view.webp)            | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/controller/macset-lx1-lorawan-relay-controller-industrial-installation.webp) |
 
 ---
-## Key Features
+
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
+
+<div className="icon-card-grid">
+  <a href="/docs/downloads/macsync-lts-x1-industrial-lorawan-temperature-humidity-sensor.pdf" 
+  className="icon-card">
+    <div className="icon">📂</div>  
+    <div>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
+    </div>
+  </a>
+  <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
+  className="icon-card">
+    <div className="icon">📝</div>
+    <div>
+      <strong>Decoders</strong>
+      <p>Click here to view the decoders for MacSet LX1</p>
+    </div>
+  </a>
+</div>
+
+---
+
+<h2 className="device-section-title">
+  ## Key Features
+</h2>
 
 <div className="reusable-feature-grid">
 
@@ -142,7 +170,9 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-## Suited Applications
+<h2 className="device-section-title">
+  ## Suited Applications
+</h2>
 
 <div className="reusable-feature-grid">
 
@@ -210,68 +240,205 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-## Technical Specifications 
+<h2 className="device-section-title">
+  ## Technical Specifications
+</h2>
 
 <div class="device-config-section">
-  <div class="device-config-title">Temperature Measurement</div>
+  <div class="device-config-title">IO Interfaces</div>
   <div class="device-config-table">
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Range</div>
-      <div class="device-config-right">-30°C to +70°C</div>
+      <div class="device-config-left">Relay Outputs</div>
+      <div class="device-config-right">2 × 16A Relay Outputs</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Accuracy</div>
-      <div class="device-config-right">0°C to +70°C: ±0.3°C &amp; -30°C to 0°C: ±0.6°C</div>
+      <div class="device-config-left">RS485 Interface</div>
+      <div class="device-config-right">1 × RS485 (Switchable)</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Resolution</div>
-      <div class="device-config-right">0.1°C</div>
+      <div class="device-config-left">4–20 mA Analog Channels</div>
+      <div class="device-config-right">2 × Channels (Switchable)</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Calibration</div>
-      <div class="device-config-right">Factory calibrated</div>
+      <div class="device-config-left">0–10 V Analog Channels</div>
+      <div class="device-config-right">2 × Channels (Switchable)</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Probe Options</div>
-      <div class="device-config-right">Internal &amp; External Both Options</div>
+      <div class="device-config-left">Digital Inputs</div>
+      <div class="device-config-right">2 × Channels (Switchable)</div>
     </div>
 
   </div>
 </div>
+
 ---
+
 <div class="device-config-section">
-  <div class="device-config-title">Humidity Measurement</div>
+  <div class="device-config-title">RS485 Modbus Input Specifications</div>
   <div class="device-config-table">
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Range</div>
-      <div class="device-config-right">0% to 100% RH</div>
+      <div class="device-config-left">Number of RS485 Ports</div>
+      <div class="device-config-right">1 × Independently Configurable</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Accuracy</div>
-      <div class="device-config-right">10% to 90% RH: ±3% RH &amp; &lt;10% or &gt;90% RH: ±5% RH</div>
+      <div class="device-config-left">Interface</div>
+      <div class="device-config-right">RS485 Modbus RTU</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Resolution</div>
-      <div class="device-config-right">0.5% RH</div>
+      <div class="device-config-left">Modbus Mode</div>
+      <div class="device-config-right">Modbus RTU Master</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Calibration</div>
-      <div class="device-config-right">Factory calibrated</div>
+      <div class="device-config-left">Slave Devices</div>
+      <div class="device-config-right">Multiple Modbus RTU Slave Devices</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Function Codes</div>
+      <div class="device-config-right">Read Holding Registers, Read Input Registers, Write Single Register, Write Multiple Registers</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Polling Interval</div>
+      <div class="device-config-right">User Configurable</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Communication Direction</div>
+      <div class="device-config-right">Half-Duplex</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Baud Rate Support</div>
+      <div class="device-config-right">1200 bps to 115200 bps</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Format</div>
+      <div class="device-config-right">8 Data Bits, No/Even/Odd Parity, 1 Stop Bit</div>
     </div>
 
   </div>
 </div>
 
---- 
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">4–20 mA Input Specifications</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Number of Channels</div>
+      <div class="device-config-right">2 × Independently Configurable</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Input Type</div>
+      <div class="device-config-right">4–20 mA Analog Input</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">ADC Resolution</div>
+      <div class="device-config-right">12-bit</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Sampling Interval</div>
+      <div class="device-config-right">User Configurable</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Threshold-Based Alerts</div>
+      <div class="device-config-right">Supported</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">0–10 V Input Specifications</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Number of Channels</div>
+      <div class="device-config-right">2 × Independently Configurable</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Input Type</div>
+      <div class="device-config-right">0–10 V Analog Input</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Input Voltage Range</div>
+      <div class="device-config-right">0–10 V DC</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">ADC Resolution</div>
+      <div class="device-config-right">12-bit</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Sampling Interval</div>
+      <div class="device-config-right">User Configurable</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Threshold-Based Alerts</div>
+      <div class="device-config-right">Supported</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Digital Input Specifications</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Number of Channels</div>
+      <div class="device-config-right">2 × Independently Configurable</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Input Type</div>
+      <div class="device-config-right">Digital Input</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Input Logic</div>
+      <div class="device-config-right">High / Low Detection</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Sampling Interval</div>
+      <div class="device-config-right">User Configurable</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Event Detection</div>
+      <div class="device-config-right">State Change Detection Supported</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
 <div class="device-config-section">
   <div class="device-config-title">Wireless Transmission</div>
   <div class="device-config-table">
@@ -380,32 +547,22 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 ---
 
 <div class="device-config-section">
-  <div class="device-config-title">Battery Performance (BO Series)</div>
+  <div class="device-config-title">Automation Rule Engine Modes</div>
   <div class="device-config-table">
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Battery Type</div>
-      <div class="device-config-right">Li-SOCl₂ Cell (19Ah) Industrial grade</div>
+      <div class="device-config-left">Regular Mode</div>
+      <div class="device-config-right">Time-based relay automation where relay actions are executed at scheduled timings configured by the user</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Power Consumption</div>
-      <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
+      <div class="device-config-left">Trigger Mode</div>
+      <div class="device-config-right">Event-based relay automation using Analog Inputs or RS485 Modbus sensor data to trigger relay actions</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">5-Minute Reporting Interval</div>
-      <div class="device-config-right">~2 Years (Estimated)</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">15-Minute Reporting Interval</div>
-      <div class="device-config-right">~4 Years (Estimated)</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">60-Minute Reporting Interval</div>
-      <div class="device-config-right">~7+ Years (Estimated)</div>
+      <div class="device-config-left">Cyclic Mode</div>
+      <div class="device-config-right">Repetitive relay ON/OFF operation based on user-defined cyclic timing sequences</div>
     </div>
 
   </div>
@@ -414,7 +571,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 ---
 
 <div class="device-config-section">
-  <div class="device-config-title">Power Performance (PO Series)</div>
+  <div class="device-config-title">DC Input Specifications</div>
   <div class="device-config-table">
 
     <div class="device-config-row shaded">
@@ -427,6 +584,39 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
       <div class="device-config-right">~100 µA in sleep mode / ~50 mA during transmission</div>
     </div>
 
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">AC Input Specifications</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Input Voltage</div>
+      <div class="device-config-right">230 V AC</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Voltage Range</div>
+      <div class="device-config-right">180 V AC to 260 V AC</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Input Frequency</div>
+      <div class="device-config-right">50 Hz</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Connection</div>
+      <div class="device-config-right">Terminal Block Connector</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Isolation Protection</div>
+      <div class="device-config-right">Supported</div>
+    </div>
 
   </div>
 </div>
@@ -474,9 +664,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
   </div>
 </div>
 
---- 
-
-
+---
 
 <div class="device-config-section">
   <div class="device-config-title">LED Status</div>
@@ -511,16 +699,17 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 </div>
 
 ---
+
 <div class="device-config-section">
   <div class="device-config-title">Physical Characteristics</div>
   <div class="device-config-table">
 
-    <div class="device-config-row">
+    <div class="device-config-row shaded">
       <div class="device-config-left">Operating Temperature</div>
       <div class="device-config-right">-40°C to +80°C</div>
     </div>
 
-    <div class="device-config-row shaded">
+    <div class="device-config-row">
       <div class="device-config-left">Humidity Range</div>
       <div class="device-config-right">0% to 100% RH (non-condensing)</div>
     </div>
@@ -572,9 +761,11 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
   </div>
 </div>
 
+---
 
-
-##  MacSync-LX2-STD-PO Variants
+<h2 className="device-section-title">
+  ## MacSync-LX2-STD-PO Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
@@ -588,7 +779,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
   </thead>
   <tbody>
     <tr>
-      <td>MacSet LX1 PO</td>
+      <td>MacSet LX1</td>
       <td>230 V AC / 9–36 V DC External Power</td>
       <td>2 High-Current Relay Outputs</td>
       <td>Industrial automation, pump control, smart agriculture systems, factory automation, RS485 Modbus control systems, and Industrial IoT remote switching applications.</td>
@@ -597,6 +788,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
   </tbody>
 </table>
 
+---
 
 <h2 className="device-section-title">
   ## What's in the Box?
@@ -608,9 +800,9 @@ Make sure box contains following items before installations
 - Mounting Clip
 - User Manual
 - Warranty Card
-- IP68 Cable Extender *
-- Mounting Screws 
-- Power Adapters *
+- IP68 Cable Extender \*
+- Mounting Screws
+- Power Adapters \*
 
 Ensure the following items are available before installation.
 
@@ -621,6 +813,8 @@ Ensure the following items are available before installation.
 Accessories may not be included in the package and must be purchased separately.
 
 :::
+
+---
 
 <h2 className="device-section-title">
   ## MacSet LX1 Controller Dimensions
