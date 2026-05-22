@@ -627,13 +627,13 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
       <td>MacSync LWS X1 BO</td>
       <td>19 Ah Industrial Lithium Battery</td>
       <td>Ideal for remote farms, reservoirs, industrial sites, environmental monitoring stations, highways, and outdoor weather monitoring deployments without wired power availability.</td>
-      <td>840</td>
+      <td>843</td>
     </tr>
     <tr>
       <td>MacSync LWS X1 SO</td>
       <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
       <td>Designed for long-term smart agriculture, meteorological monitoring, smart-city infrastructure, flood monitoring systems, and renewable-energy weather monitoring deployments.</td>
-      <td>841</td>
+      <td>854</td>
     </tr>
   </tbody>
 </table>

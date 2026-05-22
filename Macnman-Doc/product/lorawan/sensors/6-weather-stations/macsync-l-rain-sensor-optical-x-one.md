@@ -571,13 +571,13 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
       <td>MacSync LORS X1 BO</td>
       <td>19 Ah Lithium Battery</td>
       <td>Remote farms, reservoirs, weather stations, forests, and rainfall monitoring deployments without wired power availability.</td>
-      <td>844</td>
+      <td>841</td>
     </tr>
     <tr>
       <td>MacSync LORS X1 SO</td>
       <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
       <td>Long-term outdoor rainfall monitoring systems, smart agriculture deployments, flood monitoring stations, and remote weather networks.</td>
-      <td>845</td>
+      <td>842</td>
     </tr>
   </tbody>
 </table>

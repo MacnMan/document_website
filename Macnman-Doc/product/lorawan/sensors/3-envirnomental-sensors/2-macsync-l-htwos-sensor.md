@@ -602,13 +602,13 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
       <td>MacSync LH2S X1 BO</td>
       <td>Battery Powered</td>
       <td>Remote and low-power LoRaWAN® H₂S monitoring deployments</td>
-      <td>819</td>
+      <td>818</td>
     </tr>
     <tr>
       <td>MacSync LH2S X1 PO</td>
       <td>External Power (9 ~ 36 V DC)</td>
       <td>Continuous powered industrial H₂S monitoring deployments</td>
-      <td>820</td>
+      <td>819</td>
     </tr>
   </tbody>
 </table>

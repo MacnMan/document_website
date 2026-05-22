@@ -59,7 +59,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macsync-ldss-x1-lorawan-door-status-sensor-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-ldss-x1-lorawan-door-status-sensor-datasheet-v1-2.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
