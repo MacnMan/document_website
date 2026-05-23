@@ -84,7 +84,7 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 </h2>
 
 <div className="icon-card-grid">
-<a href="/docs/downloads/setu-lx-series-indoor-lorawan-gateway-datasheet.pdf" 
+<a href="/docs/downloads/setu-lx1-industrial-lorawan-indoor-gateway-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
