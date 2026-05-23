@@ -1,6 +1,6 @@
 ---
 id: setu-x-one-datasheet
-title: Indoor LoRaWAN Gateway Series
+title: Indoor Gateway
 sidebar_position: 2
 description: Setu X Series is a compact Indoor LoRaWAN® Gateway Series designed for enterprise IoT, smart buildings, Industry 4.0, and indoor wireless infrastructure deployments.
 keywords:
@@ -54,6 +54,7 @@ keywords:
   - indoor environmental monitoring gateway
   - indoor predictive maintenance gateway
   - industrial telemetry gateway
+  
 ---
 
 # Setu LX Series Indoor LoRaWAN® Gateway Datasheet
@@ -632,7 +633,6 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
     </tr>
   </thead>
   <tbody>
-
     <tr>
       <td>Setu LX1</td>
       <td>Wi-Fi</td>
@@ -640,7 +640,6 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
       <td>Compact Indoor LoRaWAN® gateway for smart offices, retail stores, indoor environmental monitoring, and enterprise IoT deployments using Wi-Fi backhaul.</td>
       <td>SLX1</td>
     </tr>
-
     <tr>
       <td>Setu LX2</td>
       <td>Cellular + Wi-Fi</td>
@@ -648,7 +647,6 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
       <td>Indoor Industrial IoT gateway with LTE and Wi-Fi connectivity for enterprise monitoring, remote telemetry, smart campuses, and commercial infrastructure.</td>
       <td>SLX2</td>
     </tr>
-
     <tr>
       <td>Setu LX3</td>
       <td>Cellular + Wi-Fi + Modbus TCP/IP</td>
@@ -656,7 +654,6 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
       <td>Advanced Industrial Indoor LoRaWAN® gateway with Modbus TCP/IP integration for Industry 4.0 automation, industrial telemetry, smart buildings, and edge automation systems.</td>
       <td>SLX3</td>
     </tr>
-
   </tbody>
 </table>
 

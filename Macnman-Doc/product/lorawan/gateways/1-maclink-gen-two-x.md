@@ -24,7 +24,7 @@ keywords:
   - industrial wireless gateway
   - smart agriculture lorawan gateway
   - water monitoring lorawan gateway
-  - outdoor industrial iot gateway
+  - outdoor industrial iot gatewaysS
   - lorawan gateway for utilities
   - industrial gateway for remote monitoring
   - secure lorawan network gateway
@@ -56,7 +56,6 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 | ![MacLink Gen-2 industrial outdoor LoRaWAN gateway front installation view](/img/lorawan/gateways/lorawan-outdoor-gateway-maclink-gen-two.webp) | ![MacLink Gen-2 outdoor LoRaWAN gateway industrial internal PCB and RF architecture](/img/lorawan/gateways/lorawan-maclink-gen-two-internal-pcb.webp) |
 |--------------------------------|--------------------------------|
 | ![MacLink Gen-2 outdoor LoRaWAN gateway pole mounting kit for industrial deployments](/img/lorawan/gateways/maclink-gen-two-pole-mounting-kit.webp) | ![MacLink Gen-2 IP67 outdoor LoRaWAN gateway sealed industrial connectivity ports](/img/lorawan/gateways/maclink-gen-two-sealed-ports.webp) |
-
 
 ---
 
