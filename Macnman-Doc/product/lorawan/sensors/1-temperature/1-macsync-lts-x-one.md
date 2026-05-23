@@ -227,7 +227,6 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 --- 
 
 ## Technical Specifications 
----
 
 <div class="device-config-section">
   <div class="device-config-title">Temperature Measurement</div>
