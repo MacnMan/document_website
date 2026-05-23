@@ -1,32 +1,38 @@
 ---
 id: maclink-gen-two
-title: MacLink Gen-2
+title: Industrial Outdoor LoRaWAN Gateway
 sidebar_position: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: MacLink Gen-2 is a rugged Industrial Outdoor LoRaWAN® Gateway with IP67 protection, 8-channel LoRaWAN® connectivity, LTE, Ethernet, Wi-Fi backhaul, and long-range Industrial IoT networking support.
 keywords:
+  - industrial outdoor lorawan gateway
+  - lorawan gateway ip67
   - industrial lorawan gateway
-  - outdoor lorawan gateway ip67
-  - smart city iot gateway
-  - lorawan 8 channel gateway
-  - lorawan base station for utilities
-  - long range wireless gateway
-  - lorawan backhaul ethernet lte wifi
-  - carrier grade lorawan network gateway
-  - remote iot connectivity solution
-  - smart water and energy iot gateway
+  - outdoor lorawan gateway
+  - 8 channel lorawan gateway
+  - industrial iot gateway
+  - lorawan gateway with ethernet
+  - lorawan gateway with 4g lte
+  - lorawan gateway with wifi
+  - smart city lorawan gateway
   - industrial automation lorawan gateway
-  - high capacity lorawan concentrator
-  - rooftop pole mount lorawan antenna gateway
-  - secure lorawan network access point
-  - solar powered lorawan gateway
-  - private lorawan network deployment
-  - lorawan network server compatible gateway
-  - high sensitivity lorawan rf gateway
-  - rugged outdoor iot infrastructure
-  - industry 4.0 wireless gateway
+  - private lorawan network gateway
+  - long range lorawan gateway
+  - carrier grade lorawan gateway
+  - utility monitoring lorawan gateway
+  - rooftop lorawan gateway
+  - pole mount lorawan gateway
+  - industrial wireless gateway
+  - smart agriculture lorawan gateway
+  - water monitoring lorawan gateway
+  - outdoor industrial iot gateway
+  - lorawan gateway for utilities
+  - industrial gateway for remote monitoring
+  - secure lorawan network gateway
+  - lorawan edge gateway
+  
 ---
 
-# MacLink Gen-2 Datasheet
+# MacLink Gen-2 Datasheet   
 
 ## Product Overview
 
@@ -42,7 +48,7 @@ Whether connecting thousands of sensors across water utilities, industrial plant
 |--------------------------------|--------------------------------|
 | ![Image 1](/img/lorawan/gateways/maclink-gen-two-pole-mounting-kit.webp) | ![Image 1](/img/lorawan/gateways/maclink-gen-two-sealed-ports.webp) |
 
-
+D
 <div class="faint-line"></div>
 
 ## Download Center
