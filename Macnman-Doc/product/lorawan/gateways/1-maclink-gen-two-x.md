@@ -65,7 +65,7 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 </h2>
 
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macset-lx2-industrial-lorawan-remote-io-controller-datasheet.pdf" 
+  <a href="/docs/downloads/maclink-gen-2-outdoor-lorawan-gateway-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -77,8 +77,8 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
   className="icon-card">
     <div className="icon">📝</div>
     <div>
-      <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSet LX1</p>
+      <strong>Software Codes</strong>
+      <p>Click here to view the decoders for MacLink Gen-2</p>
     </div>
   </a>
 </div>

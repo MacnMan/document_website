@@ -1,530 +1,708 @@
 ---
 id: setu-x-one-datasheet
-title: Setu X1
+title: Indoor LoRaWAN Gateway Series
 sidebar_position: 2
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: Setu X Series is a compact Indoor LoRaWAN® Gateway Series designed for enterprise IoT, smart buildings, Industry 4.0, and indoor wireless infrastructure deployments.
 keywords:
   - indoor lorawan gateway
-  - smart building iot gateway
-  - lorawan ethernet wifi gateway
-  - compact lorawan access point
+  - lorawan indoor gateway
+  - indoor industrial iot gateway
+  - smart building lorawan gateway
+  - indoor lorawan gateway with ethernet
+  - indoor lorawan gateway with wifi
+  - enterprise lorawan gateway
+  - compact lorawan gateway
   - private lorawan network gateway
-  - enterprise iot connectivity hub
-  - indoor wide area network gateway
-  - long range wireless indoor gateway
-  - secure lorawan network access point
-  - lorawan network server compatible gateway
-  - remote iot device management gateway
-  - energy efficient lorawan gateway
-  - industry 4.0 indoor automation gateway
-  - smart campus indoor iot backbone
-  - high sensitivity lorawan rf gateway
-  - multi backhaul lorawan gateway
-  - indoor positioning and asset tracking gateway
-  - scalable indoor iot infrastructure
+  - industry 4.0 indoor gateway
+  - indoor wireless iot gateway
+  - indoor smart campus gateway
+  - indoor asset tracking gateway
+  - indoor environmental monitoring gateway
+  - indoor industrial automation gateway
+  - lorawan gateway for offices
+  - lorawan gateway for hospitals
+  - indoor gateway for smart buildings
+  - indoor telemetry gateway
+  - indoor long range wireless gateway
+  - indoor lorawan gateway india
+  - lorawan gateway for smart offices
+  - industrial indoor lorawan gateway
+  - indoor gateway for industry 4.0
+  - lorawan gateway for factories
+  - enterprise indoor wireless gateway
+  - lorawan gateway for warehouses
+  - indoor gateway with lte backup
+  - indoor gateway with poe
+  - compact industrial gateway
+  - indoor iot edge gateway
+  - smart office lorawan gateway
+  - indoor gateway for energy monitoring
+  - indoor gateway for occupancy monitoring
+  - lorawan gateway for hospitals and healthcare
+  - indoor telemetry and monitoring gateway
+  - long range indoor wireless gateway
+  - indoor gateway with node-red
+  - chirpstack indoor gateway
+  - mqtt compatible lorawan gateway
+  - edge automation lorawan gateway
+  - commercial building lorawan gateway
+  - indoor wireless automation gateway
+  - scalable indoor lorawan infrastructure
+  - enterprise iot connectivity gateway
+  - indoor sensor network gateway
+  - smart campus lorawan infrastructure
+  - indoor environmental monitoring gateway
+  - indoor predictive maintenance gateway
+  - industrial telemetry gateway
 ---
 
-# Setu X1 Datasheet
+# Setu LX Series Indoor LoRaWAN® Gateway Datasheet
 
-## Product Overview
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
 
-Setu X1 is a compact and enterprise‑grade **Indoor LoRaWAN® Gateway**, engineered to deliver reliable long‑range wireless connectivity inside smart buildings, commercial spaces, and industrial environments. Designed with a high‑sensitivity LoRaWAN® concentrator and optimized RF performance, Setu X1 enables seamless communication with thousands of IoT devices deployed across large indoor areas.
+Setu LX Series is a compact and enterprise-grade **Indoor LoRaWAN® Gateway Series** engineered for reliable long-range wireless communication, smart building connectivity, and enterprise Industrial IoT deployments. Designed with high-sensitivity LoRaWAN® concentrator architecture, optimized RF performance, and flexible backhaul connectivity, the Setu LX Series enables seamless indoor LoRaWAN® coverage across offices, hospitals, commercial buildings, smart campuses, warehouses, hotels, retail infrastructure, and Industry 4.0 environments.
 
-With **Ethernet and Wi‑Fi backhaul** options, the gateway acts as a secure bridge between indoor LoRaWAN® sensors and private or cloud‑hosted network servers. Its fanless low‑power architecture, silent operation, and simple wall/ceiling installation make it the perfect fit for offices, hospitals, data centers, hotels, retail, and manufacturing floors.
+The Indoor LoRaWAN® Gateway Series supports Ethernet, Wi‑Fi, and optional cellular backhaul connectivity, enabling secure communication between LoRaWAN® sensors, controllers, smart meters, asset tracking systems, and cloud or private network servers. The fanless low-power architecture ensures silent operation and reliable deployment inside enterprise and commercial environments.
 
-Setu X1 supports **AES‑128 encrypted communication**, **remote OTA firmware updates**, and centralized fleet management via MacCloud or popular LNS platforms such as ChirpStack, TTN, Orbiwise, Loriot, and more — ensuring scalable and resilient network performance.
+Setu LX Series gateways support AES‑128 LoRaWAN® encrypted communication, remote OTA firmware management, centralized device monitoring, and compatibility with major LoRaWAN® Network Servers including ChirpStack, The Things Network (TTN), MQTT, LORIOT, Orbiwise, and private Industrial IoT infrastructures.
 
-Whether enabling energy monitoring, asset tracking, indoor environmental sensing or Industry 4.0 automation — **Setu X1 establishes a secure, scalable, and future‑proof LoRaWAN® network backbone** for enterprise IoT transformation.
+The Indoor LoRaWAN® Gateway Series is optimized for smart building automation, energy monitoring, environmental sensing, predictive maintenance, asset tracking, industrial telemetry, occupancy analytics, and enterprise-wide wireless IoT deployments.
 
-| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
+Whether deployed inside offices, hospitals, industrial facilities, educational campuses, warehouses, or smart commercial infrastructure — Setu LX Series delivers scalable, secure, and enterprise-ready Indoor LoRaWAN® connectivity for next-generation IoT deployments.
+
+
+| ![Setu LX Series indoor LoRaWAN gateway wall and ceiling installation view](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Setu LX Series indoor LoRaWAN gateway side profile view](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-front-view.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-dimensions-drawing.webp) |
+| ![Setu LX Series indoor LoRaWAN gateway front view for enterprise IoT deployments](/img/lorawan/gateways/setu-lorawan-indoor-gateway-front-view.webp) | ![Setu LX Series indoor LoRaWAN gateway dimensions and installation drawing](/img/lorawan/gateways/setu-lorawan-indoor-gateway-dimensions-drawing.webp) |
 
+---
 
-<div class="faint-line"></div>
-
-## Download Center
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+<a href="/docs/downloads/setu-lx-series-indoor-lorawan-gateway-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
   className="icon-card">
     <div className="icon">📝</div>
     <div>
-      <strong>Firmware/SDK</strong>
-      <p>Click here to view the decoders for Setu X1</p>
+      <strong>Software Codes</strong>
+      <p>Click here to view the software resources for Setu LX Series</p>
     </div>
   </a>
 </div>
 
-<div class="faint-line"></div>
+---
 
-## Key Features
+<h2 className="device-section-title">
+  ## Key Features
+</h2>
 
 <div className="reusable-feature-grid">
+
 <div className="reusable-feature-card">
-  <strong>Compact Indoor LoRaWAN® Gateway</strong>
-  Sleek design optimized for indoor deployments in smart buildings, retail, hospitality and enterprise environments.
+  <strong>Enterprise Indoor LoRaWAN® Gateway</strong>
+  Compact enterprise-grade Indoor LoRaWAN® Gateway designed for smart buildings, offices, hospitals, warehouses, commercial infrastructure, and Industry 4.0 deployments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>High-Capacity LoRaWAN® Concentrator</strong>
-  Supports thousands of end-devices with strong RF performance and extended indoor coverage.
+  <strong>High-Capacity 8-Channel LoRaWAN® Gateway</strong>
+  Supports thousands of LoRaWAN® sensors, smart meters, controllers, and Industrial IoT devices with reliable long-range indoor wireless coverage.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Multi Backhaul Connectivity</strong>
-  Ethernet + Wi-Fi options for simple installation and reliable network access without additional cabling.
+  <strong>Optimized Indoor RF Performance</strong>
+  High-sensitivity LoRaWAN® concentrator architecture engineered for reliable indoor communication across multi-floor buildings, warehouses, campuses, and commercial spaces.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Ethernet, Wi‑Fi & LTE Connectivity</strong>
+  Supports Ethernet, Wi‑Fi, and optional LTE backhaul connectivity for uninterrupted enterprise IoT communication and flexible indoor deployment.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial Edge Intelligence</strong>
+  Supports edge automation, local processing, Node‑RED integration, MQTT communication, and industrial telemetry infrastructure.
 </div>
 
 <div className="reusable-feature-card">
   <strong>Enterprise-Grade Security</strong>
-  AES-128 network encryption with TLS-secured backhaul for protected data transmission.
+  AES‑128 LoRaWAN® encryption with TLS-secured backhaul connectivity ensures secure Industrial IoT and enterprise wireless communication.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Edge Processing & OTA Management</strong>
-  Supports remote configuration, diagnostics and firmware updates via MacCloud and major LoRaWAN® network servers.
+  <strong>Remote OTA Firmware Management</strong>
+  Enables centralized remote diagnostics, firmware upgrades, configuration management, and enterprise gateway monitoring.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Fanless, Silent Operation</strong>
-  Low heat and noise profile ensures seamless installation in commercial and indoor environments.
+  <strong>Silent Fanless Architecture</strong>
+  Fanless low-power thermal design ensures silent operation for offices, hospitals, educational campuses, and indoor commercial environments.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Universal Network Server Compatibility</strong>
-  Works with Chirpstack, TTN, Loriot, Orbiwise, private networks and MQTT infrastructure.
+  <strong>Supports Major LoRaWAN® Network Servers</strong>
+  Compatible with ChirpStack, The Things Network (TTN), MQTT, LORIOT, Orbiwise, and private LoRaWAN® network infrastructures.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Simple Wall & Ceiling Mounting</strong>
-  Flexible mounting options for easy deployment in enterprise infrastructure.
+  <strong>Smart Building & Industry 4.0 Ready</strong>
+  Designed for energy monitoring, occupancy analytics, predictive maintenance, environmental monitoring, and enterprise automation systems.
 </div>
-</div>
-<div class="faint-line"></div>
 
-## Suited Applications
+<div className="reusable-feature-card">
+  <strong>Flexible Wall & Ceiling Mount Installation</strong>
+  Compact enclosure supports fast wall-mounted and ceiling-mounted installation inside enterprise and commercial infrastructure.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Scalable Enterprise IoT Infrastructure</strong>
+  Enables scalable Indoor LoRaWAN® network expansion for commercial buildings, industrial facilities, smart campuses, and smart city infrastructure.
+</div>
+
+</div>
+
+---
+
+<h2 className="device-section-title">
+  ## Suited Applications
+</h2>
 
 <div className="reusable-feature-grid">
-<div className="reusable-feature-card">
-  <strong>Smart Buildings & Offices</strong>
-  Indoor LoRaWAN® connectivity hub for BMS automation, energy management and workplace monitoring.
-</div>
 
 <div className="reusable-feature-card">
-  <strong>Hospitals & Healthcare Facilities</strong>
-  Reliable gateway for indoor asset tracking, patient safety systems and environmental compliance.
+  <strong>Smart Buildings & Enterprise Offices</strong>
+  Enables Indoor LoRaWAN® connectivity for smart office automation, BMS systems, occupancy monitoring, HVAC optimization, lighting automation, and workplace analytics.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Retail & Shopping Centers</strong>
-  Supports people counting, occupancy analytics and warehouse-to-store supply chain tracking.
+  <strong>Hospitals & Healthcare Infrastructure</strong>
+  Supports patient safety systems, cold-chain monitoring, indoor asset tracking, air quality monitoring, pharmaceutical storage monitoring, and healthcare IoT infrastructure.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Hotels & Hospitality Spaces</strong>
-  Enables smart room controls, environmental sensors and maintenance alerts for enhanced guest experience.
+  <strong>Industry 4.0 & Industrial Automation</strong>
+  Connects predictive maintenance sensors, industrial telemetry systems, machine monitoring infrastructure, industrial environmental sensors, and factory automation systems.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Smart Campuses & Education</strong>
-  Wide indoor-area gateway for security, environment sensing and resource optimization in institutions.
+  <strong>Warehouses & Smart Logistics</strong>
+  Ideal for warehouse automation, inventory monitoring, indoor asset tracking, pallet monitoring, RFID infrastructure extension, and logistics analytics.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Industry 4.0 & Factory Floors</strong>
-  Connects predictive maintenance sensors and equipment monitoring systems across industrial interiors.
+  <strong>Retail Stores & Shopping Malls</strong>
+  Enables people counting, occupancy analytics, indoor environmental monitoring, smart retail automation, and energy management systems.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Data Centers & Server Rooms</strong>
-  Ideal for temperature, humidity and access monitoring in controlled indoor areas.
+  <strong>Hotels & Hospitality Automation</strong>
+  Supports smart room automation, guest comfort monitoring, energy optimization, indoor environmental sensing, and hospitality infrastructure management.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Warehouses & Inventory Areas</strong>
-  Backbone for indoor logistics, RFID extensions and smart storage infrastructure.
+  <strong>Educational Campuses & Smart Institutions</strong>
+  Provides enterprise-wide Indoor LoRaWAN® infrastructure for classrooms, laboratories, libraries, hostels, environmental monitoring, and campus automation systems.
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Public Venues & Indoor Infrastructure</strong>
-  Reliable LoRaWAN® coverage for airports, metros and community facilities.
-</div>
-</div>
-
-<div class="faint-line"></div>
-
-## Technical Specification
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    General <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value">Setu X1</p>
-    <br />
-    <p className="label">Product Brand</p>
-    <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
+  <strong>Commercial Buildings & Facility Management</strong>
+  Enables centralized monitoring of electrical systems, occupancy analytics, indoor air quality, maintenance alerts, and smart commercial building operations.
 </div>
 
-<div class="faint-line"></div>
-
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    System Hardware <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-<p className="label">Processor Type</p>
-<p className="value">ARM Cortex Processor</p>
-<br />
-<p className="label">Number of Cores</p>
-<p className="value">Duel Core</p>
-<br />
-<p className="label">Clock Speed</p>
-<p className="value">960 MHz per Core</p>
-<br />
-<p className="label">Memory Size</p>
-<p className="value">256 MB RAM</p>
-<br />
-<p className="label">Memory Speed</p>
-<p className="value">Up to 1066 MHz</p>
-<br />
-<p className="label">Internal Storage</p>
-<p className="value">4 GB eMMC</p>
-<br />
-<p className="label">USB Port</p>
-<p className="value">Debug Interface (Bottom of Enclosure)</p>
-<br />
-<p className="label">Connector Type</p>
-<p className="value">USB Type‑C</p>
-<br />
-<p className="label">Interface Protection (External*)</p>
-<p className="value">Surge Protection Enabled</p>
-  </div>
+<div className="reusable-feature-card">
+  <strong>Indoor Environmental Monitoring</strong>
+  Supports temperature, humidity, CO₂, IAQ, leak detection, smoke monitoring, and indoor climate sensing across enterprise facilities.
 </div>
 
-<div class="faint-line"></div>
+<div className="reusable-feature-card">
+  <strong>Energy Monitoring & Sustainability Systems</strong>
+  Connects smart meters, power monitoring devices, solar energy systems, utility sensors, and enterprise sustainability monitoring infrastructure.
+</div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    LoRaWAN <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Compatibility</p>
-    <p className="value">LoRaWAN® Class A / B / C</p>
-    <br />
-    <p className="label">Frequency Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923‑1/2/3/4</p>
-    <br />
-    <p className="label">LoRa Demodulators</p>
-    <p className="value">8 × 8 LoRa Packet Detectors</p>
-    <br />
-    <p className="label">Demodulation Paths</p>
-    <p className="value">Up to 10 Parallel Paths</p>
-    <br />
-    <p className="label">Uplink Channels</p>
-    <p className="value">8 Channels</p>
-    <br />
-    <p className="label">Downlink Channel</p>
-    <p className="value">1 Channel</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">Up to 27 dBm @ SF12, BW 125 kHz</p>
-    <br />
-    <p className="label">Rx Sensitivity</p>
-    <p className="value">Down to ‑139 dBm @ SF12, BW 125 kHz</p>
-    <br />
-    <p className="label">Data‑Rate</p>
-    <p className="value">Adaptive Data‑Rate (ADR)</p>
+<div className="reusable-feature-card">
+  <strong>Indoor Asset Tracking & Telemetry</strong>
+  Supports LoRaWAN® asset tracking tags, telemetry infrastructure, equipment monitoring, and enterprise mobility analytics across indoor facilities.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Data Centers & Server Room Monitoring</strong>
+  Ideal for temperature monitoring, humidity sensing, leak detection, power infrastructure monitoring, and mission-critical environmental monitoring systems.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Airports, Metro Stations & Public Infrastructure</strong>
+  Enables scalable Indoor LoRaWAN® coverage for public infrastructure monitoring, occupancy analytics, environmental sensing, and smart transportation systems.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Private Enterprise LoRaWAN® Networks</strong>
+  Builds secure private Indoor LoRaWAN® infrastructure for enterprise IoT deployments, industrial facilities, commercial infrastructure, and smart campuses.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Node‑RED & Edge Automation Deployments</strong>
+  Supports local automation workflows, MQTT telemetry, edge intelligence, industrial protocol integration, and enterprise edge processing applications.
+</div>
+
+</div>
+
+---
+
+
+<h2 className="device-section-title">
+  ## Technical Specifications
+</h2>
+
+<div class="device-config-section">
+  <div class="device-config-title">System Hardware Specifications</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Type</div>
+      <div class="device-config-right">ARM Cortex-A7</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Number of Cores</div>
+      <div class="device-config-right">Quad Core</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Clock</div>
+      <div class="device-config-right">960 MHz per Core</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Memory Size</div>
+      <div class="device-config-right">512 MB</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Memory Speed</div>
+      <div class="device-config-right">1066 MHz Max</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Internal Memory</div>
+      <div class="device-config-right">8 GB eMMC</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">USB</div>
+      <div class="device-config-right">Device for Debug, on Bottom of the Enclosure</div>
+    </div>
+
   </div>
 </div>
 
+---
+<div class="device-config-section">
+  <div class="device-config-title">LoRaWAN Specifications</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Compatibility</div>
+      <div class="device-config-right">LoRaWAN® Class A / B / C</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Frequency</div>
+      <div class="device-config-right">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</div>
+    </div>
 
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LoRa Demodulators</div>
+      <div class="device-config-right">8-Channel LoRa Packet Detectors</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Backhual  <br /> Ethernet
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Number of Ports</p>
-    <p className="value">x 1</p>
-    <br />
-    <p className="label">Type</p>
-    <p className="value">1 x 10/100M</p>
-    <br />
-  </div>
-</div>
+    <div class="device-config-row">
+      <div class="device-config-left">Uplink Channels</div>
+      <div class="device-config-right">8</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Downlink Channel</div>
+      <div class="device-config-right">1</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Backhual <br /> WiFi
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Bands</p>
-    <p className="value">2.4 GHz ISM Band</p>
-    <br />
-    <p className="label">Standards</p>
-    <p className="value">IEEE 802.11 b/g/n, 802.3, 802.3u, 802.11e-compatible bursting</p>
-    <br />
-    <p className="label">Modulation Schemes</p>
-    <p className="value">BPSK, QPSK, 16 QAM, 64 QAM</p>
-    <br />
-    <p className="label">Security</p>
-    <p className="value">WEP, TKIP, AES, WPA, WPA2</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal Antenna Integrated in Enclosure</p>
-  </div>
-</div>
+    <div class="device-config-row">
+      <div class="device-config-left">TX Power</div>
+      <div class="device-config-right">Up to 27 dBm @ SF12, BW 125 kHz</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">RX Sensitivity</div>
+      <div class="device-config-right">Down to -139 dBm @ SF12, BW 125 kHz</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Backhual <br /> Cellular Lte*
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Cellular Bands</p>
-    <p className="value">B1 / B3 / B5 / B7 / B8 / B20 / B28</p>
-    <br />
-    <p className="label">Standards</p>
-    <p className="value">3GPP LTE, IEEE 802.3, IEEE 802.3u, 802.11e-compatible bursting</p>
-    <br />
-    <p className="label">Modulation Schemes</p>
-    <p className="value">BPSK, QPSK, 16‑QAM, 64‑QAM</p>
-    <br />
-    <p className="label">Security</p>
-    <p className="value">WEP, TKIP, AES, WPA, WPA2</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal Antenna Integrated in Enclosure</p>
+    <div class="device-config-row">
+      <div class="device-config-left">Data-Rate</div>
+      <div class="device-config-right">Dynamic Data-Rate Adaptation (ADR)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Antenna Connector</div>
+      <div class="device-config-right">N-Type Female</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Inbuilt LNS</div>
+      <div class="device-config-right">ChirpStack Server</div>
+    </div>
+
   </div>
 </div>
 
+---
 
-<div class="faint-line"></div>
+<div class="device-config-section">
+  <div class="device-config-title">Ethernet Backhaul</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations Through TCP/IP</p>
-    <br />  
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Number</div>
+      <div class="device-config-right">1 (PoE)</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">Type</div>
+      <div class="device-config-right">1 × 10/100 Mbps Ethernet</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Physical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Supply</p>
-    <p className="value">9-36 V PoE</p>
-    <br />
-    <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
-    <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
-    <br />
-    <p className="label">Ingress Protection</p>
-    <p className="value">IP35</p>    
-    <br />
-    <p className="label">Housing Material</p>
-    <p className="value">Aluminium</p>    
-    <br />
-    <p className="label">Color</p>
-    <p className="value">Matte White</p>    
-    <br />
-    <p className="label">Weight</p>
-    <p className="value">~410g</p>    
-    <br />
-    <p className="label">Mounting Options(Brackets)</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
-    <br />
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
+<div class="device-config-section">
+  <div class="device-config-title">Backhaul Wi-Fi</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Input</p>
-    <p className="value">PoE IEEE 802.3af / 802.3at or 12–24 V DC</p>
-    <br />
-    <p className="label">Power Consumption (Typical)</p>
-    <p className="value">4.5 W (with Ethernet Backhaul)</p>
-    <br />
-    <p className="label">Power Consumption (Peak)</p>
-    <p className="value">Up to 7 W (with LTE & Wi‑Fi Active)</p>
-    <br />
-    <p className="label">Lightning / Surge Protection</p>
-    <p className="value">Integrated surge protection on power & RF ports</p>
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Bands</div>
+      <div class="device-config-right">2.4 GHz ISM</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">Standards</div>
+      <div class="device-config-right">802.11 b/g/n, 802.3, 802.3u, 802.11e-compatible bursting</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Certifications & <br /> Compliance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">WPC</p>
-    <p className="value">Compliant</p>
-    <br />
-    <p className="label">RoHS</p>
-    <p className="value">Conforms to RoHS directive</p>
-    <br />
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Modulation Schemes</div>
+      <div class="device-config-right">BPSK, QPSK, 16 QAM, 64 QAM</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Security</div>
+      <div class="device-config-right">WEP, TKIP, and AES, WPA, WPA2</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Antenna</div>
+      <div class="device-config-right">Inbuilt Inside the Enclosure</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
+<div class="device-config-section">
+  <div class="device-config-title">Cellular Backhaul</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Security & <br /> Encryption
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Cellular Bands</div>
+      <div class="device-config-right">B1/3/5/7/8/20/28</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">GPRS Class</div>
+      <div class="device-config-right">Multi-Slot Class 12/10</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">SIM Card</div>
+      <div class="device-config-right">2 × Nano SIM</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Antenna</div>
+      <div class="device-config-right">Inbuilt Inside the Enclosure</div>
+    </div>
+
   </div>
-  <div className="spec-block-details">
-    <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
-    <br />
-    <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes (Nodes)</p>
-    <br />
-    <p className="label">Firmware Protection</p>
-    <p className="value">Secure boot and signed OTA updates </p>
-    <br />
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Supported LNS</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Supports Major LNS</div>
+      <div class="device-config-right">Private LNS, ChirpStack, The Things Network (TTN), MQTT, Orbiwise, LORIOT, Direct PLC On-Prem Installations Through TCP/IP</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Software & Network Services</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Operating System</div>
+      <div class="device-config-right">OpenWRT Linux</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Forwarder</div>
+      <div class="device-config-right">UDP Forwarder</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Forward Options</div>
+      <div class="device-config-right">ChirpStack MQTT Forwarder</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">LNS</div>
+      <div class="device-config-right">ChirpStack Server</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Automation Engine</div>
+      <div class="device-config-right">Node-RED with ChirpStack Support</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Physical Characteristics</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Power Supply</div>
+      <div class="device-config-right">PoE IEEE 802.3af / 12–24 V DC</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">-40°C to +80°C</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Humidity Range</div>
+      <div class="device-config-right">0% to 100% RH (non-condensing)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Ingress Protection</div>
+      <div class="device-config-right">IP67</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Housing Material</div>
+      <div class="device-config-right">Industrial-Grade ABS Enclosure</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Color</div>
+      <div class="device-config-right">Matte White</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Weight</div>
+      <div class="device-config-right">~410 g</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Mounting Options</div>
+      <div class="device-config-right">Pole Mounting / Wall Mounting</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Electrical Characteristics</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Power Input</div>
+      <div class="device-config-right">PoE IEEE 802.3af / 802.3at or 12–24 V DC</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption (Typical)</div>
+      <div class="device-config-right">4.5 W (with Ethernet Backhaul)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Power Consumption (Peak)</div>
+      <div class="device-config-right">Up to 7 W (with LTE & Wi-Fi Active)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Lightning / Surge Protection</div>
+      <div class="device-config-right">Integrated surge protection on power & RF ports</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Certifications & Compliance</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">WPC</div>
+      <div class="device-config-right">Compliant</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">RoHS</div>
+      <div class="device-config-right">Conforms to RoHS Directive</div>
+    </div>
+
   </div>
 </div>
 
 
-##  Setu X1 Variants
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Security & Encryption</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Encryption</div>
+      <div class="device-config-right">AES-128 LoRaWAN® Encryption with TLS Secure Backhaul</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Authentication</div>
+      <div class="device-config-right">OTAA & Secure Gateway Authentication</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Firmware Protection</div>
+      <div class="device-config-right">Secure Boot and Signed OTA Updates</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<h2 className="device-section-title">
+  ## Setu LX Series Variants
+</h2>
+
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>Power Source</th>
-      <th>Wifi</th>
-      <th>Ethernet</th>
-      <th>Cellular</th>
+      <th>Connectivity</th>
+      <th>Power Interface</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
+
     <tr>
-      <td>Setu X1</td>
-      <td>12–24 V (Power)</td>
-      <td>✔️</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>Ideal for small indoor networks with stable Wi-Fi backhaul such as offices, retail stores and hospitality environments.</td>
+      <td>Setu LX1</td>
+      <td>Wi-Fi</td>
+      <td>USB Type-C</td>
+      <td>Compact Indoor LoRaWAN® gateway for smart offices, retail stores, indoor environmental monitoring, and enterprise IoT deployments using Wi-Fi backhaul.</td>
+      <td>SLX1</td>
     </tr>
+
     <tr>
-      <td>Setu X2</td>
-      <td>12–24 V (Power)</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>✖️</td>
-      <td>Best for enterprise networks requiring reliable wired Ethernet connectivity and expanded indoor coverage in commercial buildings.</td>
+      <td>Setu LX2</td>
+      <td>Cellular + Wi-Fi</td>
+      <td>USB Type-C</td>
+      <td>Indoor Industrial IoT gateway with LTE and Wi-Fi connectivity for enterprise monitoring, remote telemetry, smart campuses, and commercial infrastructure.</td>
+      <td>SLX2</td>
     </tr>
+
     <tr>
-      <td>Setu X3</td>
-      <td>12–24 V (Power)</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>✔️</td>
-      <td>Designed for mission‑critical deployments where Ethernet, Wi‑Fi and LTE failover ensure uninterrupted connectivity in industrial and multi‑site facilities.</td>
+      <td>Setu LX3</td>
+      <td>Cellular + Wi-Fi + Modbus TCP/IP</td>
+      <td>USB Type-C</td>
+      <td>Advanced Industrial Indoor LoRaWAN® gateway with Modbus TCP/IP integration for Industry 4.0 automation, industrial telemetry, smart buildings, and edge automation systems.</td>
+      <td>SLX3</td>
     </tr>
+
   </tbody>
 </table>
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
+---
 
--->
+<h2 className="device-section-title">
+  ## What's in the Box?
+</h2>
 
-## What's in the box ?
 
-Make sure box contains following items before installations
+The **Setu LX Series Indoor LoRaWAN® Gateway** package is designed for fast enterprise deployment, smart building integration, and indoor Industrial IoT installations. Before installation, verify that all gateway components and mounting accessories are available inside the package.
 
-![title image](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-boxs.svg)
+The standard package contents include:
+
+- Setu LX Series Indoor LoRaWAN® Gateway
+- USB Type‑C Power Cable
+- Wall Mount Installation Kit
+- Ceiling Mount Accessories
+- Quick Installation Guide
+- Product Warranty Card
+- LTE Antenna \* (For LTE Variants)
+- LTE Antenna Pair \* (For LTE Variants)
+
+The included installation accessories simplify wall-mounted and ceiling-mounted deployment inside offices, hospitals, educational campuses, warehouses, smart buildings, commercial infrastructure, and Industry 4.0 environments.
+
+Ensure all accessories and gateway components are inspected before powering the device or starting enterprise IoT deployment.
+
+![Setu LX Series indoor LoRaWAN gateway package contents and installation accessories](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-boxs.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Optional accessories including LTE antennas, Ethernet cables, PoE accessories, and industrial mounting hardware may need to be purchased separately depending on deployment requirements and selected gateway variants.
 
 :::
 
-## Product Dimensions
+---
 
-![title image](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-dimensions.svg)
+<h2 className="device-section-title">
+  ## Setu LX Series Gateway Dimensions
+</h2>
+
+The **Setu LX Series Indoor LoRaWAN® Gateway** features a compact enterprise-grade enclosure engineered for smart buildings, indoor Industrial IoT deployments, offices, hospitals, commercial infrastructure, and Industry 4.0 automation systems.
+
+- **98 mm × 98 mm × 34 mm** (Without Antenna)
+
+The low-profile industrial enclosure enables clean wall-mounted and ceiling-mounted installation while maintaining reliable indoor wireless communication and optimized RF performance.
+
+![Setu LX Series indoor LoRaWAN gateway dimensions and mounting layout](/img/controller/setu-lx-series-indoor-lorawan-gateway-dimensions-installation-drawing.webp)
 
