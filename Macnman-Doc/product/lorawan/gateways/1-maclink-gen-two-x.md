@@ -1,6 +1,6 @@
 ---
 id: maclink-gen-two
-title: Industrial Outdoor LoRaWAN Gateway
+title: Outdoor Gateway
 sidebar_position: 1
 description: MacLink Gen-2 is a rugged Industrial Outdoor LoRaWAN® Gateway with IP67 protection, 8-channel LoRaWAN® connectivity, LTE, Ethernet, Wi-Fi backhaul, and long-range Industrial IoT networking support.
 keywords:
@@ -32,35 +32,45 @@ keywords:
   
 ---
 
-# MacLink Gen-2 Datasheet   
+# MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway Datasheet
 
-## Product Overview
+<h2 className="device-section-title">
+  ## Product Overview
+</h2>
 
-MacLink Gen-2 is a carrier-grade industrial outdoor LoRaWAN® gateway engineered for ultra-long-range connectivity, high network capacity, and mission-critical performance in harsh environments. Built with a high-sensitivity 8-channel LoRaWAN® concentrator, edge-intelligent packet filtering, and rugged IP67 housing, it establishes a reliable wireless infrastructure for large-scale Smart Cities, Utilities, Industrial Automation, Agriculture, and Environmental Monitoring deployments.
+MacLink Gen-2 is a high-performance **Industrial Outdoor LoRaWAN® Gateway** engineered for long-range wireless communication, carrier-grade Industrial IoT connectivity, and large-scale outdoor LoRaWAN® network deployments. Designed with an industrial IP67 weatherproof enclosure, high-sensitivity 8-channel LoRaWAN® concentrator, and multi-backhaul connectivity architecture, the gateway delivers reliable long-range communication for Smart Cities, Utilities, Industrial Automation, Agriculture, Water Infrastructure, Energy Monitoring, and Environmental IoT applications.
 
-With 4G/LTE + Ethernet + Wi-Fi backhaul, built-in GPS for gateway positioning, surge-protected RF front-end, and advanced interference immunity, MacLink Gen-2 ensures uninterrupted operation in extreme weather, remote locations, and RF-challenging sites.
+Built for harsh outdoor operating environments, the MacLink Gen-2 Outdoor LoRaWAN® Gateway supports Ethernet, dual 4G/LTE connectivity, Wi-Fi backhaul, and integrated GPS positioning to ensure stable and uninterrupted communication even in remote industrial sites, utility infrastructure, rooftop installations, pole-mounted deployments, and RF-challenging environments.
 
-Multi-layer AES-128 + TLS secured communication, remote OTA firmware upgrades, and centralized management via Macnman’s MacCloud (or any LoRaWAN® Network Server) deliver a flexible and future-proof IoT network backbone. Optional solar-power support and edge buffering guarantee zero data loss and smooth connectivity even during network outages.
+The industrial outdoor LoRaWAN® gateway features advanced RF filtering, adaptive packet forwarding, intelligent edge buffering, surge-protected RF interfaces, and industrial-grade thermal design for maximum uptime and reliable Industrial IoT network performance.
 
-Whether connecting thousands of sensors across water utilities, industrial plants, street-lighting networks, smart campuses, or wildlife monitoring systems — MacLink Gen-2 provides a powerful, scalable, and secure LoRaWAN® access point that bridges remote field assets to the cloud, enabling true Industry 4.0 and Smart City growth.
+With support for thousands of LoRaWAN® end devices, the gateway enables scalable deployment of smart meters, industrial sensors, water monitoring systems, pump automation controllers, environmental monitoring stations, smart street lighting systems, agriculture sensors, wildlife tracking devices, and remote telemetry infrastructure.
 
-| ![Image 1](/img/lorawan/gateways/lorawan-outdoor-gateway-maclink-gen-two.webp) | ![Image 1](/img/lorawan/gateways/lorawan-maclink-gen-two-internal-pcb.webp) |
+MacLink Gen-2 supports secure AES-128 encrypted LoRaWAN® communication, TLS-based cloud connectivity, OTA firmware upgrades, and centralized remote gateway management through **ChirpStack, The Things Network (TTN), LORIOT, MQTT, and private LoRaWAN® network servers.**
+
+The gateway is optimized for Industrial IoT applications requiring reliable outdoor wireless infrastructure including utility monitoring systems, process automation plants, solar farms, smart campuses, telecom infrastructure, transportation systems, mining operations, oil & gas facilities, remote monitoring stations, and smart city deployments.
+
+Whether deployed for industrial automation, water infrastructure monitoring, smart utility networks, or large-scale outdoor IoT coverage, the MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway delivers secure, scalable, and long-range wireless connectivity for next-generation Industry 4.0 and Smart City ecosystems.
+
+
+| ![MacLink Gen-2 industrial outdoor LoRaWAN gateway front installation view](/img/lorawan/gateways/lorawan-outdoor-gateway-maclink-gen-two.webp) | ![MacLink Gen-2 outdoor LoRaWAN gateway industrial internal PCB and RF architecture](/img/lorawan/gateways/lorawan-maclink-gen-two-internal-pcb.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/maclink-gen-two-pole-mounting-kit.webp) | ![Image 1](/img/lorawan/gateways/maclink-gen-two-sealed-ports.webp) |
+| ![MacLink Gen-2 outdoor LoRaWAN gateway pole mounting kit for industrial deployments](/img/lorawan/gateways/maclink-gen-two-pole-mounting-kit.webp) | ![MacLink Gen-2 IP67 outdoor LoRaWAN gateway sealed industrial connectivity ports](/img/lorawan/gateways/maclink-gen-two-sealed-ports.webp) |
 
-D
-<div class="faint-line"></div>
 
-## Download Center
+---
+
+<h2 className="device-section-title">
+  ## Download Center
+</h2>
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macset-lx2-industrial-lorawan-remote-io-controller-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -68,465 +78,621 @@ D
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacLink Gen-2</p>
+      <p>Click here to view the decoders for MacSet LX1</p>
     </div>
   </a>
 </div>
 
-<div class="faint-line"></div>
+---
 
-## Key Features
+<h2 className="device-section-title">
+  ## Key Features
+</h2>
 
-<div className="reusable-feature-grid">
-<div className="reusable-feature-card">
-  <strong>Industrial Outdoor Gateway</strong>
-  Rugged IP67 enclosure with lightning protection designed for extreme weather conditions.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>8‑Channel High‑Capacity LoRaWAN®</strong>
-  Supports thousands of end‑devices with long‑range, high‑sensitivity RF performance.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Multi‑Backhaul Connectivity</strong>
-  Ethernet + 2 X 4G/LTE + Wi‑Fi options for reliable network redundancy and flexible deployment.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Secure Encryption & Authentication</strong>
-  AES‑128 & TLS secured communication for carrier‑grade data protection.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>GPS for Gateway Positioning</strong>
-  Built‑in GPS for network server placement, geofencing & triangulation.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Edge Intelligence</strong>
-  Adaptive packet filtering & buffering to prevent data loss during backhaul outages.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>OTA Firmware & Configuration</strong>
-  Fully remote updates & management via MacCloud and popular LNS platforms.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Flexible Power Options</strong>
-  Supports PoE and DC input with optional solar integration for remote sites.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>Smart City Ready</strong>
-  Ideal for street lighting, utilities, water networks & environmental monitoring.
-</div>
-
-<div className="reusable-feature-card">
-  <strong>All‑Network Server Compatibility</strong>
-  Works with Chirpstack, TTN, Loriot, Orbiwise, Actility & private LoRaWAN® servers.
-</div>
-</div>
-<div class="faint-line"></div>
-
-## Suited Applications
 
 <div className="reusable-feature-grid">
+
+<div className="reusable-feature-card">
+  <strong>Industrial Outdoor LoRaWAN® Gateway</strong>
+  Rugged IP67 Industrial Outdoor LoRaWAN® Gateway designed for Smart Cities, industrial automation, utility infrastructure, remote monitoring, and large-scale Industrial IoT deployments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>8-Channel High-Capacity LoRaWAN® Concentrator</strong>
+  High-performance 8-channel LoRaWAN® gateway architecture supporting thousands of LoRaWAN® sensors, controllers, meters, and Industrial IoT edge devices.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Long-Range Industrial Wireless Coverage</strong>
+  Delivers ultra-long-range LoRaWAN® connectivity for industrial facilities, smart agriculture systems, water infrastructure, mining sites, oil & gas facilities, and outdoor utility deployments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>IP67 Weatherproof Industrial Enclosure</strong>
+  Industrial-grade IP67 enclosure engineered for harsh outdoor environments with protection against dust, rain, humidity, vibration, and extreme operating conditions.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Multi-Backhaul Connectivity</strong>
+  Supports Ethernet, dual 4G/LTE, and Wi‑Fi backhaul for reliable Industrial IoT communication, network redundancy, and uninterrupted outdoor LoRaWAN® gateway operation.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Carrier-Grade Industrial IoT Gateway</strong>
+  Optimized for carrier-grade Industrial IoT infrastructure requiring stable connectivity, high uptime, secure communication, and large-scale LoRaWAN® network coverage.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Integrated GPS Positioning</strong>
+  Built-in GPS module for gateway positioning, location synchronization, geofencing applications, and advanced network management capabilities.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial Edge Intelligence</strong>
+  Adaptive packet filtering, intelligent buffering, and edge-level data handling reduce packet loss and improve reliability during backhaul outages.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Secure Industrial LoRaWAN® Communication</strong>
+  AES-128 encrypted LoRaWAN® communication with TLS-secured cloud connectivity for reliable Industrial IoT security and protected remote infrastructure monitoring.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Remote OTA Firmware Management</strong>
+  Supports remote firmware upgrades, centralized gateway management, diagnostics, and remote configuration through MacCloud and supported LNS platforms.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Smart City & Utility Infrastructure Ready</strong>
+  Designed for smart street lighting, water monitoring, smart metering, environmental monitoring, industrial telemetry, and utility automation deployments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Supports Major LoRaWAN® Network Servers</strong>
+  Compatible with ChirpStack, The Things Network (TTN), LORIOT, Orbiwise, MQTT platforms, and private LoRaWAN® network server deployments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial Pole & Wall Mount Deployment</strong>
+  Supports rooftop, wall-mounted, pole-mounted, and outdoor infrastructure installations for large-area LoRaWAN® wireless network coverage.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Utility & Remote Infrastructure Monitoring</strong>
+  Ideal for monitoring pumping stations, solar farms, substations, telecom towers, pipelines, reservoirs, remote field assets, and unmanned infrastructure.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Industrial-Grade Thermal & Surge Protection</strong>
+  Designed with industrial thermal management and surge-protected RF/power interfaces for reliable outdoor operation in harsh electrical environments.
+</div>
+
+<div className="reusable-feature-card">
+  <strong>Scalable Outdoor LoRaWAN® Network Deployment</strong>
+  Enables scalable Smart City and Industrial IoT expansion with reliable long-range outdoor wireless communication infrastructure.
+</div>
+
+</div>
+
+---
+
+<h2 className="device-section-title">
+  ## Suited Applications
+</h2>
+
+<div className="reusable-feature-grid">
+
   <div className="reusable-feature-card">
-    <strong>Smart Cities</strong>
-    Reliable LoRaWAN® backbone for street lighting, waste management and environmental monitoring networks.
+    <strong>Smart City LoRaWAN® Infrastructure</strong>
+    Deploy large-scale outdoor LoRaWAN® networks for smart street lighting, public utility monitoring, environmental sensing, parking systems, smart poles, and city-wide Industrial IoT infrastructure.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water & Utility Networks</strong>
-    Scalable connectivity for water meters, pumping stations, distribution lines and leak detection systems.
+    <strong>Water Utility & Pumping Station Monitoring</strong>
+    Connect water meters, pumping stations, underground tanks, overhead tanks, pressure sensors, flow meters, and remote utility infrastructure using long-range LoRaWAN® communication.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation & Process Plants</strong>
-    High‑capacity gateway for remote asset monitoring, predictive maintenance and energy optimization.
+    <strong>Industrial Automation & Factory Connectivity</strong>
+    Provide wireless LoRaWAN® coverage for industrial sensors, remote IO controllers, energy meters, process automation systems, predictive maintenance infrastructure, and Industrial IoT deployments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil, Gas & Energy Infrastructure</strong>
-    Secure wireless coverage for substations, wind farms, pipelines and hazardous remote assets.
+    <strong>Smart Agriculture & Irrigation Networks</strong>
+    Enable outdoor LoRaWAN® connectivity for irrigation automation, weather monitoring stations, soil sensors, livestock tracking, greenhouse systems, and smart farming applications.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Agriculture & Irrigation Systems</strong>
-    Long‑range coverage for farms, irrigation controllers, soil sensors and livestock monitoring.
+    <strong>Oil, Gas & Pipeline Infrastructure</strong>
+    Deliver secure long-range wireless connectivity for pipelines, substations, oil fields, gas distribution systems, remote valve monitoring, and hazardous industrial environments.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Energy Monitoring & Smart Metering</strong>
+    Connect smart electricity meters, solar farms, battery systems, substations, transformer monitoring systems, and industrial energy infrastructure over LoRaWAN® networks.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Remote Industrial Asset Monitoring</strong>
+    Monitor telecom towers, unmanned utility stations, remote field assets, industrial panels, reservoirs, outdoor equipment, and distributed infrastructure installations.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Environmental & Weather Monitoring Systems</strong>
+    Support air quality sensors, weather stations, rainfall monitoring, flood monitoring systems, forest monitoring infrastructure, and environmental telemetry applications.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Mining & Harsh Outdoor Deployments</strong>
+    Ensure reliable wireless communication in mining sites, dusty industrial areas, remote terrains, high-vibration environments, and RF-challenging outdoor locations.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Transportation & Smart Logistics</strong>
-    Gateway connectivity for fleet tracking, parking systems and authorized zone access control.
+    Build LoRaWAN® infrastructure for fleet tracking, railway monitoring, logistics hubs, parking systems, smart transportation systems, and asset movement monitoring.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Mining & Harsh Locations</strong>
-    Reliable communication in high‑dust, high‑vibration and deep‑coverage environments.
+    <strong>Campus & Smart Building Connectivity</strong>
+    Deliver seamless outdoor and indoor LoRaWAN® coverage for large campuses, industrial parks, warehouses, hospitals, educational institutions, and smart buildings.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Campuses & Smart Buildings</strong>
-    Connectivity hub for wide‑area automation, indoor‑outdoor coverage and security monitoring.
+    <strong>Solar-Powered & Off-Grid Deployments</strong>
+    Ideal for remote outdoor LoRaWAN® installations powered through solar energy systems for wildlife zones, forests, border areas, and rural Industrial IoT connectivity.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote & Off‑Grid Deployments</strong>
-    Solar‑powered network edge nodes for unmanned sites, wildlife zones and rural connectivity.
+    <strong>Industrial Outdoor LoRaWAN® Network Expansion</strong>
+    Extend existing LoRaWAN® infrastructure with scalable outdoor wireless coverage for expanding Industrial IoT, utility monitoring, and Smart City deployments.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Utility Infrastructure & Remote Telemetry</strong>
+    Enable remote telemetry for water distribution systems, energy grids, environmental monitoring, industrial automation, and distributed field monitoring applications.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Private LoRaWAN® Network Deployments</strong>
+    Build secure private LoRaWAN® infrastructure for enterprises, industries, utility operators, smart campuses, and mission-critical Industrial IoT applications.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Wildlife & Forest Monitoring Networks</strong>
+    Support long-range wireless monitoring for wildlife tracking, forest fire monitoring, elephant tracking systems, remote environmental sensing, and conservation infrastructure.
+  </div>
+
+</div>
+
+---
+
+<h2 className="device-section-title">
+  ## Technical Specifications
+</h2>
+
+<div class="device-config-section">
+  <div class="device-config-title">System Hardware Specifications</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Type</div>
+      <div class="device-config-right">ARM Cortex-A7</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Number of Cores</div>
+      <div class="device-config-right">Quad Core</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Clock</div>
+      <div class="device-config-right">960 MHz per Core</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Memory Size</div>
+      <div class="device-config-right">512 MB</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Memory Speed</div>
+      <div class="device-config-right">1066 MHz Max</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Internal Memory</div>
+      <div class="device-config-right">8 GB eMMC</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">USB</div>
+      <div class="device-config-right">Device for Debug, on Bottom of the Enclosure</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
+<div class="device-config-section">
+  <div class="device-config-title">LoRaWAN Specifications</div>
+  <div class="device-config-table">
 
-## Technical Specification
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Compatibility</div>
+      <div class="device-config-right">LoRaWAN® Class A / B / C</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    General <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Part Order Number</p>
-    <p className="value">MacLink Gen-2</p>
-    <br />
-    <p className="label">Product Brand</p>
-    <p className="value">Macnman Technologies Pvt Ltd</p>
-  </div>
-</div>
+    <div class="device-config-row">
+      <div class="device-config-left">Frequency</div>
+      <div class="device-config-right">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">LoRa Demodulators</div>
+      <div class="device-config-right">8 × 8 Channels LoRa Packet Detectors</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Uplink Channels</div>
+      <div class="device-config-right">8</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    System Hardware <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-<p className="label">Processor Type</p>
-<p className="value">ARM Cortex-A7</p>
-<br />
-<p className="label">Number of Cores</p>
-<p className="value">Quad Core</p>
-<br />
-<p className="label">Clock Speed</p>
-<p className="value">960 MHz per Core</p>
-<br />
-<p className="label">Memory Size</p>
-<p className="value">512 MB RAM</p>
-<br />
-<p className="label">Memory Speed</p>
-<p className="value">Up to 1066 MHz</p>
-<br />
-<p className="label">Internal Storage</p>
-<p className="value">8 GB eMMC</p>
-<br />
-<p className="label">USB Port</p>
-<p className="value">Debug Interface (Bottom of Enclosure)</p>
-<br />
-<p className="label">Connector Type</p>
-<p className="value">USB Type‑C</p>
-<br />
-<p className="label">Interface Protection</p>
-<p className="value">Surge Protection Enabled</p>
-  </div>
-</div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Downlink Channel</div>
+      <div class="device-config-right">1</div>
+    </div>
 
-<div class="faint-line"></div>
+    <div class="device-config-row">
+      <div class="device-config-left">TX Power</div>
+      <div class="device-config-right">Up to 27 dBm @ SF12, BW 125 kHz</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    LoRaWAN <br /> Specifications
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Compatibility</p>
-    <p className="value">LoRaWAN® Class A / B / C</p>
-    <br />
-    <p className="label">Frequency Bands</p>
-    <p className="value">IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923‑1/2/3/4</p>
-    <br />
-    <p className="label">LoRa Demodulators</p>
-    <p className="value">8 × 8 LoRa Packet Detectors</p>
-    <br />
-    <p className="label">Demodulation Paths</p>
-    <p className="value">Up to 10 Parallel Paths</p>
-    <br />
-    <p className="label">Uplink Channels</p>
-    <p className="value">8 Channels</p>
-    <br />
-    <p className="label">Downlink Channel</p>
-    <p className="value">1 Channel</p>
-    <br />
-    <p className="label">Tx Power</p>
-    <p className="value">Up to 27 dBm @ SF12, BW 125 kHz</p>
-    <br />
-    <p className="label">Rx Sensitivity</p>
-    <p className="value">Down to ‑139 dBm @ SF12, BW 125 kHz</p>
-    <br />
-    <p className="label">Data‑Rate</p>
-    <p className="value">Adaptive Data‑Rate (ADR)</p>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">RX Sensitivity</div>
+      <div class="device-config-right">Down to -139 dBm @ SF12, BW 125 kHz</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Data-Rate</div>
+      <div class="device-config-right">Dynamic Data-Rate Adaptation (ADR)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Antenna Connector</div>
+      <div class="device-config-right">N-Type Female</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Inbuilt LNS</div>
+      <div class="device-config-right">ChirpStack Server</div>
+    </div>
+
   </div>
 </div>
 
+---
 
-<div class="faint-line"></div>
+<div class="device-config-section">
+  <div class="device-config-title">Ethernet Backhaul</div>
+  <div class="device-config-table">
 
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Number</div>
+      <div class="device-config-right">1 (PoE)</div>
+    </div>
 
+    <div class="device-config-row">
+      <div class="device-config-left">Type</div>
+      <div class="device-config-right">1 × 10/100M</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Backhual  <br /> Ethernet
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Number of Ports</p>
-    <p className="value">x 1</p>
-    <br />
-    <p className="label">Type</p>
-    <p className="value">1 x 10/100M</p>
-    <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Backhual <br /> WiFi
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Bands</p>
-    <p className="value">2.4 GHz ISM Band</p>
-    <br />
-    <p className="label">Standards</p>
-    <p className="value">IEEE 802.11 b/g/n, 802.3, 802.3u, 802.11e-compatible bursting</p>
-    <br />
-    <p className="label">Modulation Schemes</p>
-    <p className="value">BPSK, QPSK, 16 QAM, 64 QAM</p>
-    <br />
-    <p className="label">Security</p>
-    <p className="value">WEP, TKIP, AES, WPA, WPA2</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal Antenna Integrated in Enclosure</p>
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
+<div class="device-config-section">
+  <div class="device-config-title">Backhaul Wi-Fi</div>
+  <div class="device-config-table">
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Backhual <br /> Cellular Lte
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Bands</div>
+      <div class="device-config-right">2.4 GHz ISM</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Standards</div>
+      <div class="device-config-right">802.11 b/g/n, 802.3, 802.3u, 802.11e-compatible bursting</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Modulation Schemes</div>
+      <div class="device-config-right">BPSK, QPSK, 16 QAM, 64 QAM</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Security</div>
+      <div class="device-config-right">WEP, TKIP, and AES, WPA, WPA2</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Antenna</div>
+      <div class="device-config-right">Inbuilt Inside the Enclosure</div>
+    </div>
+
   </div>
-  <div className="spec-block-details">
-    <p className="label">Cellular Bands</p>
-    <p className="value">B1 / B3 / B5 / B7 / B8 / B20 / B28</p>
-    <br />
-    <p className="label">Standards</p>
-    <p className="value">3GPP LTE, IEEE 802.3, IEEE 802.3u, 802.11e-compatible bursting</p>
-    <br />
-    <p className="label">Modulation Schemes</p>
-    <p className="value">BPSK, QPSK, 16‑QAM, 64‑QAM</p>
-    <br />
-    <p className="label">Security</p>
-    <p className="value">WEP, TKIP, AES, WPA, WPA2</p>
-    <br />
-    <p className="label">Antenna</p>
-    <p className="value">Internal Antenna Integrated in Enclosure</p>
+</div>
+
+---
+<div class="device-config-section">
+  <div class="device-config-title">Cellular Backhaul</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Cellular Bands</div>
+      <div class="device-config-right">B1/3/5/7/8/20/28</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">GPRS Slot</div>
+      <div class="device-config-right">Multi-Slot Class 12/10</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">SIM Card</div>
+      <div class="device-config-right">2 × Nano SIM</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Antenna</div>
+      <div class="device-config-right">Inbuilt Inside the Enclosure</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Supported LNS</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Supports Major LNS</div>
+      <div class="device-config-right">Private LNS, ChirpStack, The Things Network (TTN), MQTT, Orbiwise, LORIOT, Direct PLC On-Prem Installations Through TCP/IP</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Software & Network Services</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Operating System</div>
+      <div class="device-config-right">OpenWRT Linux</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Forwarder</div>
+      <div class="device-config-right">UDP Forwarder</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Forward Options</div>
+      <div class="device-config-right">ChirpStack MQTT Forwarder</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">LNS</div>
+      <div class="device-config-right">ChirpStack Server</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Automation Engine</div>
+      <div class="device-config-right">Node-RED with ChirpStack Support</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Physical Characteristics</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Power Supply</div>
+      <div class="device-config-right">PoE IEEE 802.3af / 12–24 V DC</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">-40°C to +80°C</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Humidity Range</div>
+      <div class="device-config-right">0% to 100% RH (non-condensing)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Ingress Protection</div>
+      <div class="device-config-right">IP67</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Housing Material</div>
+      <div class="device-config-right">Aluminium</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Color</div>
+      <div class="device-config-right">Matte White</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Weight</div>
+      <div class="device-config-right">~410g</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Mounting Options</div>
+      <div class="device-config-right">Pole Mounting / Wall Mounting</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Electrical Characteristics</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Power Input</div>
+      <div class="device-config-right">PoE IEEE 802.3af / 802.3at or 12–24 V DC</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Power Consumption (Typical)</div>
+      <div class="device-config-right">4.5 W (with Ethernet Backhaul)</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Power Consumption (Peak)</div>
+      <div class="device-config-right">Up to 7 W (with LTE & Wi-Fi Active)</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Lightning / Surge Protection</div>
+      <div class="device-config-right">Integrated surge protection on power & RF ports</div>
+    </div>
+
+  </div>
+</div>
+
+---
+
+<div class="device-config-section">
+  <div class="device-config-title">Certifications & Compliance</div>
+  <div class="device-config-table">
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">WPC</div>
+      <div class="device-config-right">Compliant</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">RoHS</div>
+      <div class="device-config-right">Conforms to RoHS Directive</div>
+    </div>
+
   </div>
 </div>
 
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Supported <br /> LNS
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Supports Major LNS</p>
-    <p className="value">Private LNS</p>
-    <p className="value">Chirpstack</p>
-    <p className="value">The Things Networks</p>
-    <p className="value">MQTT</p>
-    <p className="value">Orbiwise</p>
-    <p className="value">LORIOT</p>
-    <p className="value">Direct PLC On-Prim Installations Through TCP/IP</p>
-    <br />  
-  </div>
-</div>
+<div class="device-config-section">
+  <div class="device-config-title">Security & Encryption</div>
+  <div class="device-config-table">
 
-<div class="faint-line"></div>
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Data Encryption</div>
+      <div class="device-config-right">AES-128 LoRaWAN® Encryption + TLS Secure Backhaul</div>
+    </div>
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Physical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Supply</p>
-    <p className="value">9-36 V PoE</p>
-    <br />
-    <p className="label">Operating Temperature</p>
-    <p className="value">-40°C to +80°C</p>
-    <br />
-    <p className="label">Humidity Range</p>
-    <p className="value">0% to 100% RH (non-condensing)</p>
-    <br />
-    <p className="label">Ingress Protection</p>
-    <p className="value">IP67</p>    
-    <br />
-    <p className="label">Housing Material</p>
-    <p className="value">Aluminium</p>    
-    <br />
-    <p className="label">Color</p>
-    <p className="value">Matte White</p>    
-    <br />
-    <p className="label">Weight</p>
-    <p className="value">~410g</p>    
-    <br />
-    <p className="label">Mounting Options(Brackets)</p>
-    <p className="value">Pole Mounting / Wall Mounting</p>    
-    <br />
+    <div class="device-config-row">
+      <div class="device-config-left">Authentication</div>
+      <div class="device-config-right">OTAA & Secure Gateway Authentication</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Firmware Protection</div>
+      <div class="device-config-right">Secure Boot and Signed OTA Updates</div>
+    </div>
+
   </div>
 </div>
 
-<div class="faint-line"></div>
+---
 
-<div className="spec-block">
-  <div className="spec-block-title">
-    Electrical <br /> Characteristics
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Power Input</p>
-    <p className="value">PoE IEEE 802.3af / 802.3at or 12–24 V DC</p>
-    <br />
-    <p className="label">Power Consumption (Typical)</p>
-    <p className="value">4.5 W (with Ethernet Backhaul)</p>
-    <br />
-    <p className="label">Power Consumption (Peak)</p>
-    <p className="value">Up to 7 W (with LTE & Wi‑Fi Active)</p>
-    <br />
-    <p className="label">Lightning / Surge Protection</p>
-    <p className="value">Integrated surge protection on power & RF ports</p>
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Certifications & <br /> Compliance
-  </div>
-  <div className="spec-block-details">
-    <p className="label">WPC</p>
-    <p className="value">Compliant</p>
-    <br />
-    <p className="label">RoHS</p>
-    <p className="value">Conforms to RoHS directive</p>
-    <br />
-  </div>
-</div>
-
-<div class="faint-line"></div>
-
-<div className="spec-block">
-  <div className="spec-block-title">
-    Security & <br /> Encryption
-  </div>
-  <div className="spec-block-details">
-    <p className="label">Data Encryption</p>
-    <p className="value">AES-256 end-to-end encryption</p>
-    <br />
-    <p className="label">Authentication</p>
-    <p className="value">OTAA activation modes (Nodes)</p>
-    <br />
-    <p className="label">Firmware Protection</p>
-    <p className="value">Secure boot and signed OTA updates </p>
-    <br />
-  </div>
-</div>
-
-
-##  MacLink Gen-2 Variants
+<h2 className="device-section-title">
+  ## MacLink Gen-2 Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>Power Source</th>
-      <th>Battery Capacity</th>
-      <th>Solar Support</th>
-      <th>External Flash</th>
+      <th>Backhaul Connectivity</th>
+      <th>Power Input</th>
+      <th>Deployment Type</th>
       <th>Ideal For</th>
+      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacLink Gen-2-PO</td>
-      <td>12–24 V (Power)</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>✖️</td>
-      <td>Industrial or commercial sites with stable power supply</td>
+      <td>MacLink Gen-2</td>
+      <td>Ethernet + Duel 4G Sim + WiFi</td>
+      <td>PoE IEEE 802.3af</td>
+      <td>Fixed Outdoor Installations</td>
+      <td>Industrial automation plants, factories, smart campuses, warehouses, and outdoor LoRaWAN® infrastructure with wired Ethernet connectivity.</td>
+      <td>992</td>
     </tr>
   </tbody>
 </table>
 
-<!-- 
-<table className="spec-table">
-  <thead>
-    <tr>
-      <th colSpan="2" className="spec-title">Wireless Transmission</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Technology</td>
-      <td>LoRaWAN® (v1.0.4), Macnman MacTalk Protocol</td>
-    </tr>
-    <tr>
-      <td>Antenna</td>
-      <td>Internal high-efficiency antenna</td>
-    </tr>
-    <tr>
-      <td>Supported Bands</td>
-      <td>IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4</td>
-    </tr>
-    <tr>
-      <td>Tx Power</td>
-      <td>16 dBm @ 868 MHz &nbsp;&nbsp; 20 dBm @ 915 MHz &nbsp;&nbsp; 19 dBm @ 470 MHz</td>
-    </tr>
-    <tr>
-      <td>Sensitivity</td>
-      <td>-137 dBm @ 300 bps</td>
-    </tr>
-    <tr>
-      <td>Activation</td>
-      <td>OTAA / ABP</td>
-    </tr>
-    <tr>
-      <td>LoRaWAN® Class</td>
-      <td>Class A (default), Configurable to Class C via Maya</td>
-    </tr>
-  </tbody>
-</table>
+---
 
--->
+<h2 className="device-section-title">
+  ## What's in the Box?
+</h2>
 
-## What's in the box ?
+The **MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway** package is designed for fast industrial deployment, outdoor installation, and reliable Industrial IoT network commissioning. Before starting installation, verify that all gateway components and mounting accessories are available inside the package.
 
-Make sure box contains following items before installations
+The standard package contents include:
 
-![title image](/img/lorawan/gateways/maclink-what-is-in-the-box-image.svg)
+- MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway
+- Industrial Pole Mounting Kit
+- Wall Mounting Accessories
+- Quick Installation Guide
+- Product Warranty Card
+- PoE Injector \*
+- Ethernet Cable \*
+- External LoRa Antenna \*
+
+The included mounting accessories simplify rooftop, wall-mounted, and pole-mounted installations for Smart City infrastructure, industrial automation networks, utility monitoring systems, environmental monitoring stations, smart agriculture deployments, and outdoor Industrial IoT applications.
+
+Ensure all accessories and installation components are inspected before powering the gateway or starting outdoor deployment.
+
+![MacLink Gen-2 industrial outdoor LoRaWAN gateway box contents and installation accessories](/img/lorawan/gateways/maclink-what-is-in-the-box-image.svg)
 
 :::note
 
-Accessories must be purchased separately & may 
-not be included in the box.
+Optional accessories including PoE injectors, Ethernet cables, surge protection accessories, and external antennas may need to be purchased separately depending on deployment requirements and selected gateway variants.
 
 :::
 
-## Product Dimensions
+---
 
-![title image](/img/lorawan/gateways/maclink-gen-two-dimensions.svg)
+<h2 className="device-section-title">
+  ## MacLink Gen-2 Gateway Dimensions
+</h2>
+
+The **MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway** is designed with a rugged industrial enclosure optimized for outdoor Industrial IoT deployments, utility infrastructure, Smart City installations, and long-range LoRaWAN® network coverage. The compact enclosure simplifies pole-mounted, wall-mounted, and rooftop installations while maintaining reliable outdoor wireless communication performance.
+
+The gateway dimensions are:
+
+- **220 mm × 122 mm × 70 mm** (Without Antenna)
+
+The industrial enclosure is engineered for harsh outdoor operating environments including industrial automation plants, utility monitoring systems, smart agriculture infrastructure, environmental monitoring stations, telecom infrastructure, and remote outdoor installations requiring reliable IP67 protection and long-range wireless connectivity.
+
+![MacLink Gen-2 industrial outdoor LoRaWAN gateway dimensions and mounting layout](/img/lorawan/gateways/maclink-gen-two-dimensions.svg)
 
