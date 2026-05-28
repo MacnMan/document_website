@@ -50,20 +50,20 @@ keywords:
 <h2 className="device-section-title">
   ## Product Overview 
 </h2>
-**MacSync LCS X1** is an industrial-grade **LoRaWAN® capacitive diesel fuel level sensor** engineered for intelligent non-contact fuel-level monitoring across diesel storage tanks, generator fuel tanks, telecom tower fuel systems, industrial fuel reservoirs, fleet fuel infrastructure, mining equipment, and remote industrial telemetry deployments.
 
-The device uses advanced capacitive sensing technology to accurately measure diesel and liquid fuel levels without direct immersion into the fuel medium, enabling highly reliable, maintenance-free, contamination-resistant, and long-term stable operation in industrial environments.
+**MacSync LCS X1** is an industrial-grade **LoRaWAN® capacitive dip stick diesel fuel level sensor** engineered for accurate real-time fuel-level monitoring across generator fuel tanks, telecom tower diesel reservoirs, industrial fuel storage systems, fleet fuel infrastructure, mining equipment, and remote industrial telemetry deployments.
 
-Designed specifically for industrial IoT fuel telemetry applications, the MacSync LCS X1 continuously measures fuel-level variations and wirelessly transmits real-time analytics using ultra-long-range LoRaWAN® communication for centralized monitoring, fuel management, and operational intelligence.
+The device utilizes advanced capacitive dip stick sensing technology to continuously measure diesel fuel levels with high precision, long-term stability, and reliable industrial-grade performance in demanding operating environments. The sensor is designed specifically for diesel tank installations where accurate fuel analytics, low maintenance, and dependable wireless telemetry are critical for operational continuity.
 
-Its rugged industrial enclosure, ultra-low-power architecture, and wireless deployment capability enable scalable fuel monitoring across DG backup systems, telecom towers, factories, logistics fleets, utility infrastructure, smart energy systems, and remote industrial facilities without complex wired infrastructure.
+Designed for industrial IoT fuel telemetry applications, the MacSync LCS X1 wirelessly transmits real-time fuel-level analytics using ultra-long-range LoRaWAN® communication for centralized fuel monitoring, consumption analysis, refill tracking, and predictive operational intelligence.
 
-The sensor is ideal for diesel tank monitoring, generator fuel analytics, fuel theft detection, fuel consumption tracking, industrial fuel storage monitoring, smart utility fuel management, fleet fuel analytics, mining equipment fuel telemetry, and remote diesel reservoir monitoring applications.
+Its rugged industrial enclosure, ultra-low-power electronics, and scalable wireless deployment architecture enable efficient fuel monitoring across DG backup systems, telecom infrastructure, smart utility installations, logistics fleets, industrial facilities, mining environments, and distributed energy systems without requiring complex wired infrastructure.
+
+The sensor is ideal for diesel tank dip stick monitoring, generator fuel analytics, telecom tower fuel management, fleet fuel telemetry, fuel theft detection, industrial fuel storage monitoring, mining equipment fuel analytics, remote diesel telemetry, and smart utility fuel management applications.
 
 MacSync LCS X1 supports BLE-based configuration through the Macnman Maya App, secure OTA configuration, threshold-based fuel alerts, refill event detection, event-driven reporting, and seamless integration with LoRaWAN® gateways, MQTT platforms, SCADA systems, industrial IoT dashboards, and cloud-based fuel analytics platforms.
 
-Whether deployed in industrial plants, telecom infrastructure, mining operations, transportation fleets, smart utility systems, backup power installations, or remote fuel telemetry networks, the **MacSync LCS X1 LoRaWAN® capacitive fuel-level monitoring sensor** transforms diesel telemetry into actionable operational intelligence for predictive monitoring and optimized fuel management.
-
+Whether deployed in industrial plants, telecom infrastructure, mining operations, transportation fleets, backup power systems, utility installations, or remote diesel monitoring environments, the **MacSync LCS X1 LoRaWAN® capacitive dip stick fuel-level sensor** transforms fuel telemetry into actionable operational intelligence for optimized fuel management and predictive monitoring.
 
 | ![MacSync LCS X1 LoRaWAN capacitive diesel fuel level sensor package contents and industrial fuel monitoring accessories](/img/lorawan/sensors/macsync/macsync-lps-x7-wireless-liquid-level-monitoring-sensor-main-image.webp) | ![MacSync LCS X1 LoRaWAN capacitive fuel tank sensor industrial enclosure and wireless diesel monitoring device](/img/lorawan/sensors/macsync/macsync-lps-x7-lorawan-hydrostatic-liquid-level-sensor-front-view.webp) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -107,8 +107,8 @@ Whether deployed in industrial plants, telecom infrastructure, mining operations
 </div>
 
 <div className="reusable-feature-card">
-  <strong>Non-Contact Capacitive Fuel Sensing</strong>
-  Advanced capacitive sensing technology designed for accurate diesel-level measurement without direct immersion into the fuel medium.
+  <strong>Capacitive Dip Stick Fuel Sensor</strong>
+  Industrial capacitive dip stick fuel-level sensing technology engineered for accurate diesel-level measurement inside generator tanks, telecom tower fuel reservoirs, fleet fuel systems, and industrial storage tanks.
 </div>
 
 <div className="reusable-feature-card">
@@ -209,42 +209,62 @@ Whether deployed in industrial plants, telecom infrastructure, mining operations
 
 <div class="device-config-section">
   <div class="device-config-title">Capacitive Fuel-Level Sensing</div>
+
   <div class="device-config-table">
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Sensor Type</div>
-      <div class="device-config-right">Capacitive Fuel-Level Sensor</div>
+      <div class="device-config-right">Capacitive Dip Stick Fuel-Level Sensor</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Measurement Range</div>
-      <div class="device-config-right">Configurable based on tank dimensions</div>
+      <div class="device-config-left">Level Range</div>
+      <div class="device-config-right">100 mm to 1400 mm (OEM Customizable)</div>
     </div>
 
     <div class="device-config-row shaded">
       <div class="device-config-left">Measurement Accuracy</div>
-      <div class="device-config-right">±1% Typical</div>
+      <div class="device-config-right">±1%</div>
     </div>
 
     <div class="device-config-row">
       <div class="device-config-left">Resolution</div>
-      <div class="device-config-right">0.1% Level Resolution</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Compensated Temperature Range</div>
-      <div class="device-config-right">-20°C to +80°C</div>
+      <div class="device-config-right">0.01 mm</div>
     </div>
 
     <div class="device-config-row shaded">
-      <div class="device-config-left">Long-Term Stability</div>
-      <div class="device-config-right">High Long-Term Stability</div>
+      <div class="device-config-left">Operating Temperature</div>
+      <div class="device-config-right">-35°C to +70°C</div>
     </div>
 
     <div class="device-config-row">
-      <div class="device-config-left">Suitable Applications</div>
-      <div class="device-config-right">Diesel tanks, generator fuel systems, telecom tower fuel monitoring, industrial fuel reservoirs, smart utility infrastructure, fleet fuel monitoring, and remote diesel telemetry applications</div>
+      <div class="device-config-left">Probe Diameter</div>
+      <div class="device-config-right">Φ16 mm</div>
     </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Pressure Range</div>
+      <div class="device-config-right">-0.1 MPa to 0.4 MPa</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Material</div>
+      <div class="device-config-right">Stainless Steel</div>
+    </div>
+
+    <div class="device-config-row shaded">
+      <div class="device-config-left">Explosion Protection</div>
+      <div class="device-config-right">Exd II C T5</div>
+    </div>
+
+    <div class="device-config-row">
+      <div class="device-config-left">Installation Method</div>
+      <div class="device-config-right">Standard 5-hole flange or thread M20×1.5 (OEM customizable)</div>
+    </div>
+  <div class="device-config-row shaded">
+      <div class="device-config-left">Suitable Applications</div>
+      <div class="device-config-right">Diesel tanks, generator fuel systems, telecom tower fuel monitoring, industrial fuel reservoirs, smart utility infrastructure, fleet fuel monitoring, mining equipment fuel analytics, and remote diesel telemetry applications</div>
+  </div>
 
   </div>
 </div>
@@ -551,16 +571,14 @@ Whether deployed in industrial plants, telecom infrastructure, mining operations
 </div>
 
 ---
-<h2 className="device-section-title">
-  ## MacSync LCS X1 Variants
-</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
       <th>Variant Name</th>
-      <th>Measurement Range</th>
+      <th>Level Range</th>
       <th>Power Source</th>
+      <th>Installation Type</th>
       <th>Ideal Use Case</th>
       <th>SKU</th>
     </tr>
@@ -568,10 +586,20 @@ Whether deployed in industrial plants, telecom infrastructure, mining operations
   <tbody>
     <tr>
       <td>MacSync LCS X1 BO</td>
-      <td>Configurable Tank Depth</td>
+      <td>100 mm to 1400 mm</td>
       <td>Integrated Battery (19 Ah)</td>
-      <td>Battery-powered LoRaWAN® capacitive diesel fuel-level monitoring for generator tanks, telecom infrastructure, industrial fuel reservoirs, fleet fuel systems, and remote industrial telemetry deployments.</td>
+      <td>5-Hole Flange / M20×1.5 Thread</td>
+      <td>Battery-powered LoRaWAN® capacitive dip stick diesel fuel-level monitoring for generator tanks, telecom infrastructure, industrial fuel reservoirs, mining equipment, and remote industrial telemetry deployments.</td>
       <td>853</td>
+    </tr>
+
+    <tr>
+      <td>MacSync LCS X1 PO</td>
+      <td>100 mm to 1400 mm</td>
+      <td>9-36 V DC External Supply</td>
+      <td>5-Hole Flange / M20×1.5 Thread</td>
+      <td>Continuous powered industrial LoRaWAN® fuel telemetry for large diesel storage systems, smart utility infrastructure, industrial automation, and fleet fuel analytics applications.</td>
+      <td>854</td>
     </tr>
   </tbody>
 </table>
