@@ -713,7 +713,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 ---
 
 <h2 className="device-section-title">
-  ## MacSet LX1 Variants
+  ## MacSync LX1 Variants
 </h2>
 
 <table className="parameter-table">
@@ -721,18 +721,26 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
     <tr>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Relay Outputs</th>
+      <th>Deployment Type</th>
       <th>Ideal For</th>
       <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSet LX1</td>
-      <td>230 V AC / 9–36 V DC External Power</td>
-      <td>2 High-Current Relay Outputs</td>
-      <td>Industrial automation, pump control, smart agriculture systems, factory automation, RS485 Modbus control systems, and Industrial IoT remote switching applications.</td>
+      <td>MacSync LX1 PO</td>
+      <td>9–36 V DC External Power</td>
+      <td>Power Operated</td>
+      <td>Industrial automation, energy meter monitoring, PLC monitoring, SCADA integration, process monitoring, utility infrastructure, and continuous data acquisition applications.</td>
       <td>901</td>
+    </tr>
+
+    <tr>
+      <td>MacSync LX1 BO</td>
+      <td>Internal Battery Powered</td>
+      <td>Battery Operated</td>
+      <td>Remote asset monitoring, water distribution networks, environmental monitoring, tank level monitoring, agricultural monitoring, and locations without permanent power availability.</td>
+      <td>902</td>
     </tr>
   </tbody>
 </table>
