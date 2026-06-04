@@ -75,9 +75,9 @@ With BLE-based configuration through the Maya App, secure OTAA activation, suppo
 
 Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalogger, a PLC monitoring solution, or a complete Industrial IoT data acquisition platform, MacSync LX1 delivers reliable connectivity between field devices and cloud applications.
 
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+| ![MacSync LX1 RS485 Modbus RTU and Analog to LoRaWAN Datalogger front view](/img/lorawan/sensors/macsync/macsync-lx1-rs485-modbus-rtu-analog-lorawan-datalogger.webp) | ![MacSync LX1 RS485 to LoRaWAN converter product overview](/img/lorawan/sensors/macsync/macsync-lx1-rs485-to-lorawan-converter.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync LX1 RS485 Modbus RTU and Analog to LoRaWAN Datalogger rear view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LX1 RS485 Modbus RTU and Analog to LoRaWAN Datalogger side view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 ---
 
@@ -85,8 +85,9 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
   ## Download Center
 </h2>
 
+
 <div className="icon-card-grid">
-  <a href="/docs/downloads/macset-lx1-industrial-lorawan-relay-controller-datasheet.pdf" 
+  <a href="/docs/downloads/macsync-lx1-rs485-modbus-analog-to-lorawan-data-logger-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
@@ -99,7 +100,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSet LX1</p>
+      <p>Click here to view the decoders for MacSync LX1</p>
     </div>
   </a>
 </div>
@@ -530,7 +531,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 
     <div class="device-config-row">
       <div class="device-config-left">Power Consumption</div>
-      <div class="device-config-right">Depends on connected relay load and operating mode</div>
+      <div class="device-config-right">Depends on connected sensors, polling interval, and LoRaWAN® transmission settings</div>
     </div>
 
   </div>
@@ -538,37 +539,6 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 
 ---
 
-<div class="device-config-section">
-  <div class="device-config-title">AC Input Specifications</div>
-  <div class="device-config-table">
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Input Voltage</div>
-      <div class="device-config-right">230 V AC</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Operating Voltage Range</div>
-      <div class="device-config-right">180 V AC to 260 V AC</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Input Frequency</div>
-      <div class="device-config-right">50 Hz</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Power Connection</div>
-      <div class="device-config-right">Terminal Block Connector</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Isolation Protection</div>
-      <div class="device-config-right">Supported</div>
-    </div>
-
-  </div>
-</div>
 
 ---
 
@@ -753,7 +723,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 
 Make sure box contains following items before installations
 
-- MacSet LX1 Controller
+- MacSync LX1 Datalogger
 - Mounting Clip
 - User Manual
 - Warranty Card
@@ -763,7 +733,7 @@ Make sure box contains following items before installations
 
 Ensure the following items are available before installation.
 
-![title image](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
+![MacSync LX1 Datalogger What's in the Box](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -774,13 +744,13 @@ Accessories may not be included in the package and must be purchased separately.
 ---
 
 <h2 className="device-section-title">
-  ## MacSet LX1 Controller Dimensions
+  ## MacSync LX1 Dimensions
 </h2>
 
-The **MacSet LX1 LoRaWAN® IO Controller** features a rugged industrial-grade enclosure engineered for long-term Industrial IoT automation, remote control, and wireless monitoring deployments. With compact dimensions of **142 mm × 80 mm × 32 mm**, the controller enables easy wall mounting and pole mounting across industrial facilities, smart agriculture systems, pump control panels, utility infrastructure, factory automation systems, remote monitoring stations, and outdoor Industrial IoT installations.
+The **MacSync LX1 RS485 & Analog to LoRaWAN® Datalogger** features a rugged industrial-grade enclosure engineered for long-term Industrial IoT data acquisition, telemetry, and remote monitoring applications. With compact dimensions of **142 mm × 80 mm × 32 mm**, the device enables easy wall mounting and pole mounting across factories, utility infrastructure, water treatment facilities, energy monitoring systems, environmental monitoring stations, agricultural deployments, and industrial automation projects.
 
-Designed for harsh industrial and outdoor operating environments, the enclosure provides reliable protection against dust, humidity, vibration, and industrial environmental conditions while maintaining easy access to relay outputs, power terminals, RS485 interfaces, analog inputs, and digital I/O connections.
+Designed for harsh industrial and outdoor operating environments, the enclosure provides reliable protection against dust, humidity, vibration, and challenging field conditions while maintaining easy access to RS485, analog, digital input, power, and antenna connections.
 
-The compact low-profile mechanical design simplifies installation inside electrical panels, automation cabinets, pump houses, industrial utility enclosures, agricultural automation systems, and smart infrastructure deployments.
+The compact low-profile mechanical design simplifies installation inside control panels, instrumentation cabinets, pump houses, utility enclosures, telemetry stations, and remote monitoring deployments.
 
-![MacSet LX1 LoRaWAN IO controller enclosure dimensions and industrial mounting layout](/img/controller/macset-dimensions-of-the-box.svg)
+![MacSync LX1 enclosure dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lx1-enclosure-dimensions.webp)
