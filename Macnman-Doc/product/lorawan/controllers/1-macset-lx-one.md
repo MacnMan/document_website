@@ -36,7 +36,7 @@ keywords:
   - smart factory automation controller
 ---
 
-# MacSet LX1 Industrial® LoRaWAN Controller
+# MacSet LX1 Industrial LoRaWAN® Controller
 
 
 <h2 className="device-section-title">
