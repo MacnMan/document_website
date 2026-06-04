@@ -1,63 +1,83 @@
 ---
-id: macset-lx-one-datasheet
-title: 2 x DO Controller
+id: rs485-analog-to-lorawan-converter-macsync-lx1
+title: RS485 (Modbus RTU) & Analog to LoRaWAN® Datalogger
 sidebar_position: 1
-description: Industrial LoRaWAN® controller for remote automation, relay switching, industrial equipment control, RS485 Modbus integration, analog and digital I/O monitoring, smart agriculture automation, water management systems, and Industrial IoT deployments.
+description: Industrial RS485, 4-20mA, 0-10V and digital input to LoRaWAN® datalogger for remote monitoring, automation and industrial IoT applications.
 keywords:
-  - lorawan controller
-  - industrial lorawan controller
-  - lorawan relay controller
-  - lorawan automation controller
-  - industrial iot controller
-  - remote io controller
-  - wireless relay controller
-  - industrial automation controller
-  - smart agriculture controller
-  - lorawan plc controller
-  - modbus lorawan controller
-  - rs485 lorawan controller
-  - analog input lorawan controller
-  - digital input lorawan controller
-  - industrial remote switching controller
-  - wireless industrial automation
-  - industrial iot automation device
-  - remote pump controller lorawan
-  - water management controller
-  - smart irrigation controller
-  - industrial monitoring controller
-  - edge automation controller
-  - lorawan actuator controller
-  - long range industrial controller
-  - industrial relay switching device
-  - macset lx1
-  - macnman lorawan controller
-  - industrial wireless controller
-  - lorawan remote equipment controller
-  - smart factory automation controller
+  - rs485 to lorawan datalogger
+  - rs485 to lorawan
+  - modbus to lorawan
+  - modbus rs485 to lorawan
+  - modbus rtu to lorawan
+  - rs485 lorawan converter
+  - rs485 lorawan gateway
+  - rs485 wireless datalogger
+  - industrial rs485 datalogger
+  - rs485 remote monitoring
+  - rs485 telemetry
+  - modbus telemetry
+  - modbus data logger
+  - modbus remote monitoring
+  - modbus energy meter monitoring
+  - energy meter to lorawan
+  - plc to lorawan
+  - plc remote monitoring
+  - industrial iot datalogger
+  - industrial lorawan datalogger
+  - lorawan data logger
+  - lorawan remote monitoring
+  - lorawan industrial controller
+  - analog to lorawan
+  - 4-20ma to lorawan
+  - 0-10v to lorawan
+  - analog input datalogger
+  - process monitoring system
+  - industrial sensor interface
+  - industrial telemetry system
+  - industrial wireless monitoring
+  - factory monitoring system
+  - smart factory monitoring
+  - predictive maintenance monitoring
+  - machine condition monitoring
+  - scada to lorawan
+  - scada remote monitoring
+  - flow meter to lorawan
+  - pressure sensor to lorawan
+  - level sensor to lorawan
+  - water meter to lorawan
+  - industrial automation gateway
+  - industrial data acquisition
+  - remote asset monitoring
+  - utility monitoring system
+  - iiot gateway
+  - iiot datalogger
+  - macsync lx1
+  - macsync
+  - macnman
+
 ---
 
-# MacSet LX1 Industrial LoRaWAN® Controller
-
+# MacSync LX1 Industrial RS485 Modbus RTU & Analog to LoRaWAN® Datalogger
 
 <h2 className="device-section-title">
   ## Product Overview
 </h2>
 
-**MacSet LX1** is an industrial-grade **LoRaWAN® Controller** engineered for remote automation, industrial equipment control, relay switching, analog and digital I/O monitoring, and wireless Industrial IoT deployments. Designed for long-range low-power industrial automation, the controller enables reliable remote operation of pumps, motors, solenoid valves, alarms, contactors, lighting systems, actuators, and field devices over secure LoRaWAN® networks.
+**MacSync LX1** is an industrial-grade **RS485 (Modbus RTU) & Analog to LoRaWAN® Datalogger** designed to connect legacy industrial equipment, field instruments, PLCs, energy meters, transmitters, and sensors to modern LoRaWAN® networks. It enables seamless wireless acquisition of RS485, 4-20mA, 0-10V, and digital signals, eliminating expensive cabling and simplifying large-scale industrial monitoring deployments.
 
-Built for demanding industrial and outdoor environments, the **MacSet LX1 LoRaWAN Controller** combines industrial-grade relay outputs, RS485 Modbus support, analog sensing interfaces, digital input monitoring, and intelligent automation logic inside a rugged IP-rated enclosure. The device is ideal for smart agriculture automation, industrial process control, water management systems, smart irrigation, factory automation, utility infrastructure, energy systems, environmental monitoring, and remote unmanned industrial sites.
+Built for Industrial IoT (IIoT) applications, MacSync LX1 acts as a powerful **RS485 to LoRaWAN converter**, **Modbus to LoRaWAN gateway**, and **analog signal datalogger** in a single compact device. The logger continuously collects data from connected sensors and securely transmits it over LoRaWAN® for remote monitoring, analytics, automation, and predictive maintenance applications.
 
-With support for **LoRaWAN® v1.0.4**, Class A and Class C operation, the controller delivers ultra-long-range wireless communication with low power consumption for highly scalable Industrial IoT deployments. The integrated **Macnman MacTalk Protocol** enables direct peer-to-peer device communication and local automation workflows without requiring cloud connectivity, reducing response time and improving reliability in mission-critical industrial operations.
+The device supports integration with a wide range of industrial equipment including energy meters, water meters, flow meters, pressure transmitters, level sensors, temperature transmitters, VFDs, PLCs, RTUs, environmental monitoring instruments, and building automation systems. Its configurable input architecture allows the same hardware platform to support RS485 communication, 4-20mA loops, 0-10V signals, and digital inputs, reducing inventory complexity and deployment costs.
 
-The controller supports flexible industrial interfacing including **2 high-current relay outputs**, **RS485 Modbus RTU communication**, **4–20 mA analog inputs**, **0–10 V analog channels**, and configurable digital I/O monitoring. This enables seamless integration with industrial sensors, PLC systems, pumps, SCADA infrastructure, process instruments, and industrial automation equipment.
+Powered by LoRaWAN® v1.0.4 technology, MacSync LX1 delivers ultra-long-range wireless communication, excellent penetration in industrial environments, low power consumption, and reliable operation across factories, utilities, smart buildings, agriculture, water treatment plants, renewable energy installations, and remote infrastructure projects.
 
-Optimized for Industrial IoT scalability, the device supports secure AES-encrypted communication, OTA configuration using the **Macnman Maya App**, remote parameter management, event-driven automation logic, threshold-based actuation, and compatibility with major LoRaWAN® platforms including ChirpStack, TTN, MQTT, Orbiwise, LORIOT, and private industrial LoRaWAN® servers.
+With BLE-based configuration through the Maya App, secure OTAA activation, support for major LoRaWAN® network servers, optional onboard data buffering, and compatibility with global LoRaWAN® frequency plans, MacSync LX1 provides a scalable and future-ready platform for industrial remote monitoring and wireless data acquisition.
 
-Whether deployed for **remote pump control**, **wireless industrial automation**, **smart agriculture irrigation control**, **water utility automation**, **industrial relay switching**, or **edge-based Industrial IoT control systems**, **MacSet LX1** delivers a reliable, scalable, and future-ready solution for modern wireless automation infrastructure.
+Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalogger, a PLC monitoring solution, or a complete Industrial IoT data acquisition platform, MacSync LX1 delivers reliable connectivity between field devices and cloud applications.
 
-| ![MacSet LX1 industrial LoRaWAN controller front view for industrial automation](/img/controller/macset-lx1-industrial-lorawan-controller-front-view.webp) | ![MacSet LX1 RS485 Modbus IO controller mounted installation view](/img/controller/macset-lx1-rs485-modbus-io-controller-mounted-view.webp)        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![MacSet LX1 wireless industrial automation controller side profile](/img/controller/macset-lx1-wireless-industrial-automation-controller-side-view.webp)            | ![MacSet LX1 LoRaWAN relay controller industrial installation view](/img/controller/macset-lx1-lorawan-relay-controller-industrial-installation.webp) |
+| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+|--------------------------------|--------------------------------|
+| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 ---
 
@@ -93,148 +113,133 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Industrial LoRaWAN® Controller</strong>
-    Industrial-grade LoRaWAN® controller engineered for remote automation, relay switching, industrial equipment control, and Industrial IoT deployments.
+    <strong>RS485 (Modbus RTU) to LoRaWAN® Converter</strong>
+    Wirelessly connects Modbus RTU devices, PLCs, RTUs, VFDs, and industrial controllers to LoRaWAN® networks.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Dual High-Current Relay Outputs</strong>
-    High-current industrial relay outputs for reliable remote switching of pumps, motors, contactors, solenoid valves, alarms, lighting systems, and automation equipment.
+    <strong>4–20 mA, 0–10 V & Digital Input Support</strong>
+    Directly interfaces with industrial transmitters, analog sensors, switches, and process instruments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Offline & Local Automation Capability</strong>
-    Supports edge-based automation workflows and local device-to-device logic execution without requiring continuous internet or cloud connectivity.
+    <strong>Industrial LoRaWAN® Datalogger</strong>
+    Collects, stores, and transmits critical field data for remote monitoring and Industrial IoT applications.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>RS485 Modbus RTU Interface</strong>
-    Seamless integration with industrial PLCs, Modbus sensors, SCADA systems, VFDs, industrial instruments, and process automation infrastructure.
+    <strong>Universal Industrial Device Compatibility</strong>
+    Compatible with energy meters, water meters, flow meters, pressure transmitters, level sensors, and PLC systems.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Support for Analog & Digital Inputs (0-10 V & 4-20 mA)</strong>
-    Flexible industrial input support for pressure sensors, flow meters, level sensors, environmental sensors, switches, and industrial monitoring devices.
+    <strong>Long-Range LoRaWAN® Communication</strong>
+    Enables reliable wireless connectivity across factories, utility plants, campuses, and remote installations.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>LoRaWAN® v1.0.4 Industrial Automation</strong>
-    Long-range wireless communication with LoRaWAN® Class A and Class C support for reliable Industrial IoT automation and remote control.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Smart Agriculture & Irrigation Automation</strong>
-    Enables wireless control of irrigation systems, fertigation systems, borewell pumps, water valves, and agricultural automation equipment.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Industrial Pump & Motor Control</strong>
-    Designed for remote operation and monitoring of industrial pumps, motors, blowers, compressors, and factory automation systems.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Macnman MacTalk Protocol</strong>
-    Supports direct peer-to-peer LoRa communication between devices for fast local automation and gateway-independent control logic.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Secure Remote Switching</strong>
-    AES-encrypted LoRaWAN® communication for secure industrial remote switching and reliable automation workflows.
+    <strong>Flexible Data Acquisition Modes</strong>
+    Supports periodic, threshold-based, event-driven, and sampling-based data collection strategies.
   </div>
 
   <div className="reusable-feature-card">
     <strong>BLE Configuration via Maya App</strong>
-    Fast on-site configuration, diagnostics, commissioning, and firmware management using the Macnman Maya Android App.
+    Fast commissioning, diagnostics, and parameter configuration from a smartphone.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial IP-Rated Enclosure</strong>
-    Rugged industrial enclosure engineered for outdoor deployments, industrial facilities, utility infrastructure, and harsh operating environments.
+    <strong>Local Data Storage</strong>
+    Supports onboard record buffering to prevent data loss during communication outages.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Event-Based Automation & Actuation</strong>
-    Trigger industrial actions based on timers, sensor thresholds, digital inputs, network commands, or local automation rules.
+    <strong>MacTalk Device-to-Device Communication</strong>
+    Enables direct LoRa communication between Macnman devices without requiring a gateway.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Fail-Safe Industrial Control Logic</strong>
-    Supports safe automation routines, power-restore states, watchdog monitoring, and industrial-grade output handling.
+    <strong>Remote Configuration Support</strong>
+    Modify device settings remotely through LoRaWAN® downlinks and JSON-based commands.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Compatible with Major LoRaWAN® Platforms</strong>
-    Fully compatible with ChirpStack, TTN, MQTT, Orbiwise, LORIOT, private LoRaWAN® servers, and industrial cloud platforms.
+    <strong>Industrial-Grade Design</strong>
+    Designed for continuous operation in harsh industrial, utility, agricultural, and outdoor environments.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Fully LoRaWAN® Network Compatible</strong>
+    Works with ChirpStack, The Things Stack, LORIOT, Orbiwise, private LNS platforms, and standard LoRaWAN® gateways.
   </div>
 
 </div>
-
 ---
 
 <h2 className="device-section-title">
   ## Suited Applications
 </h2>
 
+
 <div className="reusable-feature-grid">
 
   <div className="reusable-feature-card">
-    <strong>Industrial LoRaWAN® IO Controller Applications</strong>
-    Advanced LoRaWAN® IO Controller for industrial automation, remote relay switching, digital input monitoring, analog sensor interfacing, and wireless Industrial IoT deployments.
+    <strong>Modbus Energy Meter Monitoring</strong>
+    Connect RS485 energy meters to LoRaWAN® networks for real-time power consumption, demand, and energy analytics.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Agriculture & Irrigation Automation</strong>
-    Remotely control irrigation pumps, borewell motors, solenoid valves, fertigation systems, greenhouse equipment, and agricultural automation infrastructure using LoRaWAN®.
+    <strong>PLC & SCADA Remote Monitoring</strong>
+    Acquire data from PLCs, RTUs, and SCADA systems and transmit operational parameters wirelessly over LoRaWAN®.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Industrial Automation & Factory Control</strong>
-    Wireless control and monitoring of industrial machines, motors, compressors, conveyors, alarms, contactors, and process automation systems.
+    <strong>Industrial Process Automation</strong>
+    Monitor pressure, flow, level, temperature, and other process variables from 4–20 mA and 0–10 V instruments.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Water Management & Pump Automation</strong>
-    Intelligent LoRaWAN® pump controller for water treatment plants, STP/WWTP systems, reservoirs, utility pumping stations, and remote water infrastructure.
+    <strong>Water & Wastewater Infrastructure</strong>
+    Interface with flow meters, pressure transmitters, level sensors, and pump stations for remote asset monitoring.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Remote IO Monitoring & Control</strong>
-    Real-time monitoring of analog and digital inputs including pressure sensors, flow meters, level sensors, switches, and industrial field devices.
+    <strong>Factory Equipment Monitoring</strong>
+    Collect machine performance, production, runtime, and fault data from industrial equipment and controllers.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>RS485 Modbus Industrial Integration</strong>
-    Connect PLCs, VFDs, Modbus sensors, industrial meters, SCADA systems, and automation equipment over long-range LoRaWAN® networks.
+    <strong>Building Management Systems (BMS)</strong>
+    Integrate HVAC controllers, utility meters, environmental sensors, and automation systems into a LoRaWAN® network.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart Buildings & Facility Automation</strong>
-    Operate lighting systems, HVAC equipment, exhaust fans, access gates, DG systems, utility infrastructure, and building automation systems remotely.
-  </div>
-
-  <div className="reusable-feature-card">
-    <strong>Solar & Energy Infrastructure Monitoring</strong>
-    Automate solar energy systems, inverter controls, battery bank relays, energy distribution systems, and remote power management infrastructure.
+    <strong>Solar & Renewable Energy Monitoring</strong>
+    Monitor solar inverters, battery banks, charge controllers, and renewable energy assets through RS485 interfaces.
   </div>
 
   <div className="reusable-feature-card">
     <strong>Cold Storage & Refrigeration Systems</strong>
-    Control compressors, refrigeration systems, ventilation equipment, alarms, and emergency systems in cold-chain and food processing environments.
+    Track temperature transmitters, humidity sensors, compressor status, and refrigeration equipment health.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Oil, Gas & Pipeline Utility Networks</strong>
-    Remote operation of valves, pumps, pressure-release systems, actuators, and emergency shutdown systems across distributed utility infrastructure.
+    <strong>Tank Level & Storage Monitoring</strong>
+    Connect level transmitters and storage tank instrumentation for continuous inventory visibility.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Environmental Monitoring & Safety Automation</strong>
-    Trigger sirens, alarms, ventilation systems, exhaust blowers, and safety systems based on industrial sensor thresholds and event conditions.
+    <strong>Remote Utility & Infrastructure Assets</strong>
+    Monitor telecom towers, DG sets, pump houses, substations, and distributed infrastructure from a central dashboard.
   </div>
 
   <div className="reusable-feature-card">
-    <strong>Smart City & Remote Infrastructure Control</strong>
-    Wireless automation for public lighting, fountains, utility cabinets, telecom infrastructure, remote panels, signage systems, and unmanned field installations.
+    <strong>Environmental Monitoring Systems</strong>
+    Interface with weather stations, air quality sensors, and environmental transmitters for remote reporting.
+  </div>
+
+  <div className="reusable-feature-card">
+    <strong>Industrial IoT Data Acquisition</strong>
+    Convert legacy RS485 and analog devices into smart LoRaWAN® endpoints for IIoT and predictive maintenance initiatives.
   </div>
 
 </div>
@@ -245,39 +250,6 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
   ## Technical Specifications
 </h2>
 
-<div class="device-config-section">
-  <div class="device-config-title">IO Interfaces</div>
-  <div class="device-config-table">
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Relay Outputs</div>
-      <div class="device-config-right">2 × 16A Relay Outputs</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">RS485 Interface</div>
-      <div class="device-config-right">1 × RS485 (Switchable)</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">4–20 mA Analog Channels</div>
-      <div class="device-config-right">2 × Channels (Switchable)</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">0–10 V Analog Channels</div>
-      <div class="device-config-right">2 × Channels (Switchable)</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Digital Inputs</div>
-      <div class="device-config-right">2 × Channels (Switchable)</div>
-    </div>
-
-  </div>
-</div>
-
----
 
 <div class="device-config-section">
   <div class="device-config-title">RS485 Modbus Input Specifications</div>
@@ -540,30 +512,6 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
     <div class="device-config-row">
       <div class="device-config-left">Sampling Interval</div>
       <div class="device-config-right">Configurable data acquisition interval (e.g., 1 min to 24 hours)</div>
-    </div>
-
-  </div>
-</div>
-
----
-
-<div class="device-config-section">
-  <div class="device-config-title">Automation Rule Engine Modes</div>
-  <div class="device-config-table">
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Regular Mode</div>
-      <div class="device-config-right">Time-based relay automation where relay actions are executed at scheduled timings configured by the user</div>
-    </div>
-
-    <div class="device-config-row">
-      <div class="device-config-left">Trigger Mode</div>
-      <div class="device-config-right">Event-based relay automation using Analog Inputs or RS485 Modbus sensor data to trigger relay actions</div>
-    </div>
-
-    <div class="device-config-row shaded">
-      <div class="device-config-left">Cyclic Mode</div>
-      <div class="device-config-right">Repetitive relay ON/OFF operation based on user-defined cyclic timing sequences</div>
     </div>
 
   </div>
