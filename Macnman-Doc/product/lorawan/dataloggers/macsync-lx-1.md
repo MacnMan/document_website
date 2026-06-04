@@ -227,7 +227,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
     <strong>Tank Level & Storage Monitoring</strong>
     Connect level transmitters and storage tank instrumentation for continuous inventory visibility.
   </div>
-  
+
   <div className="reusable-feature-card">
     <strong>Remote Utility & Infrastructure Assets</strong>
     Monitor telecom towers, DG sets, pump houses, substations, and distributed infrastructure from a central dashboard.
@@ -702,7 +702,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
       <td>9–36 V DC External Power</td>
       <td>Power Operated</td>
       <td>Industrial automation, energy meter monitoring, PLC monitoring, SCADA integration, process monitoring, utility infrastructure, and continuous data acquisition applications.</td>
-      <td>901</td>
+      <td>8301</td>
     </tr>
 
     <tr>
@@ -710,7 +710,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
       <td>Internal Battery Powered</td>
       <td>Battery Operated</td>
       <td>Remote asset monitoring, water distribution networks, environmental monitoring, tank level monitoring, agricultural monitoring, and locations without permanent power availability.</td>
-      <td>902</td>
+      <td>8302</td>
     </tr>
   </tbody>
 </table>
