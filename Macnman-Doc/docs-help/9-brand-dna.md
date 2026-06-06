@@ -36,8 +36,7 @@ This approach creates a common language across engineering, sales, support, manu
 
 We believe a model number should be **read, not memorized**. Every letter and number has a purpose, turning a simple product code into a compact representation of the product's identity.
 
-![MacSync LX1 enclosure dimensions and mounting layout](/img/devices/product-model-number-architecture.svg)
-
+![Macnman product model number architecture showing product family, technology assignment, sensor assignment, model version, and power source naming convention](/img/devices/product-model-number-architecture.svg)
 
 ### Every Character Has a Purpose
 
@@ -46,3 +45,53 @@ Unlike traditional product codes that appear random and difficult to remember, e
 This structured naming system allows engineers, partners, distributors, and customers to instantly understand a product's core functionality without opening a datasheet. A model number such as **MacSync L TS X1 BO** immediately communicates that the device belongs to the **MacSync** family, uses **LoRaWAN®** communication, functions as a **Temperature Sensor**, is built on the **X1 platform**, and operates on **battery power**.
 
 As our product ecosystem continues to expand, this naming architecture ensures consistency, simplifies product selection, and creates a common language across the entire organization. Every Macnman model number is intentionally engineered to be informative, scalable, and instantly recognizable.
+
+## Model Number Structure 
+
+| Segment | Example | Meaning | Description |
+|----------|----------|----------|-------------|
+| Product Family | MacSync | MacSync Product Family | Identifies the product series or ecosystem to which the device belongs. |
+| Technology Assignment | L | LoRaWAN® | Defines the primary communication technology used by the device. |
+| Sensor Assignment | TS | Temperature Sensor | Indicates the sensing capability or primary function of the device. |
+| Model Version | X1 | Hardware Platform X1 | Represents the hardware generation, sensor type / model, and platform version. |
+| Power Source | BO | Battery Operated | Specifies how the device is powered. |
+
+## Technology Assignment Reference Examples
+
+| Code | Technology |
+|--------|------------|
+| L | LoRaWAN® |
+| M | Macnman MacTalk® |
+| W | Wi-Fi |
+| B | Bluetooth® LE |
+| N | NB-IoT |
+| 4G | LTE / 4G Cellular |
+| E | Ethernet |
+| H | Hybrid Communication |
+
+## Power Source Reference Examples
+
+| Code | Meaning |
+|--------|---------|
+| BO | Battery Operated |
+| PO | Powered Operated |
+| SO | Solar Operated |
+| IO | Induction Powered |
+| HO | Hybrid Power Source |
+
+## Sensor Assignment Reference Examples
+
+| Code | Meaning |
+|--------|---------|
+| TS | Temperature Sensor |
+| WQS | Water Quality Sensor |
+| DSS | Door Status Sensor |
+| US | Ultrasonic Sensor |
+| PS | Pressure Sensor |
+| VS | Vibration Sensor |
+| CO2GS | Carbon Dioxide Gas Sensor |
+| AQ | Air Quality Sensor |
+| WS | Weather Station |
+| SS | Soil Sensor |
+
+
