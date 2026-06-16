@@ -1019,6 +1019,7 @@
 
 
 
+
 import Link from "@docusaurus/Link";
 import React, { useState, useEffect, useRef } from "react";
 import { ROUTES } from "../../lib/routes";
@@ -1557,16 +1558,16 @@ const data = {
   ],
 };
 
-const categories = ["Cellular", "LoRaWAN", "WiFi", "Ble", "Modules", "Other", "All"];
+const categories = [ "LoRaWAN","Cellular", "WiFi", "Ble", "Modules", "Other", "All"];
 const techOptions = ["Sensors", "Controllers", "Gateways", "Converters", "Modules", "All"];
 
 const getCategoryIcon = (category: string, isActive: boolean) => {
   const size = 20;
   const className = isActive ? "text-[#DA2744]" : "text-[#9E9E9E]";
   switch (category) {
-    case "Cellular":
-      return <FiSmartphone size={size} className={className} />;
     case "LoRaWAN":
+      return <FiSmartphone size={size} className={className} />;
+    case "Cellular":
       return <FiHome size={size} className={className} />;
     case "WiFi":
       return <FiWifi size={size} className={className} />;
@@ -1582,7 +1583,7 @@ const getCategoryIcon = (category: string, isActive: boolean) => {
 };
 
 export default function ProductPage() {
-  const [activeCategory, setActiveCategory] = useState<string>("Cellular");
+  const [activeCategory, setActiveCategory] = useState<string>("LoRaWAN");
   const [activeTech, setActiveTech] = useState<string>("All");
   const [activeSub, setActiveSub] = useState<string>("All");
   const [techSliderStyle, setTechSliderStyle] = useState({ left: 0, width: 0 });
@@ -1625,14 +1626,14 @@ export default function ProductPage() {
     const matchedProducts = data.products.filter((p) => {
       const catMatch =
         activeCategory === "All" ||
-        (activeCategory === "Cellular" && p.technology === "Cellular") ||
         (activeCategory === "LoRaWAN" && p.technology === "LoRaWAN") ||
+        (activeCategory === "Cellular" && p.technology === "Cellular") ||
         (activeCategory === "WiFi" && p.technology === "Wi-Fi") ||
         (activeCategory === "Ble" && p.technology === "BLE") ||
         (activeCategory === "Modules" && p.category === "Modules") ||
         (activeCategory === "Other" &&
-          (p.technology !== "Cellular" &&
-            p.technology !== "LoRaWAN" &&
+          (p.technology !== "LoRaWAN" &&
+          p.technology !== "Cellular" &&
             p.technology !== "Wi-Fi" &&
             p.technology !== "BLE" &&
             p.category !== "Modules"));
@@ -1688,14 +1689,14 @@ export default function ProductPage() {
   const filteredProducts = data.products.filter((p) => {
     const catMatch =
       activeCategory === "All" ||
-      (activeCategory === "Cellular" && p.technology === "Cellular") ||
       (activeCategory === "LoRaWAN" && p.technology === "LoRaWAN") ||
+      (activeCategory === "Cellular" && p.technology === "Cellular") ||
       (activeCategory === "WiFi" && p.technology === "Wi-Fi") ||
       (activeCategory === "Ble" && p.technology === "BLE") ||
       (activeCategory === "Modules" && p.category === "Modules") ||
       (activeCategory === "Other" &&
-        (p.technology !== "Cellular" &&
-          p.technology !== "LoRaWAN" &&
+        (p.technology !== "LoRaWAN" &&
+        p.technology !== "Cellular" &&
           p.technology !== "Wi-Fi" &&
           p.technology !== "BLE" &&
           p.category !== "Modules"));
@@ -1730,16 +1731,16 @@ export default function ProductPage() {
         </h1>
 
         {/* 3. Bottom Support & Ecosystem Pills */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6 mt-6 max-w-6xl mx-auto px-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-16 mt-10 max-w-6xl mx-auto px-4">
           {/* Pill 1: Call Expert */}
           <a
             href="tel:+917972856163"
             aria-label="Call our IoT expert at +91 79728 56163 for assistance selecting products"
-            className="group support-pill relative overflow-hidden bg-white flex items-center gap-4 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] px-5 py-2 rounded-full hover:border-[#DA2744] hover:scale-[1.02] hover:shadow-[0_10px_25px_rgba(218,39,68,0.25)] w-full md:w-auto"
+            className="group support-pill relative overflow-hidden bg-white flex items-center gap-4 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] px-5 py-3 rounded-full hover:border-[#DA2744] hover:scale-[1.02] hover:shadow-[0_10px_25px_rgba(218,39,68,0.25)] w-full md:w-auto"
           >
             {/* Curved fill background overlay */}
             <div className="absolute left-1/2 -bottom-10 -translate-x-1/2 w-8 h-8 bg-[#DA2744] rounded-full transition-transform duration-1000 ease-in-out scale-0 group-hover:scale-[18] z-0 pointer-events-none" />
-            <div className="relative z-10 w-10 h-10 rounded-full overflow-hidden border border-gray-100 flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
+            <div className="relative -ml-1 z-10 w-10 h-10 rounded-full overflow-hidden border border-gray-100 flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
               <img
                 src="/docs/img/HeroSection/circle-girl.svg"
                 alt="IoT Expert"
@@ -1760,11 +1761,11 @@ export default function ProductPage() {
           <Link
             href="/"
             aria-label="Explore the complete lineup of Macnman IoT products"
-            className="group support-pill relative overflow-hidden bg-white flex items-center gap-4 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] px-6 py-2 rounded-full hover:border-[#DA2744] hover:scale-[1.02] hover:shadow-[0_10px_25px_rgba(218,39,68,0.25)] w-full md:w-auto"
+            className="group support-pill relative overflow-hidden bg-white flex items-center gap-4 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] px-6 py-3 rounded-full hover:border-[#DA2744] hover:scale-[1.02] hover:shadow-[0_10px_25px_rgba(218,39,68,0.25)] w-full md:w-auto"
           >
             {/* Curved fill background overlay */}
             <div className="absolute left-1/2 -bottom-10 -translate-x-1/2 w-8 h-8 bg-[#DA2744] rounded-full transition-transform duration-1000 ease-in-out scale-0 group-hover:scale-[18] z-0 pointer-events-none" />
-            <div className="relative z-10 w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-600 group-hover:bg-white/20 group-hover:text-white group-hover:scale-105 transition-all duration-300 flex-shrink-0">
+            <div className="relative z-10 w-10 h-10 -ml-2 rounded-full bg-gray-50 flex items-center justify-center text-gray-600 group-hover:bg-white/20 group-hover:text-white group-hover:scale-105 transition-all duration-300 flex-shrink-0">
               <FiShoppingBag className="w-5 h-5" />
             </div>
             <div className="relative z-10 text-left leading-tight">
@@ -1781,11 +1782,11 @@ export default function ProductPage() {
           <a
             href="tel:+917972856163"
             aria-label="Contact Macnman support at +91 79728 56163"
-            className="group support-pill relative overflow-hidden bg-white flex items-center gap-4 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] px-6 py-2 rounded-full hover:border-[#DA2744] hover:scale-[1.02] hover:shadow-[0_10px_25px_rgba(218,39,68,0.25)] w-full md:w-auto"
+            className="group support-pill relative overflow-hidden bg-white flex items-center gap-4 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] px-6 py-3 rounded-full hover:border-[#DA2744] hover:scale-[1.02] hover:shadow-[0_10px_25px_rgba(218,39,68,0.25)] w-full md:w-auto"
           >
             {/* Curved fill background overlay */}
             <div className="absolute left-1/2 -bottom-10 -translate-x-1/2 w-8 h-8 bg-[#DA2744] rounded-full transition-transform duration-1000 ease-in-out scale-0 group-hover:scale-[18] z-0 pointer-events-none" />
-            <div className="relative z-10 w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-600 group-hover:bg-white/20 group-hover:text-white group-hover:scale-105 transition-all duration-300 flex-shrink-0">
+            <div className="relative -ml-2 z-10 w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-600 group-hover:bg-white/20 group-hover:text-white group-hover:scale-105 transition-all duration-300 flex-shrink-0">
               <FiHeadphones className="w-5 h-5" />
             </div>
             <div className="relative z-10 text-left leading-tight">
@@ -1801,11 +1802,11 @@ export default function ProductPage() {
       </div>
 
       {/* Categories Tabs Filter with Left and Right circular arrow navigation */}
-      <div className="relative max-w-[854px] mx-auto w-full px-4 mb-8 mt-10">
+      <div className="relative max-w-[930px] mx-auto w-full px-4 mb-8 mt-10">
         {/* Row for arrows and tab text vertically centered */}
-        <div className="flex justify-between items-center max-w-[854px] mx-auto pb-4">
+        <div className="flex justify-between items-center max-w-[930px] mx-auto pb-4">
           {/* Tabs row */}
-          <div className="flex gap-[30px] items-center justify-center relative flex-1">
+          <div className="flex gap-[40px] items-center justify-center relative flex-1">
             {categories.map((cat) => {
               const isActive = activeCategory === cat;
               return (
@@ -1850,7 +1851,7 @@ export default function ProductPage() {
             aria-label="Filter products by technology"
             className="relative flex items-center mx-auto p-[4px]"
             style={{
-              width: "min(840px, 100%)",
+              width: "min(640px, 100%)",
               height: "48px",
               background: "#F9F9F9",
               borderRadius: "50px",
@@ -1922,9 +1923,9 @@ export default function ProductPage() {
                     setActiveSub(sub);
                   }}
                   type="button"
-                  className={`text-xs font-bold pb-1 whitespace-nowrap flex-shrink-0 transition-all border-b-2 ${isActive
-                      ? "text-[#DA2744] border-[#DA2744]"
-                      : "text-gray-400 hover:text-gray-900 border-transparent"
+                  className={`text-xs font-bold pt-2 pb-1 whitespace-nowrap flex-shrink-0 transition-all border-b-2 ${isActive
+                    ? "text-[#DA2744] border-[#DA2744]"
+                    : "text-gray-400 hover:text-gray-900 border-transparent"
                     }`}
                 >
                   {sub}
@@ -1947,9 +1948,9 @@ export default function ProductPage() {
 
 
       {/* Product Cards Responsive Grid */}
-      <div className="max-w-7xl mx-auto px-6 pb-24">
+      <div className="max-w-6xl mx-auto px-6 pb-24">
         {filteredProducts.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10 justify-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 justify-items-center">
             {filteredProducts.map((p) => {
               const displayCategory = p.category ? p.category.slice(0, -1).toUpperCase() : "SENSOR";
               return (
