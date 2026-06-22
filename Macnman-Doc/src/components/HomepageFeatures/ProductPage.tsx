@@ -88,7 +88,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Trackers",
-      learnMore: "/docs/product/uwb/trackers/fire-guard-single-channel-lora-gateway-for-firedatasheet",
+      learnMore: "/product/lorawan/gateways/fire-guard-single-channel-lora-gateway-for-firedatasheet",
     },
     {
       id: 4,
@@ -100,7 +100,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Weather Stations",
-      learnMore: "/docs/product/lorawan/sensors/weather-stations/macsync-l-five-in-one-weather-station-x-five",
+      learnMore: "/product/lorawan/sensors/weather-stations/macsync-l-five-in-one-weather-station-x-five",
     },
     {
       id: 5,
@@ -112,7 +112,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Time of Flight",
-      learnMore: "/lorawan/sensors/lorawan-time-of-flight-sensor-macray-tof-gen-one",
+      learnMore: "/product/lorawan/sensors/level-sensors/macray-ltof-lorawan-time-of-flight-sensor",
     },
     {
       id: 6,
@@ -124,7 +124,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Temperature & Humidity",
-      learnMore: "/docs/product/lorawan/sensors/temperature/macsync-lt-one-datasheet",
+      learnMore: "/product/lorawan/sensors/temperature/macsync-lts-x1-datasheet",
     },
     {
       id: 7,
@@ -136,7 +136,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "CO2 Sensors",
-      learnMore: "/docs/product/lorawan/sensors/envirnomental-sensors/macsync-l-co-2-sensors",
+      learnMore: "/product/lorawan/sensors/envirnomental-sensors/macsync-l-co2-xx-datasheet",
     },
     {
       id: 8,
@@ -148,7 +148,7 @@ const data = {
       category: "Modules",
       technology: "LoRaWAN",
       subCategory: "Communication Modules",
-      learnMore: "/docs/modules/LoRa%20Modules/MAC32WLE5/introduction",
+      learnMore: "/Modules/LoRa%20Modules/MAC32WLE5/introduction",
     },
     {
       id: 9,
@@ -160,7 +160,7 @@ const data = {
       category: "Modules",
       technology: "LoRaWAN",
       subCategory: "Combo Modules",
-      learnMore: "/docs/modules/LoRa%20Modules/mac32wble5/introduction",
+      learnMore: "/Modules/LoRa%20Modules/mac32wble5/introduction",
     },
     {
       id: 10,
@@ -208,7 +208,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Noise Sensors",
-      learnMore: "/docs/product/lorawan/sensors/envirnomental-sensors/macsync-l-n-x-one-noise-sensor",
+      learnMore: "/product/lorawan/sensors/other-sensors/macsync-l-n-x-one-sound-level-sensor",
     },
     {
       id: 14,
@@ -220,7 +220,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Soil Sensors",
-      learnMore: "/docs/product/lorawan/sensors/soil-sensors/macsync-l-seven-in-one-soil-sensor",
+      learnMore: "/product/lorawan/sensors/soil-sensors/macsync-l-seven-in-one-soil-sensor",
     },
     {
       id: 15,
@@ -232,7 +232,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Ultrasonic Sensors",
-      learnMore: "/docs/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one",
+      learnMore: "/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one",
     },
     {
       id: 16,
@@ -244,7 +244,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Parking Sensors",
-      learnMore: "/docs/product/lorawan/sensors/parking-sensors/parknode-gen-one-lorawan-parking-sensor",
+      learnMore: "/product/lorawan/sensors/other-sensors/parknode-gen-one-lorawan-parking-sensor",
     },
     {
       id: 17,
@@ -256,7 +256,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Temperature & Humidity",
-      learnMore: "/docs/product/lorawan/sensors/temperature/macsync-l-rtd-x-five-datasheet",
+      learnMore: "/product/lorawan/sensors/temperature/macsync-lorawan-rtd-sensor-x-series",
     },
     {
       id: 21,
@@ -268,7 +268,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Pressure Sensors",
-      learnMore: "/docs/product/lorawan/sensors/envirnomental-sensors/macsync-lorawan-pressure-sensor-x-series",
+      learnMore: "/product/lorawan/sensors/pressure-sensors/macsync-lps-xx-lorawan-pressure-sensor",
     },
     {
       id: 22,
@@ -280,7 +280,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Weather Stations",
-      learnMore: "/docs/product/lorawan/sensors/weather-stations/macsync-l-six-in-one-weather-station-x-six",
+      learnMore: "/product/lorawan/sensors/weather-stations/macsync-l-six-in-one-weather-station-x-six",
     },
     {
       id: 23,
@@ -316,7 +316,7 @@ const data = {
       category: "Gateways",
       technology: "LoRaWAN",
       subCategory: "Single-Channel Gateways",
-      learnMore: "/docs/product/lorawan/gateways/indilora-single-channel-datasheet",
+      learnMore: "/product/lorawan/gateways/indilora-single-channel-datasheet",
     },
     {
       id: 26,
@@ -340,7 +340,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Vibration Sensors",
-      learnMore: "/docs/product/lorawan/sensors/vibration/macsync-lt-one-datasheet",
+      learnMore: "/",
     },
     {
       id: 28,
@@ -352,7 +352,7 @@ const data = {
       category: "Controllers",
       technology: "LoRaWAN",
       subCategory: "Fire System Controllers",
-      learnMore: "/docs/product/lorawan/gateways/fire-guard-single-channel-lora-gateway-for-firedatasheet",
+      learnMore: "/product/lorawan/gateways/fire-guard-single-channel-lora-gateway-for-firedatasheet",
     },
     {
       id: 29,
@@ -460,7 +460,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Weather Stations",
-      learnMore: "/docs/product/lorawan/sensors/weather-stations/macsync-l-optical-rainfall-sensor",
+      learnMore: "/product/lorawan/sensors/weather-stations/macsync-l-optical-rainfall-sensor",
     },
     {
       id: 38,
@@ -472,7 +472,7 @@ const data = {
       category: "Gateways",
       technology: "LoRaWAN",
       subCategory: "Single-Channel Gateways",
-      learnMore: "/docs/product/lorawan/gateways/setu-scx-single-channel-datasheet",
+      learnMore: "/product/lorawan/gateways/setu-scx-single-channel-datasheet",
     },
     {
       id: 39,
@@ -484,7 +484,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Soil Sensors",
-      learnMore: "/docs/product/lorawan/sensors/soil-sensors/macsync-l-soil-ph-sensor-datasheet",
+      learnMore: "/product/lorawan/sensors/soil-sensors/macsync-l-soil-ph-sensor-datasheet",
     },
     {
       id: 40,
@@ -496,7 +496,7 @@ const data = {
       category: "Sensors",
       technology: "BLE",
       subCategory: "Temperature & Humidity",
-      learnMore: "/docs/product/ble/sensors/ble-tag-one",
+      learnMore: "/product/ble/sensors/ble-tag-one",
     },
     {
       id: 41,
@@ -520,7 +520,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "Soil Sensors",
-      learnMore: "/docs/product/lorawan/sensors/soil-sensors/macsync-l-soil-moisture-sensor-datasheet",
+      learnMore: "/product/lorawan/sensors/soil-sensors/macsync-l-soil-moisture-sensor-datasheet",
     },
     {
       id: 45,
@@ -730,7 +730,7 @@ function ProductPageContent() {
 
           {/* Pill 2: Explore Ecosystem */}
           <Link
-            href="/Products"
+            href="/"
             aria-label="Explore the complete lineup of Macnman IoT products"
             className="group support-pill relative overflow-hidden bg-white flex items-center gap-4 border border-gray-100 shadow-[0_4px_20px_rgba(0,0,0,0.02)] px-6 py-4 rounded-full hover:border-[#DA2744] hover:scale-[1.02] hover:shadow-[0_10px_25px_rgba(218,39,68,0.25)] w-full md:w-auto"
           >
