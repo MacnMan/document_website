@@ -179,7 +179,7 @@ With an **in-house high-efficiency internal antenna** and optimized low-noise RF
 
   <div className="reusable-feature-card">
     <strong>Environmental Risk Monitoring</strong>
-    Early warning for spill detection, groundwater rise, or hazardous waste overflow.
+    Early warning for spill detections, groundwater rise, or hazardous waste overflow.
   </div>
 </div>
 

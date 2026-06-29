@@ -3,7 +3,7 @@ id: proposal_introduction_welding_data_collection_&_monitoring_system_proposal
 title: Scope
 ---
 
-# Welding Data Collection & Monitoring System Proposal
+# Welding Data Collection & Monitoring System Proposal Version 1.0
 
 <br/>
 ![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-system-introduction.webp)
