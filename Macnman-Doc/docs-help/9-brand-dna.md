@@ -67,19 +67,37 @@ As our portfolio continues to expand, this naming architecture ensures consisten
 | B | Bluetooth® LE |
 
 ## Application Reference Examples
-
-| Code | Meaning |
-|--------|---------|
+| Code | Sensor |
+|------|--------|
+| T | Temperature |
+| H | Humidity |
 | TH | Temperature & Humidity |
-| TS | Temperature Sensor |
-| PS | Pressure Sensor |
-| WS | Weather Station |
-| US | Ultrasonic Sensor |
-| GS | Gas Sensor |
+| P | Pressure |
+| CO2 | Carbon Dioxide |
+| VOC | Volatile Organic Compounds |
 | AQ | Air Quality |
-| SS | Soil Sensor |
-| WQ | Water Quality |
-| CT | Current Transformer Monitoring |
+| WES | Weather Station |
+| SL | Sound Level |
+| RTD | Resistance Temperature Detector (RTD) |
+| UL | Ultrasonic Level |
+| ToF | Time of Flight |
+| Odor | Odor Sensor |
+| H2S | Hydrogen Sulfide |
+| O2 | Oxygen Sensor |
+| C2H4 | Quantitative Ethylene Sensor |
+| SNPK | Soil NPK |
+| SMT | Soil Moisture & Temperature |
+| SEC | Soil Electrical Conductivity (EC) |
+| SPH | Soil pH |
+| MS7 | Multiparameter Soil Sensor (7-in-1) |
+| WQEC | Water Quality EC |
+| WQPH | Water Quality pH |
+| HPT | Hydrostatic Pressure Transducer |
+| ORM | Optical Rain Meter |
+| WTS5 | Weather Station (5-in-1) |
+| WTS6 | Weather Station (6-in-1) |
+| DRS | Door Status |
+| SDL | Sound Level |
 
 ## Power Type Reference
 
@@ -108,5 +126,17 @@ As our portfolio continues to expand, this naming architecture ensures consisten
 | X1 | Hardware Platform / Sensor Generation 1 |
 | X2 | Hardware Platform / Sensor Generation 2 |
 | Xn | Future Hardware Platform Generations |
+
+## Product Family Abbrivation
+
+| Code | Meaning |
+|--------|---------|
+| MS |  MacSync |
+| MST | MacSet |
+| NM | Narmada |
+| PN |  ParkoNode |
+| MR | MacRay |
+| ST | Setu |
+| SL | MacLink |
 
 
