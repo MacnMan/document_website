@@ -557,32 +557,55 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </div>
 
 ---
-
 <h2 className="device-section-title">
-  ## MacSync LOXGS X1 Variants
+  ## MacSync LOXGS X2 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LOXGS X1 BO</td>
-      <td>Battery Powered</td>
-      <td>Remote and low-power LoRaWAN® O2 monitoring deployments</td>
-      <td>826</td>
+      <td>8521</td>
+      <td>MacSync-L-O2-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote quantitative oxygen monitoring for confined spaces, industrial safety, laboratories, and environmental monitoring</td>
     </tr>
     <tr>
-      <td>MacSync LOXGS X1 PO</td>
-      <td>External Power (9 ~ 36 V DC)</td>
-      <td>Continuous powered industrial O2 monitoring deployments</td>
-      <td>827</td>
+      <td>8522</td>
+      <td>MacSync-L-O2-PS-X2</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous oxygen monitoring with external power for industrial plants, gas storage, and safety-critical applications</td>
+    </tr>
+    <tr>
+      <td>8523</td>
+      <td>MacSync-M-O2-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote quantitative oxygen monitoring</td>
+    </tr>
+    <tr>
+      <td>8524</td>
+      <td>MacSync-M-O2-PS-X2</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based industrial oxygen monitoring with continuous external power</td>
+    </tr>
+    <tr>
+      <td>8525</td>
+      <td>MacSync-B-O2-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local quantitative oxygen monitoring, commissioning, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

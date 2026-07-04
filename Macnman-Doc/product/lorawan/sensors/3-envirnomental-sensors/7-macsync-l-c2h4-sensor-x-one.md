@@ -561,32 +561,55 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </div>
 
 ---
-
 <h2 className="device-section-title">
-  ## MacSync LC2H4 X1 Variants
+  ## MacSync LC2H4 X2 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LC2H4 X1 BO</td>
-      <td>Battery Powered</td>
-      <td>Remote and low-power LoRaWAN® ethylene monitoring deployments</td>
-      <td>828</td>
+      <td>8526</td>
+      <td>MacSync-L-C2H4-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote quantitative ethylene monitoring for fruit ripening chambers, cold storage facilities, agriculture, and food logistics</td>
     </tr>
     <tr>
-      <td>MacSync LC2H4 X1 PO</td>
-      <td>External Power (9 ~ 36 V DC)</td>
-      <td>Continuous powered industrial ethylene monitoring deployments</td>
-      <td>829</td>
+      <td>8527</td>
+      <td>MacSync-L-C2H4-PS-X2</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial ethylene monitoring with external power for post-harvest processing and storage facilities</td>
+    </tr>
+    <tr>
+      <td>8528</td>
+      <td>MacSync-M-C2H4-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote quantitative ethylene monitoring</td>
+    </tr>
+    <tr>
+      <td>8529</td>
+      <td>MacSync-M-C2H4-PS-X2</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based industrial ethylene monitoring with continuous external power</td>
+    </tr>
+    <tr>
+      <td>8530</td>
+      <td>MacSync-B-C2H4-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local quantitative ethylene monitoring, commissioning, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

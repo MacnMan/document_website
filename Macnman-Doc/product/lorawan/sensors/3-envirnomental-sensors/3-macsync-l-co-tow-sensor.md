@@ -696,41 +696,94 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>CO₂ Range</th>
       <th>Power Source</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LCO2 X1 BO</td>
-      <td>400 ppm ~ 2,000 ppm</td>
-      <td>Inbuilt Battery (19 Ah)</td>
-      <td>Classrooms, offices, smart buildings, schools, and indoor air quality monitoring deployments</td>
-      <th>820</th>
+      <td>8511</td>
+      <td>MacSync-L-CO2-BS-X1</td>
+      <td>400–2,000 ppm</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Indoor air quality monitoring for offices, classrooms, smart buildings, and HVAC automation</td>
     </tr>
     <tr>
-      <td>MacSync LCO2 X1 PO</td>
-      <td>400 ppm ~ 2,000 ppm</td>
-      <td>External Power (9 ~ 36 V DC)</td>
-      <td>Continuous powered HVAC automation and commercial indoor environmental monitoring</td>
-      <th>821</th>
+      <td>8512</td>
+      <td>MacSync-L-CO2-PS-X1</td>
+      <td>400–2,000 ppm</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous CO₂ monitoring for commercial buildings and industrial facilities</td>
     </tr>
     <tr>
-      <td>MacSync L CO2 X2 BO</td>
-      <td>400 ppm ~ 5,000 ppm</td>
-      <td>Battery Powered</td>
-      <td>Industrial indoor air quality monitoring, warehouses, laboratories, and high CO₂ concentration environments</td>
-      <th>822</th>
+      <td>8513</td>
+      <td>MacSync-M-CO2-BS-X1</td>
+      <td>400–2,000 ppm</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk CO₂ monitoring for indoor environmental applications</td>
     </tr>
     <tr>
-      <td>MacSync L CO2 X2 PO</td>
-      <td>400 ppm ~ 5,000 ppm</td>
-      <td>External Power (9 ~ 36 V DC)</td>
-      <td>Factories, underground parking areas, commercial kitchens, industrial HVAC systems, and continuous high-range CO₂ monitoring deployments</td>
-      <th>823</th>
+      <td>8514</td>
+      <td>MacSync-M-CO2-PS-X1</td>
+      <td>400–2,000 ppm</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based continuous CO₂ monitoring for industrial automation</td>
+    </tr>
+    <tr>
+      <td>8515</td>
+      <td>MacSync-B-CO2-BS-X1</td>
+      <td>400–2,000 ppm</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local CO₂ monitoring, commissioning, and diagnostics using BLE connectivity</td>
+    </tr>
+    <tr>
+      <td>8531</td>
+      <td>MacSync-L-CO2-BS-X2</td>
+      <td>400–5,000 ppm</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>High-range CO₂ monitoring for laboratories, warehouses, and industrial environments</td>
+    </tr>
+    <tr>
+      <td>8532</td>
+      <td>MacSync-L-CO2-PS-X2</td>
+      <td>400–5,000 ppm</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous high-range CO₂ monitoring for industrial HVAC and process applications</td>
+    </tr>
+    <tr>
+      <td>8533</td>
+      <td>MacSync-M-CO2-BS-X2</td>
+      <td>400–5,000 ppm</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk quantitative CO₂ monitoring for industrial environments</td>
+    </tr>
+    <tr>
+      <td>8534</td>
+      <td>MacSync-M-CO2-PS-X2</td>
+      <td>400–5,000 ppm</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based quantitative CO₂ monitoring with continuous external power</td>
+    </tr>
+    <tr>
+      <td>8535</td>
+      <td>MacSync-B-CO2-BS-X2</td>
+      <td>400–5,000 ppm</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local high-range CO₂ monitoring, commissioning, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

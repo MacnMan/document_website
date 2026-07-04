@@ -629,27 +629,54 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Gas Monitoring</th>
       <th>Power Source</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync L Odor X2 BO</td>
+      <td>8516</td>
+      <td>MacSync-L-Odor-BS-X2</td>
       <td>NH₃ + H₂S</td>
-      <td>Inbuilt Battery (19 Ah)</td>
-      <td>Wastewater treatment plants, sewage monitoring, landfill odor monitoring, and smart city odor analytics</td>
-      <th>824</th>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote quantitative odor monitoring for STP, WWTP, landfills, smart cities, and environmental compliance</td>
     </tr>
     <tr>
-      <td>MacSync L Odor X2 PO</td>
+      <td>8517</td>
+      <td>MacSync-L-Odor-PS-X2</td>
       <td>NH₃ + H₂S</td>
-      <td>External Power (9 ~ 36 V DC)</td>
-      <td>Continuous industrial odor monitoring, chemical plants, industrial safety systems, and environmental compliance deployments</td>
-      <th>825</th>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial odor monitoring with external power for wastewater and process industries</td>
+    </tr>
+    <tr>
+      <td>8518</td>
+      <td>MacSync-M-Odor-BS-X2</td>
+      <td>NH₃ + H₂S</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote quantitative odor monitoring</td>
+    </tr>
+    <tr>
+      <td>8519</td>
+      <td>MacSync-M-Odor-PS-X2</td>
+      <td>NH₃ + H₂S</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based industrial odor monitoring with continuous external power</td>
+    </tr>
+    <tr>
+      <td>8520</td>
+      <td>MacSync-B-Odor-BS-X2</td>
+      <td>NH₃ + H₂S</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local quantitative odor monitoring, commissioning, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>
