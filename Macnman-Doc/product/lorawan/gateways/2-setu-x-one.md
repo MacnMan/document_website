@@ -616,43 +616,29 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 </div>
 
 ---
-
 <h2 className="device-section-title">
   ## Setu LX Series Variants
 </h2>
 
-
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>Connectivity</th>
-      <th>Power Interface</th>
-      <th>Ideal For</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Backhaul Connectivity</th>
+      <th>Power Input</th>
+      <th>Deployment Type</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Setu LX1</td>
-      <td>Wi-Fi</td>
-      <td>USB Type-C</td>
-      <td>Compact Indoor LoRaWAN® gateway for smart offices, retail stores, indoor environmental monitoring, and enterprise IoT deployments using Wi-Fi backhaul.</td>
-      <td>SLX1</td>
-    </tr>
-    <tr>
-      <td>Setu LX2</td>
-      <td>Cellular + Wi-Fi</td>
-      <td>USB Type-C</td>
-      <td>Indoor Industrial IoT gateway with LTE and Wi-Fi connectivity for enterprise monitoring, remote telemetry, smart campuses, and commercial infrastructure.</td>
-      <td>SLX2</td>
-    </tr>
-    <tr>
-      <td>Setu LX3</td>
-      <td>Cellular + Wi-Fi + Modbus TCP/IP</td>
-      <td>USB Type-C</td>
-      <td>Advanced Industrial Indoor LoRaWAN® gateway with Modbus TCP/IP integration for Industry 4.0 automation, industrial telemetry, smart buildings, and edge automation systems.</td>
-      <td>SLX3</td>
+      <td>82201</td>
+      <td>Setu-L-PG-X1</td>
+      <td>Ethernet + Wi-Fi + 4G LTE</td>
+      <td>PoE IEEE 802.3af / USB Type-C / 12–24 V DC</td>
+      <td>Industrial Indoor Installation</td>
+      <td>Indoor LoRaWAN® deployments for smart buildings, factories, hospitals, warehouses, offices, educational campuses, retail stores, hotels, commercial infrastructure, and Industry 4.0 applications requiring reliable multi-floor wireless coverage and enterprise IoT connectivity.</td>
     </tr>
   </tbody>
 </table>

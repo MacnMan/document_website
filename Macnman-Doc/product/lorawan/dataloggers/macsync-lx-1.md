@@ -689,31 +689,52 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Deployment Type</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LX1 PO</td>
-      <td>9–36 V DC External Power</td>
-      <td>Power Operated</td>
-      <td>Industrial automation, energy meter monitoring, PLC monitoring, SCADA integration, process monitoring, utility infrastructure, and continuous data acquisition applications.</td>
-      <td>8301</td>
+      <td>83300</td>
+      <td>MacSync-L-PV-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Industrial data acquisition from RS485 Modbus RTU devices, PLCs, energy meters, flow meters, pressure transmitters, level sensors, analog (4–20 mA / 0–10 V) instruments, and digital inputs for remote monitoring, Industrial IoT, SCADA integration, utilities, smart factories, and predictive maintenance.</td>
     </tr>
-
     <tr>
-      <td>MacSync LX1 BO</td>
-      <td>Internal Battery Powered</td>
-      <td>Battery Operated</td>
-      <td>Remote asset monitoring, water distribution networks, environmental monitoring, tank level monitoring, agricultural monitoring, and locations without permanent power availability.</td>
-      <td>8302</td>
+      <td>83301</td>
+      <td>MacSync-L-BV-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Battery-powered remote monitoring of Modbus RTU devices and analog sensors in water distribution, agriculture, utility assets, environmental monitoring, and other locations without external power.</td>
+    </tr>
+    <tr>
+      <td>83302</td>
+      <td>MacSync-M-PV-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk®</td>
+      <td>Gateway-independent industrial data acquisition using MacTalk® for PLCs, energy meters, field instruments, and machine-to-machine communication in edge automation applications.</td>
+    </tr>
+    <tr>
+      <td>83303</td>
+      <td>MacSync-M-BV-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk®</td>
+      <td>Battery-operated MacTalk® deployments for remote acquisition of RS485 Modbus RTU devices and analog sensors where gateway-free communication is preferred.</td>
+    </tr>
+    <tr>
+      <td>83304</td>
+      <td>MacSync-B-BV-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local commissioning, diagnostics, data logging, and configuration of RS485 Modbus RTU devices and analog sensors using BLE connectivity and the Maya App.</td>
     </tr>
   </tbody>
 </table>
+
 
 ---
 

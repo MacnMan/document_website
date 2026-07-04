@@ -620,7 +620,6 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 </div>
 
 ---
-
 <h2 className="device-section-title">
   ## MacLink Gen-2 Variants
 </h2>
@@ -628,22 +627,22 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Backhaul Connectivity</th>
       <th>Power Input</th>
       <th>Deployment Type</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacLink Gen-2</td>
-      <td>Ethernet + Duel 4G Sim + WiFi</td>
-      <td>PoE IEEE 802.3af</td>
-      <td>Fixed Outdoor Installations</td>
-      <td>Industrial automation plants, factories, smart campuses, warehouses, and outdoor LoRaWAN® infrastructure with wired Ethernet connectivity.</td>
-      <td>992</td>
+      <td>82200</td>
+      <td>MacLink-Gen2-L-PG-X1</td>
+      <td>PoE Ethernet + Dual 4G LTE + Wi-Fi</td>
+      <td>PoE IEEE 802.3af / 12–24 V DC</td>
+      <td>Industrial Outdoor Installation</td>
+      <td>Large-scale LoRaWAN® deployments for smart cities, industrial automation, utilities, agriculture, environmental monitoring, transportation, mining, energy infrastructure, and private Industrial IoT networks requiring carrier-grade outdoor connectivity.</td>
     </tr>
   </tbody>
 </table>
