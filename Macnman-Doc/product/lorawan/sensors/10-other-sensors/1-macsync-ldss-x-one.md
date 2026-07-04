@@ -523,26 +523,55 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </div>
 
 ---
-
 <h2 className="device-section-title">
-  ## MacSync LDSS X1 Variants
+  ## MacSync-L-DRS Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LDSS X1 BO</td>
-      <td>Battery Powered</td>
-      <td>Remote and low-power LoRaWAN® door monitoring deployments</td>
-      <td>837</td>
+      <td>9300</td>
+      <td>MacSync-L-DRS-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote door monitoring for warehouses, cold storage facilities, utility cabinets, telecom shelters, factories, and smart building deployments.</td>
+    </tr>
+    <tr>
+      <td>9301</td>
+      <td>MacSync-L-DRS-PS-X2</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial door status monitoring for manufacturing plants, server rooms, data centers, and critical infrastructure.</td>
+    </tr>
+    <tr>
+      <td>9302</td>
+      <td>MacSync-M-DRS-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote door access monitoring and Industrial IoT applications.</td>
+    </tr>
+    <tr>
+      <td>9303</td>
+      <td>MacSync-M-DRS-PS-X2</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based door monitoring with continuous external power for industrial automation and facility management.</td>
+    </tr>
+    <tr>
+      <td>9304</td>
+      <td>MacSync-B-DRS-BS-X2</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local door status monitoring, commissioning, diagnostics, and maintenance using BLE connectivity.</td>
     </tr>
   </tbody>
 </table>

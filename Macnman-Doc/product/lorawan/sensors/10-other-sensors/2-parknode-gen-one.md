@@ -463,23 +463,35 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 </div>
 
 ---
-<h2 className="device-section-title"> 
+
+<h2 className="device-section-title">
   ## ParkNode Gen-1 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>SKU</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>ParkNode Gen-1</td>
-      <td>Integrated Battery - 6,000 mAh</td>
-      <td>844</td>
+      <td>9305</td>
+      <td>ParkNode Gen-1-X1</td>
+      <td>Battery (19 Ah) – Up to 10 Years</td>
+      <td>LoRaWAN®</td>
+      <td>Long-term smart parking deployments for smart cities, airports, railway stations, commercial parking, residential societies, and curbside parking infrastructure where battery replacement must be minimized.</td>
+    </tr>
+    <tr>
+      <td>9306</td>
+      <td>ParkNode Gen-1-X2</td>
+      <td>Battery (8 Ah) – Up to 5 Years</td>
+      <td>LoRaWAN®</td>
+      <td>Cost-optimized parking occupancy monitoring for commercial parking lots, campuses, industrial facilities, retail complexes, and municipal parking management systems.</td>
     </tr>
   </tbody>
 </table>
