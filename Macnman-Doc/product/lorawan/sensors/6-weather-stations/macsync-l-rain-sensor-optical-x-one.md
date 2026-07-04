@@ -555,29 +555,55 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 
 ---
 
-## MacSync LORS X1 Variants
+<h2 className="device-section-title">
+  ## MacSync LORS X1 Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Ideal Deployment</th>
-      <th>SKU</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LORS X1 BO</td>
-      <td>19 Ah Lithium Battery</td>
-      <td>Remote farms, reservoirs, weather stations, forests, and rainfall monitoring deployments without wired power availability.</td>
-      <td>841</td>
+      <td>9200</td>
+      <td>MacSync-L-ORM-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote rainfall monitoring for smart agriculture, weather stations, flood monitoring, reservoirs, irrigation systems, and environmental monitoring deployments.</td>
     </tr>
     <tr>
-      <td>MacSync LORS X1 SO</td>
-      <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
-      <td>Long-term outdoor rainfall monitoring systems, smart agriculture deployments, flood monitoring stations, and remote weather networks.</td>
-      <td>842</td>
+      <td>9201</td>
+      <td>MacSync-L-ORM-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous rainfall monitoring for industrial weather stations, smart cities, transportation infrastructure, and environmental monitoring networks.</td>
+    </tr>
+    <tr>
+      <td>9202</td>
+      <td>MacSync-M-ORM-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote optical rainfall monitoring and weather intelligence applications.</td>
+    </tr>
+    <tr>
+      <td>9203</td>
+      <td>MacSync-M-ORM-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based optical rain monitoring with continuous external power for industrial automation and weather monitoring.</td>
+    </tr>
+    <tr>
+      <td>9204</td>
+      <td>MacSync-B-ORM-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local optical rainfall monitoring, commissioning, calibration, and diagnostics using BLE connectivity.</td>
     </tr>
   </tbody>
 </table>

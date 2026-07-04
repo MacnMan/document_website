@@ -608,32 +608,55 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 
 ---
 
-<h2 className="device-section-title"> 
-  ## MacSync LWS X1 Variants
+<h2 className="device-section-title">
+  ## MacSync WST Variants
 </h2>
-
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Ideal Deployment</th>
-      <th>SKU</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LWS X1 BO</td>
-      <td>19 Ah Industrial Lithium Battery</td>
-      <td>Ideal for remote farms, reservoirs, industrial sites, environmental monitoring stations, highways, and outdoor weather monitoring deployments without wired power availability.</td>
-      <td>843</td>
+      <td>9205</td>
+      <td>MacSync-L-WST-SS-X1</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous weather monitoring for smart agriculture, meteorological stations, renewable energy plants, flood monitoring, and remote environmental monitoring deployments.</td>
     </tr>
     <tr>
-      <td>MacSync LWS X1 SO</td>
-      <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
-      <td>Designed for long-term smart agriculture, meteorological monitoring, smart-city infrastructure, flood monitoring systems, and renewable-energy weather monitoring deployments.</td>
-      <td>854</td>
+      <td>9206</td>
+      <td>MacSync-L-WST-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Industrial weather monitoring with continuous external power for factories, airports, highways, smart cities, and environmental monitoring networks.</td>
+    </tr>
+    <tr>
+      <td>9207</td>
+      <td>MacSync-M-WST-SS-X1</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based solar-powered weather monitoring for remote industrial sites, agriculture, and infrastructure monitoring.</td>
+    </tr>
+    <tr>
+      <td>9208</td>
+      <td>MacSync-M-WST-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based weather monitoring with continuous external power for industrial automation and environmental analytics.</td>
+    </tr>
+    <tr>
+      <td>9209</td>
+      <td>MacSync-B-WST-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local weather station configuration, commissioning, diagnostics, and environmental monitoring using BLE connectivity.</td>
     </tr>
   </tbody>
 </table>
