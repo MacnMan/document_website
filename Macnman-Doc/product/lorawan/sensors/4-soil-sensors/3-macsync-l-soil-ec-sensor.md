@@ -547,36 +547,55 @@ MacSync LSS X3 is ideal for:
 
 
 ---
-
 <h2 className="device-section-title">
   ## MacSync LSS X3 Variants
 </h2>
 
-
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>Sensor Parameters</th>
-      <th>Power Source</th>
-      <th>Ideal For</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LSS X3 BO</td>
-      <td>Soil EC Monitoring</td>
-      <td>19 Ah Li-SOCl₂ Battery</td>
-      <td>Remote agricultural deployments, soil conductivity monitoring, greenhouse farming, and smart agriculture applications</td>
-      <th>836</th>
+      <td>8810</td>
+      <td>MacSync-L-SEC-SS-X1</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous remote soil EC monitoring, fertigation optimization, salinity analysis, and precision agriculture deployments</td>
     </tr>
     <tr>
-      <td>MacSync LSS X3 SO</td>
-      <td>Soil EC Monitoring</td>
+      <td>8811</td>
+      <td>MacSync-L-SEC-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote agricultural deployments, soil electrical conductivity monitoring, greenhouse farming, and smart irrigation systems</td>
+    </tr>
+    <tr>
+      <td>8812</td>
+      <td>MacSync-M-SEC-SS-X1</td>
       <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
-      <td>Continuous remote soil EC monitoring, fertigation optimization, and precision agriculture deployments</td>
-      <th>837</th>
+      <td>MacTalk</td>
+      <td>MacTalk-based continuous soil EC monitoring for commercial farming, plantations, and agricultural automation</td>
+    </tr>
+    <tr>
+      <td>8813</td>
+      <td>MacSync-M-SEC-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote soil electrical conductivity and salinity monitoring</td>
+    </tr>
+    <tr>
+      <td>8814</td>
+      <td>MacSync-B-SEC-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local soil EC monitoring, commissioning, calibration, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

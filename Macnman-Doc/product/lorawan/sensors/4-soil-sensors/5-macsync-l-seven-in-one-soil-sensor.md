@@ -601,32 +601,55 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 
 ---
-## MacSync LSS X5 Variants
+<h2 className="device-section-title">
+  ## MacSync LSS X5 Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>Sensor Parameters</th>
-      <th>Power Source</th>
-      <th>Ideal For</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LSS X5 BO</td>
-      <td>Moisture + Temperature + EC + pH + Salinity + NPK Trends</td>
-      <td>19 Ah Li-SOCl₂ Battery</td>
-      <td>Remote agricultural deployments, smart irrigation systems, and long-term soil monitoring</td>
-      <th>830</th>
+      <td>8820</td>
+      <td>MacSync-L-S7X1-SS-X1</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous precision agriculture, smart irrigation, greenhouse automation, crop health analytics, and long-term remote soil monitoring</td>
     </tr>
     <tr>
-      <td>MacSync LSS X5 SO</td>
-      <td>Moisture + Temperature + EC + pH + Salinity + NPK Trends</td>
+      <td>8821</td>
+      <td>MacSync-L-S7X1-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote multi-parameter soil monitoring for farms, plantations, orchards, vineyards, and precision agriculture deployments</td>
+    </tr>
+    <tr>
+      <td>8822</td>
+      <td>MacSync-M-S7X1-SS-X1</td>
       <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
-      <td>Continuous precision farming, greenhouse automation, and solar-powered agricultural monitoring</td>
-      <th>831</th>
+      <td>MacTalk</td>
+      <td>MacTalk-based continuous 7-in-1 soil monitoring for commercial agriculture and agricultural automation</td>
+    </tr>
+    <tr>
+      <td>8823</td>
+      <td>MacSync-M-SS7-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote multi-parameter soil health monitoring</td>
+    </tr>
+    <tr>
+      <td>8824</td>
+      <td>MacSync-B-SS7-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local 7-in-1 soil monitoring, commissioning, calibration, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

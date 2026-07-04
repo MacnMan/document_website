@@ -577,32 +577,55 @@ MacSync LSS X2 is ideal for:
 
 ---
 
-## MacSync LSS X2 Variants
+<h2 className="device-section-title">
+  ## MacSync LSS X2 Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>Sensor Parameters</th>
-      <th>Power Source</th>
-      <th>Ideal For</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LSS X2 BO</td>
-      <td>Soil Moisture + Soil Temperature</td>
-      <td>19 Ah Li-SOCl₂ Battery</td>
-      <td>Remote agricultural deployments, smart irrigation systems, greenhouse monitoring, and long-term soil telemetry</td>
-      <th>832</th>
+      <td>8805</td>
+      <td>MacSync-L-SMT-SS-X1</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous precision irrigation, smart farming, greenhouse automation, and remote agricultural monitoring</td>
     </tr>
     <tr>
-      <td>MacSync LSS X2 SO</td>
-      <td>Soil Moisture + Soil Temperature</td>
+      <td>8806</td>
+      <td>MacSync-L-SMT-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote soil moisture and temperature monitoring for farms, plantations, vineyards, orchards, and irrigation systems</td>
+    </tr>
+    <tr>
+      <td>8807</td>
+      <td>MacSync-M-SMT-SS-X1</td>
       <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
-      <td>Continuous precision farming, solar-powered irrigation automation, and remote agricultural monitoring</td>
-      <th>833</th>
+      <td>MacTalk</td>
+      <td>MacTalk-based continuous soil monitoring for commercial agriculture and smart irrigation deployments</td>
+    </tr>
+    <tr>
+      <td>8808</td>
+      <td>MacSync-M-SMT-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote soil moisture and temperature monitoring</td>
+    </tr>
+    <tr>
+      <td>8809</td>
+      <td>MacSync-B-SMT-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local soil moisture and temperature monitoring, commissioning, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

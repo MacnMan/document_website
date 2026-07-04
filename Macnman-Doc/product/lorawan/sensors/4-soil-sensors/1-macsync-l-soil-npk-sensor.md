@@ -620,35 +620,57 @@ MacSync LSS X1 is ideal for:
 
 
 ---
-
-## MacSync LSS X1 Variants
+<h2 className="device-section-title">
+  ## MacSync LSS X1 Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>Sensor Parameters</th>
-      <th>Power Source</th>
-      <th>Ideal For</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>MacSync LSS X1 BO</td>
-    <td>Soil Nitrogen (N), Phosphorus (P), and Potassium (K) Monitoring</td>
-    <td>19 Ah Li-SOCl₂ Battery</td>
-    <td>Remote agricultural deployments, soil nutrient monitoring, greenhouse farming, and smart agriculture applications</td>
-    <th>838</th>
-  </tr>
-  <tr>
-    <td>MacSync LSS X1 SO</td>
-    <td>Soil Nitrogen (N), Phosphorus (P), and Potassium (K) Monitoring</td>
-    <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
-    <td>Continuous remote soil nutrient monitoring, fertigation optimization, and precision agriculture deployments</td>
-    <th>839</th>
-  </tr>
-</tbody>
+    <tr>
+      <td>8800</td>
+      <td>MacSync-L-SNPK-SS-X1</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous remote soil nutrient monitoring, fertigation optimization, smart farming, and precision agriculture deployments</td>
+    </tr>
+    <tr>
+      <td>8801</td>
+      <td>MacSync-L-SNPK-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote agricultural deployments, soil nutrient monitoring, greenhouse farming, and precision agriculture applications</td>
+    </tr>
+    <tr>
+      <td>8802</td>
+      <td>MacSync-M-SNPK-SS-X1</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based continuous soil nutrient monitoring for plantations, commercial farming, and agricultural automation</td>
+    </tr>
+    <tr>
+      <td>8803</td>
+      <td>MacSync-M-SNPK-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote soil nutrient and fertility monitoring</td>
+    </tr>
+    <tr>
+      <td>8804</td>
+      <td>MacSync-B-SNPK-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local soil NPK monitoring, commissioning, and diagnostics using BLE connectivity</td>
+    </tr>
+  </tbody>
 </table>
 
 --- 

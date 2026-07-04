@@ -561,32 +561,55 @@ MacSync LSS X4 is ideal for:
 
 ---
 
-## MacSync LSS X4 Variants
+<h2 className="device-section-title">
+  ## MacSync LSS X4 Variants
+</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>Sensor Parameters</th>
-      <th>Power Source</th>
-      <th>Ideal For</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LSS X4 BO</td>
-      <td>Soil pH Monitoring</td>
-      <td>19 Ah Li-SOCl₂ Battery</td>
-      <td>Remote agricultural deployments, soil chemistry monitoring, greenhouse farming, and smart agriculture applications</td>
-      <th>834</th>
+      <td>8815</td>
+      <td>MacSync-L-SPH-SS-X1</td>
+      <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous soil pH monitoring for precision agriculture, fertigation optimization, greenhouses, and smart farming deployments</td>
     </tr>
     <tr>
-      <td>MacSync LSS X4 SO</td>
-      <td>Soil pH Monitoring</td>
+      <td>8816</td>
+      <td>MacSync-L-SPH-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote soil pH monitoring for farms, plantations, vineyards, orchards, and precision agriculture applications</td>
+    </tr>
+    <tr>
+      <td>8817</td>
+      <td>MacSync-M-SPH-SS-X1</td>
       <td>20 W Solar + 8000 mAh Rechargeable Battery</td>
-      <td>Continuous remote soil pH monitoring, fertigation optimization, and precision agriculture deployments</td>
-      <th>835</th>
+      <td>MacTalk</td>
+      <td>MacTalk-based continuous soil pH monitoring for commercial agriculture and agricultural automation</td>
+    </tr>
+    <tr>
+      <td>8818</td>
+      <td>MacSync-M-SPH-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote soil pH and soil chemistry monitoring</td>
+    </tr>
+    <tr>
+      <td>8819</td>
+      <td>MacSync-B-SPH-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local soil pH monitoring, commissioning, calibration, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>
