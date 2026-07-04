@@ -765,26 +765,44 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 ---
 
 <h2 className="device-section-title">
-  ## MacSet LX1 Variants
+  ## MacSet PC X1 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Relay Outputs</th>
+      <th>Communication</th>
+      <th>IO Configuration</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSet LX1</td>
-      <td>230 V AC / 9–36 V DC External Power</td>
-      <td>2 High-Current Relay Outputs</td>
-      <td>Industrial automation, pump control, smart agriculture systems, factory automation, RS485 Modbus control systems, and Industrial IoT remote switching applications.</td>
-      <td>901</td>
+      <td>81101</td>
+      <td>MacSet-L-PC-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>2 DI / 2 DO</td>
+      <td>Remote control of pumps, motors, lighting, valves, alarms, utility equipment, and industrial automation using long-range LoRaWAN® connectivity.</td>
+    </tr>
+    <tr>
+      <td>81102</td>
+      <td>MacSet-M-PC-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>2 DI / 2 DO</td>
+      <td>Gateway-independent industrial automation with peer-to-peer MacTalk communication for local control of field equipment and edge automation.</td>
+    </tr>
+    <tr>
+      <td>81103</td>
+      <td>MacSet-B-PC-X1</td>
+      <td>9–36 V DC</td>
+      <td>BLE</td>
+      <td>2 DI / 2 DO</td>
+      <td>Local equipment control, commissioning, diagnostics, testing, and maintenance using BLE connectivity and the Maya App.</td>
     </tr>
   </tbody>
 </table>

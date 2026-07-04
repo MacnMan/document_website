@@ -530,34 +530,59 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
 </div>
 
 ---
-<h2 className="device-section-title"> 
+<h2 className="device-section-title">
   ## MacSync LNS X1 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Ideal Deployment</th>
-      <th>SKU</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LNS X1 BO</td>
-      <td>19 Ah Integrated Lithium Battery</td>
-      <td>Ideal for remote outdoor environmental monitoring, industrial acoustic monitoring, smart city sound level monitoring, highways, railway corridors, construction sites, mining zones, and deployments without wired power availability.</td>
-      <td>845</td>
+      <td>9307</td>
+      <td>MacSync-L-NL-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote environmental noise monitoring for smart cities, highways, airports, construction sites, industrial facilities, mining operations, and environmental compliance deployments.</td>
     </tr>
     <tr>
-      <td>MacSync LNS X1 PO</td>
-      <td>12–36 V DC External Power Supply</td>
-      <td>Designed for continuous industrial outdoor monitoring deployments, smart city infrastructure, commercial installations, transportation corridors, factories, airports, and permanent wired environmental monitoring systems.</td>
-      <td>846</td>
+      <td>9308</td>
+      <td>MacSync-L-NL-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial sound level monitoring for factories, transportation corridors, commercial complexes, and permanent environmental monitoring stations.</td>
+    </tr>
+    <tr>
+      <td>9309</td>
+      <td>MacSync-M-NL-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote sound level monitoring and industrial acoustic analytics.</td>
+    </tr>
+    <tr>
+      <td>9310</td>
+      <td>MacSync-M-NL-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based sound level monitoring with continuous external power for industrial automation and environmental analytics.</td>
+    </tr>
+    <tr>
+      <td>9311</td>
+      <td>MacSync-B-NL-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local sound level monitoring, commissioning, diagnostics, and calibration using BLE connectivity.</td>
     </tr>
   </tbody>
 </table>
+
 ---
 
 <h2 className="device-section-title"> 
