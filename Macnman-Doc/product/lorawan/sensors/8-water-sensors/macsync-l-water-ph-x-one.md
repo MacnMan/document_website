@@ -539,33 +539,55 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 </div>
 
 ---
-<h2 className="device-section-title"> 
-  ## MacSync LWQS X2 Variants
+<h2 className="device-section-title">
+  ## MacSync-L-WQPH Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Ideal Deployment</th>
-      <th>SKU</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LWQS X2 BO</td>
-      <td>19 Ah Industrial Lithium Battery</td>
-      <td>Ideal for remote drinking water systems, borewells, reservoirs, STP/WWTP installations, industrial process water monitoring, and outdoor water quality monitoring deployments without wired power availability.</td>
-      <td>859</td>
+      <td>8904</td>
+      <td>MacSync-L-WQPH-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote water pH monitoring for drinking water systems, reservoirs, rivers, lakes, borewells, STP, WWTP, and industrial water quality applications</td>
     </tr>
     <tr>
-      <td>MacSync LWQS X2 SO</td>
-      <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
-      <td>Designed for long-term industrial water quality monitoring, wastewater treatment infrastructure, smart water utility deployments, reservoirs, rivers, lakes, and Industrial IoT outdoor water monitoring applications.</td>
-      <td>860</td>
+      <td>8905</td>
+      <td>MacSync-L-WQPH-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial water pH monitoring for process water, cooling towers, chemical dosing systems, and wastewater treatment plants</td>
     </tr>
     <tr>
+      <td>8906</td>
+      <td>MacSync-M-WQPH-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote water pH monitoring and environmental water quality applications</td>
+    </tr>
+    <tr>
+      <td>8907</td>
+      <td>MacSync-M-WQPH-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based industrial water pH monitoring with continuous external power for process automation</td>
+    </tr>
+    <tr>
+      <td>8908</td>
+      <td>MacSync-B-WQPH-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local water pH monitoring, commissioning, calibration, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

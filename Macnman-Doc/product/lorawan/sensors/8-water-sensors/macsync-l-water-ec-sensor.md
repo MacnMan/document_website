@@ -545,31 +545,55 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 
 ---
 
-<h2 className="device-section-title"> 
+<h2 className="device-section-title">
   ## MacSync LWQS X1 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Ideal Deployment</th>
-      <th>SKU</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LWQS X1 BO</td>
-      <td>19 Ah Industrial Lithium Battery</td>
-      <td>Ideal for remote drinking water systems, borewells, reservoirs, STP/WWTP installations, industrial process water monitoring, and outdoor water quality monitoring deployments without wired power availability.</td>
-      <td>857</td>
+      <td>8900</td>
+      <td>MacSync-L-WQEC-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote water EC monitoring for drinking water, reservoirs, borewells, rivers, lakes, STP, WWTP, and industrial water quality applications</td>
     </tr>
     <tr>
-      <td>MacSync LWQS X1 SO</td>
-      <td>20 W Solar Panel + 8 Ah Rechargeable Battery</td>
-      <td>Designed for long-term industrial water quality monitoring, wastewater treatment infrastructure, smart water utility deployments, reservoirs, rivers, lakes, and Industrial IoT outdoor water monitoring applications.</td>
-      <td>858</td>
+      <td>8901</td>
+      <td>MacSync-L-WQEC-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial water conductivity monitoring for process water, cooling towers, RO plants, and wastewater treatment systems</td>
+    </tr>
+    <tr>
+      <td>8902</td>
+      <td>MacSync-M-WQEC-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote water electrical conductivity monitoring</td>
+    </tr>
+    <tr>
+      <td>8903</td>
+      <td>MacSync-M-WQEC-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based industrial water EC monitoring with continuous external power</td>
+    </tr>
+    <tr>
+      <td>8904</td>
+      <td>MacSync-B-WQEC-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local water EC monitoring, commissioning, calibration, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>
