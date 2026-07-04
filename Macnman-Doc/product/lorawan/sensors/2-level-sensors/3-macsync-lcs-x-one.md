@@ -572,34 +572,61 @@ Whether deployed in industrial plants, telecom infrastructure, mining operations
 
 ---
 
+<h2 className="device-section-title">
+  ## MacSync LPS X7 Variants
+</h2>
+
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>Level Range</th>
-      <th>Power Source</th>
-      <th>Installation Type</th>
-      <th>Ideal Use Case</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Measurement Range</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LCS X1 BO</td>
-      <td>100 mm to 1400 mm</td>
-      <td>Integrated Battery (19 Ah)</td>
-      <td>5-Hole Flange / M20×1.5 Thread</td>
-      <td>Battery-powered LoRaWAN® capacitive dip stick diesel fuel-level monitoring for generator tanks, telecom infrastructure, industrial fuel reservoirs, mining equipment, and remote industrial telemetry deployments.</td>
-      <td>853</td>
+      <td>9116</td>
+      <td>MacSync-L-HPT-BS-X4</td>
+      <td>-10 kPa to +10 kPa</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote hydro-static liquid level monitoring for soap dispensers, water tanks, diesel tanks, chemical containers, beverage systems, and smart liquid storage applications.</td>
     </tr>
-
     <tr>
-      <td>MacSync LCS X1 PO</td>
-      <td>100 mm to 1400 mm</td>
-      <td>9-36 V DC External Supply</td>
-      <td>5-Hole Flange / M20×1.5 Thread</td>
-      <td>Continuous powered industrial LoRaWAN® fuel telemetry for large diesel storage systems, smart utility infrastructure, industrial automation, and fleet fuel analytics applications.</td>
-      <td>854</td>
+      <td>9117</td>
+      <td>MacSync-L-HPT-PS-X4</td>
+      <td>-10 kPa to +10 kPa</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous hydro-static liquid level monitoring for industrial tanks, utility reservoirs, process vessels, and liquid storage systems.</td>
+    </tr>
+    <tr>
+      <td>9118</td>
+      <td>MacSync-M-HPT-BS-X4</td>
+      <td>-10 kPa to +10 kPa</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote hydro-static liquid level monitoring and industrial utility management.</td>
+    </tr>
+    <tr>
+      <td>9119</td>
+      <td>MacSync-M-HPT-PS-X4</td>
+      <td>-10 kPa to +10 kPa</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based hydro-static liquid level monitoring with continuous external power for industrial automation.</td>
+    </tr>
+    <tr>
+      <td>9120</td>
+      <td>MacSync-B-HPT-BS-X4</td>
+      <td>-10 kPa to +10 kPa</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local hydro-static liquid level monitoring, commissioning, calibration, and diagnostics using BLE connectivity.</td>
     </tr>
   </tbody>
 </table>

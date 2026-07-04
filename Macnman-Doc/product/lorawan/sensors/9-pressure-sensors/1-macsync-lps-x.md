@@ -696,56 +696,32 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Pressure Range</th>
       <th>Power Source</th>
-      <th>Ideal Use Case</th>
-      <th>SKU</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>MacSync LPS X1 PO</td>
-      <td>0 ~ 2.5 MPa</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>Water distribution lines, industrial utility systems, low-pressure process monitoring, and continuous wired industrial deployments.</td>
-      <td>847</td>
-    </tr>
-    <tr>
-      <td>MacSync LPS X1 BO</td>
-      <td>0 ~ 5 MPa</td>
-      <td>Integrated Battery (19 Ah)</td>
-      <td>Remote industrial pressure monitoring, unmanned utility infrastructure, isolated pumping stations, and battery-powered field deployments.</td>
-      <td>848</td>
-    </tr>
-    <tr>
-  <td>MacSync LPS X2 PO</td>
-  <td>0 ~ 5 MPa</td>
-  <td>External Power (9–36 V DC)</td>
-  <td>Continuous wired industrial pressure monitoring for hydraulic systems, utility pipelines, industrial automation, pumping stations, and process monitoring infrastructure.</td>
-  <td>859</td>
-</tr>
-    <tr>
-      <td>MacSync LPS X2 BO</td>
-      <td>0 ~ 5 MPa</td>
-      <td>Integrated Battery (19 Ah)</td>
-      <td>Battery-powered industrial pressure monitoring for remote utility infrastructure, outdoor hydraulic systems, isolated pumping stations, and unmanned monitoring deployments.</td>
-      <td>850</td>
-    </tr>
-    <tr>
-      <td>MacSync LPS X3 PO</td>
-      <td>0 ~ 10 MPa</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>High-pressure industrial pipelines, fire-fighting systems, hydraulic monitoring, industrial automation, and continuous wired process pressure analytics.</td>
-      <td>851</td>
-    </tr>
-    <tr>
-      <td>MacSync LPS X3 BO</td>
-      <td>0 ~ 10 MPa</td>
-      <td>Integrated Battery (19 Ah)</td>
-      <td>Remote high-pressure monitoring for industrial pipelines, oil & gas infrastructure, hydraulic systems, and battery-powered outdoor utility deployments.</td>
-      <td>852</td>
-    </tr>
+    <tr><td>9101</td><td>MacSync-L-HPT-BS-X1</td><td>0–2.5 MPa</td><td>Battery (19 Ah)</td><td>LoRaWAN®</td><td>Remote water distribution, utility pipelines, and industrial pressure monitoring deployments.</td></tr>
+    <tr><td>9102</td><td>MacSync-L-HPT-PS-X1</td><td>0–2.5 MPa</td><td>9–36 V DC</td><td>LoRaWAN®</td><td>Continuous pressure monitoring for industrial processes, water utilities, and pumping stations.</td></tr>
+    <tr><td>9103</td><td>MacSync-M-HPT-BS-X1</td><td>0–2.5 MPa</td><td>Battery (19 Ah)</td><td>MacTalk</td><td>Battery-operated MacTalk deployments for remote pressure monitoring.</td></tr>
+    <tr><td>9104</td><td>MacSync-M-HPT-PS-X1</td><td>0–2.5 MPa</td><td>9–36 V DC</td><td>MacTalk</td><td>MacTalk-based industrial pressure monitoring with continuous external power.</td></tr>
+    <tr><td>9105</td><td>MacSync-B-HPT-BS-X1</td><td>0–2.5 MPa</td><td>Battery (19 Ah)</td><td>BLE</td><td>Local pressure monitoring, commissioning, and diagnostics using BLE connectivity.</td></tr>
+
+    <tr><td>9106</td><td>MacSync-L-HPT-BS-X2</td><td>0–5 MPa</td><td>Battery (19 Ah)</td><td>LoRaWAN®</td><td>Remote hydraulic systems, industrial pipelines, and utility pressure monitoring.</td></tr>
+    <tr><td>9107</td><td>MacSync-L-HPT-PS-X2</td><td>0–5 MPa</td><td>9–36 V DC</td><td>LoRaWAN®</td><td>Continuous pressure monitoring for hydraulic equipment and industrial automation.</td></tr>
+    <tr><td>9108</td><td>MacSync-M-HPT-BS-X2</td><td>0–5 MPa</td><td>Battery (19 Ah)</td><td>MacTalk</td><td>Battery-operated MacTalk deployments for medium-pressure industrial monitoring.</td></tr>
+    <tr><td>9109</td><td>MacSync-M-HPT-PS-X2</td><td>0–5 MPa</td><td>9–36 V DC</td><td>MacTalk</td><td>MacTalk-based pressure monitoring with continuous external power.</td></tr>
+    <tr><td>9110</td><td>MacSync-B-HPT-BS-X2</td><td>0–5 MPa</td><td>Battery (19 Ah)</td><td>BLE</td><td>Local medium-pressure monitoring, commissioning, and diagnostics using BLE connectivity.</td></tr>
+
+    <tr><td>9111</td><td>MacSync-L-HPT-BS-X3</td><td>0–10 MPa</td><td>Battery (19 Ah)</td><td>LoRaWAN®</td><td>Remote high-pressure monitoring for oil & gas, fire protection, and industrial pipelines.</td></tr>
+    <tr><td>9112</td><td>MacSync-L-HPT-PS-X3</td><td>0–10 MPa</td><td>9–36 V DC</td><td>LoRaWAN®</td><td>Continuous high-pressure monitoring for hydraulic systems and industrial processes.</td></tr>
+    <tr><td>9113</td><td>MacSync-M-HPT-BS-X3</td><td>0–10 MPa</td><td>Battery (19 Ah)</td><td>MacTalk</td><td>Battery-operated MacTalk deployments for remote high-pressure monitoring.</td></tr>
+    <tr><td>9114</td><td>MacSync-M-HPT-PS-X3</td><td>0–10 MPa</td><td>9–36 V DC</td><td>MacTalk</td><td>MacTalk-based high-pressure monitoring with continuous external power.</td></tr>
+    <tr><td>9115</td><td>MacSync-B-HPT-BS-X3</td><td>0–10 MPa</td><td>Battery (19 Ah)</td><td>BLE</td><td>Local high-pressure monitoring, commissioning, and diagnostics using BLE connectivity.</td></tr>
   </tbody>
 </table>
 
