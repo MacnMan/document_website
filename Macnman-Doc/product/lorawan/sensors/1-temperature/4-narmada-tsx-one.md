@@ -576,29 +576,41 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 
 
 ---
-
 <h2 className="device-section-title">
   ## Narmada TSX1 Variants
 </h2>
 
-
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
-      <th>Battery Capacity</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Narmada TSX1</td>
-      <td>Battery</td>
-      <td>8 Ah</td>
-      <td>Smart buildings, HVAC automation, factories, offices, warehouses, and indoor environmental monitoring</td>
-    <th>803</th>
+      <td>8107</td>
+      <td>Narmada-L-TH-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Indoor environmental monitoring for smart buildings, offices, HVAC systems, warehouses, and factories</td>
+    </tr>
+    <tr>
+      <td>8108</td>
+      <td>Narmada-B-TH-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>BLE</td>
+      <td>Local temperature and humidity monitoring, commissioning, and diagnostics using BLE connectivity</td>
+    </tr>
+    <tr>
+      <td>8109</td>
+      <td>Narmada-M-TH-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>MacTalk</td>
+      <td>Indoor MacTalk deployments for wireless environmental monitoring and industrial automation</td>
     </tr>
   </tbody>
 </table>

@@ -575,40 +575,59 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 
 ---
 
-
-<h2 className="device-section-title">
-  ## MacSync LRTD X1 Variants
-</h2>
+## MacSync-L-RTD Variants
 
 
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>RTD Type</th>
-      <th>Power Option</th>
-      <th>Ideal Use Case</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LRTD X1 PO</td>
-      <td>PT100</td>
-      <td>9–36 V DC Power</td>
-      <td>High-precision temperature monitoring in automation systems</td>
-      <th>807</th>
+      <td>8110</td>
+      <td>MacSync-L-RTD-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote industrial RTD temperature monitoring with multi-year battery operation</td>
     </tr>
     <tr>
-      <td>MacSync LRTD X1 BO</td>
-      <td>PT100</td>
-      <td>Battery (Multi-year)</td>
-      <td>Cold-chain, pipelines & predictive maintenance monitoring</td>
-      <th>808</th>
+      <td>8111</td>
+      <td>MacSync-L-RTD-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Industrial process monitoring with continuous external power</td>
+    </tr>
+    <tr>
+      <td>8112</td>
+      <td>MacSync-M-RTD-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based industrial RTD monitoring with external power</td>
+    </tr>
+    <tr>
+      <td>8113</td>
+      <td>MacSync-M-RTD-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk RTD monitoring for remote industrial assets</td>
+    </tr>
+    <tr>
+      <td>8114</td>
+      <td>MacSync-B-RTD-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local RTD temperature monitoring and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>
 
+--- 
 
 <h2 className="device-section-title">
   ## What's in the Box ?

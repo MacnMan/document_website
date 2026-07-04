@@ -1,6 +1,6 @@
 ---
-id: brand-dna
-title: Brand DNA
+id: product-sku-and-naming-system
+title: Product Naming & SKU Systems
 ---
 
 # Macnman Brand DNA

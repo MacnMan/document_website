@@ -603,42 +603,58 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 ---
 
-## MacSync-LNCT-Xx Variants
+## MacSync-L-NCT Variants
 
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Code</th>
-      <th>Temperature Range</th>
-      <th>Power Source</th>
-      <th>Ideal Use Case</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LNCT X1 PO</td>
-      <td>0 °C to 600 °C</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>Industrial machinery, process equipment, furnaces, ovens, and surface temperature monitoring applications</td>
-      <th>804</th>
+      <td>8115</td>
+      <td>MacSync-L-NCT-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote industrial surface temperature monitoring where external power is unavailable</td>
     </tr>
     <tr>
-      <td>MacSync LNCT X1 BO</td>
-      <td>0 °C to 600 °C</td>
-      <td>Inbuilt Battery (19 Ah)</td>
-      <td>Remote industrial assets and wireless thermal monitoring deployments without external power availability</td>
-      <th>805</th>
+      <td>8116</td>
+      <td>MacSync-L-NCT-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial thermal monitoring with external power in factories and process plants</td>
     </tr>
     <tr>
-      <td>MacSync LNCT X2 PO</td>
-      <td>0 °C to 1500 °C</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>Steel plants, foundries, kilns, rolling mills, molten metal monitoring, and extreme-temperature industrial processes</td>
-      <th>806</th>
+      <td>8117</td>
+      <td>MacSync-M-NCT-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based non-contact temperature monitoring for industrial automation systems</td>
+    </tr>
+    <tr>
+      <td>8118</td>
+      <td>MacSync-M-NCT-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote non-contact thermal monitoring</td>
+    </tr>
+    <tr>
+      <td>8119</td>
+      <td>MacSync-B-NCT-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local non-contact laser temperature monitoring and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>
+
+---
 
 <h2 className="device-section-title">
   ## What's in the Box ?

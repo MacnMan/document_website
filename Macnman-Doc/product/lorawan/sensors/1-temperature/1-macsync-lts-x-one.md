@@ -36,7 +36,7 @@ keywords:
   - battery powered temperature humidity sensor
 ---
 
-# MacSync LTS X1 LoRaWAN® Temperature Humidity Sensor
+# MacSync-L-TH LoRaWAN® Temperature Humidity Sensor
 
 <h2 className="device-section-title">
   ## Product Overview
@@ -52,9 +52,9 @@ The device supports **LoRaWAN® v1.0.4**, Class A operation, OTAA activation, AE
 
 Whether you are deploying a **smart agriculture temperature humidity sensor**, an industrial environmental monitoring system, or a low-power wireless climate monitoring network, the MacSync-LTS X1 delivers carrier-grade reliability, scalable connectivity, and real-time climate intelligence for next-generation IoT applications.
 
-| ![MacSync LTS X1 LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) | ![MacSync LTS X1 wireless LoRaWAN temperature humidity sensor mounted installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
+| ![MacSync-L-TH LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) | ![MacSync-L-TH wireless LoRaWAN temperature humidity sensor mounted installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) |
+| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync-L-TH smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) |
 
 ---
 
@@ -77,7 +77,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
     <div className="icon">📝</div>
     <div>
       <strong>Decoders</strong>
-      <p>Click here to view the decoders for MacSync LTS X1</p>
+      <p>Click here to view the decoders for MacSync-L-TH</p>
     </div>
   </a>
 </div>
@@ -590,48 +590,52 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 
 ---
-<h2 className="device-section-title">
-  ## MacSync LTS X1 Variants
-</h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
       <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td>8101</td>
       <td>MacSync-L-TH-BS-X1</td>
       <td>Battery (19 Ah)</td>
       <td>LoRaWAN®</td>
       <td>Remote outdoor deployments with multi-year battery operation</td>
-      <td>8101</td>
     </tr>
     <tr>
+      <td>8102</td>
       <td>MacSync-L-TH-PS-X1</td>
       <td>9–36 V DC</td>
       <td>LoRaWAN®</td>
       <td>Industrial and commercial installations with continuous power</td>
-      <td>8102</td>
     </tr>
     <tr>
+      <td>8103</td>
       <td>MacSync-M-TH-PS-X1</td>
       <td>9–36 V DC</td>
       <td>MacTalk</td>
       <td>MacTalk-based industrial monitoring applications with external power</td>
-      <td>8103</td>
     </tr>
     <tr>
+      <td>8104</td>
       <td>MacSync-M-TH-BS-X1</td>
       <td>Battery (19 Ah)</td>
       <td>MacTalk</td>
       <td>Battery-operated MacTalk deployments for remote outdoor monitoring</td>
-      <td>8104</td>
+    </tr>
+    <tr>
+      <td>8105</td>
+      <td>MacSync-B-TH-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local wireless temperature and humidity monitoring using BLE connectivity</td>
     </tr>
   </tbody>
 </table>
@@ -644,7 +648,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 Make sure box contains following items before installations
 
-- MacSync LTS X1 Sensor
+- MacSync-L-TH Sensor
 - Mounting Clip
 - User Manual
 - Warranty Card
@@ -665,11 +669,11 @@ Accessories may not be included in the package and must be purchased separately.
 ---
 
 <h2 className="device-section-title">
-  ##  MacSync LTS X1 Dimensions
+  ##  MacSync-L-TH Dimensions
 </h2>
 
-The MacSync LTS X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across warehouses, cold storage facilities, smart agriculture deployments, industrial environments, and outdoor IoT monitoring infrastructure.
+The MacSync-L-TH features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across warehouses, cold storage facilities, smart agriculture deployments, industrial environments, and outdoor IoT monitoring infrastructure.
 
-![MacSync LTS X1 LoRaWAN temperature humidity sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
+![MacSync-L-TH LoRaWAN temperature humidity sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
 
 
