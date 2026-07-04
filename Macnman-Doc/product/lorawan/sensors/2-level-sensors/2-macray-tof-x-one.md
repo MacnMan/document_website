@@ -541,56 +541,88 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
   ## MacRay LToF Series Variants
 </h2>
 
-
 <table className="parameter-table">
   <thead>
     <tr>
-      <th>Variant Name</th>
-      <th>Sensor Grid Pattern</th>
-      <th>Coverage</th>
-      <th>Recommended Use</th>
       <th>SKU</th>
+      <th>Variant Name</th>
+      <th>Power Source</th>
+      <th>Communication</th>
+      <th>Sensor Grid</th>
+      <th>Ideal For</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacRay LToF X1 PO</td>
-      <td>2 × 2 (4‑point ToF)</td>
-      <td>Narrow zone detection</td>
-      <td>Doorway people counting / Access control</td>
-      <th>811</th>
+      <td>8203</td>
+      <td>MacRay-L-ToF-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>2 × 2 Grid</td>
+      <td>Doorway people counting, occupancy detection, access control, and narrow-zone monitoring</td>
     </tr>
     <tr>
-  <td>MacRay LToF X1 BO</td>
-  <td>2 × 2 (4-point ToF)</td>
-  <td>Narrow zone detection</td>
-  <td>Battery-powered doorway occupancy monitoring / Remote access analytics</td>
-  <th>812</th>
-</tr>
-    <tr>
-      <td>MacRay LToF X2 PO</td>
-      <td>4 × 4 (16‑point ToF)</td>
-      <td>Medium area coverage</td>
-      <td>Room occupancy analytics / Facility automation</td>
-      <th>813</th>
+      <td>8204</td>
+      <td>MacRay-B-ToF-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>BLE</td>
+      <td>2 × 2 Grid</td>
+      <td>Local configuration, diagnostics, and occupancy monitoring using BLE connectivity</td>
     </tr>
     <tr>
-  <td>MacRay LToF X2 BO</td>
-  <td>4 × 4 (16-point ToF)</td>
-  <td>Medium area coverage</td>
-  <td>Battery-powered room occupancy analytics / Smart building monitoring</td>
-  <th>814</th>
-</tr>
+      <td>8205</td>
+      <td>MacRay-M-ToF-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>MacTalk</td>
+      <td>2 × 2 Grid</td>
+      <td>MacTalk-based doorway occupancy monitoring and industrial automation</td>
+    </tr>
+
     <tr>
-      <td>MacRay LToF X3 PO</td>
-      <td>8 × 8 (64‑point ToF)</td>
-      <td>Wider coverage with higher precision</td>
-      <td>Zone activity mapping / Retail & smart workspace analytics</td>
-      <th>815</th>
+      <td>8206</td>
+      <td>MacRay-L-ToF-BS-X2</td>
+      <td>Battery (8 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>4 × 4 Grid</td>
+      <td>Room occupancy analytics, smart buildings, classrooms, offices, and facility monitoring</td>
+    </tr>
+    <tr>
+      <td>8207</td>
+      <td>MacRay-B-ToF-BS-X2</td>
+      <td>Battery (8 Ah)</td>
+      <td>BLE</td>
+      <td>4 × 4 Grid</td>
+      <td>Local room occupancy monitoring and commissioning via BLE</td>
+    </tr>
+    <tr>
+      <td>8208</td>
+      <td>MacRay-M-ToF-BS-X2</td>
+      <td>Battery (8 Ah)</td>
+      <td>MacTalk</td>
+      <td>4 × 4 Grid</td>
+      <td>MacTalk-enabled room occupancy analytics and industrial monitoring</td>
+    </tr>
+
+    <tr>
+      <td>8209</td>
+      <td>MacRay-L-ToF-PS-X3</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>8 × 8 Grid</td>
+      <td>High-resolution people counting, zone analytics, retail footfall analysis, and smart workspace monitoring</td>
+    </tr>
+    <tr>
+      <td>8210</td>
+      <td>MacRay-M-ToF-PS-X3</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>8 × 8 Grid</td>
+      <td>High-resolution MacTalk deployments for advanced occupancy analytics and industrial automation</td>
     </tr>
   </tbody>
 </table>
 
+---
 
 <h2 className="device-section-title">
   ## What's in the Box ?

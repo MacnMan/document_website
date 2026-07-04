@@ -638,33 +638,55 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
 
 
 ---
-
-
 <h2 className="device-section-title">
-  ##  MacSync L Odor X1 Variants
+  ## MacSync L Odor X1 Variants
 </h2>
 
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync L Odor X1 BO</td>
-      <td>19,000 mAh Battery</td>
-      <td>Remote or portable deployments with low power</td>
-      <th>818</th>
+      <td>8300</td>
+      <td>MacSync-L-Odor-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote odor monitoring in smart washrooms, STP, WWTP, landfills, and environmental monitoring applications</td>
     </tr>
-        <tr>
-      <td>MacSync L Odor X1 PO</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>Continuous powered industrial and infrastructure deployments</td>
-      <th>817</th>
+    <tr>
+      <td>8301</td>
+      <td>MacSync-L-Odor-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial odor monitoring with external power for factories and smart infrastructure</td>
+    </tr>
+    <tr>
+      <td>8302</td>
+      <td>MacSync-M-Odor-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote qualitative odor monitoring</td>
+    </tr>
+    <tr>
+      <td>8303</td>
+      <td>MacSync-M-Odor-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based industrial odor monitoring with continuous external power</td>
+    </tr>
+    <tr>
+      <td>8304</td>
+      <td>MacSync-B-Odor-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local qualitative odor monitoring, commissioning, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

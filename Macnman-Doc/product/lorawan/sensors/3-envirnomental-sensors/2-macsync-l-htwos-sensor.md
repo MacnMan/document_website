@@ -591,24 +591,48 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacSync LH2S X1 BO</td>
-      <td>Battery Powered</td>
-      <td>Remote and low-power LoRaWAN® H₂S monitoring deployments</td>
-      <td>818</td>
+      <td>8305</td>
+      <td>MacSync-L-H2S-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote quantitative H₂S monitoring in STP, WWTP, sewers, landfills, and industrial safety applications</td>
     </tr>
     <tr>
-      <td>MacSync LH2S X1 PO</td>
-      <td>External Power (9 ~ 36 V DC)</td>
-      <td>Continuous powered industrial H₂S monitoring deployments</td>
-      <td>819</td>
+      <td>8306</td>
+      <td>MacSync-L-H2S-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>LoRaWAN®</td>
+      <td>Continuous industrial H₂S monitoring with external power for process plants and hazardous environments</td>
+    </tr>
+    <tr>
+      <td>8307</td>
+      <td>MacSync-M-H2S-PS-X1</td>
+      <td>9–36 V DC</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based quantitative H₂S monitoring for industrial automation and environmental safety</td>
+    </tr>
+    <tr>
+      <td>8308</td>
+      <td>MacSync-M-H2S-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>MacTalk</td>
+      <td>Battery-operated MacTalk deployments for remote hydrogen sulfide monitoring</td>
+    </tr>
+    <tr>
+      <td>8309</td>
+      <td>MacSync-B-H2S-BS-X1</td>
+      <td>Battery (19 Ah)</td>
+      <td>BLE</td>
+      <td>Local quantitative H₂S monitoring, commissioning, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>

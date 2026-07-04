@@ -515,37 +515,46 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 
 ---
 
-
 <h2 className="device-section-title">
   ## MacRay LUS X1 Variants
 </h2>
 
-
 <table className="parameter-table">
   <thead>
     <tr>
+      <th>SKU</th>
       <th>Variant Name</th>
       <th>Power Source</th>
+      <th>Communication</th>
       <th>Ideal For</th>
-      <th>SKU</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>MacRay LUS X1 PO</td>
-      <td>External Power (9–36 V DC)</td>
-      <td>Industrial tanks, wastewater treatment plants, reservoirs, smart drainage infrastructure, process automation systems, and continuous industrial level monitoring deployments</td>
-      <th>809</th>
+      <td>8200</td>
+      <td>MacRay-L-UL-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>LoRaWAN®</td>
+      <td>Remote tank level monitoring, reservoirs, wastewater treatment, smart drainage, flood monitoring, and industrial IoT deployments</td>
     </tr>
     <tr>
-      <td>MacRay LUS X1 BO</td>
-      <td>Inbuilt Battery 08 Ah</td>
-      <td>Remote sewer systems, underground drainage monitoring, flood detection infrastructure, smart city manholes, reservoirs, wastewater monitoring, and unmanned Industrial IoT deployments</td>
-      <th>810</th>
+      <td>8201</td>
+      <td>MacRay-M-UL-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>MacTalk</td>
+      <td>MacTalk-based industrial level monitoring for tanks, drainage systems, reservoirs, and smart infrastructure deployments</td>
+    </tr>
+    <tr>
+      <td>8202</td>
+      <td>MacRay-B-UL-BS-X1</td>
+      <td>Battery (8 Ah)</td>
+      <td>BLE</td>
+      <td>Local ultrasonic level monitoring, commissioning, maintenance, and diagnostics using BLE connectivity</td>
     </tr>
   </tbody>
 </table>
 
+---
 
 ## What's in the Box?
 
