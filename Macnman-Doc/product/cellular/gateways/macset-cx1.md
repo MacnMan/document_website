@@ -57,11 +57,11 @@ Whether used for smart agriculture, industrial automation, water management, or 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSet-LX1-datasheet.pdf" 
+  <a href="https://www.macnman.com/downloads/MacSet-LX1-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-CX1-datasheet.pdf)</strong>
+      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-CX1-datasheet.pdf)</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>

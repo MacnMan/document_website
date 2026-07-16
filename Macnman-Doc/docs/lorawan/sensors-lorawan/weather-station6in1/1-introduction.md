@@ -25,11 +25,11 @@ Seamlessly compatible with Macnman gateways and cloud platforms, MacSync-LW6 emp
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LW6.pdf" 
+  <a href="https://www.macnman.com/downloads/MacSync-LW6.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LW6.pdf)</strong>
+      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LW6.pdf)</strong>
       <p>Click here to download the full MacSync-LT1 technical datasheet
 .</p>
     </div>

@@ -27,7 +27,7 @@ Configuration is quick and user-friendly using the [**Macnman Maya App**](https:
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LT1.pdf)</strong>
+      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LT1.pdf)</strong>
       <p>Click here to download the full MacSync-LT1 technical datasheet
 .</p>
     </div>

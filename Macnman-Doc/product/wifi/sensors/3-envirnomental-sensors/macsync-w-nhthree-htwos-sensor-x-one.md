@@ -48,11 +48,11 @@ Whether deployed for **worker safety, toxic gas exposure monitoring, ventilation
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
+      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>

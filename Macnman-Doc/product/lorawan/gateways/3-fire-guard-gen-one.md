@@ -52,7 +52,7 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
+      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>

@@ -21,7 +21,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://macnman.com',
+  url: 'https://www.macnman.com',
   baseUrl: '/docs/',
 
   organizationName: 'facebook',
@@ -217,7 +217,7 @@ const config: Config = {
             },
             {
               label: 'Macnman.com',
-              href: 'https://macnman.com/',
+              href: 'https://www.macnman.com/',
             },
           ],
         },

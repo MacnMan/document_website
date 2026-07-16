@@ -25,11 +25,11 @@ Fully compatible with Macnman gateways and platforms, MacSync-LU4 enables smarte
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-LU4.pdf" 
+  <a href="https://www.macnman.com/downloads/MacSync-LU4.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LU4.pdf)</strong>
+      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LU4.pdf)</strong>
       <p>Click here to download the full MacSync-LT1 technical datasheet
 .</p>
     </div>

@@ -48,7 +48,7 @@ Whether you need **remote monitoring, compliance readiness, or 24/7 environmenta
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-LS7.pdf)</strong>
+      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>

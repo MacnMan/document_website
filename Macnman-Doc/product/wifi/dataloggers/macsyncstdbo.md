@@ -45,11 +45,11 @@ Housed in a rugged IP‑rated enclosure, MacSync‑WX1‑BO is ideal for **facto
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://macnman.com/downloads/MacSync-L-STD.pdf" 
+  <a href="https://www.macnman.com/downloads/MacSync-L-STD.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://macnman.com/downloads/MacSync-L-STD.pdf)</strong>
+      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-L-STD.pdf)</strong>
       <p> Download the PDF Version of the Datasheet
 .</p>
     </div>
