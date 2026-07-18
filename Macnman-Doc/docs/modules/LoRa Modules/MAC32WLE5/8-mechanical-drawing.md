@@ -1,6 +1,6 @@
 ---
 id: mechanical_drawing
-title: Mechanical Drawing
+title: MAC32WLE5 Mechanical Drawing
 ---
 # Mechanical Drawing
 <br/><br/>

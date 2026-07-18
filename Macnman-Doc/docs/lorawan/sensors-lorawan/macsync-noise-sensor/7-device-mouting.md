@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Mounting Options
+title: Noise Sensor Mounting Options
 ---
 
 ## Wall Mounting

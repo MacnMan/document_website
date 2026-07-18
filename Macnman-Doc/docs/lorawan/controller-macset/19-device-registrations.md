@@ -1,6 +1,6 @@
 ---
 id: macsync-lns-registration
-title: LNS Registration
+title: LoRaWAN® Controller (MacSet) LNS Registration
 ---
 
 # LNS Registration 

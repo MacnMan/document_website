@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Introduciton
+title: Water Quality Sensors Introduction
 ---
 
 # MacSync-LWQS8

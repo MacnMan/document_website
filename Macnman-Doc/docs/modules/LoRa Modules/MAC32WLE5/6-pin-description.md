@@ -1,6 +1,6 @@
 ---
 id: pin-description
-title: Pin Description
+title: MAC32WLE5 Pin Description
 ---
 # Block Diagram
 

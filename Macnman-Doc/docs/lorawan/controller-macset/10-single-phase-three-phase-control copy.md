@@ -3,6 +3,10 @@ id: macset_lora_single_three_phase_app
 title: Singel & Three Phase Control
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Single-Phase Control
 
 Select the appropriate **application type** based on your system’s electrical configuration:

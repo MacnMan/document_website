@@ -1,6 +1,6 @@
 ---
 id: macsync_power-options
-title: Power Options
+title: WiFi Datalogger (MacSync) Power Options
 ---
 
 # Power Options in MacSync

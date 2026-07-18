@@ -1,6 +1,6 @@
 ---
 id: maya_lorawan_basic_configurationsasa
-title: LoRaWAN Settings
+title: RS485/Aalog Datalogger (MacSync) LoRaWAN Settings
 ---
 
 ## Keys & Identities

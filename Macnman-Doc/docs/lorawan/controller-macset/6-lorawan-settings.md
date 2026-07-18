@@ -1,6 +1,6 @@
 ---
 id: maya_lorawan_basic_configurationsasa
-title: LoRaWAN Settings
+title: LoRaWAN® Controller (MacSet) LoRaWAN Settings
 ---
 
 ## Keys & Identities

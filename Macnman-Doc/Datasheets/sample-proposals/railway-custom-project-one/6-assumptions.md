@@ -3,6 +3,10 @@ id: project-assumptions
 title: Assumptions
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Conditions and Assumptions
 
 ### Compliance

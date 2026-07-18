@@ -3,6 +3,10 @@ id: custom_product_node_technical_specifications
 title: ToF Sensor Specifications
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # 3D LiDAR Sensor Module
 
 ---

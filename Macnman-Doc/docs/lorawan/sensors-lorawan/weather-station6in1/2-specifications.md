@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: Weather Station Specifications
 ---
 
 # Product Specifications

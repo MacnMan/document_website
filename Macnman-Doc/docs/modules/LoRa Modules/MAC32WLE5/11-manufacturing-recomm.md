@@ -1,6 +1,6 @@
 ---
 id: manufacturing_recommedations
-title: Manufacturing Recommendations
+title: MAC32WLE5 Manufacturing Recommendations
 ---
 
 ## Reflow & Soldering

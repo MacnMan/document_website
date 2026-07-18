@@ -1,6 +1,6 @@
 ---
 id: macsynclw6_introduction
-title: Introduciton
+title: Weather Station Introduction
 ---
 
 # MacSync-LW6

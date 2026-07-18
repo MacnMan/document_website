@@ -3,6 +3,10 @@ id: custom_product_gateway_technical_specifications
 title: Camera Technical Specifications
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # LoRaWAN Hub – Technical Specifications
 
 ## Entrance & Exit AI LPR Pro Bullet Plus Camera – Technical Specifications

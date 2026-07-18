@@ -3,6 +3,10 @@ id: proposal_introduction_coal_wagon_monitoring_system
 title: Scope
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Automated Coal Wagon Counting & Load Assessment System Proposal
 
 ## Scope

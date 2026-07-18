@@ -1,6 +1,6 @@
 ---
 id: maya-resetting-devices
-title: Reset Device
+title: LoRaWAN® Controller (MacSet) Reset Device
 ---
 
 ## Reboot

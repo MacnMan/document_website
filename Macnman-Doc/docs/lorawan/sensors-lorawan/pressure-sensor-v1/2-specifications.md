@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: Pressure Sensor Specifications
 ---
 
 # Product Specifications

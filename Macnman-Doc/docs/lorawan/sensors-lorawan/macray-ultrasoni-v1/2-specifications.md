@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: MacRay-Ultrasonic Specifications
 ---
 
 ## Ultrasonic Sensor Parameters

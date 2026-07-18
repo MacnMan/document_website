@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Introduciton
+title: Ultrasonic Sensor (Sub 4 Meter) Introduction
 ---
 
 # MacSync-LU7

@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: WiFi Datalogger (MacSync) Specifications
 ---
 
 # Product Specifications

@@ -1,6 +1,6 @@
 ---
 id: maya_sampling_and_uploading_lorawan_common_sensors
-title: Data Sampling & Uploading
+title: Common Sensor Settings Data Sampling & Uploading
 ---
 
 ## Data Sampling & Upload Timings

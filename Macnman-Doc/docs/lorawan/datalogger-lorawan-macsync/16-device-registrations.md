@@ -1,6 +1,6 @@
 ---
 id: macsync-lns-registration
-title: LNS Registration
+title: RS485/Aalog Datalogger (MacSync) LNS Registration
 ---
 
 # LNS Registration 

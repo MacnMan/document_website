@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Comming Soon!
+title: Modules Coming Soon!
 ---
 
 # Bluetooth brains incoming… something cool is loading , stay tuned!

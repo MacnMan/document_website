@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Introduciton
+title: MacRay-ToF Introduction
 ---
 
 # MacRay-LToF-Gen1

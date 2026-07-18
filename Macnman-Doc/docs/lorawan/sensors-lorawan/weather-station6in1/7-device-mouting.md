@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Mounting Options
+title: Weather Station Mounting Options
 ---
 
 ## Wall Mounting

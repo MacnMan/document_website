@@ -1,6 +1,6 @@
 ---
 id: pin-description
-title: Pin Description
+title: MAC32WBLE5 Pin Description
 ---
 
 ## Pin Description

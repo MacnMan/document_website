@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: CO2 Sensor Specifications
 ---
 
 # Product Specifications

@@ -1,6 +1,6 @@
 ---
 id: maya_lorawa_network_health
-title: LoRaWAN Network Health
+title: LoRaWAN® Controller LoRaWAN Network Health
 ---
 
 ## LoRaWAN Network Test

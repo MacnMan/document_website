@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-dimensions
-title: Dimensions
+title: MacRay-Ultrasonic Dimensions
 ---
 
 ## MacRay Dimensions 

@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs
-title: FAQs
+title: RS485/Aalog Datalogger (MacSync) FAQs
 ---
 
 # FAQs & Troubleshooting Guide

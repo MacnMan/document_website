@@ -1,6 +1,6 @@
 ---
 id: maya_configuration
-title: Basic Settings
+title: LoRaWAN® Controller (MacSet) Basic Settings
 ---
 
 ## Device Name

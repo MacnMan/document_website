@@ -1,6 +1,6 @@
 ---
 id: MacRayls_introduction
-title: Introduciton
+title: MacRay-Ultrasonic Introduction
 ---
 
 # MacRay-LUltrasonic-Gen1

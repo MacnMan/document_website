@@ -3,6 +3,10 @@ id: macset_lora_Schedule_regular
 title: Regular Relay Schedulings
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Relay Scheduling in MacSet
 
 ## What is Regular Scheduling?

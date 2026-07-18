@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-dimensions
-title: Dimensions
+title: CO2 Sensor Dimensions
 ---
 
 ## Product Dimensions

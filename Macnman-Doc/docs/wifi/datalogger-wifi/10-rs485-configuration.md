@@ -1,6 +1,6 @@
 ---
 id: macsync_rs485_configurations
-title: RS485 Configuration
+title: WiFi Datalogger (MacSync) RS485 Configuration
 ---
 
 ## RS485 Selection

@@ -1,6 +1,6 @@
 ---
 id: testing_envirnoment
-title: Testing Environment
+title: LoRaWAN Device Testing Environment
 ---
 
 # Testing Environment

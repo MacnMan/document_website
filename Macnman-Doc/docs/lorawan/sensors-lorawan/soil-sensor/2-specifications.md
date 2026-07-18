@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: Soil Sensor Specifications
 ---
 
 # Product Specifications

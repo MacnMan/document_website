@@ -1,6 +1,6 @@
 ---
 id: macsync_rs485_wifi_introduction
-title: Introduciton
+title: WiFi Datalogger (MacSync) Introduction
 ---
 
 # Product Overview

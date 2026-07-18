@@ -1,6 +1,6 @@
 ---
 id: packing-details
-title: Packing List
+title: MAC32WBLE5 Packing List
 ---
 
 ## Reel type Package

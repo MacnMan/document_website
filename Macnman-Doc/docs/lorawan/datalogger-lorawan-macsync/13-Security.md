@@ -1,6 +1,6 @@
 ---
 id: maya-security-device-sharing
-title: Security & device sharing
+title: RS485/Aalog Datalogger Security & device sharing
 ---
 
 ## Choosing Security Levels

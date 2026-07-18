@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Introduciton
+title: Pressure Sensor Introduction
 ---
 
 # MacSync-LPS1

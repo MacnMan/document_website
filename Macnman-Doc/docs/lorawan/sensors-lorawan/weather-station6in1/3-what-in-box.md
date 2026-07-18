@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-box-contain
-title: What's in the Box ?
+title: Weather Station What's in the Box ?
 ---
 
 # Part List 

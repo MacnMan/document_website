@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: RS485/Aalog Datalogger (MacSync) Specifications
 ---
 
 # Product Specifications

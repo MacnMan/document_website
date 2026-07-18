@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-dimensions
-title: Dimensions
+title: Weather Station Dimensions
 ---
 
 ## MacSync STD Dimensions 

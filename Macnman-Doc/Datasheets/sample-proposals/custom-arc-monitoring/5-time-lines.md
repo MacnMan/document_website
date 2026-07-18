@@ -3,6 +3,10 @@ id: custom_product_time_lines
 title: Time Lines
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Time Lines
 
 ## Phase 1 – Requirement Finalization, Hardware & Firmware Design (6 Weeks)

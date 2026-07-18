@@ -1,6 +1,6 @@
 ---
 id: setu-scx-single-channel-datasheet
-title: Setu SCX
+title: Custom Products Setu SCX
 sidebar_position: 3
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:

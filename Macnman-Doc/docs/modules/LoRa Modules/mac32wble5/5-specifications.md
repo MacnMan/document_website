@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: MAC32WBLE5 Specifications
 ---
 
 # Technical Specifications

@@ -3,6 +3,10 @@ id: custom_product_after_sales_support
 title: After Sales & Support
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # After Sales & Support Terms
 
 Macnman provides structured, industry-standard after‑sales and support services to ensure reliable operation, performance continuity, and long‑term maintainability of deployed systems.

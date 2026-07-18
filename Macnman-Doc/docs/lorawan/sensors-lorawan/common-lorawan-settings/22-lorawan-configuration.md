@@ -1,6 +1,6 @@
 ---
 id: maya_lorawan_basic_sensors_common
-title: LoRaWAN Settings
+title: Common Sensor Settings LoRaWAN Settings
 ---
 
 ## Keys & Identities

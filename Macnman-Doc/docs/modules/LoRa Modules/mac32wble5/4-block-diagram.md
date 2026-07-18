@@ -1,6 +1,6 @@
 ---
 id: block_diagram
-title: Block Diagram
+title: MAC32WBLE5 Block Diagram
 ---
 # Block Diagram
 

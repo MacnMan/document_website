@@ -1,6 +1,6 @@
 ---
 id: maya_sampling_and_uploading_lorawan
-title: Data Sampling & Uploading
+title: RS485/Aalog Datalogger Data Sampling & Uploading
 ---
 
 ## Data Sampling & Upload Timings

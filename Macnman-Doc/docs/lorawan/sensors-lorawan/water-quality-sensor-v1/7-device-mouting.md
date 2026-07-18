@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Mounting Options
+title: Water Quality Sensors Mounting Options
 ---
 
 ## Wall Mounting

@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: Temperature & Humidity Specifications
 ---
 
 # Product Specifications

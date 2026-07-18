@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-dimensions
-title: Dimensions
+title: Ultrasonic Sensor (Long Range) Dimensions
 ---
 
 ## MacSync LU7 Dimensions 

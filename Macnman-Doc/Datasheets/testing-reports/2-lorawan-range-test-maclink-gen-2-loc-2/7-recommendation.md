@@ -1,6 +1,6 @@
 ---
 id: lorawan_gateway_placement_recommendation_maclink_gen_2
-title: Deployment Recommendation
+title: LoRaWAN gateway Deployment Recommendation
 ---
 
 # Recommendations Based on Test Results

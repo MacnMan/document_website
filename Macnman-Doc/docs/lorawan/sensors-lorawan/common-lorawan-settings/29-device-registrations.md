@@ -1,6 +1,6 @@
 ---
 id: macsync-lns-registration_common_sensors
-title: LNS Registration
+title: Common Sensor Settings LNS Registration
 ---
 
 # LNS Registration 

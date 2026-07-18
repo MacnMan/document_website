@@ -1,6 +1,6 @@
 ---
 id: macset_lorawan_introduction
-title: Introduciton
+title: LoRaWAN® Controller (MacSet) Introduction
 ---
 
 # Product Overview

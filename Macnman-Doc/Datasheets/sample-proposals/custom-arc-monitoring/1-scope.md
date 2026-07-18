@@ -1,7 +1,11 @@
 ---
-id: proposal_introduction_welding_data_collection_&_monitoring_system_proposal
+id: proposal_introduction_welding_data_collection_and_monitoring_system_proposal
 title: Scope
 ---
+
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
 
 # Welding Data Collection & Monitoring System Proposal Version 1.0
 

@@ -1,6 +1,6 @@
 ---
 id: macsync_wifi_remote_configure
-title: Remote Device Configuration
+title: WiFi Datalogger Remote Device Configuration
 ---
 
 # Payload Structure

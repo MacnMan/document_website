@@ -1,6 +1,6 @@
 ---
 id: module-performace-notes
-title: Referance Designs
+title: MAC32WLE5 Referance Designs
 ---
 
 ## Reference Schematic: MAC32WBLE5

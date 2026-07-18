@@ -1,6 +1,6 @@
 ---
 id: macsynclco21_introduction
-title: Introduciton
+title: CO2 Sensor Introduction
 ---
 
 # MacSync-LCO21

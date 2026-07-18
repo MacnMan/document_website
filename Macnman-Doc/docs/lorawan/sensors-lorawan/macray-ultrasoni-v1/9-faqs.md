@@ -1,6 +1,6 @@
 ---
 id: MacRay_faqs_MacRaylt4
-title: FAQs
+title: MacRay-Ultrasonic FAQs
 ---
 
 ## Frequently Asked Questions (FAQ)

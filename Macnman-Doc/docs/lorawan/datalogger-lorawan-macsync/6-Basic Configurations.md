@@ -1,6 +1,6 @@
 ---
 id: maya_configuration
-title: Basic Settings
+title: RS485/Aalog Datalogger (MacSync) Basic Settings
 ---
 
 ## Device Name

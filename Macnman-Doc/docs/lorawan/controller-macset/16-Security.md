@@ -1,6 +1,6 @@
 ---
 id: maya-security-device-sharing
-title: Security & device sharing
+title: LoRaWAN® Controller Security & device sharing
 ---
 
 ## Choosing Security Levels

@@ -1,6 +1,6 @@
 ---
 id: macsync_rs485_configurations
-title: RS485 Configuration
+title: RS485/Aalog Datalogger RS485 Configuration
 ---
 
 ## RS485 Selection

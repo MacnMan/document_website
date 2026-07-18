@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-beam-patterns
-title: Beam Pattern
+title: Ultrasonic Sensor (Sub 4 Meter) Beam Pattern
 ---
 
 Sample results for measured beam pattern are shown on a 30-cm grid. The detection pattern is shown for dowels of varying diameters that are placed in front of the sensor

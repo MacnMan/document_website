@@ -1,6 +1,6 @@
 ---
 id: module-performace-notes
-title: Referance Designs
+title: MAC32WBLE5 Referance Designs
 ---
 
 

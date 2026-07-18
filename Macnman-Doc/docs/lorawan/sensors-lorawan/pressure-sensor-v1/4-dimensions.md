@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-dimensions
-title: Dimensions
+title: Pressure Sensor Dimensions
 ---
 
 ## MacSync STD Dimensions 

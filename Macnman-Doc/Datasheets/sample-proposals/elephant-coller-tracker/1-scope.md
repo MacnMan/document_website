@@ -3,6 +3,10 @@ id: proposal_introduction_elephant_intrusion_detection_system
 title: Introduction & Scope
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Elephant Intrusion Detection & Train Collision Avoidance System Proposal
 
 ## Introduction: A Silent Call for Help

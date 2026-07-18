@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-live-values
-title: How to check Live values?
+title: Ultrasonic Sensor (Long How to check Live values?
 ---
 
 ## Check Live Values using BLE

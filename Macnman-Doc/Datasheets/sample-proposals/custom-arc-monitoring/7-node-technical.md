@@ -3,6 +3,10 @@ id: custom_product_node_technical_specifications
 title: Node Technical Specifications
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Node Tracker – Technical Specifications
 
 ## Current Sensing Module

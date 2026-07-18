@@ -1,6 +1,6 @@
 ---
 id: testing-scope
-title: Indoor Coverage Testing
+title: LoRaWAN gateway Indoor Coverage Testing
 ---
 
 ## Analysis of Data Trends Under Harsh Indian Environmental Conditions

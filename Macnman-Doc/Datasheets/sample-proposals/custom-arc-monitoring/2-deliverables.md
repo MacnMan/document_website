@@ -3,6 +3,10 @@ id: deliverables
 title: Deliverables
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Deliverables
 
 ## General Specifications

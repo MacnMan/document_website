@@ -1,6 +1,6 @@
 ---
 id: maya-security-device-sharing_common_sensors
-title: Security & device sharing
+title: Common Sensor Settings Security & device sharing
 ---
 
 ## Choosing Security Levels

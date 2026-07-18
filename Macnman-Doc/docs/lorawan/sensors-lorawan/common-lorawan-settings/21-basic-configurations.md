@@ -1,6 +1,6 @@
 ---
 id: maya_configuration_sensors_common
-title: Basic Settings
+title: Common Sensor Settings Basic Settings
 ---
 
 ----

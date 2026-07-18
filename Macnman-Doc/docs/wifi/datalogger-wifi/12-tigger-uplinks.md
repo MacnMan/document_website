@@ -1,6 +1,6 @@
 ---
 id: maya_tigger_configuration
-title: How to Set Triggers ?
+title: WiFi Datalogger (MacSync) How to Set Triggers ?
 ---
 
 ## Settings Triggers

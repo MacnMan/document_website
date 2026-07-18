@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-box-contain
-title: What's in the Box ?
+title: Temperature & Humidity What's in the Box ?
 ---
 
 # Part List 

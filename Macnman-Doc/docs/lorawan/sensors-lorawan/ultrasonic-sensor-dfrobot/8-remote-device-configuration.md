@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-remote-configuration
-title: Remote Device Configuration
+title: Ultrasonic Sensor (Sub Remote Device Configuration
 ---
 
 ## Updating Device Heartbeat

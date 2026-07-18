@@ -1,6 +1,6 @@
 ---
 id: macsync_mounting
-title: Mountings
+title: RS485/Aalog Datalogger (MacSync) Mountings
 ---
 # MacSync Mounting Options
 

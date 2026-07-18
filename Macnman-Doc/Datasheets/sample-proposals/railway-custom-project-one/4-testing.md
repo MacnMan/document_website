@@ -3,6 +3,10 @@ id: testing-scope
 title: Testing Scope
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">

@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: Water Quality Sensors Specifications
 ---
 
 # Product Specifications

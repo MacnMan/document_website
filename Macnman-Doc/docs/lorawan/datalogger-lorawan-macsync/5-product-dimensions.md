@@ -1,6 +1,6 @@
 ---
 id: macsync_dimensions
-title: MacSync Dimensions
+title: RS485/Aalog Datalogger MacSync Dimensions
 ---
 ## Product Dimensions
 

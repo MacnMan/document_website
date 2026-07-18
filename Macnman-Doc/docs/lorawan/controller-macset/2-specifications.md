@@ -1,6 +1,6 @@
 ---
 id: macset_lorawan_specifications
-title: Specifications
+title: LoRaWAN® Controller (MacSet) Specifications
 ---
 
 # Product Specifications

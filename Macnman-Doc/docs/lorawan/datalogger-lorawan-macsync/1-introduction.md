@@ -1,6 +1,6 @@
 ---
 id: macsync_rs485_lorawan_introduction
-title: Introduciton
+title: RS485/Aalog Datalogger (MacSync) Introduction
 ---
 
 # Product Overview

@@ -1,6 +1,6 @@
 ---
 id: maya-firmware-updates_common_sensors
-title: Firmware Updates
+title: Common Sensor Settings Firmware Updates
 ---
 
 # Firmware Updates

@@ -3,6 +3,10 @@ id: custom_product_development_scope
 title: Development Scopes
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Development Scope
 
 ## PCB Design & Hardware Development

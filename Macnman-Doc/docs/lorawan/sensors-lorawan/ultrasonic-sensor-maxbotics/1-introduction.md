@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Introduciton
+title: Ultrasonic Sensor (Long Range) Introduction
 ---
 
 # MacSync-LU7

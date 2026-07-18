@@ -1,6 +1,6 @@
 ---
 id: box-contains_wifi
-title: Box Contains
+title: WiFi Datalogger (MacSync) Box Contains
 ---
 
 # Part List 

@@ -3,6 +3,10 @@ id: custom_product_web_dashboard
 title: Web Dashboard
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 # Web Dashboard & Technical Architecture
 
 ## High‑Level Design

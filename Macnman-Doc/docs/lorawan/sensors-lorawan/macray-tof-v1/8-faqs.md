@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: FAQs
+title: MacRay-ToF FAQs
 ---
 
 ## Frequently Asked Questions (FAQ)

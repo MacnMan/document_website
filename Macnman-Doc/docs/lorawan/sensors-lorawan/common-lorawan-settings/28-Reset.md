@@ -1,6 +1,6 @@
 ---
 id: maya-resetting-devices_common_sensors
-title: Reset Device
+title: Common Sensor Settings Reset Device
 ---
 
 ## Reboot

@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-dimensions
-title: Dimensions
+title: Noise Sensor Dimensions
 ---
 
 ## MacSync STD Dimensions 

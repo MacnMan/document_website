@@ -24,8 +24,8 @@ const config: Config = {
   url: 'https://www.macnman.com',
   baseUrl: '/docs/',
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'MacnMan',
+  projectName: 'document_website',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -53,6 +53,20 @@ const config: Config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        sitemap: {
+          // Keep non-content and noindexed routes out of the sitemap: submitting a
+          // URL that its own page disowns via robots noindex is a conflicting signal.
+          // Sample proposals are internal sales collateral, and the "* copy" pages
+          // are accidental duplicates of pages that already rank.
+          // Patterns are matched against the full path, so they must include baseUrl.
+          ignorePatterns: [
+            '/docs/datasheets/sample-proposals/**',
+            '/docs/datasheets/category/sample-proposals',
+            '/docs/search',
+            '/docs/markdown-page',
+            '/docs/**/*copy*',
+          ],
         },
       } satisfies Preset.Options,
     ],
@@ -174,8 +188,8 @@ const config: Config = {
           docsPluginId: 'help',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://www.macnman.com/',
+          label: 'Macnman.com',
           position: 'right',
         },
         // {   // custom dark-light-system theme

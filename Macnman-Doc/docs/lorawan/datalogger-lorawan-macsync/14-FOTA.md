@@ -1,6 +1,6 @@
 ---
 id: maya-firmware-updates
-title: Firmware Updates
+title: RS485/Aalog Datalogger (MacSync) Firmware Updates
 ---
 
 # Firmware Updates

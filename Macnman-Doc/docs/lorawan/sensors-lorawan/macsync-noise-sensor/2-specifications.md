@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: Noise Sensor Specifications
 ---
 
 # Product Specifications

@@ -1,6 +1,6 @@
 ---
 id: controller_box-contains
-title: Box Contains
+title: LoRaWAN® Controller (MacSet) Box Contains
 ---
 
 # Part List 

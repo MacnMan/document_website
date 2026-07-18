@@ -3,6 +3,10 @@ id: macset_lora_Schedule_trigger
 title: Trigger Relay Schedulings
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## What is Trigger Scheduling?
 
 ![macset trigger schedule](/img/controller/tigger_Schedule_diagram.svg)

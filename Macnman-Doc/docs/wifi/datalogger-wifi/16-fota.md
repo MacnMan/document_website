@@ -1,6 +1,6 @@
 ---
 id: maya-firmware-updates
-title: Firmware Updates
+title: WiFi Datalogger (MacSync) Firmware Updates
 ---
 
 # Firmware Updates

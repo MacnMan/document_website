@@ -1,6 +1,6 @@
 ---
 id: maya_sampling_and_uploading
-title: Data Sampling & Uploading
+title: WiFi Datalogger Data Sampling & Uploading
 ---
 
 ## Data Sampling & Upload Timings

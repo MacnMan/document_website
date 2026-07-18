@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Mounting Options
+title: Ultrasonic Sensor (Long Range) Mounting Options
 ---
 
 ## Wall Mounting

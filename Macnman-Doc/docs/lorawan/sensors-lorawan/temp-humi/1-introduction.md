@@ -1,6 +1,6 @@
 ---
 id: macsync_lt1_introduction
-title: Introduciton
+title: Temperature & Humidity Introduction
 ---
 
 # MacSync-LT1

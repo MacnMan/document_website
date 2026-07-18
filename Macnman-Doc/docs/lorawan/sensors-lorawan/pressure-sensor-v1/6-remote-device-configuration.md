@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-remote-configuration
-title: Remote Device Configuration
+title: Pressure Sensor Remote Device Configuration
 ---
 
 ## Updating Device Heartbeat

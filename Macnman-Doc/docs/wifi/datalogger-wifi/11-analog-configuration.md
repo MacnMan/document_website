@@ -1,6 +1,6 @@
 ---
 id: macsync_analog_configurations
-title: Analog Settings
+title: WiFi Datalogger (MacSync) Analog Settings
 ---
 
 ## Setting Up Analog Sensors

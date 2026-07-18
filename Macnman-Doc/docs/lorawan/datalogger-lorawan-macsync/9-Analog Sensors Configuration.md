@@ -1,6 +1,6 @@
 ---
 id: macsync_analog_configurations
-title: Analog Settings
+title: RS485/Aalog Datalogger (MacSync) Analog Settings
 ---
 
 ## Setting Up Analog Sensors

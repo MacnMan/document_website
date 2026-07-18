@@ -1,6 +1,6 @@
 ---
 id: maya_tigger_configuration
-title: How to Set Triggers ?
+title: RS485/Aalog Datalogger How to Set Triggers ?
 ---
 
 ## Settings Triggers

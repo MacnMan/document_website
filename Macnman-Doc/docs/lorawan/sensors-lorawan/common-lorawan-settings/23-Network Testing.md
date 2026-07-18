@@ -1,6 +1,6 @@
 ---
 id: maya_lorawa_network_health
-title: LoRaWAN Network Health
+title: Common Sensor Settings LoRaWAN Network Health
 ---
 
 ## LoRaWAN Network Test

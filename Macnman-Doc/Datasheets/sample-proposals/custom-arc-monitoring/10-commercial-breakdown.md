@@ -3,6 +3,10 @@ id: custom_product_commercial_breakdown
 title: Commercial Breakdown
 ---
 
+<head>
+  <meta name="robots" content="noindex, nofollow" />
+</head>
+
 ## Commercial Breakdown
 
 <table className="parameter-table">

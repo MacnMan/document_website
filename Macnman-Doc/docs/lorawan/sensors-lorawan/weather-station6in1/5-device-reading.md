@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-live-values
-title: How to check Live values?
+title: Weather Station How to check Live values?
 ---
 
 ## Check Live Values using BLE

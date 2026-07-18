@@ -1,6 +1,6 @@
 ---
 id: maya-resetting-devices
-title: Reset Device
+title: WiFi Datalogger (MacSync) Reset Device
 ---
 
 ## Reboot

@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: Ultrasonic Sensor (Long Range) Specifications
 ---
 
 # Product Specifications

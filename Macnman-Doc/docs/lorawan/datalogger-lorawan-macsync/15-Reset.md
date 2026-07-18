@@ -1,6 +1,6 @@
 ---
 id: maya-resetting-devices
-title: Reset Device
+title: RS485/Aalog Datalogger (MacSync) Reset Device
 ---
 
 ## Reboot

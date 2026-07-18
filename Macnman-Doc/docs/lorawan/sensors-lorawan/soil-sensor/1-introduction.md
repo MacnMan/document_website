@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Introduciton
+title: Soil Sensor Introduction
 ---
 
 # MacSync-LS7

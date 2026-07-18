@@ -1,6 +1,6 @@
 ---
 id: directional_testing_lorawan_gateway
-title: Direction Testing
+title: LoRaWAN Range & Coverage Test Direction Testing
 ---
 
 # Location 2 - Urban Use case 

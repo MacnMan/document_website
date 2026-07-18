@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Mounting Options
+title: Temperature & Humidity Mounting Options
 ---
 
 ## Wall Mounting

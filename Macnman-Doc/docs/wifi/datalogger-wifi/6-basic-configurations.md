@@ -1,6 +1,6 @@
 ---
 id: maya_configuration
-title: Basic Settings
+title: WiFi Datalogger (MacSync) Basic Settings
 ---
 
 ## Device Name

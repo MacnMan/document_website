@@ -1,6 +1,6 @@
 ---
 id: maya-firmware-updates
-title: Firmware Updates
+title: LoRaWAN® Controller (MacSet) Firmware Updates
 ---
 
 # Firmware Updates

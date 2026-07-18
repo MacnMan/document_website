@@ -1,6 +1,6 @@
 ---
 id: setu-wx-one-datasheet
-title: Setu WX1
+title: Ble to WiFi Gateways Setu WX1
 sidebar_position: 2
 description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
 keywords:

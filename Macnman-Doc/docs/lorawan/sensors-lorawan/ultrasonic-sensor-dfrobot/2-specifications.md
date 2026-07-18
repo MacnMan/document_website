@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Specifications
+title: Ultrasonic Sensor (Sub 4 Meter) Specifications
 ---
 
 # Product Specifications

@@ -1,6 +1,6 @@
 ---
 id: testing-scope
-title: Indoor Coverage Testing
+title: LoRaWAN Range & Coverage Indoor Coverage Testing
 ---
 
 # Location 1 - Indoor Testing

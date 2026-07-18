@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: FAQs
+title: Ultrasonic Sensor (Sub 4 Meter) FAQs
 ---
 
 ## Frequently Asked Questions (FAQ)

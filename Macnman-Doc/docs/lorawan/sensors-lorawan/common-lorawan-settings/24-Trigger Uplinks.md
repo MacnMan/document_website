@@ -1,6 +1,6 @@
 ---
 id: maya_tigger_configuration_common_sensors
-title: How to Set Triggers ?
+title: Common Sensor Settings How to Set Triggers ?
 ---
 
 ## Settings Triggers

@@ -1,6 +1,6 @@
 ---
 id: maya-security-device-sharing
-title: Security & device sharing
+title: WiFi Datalogger Security & device sharing
 ---
 
 ## Choosing Security Levels

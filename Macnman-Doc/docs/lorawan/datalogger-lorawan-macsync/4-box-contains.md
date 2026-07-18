@@ -1,6 +1,6 @@
 ---
 id: box-contains
-title: Box Contains
+title: RS485/Aalog Datalogger (MacSync) Box Contains
 ---
 
 # Part List 

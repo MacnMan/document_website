@@ -1,6 +1,6 @@
 ---
 id: lorawan_range_test-report_maclink_gen_2
-title: Introduction
+title: LoRaWAN Device Introduction
 ---
 
 # LoRa Device-to-Device Communication Test Report – MacTalk

@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: FAQs
+title: CO2 Sensor FAQs
 ---
 
 # Frequently Asked Questions (FAQ)

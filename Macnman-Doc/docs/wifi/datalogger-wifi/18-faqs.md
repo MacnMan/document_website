@@ -1,5 +1,5 @@
 ---
-title: FAQs
+title: WiFi Datalogger (MacSync) FAQs
 ---
 
 # MacSync-WiFi FAQs & Troubleshooting

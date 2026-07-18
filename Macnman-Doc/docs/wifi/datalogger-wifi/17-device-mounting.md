@@ -1,6 +1,6 @@
 ---
 id: macsync_mounting
-title: Mountings
+title: WiFi Datalogger (MacSync) Mountings
 ---
 # MacSync Mounting Options
 

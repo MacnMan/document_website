@@ -1,6 +1,6 @@
 ---
 id: macsync_dimensions_wifi
-title: MacSync Dimensions
+title: WiFi Datalogger (MacSync) MacSync Dimensions
 ---
 ## Product Dimensions
 

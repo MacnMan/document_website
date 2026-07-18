@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-dimensions
-title: Dimensions
+title: Soil Sensor Dimensions
 ---
 
 ## MacSync STD Dimensions 
