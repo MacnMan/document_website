@@ -2,7 +2,7 @@
 id: macsync-l-soil-moisture-sensor-datasheet
 title: Soil Moisture Sensor
 sidebar_position: 9
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync LSS X2 is an industrial LoRaWAN soil moisture and soil temperature sensor for precision agriculture, smart irrigation and long-range field monitoring."
 keywords:
   - lorawan soil moisture sensor
   - macsync lsx3 soil moisture sensor

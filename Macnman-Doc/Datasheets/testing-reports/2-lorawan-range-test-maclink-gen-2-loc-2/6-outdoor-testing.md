@@ -16,7 +16,7 @@ Macnman-Doc/static/img/tech-reports/lorawan/lorawan-gateway-near-los-outdoor-dep
 Location : Sinhagad Ghat Road, Maharashtra 411025
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-near-los-outdoor-deployment.webp)
+![lorawan architecture](/img/tech-reports/lorawan/lorawan-gateway-near-los-outdoor-deployment.webp)
 
 ### RSSI & SNR vs Distance
 

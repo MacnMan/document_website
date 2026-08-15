@@ -80,7 +80,7 @@ With its small footprint, robust RF performance, and ultra-low power design, the
 <div style={{ margin: "2rem 0" }}></div>
 
 
-# Key Parameters
+## Key Parameters
 
 - **LoRaWAN® Protocol Support**  
   Operates on global license-free ISM bands: `IN865`, `US915`, `EU868`, `AU915`.

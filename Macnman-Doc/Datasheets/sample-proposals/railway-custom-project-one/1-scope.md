@@ -27,7 +27,7 @@ This system shall enable the Customer to:
 
 ## Concept Design of System
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-coal-wagon-counting-load-assessment-system.webp)
+![lorawan architecture](/img/custom-products/macnman-coal-wagon-counting-load-assessment-system.webp)
 
 
 ## System Components & Definitions

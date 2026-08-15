@@ -6,14 +6,14 @@ title: LoRaWAN Range & Coverage Indoor Coverage Testing
 # Location 1 - Indoor Testing
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-field-testing-environment.webp)
+![lorawan architecture](/img/tech-reports/lorawan/lorawan-gateway-field-testing-environment.webp)
 
 ## Analysis of Data Trends
 
 ### Signal Degradation with Distance
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-floor-vs-rssi-indoor-testing.svg)
+![lorawan architecture](/img/tech-reports/lorawan/lorawan-gateway-floor-vs-rssi-indoor-testing.svg)
 
 As expected in real-world **LoRaWAN indoor deployments**, both **RSSI (Received Signal Strength Indicator)** and **SNR (Signal-to-Noise Ratio)** values decreased progressively with increasing distance from the gateway. The most pronounced signal degradation was observed on the **4th floor**, where packet loss peaked at approximately **8%**.
 
@@ -24,7 +24,7 @@ This behavior aligns with LoRaWAN propagation characteristics in multi-storey bu
 ### Impact of Building Structure on Signal Quality
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-floor-vs-snr-indoor-testing.svg)
+![lorawan architecture](/img/tech-reports/lorawan/lorawan-gateway-floor-vs-snr-indoor-testing.svg)
 
 The test environment included multiple **signal-attenuating elements** such as metallic walls, elevator shafts, reinforced concrete, and electrical infrastructure. These structural components caused signal absorption, reflection, and multipath interference, resulting in measurable variations in RSSI and packet delivery.
 

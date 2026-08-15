@@ -2,7 +2,7 @@
 id: macsync-l-soil-ph-sensor-datasheet
 title: Soil pH Sensor
 sidebar_position: 9
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync LSS X4 is an industrial LoRaWAN soil pH sensor for precision agriculture, smart farming, greenhouse automation and plantation monitoring."
 keywords:
   - lorawan soil ph sensor
   - macsync lss x4 soil ph sensor

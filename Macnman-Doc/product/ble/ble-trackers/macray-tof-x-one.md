@@ -2,7 +2,7 @@
 id: ble-tag-x-two
 title: Ble Tag X2
 sidebar_position: 4
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "Ble Tag X2 is an industrial BLE asset tracker with an IMU for real-time motion, tilt and orientation sensing plus environmental monitoring of assets."
 keywords:
   - industrial ble tracker
   - bluetooth low energy asset tracker industrial

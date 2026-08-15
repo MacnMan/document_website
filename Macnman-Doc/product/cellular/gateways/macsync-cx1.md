@@ -2,7 +2,7 @@
 id: macsync-cx1-datasheet
 title: MacSync CX1 
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync CX1 is an industrial 4G LTE cellular data logger connecting RS485 Modbus RTU and 4-20 mA / 0-10 V analog sensors to the cloud."
 keywords:
   - cellular rs485 datalogger
   - 4g rs485 modbus datalogger

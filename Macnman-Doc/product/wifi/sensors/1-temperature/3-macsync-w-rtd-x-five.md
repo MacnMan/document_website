@@ -2,7 +2,7 @@
 id: macsync-w-rtd-x-five-datasheet
 title: MacSync-WRTDX5
 sidebar_position: 2
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync-WRTDX5 is a high-accuracy Wi-Fi RTD (PT1000) temperature sensor for precise, reliable temperature monitoring in industrial environments."
 keywords:
   - wifi rtd temperature sensor
   - pt1000 wifi temperature sensor

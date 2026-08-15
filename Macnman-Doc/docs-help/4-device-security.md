@@ -12,7 +12,7 @@ This document outlines the complete hardware-level security architecture followe
 
 ---
 
-# Device Identity & Authentication
+## Device Identity & Authentication
 
 Each Macnman device is manufactured with its own cryptographic and hardware identity.
 
@@ -41,7 +41,7 @@ These provide:
 
 ---
 
-# Firmware Security
+## Firmware Security
 
 Firmware is the most critical part of device security. Macnman enforces strong protections.
 
@@ -67,7 +67,7 @@ These prevent firmware extraction, modification, and cloning.
 
 ---
 
-# Cryptographic Key Security
+## Cryptographic Key Security
 
 Macnman ensures strong device-side protection of all encryption keys.
 
@@ -96,7 +96,7 @@ Key ownership remains entirely with the customer.
 
 ---
 
-# Communication Security
+## Communication Security
 
 Security depends on connectivity type, but all device-side standards are followed.
 
@@ -117,7 +117,7 @@ Macnman does **not** operate a cloud platform; customers fully control uplink co
 
 ---
 
-# Hardware Security
+## Hardware Security
 
 Macnman uses robust hardware design techniques for field safety and tamper resistance.
 
@@ -137,7 +137,7 @@ This blocks unauthorized firmware read/write operations.
 
 ---
 
-# Deployment & Operational Security
+## Deployment & Operational Security
 
 Operational security depends on customer infrastructure, but devices are built to support secure deployment.
 
@@ -159,7 +159,7 @@ Customers must secure their:
 
 ---
 
-# Vulnerability Handling & Reporting
+## Vulnerability Handling & Reporting
 
 Macnman maintains an internal security review and response process.  
 Security concerns can be reported to:
@@ -170,7 +170,7 @@ We investigate and issue firmware updates or advisories when required.
 
 ---
 
-# Standards & Compliance
+## Standards & Compliance
 
 Macnman devices align with:
 

@@ -3,29 +3,11 @@ id: product-sku-and-naming-system
 title: Product Naming & SKU Systems
 ---
 
-# Macnman Brand DNA
+# Product Naming & SKU Systems
 
-# Brand DNA
-
-Welcome to the Brand DNA of Macnman Technologies.
-
-This section serves as the single source of truth for understanding who we are, how we think, and why we build products the way we do. As Macnman continues to grow, maintaining consistency across our products, communications, designs, and customer interactions becomes increasingly important. Brand DNA captures the principles, standards, and decisions that define our identity.
-
-Here, you will find the meaning behind our brand, the logic behind our product naming conventions, the structure of our model numbers, our design philosophy, communication guidelines, product architecture standards, and the core values that shape every solution we create.
-
-Whether you are a new team member, a partner, a designer, an engineer, or a leader within the organization, this knowledge base is intended to provide clarity, consistency, and alignment across all teams.
-
-At Macnman, we believe that great brands are not built by chance—they are built through intentional decisions, repeated consistently over time. This document exists to ensure that every product, every document, every design, and every customer experience reflects the same vision, purpose, and identity.
-
-**Brand DNA is not just a record of what Macnman is today—it is a guide for what Macnman will become tomorrow.**
-
-Macnman Technologies Pvt. Ltd. (“Macnman”) designs and manufactures industrial IoT hardware products intended for professional, commercial, and industrial use.  
-By purchasing, installing, or operating any Macnman product, the customer acknowledges and agrees to the disclaimers, limitations, and responsibilities outlined in this document.
-
-This policy protects Macnman from liabilities arising from factors outside our control such as improper installation, misuse, environmental conditions, or failures in external systems.
+This page explains how Macnman product model numbers and SKUs are structured, so you can decode a part number to its product family, connectivity, variant and generation.
 
 ---
-
 
 ## Decoding Product Model Number
 

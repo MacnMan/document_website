@@ -5,8 +5,6 @@ title: Brand DNA
 
 # Macnman Brand DNA
 
-# Brand DNA
-
 Welcome to the Brand DNA of Macnman Technologies.
 
 This section serves as the single source of truth for understanding who we are, how we think, and why we build products the way we do. As Macnman continues to grow, maintaining consistency across our products, communications, designs, and customer interactions becomes increasingly important. Brand DNA captures the principles, standards, and decisions that define our identity.

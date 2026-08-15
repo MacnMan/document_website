@@ -2,7 +2,7 @@
 id: macset-cx1-datasheet
 title: MacSet CX1 
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSet CX1 is a power-operated 4G LTE cellular relay controller for reliable remote control and automation of pumps, motors and field equipment."
 keywords:
   - 4g lte controller
   - cellular remote controller

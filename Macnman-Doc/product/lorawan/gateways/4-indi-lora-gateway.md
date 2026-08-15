@@ -2,7 +2,7 @@
 id: indilora-single-channel-datasheet
 title: IndiLoRa X
 sidebar_position: 4
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "IndiLoRa X1 is an ultra-affordable single-channel indoor LoRaWAN gateway for small-scale IoT deployments and legacy industrial system upgrades."
 keywords:
   - single channel LoRa gateway
   - indoor cellular LoRa gateway

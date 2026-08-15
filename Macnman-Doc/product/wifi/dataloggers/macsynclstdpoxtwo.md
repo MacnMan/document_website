@@ -2,7 +2,7 @@
 id: macsync-w-power-operated-x-two
 title: MacSync-WX1-PO
 sidebar_position: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync-WX1-PO is an industrial RS485 and analog to Wi-Fi data logger for reliable Modbus RTU and 4-20 mA sensor acquisition with real-time cloud communication."
 keywords:
   - rs485 to wifi data logger
   - analog to wifi data logger

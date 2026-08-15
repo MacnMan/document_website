@@ -4,7 +4,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Macnman',
-  tagline: 'Macnman',
+  // The tagline is used in the homepage <title>/description; make it say what
+  // the site is rather than repeating the brand name.
+  tagline:
+    'Documentation, datasheets and setup guides for Macnman Industrial IoT sensors, gateways and controllers.',
   favicon: 'img/favicon.ico',
 
   headTags: [
@@ -23,6 +26,10 @@ const config: Config = {
 
   url: 'https://www.macnman.com',
   baseUrl: '/docs/',
+  // Lock in the no-trailing-slash form so canonical URLs and sitemap entries
+  // stay consistent (the default already behaves this way; being explicit
+  // prevents a silent change if the default ever moves).
+  trailingSlash: false,
 
   organizationName: 'MacnMan',
   projectName: 'document_website',
@@ -66,6 +73,8 @@ const config: Config = {
             '/docs/search',
             '/docs/markdown-page',
             '/docs/**/*copy*',
+            // "Coming soon" placeholder, noindexed until it has real content.
+            '/docs/4gcellular/macsync_4g_introduction',
           ],
         },
       } satisfies Preset.Options,
@@ -125,7 +134,22 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo_small_red.webp',
+    // Default Open Graph / Twitter card for every page. The previous value was
+    // a 335x236 logo, far below the 1200x630 social platforms lay out for; this
+    // is the branded card the main site already uses.
+    image: 'img/og-macnman.jpg',
+
+    // Site-wide defaults. Pages that set their own frontmatter description
+    // still override this; it only fills the gap for pages that don't.
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'Official documentation for Macnman Industrial IoT products: LoRaWAN, Wi-Fi, BLE and cellular sensors, gateways, controllers and modules — datasheets, setup guides and configuration references.',
+      },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@macnman' },
+    ],
 
     colorMode: {
       defaultMode: 'light',     // Default theme is light

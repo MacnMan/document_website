@@ -2,7 +2,7 @@
 id: macsync-l-soil-ec-sensor-datasheet
 title: Soil EC Sensor
 sidebar_position: 9
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync LSS X3 is an industrial LoRaWAN soil EC (conductivity) sensor for precision agriculture, fertigation, greenhouse automation and salinity monitoring."
 keywords:
   - lorawan soil ec sensor
   - wireless soil ec monitoring sensor

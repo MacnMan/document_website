@@ -2,7 +2,7 @@
 id: macsync-w-co-2-sensors
 title: MacSync-WCO2Xx
 sidebar_position: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync-WCO2X is a high-accuracy Wi-Fi CO2 indoor air quality sensor for continuous carbon dioxide, temperature and humidity monitoring in smart buildings."
 keywords:
   - wifi co2 sensor
   - wifi indoor air quality sensor

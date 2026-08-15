@@ -2,7 +2,7 @@
 id: mcth10
 title: MCTH10 
 sidebar_position: 5
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MCTH10 is an industrial cellular temperature and humidity sensor for continuous environmental monitoring in commercial and industrial spaces over 4G LTE."
 keywords:
   - fire equipment monitoring system
   - smart fire safety controller

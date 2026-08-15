@@ -5,7 +5,7 @@ title: MAC32WBLE5 Manufacturing Recommendations
 
 ## Reflow & Soldering
 
-![pcb layout recommside](./assets/flow-image.webp)
+![pcb layout recommended side](./assets/flow-image.webp)
 
 Perform SMT following the specified reflow oven temperature profile, ensuring the maximum temperature does not exceed **260°C**.
 

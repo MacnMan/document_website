@@ -46,7 +46,7 @@ To ensure optimal performance and reliable wireless communication, we recommend 
 To ensure optimal antenna performance, the module antenna area must remain free of GND planes, metal crosswiring, or nearby components. It is recommended to design a hollow or clear area around the antenna or position the
 module along the edge of the PCB.
 
-![pcb layout recommside](./assets/pcb-layout-top.svg)
+![pcb layout recommended side](./assets/pcb-layout-top.svg)
 
 ![pcb layout recommcenter](./assets/pcb-layout-second.svg)
 

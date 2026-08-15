@@ -2,7 +2,7 @@
 id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
 title: MacRay-WU4
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacRay-WU4 is a rugged Wi-Fi ultrasonic level sensor for short-range, high-precision (0-4 m) non-contact level monitoring of liquids and solids."
 keywords:
   - lorawan ultrasonic level sensor
   - sub 4 meter ultrasonic sensor

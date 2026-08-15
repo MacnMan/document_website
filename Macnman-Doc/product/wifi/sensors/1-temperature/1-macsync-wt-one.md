@@ -2,7 +2,7 @@
 id: macsync-wt-one-datasheet
 title: MacSync-WT1
 sidebar_position: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync-WT1 is a compact Wi-Fi temperature and humidity sensor with an inbuilt battery for accurate indoor and semi-industrial environmental monitoring."
 keywords:
   - wifi temperature humidity sensor
   - battery operated wifi temperature sensor

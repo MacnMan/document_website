@@ -11,7 +11,7 @@ title: Introduction & Scope
 
 ## Introduction: A Silent Call for Help
 <br/>
-![lorawan architecutre](/img/custom-products/elephant-railway-collision-risk-india.webp)
+![lorawan architecture](/img/custom-products/elephant-railway-collision-risk-india.webp)
 
 As the sun sets over the dense forests of southern India, the silence is often broken by the rustling of leaves and the distant trumpeting of elephants. For centuries, these gentle giants have followed ancestral paths—routes that connect forests, water bodies, and grazing lands.
 
@@ -28,7 +28,7 @@ This is where **Macnman Technologies Pvt Ltd** steps in—with a vision to apply
 ## The Problem: When Paths Collide
 
 <br/>
-![lorawan architecutre](/img/custom-products/elephant-train-collision-risk-india.webp)
+![lorawan architecture](/img/custom-products/elephant-train-collision-risk-india.webp)
 
 Elephants are intelligent, social animals with strong memory and migratory behavior. They follow well-established corridors passed down through generations. Unfortunately, rapid infrastructure expansion has resulted in these natural corridors intersecting with:
 
@@ -51,11 +51,11 @@ The critical question remains:
 To design and deploy an integrated, wildlife-safe **Elephant Intrusion Detection & Train Collision Avoidance System** that enables early detection of elephant movement near railway tracks and highways and provides actionable alerts to prevent accidents.
 
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-elephant-intrusion-detection-train-collision-avoidance-hero.webp)
+![lorawan architecture](/img/custom-products/macnman-elephant-intrusion-detection-train-collision-avoidance-hero.webp)
 
 
 <br/>
-![lorawan architecutre](/img/custom-products/protecting-elephants-railway-safety-india-hero.webp)
+![lorawan architecture](/img/custom-products/protecting-elephants-railway-safety-india-hero.webp)
 
 The system shall combine elephant-borne sensing, trackside detection, edge intelligence, and real-time alerting to operate reliably in dense forest environments and remote railway corridors.
 
@@ -131,7 +131,7 @@ While developing this system was a significant milestone, the true challenge lay
 The first deployment site was deep inside the forest, where paved roads faded into dirt tracks and mobile network coverage vanished completely. Macnman’s field team reached the location with ruggedized equipment, aware that real-world conditions would test every design assumption.
 
 <br/>
-![lorawan architecutre](/img/custom-products/collision-prone-railway-section-site-inspection.webp)
+![lorawan architecture](/img/custom-products/collision-prone-railway-section-site-inspection.webp)
 
 ### Challenge #1: Power Availability
 With no access to grid electricity, uninterrupted operation was a critical concern. To address this, each seismic sensor, thermal camera, and communication node was paired with an independent solar power unit and battery system. This enabled continuous, autonomous operation without reliance on external infrastructure.
@@ -200,7 +200,7 @@ These changes improved system durability without altering animal behavior or mov
 ### Data Visualization & Operational Insights
 
 <br/>
-![lorawan architecutre](/img/custom-products/collision-prone-railway-section-site-inspection-results.webp)
+![lorawan architecture](/img/custom-products/collision-prone-railway-section-site-inspection-results.webp)
 
 System data was visualized through dashboards and logs that provided clear operational insights:
 - Time-series graphs showing spikes in seismic activity during elephant intrusion events
@@ -228,7 +228,7 @@ The impact of the Elephant Intrusion Detection & Train Collision Avoidance Syste
 
 
 <br/>
-![lorawan architecutre](/img/custom-products/collision-prone-railway-section-site-inspection-results-by-macnman.webp)
+![lorawan architecture](/img/custom-products/collision-prone-railway-section-site-inspection-results-by-macnman.webp)
 
 System-generated graphs clearly illustrated spikes in seismic activity corresponding to elephant movement, accurately marking detection events. Thermal imagery further validated these detections, capturing clear silhouettes of elephant herds moving through forest corridors during low-visibility conditions.
 

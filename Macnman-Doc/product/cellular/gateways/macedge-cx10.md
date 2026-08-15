@@ -2,7 +2,7 @@
 id: macedge-cx10-datasheet
 title: MacEdge CX10
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacEdge CX10 is an industrial edge gateway and data acquisition controller that aggregates field sensors and instruments for automation and cloud processing."
 keywords:
   - industrial edge gateway
   - industrial iot gateway

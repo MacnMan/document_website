@@ -10,7 +10,7 @@ This policy defines the scope of AMC packages, coverage details, responsibilitie
 
 ---
 
-# Purpose of AMC / Extended Support
+## Purpose of AMC / Extended Support
 
 This policy outlines:
 
@@ -25,7 +25,7 @@ AMC ensures predictable maintenance, high uptime, and guaranteed support beyond 
 
 ---
 
-# AMC Packages & Pricing Structure
+## AMC Packages & Pricing Structure
 
 Macnman offers **three AMC tiers**, each priced as a percentage of the **total project hardware cost**.
 
@@ -88,7 +88,7 @@ Does NOT include:
 
 ---
 
-# Scope of AMC Services
+## Scope of AMC Services
 
 Depending on the chosen AMC tier, the following services are covered:
 
@@ -121,7 +121,7 @@ Depending on the chosen AMC tier, the following services are covered:
 
 ---
 
-#  AMC SLAs
+## AMC SLAs
 
 ### Response Time:
 - Standard AMC: 48 hours  
@@ -136,7 +136,7 @@ Critical cases under Platinum AMC receive expedited handling.
 
 ---
 
-# Customer Responsibilities
+## Customer Responsibilities
 
 Customers must:
 
@@ -151,7 +151,7 @@ Improper installation or damage caused by external systems is not covered.
 
 ---
 
-#  Exclusions (Applicable to All AMC Tiers)
+## Exclusions (Applicable to All AMC Tiers)
 
 AMC does **not** cover:
 
@@ -166,7 +166,7 @@ AMC does **not** cover:
 
 ---
 
-# AMC Duration & Renewal
+## AMC Duration & Renewal
 
 - AMC is valid for **12 months** from activation date  
 - Multi‑year AMC packages available on request  
@@ -175,7 +175,7 @@ AMC does **not** cover:
 
 ---
 
-# Pricing & Commercial Terms
+## Pricing & Commercial Terms
 
 - AMC pricing is calculated as **10%, 15%, or 20%** of total project hardware cost  
 - Field visits, if applicable, are billed separately unless covered in contract  
@@ -184,7 +184,7 @@ AMC does **not** cover:
 
 ---
 
-# Termination Conditions
+## Termination Conditions
 
 Macnman may terminate AMC if:
 
@@ -196,7 +196,7 @@ Macnman may terminate AMC if:
 
 ---
 
-# Policy Updates
+## Policy Updates
 
 Macnman reserves the right to update AMC terms at any time based on:
 
@@ -207,7 +207,7 @@ Macnman reserves the right to update AMC terms at any time based on:
 
 ---
 
-# Summary
+## Summary
 
 The AMC / Extended Support Policy ensures:
 

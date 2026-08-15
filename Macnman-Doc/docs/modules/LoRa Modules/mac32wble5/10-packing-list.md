@@ -5,7 +5,7 @@ title: MAC32WBLE5 Packing List
 
 ## Reel type Package
 
-![pcb layout recommside](./assets/packing-one.webp)
+![pcb layout recommended side](./assets/packing-one.webp)
 
 ## Part List
 

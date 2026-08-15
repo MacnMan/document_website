@@ -2,7 +2,7 @@
 id: ble-tag-three
 title: Tag X3
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "Tag X3 is a compact, rugged BLE sensor tag and beacon (iBeacon/Eddystone) for asset tracking, indoor location and condition monitoring with long battery life."
 keywords:
   - ble beacon tag
   - ble asset tracking tag

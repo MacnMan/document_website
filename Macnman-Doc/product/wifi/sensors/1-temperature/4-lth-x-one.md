@@ -2,7 +2,7 @@
 id: wlth-temp-humi-sensor-datasheet
 title: MWTH 301
 sidebar_position: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MWTH 301 is a compact, low-power, battery-operated Wi-Fi temperature and humidity sensor for indoor and semi-industrial environmental monitoring."
 keywords:
   - wifi temperature humidity sensor
   - low power wifi temperature sensor

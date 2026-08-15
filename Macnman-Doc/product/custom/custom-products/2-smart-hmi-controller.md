@@ -2,7 +2,7 @@
 id: ble-wifi-based-hmi-controller-x-one
 title: Smart HMI X1
 sidebar_position: 4
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "Smart HMI X1 is a Wi-Fi and BLE industrial HMI controller with an integrated touchscreen for machine control, monitoring and automation."
 keywords:
   - smart hmi controller
   - wifi ble based hmi controller

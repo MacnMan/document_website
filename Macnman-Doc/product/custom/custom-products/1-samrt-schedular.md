@@ -2,7 +2,7 @@
 id: mini-ble-wifi-relay-controller
 title: Mini Doer Gen-1
 sidebar_position: 5
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "Mini Doer Gen-1 is a BLE single-phase smart relay controller with an integrated touchscreen for scheduled, timer-based switching and automation."
 keywords:
   - ble smart scheduler controller
   - bluetooth relay controller industrial

@@ -2,7 +2,7 @@
 id: setu-scx-single-channel-datasheet
 title: Custom Products Setu SCX
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "Setu SCX is a cost-efficient, compact single-channel indoor LoRa gateway for small-scale IoT deployments in commercial and enterprise buildings."
 keywords:
   - single channel LoRa gateway
   - indoor cellular LoRa gateway

@@ -2,7 +2,7 @@
 id: macsync-w-nh-three-h-two-s-2-sensors
 title: MacSync-WGSX2x
 sidebar_position: 9
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync-WGSX2 is a high-precision Wi-Fi quantitative gas sensor for real-time ppm measurement of hydrogen sulfide (H2S) and ammonia (NH3)."
 keywords:
   - wifi h2s nh3 gas sensor
   - wifi hydrogen sulfide sensor

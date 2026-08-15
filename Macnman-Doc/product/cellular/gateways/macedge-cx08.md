@@ -1,8 +1,8 @@
 ---
 id: macedge-cx08-datasheet
-title: MacEdge CX08 
+title: MacEdge CX08
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacEdge CX08 is an industrial edge gateway and data acquisition controller with RS485/Modbus and Ethernet, linking field sensors and instruments to the cloud."
 keywords:
   - industrial edge gateway
   - industrial iot gateway

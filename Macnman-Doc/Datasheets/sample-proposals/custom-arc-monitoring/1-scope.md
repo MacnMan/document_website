@@ -10,31 +10,31 @@ title: Scope
 # Welding Data Collection & Monitoring System Proposal Version 1.0
 
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-system-introduction.webp)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-system-introduction.webp)
 
 ## Concept Design of Node Device
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-lorawan-node-design.webp)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-lorawan-node-design.webp)
 
 ## Concept Design of Hub Device
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-product-visualization.webp)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-product-visualization.webp)
 
 ## How to Use It
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-gateway-hub-design.webp)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-gateway-hub-design.webp)
 
 ## System Architecture
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-network-architecture.webp)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-network-architecture.webp)
 
 ## LoRa Central Gateway Block Diagram
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-component-block-diagram-node.svg)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-component-block-diagram-node.svg)
 
 ## LoRa Welding Node Block Diagram
 <br/>
-![lorawan architecutre](/img/custom-products/macnman-welding-monitoring-component-block-diagram-gateway.svg)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-component-block-diagram-gateway.svg)
 
 
 ## Scope

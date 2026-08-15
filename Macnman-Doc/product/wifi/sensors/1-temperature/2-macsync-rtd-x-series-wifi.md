@@ -2,7 +2,7 @@
 id: macsync-wifi-rtd-sensor-x-series
 title: MacSync-WRTDX2
 sidebar_position: 3
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync-WRTDX2 is a high-accuracy Wi-Fi RTD (PT100) temperature sensor for industrial applications that need precise, reliable temperature monitoring."
 keywords:
   - wifi rtd temperature sensor
   - pt100 wifi temperature sensor

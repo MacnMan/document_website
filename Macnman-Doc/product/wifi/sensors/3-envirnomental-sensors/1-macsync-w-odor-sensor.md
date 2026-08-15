@@ -2,7 +2,7 @@
 id: macsync-odor-x-one-datasheet
 title: MacSync-W-Odor-X1
 sidebar_position: 1
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacSync-W-Odor-X1 is a qualitative Wi-Fi odor monitoring sensor that detects, tracks and trends odor intensity in industrial and facility environments."
 keywords:
   - wifi odor sensor
   - wifi smell sensor

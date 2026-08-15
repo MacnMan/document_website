@@ -2,7 +2,7 @@
 id: macray-tof-x-series
 title: MacRay-ToF-WXx
 sidebar_position: 4
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "MacRay-ToF-WXx is a high-precision Wi-Fi Time-of-Flight sensor for indoor people counting, occupancy analytics and zone monitoring."
 keywords:
   - wifi tof distance sensor
   - wifi time of flight sensor

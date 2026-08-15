@@ -6,7 +6,7 @@ title: LoRaWAN Range & Coverage Test Introduction
 # LoRaWAN Range & Coverage Test
 
 <br/>
-![lorawan architecutre](/img/tech-reports/lorawan/lorawan-gateway-range-coverage-test.webp)
+![lorawan architecture](/img/tech-reports/lorawan/lorawan-gateway-range-coverage-test.webp)
 
 ## Scope
 

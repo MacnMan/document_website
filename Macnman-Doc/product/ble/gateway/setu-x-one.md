@@ -2,7 +2,7 @@
 id: setu-wx-one-datasheet
 title: Gateways Setu WX1
 sidebar_position: 2
-description: Ultra-rugged IoT device with long-range wireless and low-power architecture.
+description: "Setu WX1 is a compact industrial BLE to Wi-Fi IoT gateway that bridges Bluetooth Low Energy sensors and tags to local servers and cloud platforms."
 keywords:
   - ble to wifi gateway
   - bluetooth low energy to wifi gateway
