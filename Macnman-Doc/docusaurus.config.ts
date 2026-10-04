@@ -1,6 +1,64 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import fs from 'node:fs';
+import path from 'node:path';
+
+/**
+ * Serve every page on its own URL.
+ *
+ * `trailingSlash: false` (below) makes Docusaurus write /docs/help/help as the
+ * file help/help.html. The site is hosted as plain static files, and a static
+ * host answers /help/help only if there is a folder of that name with an
+ * index.html in it; a help.html beside it is not looked at unless the host is
+ * specially configured to strip extensions. The result was that every page
+ * but the home page was served the 404 page, with HTTP status 404. In a
+ * browser the 404 page's script then noticed the URL and drew the right page,
+ * so nothing looked wrong to a reader; to Google, Bing and every AI crawler
+ * the whole documentation site was "not found".
+ *
+ * After the build, this moves each page's file into a folder of its own:
+ * help/help.html becomes help/help/index.html. The URLs, canonicals, links and
+ * sitemap are untouched (they never contained ".html"); only where the file
+ * sits changes, and with it the answer the host gives.
+ *
+ * Only files that belong to a route are moved, so anything placed in static/
+ * keeps its exact path.
+ */
+function pagesAsFolders() {
+  return {
+    name: 'pages-as-folders',
+    async postBuild({
+      outDir,
+      baseUrl,
+      routesPaths,
+    }: {
+      outDir: string;
+      baseUrl: string;
+      routesPaths: string[];
+    }) {
+      let moved = 0;
+      for (const route of routesPaths) {
+        if (!route.startsWith(baseUrl)) continue;
+        // Route paths are URL-encoded ("LoRa%20Modules"); the files are not.
+        const page = decodeURI(route.slice(baseUrl.length)).replace(/\/+$/, '');
+        // The home page is already index.html, and 404.html must stay a file:
+        // that name is what the host looks for.
+        if (!page || page === '404.html') continue;
+
+        const file = path.join(outDir, `${page}.html`);
+        const folder = path.join(outDir, page);
+        const index = path.join(folder, 'index.html');
+        if (!fs.existsSync(file) || fs.existsSync(index)) continue;
+
+        fs.mkdirSync(folder, { recursive: true });
+        fs.renameSync(file, index);
+        moved += 1;
+      }
+      console.log(`[pages-as-folders] ${moved} pages moved into folders`);
+    },
+  };
+}
 
 const config: Config = {
   title: 'Macnman',
@@ -26,9 +84,17 @@ const config: Config = {
 
   url: 'https://www.macnman.com',
   baseUrl: '/docs/',
-  // Lock in the no-trailing-slash form so canonical URLs and sitemap entries
-  // stay consistent (the default already behaves this way; being explicit
-  // prevents a silent change if the default ever moves).
+  // No trailing slashes: the main website redirects /docs/x/ to /docs/x, so
+  // every URL, canonical and sitemap entry here must be the slash-less form.
+  //
+  // This setting has a second effect that is easy to miss. With it, Docusaurus
+  // writes each page as a single file (help/help.html) instead of a folder
+  // (help/help/index.html), and this site's host does not serve a .html file
+  // on its extensionless URL. The setting was added in August 2026 without
+  // that in mind, and when it was noticed in October 2026 every page except
+  // the home page was answering HTTP 404. The pagesAsFolders plugin at the end
+  // of `plugins` puts the pages back into folders; the two belong together.
+  // Do not remove one without the other.
   trailingSlash: false,
 
   organizationName: 'MacnMan',
@@ -42,12 +108,10 @@ const config: Config = {
     locales: ['en'],
   },
 
-  stylesheets: [
-    {
-      href: '/css/custom.css',
-      type: 'text/css',
-    },
-  ],
+  // No `stylesheets` entry: the site's CSS is src/css/custom.css, bundled
+  // through the preset's `customCss` below. An entry here used to point at
+  // /css/custom.css, a file that does not exist, so every page made one
+  // render-blocking request that came back as the main website's 404 page.
 
   presets: [
     [
@@ -131,6 +195,7 @@ const config: Config = {
         },
       };
     },
+    pagesAsFolders,
   ],
 
   themeConfig: {
