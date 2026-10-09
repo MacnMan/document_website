@@ -32,80 +32,8 @@ html {
   --dark-primary-text-color: #757575;
   --dark-contact-form: #606060;
 
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-family-base: 'Roboto', sans-serif;
-  --sidebar-hover-bg-color: rgba(0, 0, 0, 0.05);
-  --sidebar-sub-hover-bg-color: rgba(0, 0, 0, 0.03);
-  --docsearch-primary-color: #888;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
-
-/* Make navbar scroll with the page */
-/* .navbar {
-  position: relative !important;
-  top: 0 !important;
-  animation: none !important;
-  transition: none !important;
-} */
-
-
-/* Base state for doc card links */
-.docCardListItem_W1sv a {
-  border-color: #100e0e28;
-  transition: color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-/* On hover: darker border + light shadow */
-.docCardListItem_W1sv a:hover {
-  border-color: #100e0e;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.057);
-  /* subtle shadow */
-}
-
-/* For light mode */
-html[data-theme="light"] .hash-link {
-  color: black !important;
-  fill: black !important;
-}
-
-/* For dark mode */
-html[data-theme="dark"] .hash-link {
-  color: white !important;
-  fill: white !important;
-}
-
-/* Light mode: black underline for links inside <strong> */
-/* Light mode */
-html[data-theme="light"] .markdown a {
-  color: black !important;
-  text-decoration-color: black !important;
-}
-
-/* Dark mode */
-html[data-theme="dark"] .markdown a {
-  color: white !important;
-  text-decoration-color: white !important;
-}
 
 /* Hide scrollbar but allow scrolling */
 html,
@@ -123,134 +51,6 @@ body::-webkit-scrollbar {
   display: none;
   /* Chrome, Safari */
 }
-
-/* Macnman Logo */
-/* Gray hover effect on brand link */
-.navbar__brand:hover {
-  color: #aaa !important;
-}
-
-/* Also target inner elements like logo text if needed */
-.navbar__brand:hover .navbar__title {
-  color: #484747fc !important;
-}
-
-/* Hover: turn top navbar links gray */
-.navbar__link:hover {
-  color: gray !important;
-  font-weight: 400;
-}
-
-/* Active: turn the active top navbar link gray */
-.navbar__link--active {
-  color: rgb(11, 9, 9);
-  font-weight: 200;
-  position: relative;
-}
-
-.navbar__link--active::after {
-  content: '';
-  position: absolute;
-  bottom: -13.5px;
-  /* Moves the line further down */
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #100e0e;
-}
-
-/* Remove focus outline that can appear as a line on click */
-.navbar__link:focus,
-.navbar__link:active,
-.menu__link:focus,
-.menu__link:active {
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-/* Light theme: slightly darker gray */
-html[data-theme='light'] .navbar__link--active {
-  color: #100e0e !important;
-  font-weight: 600;
-}
-
-html[data-theme='light'] .navbar__link--active::after {
-  background-color: #100e0e;
-}
-
-html[data-theme='light'] .navbar__link:hover {
-  color: #100e0e !important;
-  font-weight: 700;
-}
-
-/* Dark theme: lighter gray */
-html[data-theme='dark'] .navbar__link--active {
-  color: white !important;
-  font-weight: 700;
-}
-
-html[data-theme='dark'] .navbar__link--active::after {
-  background-color: white;
-}
-
-html[data-theme='dark'] .navbar__link:hover {
-  color: #aaa !important;
-  font-weight: 700;
-}
-
-:root {
-  --breadcrumb-light-active-text: #292929;
-  /* Light mode active text: black */
-  --breadcrumb-light-hover-text: #888888;
-  /* Light mode hover text */
-  --breadcrumb-light-bg: #88888845;
-}
-
-/* ────────────── ACTIVE breadcrumb (light mode) ────────────── */
-.breadcrumbs__item--active .breadcrumbs__link,
-.breadcrumbs__item--active .breadcrumbs__link:hover {
-  color: var(--breadcrumb-light-active-text) !important;
-  font-weight: 900;
-  background-color: var(--breadcrumb-light-bg);
-  border-radius: 0.8rem;
-  box-shadow: none;
-}
-
-/* ────────────── NON-ACTIVE breadcrumb hover (light mode) ────────────── */
-.breadcrumbs__item:not(.breadcrumbs__item--active) .breadcrumbs__link:hover {
-  color: var(--breadcrumb-light-hover-text) !important;
-  background-color: var(--breadcrumb-light-bg);
-  border-radius: 0.8rem;
-}
-
-html[data-theme='dark'] .breadcrumbs__item.breadcrumbs__item--active .breadcrumbs__link {
-
-  color: var(--breadcrumb-active-text, #fff) !important;
-  background-color: var(--breadcrumb-active-bg, #444);
-  border-radius: 0.8rem;
-  padding: 0.2rem 0.5rem;
-  font-weight: 700;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-/* ────────────── DARK MODE ────────────── */
-[data-theme='dark'] {
-
-  .breadcrumbs__item--active .breadcrumbs__link,
-  .breadcrumbs__item--active .breadcrumbs__link:hover {
-    color: #ffffff !important;
-    /* White in dark mode */
-    font-weight: 800;
-    border-radius: 0.5rem;
-    box-shadow: none;
-  }
-
-  .breadcrumbs__item:not(.breadcrumbs__item--active) .breadcrumbs__link:hover {
-    color: #888 !important;
-  }
-}
-
-
 
 
 /* Custom class for a video + text */
@@ -327,67 +127,149 @@ html[data-theme='dark'] .breadcrumbs__item.breadcrumbs__item--active .breadcrumb
 }
 
 
-/* Icon Card Grid and Icon Card Styles */
+/* Download Center: a grid of resource rows. Each row shows a line icon chosen
+   from the link target (PDF, GitHub, other), the title with a one-line note,
+   and a trailing type badge. The emoji in the markup is hidden. Cards whose
+   title is itself a link (and the card has no href) are made clickable as a
+   whole by stretching that inner link over the card. */
+:root {
+  --el-icon-doc: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23555' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/><path d='M14 2v6h6'/><path d='M16 13H8'/><path d='M16 17H8'/><path d='M10 9H8'/></svg>");
+  --el-icon-code: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23555' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='m16 18 6-6-6-6'/><path d='m8 6-6 6 6 6'/></svg>");
+  --el-icon-link: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23555' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='M7 17 17 7'/><path d='M7 7h10v10'/></svg>");
+}
+
+[data-theme='dark'] {
+  --el-icon-doc: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23bbb' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/><path d='M14 2v6h6'/><path d='M16 13H8'/><path d='M16 17H8'/><path d='M10 9H8'/></svg>");
+  --el-icon-code: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23bbb' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='m16 18 6-6-6-6'/><path d='m8 6-6 6 6 6'/></svg>");
+  --el-icon-link: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23bbb' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='M7 17 17 7'/><path d='M7 7h10v10'/></svg>");
+}
+
 .icon-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin: 1.25rem 0 2rem;
 }
 
-.icon-card {
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 1.5rem;
-  text-decoration: none;
-  background-color: #fff;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
-  color: inherit;
+.markdown .icon-card,
+.markdown .icon-card:hover {
+  position: relative;
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--el-border-strong);
+  border-radius: 12px;
+  background: var(--el-card-bg);
+  box-shadow: var(--el-card-shadow);
+  color: var(--el-text);
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-.icon-card:hover {
-  border-color: #424242;
-  box-shadow: 0 4px 12px rgba(48, 48, 49, 0.3);
+.markdown .icon-card:hover {
+  border-color: var(--el-border-hover);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.icon-card > div:not(.icon) {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .icon-card .icon {
-  font-size: 1.8rem;
-  color: #555;
+  flex: none;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border: 1px solid var(--el-border);
+  border-radius: 10px;
+  background: var(--el-bg-subtle) var(--el-icon-link) center / 20px no-repeat;
+  font-size: 0;
+  line-height: 0;
+  color: transparent;
+}
+
+.icon-card[href$='.pdf' i] .icon,
+.icon-card:has(strong a[href$='.pdf' i]) .icon {
+  background-image: var(--el-icon-doc);
+}
+
+.icon-card[href*='github.com'] .icon,
+.icon-card:has(strong a[href*='github.com']) .icon {
+  background-image: var(--el-icon-code);
 }
 
 .icon-card strong {
-  font-size: 1.05rem;
   display: block;
-}
-
-.icon-card p {
-  color: #666;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--el-text);
 }
 
-/* Dark mode support */
-[data-theme='dark'] .icon-card {
-  background-color: #1e1e1e;
-  border-color: #333;
-  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+.markdown .icon-card p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--el-text-muted);
 }
 
-[data-theme='dark'] .icon-card:hover {
-  border-color: #757575;
-  box-shadow: 0 4px 12px rgba(117, 117, 117, 0.4);
+/* A title that is itself a link: plain text, and stretched over the card
+   when the card has no href of its own. */
+.markdown .icon-card strong a,
+.markdown .icon-card strong a:hover {
+  color: inherit;
+  text-decoration: none;
 }
 
-[data-theme='dark'] .icon-card .icon {
-  color: #bbb;
+.icon-card:not([href]) strong a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
 }
 
-[data-theme='dark'] .icon-card p {
-  color: #ccc;
+/* Trailing type badge */
+.icon-card::after {
+  content: 'Link';
+  flex: none;
+  padding: 2px 8px;
+  border: 1px solid var(--el-border);
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--el-text-muted);
+}
+
+.icon-card[href$='.pdf' i]::after,
+.icon-card:has(strong a[href$='.pdf' i])::after {
+  content: 'PDF';
+}
+
+.icon-card[href*='github.com']::after,
+.icon-card:has(strong a[href*='github.com'])::after {
+  content: 'GitHub';
+}
+
+.icon-card[href='#']::after,
+.icon-card:not([href]):not(:has(a))::after {
+  content: none;
+}
+
+@media (max-width: 576px) {
+  .icon-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .markdown .icon-card,
+  .markdown .icon-card:hover {
+    padding: 12px 14px;
+    gap: 12px;
+  }
 }
 
 
@@ -524,139 +406,69 @@ html[data-theme='dark'] .breadcrumbs__item.breadcrumbs__item--active .breadcrumb
 }
 
 
-
-/* Minimal Data Table Style */
-.parameter-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 2rem 0;
-  font-size: 0.95rem;
-  background-color: var(--ifm-background-color);
-}
-
-.parameter-table th,
-.parameter-table td {
-  border: 0.5px solid var(--ifm-color-emphasis-300);
-  padding: 0.65rem 1rem;
-  text-align: left;
-  vertical-align: middle;
-  color: var(--ifm-font-color-base);
-}
-
-.parameter-table th {
-  background-color: var(--ifm-table-stripe-background);
-  color: var(--ifm-heading-color);
-  font-weight: 600;
-}
-
-.parameter-table tbody tr:hover {
-  background-color: var(--ifm-hover-overlay);
-  transition: background-color 0.2s ease-in-out;
-}
-
-/* Dark mode adjustments */
-[data-theme='dark'] .parameter-table {
-  background-color: transparent;
-}
-
-[data-theme='dark'] .parameter-table th {
-  background-color: #222;
-  color: #fff;
-}
-
-[data-theme='dark'] .parameter-table td {
-  border: 0.5px solid #444;
-  color: #ddd;
-}
+/* .parameter-table (the hand-written spec table used across the product
+   pages) is styled with the markdown tables in eleven.css. */
 
 
-[data-theme='dark'] .parameter-table td {
-  border: 0.5px solid #444;
-  color: #ddd;
-}
-
-/* Reusable Feature Card Grid Styles */
+/* Key Features: an open grid, no boxes. Each feature sits under a hairline
+   that starts with a short brand-red tick; name, then a muted description.
+   Two-up only when each column can be 300px or wider, otherwise stacked, so
+   the text never gets squeezed into narrow columns. */
 .reusable-feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 32px 40px;
+  margin: 1.5rem 0 2.5rem;
 }
 
-.reusable-feature-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 1.5rem;
-  background-color: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
-  transition: all 0.3s ease;
-}
-
-
-.reusable-feature-card strong {
+.markdown .reusable-feature-card {
+  position: relative;
   display: block;
-  font-size: 1.05rem;
-  margin-bottom: 0.5rem;
-  color: #333;
+  height: auto;
+  padding: 18px 0 0;
+  border: 0;
+  border-top: 1px solid var(--el-border-strong);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--el-text-muted);
 }
 
-.reusable-feature-card p {
-  color: #666;
-  font-size: 0.9rem;
+.markdown .reusable-feature-card::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 28px;
+  height: 2px;
+  background: var(--el-brand);
+}
+
+.markdown .reusable-feature-card p {
+  display: block;
   margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
 }
 
-.reusable-feature-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.reusable-feature-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 1.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-  transition: all 0.25s ease-in-out;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
-.reusable-feature-card strong {
+.markdown .reusable-feature-card strong {
   display: block;
-  font-size: 1rem;
+  margin: 0 0 6px;
+  font-size: 15px;
   font-weight: 600;
-  margin-bottom: 0.4rem;
-  color: #2d2d2d;
+  line-height: 20px;
+  letter-spacing: -0.005em;
+  color: var(--el-text);
 }
 
-.reusable-feature-card p {
-  color: #666;
-  font-size: 0.88rem;
-  margin: 0;
+@media (max-width: 576px) {
+  .reusable-feature-grid {
+    gap: 24px;
+  }
 }
-
-/* Dark mode support */
-[data-theme='dark'] .reusable-feature-card {
-  background-color: #1c1c1c;
-  border-color: #333;
-  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.05);
-}
-
-
-[data-theme='dark'] .reusable-feature-card strong {
-  color: #f5f5f5;
-}
-
-[data-theme='dark'] .reusable-feature-card p {
-  color: #ccc;
-}
-
 
 
 .problem-grid {
@@ -707,445 +519,84 @@ html[data-theme='dark'] .breadcrumbs__item.breadcrumbs__item--active .breadcrumb
 }
 
 
-
-
-
-/* Pagination container spacing */
-.pagination-nav {
-  gap: 2.5rem;
-  /* Equivalent to sm:gap-10 */
-}
-
-/* Hide sublabel */
-.pagination-nav__sublabel {
-  display: none;
-}
-
-/* Common styles for both buttons */
-.pagination-nav__link {
-  border-radius: 1.5rem;
-  /* rounded-3xl */
-  border: 1px solid #e5e7eb;
-  background-color: #f9fafb;
-}
-
-/* Specific padding for previous button */
-.pagination-nav__link--prev {
-  padding: 12px 24px 12px 18px;
-}
-
-/* Specific padding for next button */
-.pagination-nav__link--next {
-  padding: 12px 16px 12px 24px;
-}
-
-/* Hover effect */
-.pagination-nav__link:hover {
-  border-color: gray;
-}
-
-/* Hover arrow animation for prev */
-.pagination-nav__link.pagination-nav__link--prev:hover .pagination-nav__label::before {
-  transform: translateX(-5px);
-}
-
-/* Hover arrow animation for next */
-.pagination-nav__link.pagination-nav__link--next:hover .pagination-nav__label::after {
-  transform: translateX(5px);
-}
-
-/* Label styling */
-.pagination-nav__link .pagination-nav__label {
-  position: relative;
-  font-size: 1rem;
-  /* text-base */
-  font-weight: 500;
-  /* font-medium */
-  color: #1f2937;
-}
-
-/* Align text right for previous */
-.pagination-nav__link--prev .pagination-nav__label {
-  text-align: right;
-}
-
-/* Align text left for next */
-.pagination-nav__link--next .pagination-nav__label {
-  text-align: left;
-}
-
-/* Arrow base styles */
-.pagination-nav__link--prev .pagination-nav__label::before,
-.pagination-nav__link--next .pagination-nav__label::after {
-  transition: all 0.3s ease-in-out;
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  content: '';
-}
-
-/* Arrow for previous */
-.pagination-nav__link--prev .pagination-nav__label::before {
-  left: 0;
-  background-image: url("data:image/svg+xml;utf8,<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20,12H4M4,12L10,18M4,12L10,6' stroke='darkslategray' stroke-width='1.5'></path></svg>");
-}
-
-/* Arrow for next */
-.pagination-nav__link--next .pagination-nav__label::after {
-  right: 0;
-  background-image: url("data:image/svg+xml;utf8,<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4,12H20M20,12L14,6M20,12L14,18' stroke='darkslategray' stroke-width='1.5'></path></svg>");
-}
-
-/* ===== Dark Mode Styles ===== */
-html[data-theme='dark'] {
-
-  /* Common styles for both buttons */
-  .pagination-nav__link {
-    border: 1px solid #374151;
-    /* gray-700 */
-    background-color: transparent;
-    /* gray-800 */
-  }
-
-  /* Hover effect */
-  .pagination-nav__link:hover {
-    border-color: rgb(190, 189, 189);
-    /* blue-500 */
-  }
-
-  /* Label styling */
-  .pagination-nav__link .pagination-nav__label {
-    color: #f9fafb;
-    /* light text */
-  }
-
-  /* Arrow for previous */
-  .pagination-nav__link--prev .pagination-nav__label::before {
-    background-image: url("data:image/svg+xml;utf8,<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20,12H4M4,12L10,18M4,12L10,6' stroke='white' stroke-width='1.5'></path></svg>");
-  }
-
-  /* Arrow for next */
-  .pagination-nav__link--next .pagination-nav__label::after {
-    background-image: url("data:image/svg+xml;utf8,<svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4,12H20M20,12L14,6M20,12L14,18' stroke='white' stroke-width='1.5'></path></svg>");
-  }
-}
-
-
-/* ────────────── GLOBAL VARIABLES ─────────────────────────────────────────── */
-:root {
-  --sidebar-hover-bg-main: #d9d9d9a4;
-  /* Light hover background */
-  --sidebar-active-bg: #d9d9d96f;
-  /* Light active background */
-  --sidebar-text-active: #000000;
-  /* Active text color (light) */
-  --primary-neutral-800: #000000;
-}
-
-[data-theme='dark'] {
-  --sidebar-hover-bg-main: rgba(255, 255, 255, 0.08);
-  /* Dark hover background */
-  --sidebar-active-bg: rgba(255, 255, 255, 0.05);
-  /* Dark active background */
-  --sidebar-text-active: #ffffff;
-  /* Active text color (dark) */
-  --primary-neutral-800: #ffffff;
-}
-
-/* ────────────── BASE SIDEBAR STYLING ─────────────────────────────────────── */
-.menu {
-  background-color: var(--sidebar-bg-color);
-  padding: 0;
-}
-
-/* ────────────── LINK STYLES ──────────────────────────────────────────────── */
-.menu__link {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.8px;
-  font-weight: 400;
-  padding: 0.5rem 0.75rem;
-  display: flex !important; /* Changed to flex for arrow alignment */
-  align-items: center !important;
-  justify-content: space-between !important;
-  border-radius: 4px;
-  color: var(--primary-neutral-800);
-  transition: background-color 0.2s ease;
-}
-
-.menu__link:hover {
-  background-color: var(--sidebar-hover-bg-main);
-  font-weight: bold;
-}
-
-/* Apply styles to all levels of active links */
-.menu__list .menu__link--active,
-.menu__list .menu__list-item .menu__link--active,
-.menu__list .menu__list-item .menu__list .menu__link--active {
-  background-color: var(--sidebar-active-bg) !important;
-  color: var(--sidebar-text-active) !important;
-  font-weight: 500 !important;
-  border-radius: 0.15rem;
-}
-
-/* ────────────── ACTIVE LINK STYLES ───────────────────────────────────────── */
-.menu__link--active {
-  background-color: var(--sidebar-active-bg) !important;
-  color: var(--sidebar-text-active);
-  font-weight: bold;
-  border-radius: 0.25rem;
-}
-
-.menu__link--active:hover {
-  background-color: var(--sidebar-active-bg) !important;
-}
-
-/* ────────────── CATEGORY LABEL STYLES ────────────────────────────────────── */
-.theme-doc-sidebar-menu .theme-doc-sidebar-item-category>.menu__link {
-  text-transform: uppercase;
-}
-
-/* ────────────── STRUCTURE & SPACING ──────────────────────────────────────── */
-.menu__list-item:not(:first-child) {
-  margin-top: 0;
-}
-
-.menu__list .menu__list {
-  margin-top: 0;
-  padding-left: 0;
-  background-color: transparent !important;
-}
-
-.theme-doc-sidebar-menu .menu__list {
-  padding-left: 0.75rem;
-}
-
-.theme-doc-sidebar-menu .menu__list .menu__list-item,
-.theme-doc-sidebar-menu .menu__list .theme-doc-sidebar-item-link {
-  padding: 0;
-}
-
-.theme-doc-sidebar-menu>.menu__list>.menu__list-item {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* ────────────── ITEM WRAPPERS ────────────────────────────────────────────── */
-.theme-doc-sidebar-menu .theme-doc-sidebar-item-link,
-.theme-doc-sidebar-menu .theme-doc-sidebar-item-category {
-  padding: 5px;
-}
-
-.theme-doc-sidebar-menu .menu__link {
-  padding: 0.4rem 0.65rem;
-}
-
-/* ────────────── CHILD ITEMS ──────────────────────────────────────────────── */
-.menu__list .theme-doc-sidebar-item-category .menu__list .menu__list-item,
-.menu__list .theme-doc-sidebar-item-category .menu__list .menu__list-item .menu__link {
-  text-transform: none;
-  font-size: 0.815rem;
-  font-weight: 400;
-  color: var(--primary-neutral-800);
-}
-
-html[data-theme='dark'] .menu__list .theme-doc-sidebar-item-category .menu__list .menu__list-item,
-html[data-theme='dark'] .menu__list .theme-doc-sidebar-item-category .menu__list .menu__list-item .menu__link {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-/* ────────────── CARET ICON (SIDEBAR ARROWS) ─────────────────────────────── */
-/* This ensures arrows appear on the right and rotate correctly for all sections */
-.menu__caret:before,
-.menu__link--sublist-caret::after {
-  content: '';
-  background: var(--ifm-menu-link-sublist-icon) center / 1.2rem no-repeat !important;
-  width: 0.875rem !important;
-  height: 0.875rem !important;
-  display: inline-block !important;
-  margin-left: auto !important; /* Pushes arrow to the right side */
-  margin-right: 0.2rem !important; /* Ensures vertical alignment on the right edge */
-  filter: var(--ifm-menu-link-sublist-icon-filter);
-  transition: transform var(--ifm-transition-fast) linear !important;
-}
-
-/* Rotate the arrow when the category is expanded */
-.menu__list-item:not(.menu__list-item--collapsed) > .menu__link--sublist-caret::after {
-  transform: rotate(90deg) !important;
-}
-
-/* ────────────── ITEM DIVIDERS ────────────────────────────────────────────── */
-.menu__list .menu__list-item {
-  border-bottom: 1px solid var(--next-prev-border-color);
-}
-
-.theme-doc-sidebar-item-category .menu__list .menu__list-item {
-  border-bottom: none;
-}
-
-
-
-/* ────────────── Vertical line ────────────────────────────────────────────── */
-/* Add a vertical line to nested sidebar items only */
-.menu__list .menu__list {
-  border-left: 1.2px solid #3d3d3d64;
-  /* Change color to fit your theme */
-  margin-left: 1.5rem;
-  /* Indent nested menu slightly */
-  padding-left: .8rem;
-  /* Align child links properly */
-}
-
-[data-theme='dark'] .menu__list .menu__list {
-  border-left: 1px solid rgba(255, 255, 255, 0.08);
-  /* Subtle light line for dark bg */
-  margin-left: 1.3rem;
-  /* Indent nested menu slightly */
-  padding-left: .7rem;
-  /* Align child links properly */
-}
-
-
-/* ────────────── REMOVE EXTRA MARGIN FROM SIDEBAR ────────────────────────── */
-
-.sidebar_njMd {
-  margin-top: var(--ifm-spacing-vertical);
-  /* or a hardcoded rem/px value */
-}
-
+/* Datasheet specification blocks: a group title, then label / value rows
+   separated by hairlines (no banding). Values use tabular figures so numbers
+   line up down the column. Colours come from the tokens in eleven.css. */
 .device-config-section {
   width: 100%;
-  margin: 40px 0;
+  margin: 32px 0 40px;
 }
 
 .device-config-title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #d92b4c;
-  margin-bottom: 34px;
-  line-height: 1.05;
-  letter-spacing: -1px;
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--el-text);
 }
 
 .device-config-table {
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 0;
+  border-top: 1px solid var(--el-border-strong);
 }
 
 .device-config-row {
   display: grid;
-  grid-template-columns: 40% 60%;
-  align-items: center;
-  padding: 10px 14px;
-  background: #ffffff;
-  border-radius: 2px;
-  font-size: 16px;
-  line-height: 1.3;
-  color: #1f1f1f;
-  box-sizing: border-box;
-  min-height: 48px;
+  grid-template-columns: minmax(140px, 38%) 1fr;
+  gap: 4px 24px;
+  align-items: start;
+  min-height: 0;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--el-border);
+  border-radius: 0;
+  background: transparent;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--el-text);
 }
 
 .device-config-row.shaded {
-  background: #f3f3f3;
-  /* background: #ebebeb; */
-}
-
-.device-config-left {
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  box-sizing: border-box;
-  align-self: stretch;
-}
-
-.device-config-right {
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  box-sizing: border-box;
-  align-self: stretch;
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .device-config-title {
-    font-size: 34px;
-    margin-bottom: 24px;
-  }
-
-  .device-config-row {
-    grid-template-columns: 1fr;
-    text-align: left;
-    gap: 6px;
-    padding: 8px 18px;
-    font-size: 17px;
-    min-height: unset;
-  }
-
-  .device-config-right {
-    line-height: 1.4;
-  }
-}
-
-/* Dark Mode */
-html[data-theme='dark'] .device-config-title {
-  color: #DA2744;
-}
-
-html[data-theme='dark'] .device-config-row {
-  color: #f5f5f5;
   background: transparent;
 }
 
-html[data-theme='dark'] .device-config-row.shaded {
-  background: rgba(255, 255, 255, 0.06);
+.device-config-row:last-child {
+  border-bottom-color: var(--el-border-strong);
 }
 
-html[data-theme='dark'] .device-config-left {
-  color: rgba(255, 255, 255, 0.88);
+.device-config-left {
+  color: var(--el-text-muted);
+  font-weight: 400;
 }
 
-html[data-theme='dark'] .device-config-right {
-  color: #ffffff;
+.device-config-right {
+  color: var(--el-text);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
 }
 
-/* for the h2 titles starts here */
-.device-section-title {
-  color: #DA2744;
-  font-size: 1.8rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-top: 2rem;
-  margin-bottom: 1.2rem;
-  letter-spacing: -0.02em;
-}
-
-@media (max-width: 768px) {
-  .device-section-title {
-    font-size: 1.6rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+@media (max-width: 576px) {
+  .device-config-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+    padding: 10px 0;
   }
 }
 
-/* for the h2 titles ends here */
-
-/* "On this page" (Table of Contents) active link color */
-.table-of-contents__link--active {
-  color: #DA2744 !important;
-  border-left-color: #DA2744 !important;
+/* Section headings on datasheet pages keep the brand colour, at the same
+   size as every other h2. */
+.device-section-title {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+  color: var(--el-brand);
 }
 
-
-.table-of-contents__link:hover {
-  color: #2e2e2e !important;
-}
 
 /* Responsive YouTube Video Wrapper */
 .youtube-video-wrapper {

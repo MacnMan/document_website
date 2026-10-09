@@ -113,6 +113,11 @@ const config: Config = {
   // /css/custom.css, a file that does not exist, so every page made one
   // render-blocking request that came back as the main website's 404 page.
 
+  // Tags rendered content for the CSS in src/css/eleven.css: table cells get
+  // their column headers (so narrow tables can stack into cards) and the
+  // "What's in the Box" list becomes item tiles.
+  clientModules: [require.resolve('./src/clientModules/contentEnhancements.ts')],
+
   presets: [
     [
       'classic',
@@ -123,7 +128,14 @@ const config: Config = {
           routeBasePath: '/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          // custom.css holds the classes MDX pages and the homepage use;
+          // eleven.css is the site-wide design system and loads after it.
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/eleven.css'),
+            // "Download PDF": the article alone, laid out for paper.
+            require.resolve('./src/css/print.css'),
+          ],
         },
         sitemap: {
           // Keep non-content and noindexed routes out of the sitemap: submitting a
@@ -196,6 +208,9 @@ const config: Config = {
       };
     },
     pagesAsFolders,
+    // Documentation entries for the site-wide search, shared with the main
+    // website (see plugins/search-index.js).
+    './plugins/search-index.js',
   ],
 
   themeConfig: {
@@ -230,11 +245,15 @@ const config: Config = {
     },
 
     navbar: {
-      title: 'MACNMAN',
+      // The main website's header wordmark (light / dark variants copied from
+      // macnman_website/public/images); it carries the name, so no text title.
       logo: {
         alt: 'Macnman',
-        src: 'img/logo_small_red.webp',
+        src: 'img/macnman-logo.png',
+        srcDark: 'img/macnman-logo-dark.webp',
         href: '/docs/',
+        width: 172,
+        height: 18,
       },
 
 
@@ -243,7 +262,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'User Manual',
         },
         {
           type: 'docSidebar',
@@ -280,6 +299,8 @@ const config: Config = {
           href: 'https://www.macnman.com/',
           label: 'Macnman.com',
           position: 'right',
+          // Rendered as the solid button at the end of the header row.
+          className: 'navbar__cta',
         },
         // {   // custom dark-light-system theme
         //   type: 'custom-color-toggle',  
@@ -299,17 +320,9 @@ const config: Config = {
       // },
     ],
 
-    algolia: {
-      appId: 'ZCKJUWN56U',
-      apiKey: '28e5f208b6c069fc2b815ba36dc9689c',
-      indexName: 'Macnman',
-      contextualSearch: true,
-      searchParameters: {},
-      searchPagePath: 'search',
-    },
 
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Community',

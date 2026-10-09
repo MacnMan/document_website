@@ -1,0 +1,1336 @@
+/*
+ * Documentation design system, modelled on elevenlabs.io/docs (Fern).
+ *
+ * Measured from the reference: 50px header + 44px tab row, 240px sidebar,
+ * 800px content column, system-ui type at 16px/28px, monochrome accent,
+ * hairline borders at 6% black and 8px/12px radii.
+ *
+ * Everything site-wide lives here; custom.css keeps the classes that MDX
+ * pages reference (spec tables, cards, videos) and the homepage utilities.
+ * This file is loaded after custom.css (see docusaurus.config.ts customCss).
+ */
+
+/* ────────────── TOKENS ─────────────────────────────────────────────────── */
+:root {
+  --el-font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
+  --el-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+
+  --el-bg: #ffffff;
+  --el-bg-header: #ffffff;
+  --el-bg-subtle: #fafafa;
+  --el-text: #2a2a2a;
+  --el-text-muted: rgba(0, 0, 0, 0.608);
+  --el-text-sidebar: rgba(0, 0, 0, 0.749);
+  --el-border: rgba(0, 0, 0, 0.06);
+  --el-border-strong: rgba(0, 0, 0, 0.12);
+  --el-border-hover: rgba(0, 0, 0, 0.25);
+  --el-hover: rgba(0, 0, 0, 0.05);
+  --el-active-bg: rgba(0, 0, 0, 0.051);
+  /* Brand red (the logo colour) is the accent; everything else is neutral. */
+  --el-brand: #da2744;
+  --el-brand-hover: #c01f3a;
+  --el-brand-soft: rgba(218, 39, 68, 0.08);
+  --el-brand-underline: rgba(218, 39, 68, 0.35);
+  --el-accent: var(--el-brand);
+  --el-accent-hover: var(--el-brand-hover);
+  --el-accent-contrast: #ffffff;
+  --el-card-bg: rgba(255, 255, 255, 0.8);
+  --el-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --el-code-bg: rgba(255, 255, 255, 0.8);
+  --el-code-text: rgba(0, 0, 0, 0.5765);
+  --el-codeblock-bg: #fafafa;
+
+  --el-header-h: 50px;
+  --el-tabs-h: 44px;
+  --el-sidebar-w: 280px;
+  --el-content-w: 800px;
+
+  /* Map the tokens onto Infima / Docusaurus variables. */
+  --ifm-font-family-base: var(--el-font-sans);
+  --ifm-font-family-monospace: var(--el-font-mono);
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.75;
+  --ifm-font-color-base: var(--el-text);
+  --ifm-font-color-secondary: var(--el-text-muted);
+  --ifm-heading-color: var(--el-text);
+  --ifm-heading-font-weight: 700;
+  --ifm-h1-font-size: 2.25rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1.0625rem;
+
+  --ifm-color-primary: #da2744;
+  --ifm-color-primary-dark: #c4233d;
+  --ifm-color-primary-darker: #b9213a;
+  --ifm-color-primary-darkest: #981b2f;
+  --ifm-color-primary-light: #de3d57;
+  --ifm-color-primary-lighter: #e04a62;
+  --ifm-color-primary-lightest: #e87a8c;
+  --ifm-color-emphasis-200: var(--el-border);
+  --ifm-color-emphasis-300: var(--el-border-strong);
+
+  --ifm-background-color: var(--el-bg);
+  --ifm-background-surface-color: var(--el-bg);
+  --ifm-navbar-background-color: var(--el-bg-header);
+  --ifm-navbar-height: calc(var(--el-header-h) + var(--el-tabs-h) + 1px);
+  --ifm-navbar-padding-horizontal: 20px;
+  --ifm-navbar-padding-vertical: 0;
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-item-padding-horizontal: 12px;
+  --ifm-navbar-link-color: var(--el-text-muted);
+  --ifm-navbar-link-hover-color: var(--el-text);
+
+  --ifm-link-color: var(--el-text);
+  --ifm-link-hover-color: var(--el-text);
+  --ifm-link-hover-decoration: underline;
+
+  --ifm-menu-color: var(--el-text-sidebar);
+  --ifm-menu-color-active: var(--el-text);
+  --ifm-menu-color-background-active: var(--el-active-bg);
+  --ifm-menu-color-background-hover: var(--el-hover);
+  --ifm-menu-link-padding-horizontal: 8px;
+  --ifm-menu-link-padding-vertical: 7px;
+  --doc-sidebar-width: var(--el-sidebar-w);
+
+  --ifm-toc-border-color: var(--el-border);
+  --ifm-toc-padding-vertical: 4px;
+  --ifm-toc-padding-horizontal: 10px;
+
+  --ifm-code-font-size: 14px;
+  --ifm-code-background: var(--el-code-bg);
+  --ifm-code-border-radius: 4px;
+  --ifm-code-padding-horizontal: 4px;
+  --ifm-code-padding-vertical: 2px;
+  --ifm-pre-background: var(--el-codeblock-bg);
+  --ifm-global-radius: 8px;
+  --ifm-card-border-radius: 12px;
+  --ifm-card-background-color: var(--el-card-bg);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
+
+  --ifm-table-border-color: var(--el-border-strong);
+  --ifm-table-stripe-background: transparent;
+  --ifm-table-head-background: transparent;
+
+  --ifm-footer-background-color: var(--el-bg);
+  --ifm-footer-color: var(--el-text-muted);
+  --ifm-footer-link-color: var(--el-text-muted);
+  --ifm-footer-link-hover-color: var(--el-text);
+  --ifm-footer-title-color: var(--el-text);
+
+}
+
+[data-theme='dark'] {
+  --el-bg: #0c0c0d;
+  --el-bg-header: #08090a;
+  --el-bg-subtle: #141415;
+  --el-text: #ffffff;
+  --el-text-muted: rgba(255, 255, 255, 0.686);
+  --el-text-sidebar: rgba(255, 255, 255, 0.75);
+  --el-border: rgba(255, 255, 255, 0.07);
+  --el-border-strong: rgba(255, 255, 255, 0.133);
+  --el-border-hover: rgba(255, 255, 255, 0.3);
+  --el-hover: rgba(255, 255, 255, 0.067);
+  --el-active-bg: rgba(255, 255, 255, 0.067);
+  --el-brand: #ef4d67;
+  --el-brand-hover: #f4677d;
+  --el-brand-soft: rgba(239, 77, 103, 0.14);
+  --el-brand-underline: rgba(239, 77, 103, 0.45);
+  --el-accent: #da2744;
+  --el-accent-hover: #e63a56;
+  --el-accent-contrast: #ffffff;
+  --el-card-bg: rgba(255, 255, 255, 0.03);
+  --el-card-shadow: none;
+  --el-code-bg: rgba(255, 255, 255, 0.05);
+  --el-code-text: rgba(255, 255, 255, 0.693);
+  --el-codeblock-bg: #121214;
+
+  --ifm-color-primary: #ef4d67;
+  --ifm-color-primary-dark: #ec3453;
+  --ifm-color-primary-darker: #ea2748;
+  --ifm-color-primary-darkest: #c9153a;
+  --ifm-color-primary-light: #f26680;
+  --ifm-color-primary-lighter: #f3738b;
+  --ifm-color-primary-lightest: #f79cae;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
+}
+
+/* ────────────── BASE ───────────────────────────────────────────────────── */
+html {
+  font-family: var(--el-font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--el-bg);
+  color: var(--el-text);
+}
+
+/* ────────────── HEADER (row 1) ─────────────────────────────────────────── */
+.navbar {
+  height: auto;
+  padding: 0;
+  flex-direction: column;
+  align-items: stretch;
+  background: var(--el-bg-header);
+  border-bottom: 1px solid var(--el-border);
+  box-shadow: none;
+}
+
+.navbar__inner {
+  height: var(--el-header-h);
+  padding: 0 var(--ifm-navbar-padding-horizontal);
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar__items {
+  min-width: 0;
+  gap: 4px;
+}
+
+.navbar__brand {
+  margin-right: 12px;
+  color: var(--el-text);
+}
+
+.navbar__brand:hover {
+  color: var(--el-text);
+}
+
+.navbar__logo {
+  height: 18px;
+  width: auto;
+  margin-right: 0;
+}
+
+.navbar__logo img {
+  height: 18px;
+  width: auto;
+}
+
+.navbar__title {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.navbar__toggle {
+  color: var(--el-text);
+  margin-right: 4px;
+}
+
+/* Right-hand links: 32px pills, muted until hovered. */
+.navbar__items--right .navbar__link {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--el-text-muted);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.navbar__items--right .navbar__link:hover {
+  background: var(--el-hover);
+  color: var(--el-text);
+  text-decoration: none;
+}
+
+.navbar__items--right .navbar__link--active {
+  color: var(--el-text);
+}
+
+/* The solid call-to-action button ("Sign up" in the reference). */
+.navbar__link.navbar__cta,
+.navbar__items--right .navbar__link.navbar__cta {
+  background: var(--el-accent);
+  color: var(--el-accent-contrast);
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.navbar__items--right .navbar__link.navbar__cta:hover {
+  background: var(--el-accent-hover);
+  color: var(--el-accent-contrast);
+}
+
+.navbar__cta svg {
+  display: none;
+}
+
+/* Colour-mode toggle: a quiet 32px icon button. */
+.navbar__items--right .clean-btn[class*='toggleButton'],
+.navbar__items--right .clean-btn[title*='mode'] {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  color: var(--el-text-muted);
+}
+
+.navbar__items--right .clean-btn[class*='toggleButton']:hover,
+.navbar__items--right .clean-btn[title*='mode']:hover {
+  background: var(--el-hover);
+  color: var(--el-text);
+}
+
+/* Search: an input-shaped button at the right of the header, with the "/"
+   hint. It opens the site-wide search modal (src/components/SiteSearch). */
+.site-search-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: 280px;
+  max-width: 100%;
+  height: 32px;
+  margin: 0;
+  padding: 0 8px 0 10px;
+  border: 1px solid var(--el-border-strong);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--el-text-muted);
+  font-family: var(--el-font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.site-search-trigger:hover,
+.site-search-trigger:focus-visible {
+  border-color: var(--el-border-hover);
+  background: var(--el-hover);
+  color: var(--el-text);
+  outline: none;
+}
+
+.site-search-trigger__icon {
+  flex: none;
+  width: 16px;
+  height: 16px;
+}
+
+.site-search-trigger__label {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+.site-search-trigger__kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  min-width: 20px;
+  padding: 0 5px;
+  border: 1px solid var(--el-border-strong);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--el-text-muted);
+}
+
+/* ────────────── TAB ROW (row 2) ────────────────────────────────────────── */
+.navbar-tabs {
+  display: flex;
+  align-items: stretch;
+  height: var(--el-tabs-h);
+  padding: 0 calc(var(--ifm-navbar-padding-horizontal) - 12px);
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.navbar-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-tabs .navbar__item {
+  padding: 0;
+}
+
+.navbar-tabs .navbar__link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 12px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--el-text-muted);
+  white-space: nowrap;
+  transition: color 0.15s ease;
+}
+
+.navbar-tabs .navbar__link:hover {
+  color: var(--el-text);
+  text-decoration: none;
+}
+
+.navbar-tabs .navbar__link--active {
+  color: var(--el-text);
+}
+
+.navbar-tabs .navbar__link--active::after {
+  content: '';
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px 2px 0 0;
+  background: var(--el-accent);
+}
+
+@media (max-width: 996px) {
+  :root {
+    --ifm-navbar-height: calc(var(--el-header-h) + 1px);
+  }
+
+  .navbar-tabs {
+    display: none;
+  }
+
+  .navbar__inner {
+    padding: 0 16px;
+  }
+
+  /* Infima hides navbar items below 997px (they live in the drawer); the
+     desktop display rules above are unlayered and would win, so repeat it. */
+  .navbar__items .navbar__item {
+    display: none;
+  }
+
+  /* Search collapses to a 32px icon button at the right edge. */
+  .site-search-trigger {
+    width: 32px;
+    padding: 0;
+    justify-content: center;
+    border-color: transparent;
+  }
+
+  .site-search-trigger__label,
+  .site-search-trigger__kbd {
+    display: none;
+  }
+}
+
+/* Mobile drawer */
+.navbar-sidebar {
+  background: var(--el-bg-header);
+}
+
+.navbar-sidebar__brand {
+  height: var(--el-header-h);
+  box-shadow: none;
+  border-bottom: 1px solid var(--el-border);
+}
+
+.navbar-sidebar .menu__link {
+  font-size: 15px;
+}
+
+/* ────────────── SIDEBAR ────────────────────────────────────────────────── */
+/* Three visual levels: top-level categories read as small section headings;
+   their children are the list proper; anything deeper hangs off a faint
+   guide line. Labels that repeat their parent's name are shortened at render
+   time (src/theme/DocSidebarItem). */
+:root {
+  --el-chevron: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");
+}
+
+[data-theme='dark'] {
+  --el-chevron: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'><path d='m6 9 6 6 6-6'/></svg>");
+}
+
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--el-border);
+}
+
+.theme-doc-sidebar-menu {
+  padding: 20px 16px 40px;
+  font-size: 14px;
+}
+
+.theme-doc-sidebar-menu .menu__list {
+  margin: 0;
+  padding: 0;
+}
+
+.theme-doc-sidebar-menu .menu__list-item {
+  margin: 0;
+}
+
+.theme-doc-sidebar-menu .menu__list-item:not(:first-child) {
+  margin-top: 2px;
+}
+
+/* A category that is also a link renders as link + separate caret button;
+   keep them on one line with the caret at the right edge. */
+.theme-doc-sidebar-menu .menu__list-item-collapsible {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 6px;
+  transition: background-color 0.15s ease;
+}
+
+.theme-doc-sidebar-menu .menu__list-item-collapsible > .menu__link {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.theme-doc-sidebar-menu .menu__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--el-text-sidebar);
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.theme-doc-sidebar-menu .menu__link:hover,
+.theme-doc-sidebar-menu .menu__list-item-collapsible:hover {
+  background: var(--el-hover);
+  color: var(--el-text);
+}
+
+.theme-doc-sidebar-menu .menu__list-item-collapsible:hover > .menu__link {
+  background: transparent;
+  color: var(--el-text);
+}
+
+.theme-doc-sidebar-menu .menu__link--active:not(.menu__link--sublist) {
+  background: var(--el-brand-soft);
+  color: var(--el-brand);
+  font-weight: 500;
+}
+
+.theme-doc-sidebar-menu .menu__link--sublist.menu__link--active {
+  color: var(--el-text);
+}
+
+/* Chevrons: small and quiet, at the right edge; down when collapsed, up
+   when open. */
+.theme-doc-sidebar-menu .menu__link--sublist-caret::after,
+.theme-doc-sidebar-menu .menu__caret::before {
+  content: '';
+  flex: none;
+  width: 14px;
+  height: 14px;
+  margin: 0 0 0 auto;
+  background: var(--el-chevron) center / 14px no-repeat;
+  filter: none;
+  opacity: 0.35;
+  transform: rotate(180deg);
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.theme-doc-sidebar-menu .menu__list-item--collapsed .menu__link--sublist-caret::after,
+.theme-doc-sidebar-menu .menu__list-item--collapsed .menu__caret::before {
+  transform: rotate(0deg);
+}
+
+.theme-doc-sidebar-menu .menu__link:hover::after,
+.theme-doc-sidebar-menu .menu__list-item-collapsible:hover .menu__caret::before {
+  opacity: 0.7;
+}
+
+.theme-doc-sidebar-menu .menu__caret {
+  padding: 0 10px 0 4px;
+  border-radius: 6px;
+}
+
+.theme-doc-sidebar-menu .menu__caret:hover {
+  background: transparent;
+}
+
+/* Level 0: section headings. */
+.theme-doc-sidebar-menu > .menu__list-item:not(:first-child) {
+  margin-top: 20px;
+}
+
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list-item-collapsible > .menu__link,
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-link > .menu__link {
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--el-text-muted);
+}
+
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list-item-collapsible:hover {
+  background: transparent;
+}
+
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list-item-collapsible > .menu__link:hover,
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-category > .menu__list-item-collapsible > .menu__link--active,
+.theme-doc-sidebar-menu > .theme-doc-sidebar-item-link > .menu__link:hover {
+  color: var(--el-text);
+  background: transparent;
+}
+
+/* Level 1: the list proper, no indent and no guide line. */
+.theme-doc-sidebar-menu > .menu__list-item > .menu__list {
+  margin: 6px 0 0;
+  padding: 0;
+  border-left: 0;
+}
+
+/* Level 2 and deeper hang off a faint guide line. */
+.theme-doc-sidebar-menu .menu__list .menu__list {
+  margin: 2px 0 6px 10px;
+  padding-left: 8px;
+  border-left: 1px solid var(--el-border-strong);
+}
+
+.theme-doc-sidebar-menu .menu__list .menu__list .menu__link {
+  padding: 5px 8px;
+  font-size: 13.5px;
+}
+
+/* Sidebar collapse button */
+.theme-doc-sidebar-container button[class*='collapseSidebarButton'] {
+  border-top: 1px solid var(--el-border);
+  background: var(--el-bg);
+}
+
+/* ────────────── CONTENT ────────────────────────────────────────────────── */
+.theme-doc-markdown {
+  max-width: var(--el-content-w);
+}
+
+article {
+  padding-top: 8px;
+}
+
+/* The reference shows no breadcrumb trail; the sidebar carries location. */
+.theme-doc-breadcrumbs {
+  display: none;
+}
+
+.markdown {
+  --ifm-h1-font-size: 2.25rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1.0625rem;
+  --ifm-heading-vertical-rhythm-top: 2.25;
+  --ifm-heading-vertical-rhythm-bottom: 0.75;
+  line-height: 28px;
+}
+
+.markdown h1:first-child,
+.markdown > h1,
+.markdown header h1 {
+  --ifm-h1-font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.5rem;
+}
+
+.markdown > h2 {
+  --ifm-h2-font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+}
+
+.markdown > h3 {
+  --ifm-h3-font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.markdown p,
+.markdown li {
+  line-height: 28px;
+}
+
+/* Plain text links only: anything with a class (cards, pagination, heading
+   anchors, download tiles) carries its own styling. */
+.markdown a:not([class]) {
+  color: var(--el-brand);
+  text-decoration: underline;
+  text-decoration-color: var(--el-brand-underline);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: text-decoration-color 0.15s ease;
+}
+
+.markdown a:not([class]):hover {
+  color: var(--el-brand-hover);
+  text-decoration-color: currentColor;
+}
+
+.hash-link {
+  color: var(--el-brand);
+  opacity: 0;
+}
+
+.hash-link:focus,
+*:hover > .hash-link {
+  opacity: 1;
+}
+
+/* Inline code: ringed, bold, slightly muted — as on the reference. */
+.markdown :not(pre) > code {
+  padding: 2px 4px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--el-code-bg);
+  box-shadow: inset 0 0 0 1px var(--el-border-strong);
+  color: var(--el-code-text);
+  font-family: var(--el-font-mono);
+  font-size: 14px;
+  font-weight: 600;
+  vertical-align: baseline;
+}
+
+/* Code blocks */
+.theme-code-block {
+  --ifm-global-shadow-lw: none;
+  border: 1px solid var(--el-border-strong);
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.theme-code-block pre,
+.theme-code-block code {
+  font-family: var(--el-font-mono);
+  font-size: 13.5px;
+  line-height: 1.6;
+}
+
+.theme-code-block [class*='codeBlockTitle'] {
+  border-bottom: 1px solid var(--el-border);
+  font-size: 13px;
+  color: var(--el-text-muted);
+}
+
+/* Tables: horizontal rules only, a small uppercase header, roomy cells, no
+   zebra stripes or vertical lines. The outer columns sit flush with the
+   paragraph edge. Markdown tables are wrapped in .table-scroll
+   (src/theme/MDXComponents) so wide ones scroll sideways on phones;
+   .parameter-table is the hand-written spec table used across the product
+   pages and gets the same treatment. */
+.markdown .table-scroll {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.markdown table,
+.markdown .parameter-table {
+  display: table;
+  width: 100%;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+  line-height: 20px;
+  background: transparent;
+}
+
+.markdown .parameter-table {
+  margin: 1.5rem 0;
+}
+
+/* No zebra stripes, and no Infima 2px rule under the header row. */
+.markdown table tr,
+.markdown table tr:nth-child(2n),
+.markdown table thead tr,
+.markdown .parameter-table tr,
+.markdown .parameter-table tr:nth-child(2n),
+.markdown .parameter-table thead tr {
+  background: transparent;
+  border: 0;
+}
+
+.markdown table th,
+.markdown table td,
+.markdown .parameter-table th,
+.markdown .parameter-table td {
+  border: 0;
+  background: transparent;
+  text-align: left;
+  vertical-align: top;
+  color: var(--el-text);
+  padding: 12px 16px;
+}
+
+.markdown table th:first-child,
+.markdown table td:first-child,
+.markdown .parameter-table th:first-child,
+.markdown .parameter-table td:first-child {
+  padding-left: 0;
+}
+
+.markdown table th:last-child,
+.markdown table td:last-child,
+.markdown .parameter-table th:last-child,
+.markdown .parameter-table td:last-child {
+  padding-right: 0;
+}
+
+/* Column headers */
+.markdown table thead th,
+.markdown .parameter-table thead th {
+  padding-top: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--el-border-strong);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--el-text-muted);
+  white-space: nowrap;
+}
+
+/* Body rows */
+.markdown table tbody td,
+.markdown table tbody th,
+.markdown .parameter-table tbody td,
+.markdown .parameter-table tbody th {
+  border-bottom: 1px solid var(--el-border);
+}
+
+/* Row headers and the first column read as the label. */
+.markdown table tbody th,
+.markdown table tbody td:first-child,
+.markdown .parameter-table tbody th,
+.markdown .parameter-table tbody td:first-child {
+  font-weight: 500;
+}
+
+.markdown table tbody tr:last-child td,
+.markdown table tbody tr:last-child th,
+.markdown .parameter-table tbody tr:last-child td,
+.markdown .parameter-table tbody tr:last-child th {
+  border-bottom-color: var(--el-border-strong);
+}
+
+.markdown table p,
+.markdown .parameter-table p {
+  margin: 0;
+}
+
+.markdown table code,
+.markdown .parameter-table code {
+  font-size: 13px;
+}
+
+/* Numbers line up down a column. */
+.markdown table,
+.markdown .parameter-table,
+.device-config-table {
+  font-variant-numeric: tabular-nums;
+}
+
+/* When the content column is narrow, a wide table becomes a list of cards:
+   one card per row, each cell shown as label / value. The labels are copied
+   from the table's header by src/clientModules/tableLabels.ts, which marks
+   the table data-stackable; tables without a header keep scrolling. */
+.theme-doc-markdown {
+  container-type: inline-size;
+}
+
+@container (max-width: 620px) {
+  .markdown table[data-stackable],
+  .markdown table[data-stackable] tbody,
+  .markdown table[data-stackable] tr {
+    display: block;
+    width: 100%;
+  }
+
+  .markdown table[data-stackable] thead {
+    display: none;
+  }
+
+  .markdown table[data-stackable] tr {
+    padding: 10px 0 12px;
+    border-bottom: 1px solid var(--el-border);
+  }
+
+  .markdown table[data-stackable] tbody tr:first-child {
+    border-top: 1px solid var(--el-border-strong);
+  }
+
+  .markdown table[data-stackable] tbody tr:last-child {
+    border-bottom-color: var(--el-border-strong);
+  }
+
+  .markdown table[data-stackable] td {
+    display: grid;
+    grid-template-columns: minmax(96px, 34%) 1fr;
+    gap: 12px;
+    padding: 4px 0;
+    border: 0;
+    font-weight: 400;
+  }
+
+  .markdown table[data-stackable] td::before {
+    content: attr(data-label);
+    padding-top: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--el-text-muted);
+  }
+
+  .markdown table[data-stackable] td:first-child {
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 576px) {
+  .markdown .parameter-table:not([data-stackable]) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Admonitions as soft callouts: a tinted surface with a hairline of the same
+   hue, icon + sentence-case label in the type's colour, 14px body. Note is
+   neutral; tip / info / warning / danger carry a quiet colour. */
+.theme-admonition {
+  --el-callout-accent: var(--el-text-muted);
+  --el-callout-bg: var(--el-bg-subtle);
+  --el-callout-border: var(--el-border);
+  margin: 1.25rem 0;
+  padding: 14px 16px 15px;
+  border: 1px solid var(--el-callout-border);
+  border-left-width: 1px;
+  border-radius: 10px;
+  background: var(--el-callout-bg);
+  box-shadow: none;
+  color: var(--el-text);
+}
+
+.theme-admonition-tip {
+  --el-callout-accent: #1a7f4b;
+  --el-callout-bg: rgba(26, 127, 75, 0.06);
+  --el-callout-border: rgba(26, 127, 75, 0.18);
+}
+
+.theme-admonition-info {
+  --el-callout-accent: #2457c5;
+  --el-callout-bg: rgba(36, 87, 197, 0.06);
+  --el-callout-border: rgba(36, 87, 197, 0.18);
+}
+
+.theme-admonition-warning,
+.theme-admonition-caution {
+  --el-callout-accent: #b25e09;
+  --el-callout-bg: rgba(217, 119, 6, 0.07);
+  --el-callout-border: rgba(217, 119, 6, 0.22);
+}
+
+.theme-admonition-danger {
+  --el-callout-accent: var(--el-brand);
+  --el-callout-bg: var(--el-brand-soft);
+  --el-callout-border: rgba(218, 39, 68, 0.22);
+}
+
+[data-theme='dark'] .theme-admonition-tip {
+  --el-callout-accent: #4ec487;
+  --el-callout-bg: rgba(78, 196, 135, 0.08);
+  --el-callout-border: rgba(78, 196, 135, 0.22);
+}
+
+[data-theme='dark'] .theme-admonition-info {
+  --el-callout-accent: #6f9bff;
+  --el-callout-bg: rgba(111, 155, 255, 0.08);
+  --el-callout-border: rgba(111, 155, 255, 0.22);
+}
+
+[data-theme='dark'] .theme-admonition-warning,
+[data-theme='dark'] .theme-admonition-caution {
+  --el-callout-accent: #f0a63a;
+  --el-callout-bg: rgba(240, 166, 58, 0.08);
+  --el-callout-border: rgba(240, 166, 58, 0.22);
+}
+
+[data-theme='dark'] .theme-admonition-danger {
+  --el-callout-border: rgba(239, 77, 103, 0.3);
+}
+
+.theme-admonition .admonition-heading,
+.theme-admonition [class*='admonitionHeading'] {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-transform: capitalize;
+  color: var(--el-callout-accent);
+}
+
+.theme-admonition [class*='admonitionIcon'] {
+  display: inline-flex;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.theme-admonition [class*='admonitionIcon'] svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.theme-admonition [class*='admonitionContent'] {
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--el-text);
+}
+
+.theme-admonition [class*='admonitionContent'] > :first-child {
+  margin-top: 0;
+}
+
+.theme-admonition [class*='admonitionContent'] > :last-child {
+  margin-bottom: 0;
+}
+
+.theme-admonition [class*='admonitionContent'] p,
+.theme-admonition [class*='admonitionContent'] li {
+  line-height: 22px;
+}
+
+.theme-admonition [class*='admonitionContent'] a:not([class]) {
+  color: var(--el-text);
+}
+
+.markdown img {
+  border-radius: 8px;
+}
+
+/* The datasheets put a `---` between every section and spec block; with
+   headings and hairline tables already separating them, the rule is extra
+   ink. Keep the element for spacing semantics, draw nothing. */
+.markdown hr {
+  height: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+}
+
+/* "What's in the Box": the bullet list under that heading (tagged .box-list
+   by src/clientModules/contentEnhancements.ts) becomes a grid of item tiles,
+   each with a check mark. A trailing `*` — the pages' marker for optional
+   accessories — is shown as a small superscript. */
+:root {
+  --el-icon-check: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23da2744' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6 9 17l-5-5'/></svg>");
+}
+
+[data-theme='dark'] {
+  --el-icon-check: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ef4d67' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6 9 17l-5-5'/></svg>");
+}
+
+.markdown ul.box-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+  margin: 1rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.markdown .box-list > li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 11px 14px;
+  border: 1px solid var(--el-border-strong);
+  border-radius: 10px;
+  background: var(--el-card-bg);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--el-text);
+}
+
+.markdown .box-list > li::before {
+  content: '';
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--el-brand-soft) var(--el-icon-check) center / 12px no-repeat;
+}
+
+.markdown .box-list > li > p {
+  margin: 0;
+  line-height: 20px;
+}
+
+.markdown .box-list__mark {
+  margin-left: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 0;
+  color: var(--el-brand);
+}
+
+@media (max-width: 576px) {
+  .markdown ul.box-list {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+/* Category index cards (DocCard) */
+.card {
+  border: 1px solid var(--el-border-strong);
+  border-radius: 12px;
+  background: var(--el-card-bg);
+  box-shadow: var(--el-card-shadow);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+a.card:hover {
+  border-color: var(--el-border-hover);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+}
+
+.card__header,
+.card__body,
+.card__footer {
+  padding: 0;
+}
+
+.card [class*='cardContainer'],
+.card.padding--lg {
+  padding: 20px 24px;
+}
+
+.card [class*='cardTitle'],
+.card__header h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.card [class*='cardDescription'],
+.card__body p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--el-text-muted);
+}
+
+/* ────────────── TABLE OF CONTENTS ──────────────────────────────────────── */
+.table-of-contents {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.table-of-contents::before {
+  content: 'On this page';
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: var(--el-text-muted);
+}
+
+.table-of-contents,
+.table-of-contents ul {
+  list-style: none;
+}
+
+.table-of-contents > li,
+.table-of-contents li {
+  margin: 0;
+}
+
+.table-of-contents ul {
+  padding-left: 12px;
+}
+
+.table-of-contents > li:first-child {
+  border-left: 0;
+}
+
+.table-of-contents__left-border {
+  border-left: 0;
+}
+
+.table-of-contents__link {
+  display: block;
+  padding: 4px 0 4px 10px;
+  margin-left: 0;
+  border-left: 2px solid var(--el-border-strong);
+  color: var(--el-text-sidebar);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.table-of-contents__link:hover {
+  color: var(--el-text);
+  text-decoration: none;
+}
+
+.table-of-contents__link--active {
+  color: var(--el-brand);
+  font-weight: 500;
+  border-left-color: var(--el-brand);
+}
+
+.table-of-contents__link code {
+  font-size: 12.5px;
+}
+
+/* Mobile "On this page" collapsible */
+.theme-doc-toc-mobile {
+  border-radius: 8px;
+  background: var(--el-bg-subtle);
+  border: 1px solid var(--el-border-strong);
+}
+
+.theme-doc-toc-mobile > button {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ────────────── FOOTER OF A DOC ────────────────────────────────────────── */
+.theme-doc-footer {
+  margin-top: 2.5rem;
+  font-size: 14px;
+  color: var(--el-text-muted);
+}
+
+.theme-doc-footer-edit-meta-row {
+  font-size: 13px;
+}
+
+.pagination-nav {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--el-border);
+  gap: 16px;
+}
+
+.pagination-nav__link {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  transition: color 0.15s ease;
+}
+
+.pagination-nav__link:hover {
+  border: 0;
+  text-decoration: none;
+}
+
+.pagination-nav__sublabel {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--el-text-muted);
+}
+
+.pagination-nav__label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--el-text);
+}
+
+.pagination-nav__link:hover .pagination-nav__label {
+  color: var(--el-brand);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.pagination-nav__link--next {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.pagination-nav__link--prev .pagination-nav__label::before {
+  content: '← ';
+}
+
+.pagination-nav__link--next .pagination-nav__label::after {
+  content: ' →';
+}
+
+/* ────────────── SITE FOOTER ────────────────────────────────────────────── */
+.footer {
+  padding: 32px 0;
+  background: var(--el-bg);
+  border-top: 1px solid var(--el-border);
+  color: var(--el-text-muted);
+}
+
+.footer__title {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--el-text);
+}
+
+.footer__item {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer__link-item {
+  color: var(--el-text-muted);
+}
+
+.footer__link-item:hover {
+  color: var(--el-text);
+  text-decoration: none;
+}
+
+.footer__link-item svg {
+  display: none;
+}
+
+.footer__copyright {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--el-text-muted);
+}
+
+/* ────────────── MISC ───────────────────────────────────────────────────── */
+::selection {
+  background: rgba(218, 39, 68, 0.18);
+}
+
+[data-theme='dark'] ::selection {
+  background: rgba(239, 77, 103, 0.3);
+}
+
+.thin-scrollbar {
+  scrollbar-width: thin;
+}

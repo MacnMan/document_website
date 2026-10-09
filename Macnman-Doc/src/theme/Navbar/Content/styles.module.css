@@ -1,0 +1,25 @@
+/* Layout hooks only; the visual design lives in src/css/eleven.css. */
+
+.search {
+  display: flex;
+  align-items: center;
+  flex: 0 1 280px;
+  margin-right: 4px;
+  min-width: 0;
+}
+
+.tabs {
+  flex: none;
+}
+
+/* Hide the colour-mode toggle in small viewports (the drawer has one). */
+@media (max-width: 996px) {
+  .colorModeToggle {
+    display: none;
+  }
+}
+
+/* Restore the Infima rule that CSS cascade layers dropped. */
+:global(.navbar__items--right) > :last-child {
+  padding-right: 0;
+}

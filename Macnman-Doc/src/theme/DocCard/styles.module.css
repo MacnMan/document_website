@@ -1,0 +1,19 @@
+/* Layout hooks only; the card's look is defined in src/css/eleven.css. */
+
+.cardContainer {
+  --ifm-link-color: var(--el-text);
+  --ifm-link-hover-color: var(--el-text);
+  --ifm-link-hover-decoration: none;
+}
+
+.cardContainer *:last-child {
+  margin-bottom: 0;
+}
+
+.cardTitle {
+  font-size: 16px;
+}
+
+.cardDescription {
+  font-size: 14px;
+}

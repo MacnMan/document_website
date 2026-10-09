@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "docusaurus-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "Macnman-Doc", "run", "start"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}

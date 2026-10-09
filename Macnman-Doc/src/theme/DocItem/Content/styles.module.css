@@ -1,0 +1,109 @@
+.header {
+  margin-bottom: 2rem;
+}
+
+.titleRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.titleRow h1 {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--el-text-muted);
+}
+
+/* For pages whose markdown supplies its own H1: keep the button at the
+   top-right and let the heading flow beside it. */
+.floatingAction {
+  float: right;
+  margin: 4px 0 8px 16px;
+}
+
+.pdfButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--el-border-strong);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--el-text-muted);
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.pdfButton:hover {
+  background: var(--el-hover);
+  color: var(--el-text);
+  border-color: var(--el-border-hover);
+}
+
+/* Print-only header: logo and page URL above the title. */
+.printHeader {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .titleRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .floatingAction {
+    float: none;
+    margin: 0 0 12px;
+  }
+}
+
+@media print {
+  .pdfButton,
+  .floatingAction {
+    display: none;
+  }
+
+  .printHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12pt;
+    margin: 0 0 16pt;
+    padding-bottom: 8pt;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .printLogo {
+    height: 13pt;
+    width: auto;
+    border-radius: 0 !important;
+  }
+
+  .printUrl {
+    font-size: 8pt;
+    color: #777;
+  }
+
+  .header {
+    margin-bottom: 14pt;
+  }
+
+  .subtitle {
+    margin-top: 4pt;
+    font-size: 11pt;
+    line-height: 1.45;
+    color: #555;
+  }
+}

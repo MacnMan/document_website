@@ -1,0 +1,290 @@
+/*
+ * Print / "Download PDF" layout.
+ *
+ * Only the article prints: the header, sidebar, "On this page" rail,
+ * pagination, footer and buttons are removed, the content takes the full
+ * page width, and colours are forced light so a PDF saved from dark mode
+ * looks the same as one from light mode. Component-specific print rules
+ * (the page header, the PDF button) live in their own CSS modules.
+ */
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm 14mm 18mm;
+  }
+
+  /* Always light on paper. */
+  :root,
+  html[data-theme='dark'] {
+    --el-bg: #ffffff;
+    --el-bg-header: #ffffff;
+    --el-bg-subtle: #f6f6f6;
+    --el-text: #111111;
+    --el-text-muted: #555555;
+    --el-text-sidebar: #444444;
+    --el-border: #dddddd;
+    --el-border-strong: #cccccc;
+    --el-border-hover: #bbbbbb;
+    --el-hover: #f2f2f2;
+    --el-active-bg: #f2f2f2;
+    --el-card-bg: #ffffff;
+    --el-card-shadow: none;
+    --el-code-bg: #f6f6f6;
+    --el-code-text: #222222;
+    --el-codeblock-bg: #f6f6f6;
+    --el-brand: #da2744;
+    --el-brand-soft: rgba(218, 39, 68, 0.08);
+    color-scheme: light;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    overflow: visible !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Site chrome */
+  .navbar,
+  .navbar-sidebar,
+  .navbar-sidebar__backdrop,
+  .theme-doc-sidebar-container,
+  .theme-doc-toc-mobile,
+  .theme-doc-breadcrumbs,
+  .theme-doc-version-badge,
+  .theme-doc-footer,
+  .pagination-nav,
+  .footer,
+  .hash-link,
+  .table-of-contents,
+  .col.col--3,
+  button[class*='collapseSidebarButton'],
+  [role='dialog'] {
+    display: none !important;
+  }
+
+  /* One full-width column */
+  .main-wrapper,
+  main,
+  main > .container,
+  main .row,
+  main .col {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: none !important;
+  }
+
+  [class*='docMainContainer'],
+  [class*='docItemCol'],
+  [class*='docItemContainer'] {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .theme-doc-markdown {
+    max-width: none;
+    container-type: normal;
+  }
+
+  article {
+    padding: 0;
+  }
+
+  /* Type */
+  body,
+  .markdown {
+    font-size: 10.5pt;
+    line-height: 1.5;
+  }
+
+  .markdown p,
+  .markdown li {
+    line-height: 1.5;
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown h1,
+  .markdown header h1 {
+    margin: 0 0 6pt;
+    font-size: 22pt;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+
+  .markdown > h2,
+  .device-section-title {
+    margin: 20pt 0 8pt;
+    font-size: 15pt;
+    line-height: 1.3;
+    break-after: avoid;
+  }
+
+  .markdown > h3 {
+    margin: 14pt 0 6pt;
+    font-size: 12pt;
+    break-after: avoid;
+  }
+
+  .markdown > h4 {
+    margin: 12pt 0 4pt;
+    font-size: 11pt;
+    break-after: avoid;
+  }
+
+  .markdown a:not([class]) {
+    color: var(--el-brand);
+    text-decoration: none;
+  }
+
+  .markdown img {
+    max-width: 100%;
+    break-inside: avoid;
+  }
+
+  /* Tables: repeat headers, never split a row */
+  .table-scroll {
+    overflow: visible;
+  }
+
+  .markdown table,
+  .markdown .parameter-table {
+    break-inside: auto;
+  }
+
+  .markdown table thead,
+  .markdown .parameter-table thead {
+    display: table-header-group;
+  }
+
+  .markdown table tr,
+  .markdown .parameter-table tr {
+    break-inside: avoid;
+  }
+
+  .markdown table th,
+  .markdown table td,
+  .markdown .parameter-table th,
+  .markdown .parameter-table td {
+    padding: 5pt 8pt;
+    font-size: 9.5pt;
+    line-height: 1.4;
+  }
+
+  .markdown table thead th,
+  .markdown .parameter-table thead th {
+    font-size: 8pt;
+  }
+
+  /* Blocks that should stay whole */
+  .theme-admonition,
+  .theme-code-block,
+  .device-config-row,
+  .reusable-feature-card,
+  .icon-card,
+  .box-list > li,
+  .card {
+    break-inside: avoid;
+  }
+
+  .theme-code-block pre,
+  .theme-code-block code {
+    white-space: pre-wrap;
+    font-size: 9pt;
+  }
+
+  .theme-admonition {
+    margin: 10pt 0;
+    padding: 9pt 12pt;
+    border-color: #ddd;
+  }
+
+  /* Datasheet sections */
+  .device-config-section {
+    margin: 14pt 0 20pt;
+  }
+
+  .device-config-row {
+    padding: 5pt 0;
+    font-size: 9.5pt;
+  }
+
+  .reusable-feature-grid {
+    gap: 14pt 24pt;
+    margin: 10pt 0 18pt;
+  }
+
+  .markdown .reusable-feature-card {
+    padding-top: 8pt;
+    font-size: 9.5pt;
+    line-height: 1.45;
+  }
+
+  .markdown .reusable-feature-card strong {
+    font-size: 10.5pt;
+    margin-bottom: 2pt;
+  }
+
+  .icon-card-grid {
+    gap: 8pt;
+    margin: 8pt 0 14pt;
+  }
+
+  .markdown .icon-card,
+  .markdown .icon-card:hover {
+    padding: 8pt 10pt;
+  }
+
+  .markdown ul.box-list {
+    gap: 6pt;
+  }
+
+  .markdown .box-list > li {
+    padding: 6pt 10pt;
+    font-size: 9.5pt;
+  }
+
+  /* Product gallery: every photo, as a grid; no stage, arrows or caption */
+  figure[class*='gallery_'] {
+    margin: 10pt 0 16pt;
+  }
+
+  figure[class*='gallery_'] [class*='stage_'],
+  figure[class*='gallery_'] [class*='caption_'] {
+    display: none;
+  }
+
+  figure[class*='gallery_'] [class*='thumbs_'] {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8pt;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+
+  figure[class*='gallery_'] [class*='thumb_'] {
+    width: auto;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    border: 1px solid #ddd;
+    border-radius: 6pt;
+    background: #fafafa;
+    opacity: 1;
+  }
+
+  figure[class*='gallery_'] [class*='thumb_'] img {
+    padding: 10pt;
+  }
+}
