@@ -41,9 +41,9 @@ Built for continuous indoor operation, Setu WX1 features a low-power, fanless de
 
 Whether used for asset tracking, occupancy monitoring, environmental sensing, healthcare device integration, or smart building analytics, **Setu WX1 delivers a secure, scalable, and gateway-centric BLE to Wi-Fi connectivity solution** for modern IoT deployments.
 
-| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
+| ![Setu LoRaWAN Indoor Gateway Wall Ceiling Installation](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Setu LoRaWAN Indoor Gateway Side View](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-front-view.webp) | ![Image 1](/img/lorawan/gateways/setu-lorawan-indoor-gateway-dimensions-drawing.webp) |
+| ![Setu LoRaWAN Indoor Gateway Front View](/img/lorawan/gateways/setu-lorawan-indoor-gateway-front-view.webp) | ![Setu LoRaWAN Indoor Gateway Dimensions Drawing](/img/lorawan/gateways/setu-lorawan-indoor-gateway-dimensions-drawing.webp) |
 
 
 <div class="faint-line"></div>
@@ -520,7 +520,7 @@ Whether used for asset tracking, occupancy monitoring, environmental sensing, he
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-boxs.svg)
+![Setu LoRaWAN Indoor Gateway Image Boxs](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-boxs.svg)
 
 :::note
 
@@ -531,5 +531,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-dimensions.svg)
+![Setu LoRaWAN Indoor Gateway Image Dimensions](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-dimensions.svg)
 

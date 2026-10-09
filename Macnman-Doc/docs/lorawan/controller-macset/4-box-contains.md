@@ -1,6 +1,7 @@
 ---
 id: controller_box-contains
 title: LoRaWAN® Controller (MacSet) Box Contains
+description: "LoRaWAN® Controller (MacSet) Box Contains — Make sure box contains following items before installations"
 ---
 
 # Part List 

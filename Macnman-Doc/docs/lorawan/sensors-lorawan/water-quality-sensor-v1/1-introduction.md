@@ -1,6 +1,7 @@
 ---
 id: macsyncls_introduction
 title: Water Quality Sensors Introduction
+description: "With LoRaWAN® Class A & C communication, MacSync-LWQS8 enables remote monitoring in rivers, lakes, reservoirs, wastewater treatment plants, and…"
 ---
 
 # MacSync-LWQS8
@@ -21,7 +22,7 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Download Center
 

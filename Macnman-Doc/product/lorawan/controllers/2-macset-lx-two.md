@@ -42,9 +42,7 @@ keywords:
 
 # MacSet LX2 Industrial® LoRaWAN Controller
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSet LX2** is an industrial-grade **LoRaWAN® Multi-IO Controller** engineered for advanced remote automation, industrial equipment control, multi-channel digital output switching, analog and digital input monitoring, and wireless Industrial IoT deployments. Designed for large-scale industrial automation and infrastructure control, the controller enables reliable long-range wireless operation of pumps, motors, solenoid valves, alarms, contactors, lighting systems, actuators, industrial panels, and field equipment over secure LoRaWAN® networks.
 
@@ -64,9 +62,7 @@ Whether deployed for **industrial automation**, **remote pump control**, **smart
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macset-lx2-industrial-lorawan-remote-io-controller-datasheet.pdf" 
@@ -89,9 +85,7 @@ Whether deployed for **industrial automation**, **remote pump control**, **smart
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -179,9 +173,7 @@ Whether deployed for **industrial automation**, **remote pump control**, **smart
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 
@@ -269,9 +261,7 @@ Whether deployed for **industrial automation**, **remote pump control**, **smart
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">IO Interfaces</div>
@@ -792,9 +782,7 @@ Whether deployed for **industrial automation**, **remote pump control**, **smart
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSet LX2 Variants
-</h2>
+## MacSet LX2 Variants
 
 <table className="parameter-table">
   <thead>
@@ -837,9 +825,7 @@ Whether deployed for **industrial automation**, **remote pump control**, **smart
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 The **MacSet LX2 Industrial LoRaWAN® IO Controller** package is designed to simplify industrial deployment, remote automation installation, and Industrial IoT commissioning. Before starting installation, verify that all supplied accessories and mounting components are available inside the package.
 
@@ -867,9 +853,7 @@ Optional accessories including IP68 cable extenders, external power adapters, an
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSet LX1 Controller Dimensions
-</h2>
+## MacSet LX1 Controller Dimensions
 
 The **MacSet LX2 Industrial LoRaWAN® IO Controller** is designed with a rugged industrial enclosure optimized for Industrial IoT automation, remote equipment control, wireless monitoring, and distributed industrial infrastructure deployments. With compact dimensions of **142 mm × 80 mm × 32 mm**, the controller enables easy installation inside industrial automation panels, electrical cabinets, utility control rooms, pump control systems, smart agriculture infrastructure, factory automation systems, and outdoor field deployments.
 

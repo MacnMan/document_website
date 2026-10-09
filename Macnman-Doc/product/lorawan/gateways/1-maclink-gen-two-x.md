@@ -34,9 +34,7 @@ keywords:
 
 # MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway Datasheet
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 MacLink Gen-2 is a high-performance **Industrial Outdoor LoRaWAN® Gateway** engineered for long-range wireless communication, carrier-grade Industrial IoT connectivity, and large-scale outdoor LoRaWAN® network deployments. Designed with an industrial IP67 weatherproof enclosure, high-sensitivity 8-channel LoRaWAN® concentrator, and multi-backhaul connectivity architecture, the gateway delivers reliable long-range communication for Smart Cities, Utilities, Industrial Automation, Agriculture, Water Infrastructure, Energy Monitoring, and Environmental IoT applications.
 
@@ -59,9 +57,7 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/maclink-gen-2-outdoor-lorawan-gateway-datasheet.pdf" 
@@ -84,9 +80,7 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 
 <div className="reusable-feature-grid">
@@ -175,9 +169,7 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 
@@ -265,9 +257,7 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">System Hardware Specifications</div>
@@ -620,9 +610,7 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 </div>
 
 ---
-<h2 className="device-section-title">
-  ## MacLink Gen-2 Variants
-</h2>
+## MacLink Gen-2 Variants
 
 <table className="parameter-table">
   <thead>
@@ -649,9 +637,7 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 The **MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway** package is designed for fast industrial deployment, outdoor installation, and reliable Industrial IoT network commissioning. Before starting installation, verify that all gateway components and mounting accessories are available inside the package.
 
@@ -680,9 +666,7 @@ Optional accessories including PoE injectors, Ethernet cables, surge protection 
 
 ---
 
-<h2 className="device-section-title">
-  ## MacLink Gen-2 Gateway Dimensions
-</h2>
+## MacLink Gen-2 Gateway Dimensions
 
 The **MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway** is designed with a rugged industrial enclosure optimized for outdoor Industrial IoT deployments, utility infrastructure, Smart City installations, and long-range LoRaWAN® network coverage. The compact enclosure simplifies pole-mounted, wall-mounted, and rooftop installations while maintaining reliable outdoor wireless communication performance.
 

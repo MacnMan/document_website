@@ -45,9 +45,7 @@ keywords:
 
 # Narmada TSX1 LoRaWAN® Temperature & Humidity Sensor
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **Narmada TSX1** is a compact industrial-grade **LoRaWAN® temperature humidity sensor** engineered for smart buildings, factories, HVAC systems, offices, warehouses, hospitals, retail infrastructure, server rooms, and wireless indoor environmental monitoring applications. Designed for modern Industrial IoT deployments, the device continuously measures **temperature, humidity, and barometric pressure** while transmitting real-time environmental data over ultra-long-range LoRaWAN® wireless networks with extremely low power consumption.
 
@@ -59,15 +57,13 @@ Whether deployed for building automation, indoor climate monitoring, HVAC optimi
 
 The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible with major LoRaWAN® gateways and network servers including ChirpStack, The Things Stack, MQTT platforms, Orbiwise, and private industrial LoRaWAN® infrastructures — enabling seamless integration into Industrial IoT dashboards, SCADA systems, cloud monitoring platforms, and smart building ecosystems.
 
-| ![Image 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
+| ![Mini LoRaWAN Temperature Humidity Sensor](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![LoRaWAN Compact Temp Humidity Sensor Front View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
+| ![LoRaWAN Compact Temp Humidity Sensor Side View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![LoRaWAN Compact Temp Humidity Sensor Top View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 
 <div className="icon-card-grid">
@@ -92,9 +88,7 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 
 ----
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -161,9 +155,7 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 </div>
 ---
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 
 <div className="reusable-feature-grid">
@@ -576,9 +568,7 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 
 
 ---
-<h2 className="device-section-title">
-  ## Narmada TSX1 Variants
-</h2>
+## Narmada TSX1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -617,9 +607,7 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 - Narmada TSX1 Sensor
 - Mounting Clip
@@ -642,9 +630,7 @@ Accessories may not be included in the package and must be purchased separately.
 ---
 
 
-<h2 className="device-section-title">
 ## Narmada TSX1 Dimensions
-</h2>
 
 The Narmada TSX1 features an ultra-compact industrial enclosure with overall dimensions of **83 mm × 53 mm × 38 mm**, enabling easy installation across smart buildings, offices, HVAC systems, warehouses, server rooms, and indoor Industrial IoT monitoring deployments.
 

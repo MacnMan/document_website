@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: MacRay-ToF Mounting Options
+description: "MacRay-ToF Mounting Options — Macnman MacRay-ToF: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

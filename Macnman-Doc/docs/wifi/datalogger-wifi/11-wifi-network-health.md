@@ -1,6 +1,7 @@
 ---
 id: wifi_network_testing
 title: Wifi Network Health Check
+description: "Wifi Network Health Check — When you press Send Uplink, the device performs: Macnman WiFi Datalogger (MacSync) documentation."
 ---
 
 ## Wi-Fi Signal Strength Test

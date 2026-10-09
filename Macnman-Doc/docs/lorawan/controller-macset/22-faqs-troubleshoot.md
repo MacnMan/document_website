@@ -1,5 +1,6 @@
 ---
 title: FAQs & Troubleshooting
+description: "FAQs & Troubleshooting — Macnman LoRaWAN® Controller(MacSet): FAQ – MacSet Controller, Troubleshooting – MacSet Controller, Recommended Practices."
 ---
 
 ## FAQ – MacSet Controller

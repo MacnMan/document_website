@@ -35,9 +35,7 @@ keywords:
 
 # MacSync LSS X5 LoRaWAN Soil Sensor Datasheet
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 
 **MacSync LSS X5** is an industrial-grade **multi-parameter LoRaWAN® soil sensor** designed for precision agriculture, smart irrigation, greenhouse automation, plantation monitoring, and remote soil intelligence applications. The sensor continuously measures **soil moisture, soil temperature, electrical conductivity (EC), pH, salinity, and NPK trend estimation** from a single rugged stainless-steel probe.
@@ -57,9 +55,7 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macsync-lss-x5-lorawan-7-in-1-soil-sensor-datasheet.pdf" 
@@ -82,9 +78,7 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -137,9 +131,7 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 
 <div className="reusable-feature-grid">
@@ -188,9 +180,7 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">Soil Sensor Measurement</div>
@@ -601,9 +591,7 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 
 ---
-<h2 className="device-section-title">
-  ## MacSync LSS X5 Variants
-</h2>
+## MacSync LSS X5 Variants
 
 <table className="parameter-table">
   <thead>
@@ -656,9 +644,7 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 --- 
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the box contains the following items before installation.
 
@@ -679,9 +665,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LSS X5 Product Dimensions
-</h2>
+## MacSync LSS X5 Product Dimensions
 
 The MacSync LSS X5 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. Its compact structure enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
 

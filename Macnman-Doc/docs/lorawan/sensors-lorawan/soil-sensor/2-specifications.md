@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: Soil Sensor Specifications
+description: "Soil Sensor Specifications — Macnman Soil Sensor: Soil Sensor Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical Characteristics…"
 ---
 
 # Product Specifications

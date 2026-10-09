@@ -44,9 +44,7 @@ keywords:
 
 # MacRay LUS X1 LoRaWAN® Ultrasonic Level Sensor
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacRay LUS X1** is an industrial-grade **LoRaWAN® ultrasonic level sensor** engineered for high-accuracy wireless level monitoring of liquids and solids across tanks, manholes, reservoirs, sumps, sewer systems, wastewater infrastructure, flood monitoring systems, and industrial process environments. Designed for Industrial IoT deployments, the device continuously measures level and distance data using advanced ultrasonic time-of-flight sensing technology and transmits real-time information over ultra-long-range LoRaWAN® wireless networks.
 
@@ -64,9 +62,7 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 | ![MacRay LUS X1 industrial ultrasonic level sensor installation view](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![MacRay LUS X1 wireless ultrasonic level sensor side profile](/img/lorawan/macray/macray-lu4-side-view.webp) |
 
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 
 <div className="icon-card-grid">
@@ -91,9 +87,7 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 
 <div className="reusable-feature-grid">
@@ -141,9 +135,7 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 ---
 
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 
 <div className="reusable-feature-grid">
@@ -515,9 +507,7 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 
 ---
 
-<h2 className="device-section-title">
-  ## MacRay LUS X1 Variants
-</h2>
+## MacRay LUS X1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -577,9 +567,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 :::
 
 
-<h2 className="device-section-title">
 ## MacRay LUS X1 Dimensions
-</h2>
 
 The MacRay LUS X1 features a compact industrial-grade enclosure with overall dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, tanks, manholes, drainage systems, and space-constrained industrial IoT deployments.
 

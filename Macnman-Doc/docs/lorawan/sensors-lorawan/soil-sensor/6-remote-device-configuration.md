@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-remote-configuration
 title: Soil Sensor Remote Device Configuration
+description: "Soil Sensor Remote Device Configuration — Macnman Soil Sensor: Updating Device Heartbeat."
 ---
 
 ## Updating Device Heartbeat

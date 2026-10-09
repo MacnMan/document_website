@@ -1,9 +1,8 @@
 {
   "label": "MacTalk-DM",
-  "position": 1
-  ,
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Step-by-step documentation for the MacSync Wi-Fi-powered monitoring solutions"
+    "description": "MacTalk-DM: step-by-step documentation for the MacSync Wi-Fi-powered monitoring solutions"
   }
 }

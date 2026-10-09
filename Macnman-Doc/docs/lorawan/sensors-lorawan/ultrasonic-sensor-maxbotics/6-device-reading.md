@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-live-values
 title: Ultrasonic Sensor (Long How to check Live values?
+description: "Ultrasonic Sensor (Long How to check Live values? — To check live data via BLE, go to the Home Page in the Maya App, connect to your sensor, and tap on…"
 ---
 
 ## Check Live Values using BLE

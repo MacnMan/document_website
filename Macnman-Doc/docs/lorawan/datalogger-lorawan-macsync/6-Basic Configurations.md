@@ -1,6 +1,7 @@
 ---
 id: maya_configuration
 title: RS485/Aalog Datalogger (MacSync) Basic Settings
+description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
 ---
 
 ## Device Name
@@ -21,7 +22,7 @@ title: RS485/Aalog Datalogger (MacSync) Basic Settings
 
 #### Step-by-Step Configuration Guide : 
 
-![title image](/img/mayascreens/name.svg)
+![Name – RS485/Aalog Datalogger (MacSync) Basic Settings](/img/mayascreens/name.svg)
 
 You can rename your device to something meaningful for easier identification — such as its location, function, or deployment area.
 
@@ -50,7 +51,7 @@ Device names can be **up to 20 characters long**. Use short, meaningful names fo
 
 #### Step-by-Step Configuration Guide : 
 
-![title image](/img/mayascreens/heartbeat.svg)
+![Heartbeat – RS485/Aalog Datalogger (MacSync) Basic Settings](/img/mayascreens/heartbeat.svg)
 
 **What is Heartbeat?**  
 Heartbeat defines how often the device sends a status update to the server, even when no sensor data has changed. It helps confirm that the device is active and communicating.
@@ -81,7 +82,7 @@ A lower heartbeat interval provides more frequent status checks but may increase
 #### Step-by-Step Configuration Guide : 
 
 
-![title image](/img/mayascreens/reminas.svg)
+![Reminas – RS485/Aalog Datalogger (MacSync) Basic Settings](/img/mayascreens/reminas.svg)
 
 The Reminisce feature allows you to retrieve and export historical data stored locally on the device.
 

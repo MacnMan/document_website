@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: Ultrasonic Sensor (Sub 4 Meter) Mounting Options
+description: "Ultrasonic Sensor (Sub 4 Meter) Mounting Options — Macnman Ultrasonic Sensor(Sub 4 Meter): Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

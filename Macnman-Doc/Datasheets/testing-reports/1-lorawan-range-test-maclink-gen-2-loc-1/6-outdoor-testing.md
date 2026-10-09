@@ -1,6 +1,7 @@
 ---
 id: lorawan-gateway-outdoor-testing-maclink-gen-2
 title: LoRaWAN Range & Coverage Test Outdoor Testing
+description: "LoRaWAN Range & Coverage Test Outdoor Testing — Location : Sinhagad Ghat Road, Maharashtra 411025 Macnman LoRaWAN Range & Coverage Test – MacLink Gen 2…"
 ---
 
 # Location 3 - Near Line of Sight (LoS)

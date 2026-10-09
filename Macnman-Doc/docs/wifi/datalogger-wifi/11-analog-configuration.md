@@ -1,6 +1,7 @@
 ---
 id: macsync_analog_configurations
 title: WiFi Datalogger (MacSync) Analog Settings
+description: "WiFi Datalogger (MacSync) Analog Settings — To connect a sensor, first select the appropriate mode — either RS485 or Analog — depending on the sensor type."
 ---
 
 ## Setting Up Analog Sensors

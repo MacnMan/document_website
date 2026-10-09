@@ -1,6 +1,7 @@
 ---
 id: macnman-iot-device-security-practices-sd
 title: Device Security & Practices sds
+description: "Macnman designs industrial-grade IoT hardware with multi-layered security integrated directly at the device and firmware level."
 ---
 
 # Macnman Device Security Architecture & Practices

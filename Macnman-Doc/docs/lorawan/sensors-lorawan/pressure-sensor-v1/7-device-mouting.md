@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: Pressure Sensor Mounting Options
+description: "Pressure Sensor Mounting Options — Macnman Pressure Sensor: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

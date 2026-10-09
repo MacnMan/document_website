@@ -59,9 +59,7 @@ keywords:
 
 # Setu LX Series Indoor LoRaWAN® Gateway Datasheet
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 Setu LX Series is a compact and enterprise-grade **Indoor LoRaWAN® Gateway Series** engineered for reliable long-range wireless communication, smart building connectivity, and enterprise Industrial IoT deployments. Designed with high-sensitivity LoRaWAN® concentrator architecture, optimized RF performance, and flexible backhaul connectivity, the Setu LX Series enables seamless indoor LoRaWAN® coverage across offices, hospitals, commercial buildings, smart campuses, warehouses, hotels, retail infrastructure, and Industry 4.0 environments.
 
@@ -80,9 +78,7 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
 <a href="/docs/downloads/setu-lx1-industrial-lorawan-indoor-gateway-datasheet.pdf" 
@@ -105,9 +101,7 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -175,9 +169,7 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 
@@ -261,9 +253,7 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 ---
 
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">System Hardware Specifications</div>
@@ -616,9 +606,7 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 </div>
 
 ---
-<h2 className="device-section-title">
-  ## Setu LX Series Variants
-</h2>
+## Setu LX Series Variants
 
 <table className="parameter-table">
   <thead>
@@ -645,9 +633,7 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 
 The **Setu LX Series Indoor LoRaWAN® Gateway** package is designed for fast enterprise deployment, smart building integration, and indoor Industrial IoT installations. Before installation, verify that all gateway components and mounting accessories are available inside the package.
@@ -677,9 +663,7 @@ Optional accessories including LTE antennas, Ethernet cables, PoE accessories, a
 
 ---
 
-<h2 className="device-section-title">
-  ## Setu LX Series Gateway Dimensions
-</h2>
+## Setu LX Series Gateway Dimensions
 
 The **Setu LX Series Indoor LoRaWAN® Gateway** features a compact enterprise-grade enclosure engineered for smart buildings, indoor Industrial IoT deployments, offices, hospitals, commercial infrastructure, and Industry 4.0 automation systems.
 

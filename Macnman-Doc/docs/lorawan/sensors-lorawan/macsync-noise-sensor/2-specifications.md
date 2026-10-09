@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: Noise Sensor Specifications
+description: "Noise Sensor Specifications — Macnman Noise Sensor: Noise Sensor Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical…"
 ---
 
 # Product Specifications

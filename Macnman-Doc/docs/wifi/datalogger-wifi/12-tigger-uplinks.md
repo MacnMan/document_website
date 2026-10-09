@@ -1,6 +1,7 @@
 ---
 id: maya_tigger_configuration
 title: WiFi Datalogger (MacSync) How to Set Triggers ?
+description: "WiFi Datalogger (MacSync) How to Set Triggers? — You can configure the device to automatically send an uplink when a specific sensor value crosses a…"
 ---
 
 ## Settings Triggers

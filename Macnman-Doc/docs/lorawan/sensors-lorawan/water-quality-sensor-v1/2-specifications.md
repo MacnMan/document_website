@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: Water Quality Sensors Specifications
+description: "Water Quality Sensors Specifications — Macnman Water Quality Sensors: 🧪 Measurement Specifications – MacSync-WQ7, LoRaWAN Wireless Transmission, Power…"
 ---
 
 # Product Specifications

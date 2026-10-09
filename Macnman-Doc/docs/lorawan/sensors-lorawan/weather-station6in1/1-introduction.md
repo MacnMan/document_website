@@ -1,6 +1,7 @@
 ---
 id: macsynclw6_introduction
 title: Weather Station Introduction
+description: "Built for rugged outdoor use, the device features a UV-resistant, IP66-rated enclosure that ensures durability in harsh climates."
 ---
 
 # MacSync-LW6
@@ -20,7 +21,7 @@ Seamlessly compatible with Macnman gateways and cloud platforms, MacSync-LW6 emp
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Download Center
 

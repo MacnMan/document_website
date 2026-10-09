@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_device_classes
 title: Devices Classes
+description: "In the world of LoRaWAN, devices are grouped into different communication classes, similar to how people behave differently at a party. These classes are:"
 ---
 
 #### LoRaWAN Device Classes: How Devices Communicate

@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_architecture
 title: LoRaWAN Architecture
+description: "Imagine LoRaWAN as a city-wide, ultra-efficient postal system designed for delivering small but important messages between devices."
 ---
 
 ## How LoRaWAN Works — The Postal System Analogy 📮

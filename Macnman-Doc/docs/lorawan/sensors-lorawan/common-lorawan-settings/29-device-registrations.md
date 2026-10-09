@@ -1,6 +1,7 @@
 ---
 id: macsync-lns-registration_common_sensors
 title: Common Sensor Settings LNS Registration
+description: "Common Sensor Settings LNS Registration — You can register your device using either manual entry or QR scan. Macnman Common Sensor Settings documentation."
 ---
 
 # LNS Registration 

@@ -28,9 +28,7 @@ keywords:
 
 # MacSync LSS X3 LoRaWAN Soil EC Sensor
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LSS X3** is an industrial-grade **LoRaWAN® soil EC sensor** designed for precision agriculture, fertigation systems, greenhouse automation, plantations, vineyards, orchards, crop monitoring, and long-range environmental soil analysis applications. Built for ultra-low-power remote deployments, the sensor continuously measures **soil electrical conductivity (EC)** in real time to help farmers and agricultural integrators optimize soil fertility, irrigation efficiency, nutrient concentration, and crop productivity.
 
@@ -65,9 +63,7 @@ MacSync LSS X3 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macsync-lss-x3-lorawan-soil-ec-sensor-datasheet.pdf" 
@@ -90,9 +86,7 @@ MacSync LSS X3 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -150,9 +144,7 @@ MacSync LSS X3 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 
@@ -210,9 +202,7 @@ MacSync LSS X3 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 <div class="device-config-section">
   <div class="device-config-title">Soil EC Sensor Measurement</div>
   <div class="device-config-table">
@@ -547,9 +537,7 @@ MacSync LSS X3 is ideal for:
 
 
 ---
-<h2 className="device-section-title">
-  ## MacSync LSS X3 Variants
-</h2>
+## MacSync LSS X3 Variants
 
 <table className="parameter-table">
   <thead>
@@ -602,9 +590,7 @@ MacSync LSS X3 is ideal for:
 
 --- 
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the box contains the following items before installation.
 
@@ -625,9 +611,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LSS X3 Product Dimensions
-</h2>
+## MacSync LSS X3 Product Dimensions
 
 The MacSync LSS X3 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. The compact enclosure dimensions of **152 mm × 62 mm × 43 mm** enable easy installation across farms, vineyards, orchards, greenhouses, fertigation systems, research fields, plantations, and precision agriculture infrastructure.
 

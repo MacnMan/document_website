@@ -30,11 +30,11 @@ title: Scope
 
 ## LoRa Central Gateway Block Diagram
 <br/>
-![lorawan architecture](/img/custom-products/macnman-welding-monitoring-component-block-diagram-node.svg)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-component-block-diagram-node.webp)
 
 ## LoRa Welding Node Block Diagram
 <br/>
-![lorawan architecture](/img/custom-products/macnman-welding-monitoring-component-block-diagram-gateway.svg)
+![lorawan architecture](/img/custom-products/macnman-welding-monitoring-component-block-diagram-gateway.webp)
 
 
 ## Scope

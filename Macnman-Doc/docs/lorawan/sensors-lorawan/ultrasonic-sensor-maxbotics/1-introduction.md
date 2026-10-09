@@ -1,6 +1,7 @@
 ---
 id: macsyncls_introduction
 title: Ultrasonic Sensor (Long Range) Introduction
+description: "Designed to withstand demanding conditions with a weatherproof enclosure and advanced noise rejection capabilities, the sensor supports ultra-low power…"
 ---
 
 # MacSync-LU7
@@ -20,7 +21,7 @@ Fully compatible with Macnman gateways and platforms, MacSync-LU7 enables smarte
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Download Center
 

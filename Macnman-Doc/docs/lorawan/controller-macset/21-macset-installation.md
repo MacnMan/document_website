@@ -1,6 +1,7 @@
 ---
 id: macset_mountings_controller
 title: MacSet Mounting 
+description: "MacSet Mounting — Follow these steps to securely mount the MacSet device using a standard wall mount:"
 ---
 # MacSet Mounting Options
 

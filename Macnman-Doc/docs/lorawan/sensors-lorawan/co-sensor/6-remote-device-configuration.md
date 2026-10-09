@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-remote-configuration
 title: CO2 Sensor Remote Device Configuration
+description: "CO2 Sensor Remote Device Configuration — Macnman CO2 Sensor: Updating Device Heartbeat."
 ---
 
 ## Updating Device Heartbeat

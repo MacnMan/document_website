@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_device_activation
 title: End Device Activation
+description: "Before any guest (end device) can join the LoRaWAN network (the party) and start exchanging messages (data), they must complete an activation process…"
 ---
 ## LoRaWAN Device Activation Methods Explained
 

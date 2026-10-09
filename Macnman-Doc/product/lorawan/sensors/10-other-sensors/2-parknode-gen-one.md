@@ -38,9 +38,7 @@ keywords:
 
 # ParkNode Gen-1 LoRaWAN® Geomagnetic Smart Parking Sensor
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 
 ParkNode Gen‑1 is an industrial‑grade **LoRaWAN® smart parking occupancy sensor** designed for accurate real‑time vehicle detection across smart cities, commercial parking lots, airports, railway stations, residential societies, industrial facilities, and curbside parking infrastructures.
@@ -61,9 +59,7 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
 <a href="/docs/downloads/macnman-parknode-gen1-lorawan-geomagnetic-parking-sensor-datasheet-updated.pdf" 
@@ -86,9 +82,7 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
@@ -139,9 +133,7 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 
@@ -199,9 +191,7 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">Geomagnetic Vehicle Detection</div>
@@ -464,9 +454,7 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 
 ---
 
-<h2 className="device-section-title">
-  ## ParkNode Gen-1 Variants
-</h2>
+## ParkNode Gen-1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -498,9 +486,7 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 
 ---
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the package contains the following items before installation and outdoor deployment of the ParkNode Gen-1 smart parking sensor.
 
@@ -521,9 +507,7 @@ Accessories marked with (\*) may vary depending on deployment requirements and o
 
 ---
 
-<h2 className="device-section-title">
-  ## ParkNode Gen-1 Product Dimensions
-</h2>
+## ParkNode Gen-1 Product Dimensions
 
 The **ParkNode Gen-1 LoRaWAN® smart parking occupancy sensor** features a rugged low-profile industrial enclosure engineered for long-term outdoor parking infrastructure deployments. Designed specifically for smart parking applications, the sensor supports reliable vehicle occupancy detection across asphalt roads, concrete parking bays, curbside parking areas, commercial parking facilities, industrial campuses, airports, railway stations, and smart city mobility projects.
 

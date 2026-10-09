@@ -1,6 +1,7 @@
 ---
 id: maya-security-device-sharing
 title: RS485/Aalog Datalogger Security & device sharing
+description: "RS485/Aalog Datalogger Security & device sharing — Control who can access and configure the device via the Maya app by selecting a security level:"
 ---
 
 ## Choosing Security Levels

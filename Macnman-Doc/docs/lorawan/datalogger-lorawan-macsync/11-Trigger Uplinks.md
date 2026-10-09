@@ -1,6 +1,7 @@
 ---
 id: maya_tigger_configuration
 title: RS485/Aalog Datalogger How to Set Triggers ?
+description: "RS485/Aalog Datalogger How to Set Triggers? — You can configure the device to automatically send an uplink when a specific sensor value crosses a defined…"
 ---
 
 ## Settings Triggers

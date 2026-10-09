@@ -1,6 +1,7 @@
 ---
 id: maya_configuration_sensors_common
 title: Common Sensor Settings Basic Settings
+description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
 ---
 
 ----

@@ -1,6 +1,7 @@
 ---
 id: brand-dna
 title: Brand DNA
+description: "Brand DNA — Welcome to the Brand DNA of Macnman Technologies."
 ---
 
 # Macnman Brand DNA

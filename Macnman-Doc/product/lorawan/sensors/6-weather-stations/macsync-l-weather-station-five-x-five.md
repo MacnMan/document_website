@@ -42,9 +42,7 @@ keywords:
 
 # MacSync LWS X1 LoRaWAN Weather Station Datasheet
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LWS X1** is an advanced industrial-grade **LoRaWAN® Weather Station** designed for real-time environmental and meteorological monitoring across smart agriculture, industrial automation, smart-city infrastructure, renewable-energy plants, and environmental research applications. The station continuously measures **wind speed, wind direction, ambient temperature, relative humidity, and barometric pressure** to deliver accurate weather intelligence for automation, analytics, and climate-driven operational decisions.
 
@@ -62,9 +60,7 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
 <a href="/docs/downloads/macsync-lws-x1-lorawan-weather-station-datasheet.pdf" 
@@ -87,9 +83,7 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -157,9 +151,7 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 
 ---
 
-<h2 className="device-section-title">
-  ## Applicatins
-</h2>
+## Applicatins
 
 <div className="reusable-feature-grid">
 
@@ -227,9 +219,7 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div className="device-config-section">
   <div className="device-config-title">Environmental Measurement</div>
@@ -608,9 +598,7 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync WST Variants
-</h2>
+## MacSync WST Variants
 
 <table className="parameter-table">
   <thead>
@@ -663,9 +651,7 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 
 ---
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the package contains the following items before installation.
 
@@ -685,9 +671,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 :::
 
 ---
-<h2 className="device-section-title">
-  ## MacSync LWS X1 Product Dimensions
-</h2>
+## MacSync LWS X1 Product Dimensions
 
 The MacSync LWS X1 features a rugged industrial-grade enclosure designed for long-term outdoor weather monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables easy installation across weather stations, farms, reservoirs, highways, environmental monitoring infrastructure, industrial sites, and smart-city climate monitoring systems.
 

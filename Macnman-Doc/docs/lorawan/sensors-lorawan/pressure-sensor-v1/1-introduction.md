@@ -1,6 +1,7 @@
 ---
 id: macsyncls_introduction
 title: Pressure Sensor Introduction
+description: "Housed in a weatherproof IP65-rated enclosure and powered by a long-life battery, MacSync-LPS1 is ideal for both remote and fixed installations."
 ---
 
 # MacSync-LPS1
@@ -19,7 +20,7 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Download Center
 

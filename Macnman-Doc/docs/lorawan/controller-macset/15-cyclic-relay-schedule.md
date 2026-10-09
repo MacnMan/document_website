@@ -1,6 +1,7 @@
 ---
 id: macset_lora_Schedule_cyclic
 title: Cyclic Relay Schedulings
+description: "The Cyclic Schedule allows the relay to switch ON and OFF repeatedly during a defined active window, ideal for scheduled pulse operations like irrigation…"
 ---
 
 ## What is Cyclic Scheduling?

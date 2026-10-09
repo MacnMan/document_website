@@ -210,7 +210,7 @@
     ],
     "description": "Wireless LoRaWAN pressure sensor.",
     "image": "/docs/img/devices/macsync-pressure-sensor-logo-gen-one.webp",
-    "link": "/docs/product/lorawan/sensors/envirnomental-sensors/macsync-lorawan-pressure-sensor-x-series"
+    "link": "/docs/product/lorawan/sensors/environmental-sensors/macsync-lorawan-pressure-sensor-x-series"
   },
   {
     "id": 12,
@@ -490,7 +490,7 @@
     ],
     "description": "Wireless CO₂ monitoring for indoor air quality",
     "image": "/docs/img/devices/macnman-lorawan-carbon-sensor-one.webp",
-    "link": "/docs/product/lorawan/sensors/envirnomental-sensors/macsync-l-co-2-sensors"
+    "link": "/docs/product/lorawan/sensors/environmental-sensors/macsync-l-co-2-sensors"
   },
   {
     "id": 27,
@@ -510,7 +510,7 @@
     ],
     "description": "Wireless H₂S & NH₃ gas monitoring for odor monitoring.",
     "image": "/docs/img/devices/lorawan-odor-sensor-washroom-macnman.webp",
-    "link": "/docs/product/lorawan/sensors/envirnomental-sensors/macsync-l-nh-three-h-two-s-2-sensors"
+    "link": "/docs/product/lorawan/sensors/environmental-sensors/macsync-l-nh-three-h-two-s-2-sensors"
   },
   {
     "id": 28,
@@ -590,7 +590,7 @@
     ],
     "description": "LoRaWAN noise level monitoring for smart environments",
     "image": "/docs/img/devices/macnman-lorawan-noise-sensor-one.webp",
-    "link": "/docs/product/lorawan/sensors/envirnomental-sensors/macsync-l-n-x-one-noise-sensor"
+    "link": "/docs/product/lorawan/sensors/environmental-sensors/macsync-l-n-x-one-noise-sensor"
   },
   {
     "id": 32,

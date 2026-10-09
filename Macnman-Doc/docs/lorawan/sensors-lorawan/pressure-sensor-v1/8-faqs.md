@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: Pressure Sensor FAQs
+description: "The MacSync-LPS1 measures pressure levels in both liquid and gas systems, making it ideal for water pipelines, hydraulic systems, industrial process…"
 ---
 
 ## Frequently Asked Questions (FAQ)

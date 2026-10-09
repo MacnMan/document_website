@@ -1,6 +1,7 @@
 ---
 id: macsyncls_introduction
 title: Soil Sensor Introduction
+description: "Engineered with an IP68-rated enclosure and long-lasting power options, MacSync-LS7 ensures dependable performance in the harshest outdoor conditions."
 ---
 
 # MacSync-LS7
@@ -20,7 +21,7 @@ Fully compatible with Macnman gateways and platforms, MacSync-LS7 enables smarte
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Download Center
 

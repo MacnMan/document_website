@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: RS485/Aalog Datalogger (MacSync) Specifications
+description: "The range depends on several factors such as environment, antenna, frequency band, and power settings."
 ---
 
 # Product Specifications

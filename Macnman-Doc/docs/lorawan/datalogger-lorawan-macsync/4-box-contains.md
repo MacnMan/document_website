@@ -1,6 +1,7 @@
 ---
 id: box-contains
 title: RS485/Aalog Datalogger (MacSync) Box Contains
+description: "RS485/Aalog Datalogger (MacSync) Box Contains — Make sure box contains following items before installations"
 ---
 
 # Part List 
@@ -8,7 +9,7 @@ title: RS485/Aalog Datalogger (MacSync) Box Contains
 ## What's in the box ?
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
 
 :::note
 

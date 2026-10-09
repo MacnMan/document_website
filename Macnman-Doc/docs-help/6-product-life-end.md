@@ -1,6 +1,7 @@
 ---
 id: product-lifecycle-eol-policy
 title: Product Lifecycle & End-of-Life (EOL) Policy
+description: "Macnman Technologies Pvt. Ltd. is committed to providing long-term, reliable hardware solutions for industrial and mission-critical IoT deployments."
 ---
 
 

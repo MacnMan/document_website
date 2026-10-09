@@ -50,9 +50,7 @@ keywords:
 
 # MacSync LPS X7 LoRaWAN® Hydro-Static Liquid Level Sensor
 
-<h2 className="device-section-title">
-  ## Product Overview 
-</h2>
+## Product Overview
 
 **MacSync LPS X7** is an industrial-grade **LoRaWAN® hydro-static liquid level sensor** engineered for accurate low-pressure liquid-level monitoring across soap dispensers, water bottles, diesel containers, chemical tanks, small reservoirs, liquid storage systems, and smart IoT monitoring infrastructure.
 
@@ -74,9 +72,7 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 | ![MacSync LPS X7 wireless hydro-static liquid level monitoring sensor for water tank and diesel tank applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp) | ![MacSync LPS X7 LoRaWAN hydro-static liquid level sensor installed for industrial liquid tank monitoring applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macsync-lps-x7-lorawan-hydrostatic-liquid-level-sensor-datasheet.pdf" 
@@ -100,9 +96,7 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
@@ -158,9 +152,7 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 
 ---
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">
@@ -560,9 +552,7 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 </div>
 
 ---
-<h2 className="device-section-title">
-  ## MacSync LPS X7 Variants
-</h2>
+## MacSync LPS X7 Variants
 
 <table className="parameter-table">
   <thead>
@@ -587,9 +577,7 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the package contains the following items before installation and deployment of the MacSync LPS X7 LoRaWAN® Pressure Transducer.
 

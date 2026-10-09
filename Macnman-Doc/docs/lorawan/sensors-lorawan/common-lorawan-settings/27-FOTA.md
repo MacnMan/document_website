@@ -1,6 +1,7 @@
 ---
 id: maya-firmware-updates_common_sensors
 title: Common Sensor Settings Firmware Updates
+description: "Common Sensor Settings Firmware Updates — Keep your Macnman devices secure and up to date with the latest firmware releases."
 ---
 
 # Firmware Updates

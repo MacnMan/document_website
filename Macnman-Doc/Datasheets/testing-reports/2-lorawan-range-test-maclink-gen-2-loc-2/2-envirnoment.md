@@ -1,6 +1,7 @@
 ---
 id: testing_envirnoment
 title: LoRaWAN gateway performance in Testing Environment
+description: "This testing environment was designed to represent real-world LoRaWAN deployments in India, covering indoor, urban, rooftop, and open outdoor scenarios…"
 ---
 
 

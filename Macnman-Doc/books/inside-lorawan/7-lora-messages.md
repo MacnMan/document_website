@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_messages
 title: LoRaWAN Messages
+description: "Let’s break down the different LoRaWAN message types using a simple analogy: Imagine LoRaWAN as a party, where devices are guests and messages are notes…"
 ---
 
 ## LoRaWAN Message Types Explained

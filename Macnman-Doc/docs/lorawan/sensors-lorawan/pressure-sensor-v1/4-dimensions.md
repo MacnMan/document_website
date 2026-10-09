@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-dimensions
 title: Pressure Sensor Dimensions
+description: "Pressure Sensor Dimensions — MacSync features a sleek 152 X 43 X 62 mm form factor for easy installation in space-constrained environments."
 ---
 
 ## MacSync STD Dimensions 

@@ -1,6 +1,7 @@
 ---
 id: macsync_rs485_lorawan_introduction
 title: RS485/Aalog Datalogger (MacSync) Introduction
+description: "Designed for seamless integration, MacSync supports connectivity with both RS485 & Analog sensors, making it adaptable to a wide variety of systems and…"
 ---
 
 # Product Overview
@@ -16,7 +17,7 @@ Configuration is quick and user-friendly using the [**Macnman Maya App**](https:
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Core Features
 

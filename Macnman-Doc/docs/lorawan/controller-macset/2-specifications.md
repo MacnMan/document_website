@@ -1,6 +1,7 @@
 ---
 id: macset_lorawan_specifications
 title: LoRaWAN® Controller (MacSet) Specifications
+description: "The range depends on several factors such as environment, antenna, frequency band, and power settings. Macnman LoRaWAN® Controller(MacSet) documentation."
 ---
 
 # Product Specifications

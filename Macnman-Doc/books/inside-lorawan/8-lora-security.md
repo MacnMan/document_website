@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_security
 title: Security
+description: "To ensure all communication within the LoRaWAN network remains private and protected, LoRaWAN 1.0 introduces powerful security mechanisms using three…"
 ---
 
 

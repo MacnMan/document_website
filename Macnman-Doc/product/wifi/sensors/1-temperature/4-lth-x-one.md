@@ -37,9 +37,9 @@ The sensor securely transmits data to **local servers, on‑premise dashboards, 
 Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart buildings, HVAC systems, cold rooms, warehouses, laboratories, and industrial indoor environments** where reliable Wi‑Fi connectivity, low latency, and accurate environmental data are essential.
 
 
-| ![Image 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
+| ![Mini LoRaWAN Temperature Humidity Sensor](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![LoRaWAN Compact Temp Humidity Sensor Front View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
+| ![LoRaWAN Compact Temp Humidity Sensor Side View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![LoRaWAN Compact Temp Humidity Sensor Top View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -532,7 +532,7 @@ Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
+![LoRaWAN Temperature Sensor What In Box](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
 
 :::note
 
@@ -543,5 +543,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.svg)
+![Minisync Temp LoRaWAN Sensor Diamensions](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.webp)
 

@@ -482,7 +482,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -493,5 +493,5 @@ not be included in the box.
 
 ## MacSync CX1 Dimensions
 
-![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![MacSync Dimensions New Drawing Style](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 

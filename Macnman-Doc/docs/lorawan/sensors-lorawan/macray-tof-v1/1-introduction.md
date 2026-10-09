@@ -1,6 +1,7 @@
 ---
 id: macsyncls_introduction
 title: MacRay-ToF Introduction
+description: "Built with a rugged IP67-rated enclosure and high-performance optics, MacRay-LToF supports long-range, high-accuracy sensing up to 6 meters."
 ---
 
 # MacRay-LToF-Gen1
@@ -19,7 +20,7 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Download Center
 

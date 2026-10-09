@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: Ultrasonic Sensor (Long Range) Mounting Options
+description: "Ultrasonic Sensor (Long Range) Mounting Options — Macnman Ultrasonic Sensor(Long Range): Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

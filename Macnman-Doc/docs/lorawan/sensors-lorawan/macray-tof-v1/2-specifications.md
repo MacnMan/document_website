@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: MacRay-ToF Specifications
+description: "MacRay-ToF Specifications — Macnman MacRay-ToF: ToF Sensing Specifications, LoRaWAN Wireless Transmission, Power Specifications, Physical Characteristics…"
 ---
 
 

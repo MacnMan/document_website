@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-beam-patterns
 title: MacRay-Ultrasonic Beam Pattern
+description: "MacRay-Ultrasonic Beam Pattern — Sample results for measured beam pattern are shown on a 30-cm grid."
 ---
 
 Sample results for measured beam pattern are shown on a 30-cm grid. The detection pattern is shown for dowels of varying diameters that are placed in front of the sensor

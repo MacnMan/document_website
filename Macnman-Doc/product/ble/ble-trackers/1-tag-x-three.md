@@ -41,9 +41,9 @@ Engineered for **ultra-low power operation**, Tag X3 supports configurable adver
 
 Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and industrial edge devices**, enabling data forwarding to **on-premise systems or cloud platforms** for analytics, alerts, and automation. Its small form factor and rugged enclosure make it suitable for **tools, containers, equipment, pallets, and movable assets** in warehouses, factories, campuses, and smart buildings.
 
-| ![](/img/ble/tag-x-ble-asset-tracking-sensor-side-profile.webp) | ![](/img/ble/tag-x-ble-beacon-ibeacon-eddystone-front-view.webp) |
+| ![Tag X BLE Asset Tracking Sensor Side Profile](/img/ble/tag-x-ble-asset-tracking-sensor-side-profile.webp) | ![Tag X BLE Beacon Ibeacon Eddystone Front View](/img/ble/tag-x-ble-beacon-ibeacon-eddystone-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![](/img/ble/tag-x-ble-beacon-industrial-rugged-design.webp) | ![](/img/ble/tag-x-ble-sensor-tag-back-battery-compartment.webp) |
+| ![Tag X BLE Beacon Industrial Rugged Design](/img/ble/tag-x-ble-beacon-industrial-rugged-design.webp) | ![Tag X BLE Sensor Tag Back Battery Compartment](/img/ble/tag-x-ble-sensor-tag-back-battery-compartment.webp) |
 
 <div class="faint-line"></div>
 
@@ -544,7 +544,7 @@ Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and 
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![MacRay LoRaWAN What Is In The Box](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
@@ -555,5 +555,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/macray/macray-lu-four-dimensions.svg)
+![MacRay Lu Four Dimensions](/img/lorawan/macray/macray-lu-four-dimensions.svg)
 

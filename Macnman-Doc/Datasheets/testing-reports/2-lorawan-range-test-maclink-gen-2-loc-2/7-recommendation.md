@@ -1,6 +1,7 @@
 ---
 id: lorawan_gateway_placement_recommendation_maclink_gen_2
 title: LoRaWAN gateway Deployment Recommendation
+description: "LoRaWAN gateway Deployment Recommendation — Based on comprehensive real-world field testing of the LoRaWAN gateway across multi-floor indoor environments…"
 ---
 
 # Recommendations Based on Test Results

@@ -1,6 +1,7 @@
 ---
 id: testing_envirnoment
 title: LoRaWAN Device Testing Environment
+description: "This testing environment was designed to represent real-world MacTalk LoRa device-to-device (D2D) communication deployments, covering indoor building…"
 ---
 
 # Testing Environment

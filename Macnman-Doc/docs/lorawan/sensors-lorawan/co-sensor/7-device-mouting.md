@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: CO2 Sensor Mounting Options
+description: "CO2 Sensor Mounting Options — Macnman CO2 Sensor: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

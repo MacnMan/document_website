@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-remote-configuration
 title: Ultrasonic Sensor Remote Device Configuration
+description: "Ultrasonic Sensor Remote Device Configuration — Macnman Ultrasonic Sensor(Long Range): Updating Device Heartbeat."
 ---
 
 ## Updating Device Heartbeat

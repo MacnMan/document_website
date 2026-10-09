@@ -1,6 +1,7 @@
 ---
 id: maya_tigger_configuration_common_sensors
 title: Common Sensor Settings How to Set Triggers ?
+description: "Common Sensor Settings How to Set Triggers? — You can configure the device to automatically send an uplink when a specific sensor value crosses a defined…"
 ---
 
 ## Settings Triggers

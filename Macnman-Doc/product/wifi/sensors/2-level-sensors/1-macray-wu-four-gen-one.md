@@ -39,9 +39,9 @@ The device transmits level data securely over standard **Wi‑Fi networks (2.4 G
 MacRay-WU4 supports **periodic, event‑based, and threshold‑based reporting**, along with **local BLE provisioning and diagnostics** via the Macnman Maya mobile application. Available in **battery‑operated and externally powered variants**, it enables flexible deployment for both fixed industrial installations and locations where wired connectivity is limited, delivering low‑latency, Wi‑Fi‑based level monitoring for modern Industrial IoT applications.
 
 
-| ![](/img/lorawan/macray/macray-lu4-front-view.webp) | ![](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
+| ![MacRay Lu4 Front View](/img/lorawan/macray/macray-lu4-front-view.webp) | ![MacRay Lu4 Back Connector View](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
 |--------------------------------|--------------------------------|
-| ![](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![](/img/lorawan/macray/macray-lu4-side-view.webp) |
+| ![MacRay Lu4 Installation View](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![MacRay Lu4 Side View](/img/lorawan/macray/macray-lu4-side-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -528,7 +528,7 @@ MacRay-WU4 supports **periodic, event‑based, and threshold‑based reporting**
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![MacRay LoRaWAN What Is In The Box](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
@@ -539,5 +539,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/macray/macray-lu-four-dimensions.svg)
+![MacRay Lu Four Dimensions](/img/lorawan/macray/macray-lu-four-dimensions.svg)
 

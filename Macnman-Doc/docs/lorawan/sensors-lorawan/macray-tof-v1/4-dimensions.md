@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-dimensions
 title: MacRay-ToF Dimensions
+description: "MacRay-ToF Dimensions — MacRay features a sleek 90 X 80 X 26 mm form factor for easy installation in space-constrained environments."
 ---
 
 ## MacRay Dimensions 

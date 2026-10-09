@@ -1,6 +1,7 @@
 ---
 id: lorawan_range_test-report_maclink_gen_2
 title: LoRaWAN Device Introduction
+description: "This report defines the scope of real-world field testing and performance validation of MacTalk, Macnman’s proprietary LoRa-based device-to-device (D2D)…"
 ---
 
 # LoRa Device-to-Device Communication Test Report – MacTalk

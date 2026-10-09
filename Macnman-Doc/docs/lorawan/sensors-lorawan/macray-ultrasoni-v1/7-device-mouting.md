@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: MacRay-Ultrasonic Mounting Options
+description: "MacRay-Ultrasonic Mounting Options — Macnman MacRay-Ultrasonic: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

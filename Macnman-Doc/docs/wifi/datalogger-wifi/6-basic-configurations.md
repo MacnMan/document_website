@@ -1,6 +1,7 @@
 ---
 id: maya_configuration
 title: WiFi Datalogger (MacSync) Basic Settings
+description: "WiFi Datalogger (MacSync) Basic Settings — You can rename your device to something meaningful for easier identification — such as its location, function…"
 ---
 
 ## Device Name

@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_introduction
 title: LoRa VS LoRaWAN
+description: "Think of LoRa as a special way for electronic devices to “talk” to each other—kind of like how dolphins or bats use sound to communicate over long…"
 ---
 
 ## How does LoRa Work ? 🤔

@@ -45,9 +45,7 @@ keywords:
 # MacRay LToF LoRaWAN® Time-of-Flight Sensor
 
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacRay LToF** is an industrial-grade **LoRaWAN® Time-of-Flight (ToF) sensor** engineered for high-accuracy occupancy monitoring, people counting, indoor analytics, distance measurement, and wireless laser sensing applications. Built using advanced infrared laser-based Time-of-Flight technology, the device delivers precise real-time spatial awareness and movement analytics for smart buildings, offices, warehouses, retail infrastructure, factories, hospitals, and Industrial IoT environments.
 
@@ -65,9 +63,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 
 <div className="icon-card-grid">
@@ -92,9 +88,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
@@ -140,9 +134,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 ---
 
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 
 <div className="reusable-feature-grid">
@@ -537,9 +529,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 ---
 
-<h2 className="device-section-title">
-  ## MacRay LToF Series Variants
-</h2>
+## MacRay LToF Series Variants
 
 <table className="parameter-table">
   <thead>
@@ -624,9 +614,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box ?
-</h2>
+## What's in the Box ?
 
 Make sure box contains following items before installations
 
@@ -648,9 +636,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 :::
 
 
-<h2 className="device-section-title">
-  ## MacRay LToF Series Dimensions
-</h2>
+## MacRay LToF Series Dimensions
 
 The MacRay LToF Series features a compact industrial-grade enclosure with overall dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, smart building deployments, occupancy analytics, people counting infrastructure, and space-constrained Industrial IoT environments.
 

@@ -1,6 +1,7 @@
 ---
 id: maya_lorawa_network_health
 title: Common Sensor Settings LoRaWAN Network Health
+description: "Common Sensor Settings LoRaWAN Network Health — When you press Send Uplink, the device performs: Macnman Common Sensor Settings documentation."
 ---
 
 ## LoRaWAN Network Test

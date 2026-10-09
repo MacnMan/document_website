@@ -1,6 +1,7 @@
 ---
 id: maya-resetting-devices
 title: WiFi Datalogger (MacSync) Reset Device
+description: "WiFi Datalogger (MacSync) Reset Device — Performs a soft restart of the device. This is useful for applying configuration changes or recovering from…"
 ---
 
 ## Reboot

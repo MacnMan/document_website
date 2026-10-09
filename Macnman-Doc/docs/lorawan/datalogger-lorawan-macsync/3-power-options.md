@@ -1,6 +1,7 @@
 ---
 id: macsync_power-options
 title: RS485/Aalog Datalogger (MacSync) Power Options
+description: "RS485/Aalog Datalogger (MacSync) Power Options — MacSync devices, including all Maya sensor nodes (CO2, temperature, humidity, air pressure, light, PM2.5…"
 ---
 
 # Power Options in MacSync
@@ -26,13 +27,13 @@ MacSync also supports direct external power input (12–24 V DC):
 
 ## Terminal Connections
 
-![title image](/img/datalogger/power.webp)
+![Power – RS485/Aalog Datalogger (MacSync) Power Options](/img/datalogger/power.webp)
 
 ## Connecting external power 
 
 MacSync can also be powered through a **direct external DC** source within a **12–24 V** range. Ensure proper connection using a compatible terminal or jack, and always refer to both MacSync and sensor manufacturer specifications for safe operation.
 
-![title image](/img/datalogger/externalsensors.webp)
+![Externalsensors – RS485/Aalog Datalogger (MacSync) Power Options](/img/datalogger/externalsensors.webp)
 
 ### Connecting External Sensors
 
@@ -61,7 +62,7 @@ power source before connecting.
 
 ## Led Status
 
-![title image](/img/datalogger/ledtwo.webp)
+![Ledtwo – RS485/Aalog Datalogger (MacSync) Power Options](/img/datalogger/ledtwo.webp)
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">

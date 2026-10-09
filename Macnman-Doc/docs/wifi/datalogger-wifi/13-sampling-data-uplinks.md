@@ -1,6 +1,7 @@
 ---
 id: maya_sampling_and_uploading
 title: WiFi Datalogger Data Sampling & Uploading
+description: "WiFi Datalogger Data Sampling & Uploading — Macnman WiFi Datalogger (MacSync): Data Sampling & Upload Timings, Data Sampling Frequency, How does Sampling…"
 ---
 
 ## Data Sampling & Upload Timings

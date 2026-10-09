@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: Ultrasonic Sensor (Sub 4 Meter) FAQs
+description: "The MacSync-LU4 supports long-distance measurement up to 765 cm with a typical accuracy of ±1% of the target distance, making it ideal for industrial…"
 ---
 
 ## Frequently Asked Questions (FAQ)

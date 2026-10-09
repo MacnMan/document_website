@@ -1,6 +1,7 @@
 ---
 id: macsynclw6_introduction
 title: Noise Sensor Introduction
+description: "With a rugged, weather-resistant enclosure (IP66-rated) and ultra-low power design, MacSync-LN1 is built for long-term deployment in diverse environments."
 ---
 
 # MacSync-LN1
@@ -20,7 +21,7 @@ Fully compatible with Macnman gateways and platforms, MacSync-LN1 enables smarte
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Download Center
 

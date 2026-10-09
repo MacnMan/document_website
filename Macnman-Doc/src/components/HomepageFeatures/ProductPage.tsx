@@ -136,7 +136,7 @@ const data = {
       category: "Sensors",
       technology: "LoRaWAN",
       subCategory: "CO2 Sensors",
-      learnMore: "/product/lorawan/sensors/envirnomental-sensors/macsync-l-co2-xx-datasheet",
+      learnMore: "/product/lorawan/sensors/environmental-sensors/macsync-l-co2-xx-datasheet",
     },
     {
       id: 8,
@@ -148,7 +148,7 @@ const data = {
       category: "Modules",
       technology: "LoRaWAN",
       subCategory: "Communication Modules",
-      learnMore: "/Modules/LoRa%20Modules/MAC32WLE5/introduction",
+      learnMore: "/modules/lora-modules/MAC32WLE5/introduction",
     },
     {
       id: 9,
@@ -160,7 +160,7 @@ const data = {
       category: "Modules",
       technology: "LoRaWAN",
       subCategory: "Combo Modules",
-      learnMore: "/Modules/LoRa%20Modules/mac32wble5/introduction",
+      learnMore: "/modules/lora-modules/mac32wble5/introduction",
     },
     {
       id: 10,
@@ -685,12 +685,12 @@ function ProductPageContent() {
   });
 
   return (
-    <section className="product-page-container bg-white min-h-screen">
+    <section className="product-page-container home-page bg-white min-h-screen">
       {/* Hero Header Area */}
-      <div className="pt-[110px] md:pt-[50px] flex flex-col items-center">
+      <div className="home-hero pt-[110px] md:pt-[50px] flex flex-col items-center">
         {/* Main Title */}
         <h1
-          className="text-center font-semibold text-[#1E1E1E] px-4"
+          className="home-title text-center font-semibold text-[#1E1E1E] px-4"
           style={{
             fontFamily: "var(--font-roboto), Roboto, sans-serif",
             fontSize: "36px",
@@ -702,7 +702,7 @@ function ProductPageContent() {
         </h1>
 
         {/* 3. Bottom Support & Ecosystem Pills */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-16 mt-4  max-w-6xl mx-auto px-4">
+        <div className="home-ctas flex flex-col md:flex-row justify-center items-center gap-16 mt-4  max-w-6xl mx-auto px-4">
           {/* Pill 1: Call Expert */}
           <a
             href="tel:+917972856163"
@@ -713,7 +713,7 @@ function ProductPageContent() {
             <div className="absolute left-1/2 -bottom-10 -translate-x-1/2 w-8 h-8 bg-[#DA2744] rounded-full transition-transform duration-1000 ease-in-out scale-0 group-hover:scale-[18] z-0 pointer-events-none" />
             <div className="relative z-10 w-10 h-10 rounded-full overflow-hidden border border-gray-100 flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
               <img
-                src="/docs/img/HeroSection/circle-girl.svg"
+                src="/docs/img/HeroSection/circle-girl.webp"
                 alt="IoT Expert"
                 className="object-cover w-full h-full"
               />
@@ -773,9 +773,9 @@ function ProductPageContent() {
       </div>
 
       {/* Categories Tabs Filter */}
-      <div className="relative max-w-[930px] mx-auto w-full px-4 mb-8 mt-10">
+      <div className="home-tech-tabs relative max-w-[930px] mx-auto w-full px-4 mb-8 mt-10">
         <div className="flex justify-between items-center max-w-[930px] mx-auto pb-4">
-          <div className="flex gap-[44px] items-center justify-center relative flex-1">
+          <div className="home-tech-tabs__list flex gap-[44px] items-center justify-center relative flex-1">
             {categories.map((cat) => {
               const isActive = activeCategory === cat;
               return (
@@ -818,7 +818,7 @@ function ProductPageContent() {
           <div
             role="tablist"
             aria-label="Filter products by technology"
-            className="relative flex items-center mx-auto p-[4px]"
+            className="home-capsule relative flex items-center mx-auto p-[4px]"
             style={{
               width: "min(640px, 100%)",
               height: "48px",
@@ -828,7 +828,7 @@ function ProductPageContent() {
           >
             {/* White pill slider */}
             <div
-              className={`absolute top-[4px] bottom-[4px] bg-[#1E1E1E] rounded-full ${techTransitionEnabled ? "transition-all duration-[220ms] ease-[cubic-bezier(0.34,1.0,0.64,1)]" : ""
+              className={`home-capsule__slider absolute top-[4px] bottom-[4px] bg-[#1E1E1E] rounded-full ${techTransitionEnabled ? "transition-all duration-[220ms] ease-[cubic-bezier(0.34,1.0,0.64,1)]" : ""
                 }`}
               style={{
                 left: `${techSliderStyle.left}px`,
@@ -850,7 +850,7 @@ function ProductPageContent() {
                   aria-selected={isActive}
                   aria-controls="products-slider"
                   type="button"
-                  className={`relative z-10 flex-1 h-full text-[14px] tracking-[-0.01em] transition-all duration-150 ${isActive
+                  className={`home-capsule__tab relative z-10 flex-1 h-full text-[14px] tracking-[-0.01em] transition-all duration-150 ${isActive
                     ? "font-semibold text-[#FFFFFF]"
                     : "font-medium text-[#86868B] hover:text-[#1D1D1F]"
                     }`}
@@ -865,12 +865,12 @@ function ProductPageContent() {
 
       {/* Subcategory Pills Filter */}
       {subOptions.length > 1 && (
-        <div className="flex items-center justify-between gap-4 mb-10 max-w-[1054px] mx-auto px-4">
+        <div className="home-subcats flex items-center justify-between gap-4 mb-10 max-w-[1054px] mx-auto px-4">
           {/* Left Arrow Button */}
           <button
             onClick={() => scrollSub("left")}
             type="button"
-            className="p-2 mr-2 border border-gray-200 rounded-full hover:bg-gray-50 transition-colors flex items-center justify-center flex-shrink-0"
+            className="home-subcats__arrow p-2 mr-2 border border-gray-200 rounded-full hover:bg-gray-50 transition-colors flex items-center justify-center flex-shrink-0"
             aria-label="Previous subcategory"
           >
             <FiChevronLeft className="w-4 h-4 text-gray-600" />
@@ -905,7 +905,7 @@ function ProductPageContent() {
           <button
             onClick={() => scrollSub("right")}
             type="button"
-            className="p-2 ml-2 border border-gray-200 rounded-full hover:bg-gray-50 transition-colors flex items-center justify-center flex-shrink-0"
+            className="home-subcats__arrow p-2 ml-2 border border-gray-200 rounded-full hover:bg-gray-50 transition-colors flex items-center justify-center flex-shrink-0"
             aria-label="Next subcategory"
           >
             <FiChevronRight className="w-4 h-4 text-gray-600" />
@@ -914,16 +914,16 @@ function ProductPageContent() {
       )}
 
       {/* Product Cards Responsive Grid */}
-      <div className="max-w-6xl mx-auto px-6 pb-24">
+      <div className="home-products max-w-6xl mx-auto px-6 pb-24">
         {filteredProducts.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 justify-items-center">
+          <div className="home-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 justify-items-center">
             {filteredProducts.map((p) => {
               const displayCategory = p.category ? p.category.slice(0, -1).toUpperCase() : "SENSOR";
               return (
-                <div key={p.id} className="relative">
+                <div key={p.id} className="home-card-wrap relative">
                   <Link
                     href={p.learnMore || "#"}
-                    className="group bg-white border border-gray-200/80 pt-3 px-4 pb-4 flex flex-col cursor-pointer block relative"
+                    className="home-card group bg-white border border-gray-200/80 pt-3 px-4 pb-4 flex flex-col cursor-pointer block relative"
                     style={{
                       width: "231.62939453125px",
                       minHeight: "299.95013427734375px",
@@ -934,7 +934,7 @@ function ProductPageContent() {
                   >
                     {/* Product Image Container */}
                     <div
-                      className="relative rounded-2xl p-2 flex items-center justify-center mb-2.5 mx-auto pointer-events-none"
+                      className="home-card__media relative rounded-2xl p-2 flex items-center justify-center mb-2.5 mx-auto pointer-events-none"
                       style={{
                         width: "145px",
                         height: "165px",
@@ -955,7 +955,7 @@ function ProductPageContent() {
                         {displayCategory}
                       </span>
                       <h4
-                        className="text-base font-bold mt-1 line-clamp-1"
+                        className="home-card__title text-base font-bold mt-1 line-clamp-1"
                         style={{
                           color: "#303031",
                           fontFamily: "var(--font-roboto), Roboto, sans-serif",
@@ -964,7 +964,7 @@ function ProductPageContent() {
                         {p.name}
                       </h4>
                       <p
-                        className="mt-1.5"
+                        className="home-card__summary mt-1.5"
                         style={{
                           width: "191.7px",
                           height: "42px",

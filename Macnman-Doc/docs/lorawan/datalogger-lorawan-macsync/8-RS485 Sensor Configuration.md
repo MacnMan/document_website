@@ -1,6 +1,7 @@
 ---
 id: macsync_rs485_configurations
 title: RS485/Aalog Datalogger RS485 Configuration
+description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
 ---
 
 ## RS485 Selection

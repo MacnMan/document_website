@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: Temperature & Humidity Specifications
+description: "Temperature & Humidity Specifications — Macnman Temperature & Humidity: Temperatue Sensing, Humidity Sensing, LoRaWAN Wireless Transmission, Power…"
 ---
 
 # Product Specifications

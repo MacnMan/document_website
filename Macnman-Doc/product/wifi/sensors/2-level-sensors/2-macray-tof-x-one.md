@@ -543,7 +543,7 @@ With support for **entry/exit counting, room occupancy limits, restricted‑zone
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![MacRay LoRaWAN What Is In The Box](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
@@ -554,5 +554,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
+![MacRay ToF Sensor Dimensions File](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
 

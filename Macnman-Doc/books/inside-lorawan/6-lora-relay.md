@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_lorawan_realy
 title: LoRaWAN Relay
+description: "Imagine you’re at a noisy party and want to send a message to a friend across the room."
 ---
 
 ## What is a LoRaWAN Relay ?

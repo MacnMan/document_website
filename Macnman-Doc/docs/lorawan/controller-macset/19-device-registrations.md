@@ -1,6 +1,7 @@
 ---
 id: macsync-lns-registration
 title: LoRaWAN® Controller (MacSet) LNS Registration
+description: "LoRaWAN® Controller (MacSet) LNS Registration — You can register your device using either manual entry or QR scan."
 ---
 
 # LNS Registration 

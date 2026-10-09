@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: MacRay-Ultrasonic Specifications
+description: "MacRay-Ultrasonic Specifications — Macnman MacRay-Ultrasonic: Ultrasonic Sensor Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical…"
 ---
 
 ## Ultrasonic Sensor Parameters

@@ -1,6 +1,7 @@
 ---
 id: maya-resetting-devices_common_sensors
 title: Common Sensor Settings Reset Device
+description: "Common Sensor Settings Reset Device — Performs a soft restart of the device. This is useful for applying configuration changes or recovering from…"
 ---
 
 ## Reboot

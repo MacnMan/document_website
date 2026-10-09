@@ -1,6 +1,7 @@
 ---
 id: macset_lora_Schedule_home_page
 title: Schedule Home Overview
+description: "The Schedule Home page offers a user-friendly interface to automate your controller’s relay operations. Here's what you can do:"
 ---
 
 # Relay Scheduling in MacSet

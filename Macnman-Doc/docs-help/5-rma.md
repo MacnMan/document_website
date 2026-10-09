@@ -1,6 +1,7 @@
 ---
 id: rma-policy
 title: Return / Replacement / RMA Policy
+description: "This Return / Replacement / RMA Policy defines the process, eligibility, responsibilities, and conditions under which Macnman Technologies Pvt. Ltd."
 ---
 
 # Return / Replacement / RMA Policys

@@ -1,6 +1,7 @@
 ---
 id: directional_testing_lorawan_gateway
 title: LoRaWAN gateway performance in Direction Testing
+description: "LoRaWAN gateway performance in Direction Testing — Location : NEW GAJARA SOC, 635 1B, Vaibhav Society, Bibwewadi, Pune, Maharashtra 411037"
 ---
 
 # Location 2 - Urban Use case 

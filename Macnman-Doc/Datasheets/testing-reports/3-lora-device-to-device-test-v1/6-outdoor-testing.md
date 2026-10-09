@@ -1,6 +1,7 @@
 ---
 id: lorawan-gateway-outdoor-testing-maclink-gen-2
 title: LoRaWAN Device Outdoor Testing
+description: "LoRaWAN Device Outdoor Testing — This section evaluates the impact of harsh Indian weather conditions on LoRaWAN gateway performance under near…"
 ---
 
 # Location 3 - Near Line of Sight (LoS)

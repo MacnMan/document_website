@@ -1,0 +1,517 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(webp|png|jpg|jpeg|gif|svg|ico|woff2|woff|pdf)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(llms\\.txt|llms-full\\.txt|search-index\\.json|sitemap\\.xml)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, must-revalidate"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/product/lorawan/sensors/envirnomental-sensors/macsync-l-co2-xx-datasheet",
+      "destination": "https://www.macnman.com/docs/product/lorawan/sensors/environmental-sensors/macsync-l-co2-xx-datasheet",
+      "permanent": true
+    },
+    {
+      "source": "/product/lorawan/sensors/envirnomental-sensors/macsync-lh2s-x1-datasheet",
+      "destination": "https://www.macnman.com/docs/product/lorawan/sensors/environmental-sensors/macsync-lh2s-x1-datasheet",
+      "permanent": true
+    },
+    {
+      "source": "/product/lorawan/sensors/envirnomental-sensors/macsync-l-odor-x2",
+      "destination": "https://www.macnman.com/docs/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x2",
+      "permanent": true
+    },
+    {
+      "source": "/product/lorawan/sensors/envirnomental-sensors/macsync-l-oxygen-sensor-x-one",
+      "destination": "https://www.macnman.com/docs/product/lorawan/sensors/environmental-sensors/macsync-l-oxygen-sensor-x-one",
+      "permanent": true
+    },
+    {
+      "source": "/product/lorawan/sensors/envirnomental-sensors/macsync-l-c2h4-sensor-x-one",
+      "destination": "https://www.macnman.com/docs/product/lorawan/sensors/environmental-sensors/macsync-l-c2h4-sensor-x-one",
+      "permanent": true
+    },
+    {
+      "source": "/product/lorawan/sensors/envirnomental-sensors/MacSync L Odor X1-datasheet",
+      "destination": "https://www.macnman.com/docs/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x1-datasheet",
+      "permanent": true
+    },
+    {
+      "source": "/product/lorawan/sensors/envirnomental-sensors/MacSync%20L%20Odor%20X1-datasheet",
+      "destination": "https://www.macnman.com/docs/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x1-datasheet",
+      "permanent": true
+    },
+    {
+      "source": "/product/wifi/sensors/envirnomental-sensors/macsync-odor-x-one-datasheet",
+      "destination": "https://www.macnman.com/docs/product/wifi/sensors/environmental-sensors/macsync-odor-x-one-datasheet",
+      "permanent": true
+    },
+    {
+      "source": "/product/wifi/sensors/envirnomental-sensors/macsync-w-co-2-sensors",
+      "destination": "https://www.macnman.com/docs/product/wifi/sensors/environmental-sensors/macsync-w-co-2-sensors",
+      "permanent": true
+    },
+    {
+      "source": "/product/wifi/sensors/envirnomental-sensors/macsync-w-nh-three-h-two-s-2-sensors",
+      "destination": "https://www.macnman.com/docs/product/wifi/sensors/environmental-sensors/macsync-w-nh-three-h-two-s-2-sensors",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/block_diagram",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/block_diagram",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/block_diagram",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/block_diagram",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/block_diagram",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/block_diagram",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/block_diagram",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/block_diagram",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/specifications",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/specifications",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/specifications",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/specifications",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/specifications",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/specifications",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/specifications",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/specifications",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/pin-definition",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/pin-definition",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/pin-definition",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/pin-definition",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/pin-definition",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/pin-definition",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/pin-definition",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/pin-definition",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/pin-description",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/pin-description",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/pin-description",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/pin-description",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/pin-description",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/pin-description",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/pin-description",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/pin-description",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/introduction",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/introduction",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/introduction",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/introduction",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/module-performace-notes",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/module-performace-notes",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/module-performace-notes",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/module-performace-notes",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/module-performace-notes",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/module-performace-notes",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/module-performace-notes",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/module-performace-notes",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/versions",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/versions",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/versions",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/versions",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/versions",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/versions",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/versions",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/versions",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/manufacturing_recommedations",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/manufacturing_recommedations",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/manufacturing_recommedations",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/manufacturing_recommedations",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/manufacturing_recommedations",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/manufacturing_recommedations",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/manufacturing_recommedations",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/manufacturing_recommedations",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/mechanical_drawing",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/mechanical_drawing",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/mechanical_drawing",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/mechanical_drawing",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/mechanical_drawing",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/mechanical_drawing",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/mechanical_drawing",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/mechanical_drawing",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/keyparameters",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/keyparameters",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/keyparameters",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/keyparameters",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/keyparameters",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/keyparameters",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/keyparameters",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/keyparameters",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/MAC32WLE5/packing-details",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/packing-details",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/MAC32WLE5/packing-details",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/packing-details",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/MAC32WLE5/packing-details",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/packing-details",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/MAC32WLE5/packing-details",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/MAC32WLE5/packing-details",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/block_diagram",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/block_diagram",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/block_diagram",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/block_diagram",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/block_diagram",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/block_diagram",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/block_diagram",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/block_diagram",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/specifications",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/specifications",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/specifications",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/specifications",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/specifications",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/specifications",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/specifications",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/specifications",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/pin-description",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/pin-description",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/pin-description",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/pin-description",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/pin-description",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/pin-description",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/pin-description",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/pin-description",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/introduction",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/introduction",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/introduction",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/introduction",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/module-performace-notes",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/module-performace-notes",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/module-performace-notes",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/module-performace-notes",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/module-performace-notes",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/module-performace-notes",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/module-performace-notes",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/module-performace-notes",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/versions",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/versions",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/versions",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/versions",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/versions",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/versions",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/versions",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/versions",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/manufacturing_recommedations",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/manufacturing_recommedations",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/manufacturing_recommedations",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/manufacturing_recommedations",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/manufacturing_recommedations",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/manufacturing_recommedations",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/manufacturing_recommedations",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/manufacturing_recommedations",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/mechanical_drawing",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/mechanical_drawing",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/mechanical_drawing",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/mechanical_drawing",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/mechanical_drawing",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/mechanical_drawing",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/mechanical_drawing",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/mechanical_drawing",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa Modules/mac32wble5/packing-details",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/packing-details",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa%20Modules/mac32wble5/packing-details",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/packing-details",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/LoRa%20Modules/mac32wble5/packing-details",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/packing-details",
+      "permanent": true
+    },
+    {
+      "source": "/modules/LoRa Modules/mac32wble5/packing-details",
+      "destination": "https://www.macnman.com/docs/modules/lora-modules/mac32wble5/packing-details",
+      "permanent": true
+    },
+    {
+      "source": "/modules/ble-Modules/introduction",
+      "destination": "https://www.macnman.com/docs/modules/ble-modules/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/Modules/ble-Modules/introduction",
+      "destination": "https://www.macnman.com/docs/modules/ble-modules/introduction",
+      "permanent": true
+    },
+    {
+      "source": "/datasheets/category/lorawan-range--coverage-test--maclink-gen-2-gateway-report-1",
+      "destination": "https://www.macnman.com/docs/datasheets/category/maclink-gen-2-range-coverage-test-report-1",
+      "permanent": true
+    },
+    {
+      "source": "/datasheets/category/lorawan-gateway-performance-in-indian-climate-maclink-gen-2-",
+      "destination": "https://www.macnman.com/docs/datasheets/category/maclink-gen-2-performance-indian-climate",
+      "permanent": true
+    }
+  ]
+}

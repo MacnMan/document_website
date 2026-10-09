@@ -34,9 +34,7 @@ keywords:
 
 # MacSync LDSS X1 LoRaWAN Door Status Sensor Datasheet
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LDSS X1 LoRaWAN® Door Status Sensor** is an industrial-grade wireless door monitoring solution designed for continuous real-time door open and close status monitoring across warehouses, cold storage facilities, smart buildings, factories, server rooms, utility infrastructure, and Industrial IoT environments.
 
@@ -54,9 +52,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 --- 
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macsync-ldss-x1-lorawan-door-status-sensor-datasheet-v1-2.pdf" 
@@ -79,9 +75,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -139,9 +133,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 ---
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 <div className="reusable-feature-grid">
 
@@ -523,9 +515,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </div>
 
 ---
-<h2 className="device-section-title">
-  ## MacSync-L-DRS Variants
-</h2>
+## MacSync-L-DRS Variants
 
 <table className="parameter-table">
   <thead>
@@ -578,9 +568,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 --- 
 
-<h2 className="device-section-title">
-  ## What's in the Box ?
-</h2>
+## What's in the Box ?
 
 Make sure the box contains the following items before installation.
 
@@ -592,7 +580,7 @@ Make sure the box contains the following items before installation.
 - Mounting Screws 
 - Power Adapter *
 
-![title image](/img/datalogger/whatsbox.svg)
+![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -601,9 +589,7 @@ Accessories marked with * must be purchased separately and may not be included i
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LDSS X1 Product Dimensions
-</h2>
+## MacSync LDSS X1 Product Dimensions
 
 The MacSync LDSS X1 features a compact industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm** (Without sensor), enabling easy wall and pole mounting across warehouses, industrial facilities, smart buildings, utility infrastructure, and Industrial IoT deployments.
 

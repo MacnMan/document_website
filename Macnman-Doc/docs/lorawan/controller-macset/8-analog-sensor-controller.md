@@ -1,6 +1,7 @@
 ---
 id: macsync_analog_configurations
 title: LoRaWAN® Controller (MacSet) Analog Settings
+description: "LoRaWAN® Controller (MacSet) Analog Settings — To connect a sensor, first select the appropriate mode — either RS485 or Analog — depending on the sensor…"
 ---
 
 ## Setting Up Analog Sensors

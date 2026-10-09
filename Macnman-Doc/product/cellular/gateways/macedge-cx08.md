@@ -535,7 +535,7 @@ For distributed deployments, MacEdge CX308 offers optional **4G LTE cellular** a
 
 Make sure box contains following items before installations
 
-![title image](/img/devices/macedge-cx-whats-part-list.svg)
+![MacEdge Cx Whats Part List](/img/devices/macedge-cx-whats-part-list.webp)
 
 :::note
 
@@ -546,5 +546,5 @@ not be included in the box.
 
 ## MacSync CX1 Dimensions
 
-![title image](/img/devices/macedge-cx-dimensions.svg)
+![MacEdge Cx Dimensions](/img/devices/macedge-cx-dimensions.svg)
 

@@ -1,6 +1,7 @@
 ---
 id: testing-scope
 title: LoRaWAN gateway Indoor Coverage Testing
+description: "Indoor testing at Location 1 was conducted across multiple Indian environmental conditions, including monsoon rainfall, high ambient summer temperatures…"
 ---
 
 ## Analysis of Data Trends Under Harsh Indian Environmental Conditions
@@ -28,10 +29,10 @@ Under **high-temperature summer conditions**, signal levels remained comparative
 To further understand the influence of **harsh Indian weather conditions** on indoor LoRaWAN performance, a comparative analysis of **RSSI and SNR variations across building floors** was performed under different environmental conditions.
 
 <br/>
-![LoRaWAN gateway RSSI variation across floors under different weather conditions](/img/tech-reports/lorawan/lorawan-gateway-floor-vs-rssi-indoor-testing.svg)
+![LoRaWAN gateway RSSI variation across floors under different weather conditions](/img/tech-reports/lorawan/lorawan-gateway-floor-vs-rssi-indoor-testing.webp)
 
 <br/>
-![LoRaWAN gateway SNR variation across floors under different weather conditions](/img/tech-reports/lorawan/lorawan-gateway-floor-vs-snr-indoor-testing.svg)
+![LoRaWAN gateway SNR variation across floors under different weather conditions](/img/tech-reports/lorawan/lorawan-gateway-floor-vs-snr-indoor-testing.webp)
 
 The RSSI versus floor analysis indicates that **signal strength degradation becomes more pronounced under monsoon and high-humidity conditions**, particularly on upper floors. Increased atmospheric moisture and wet building surfaces contribute to additional signal absorption and multipath reflections, resulting in lower average RSSI values compared to dry and summer conditions.
 

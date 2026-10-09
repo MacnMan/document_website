@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: Ultrasonic Sensor (Long Range) Specifications
+description: "Ultrasonic Sensor (Long Range) Specifications — Macnman Ultrasonic Sensor(Long Range): Ultrasonic Sensor Parameters, LoRaWAN Wireless Transmission, Power…"
 ---
 
 # Product Specifications

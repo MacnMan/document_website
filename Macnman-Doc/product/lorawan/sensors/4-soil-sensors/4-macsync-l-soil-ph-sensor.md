@@ -38,9 +38,7 @@ keywords:
 
 # MacSync LSS X4 LoRaWAN Soil pH Sensor Datasheet
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LSS X4** is an industrial-grade **LoRaWAN® soil pH sensor** designed for precision agriculture, smart farming, greenhouse automation, plantations, vineyards, orchards, crop monitoring, and long-range environmental soil analysis applications. Built for ultra-low-power remote deployments, the sensor continuously measures **soil pH levels** in real time to help farmers and agricultural integrators optimize soil chemistry, fertilizer usage, nutrient absorption, and crop productivity.
 
@@ -75,9 +73,7 @@ MacSync LSS X4 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macsync-lorawan-soil-ph-sensor-lss-x4-datasheet.pdf" 
@@ -100,9 +96,7 @@ MacSync LSS X4 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -160,9 +154,7 @@ MacSync LSS X4 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 
@@ -222,9 +214,7 @@ MacSync LSS X4 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">Soil pH Sensor Measurement</div>
@@ -561,9 +551,7 @@ MacSync LSS X4 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LSS X4 Variants
-</h2>
+## MacSync LSS X4 Variants
 
 <table className="parameter-table">
   <thead>
@@ -616,9 +604,7 @@ MacSync LSS X4 is ideal for:
 
 --- 
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the box contains the following items before installation.
 
@@ -639,9 +625,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LSS X4 Product Dimensions
-</h2>
+## MacSync LSS X4 Product Dimensions
 
 The MacSync LSS X4 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. The compact enclosure dimensions of **152 mm × 62 mm × 43 mm** enable easy installation across farms, greenhouses, plantations, vineyards, orchards, fertigation systems, and precision agriculture monitoring projects.
 

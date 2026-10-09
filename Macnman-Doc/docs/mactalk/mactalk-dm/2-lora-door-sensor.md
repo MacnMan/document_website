@@ -1,6 +1,7 @@
 ---
 id: mactalk_lora_door_sensor_configuration
 title: LoRa Door Sensor
+description: "LoRa Door Sensor — Use location-based naming (e.g., Warehouse-Door-01) for clarity. Macnman MacTalk-DM documentation."
 ---
 # LoRa Door Sensor Configuration Guide
 
@@ -10,7 +11,7 @@ title: LoRa Door Sensor
 - Enter new name
 - Save
 
-![title image](/img/mayascreens/name.svg)
+![Name – LoRa Door Sensor](/img/mayascreens/name.svg)
 
 
 **Recommendation:**  
@@ -140,7 +141,7 @@ You can monitor:
 - `0` → Door Closed  
 - `1` → Door Open  
 
-![title image](/img/mayascreens/door-sensor-data-mactalk.svg)
+![Door Sensor Data MacTalk](/img/mayascreens/door-sensor-data-mactalk.svg)
 
 **Purpose:**  
 Provides real-time monitoring of door activity.
@@ -160,7 +161,7 @@ To read data via Modbus:
 | Function Code  | 4    |
 | Address        | 0    |
 
-![title image](/img/mayascreens/register-info-for-door-sensor-mactalk.png)
+![Register Info For Door Sensor MacTalk](/img/mayascreens/register-info-for-door-sensor-mactalk.png)
 
 **Purpose:**  
 Allows integration with external systems or software for data logging.

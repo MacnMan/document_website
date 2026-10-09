@@ -1,6 +1,7 @@
 ---
 id: macnman-iot-products-data-policy-updated
 title: Data Compliance & Company Policies
+description: "Macnman Technologies Pvt. Ltd. operates strictly as a hardware-only IoT product company."
 ---
 
 # Compliance & Company Policies

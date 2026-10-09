@@ -58,9 +58,7 @@ keywords:
 
 # MacSync-LNCT-Xx Industrial LoRaWAN® Non-Contact Infrared Temperature Sensor
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync-LNCT-Xx** is an ultra-rugged industrial-grade **LoRaWAN® non-contact infrared temperature sensor** engineered for accurate and continuous surface temperature monitoring in extreme, high-temperature, moving, hazardous, and hard-to-reach industrial environments. By measuring **infrared thermal radiation instead of physical contact**, the device enables safe, maintenance-free, and highly reliable temperature sensing of **hot surfaces, rotating machinery, electrically live assets, molten materials, conveyors, furnaces, and inaccessible process equipment** without probe wear, mechanical damage, or process interruption.
 
@@ -82,9 +80,7 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 ----
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 
 <div className="icon-card-grid">
@@ -108,9 +104,7 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 ----
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 
 <div className="reusable-feature-grid">
@@ -178,9 +172,7 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 </div>
 
 ---
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 <div className="reusable-feature-grid">
 
@@ -233,9 +225,7 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">Temperature Measurement</div>
@@ -656,9 +646,7 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box ?
-</h2>
+## What's in the Box ?
 
 Make sure box contains following items before installations
 
@@ -673,7 +661,7 @@ Make sure box contains following items before installations
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -682,9 +670,7 @@ not be included in the box.
 
 :::
 
-<h2 className="device-section-title">
-  ##  MacSync LNCT Dimensions
-</h2>
+##  MacSync LNCT Dimensions
 
 The MacSync LNCT Xx features a rugged industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across factories, furnaces, kilns, power plants, steel industries, outdoor industrial environments, and Industrial IoT thermal monitoring deployments.
 

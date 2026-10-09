@@ -1,6 +1,7 @@
 ---
 id: maya_lorawan_basic_configurationsasa
 title: LoRaWAN® Controller (MacSet) LoRaWAN Settings
+description: "Inside the Advanced section of the Keys & Identity tab, users can regenerate the LoRaWAN keys (such as AppKey, NwkKey, etc.) to enhance device security."
 ---
 
 ## Keys & Identities

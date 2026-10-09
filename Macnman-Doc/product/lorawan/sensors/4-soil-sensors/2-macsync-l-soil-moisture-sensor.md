@@ -49,9 +49,7 @@ keywords:
 
 # MacSync LSS X2 LoRaWAN Soil Moisture & Temperature Sensor
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 
 **MacSync LSS X2** is an industrial-grade **LoRaWAN® soil moisture and soil temperature sensor** designed for precision agriculture, smart irrigation systems, greenhouse automation, crop monitoring, plantations, vineyards, orchards, and environmental soil analysis applications. Built for long-range wireless communication and ultra-low-power field deployments, the sensor continuously measures **soil volumetric water content (VWC)** and **soil temperature** in real time.
@@ -87,9 +85,7 @@ MacSync LSS X2 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macsync-lss-x2-lorawan-soil-temperature-moisture-sensor-datasheet.pdf" 
@@ -112,9 +108,7 @@ MacSync LSS X2 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -172,9 +166,7 @@ MacSync LSS X2 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 
@@ -232,9 +224,7 @@ MacSync LSS X2 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">Soil Moisture Sensor Measurement</div>
@@ -577,9 +567,7 @@ MacSync LSS X2 is ideal for:
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LSS X2 Variants
-</h2>
+## MacSync LSS X2 Variants
 
 <table className="parameter-table">
   <thead>
@@ -632,9 +620,7 @@ MacSync LSS X2 is ideal for:
 
 --- 
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the box contains the following items before installation.
 
@@ -655,9 +641,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LSS X2 Product Dimensions
-</h2>
+## MacSync LSS X2 Product Dimensions
 
 The MacSync LSS X2 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. Its compact structure enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
 

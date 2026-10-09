@@ -1,6 +1,7 @@
 ---
 id: macsync_wifi_remote_configure
 title: WiFi Datalogger Remote Device Configuration
+description: "WiFi Datalogger Remote Device Configuration — Macnman WiFi Datalogger (MacSync): Data Types, Payload Structure, One-Time Modbus Register Read, One-Time…"
 ---
 
 # Payload Structure

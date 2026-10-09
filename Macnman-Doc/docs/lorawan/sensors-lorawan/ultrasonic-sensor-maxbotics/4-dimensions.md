@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-dimensions
 title: Ultrasonic Sensor (Long Range) Dimensions
+description: "Ultrasonic Sensor (Long Range) Dimensions — MacSync features a sleek 152 X 43 X 63 mm form factor for easy installation in space-constrained environments."
 ---
 
 ## MacSync LU7 Dimensions 

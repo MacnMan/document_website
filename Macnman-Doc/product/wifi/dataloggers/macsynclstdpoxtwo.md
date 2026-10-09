@@ -38,9 +38,9 @@ Built for continuous 24×7 operation, MacSync-WX1-PO features a robust power-ope
 
 Whether used for **industrial automation, energy monitoring, building management systems, process monitoring, or equipment health tracking**, **MacSync-WX1-PO delivers fast, reliable, and scalable Wi‑Fi–based data logging**, making it ideal for deployments that demand low latency, local control, and seamless IT/OT integration.
 
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+| ![MacSync Lx2 Std Po Front View](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![MacSync Lx2 Std Po Ports Interface](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Image 1](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync Lx2 Std Po Back View](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync Lx2 Std Po Side View](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 <div class="faint-line"></div>
 
@@ -513,7 +513,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -524,5 +524,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+![MacSync Dimensions New Drawing Style](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 

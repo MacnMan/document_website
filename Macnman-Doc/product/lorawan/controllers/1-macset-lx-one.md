@@ -39,9 +39,7 @@ keywords:
 # MacSet LX1 Industrial LoRaWAN® Controller
 
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSet LX1** is an industrial-grade **LoRaWAN® Controller** engineered for remote automation, industrial equipment control, relay switching, analog and digital I/O monitoring, and wireless Industrial IoT deployments. Designed for long-range low-power industrial automation, the controller enables reliable remote operation of pumps, motors, solenoid valves, alarms, contactors, lighting systems, actuators, and field devices over secure LoRaWAN® networks.
 
@@ -61,9 +59,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macset-lx1-industrial-lorawan-relay-controller-datasheet.pdf" 
@@ -86,9 +82,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -171,9 +165,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 
@@ -241,9 +233,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">IO Interfaces</div>
@@ -764,9 +754,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSet PC X1 Variants
-</h2>
+## MacSet PC X1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -809,9 +797,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure box contains following items before installations
 
@@ -825,7 +811,7 @@ Make sure box contains following items before installations
 
 Ensure the following items are available before installation.
 
-![title image](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
+![MacSet Wx Wi-Fi Controller Whats In The Box](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
 
 :::note
 
@@ -835,9 +821,7 @@ Accessories may not be included in the package and must be purchased separately.
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSet LX1 Controller Dimensions
-</h2>
+## MacSet LX1 Controller Dimensions
 
 The **MacSet LX1 LoRaWAN® IO Controller** features a rugged industrial-grade enclosure engineered for long-term Industrial IoT automation, remote control, and wireless monitoring deployments. With compact dimensions of **142 mm × 80 mm × 32 mm**, the controller enables easy wall mounting and pole mounting across industrial facilities, smart agriculture systems, pump control panels, utility infrastructure, factory automation systems, remote monitoring stations, and outdoor Industrial IoT installations.
 

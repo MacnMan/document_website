@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_limitations
 title: Limitations of LoRaWAN
+description: "While LoRaWAN is a powerful tool for specific applications, it’s not a one-size-fits-all solution."
 ---
 
 While LoRaWAN is a powerful tool for specific applications, it’s not a one-size-fits-all solution. Think of it like a Swiss Army knife: incredibly versatile, but it’s not the best tool for every job. Here’s a guide to understanding when and where LoRaWAN shines and when it falls short.

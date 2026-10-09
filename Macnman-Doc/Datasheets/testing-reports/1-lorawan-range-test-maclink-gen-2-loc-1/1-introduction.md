@@ -1,6 +1,7 @@
 ---
 id: lorawan_range_test-report_maclink_gen_2
 title: LoRaWAN Range & Coverage Test Introduction
+description: "This report defines the scope of real-world field testing and performance validation of the MacLink Gen-2 LoRaWAN Outdoor Gateway, conducted to evaluate…"
 ---
 
 # LoRaWAN Range & Coverage Test

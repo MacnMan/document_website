@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: Noise Sensor Mounting Options
+description: "Noise Sensor Mounting Options — Macnman Noise Sensor: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

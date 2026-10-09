@@ -1,6 +1,7 @@
 ---
 id: macsync_payload_structure
 title: Configuration using Server
+description: "Configuration using Server — Use FPort = 08 for registers & FPort = 09 for coils Macnman RS485/Aalog Datalogger(MacSync) documentation."
 ---
 
 # Configure MacSync using Server

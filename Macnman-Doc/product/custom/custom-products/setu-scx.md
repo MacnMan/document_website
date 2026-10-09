@@ -36,9 +36,9 @@ Setu SCX supports **AES‑128 encrypted communication**, OTA configuration and m
 
 Whether enabling indoor environmental monitoring, asset tracking, energy management, occupancy sensing, or small‑area automation—**Setu SCX provides a simple, powerful, and plug‑and‑play LoRa® network entry point** for rapid IoT adoption.
 
-| ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-front.webp) | ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-integration.webp) |
+| ![Setu Scx Indoor Gateway Front](/img/lorawan/gateways/setu-scx-indoor-gateway-front.webp) | ![Setu Scx Indoor Gateway Integration](/img/lorawan/gateways/setu-scx-indoor-gateway-integration.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-mounting.webp) | ![Image 1](/img/lorawan/gateways/setu-scx-indoor-gateway-side.webp) |
+| ![Setu Scx Indoor Gateway Mounting](/img/lorawan/gateways/setu-scx-indoor-gateway-mounting.webp) | ![Setu Scx Indoor Gateway Side](/img/lorawan/gateways/setu-scx-indoor-gateway-side.webp) |
 
 
 <div class="faint-line"></div>
@@ -460,7 +460,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy managem
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/setu-scx-what-in-box.svg)
+![Setu Scx What In Box](/img/lorawan/gateways/setu-scx-what-in-box.svg)
 
 :::note
 
@@ -471,5 +471,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/gateways/setu-scx-lora-gateway-dimensions.svg)
+![Setu Scx LoRa Gateway Dimensions](/img/lorawan/gateways/setu-scx-lora-gateway-dimensions.svg)
 

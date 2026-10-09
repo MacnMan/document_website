@@ -1,6 +1,7 @@
 ---
 id: macsync_rs485_configurations
 title: WiFi Datalogger (MacSync) RS485 Configuration
+description: "WiFi Datalogger (MacSync) RS485 Configuration — To connect a sensor, first select the appropriate mode — either RS485 or Analog — depending on the sensor…"
 ---
 
 ## RS485 Selection

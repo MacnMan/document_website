@@ -1,6 +1,7 @@
 ---
 id: maya-firmware-updates
 title: RS485/Aalog Datalogger (MacSync) Firmware Updates
+description: "RS485/Aalog Datalogger (MacSync) Firmware Updates — Keep your Macnman devices secure and up to date with the latest firmware releases."
 ---
 
 # Firmware Updates

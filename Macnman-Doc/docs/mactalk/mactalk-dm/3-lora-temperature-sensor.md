@@ -1,6 +1,7 @@
 ---
 id: mactalk_lora_temperature_humidity_sensor_configuration
 title: LoRa Temperature & Humidity Sensor
+description: "LoRa Temperature & Humidity Sensor — Use the Maya (Macnman) app to connect with the temperature sensor."
 ---
 
 # LoRa Temperature Sensor Configuration Guide
@@ -38,7 +39,7 @@ Helps manage device behavior and communication frequency.
 - Enter desired name
 - Save
 
-![title image](/img/mayascreens/name.svg)
+![Name – LoRa Temperature & Humidity Sensor](/img/mayascreens/name.svg)
 
 **Best Practice:**  
 Use structured naming (e.g., `ColdStorage-Zone1`).
@@ -164,7 +165,7 @@ Available readings:
 - **Humidity**
 - **Battery Status**
 
-![title image](/img/mayascreens/mactalk-temperature-data-sample.svg)
+![MacTalk Temperature Data Sample](/img/mayascreens/mactalk-temperature-data-sample.svg)
 
 > As shown on *page 4*, if the sensor is not properly connected, readings may display as errors.
 
@@ -186,7 +187,7 @@ For wired data access:
 | Function Code  | 4    |
 | Address        | 8    |
 
-![title image](/img/mayascreens/register-info-mactalk-temp-humi-sensor-sample.png)
+![Register Info MacTalk Temp Humi Sensor Sample](/img/mayascreens/register-info-mactalk-temp-humi-sensor-sample.png)
 
 
 **Purpose:**  

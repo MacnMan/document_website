@@ -511,4 +511,4 @@ not be included in the box.
 
 ## MacSet CX1 Dimensions
 
-![title image](/img/controller/macset-dimensions-of-the-box.svg)
+![MacSet Dimensions Of The Box](/img/controller/macset-dimensions-of-the-box.svg)

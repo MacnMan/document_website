@@ -51,9 +51,7 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
 
 ---
  
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
 <a href="/docs/downloads/macsync-lns-x1-lorawan-outdoor-sound-level-sensor-datasheet.pdf" 
@@ -76,9 +74,7 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -136,9 +132,7 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
 
 --- 
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 <div className="reusable-feature-grid">
 
@@ -196,9 +190,7 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div class="device-config-section">
   <div class="device-config-title">sound level Measurement</div>
@@ -530,9 +522,7 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
 </div>
 
 ---
-<h2 className="device-section-title">
-  ## MacSync LNS X1 Variants
-</h2>
+## MacSync LNS X1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -585,9 +575,7 @@ With intelligent event‑based reporting, BLE onboarding via Maya App, secure OT
 
 ---
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the package contains the following items before installation and outdoor deployment of the MacSync LNS X1 outdoor sound level monitoring sensor.
 
@@ -607,9 +595,7 @@ Accessories marked with (*) may vary depending on deployment requirements and or
 :::
 
 ---
-<h2 className="device-section-title">
-  ## MacSync LNS X1 Outdoor Sound Level Sensor Dimensions
-</h2>
+## MacSync LNS X1 Outdoor Sound Level Sensor Dimensions
 
 The **MacSync LNS X1 LoRaWAN® Sound Level Sensor** features a rugged industrial-grade enclosure engineered for long-term environmental sound level monitoring and smart-city acoustic monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables flexible installation across highways, industrial facilities, construction zones, railway corridors, airports, smart-city infrastructure, mining environments, commercial complexes, and environmental monitoring networks.
 

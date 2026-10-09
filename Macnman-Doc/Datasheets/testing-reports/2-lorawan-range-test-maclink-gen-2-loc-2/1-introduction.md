@@ -1,6 +1,7 @@
 ---
 id: lorawan_range_test-report_maclink_gen_2
 title: LoRaWAN gateway performance in Indian Introduction
+description: "This report defines the scope of real-world, multi-season field testing and performance validation of the MacLink Gen-2 LoRaWAN Outdoor Gateway, conducted…"
 ---
 
 # LoRaWAN Gateway Performance Testing Across Indian Weather Conditions

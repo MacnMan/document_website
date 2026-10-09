@@ -1,11 +1,12 @@
 ---
 id: maya_configuration_led_status_common
 title: LED Status
+description: "LED status indications on Macnman LoRaWAN sensors: what each blink pattern means during power-up, network join, BLE configuration, uplinks and faults."
 ---
 
 ## Led Status
 
-![title image](/img/datalogger/ledtwo.webp)
+![Ledtwo – LED Status](/img/datalogger/ledtwo.webp)
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">

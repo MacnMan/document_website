@@ -1,6 +1,7 @@
 ---
 id: maya_configuration
 title: LoRaWAN® Controller (MacSet) Basic Settings
+description: "LoRaWAN® Controller (MacSet) Basic Settings — You can rename your device to something meaningful for easier identification — such as its location…"
 ---
 
 ## Device Name

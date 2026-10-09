@@ -1,6 +1,7 @@
 ---
 id: help
 title: How to Raise Support Ticket
+description: "This section explains how to raise a support ticket with Macnman so that your issue is logged, tracked, and resolved in a structured and timely manner."
 ---
 
 # How to Raise a Support Ticket

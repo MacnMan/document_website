@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-live-values
 title: Noise Sensor How to check Live values?
+description: "To check live data via BLE, go to the Home Page in the Maya App, connect to your sensor, and tap on Device Data. Macnman Noise Sensor documentation."
 ---
 
 ## Check Live Values using BLE

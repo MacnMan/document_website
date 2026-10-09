@@ -1,6 +1,7 @@
 ---
 id: macsync_rs485_wifi_introduction
 title: WiFi Datalogger (MacSync) Introduction
+description: "Configuration is quick and user-friendly using the Macnman Maya App, which leverages Bluetooth Low Energy (BLE)."
 ---
 
 # Product Overview
@@ -18,7 +19,7 @@ With its rugged design, flexible sensor support, and intelligent wireless config
 ## Product Architecture
 <br/>
 
-![wifi architecture](/img/wifi/wifi_archi.svg)
+![wifi architecture](/img/wifi/wifi_archi.webp)
 
 ## Core Features
 

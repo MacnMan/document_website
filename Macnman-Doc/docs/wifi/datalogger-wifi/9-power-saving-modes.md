@@ -1,6 +1,7 @@
 ---
 id: macsync_wifi_power_saving_modes
 title: Power Saving Modes
+description: "The MacSync Wi-Fi series is engineered for performance and power efficiency. To optimize battery life while maintaining wireless connectivity, MacSync…"
 ---
 # Power Saving Modes
 

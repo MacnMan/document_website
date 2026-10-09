@@ -1,6 +1,7 @@
 ---
 id: maya_sampling_and_uploading_lorawan
 title: RS485/Aalog Datalogger Data Sampling & Uploading
+description: "RS485/Aalog Datalogger Data Sampling & Uploading — Macnman RS485/Aalog Datalogger(MacSync): Data Sampling & Upload Timings, Data Sampling Frequency, How…"
 ---
 
 ## Data Sampling & Upload Timings

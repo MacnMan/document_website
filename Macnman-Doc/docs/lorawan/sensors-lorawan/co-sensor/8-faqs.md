@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: CO2 Sensor FAQs
+description: "The MacSync-LCO2 series includes models with ranges from 0–2,000 ppm, 0–5,000 ppm, up to 40,000 ppm, depending on the selected variant (LCO21 / LCO22 /…"
 ---
 
 # Frequently Asked Questions (FAQ)

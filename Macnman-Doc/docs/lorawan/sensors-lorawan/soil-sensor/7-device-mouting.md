@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: Soil Sensor Mounting Options
+description: "Soil Sensor Mounting Options — Macnman Soil Sensor: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

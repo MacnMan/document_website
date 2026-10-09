@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: Weather Station FAQs
+description: "MacSync-LSW6 comes with a solar-powered system and internal backup battery, enabling long-term, maintenance-free operation even in remote or off-grid…"
 ---
 
 ## Frequently Asked Questions (FAQ)

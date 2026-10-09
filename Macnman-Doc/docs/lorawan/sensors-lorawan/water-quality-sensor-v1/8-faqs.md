@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: Water Quality Sensors FAQs
+description: "The sensor can measure up to 7 water quality parameters simultaneously, including dissolved oxygen, pH, ORP, conductivity/salinity, turbidity, ammonia…"
 ---
 
 ## Frequently Asked Questions (FAQ)

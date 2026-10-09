@@ -492,7 +492,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/indilora-lora-gateway-dimensions-box-item.svg)
+![Indilora LoRa Gateway Dimensions Box Item](/img/lorawan/gateways/indilora-lora-gateway-dimensions-box-item.svg)
 
 :::note
 
@@ -503,5 +503,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
+![Indilora LoRa Gateway Dimensions](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
 

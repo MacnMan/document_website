@@ -1,6 +1,7 @@
 ---
 id: legal-disclaimer-and-limitation-of-liability
 title: Legal Disclaimer & Limitation of Liability
+description: "Macnman Technologies Pvt. Ltd. (“Macnman”) designs and manufactures industrial IoT hardware products intended for professional, commercial, and industrial…"
 ---
 
 # Legal Disclaimer & Limitation of Liability

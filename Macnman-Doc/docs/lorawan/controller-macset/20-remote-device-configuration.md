@@ -1,6 +1,7 @@
 ---
 id: macset_payload_structure_configuration
 title: Set Schedule from Servers
+description: "Set Schedule from Servers — Use FPort = 08 for registers & FPort = 09 for coils Macnman LoRaWAN® Controller(MacSet) documentation."
 ---
 
 ## Data Types

@@ -32,9 +32,9 @@ MeterLink Gen1 supports **prepaid gas metering**, allowing remote credit recharg
 Optimized for **low‑power, long‑life field operation**, MeterLink Gen1 enables large‑scale smart gas metering rollouts with minimal installation effort and reduced CAPEX. It is an ideal retrofit solution for utilities upgrading legacy gas infrastructure to scalable, secure, and future‑ready IoT‑based smart metering systems.
 
 
-| ![Image 1](/img/otherProducts/lorawan-gas-meter-retrofit-module-front-view.webp) | ![Image 1](/img/otherProducts/lorawan-gas-meter-retrofit-module-installed-on-gas-meter.webp) |
+| ![LoRaWAN Gas Meter Retrofit Module Front View](/img/otherProducts/lorawan-gas-meter-retrofit-module-front-view.webp) | ![LoRaWAN Gas Meter Retrofit Module Installed On Gas Meter](/img/otherProducts/lorawan-gas-meter-retrofit-module-installed-on-gas-meter.webp) |
 |--------------------------------|--------------------------------|
-| ![Image 1](/img/otherProducts/lorawan-gas-meter-retrofit-module-side-view.webp) | ![Image 1](/img/otherProducts/lorawan-gas-meter-retrofit-module-top-antenna-view.webp) |
+| ![LoRaWAN Gas Meter Retrofit Module Side View](/img/otherProducts/lorawan-gas-meter-retrofit-module-side-view.webp) | ![LoRaWAN Gas Meter Retrofit Module Top Antenna View](/img/otherProducts/lorawan-gas-meter-retrofit-module-top-antenna-view.webp) |
 
 
 <div class="faint-line"></div>
@@ -552,7 +552,7 @@ Optimized for **low‑power, long‑life field operation**, MeterLink Gen1 enabl
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/maclink-what-is-in-the-box-image.svg)
+![MacLink What Is In The Box Image](/img/lorawan/gateways/maclink-what-is-in-the-box-image.svg)
 
 :::note
 
@@ -563,5 +563,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/gateways/maclink-gen-two-dimensions.svg)
+![MacLink Gen Two Dimensions](/img/lorawan/gateways/maclink-gen-two-dimensions.svg)
 

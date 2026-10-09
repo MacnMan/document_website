@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: Weather Station Mounting Options
+description: "Weather Station Mounting Options — Macnman Weather Station: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

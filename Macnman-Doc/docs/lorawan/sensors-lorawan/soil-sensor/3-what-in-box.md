@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-box-contain
 title: Soil Sensor What's in the Box ?
+description: "Soil Sensor What's in the Box? — Make sure box contains following items before installations Macnman Soil Sensor documentation."
 ---
 
 # Part List 
@@ -8,7 +9,7 @@ title: Soil Sensor What's in the Box ?
 ## What's in the box ?
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
 
 :::note
 

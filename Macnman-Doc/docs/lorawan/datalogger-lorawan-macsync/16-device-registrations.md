@@ -1,6 +1,7 @@
 ---
 id: macsync-lns-registration
 title: RS485/Aalog Datalogger (MacSync) LNS Registration
+description: "RS485/Aalog Datalogger (MacSync) LNS Registration — You can register your device using either manual entry or QR scan."
 ---
 
 # LNS Registration 

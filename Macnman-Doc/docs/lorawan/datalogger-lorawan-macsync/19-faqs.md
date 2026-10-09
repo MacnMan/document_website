@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs
 title: RS485/Aalog Datalogger (MacSync) FAQs
+description: "RS485/Aalog Datalogger (MacSync) FAQs — Important Tip: Double-Check Battery Polarity"
 ---
 
 # FAQs & Troubleshooting Guide

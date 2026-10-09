@@ -1,6 +1,7 @@
 ---
 id: macsync_rs485_configurations
 title: LoRaWAN® Controller (MacSet) RS485 Configuration
+description: "LoRaWAN® Controller (MacSet) RS485 Configuration — To connect a sensor, first select the appropriate mode — either RS485 or Analog — depending on the…"
 ---
 
 ## RS485 Selection

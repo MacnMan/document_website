@@ -59,9 +59,7 @@ keywords:
 
 # MacSync LX1 Industrial RS485 Modbus RTU & Analog to LoRaWAN® Datalogger
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LX1** is an industrial-grade **RS485 (Modbus RTU) & Analog to LoRaWAN® Datalogger** designed to connect legacy industrial equipment, field instruments, PLCs, energy meters, transmitters, and sensors to modern LoRaWAN® networks. It enables seamless wireless acquisition of RS485, 4-20mA, 0-10V, and digital signals, eliminating expensive cabling and simplifying large-scale industrial monitoring deployments.
 
@@ -81,9 +79,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 
 <div className="icon-card-grid">
@@ -107,9 +103,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -176,9 +170,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 </div>
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 
 <div className="reusable-feature-grid">
@@ -247,9 +239,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 
 <div class="device-config-section">
@@ -682,9 +672,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LX1 Variants
-</h2>
+## MacSync LX1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -738,9 +726,7 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure box contains following items before installations
 
@@ -764,9 +750,7 @@ Accessories may not be included in the package and must be purchased separately.
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LX1 Dimensions
-</h2>
+## MacSync LX1 Dimensions
 
 The **MacSync LX1 RS485 & Analog to LoRaWAN® Datalogger** features a rugged industrial-grade enclosure engineered for long-term Industrial IoT data acquisition, telemetry, and remote monitoring applications. With compact dimensions of **142 mm × 80 mm × 32 mm**, the device enables easy wall mounting and pole mounting across factories, utility infrastructure, water treatment facilities, energy monitoring systems, environmental monitoring stations, agricultural deployments, and industrial automation projects.
 

@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: Ultrasonic Sensor (Sub 4 Meter) Specifications
+description: "Ultrasonic Sensor (Sub 4 Meter) Specifications — Macnman Ultrasonic Sensor(Sub 4 Meter): Ultrasonic Sensor Parameters, LoRaWAN Wireless Transmission…"
 ---
 
 # Product Specifications

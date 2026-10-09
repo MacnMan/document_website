@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: Ultrasonic Sensor (Long Range) FAQs
+description: "The MacSync-LU7 supports long-distance measurement up to 765 cm with a typical accuracy of ±1% of the target distance, making it ideal for industrial…"
 ---
 
 ## Frequently Asked Questions (FAQ)

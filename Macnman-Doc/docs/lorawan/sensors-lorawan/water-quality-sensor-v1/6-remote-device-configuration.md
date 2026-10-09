@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-remote-configuration
 title: Water Quality Sensors Remote Device Configuration
+description: "Water Quality Sensors Remote Device Configuration — Macnman Water Quality Sensors: Updating Device Heartbeat."
 ---
 
 ## Updating Device Heartbeat

@@ -76,6 +76,15 @@ const config: Config = {
         content: 'DE91A5A5EEDAF2DE',
       },
     },
+    // The product home loads Roboto from Google Fonts; warm the connections.
+    {
+      tagName: 'link',
+      attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
+    },
+    {
+      tagName: 'link',
+      attributes: {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous'},
+    },
   ],
 
   future: {
@@ -126,6 +135,7 @@ const config: Config = {
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.ts'),
           routeBasePath: '/',
+          showLastUpdateTime: true,
         },
         theme: {
           // custom.css holds the classes MDX pages and the homepage use;
@@ -135,9 +145,26 @@ const config: Config = {
             require.resolve('./src/css/eleven.css'),
             // "Download PDF": the article alone, laid out for paper.
             require.resolve('./src/css/print.css'),
+            // The product home on phones (desktop layout untouched).
+            require.resolve('./src/css/home-mobile.css'),
           ],
         },
         sitemap: {
+          // Real modification dates (from git) instead of a fixed weekly
+          // changefreq; Google ignores changefreq/priority.
+          lastmod: 'date',
+          changefreq: null,
+          priority: null,
+          // The host serves the home page at /docs (and redirects /docs/), so
+          // list it that way, matching its canonical.
+          createSitemapItems: async (params) => {
+            const items = await params.defaultCreateSitemapItems(params);
+            return items.map((item) =>
+              item.url === 'https://www.macnman.com/docs/'
+                ? {...item, url: 'https://www.macnman.com/docs'}
+                : item,
+            );
+          },
           // Keep non-content and noindexed routes out of the sitemap: submitting a
           // URL that its own page disowns via robots noindex is a conflicting signal.
           // Sample proposals are internal sales collateral, and the "* copy" pages
@@ -151,6 +178,7 @@ const config: Config = {
             '/docs/**/*copy*',
             // "Coming soon" placeholder, noindexed until it has real content.
             '/docs/4gcellular/macsync_4g_introduction',
+            '/docs/modules/ble-modules/introduction',
           ],
         },
       } satisfies Preset.Options,
@@ -165,6 +193,7 @@ const config: Config = {
         path: 'product',
         routeBasePath: 'product',
         sidebarPath: require.resolve('./sidebarsProduct.ts'),
+        showLastUpdateTime: true,
       },
     ],
     [
@@ -174,6 +203,7 @@ const config: Config = {
         path: 'books',
         routeBasePath: 'books',
         sidebarPath: require.resolve('./sidebarsBooks.ts'),
+        showLastUpdateTime: true,
       },
     ],
     [
@@ -183,6 +213,7 @@ const config: Config = {
         path: 'Datasheets',
         routeBasePath: 'datasheets',
         sidebarPath: require.resolve('./sidebarsDatasheets.ts'),
+        showLastUpdateTime: true,
       },
     ],
     [
@@ -192,6 +223,7 @@ const config: Config = {
         path: 'docs-help',
         routeBasePath: 'help',
         sidebarPath: require.resolve('./sidebarsHelp.ts'),
+        showLastUpdateTime: true,
       },
     ],
     function customWebpackLoggingPlugin() {
@@ -211,6 +243,10 @@ const config: Config = {
     // Documentation entries for the site-wide search, shared with the main
     // website (see plugins/search-index.js).
     './plugins/search-index.js',
+    // llms.txt, Markdown twins and structured-data inputs for AI crawlers.
+    './plugins/ai-seo.js',
+    // Stubs at the URLs that changed when folders were renamed (Oct 2026).
+    './plugins/legacy-redirects.js',
   ],
 
   themeConfig: {
@@ -228,6 +264,8 @@ const config: Config = {
           'Official documentation for Macnman Industrial IoT products: LoRaWAN, Wi-Fi, BLE and cellular sensors, gateways, controllers and modules — datasheets, setup guides and configuration references.',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
+      // Let Google show full-size images in results and Discover.
+      { name: 'robots', content: 'max-image-preview:large' },
       { name: 'twitter:site', content: '@macnman' },
     ],
 

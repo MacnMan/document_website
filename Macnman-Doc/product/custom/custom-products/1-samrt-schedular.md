@@ -330,7 +330,7 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 
 Make sure box contains following items before installations
 
-![title image](/img/lorawan/gateways/fireguard-gen-one-control-output-box-item.svg)
+![Fireguard Gen One Control Output Box Item](/img/lorawan/gateways/fireguard-gen-one-control-output-box-item.svg)
 
 :::note
 
@@ -341,5 +341,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
+![Indilora LoRa Gateway Dimensions](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
 

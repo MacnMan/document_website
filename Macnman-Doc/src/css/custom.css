@@ -586,7 +586,9 @@ body::-webkit-scrollbar {
 }
 
 /* Section headings on datasheet pages keep the brand colour, at the same
-   size as every other h2. */
+   size as every other h2. (Plain `## Heading` in the markdown; the plugin
+   id class on <html> scopes it to the Datasheets plugin.) */
+html.plugin-id-product .markdown > h2,
 .device-section-title {
   margin-top: 2.5rem;
   margin-bottom: 1rem;

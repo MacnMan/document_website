@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: Temperature & Humidity Mounting Options
+description: "Temperature & Humidity Mounting Options — Macnman Temperature & Humidity: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

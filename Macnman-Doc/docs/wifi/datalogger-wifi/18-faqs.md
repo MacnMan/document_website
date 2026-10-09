@@ -1,5 +1,6 @@
 ---
 title: WiFi Datalogger (MacSync) FAQs
+description: "WiFi Datalogger (MacSync) FAQs — Macnman WiFi Datalogger (MacSync): Cannot connect to Wi-Fi, Wi-Fi network not appearing in scan, Device keeps…"
 ---
 
 # MacSync-WiFi FAQs & Troubleshooting

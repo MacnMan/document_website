@@ -1,6 +1,7 @@
 ---
 id: maya-firmware-updates
 title: LoRaWAN® Controller (MacSet) Firmware Updates
+description: "LoRaWAN® Controller (MacSet) Firmware Updates — Keep your Macnman devices secure and up to date with the latest firmware releases."
 ---
 
 # Firmware Updates

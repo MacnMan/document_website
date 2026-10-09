@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: Pressure Sensor Specifications
+description: "Pressure Sensor Specifications — Macnman Pressure Sensor: Pressure Sensor Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical…"
 ---
 
 # Product Specifications

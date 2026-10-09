@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-remote-configuration
 title: Noise Sensor Remote Device Configuration
+description: "Noise Sensor Remote Device Configuration — Macnman Noise Sensor: Updating Device Heartbeat."
 ---
 
 ## Updating Device Heartbeat

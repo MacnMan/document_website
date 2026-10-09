@@ -1,6 +1,7 @@
 ---
 id: macsync_wifi_server_mqtt
 title: How to Setup MQTT Setup ?
+description: "The MacSync Wi-Fi series supports MQTT protocol for seamless communication with cloud servers and local brokers."
 ---
 # How to setup MQTT ?
 

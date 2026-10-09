@@ -1,6 +1,7 @@
 ---
 id: testing-scope
 title: LoRaWAN Device Indoor Coverage Testing
+description: "Urban testing was conducted in a dense city environment to evaluate the performance of MacTalk-enabled LoRa device-to-device (D2D) communication under…"
 ---
 
 ## Analysis of Data Trends in Urban Deployment Environment

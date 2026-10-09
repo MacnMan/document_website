@@ -495,7 +495,7 @@ From **industrial process control and predictive maintenance** to **HVAC monitor
 
 Make sure box contains following items before installations
 
-![title image](/img/datalogger/whatsbox.svg)
+![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -506,5 +506,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.svg)
+![MacSync L Rtd X Five Dimensions](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.webp)
 

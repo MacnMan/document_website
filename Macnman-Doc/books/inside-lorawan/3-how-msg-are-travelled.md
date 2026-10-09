@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_how_messages_are_travelled
 title: How Messages Travel
+description: "In LoRaWAN's communication system, end devices don’t need to connect or pair with a specific gateway."
 ---
 
 ## How LoRaWAN Handles Communication 🧐

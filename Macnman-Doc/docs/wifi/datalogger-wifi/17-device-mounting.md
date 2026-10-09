@@ -1,6 +1,7 @@
 ---
 id: macsync_mounting
 title: WiFi Datalogger (MacSync) Mountings
+description: "WiFi Datalogger (MacSync) Mountings — Macnman WiFi Datalogger (MacSync): Wall Mounting, Pole Mounting."
 ---
 # MacSync Mounting Options
 

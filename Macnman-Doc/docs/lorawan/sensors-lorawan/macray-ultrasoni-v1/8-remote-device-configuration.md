@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-remote-configuration
 title: MacRay-Ultrasonic Remote Device Configuration
+description: "MacRay-Ultrasonic Remote Device Configuration — Macnman MacRay-Ultrasonic: Updating Device Heartbeat."
 ---
 
 ## Updating Device Heartbeat

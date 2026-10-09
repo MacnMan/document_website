@@ -1,6 +1,7 @@
 ---
 id: macsync_mounting
 title: RS485/Aalog Datalogger (MacSync) Mountings
+description: "RS485/Aalog Datalogger (MacSync) Mountings — Macnman RS485/Aalog Datalogger(MacSync): Wall Mounting, Pole Mounting."
 ---
 # MacSync Mounting Options
 

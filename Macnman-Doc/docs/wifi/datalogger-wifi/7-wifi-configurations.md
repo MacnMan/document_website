@@ -1,6 +1,7 @@
 ---
 id: _wifi_conn_configurations
 title: How to Connect Wi-Fi?
+description: "How to Connect Wi-Fi? — MacSync automatically scans and displays nearby Wi-Fi networks."
 ---
 
 ## Connecting to a WiFi Network

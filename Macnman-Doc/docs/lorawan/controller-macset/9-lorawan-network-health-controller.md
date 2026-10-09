@@ -1,6 +1,7 @@
 ---
 id: maya_lorawa_network_health
 title: LoRaWAN® Controller LoRaWAN Network Health
+description: "LoRaWAN® Controller LoRaWAN Network Health — When you press Send Uplink, the device performs: Macnman LoRaWAN® Controller(MacSet) documentation."
 ---
 
 ## LoRaWAN Network Test

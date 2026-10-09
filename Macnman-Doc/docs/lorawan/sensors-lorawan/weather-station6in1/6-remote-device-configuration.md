@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-remote-configuration
 title: Weather Station Remote Device Configuration
+description: "Weather Station Remote Device Configuration — Macnman Weather Station: Updating Device Heartbeat."
 ---
 
 ## Updating Device Heartbeat

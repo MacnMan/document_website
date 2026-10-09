@@ -1,6 +1,7 @@
 ---
 id: books_inside_lorawan_spreading_factor
 title: Spreading Factor & ADR
+description: "Spreading Factor & ADR — Imagine you're trying to talk to someone across a wide, open field. Macnman Inside LoRaWAN documentation."
 ---
 
 ## What Are LoRa Spreading Factors?

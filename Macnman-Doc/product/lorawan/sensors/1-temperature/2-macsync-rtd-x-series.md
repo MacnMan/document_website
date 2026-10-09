@@ -39,9 +39,7 @@ keywords:
 # MacSync LRTD X1 LoRaWAN® RTD Temperature Sensor
 
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 MacSync LRTD X1 is a **high-accuracy LoRaWAN® RTD Temperature Sensor** designed for industrial temperature monitoring applications requiring reliable long-range wireless communication, precision PT100 sensing, and rugged industrial performance. Engineered specifically for **PT100 RTD temperature probes**, the device delivers stable and accurate temperature measurements using IEC 60751 linearization, making it ideal for Industrial IoT, process automation, predictive maintenance, and remote thermal monitoring applications.
 
@@ -60,9 +58,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 
 <div className="icon-card-grid">
@@ -87,9 +83,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 
 ---
 
-<h2 className="device-section-title">
- ## Key Features
-</h2>
+## Key Features
 
 
 <div className="reusable-feature-grid">
@@ -155,9 +149,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 </div>
 ---
 
-<h2 className="device-section-title">
-  ## Suited Applications
-</h2>
+## Suited Applications
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
@@ -629,9 +621,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 
 --- 
 
-<h2 className="device-section-title">
-  ## What's in the Box ?
-</h2>
+## What's in the Box ?
 
 Make sure box contains following items before installations
 
@@ -652,9 +642,7 @@ not be included in the box.
 
 :::
 
-<h2 className="device-section-title">
-  ##  MacSync LRTD X1 Dimensions
-</h2>
+##  MacSync LRTD X1 Dimensions
 
 The MacSync LRTD X1 features a compact industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across factories, process plants, pipelines, cold-chain infrastructure, industrial automation systems, and outdoor Industrial IoT deployments.
 

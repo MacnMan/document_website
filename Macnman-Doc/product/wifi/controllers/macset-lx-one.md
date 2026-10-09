@@ -467,7 +467,7 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/controller/macset-dimensions-of-the-box.svg)
+![MacSet Dimensions Of The Box](/img/controller/macset-dimensions-of-the-box.svg)
 
 :::note
 

@@ -1,6 +1,7 @@
 ---
 id: testing_envirnoment
 title: Testing Envirnoment
+description: "As most LoRaWAN gateway and device deployments take place in urban environments, industrial facilities, and multi-storey buildings, extensive field…"
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: Soil Sensor FAQs
+description: "The MacSync-LS7 integrates multiple soil health indicators including temperature, moisture, pH, NPK (Nitrogen, Phosphorus, Potassium), and electrical…"
 ---
 
 ## Frequently Asked Questions (FAQ)

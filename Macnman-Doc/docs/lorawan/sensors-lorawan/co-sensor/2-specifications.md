@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: CO2 Sensor Specifications
+description: "CO2 Sensor Specifications — Macnman CO2 Sensor: CO2 Sensing, Temperatue Sensing, Humidity Sensing, LoRaWAN Wireless Transmission, Power Specifications…"
 ---
 
 # Product Specifications

@@ -1,6 +1,7 @@
 ---
 id: macset_lora_relay_testing_local
 title: Relay Testing
+description: "Relay Testing — You can manually test the relays locally using on-screen toggle buttons before final deployment."
 ---
 
 You can manually test the relays locally using on-screen toggle buttons before final deployment.

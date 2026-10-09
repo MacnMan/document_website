@@ -36,9 +36,7 @@ keywords:
 
 # MacSync LWQS X2 LoRaWAN Water pH Sensor Datasheet
 
-<h2 className="device-section-title"> 
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LWQS X2** is an industrial-grade **LoRaWAN® Water pH Sensor** engineered for continuous online monitoring of water pH levels across drinking water systems, wastewater treatment plants (WWTP), sewage treatment plants (STP), industrial process water, cooling towers, reservoirs, rivers, lakes, borewells, aquaculture systems, and smart IoT water infrastructure.
 
@@ -58,9 +56,7 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
 <a href="/docs/downloads/macsync-lwqs-x2-lorawan-water-ph-sensor-datasheet.pdf" 
@@ -199,9 +195,7 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div className="device-config-section">
   <div className="device-config-title">pH Sensor Measurement</div>
@@ -539,9 +533,7 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 </div>
 
 ---
-<h2 className="device-section-title">
-  ## MacSync-L-WQPH Variants
-</h2>
+## MacSync-L-WQPH Variants
 
 <table className="parameter-table">
   <thead>
@@ -594,9 +586,7 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 
 ---
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the package contains the following items before installation and deployment of the LoRaWAN® Water pH Sensor.
 
@@ -618,9 +608,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LWQS X2 Product Dimensions
-</h2>
+## MacSync LWQS X2 Product Dimensions
 
 The **MacSync LWQS X2 LoRaWAN Water pH Sensor** features a rugged industrial-grade enclosure engineered for long-term industrial and outdoor water quality monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables flexible installation across drinking water systems, wastewater treatment plants (WWTP), sewage treatment plants (STP), industrial process water systems, reservoirs, borewells, cooling towers, rivers, lakes, aquaculture systems, and smart IoT water infrastructure.
 

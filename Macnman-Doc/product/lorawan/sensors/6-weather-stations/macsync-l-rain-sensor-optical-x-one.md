@@ -2,7 +2,7 @@
 id: macsync-l-optical-rainfall-sensor
 title: Optical Rain Sensor
 sidebar_position: 9
-description:description: Industrial LoRaWAN rain sensor for real-time rainfall detection, precipitation monitoring, smart agriculture, flood monitoring, and weather station automation.
+description: "Industrial LoRaWAN rain sensor for real-time rainfall detection, precipitation monitoring, smart agriculture, flood monitoring, and weather station automation."
 keywords:
   - lorawan optical rainfall sensor
   - macsync lors x1 rainfall sensor
@@ -28,9 +28,7 @@ keywords:
 
 # MacSync LORS X1 LoRaWAN Rain Sensor Datasheet
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LORS X1** is a high-performance **LoRaWAN® rain sensor** designed for accurate rainfall detection, real-time precipitation monitoring, and outdoor weather intelligence applications. Built using advanced solid-state optical sensing technology, the sensor delivers highly reliable rain detection without any mechanical moving parts, enabling maintenance-free operation in harsh outdoor environments.
 
@@ -48,9 +46,7 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
 <a href="/docs/downloads/macsync-lors-x1-lorawan-optical-rain-sensor-datasheet.pdf" 
@@ -73,9 +69,7 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 
 <div className="reusable-feature-grid">
@@ -154,9 +148,7 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 
 ---
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 <div className="reusable-feature-grid">
 
@@ -224,9 +216,7 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specification
-</h2>
+## Technical Specification
 
 <div className="device-config-section">
   <div className="device-config-title">Optical Rainfall Measurement</div>
@@ -555,9 +545,7 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LORS X1 Variants
-</h2>
+## MacSync LORS X1 Variants
 
 <table className="parameter-table">
   <thead>
@@ -610,9 +598,7 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 
 ---
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the box contains the following items before installation.
 
@@ -633,9 +619,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LORS X1 Product Dimensions
-</h2>
+## MacSync LORS X1 Product Dimensions
 
 The MacSync LORS X1 features a rugged industrial-grade enclosure designed for long-term outdoor rainfall monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables easy installation across weather stations, farms, reservoirs, highways, flood-monitoring infrastructure, industrial sites, and smart-city environmental monitoring systems.
 

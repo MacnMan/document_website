@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: Temperature & Humidity FAQs
+description: "Temperature & Humidity FAQs — The MacSync-LT1 comes with a high-capacity 19Ah lithium battery, offering up to 10+ years of operation, depending on…"
 ---
 
 ## Frequently Asked Questions (FAQ)

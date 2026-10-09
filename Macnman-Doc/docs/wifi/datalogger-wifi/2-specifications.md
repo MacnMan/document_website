@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: WiFi Datalogger (MacSync) Specifications
+description: "WiFi Datalogger (MacSync) Specifications — Macnman WiFi Datalogger (MacSync): General Specifications, WiFi Specifications, Power Specifications, Physical…"
 ---
 
 # Product Specifications

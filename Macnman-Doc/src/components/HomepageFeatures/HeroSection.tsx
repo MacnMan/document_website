@@ -18,7 +18,7 @@ const SupportSection: React.FC = () => {
                 {/* Item 1 */}
                 <div className={styles.item}>
                     <img
-                        src="/docs/img/HeroSection/circle-girl.svg"
+                        src="/docs/img/HeroSection/circle-girl.webp"
                         alt="Specialist"
                         className={styles.avatar}
                         style={{ width: '38px', height: '44px' }}

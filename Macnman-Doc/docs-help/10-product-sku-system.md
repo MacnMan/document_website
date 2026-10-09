@@ -1,6 +1,7 @@
 ---
 id: product-sku-and-naming-system
 title: Product Naming & SKU Systems
+description: "This page explains how Macnman product model numbers and SKUs are structured, so you can decode a part number to its product family, connectivity, variant…"
 ---
 
 # Product Naming & SKU Systems

@@ -40,9 +40,7 @@ keywords:
 
 # MacSync LPS Xx LoRaWAN® Pressure Transducer
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LPS Xx** is an industrial-grade **LoRaWAN® hydrostatic pressure transducer** engineered for high-accuracy wireless pressure monitoring across water pipelines, industrial process systems, fire hydrants, sewage networks, oil & gas infrastructure, hydraulic systems, and smart utility deployments. Designed for Industrial IoT environments, the device continuously measures pressure variations and transmits real-time telemetry over ultra-long-range LoRaWAN® wireless networks.
 
@@ -60,9 +58,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
   <a href="/docs/downloads/macsync-lps-xx-lorawan-pressure-sensor-datasheet.pdf" 
@@ -86,9 +82,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 <div className="reusable-feature-card">
@@ -144,9 +138,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 
 ---
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 <div className="reusable-feature-grid">
   <div className="reusable-feature-card">
@@ -689,9 +681,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LPS Xx Variants
-</h2>
+## MacSync LPS Xx Variants
 
 <table className="parameter-table">
   <thead>
@@ -727,9 +717,7 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the package contains the following items before installation and deployment of the MacSync LPS Xx LoRaWAN® Pressure Transducer.
 

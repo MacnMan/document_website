@@ -1,6 +1,7 @@
 ---
 id: macset_lorawan_introduction
 title: LoRaWAN® Controller (MacSet) Introduction
+description: "Ideal for smart agriculture, industrial automation, water management, smart buildings, and smart cities, MacSet allows users to monitor and control…"
 ---
 
 # Product Overview
@@ -16,7 +17,7 @@ With support for **RS485, analog control (0–10V / 4–20mA)**, and **relay out
 ## Product Architecture
 <br/>
 
-![Lorawan Architecture](/img/lorawan/lorawan_controller_archi_.svg)
+![Lorawan Architecture](/img/lorawan/lorawan_controller_archi_.webp)
 
 ## Core Features
 

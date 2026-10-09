@@ -1,6 +1,7 @@
 ---
 id: amc-policy
 title: AMC / Extended Support Policy
+description: "Macnman Technologies Pvt. Ltd. provides AMC and Extended Support services to ensure long-term reliability, stability, and professional maintenance of all…"
 ---
 
 # AMC (Annual Maintenance Contract) / Extended Support Policy

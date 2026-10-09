@@ -1,6 +1,7 @@
 ---
 id: MacRayls_introduction
 title: MacRay-Ultrasonic Introduction
+description: "Equipped with high acoustic power output, real-time auto calibration, and advanced noise rejection capabilities, MacRay-Ultrasonic ensures stable…"
 ---
 
 # MacRay-LUltrasonic-Gen1
@@ -19,7 +20,7 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
 ## Product Architecture
 <br/>
 
-![lorawan architecture](/img/lorawan/lorawan_macsync_archi.svg)
+![lorawan architecture](/img/lorawan/lorawan_macsync_archi.webp)
 
 ## Download Center
 

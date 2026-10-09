@@ -1,6 +1,7 @@
 ---
 id: maya-security-device-sharing_common_sensors
 title: Common Sensor Settings Security & device sharing
+description: "Common Sensor Settings Security & device sharing — Control who can access and configure the device via the Maya app by selecting a security level:"
 ---
 
 ## Choosing Security Levels

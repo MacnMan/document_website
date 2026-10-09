@@ -50,9 +50,7 @@ keywords:
 
 # MacSync LWS X2 LoRaWAN 6-in-1 Weather Station Datasheet
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync LWS X2** is an advanced industrial-grade **6-in-1 LoRaWAN® Weather Station with Integrated Optical Rain Sensor** designed for real-time environmental monitoring, meteorological analytics, and Industrial IoT weather intelligence applications. The station continuously measures **rainfall, wind speed, wind direction, ambient temperature, relative humidity, and atmospheric pressure** to deliver highly accurate environmental data for automation, predictive analytics, safety monitoring, and climate-driven operational decisions.
 
@@ -72,9 +70,7 @@ With support for OTA configuration through the **Maya App**, onboard data loggin
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 <div className="icon-card-grid">
 <a href="/docs/downloads/macsync-lws-x2-lorawan-weather-station-datasheet.pdf" 
@@ -97,9 +93,7 @@ With support for OTA configuration through the **Maya App**, onboard data loggin
 
 ---
 
-<h2 className="device-section-title">
-  ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -167,9 +161,7 @@ With support for OTA configuration through the **Maya App**, onboard data loggin
 
 ---
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 <div className="reusable-feature-grid">
 
@@ -237,9 +229,7 @@ With support for OTA configuration through the **Maya App**, onboard data loggin
 
 ---
 
-<h2 className="device-section-title">
-  ## Technical Specifications
-</h2>
+## Technical Specifications
 
 <div className="device-config-section">
   <div className="device-config-title">Environmental Measurement</div>
@@ -633,9 +623,7 @@ With support for OTA configuration through the **Maya App**, onboard data loggin
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LWS X2 Variants
-</h2>
+## MacSync LWS X2 Variants
 
 <table className="parameter-table">
   <thead>
@@ -688,9 +676,7 @@ With support for OTA configuration through the **Maya App**, onboard data loggin
 
 ---
 
-<h2 className="device-section-title"> 
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure the package contains the following items before installation and outdoor deployment.
 
@@ -711,9 +697,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-<h2 className="device-section-title">
-  ## MacSync LWS X2 Product Dimensions
-</h2>
+## MacSync LWS X2 Product Dimensions
 
 The **MacSync LWS X2** features a rugged industrial-grade enclosure engineered for long-term outdoor weather and rainfall monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables flexible installation across smart agriculture farms, reservoirs, highways, flood-monitoring infrastructure, industrial plants, renewable-energy sites, smart-city environmental monitoring networks, and meteorological weather stations.
 

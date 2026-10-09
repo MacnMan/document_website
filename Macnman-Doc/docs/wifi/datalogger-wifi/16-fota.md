@@ -1,6 +1,7 @@
 ---
 id: maya-firmware-updates
 title: WiFi Datalogger (MacSync) Firmware Updates
+description: "WiFi Datalogger (MacSync) Firmware Updates — Keep your Macnman devices secure and up to date with the latest firmware releases."
 ---
 
 # Firmware Updates

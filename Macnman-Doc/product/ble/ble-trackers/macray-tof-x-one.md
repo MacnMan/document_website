@@ -589,7 +589,7 @@ With its **rugged industrial design and multi-sensor fusion capability**, Ble Ta
 
 Make sure box contains following items before installations
 
-![title image](/img/ble/ble-tag-x-box-contents.svg)
+![BLE Tag X Box Contents](/img/ble/ble-tag-x-box-contents.svg)
 
 :::note
 
@@ -600,5 +600,5 @@ not be included in the box.
 
 ## Product Dimensions
 
-![title image](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
+![MacRay ToF Sensor Dimensions File](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
 

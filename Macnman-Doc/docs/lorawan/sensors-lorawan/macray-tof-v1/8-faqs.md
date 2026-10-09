@@ -1,6 +1,7 @@
 ---
 id: macsync_faqs_macsynclt4
 title: MacRay-ToF FAQs
+description: "The sensor supports two distance modes: Short Range (4 cm to 130 cm) and Long Range (4 cm to 400 cm), offering flexible deployment based on application…"
 ---
 
 ## Frequently Asked Questions (FAQ)

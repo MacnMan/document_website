@@ -1,6 +1,7 @@
 ---
 id: specifications
 title: Weather Station Specifications
+description: "Weather Station Specifications — Macnman Weather Station: Weather Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical…"
 ---
 
 # Product Specifications

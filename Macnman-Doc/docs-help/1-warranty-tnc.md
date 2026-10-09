@@ -1,6 +1,7 @@
 ---
 id: macnman-standard-warranty-terms-and-conditions
 title: Warranty Terms & Conditions
+description: "Macnman Technologies Pvt. Ltd. (“Macnman”) is committed to delivering reliable, industrial-grade IoT devices designed for monitoring, automation, and…"
 ---
 
 # Macnman Technologies Pvt. Ltd. – Standard Warranty Terms & Conditions (2025 Updated)

@@ -1,6 +1,7 @@
 ---
 id: macsync-lwt1-mounting
 title: Water Quality Sensors Mounting Options
+description: "Water Quality Sensors Mounting Options — Macnman Water Quality Sensors: Wall Mounting, Pole Mounting."
 ---
 
 ## Wall Mounting

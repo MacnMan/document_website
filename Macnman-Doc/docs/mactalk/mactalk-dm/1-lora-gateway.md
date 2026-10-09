@@ -1,6 +1,7 @@
 ---
 id: mactalk_dm_document
 title: LoRa Gateway Node 
+description: "LoRa Gateway Node — Use the Macnman Maya mobile application to configure the gateway."
 ---
 # Gateway Configuration Guide
 
@@ -41,7 +42,7 @@ To rename:
 - Enter new name
 - Save
 
-![title image](/img/mayascreens/name.svg)
+![Name – LoRa Gateway Node](/img/mayascreens/name.svg)
 
 **Best Practice:**  
 Use structured naming (e.g., `Site-Floor-DeviceType`) for scalability.

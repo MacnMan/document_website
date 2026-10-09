@@ -38,9 +38,7 @@ keywords:
 
 # MacSync-L-TH LoRaWAN® Temperature Humidity Sensor
 
-<h2 className="device-section-title">
-  ## Product Overview
-</h2>
+## Product Overview
 
 **MacSync-LTS X1** is an industrial-grade **LoRaWAN® temperature humidity sensor** designed for accurate environmental monitoring across smart industries, agriculture, cold chain logistics, warehouses, HVAC systems, greenhouses, pharmaceutical storage, and outdoor monitoring applications. Built for ultra-low-power operation and long-range wireless communication, the device continuously measures **temperature, humidity, and optional barometric pressure** and securely transmits real-time sensor data over LoRaWAN® networks.
 
@@ -58,9 +56,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 ---
 
-<h2 className="device-section-title">
-  ## Download Center
-</h2>
+## Download Center
 
 
 <div className="icon-card-grid">
@@ -84,9 +80,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 ----
 
-<h2 className="device-section-title">
- ## Key Features
-</h2>
+## Key Features
 
 <div className="reusable-feature-grid">
 
@@ -155,9 +149,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 ----
 
-<h2 className="device-section-title">
-  ## Applications
-</h2>
+## Applications
 
 
 <div className="reusable-feature-grid">
@@ -642,9 +634,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 ---
 
-<h2 className="device-section-title">
-  ## What's in the Box?
-</h2>
+## What's in the Box?
 
 Make sure box contains following items before installations
 
@@ -658,7 +648,7 @@ Make sure box contains following items before installations
 
 Ensure the following items are available before installation.
 
-![title image](/img/datalogger/whatsbox.svg)
+![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -668,9 +658,7 @@ Accessories may not be included in the package and must be purchased separately.
 
 ---
 
-<h2 className="device-section-title">
-  ##  MacSync-L-TH Dimensions
-</h2>
+##  MacSync-L-TH Dimensions
 
 The MacSync-L-TH features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across warehouses, cold storage facilities, smart agriculture deployments, industrial environments, and outdoor IoT monitoring infrastructure.
 
