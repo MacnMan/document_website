@@ -1,4 +1,10 @@
 {
   "label": "WiFi Sensors",
-  "position": 1
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Wi-Fi Sensor Datasheets",
+    "description": "Datasheets for Macnman Wi-Fi sensors: temperature and humidity, RTD, ultrasonic level, Time-of-Flight, CO2, odor and gas sensors.",
+    "slug": "/wifi/sensors"
+  }
 }

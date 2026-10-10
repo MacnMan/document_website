@@ -1,0 +1,14 @@
+/* The sticky, independently scrolling column. Same behaviour as the stock
+   theme; the rail inside it is styled in src/css/eleven.css. */
+.tableOfContents {
+  max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
+  overflow-y: auto;
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+@media (max-width: 996px) {
+  .tableOfContents {
+    display: none;
+  }
+}

@@ -1,38 +1,25 @@
 ---
 id: macsync-l-c2h4-sensor-x-one
-title: Outdoor Ethylene Sensor
+title: "MacSync LC2H4 X1 LoRaWAN Ethylene Sensor Datasheet"
+sidebar_label: "Outdoor Ethylene Sensor"
 sidebar_position: 13
-description: Industrial LoRaWAN ethylene sensor for real-time ethylene gas monitoring in cold storage, ripening chambers, agriculture, food logistics, and Industrial IoT applications.
+description: "MacSync LC2H4 X1 is an industrial LoRaWAN ethylene sensor for real-time ethylene gas monitoring in cold storage, ripening chambers and food logistics."
 keywords:
   - lorawan ethylene sensor
   - wireless ethylene sensor
   - ethylene gas sensor
-  - industrial ethylene monitoring
-  - ethylene monitoring system
-  - c2h4 gas sensor
-  - ethylene concentration monitoring
   - smart agriculture ethylene sensor
-  - cold storage ethylene monitoring
   - fruit ripening ethylene sensor
-  - industrial gas monitoring sensor
-  - wireless ethylene monitoring device
-  - real time ethylene monitoring
   - low power ethylene sensor
   - battery powered ethylene sensor
   - industrial iot ethylene sensor
   - ethylene analytics sensor
   - ethylene sensor for cold storage
   - ethylene sensor for food industry
-  - environmental ethylene monitoring
-  - lorawan gas sensor
-  - wireless industrial ethylene sensor
-  - smart warehouse ethylene monitoring
-  - remote ethylene monitoring device
   - macsync ethylene sensor
-  - industrial iot gas monitoring
 ---
 
-# MacSync LC2H4 X1 LoRaWAN Ethylene Sensor Datasheet
+# MacSync LC2H4 X1 LoRaWAN® Ethylene Sensor Datasheet
 
 ## Product Overview
 
@@ -553,8 +540,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 </div>
 
 ---
-## MacSync LC2H4 X2 Variants
-
+## MacSync LC2H4 X1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -606,8 +592,7 @@ Its rugged industrial enclosure, IP65 protection, low-power battery operation, a
 
 --- 
 
-## What's in the Box ?
-
+## What's in the Box?
 Make sure the box contains the following items before installation.
 
 - MacSync LC2H4 X1 LoRaWAN® Ethylene Sensor
@@ -627,12 +612,46 @@ Accessories marked with * must be purchased separately and may not be included i
 
 ---
 
-## MacSync LC2H4 X1 Product Dimensions
-
+## MacSync LC2H4 X1 Dimensions
 The MacSync LC2H4 X1 features a compact industrial-grade enclosure with overall dimensions of **165 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across cold storage facilities, food warehouses, agriculture deployments, industrial environments, and smart monitoring infrastructure.
 
 ![MacSync LC2H4 X1 LoRaWAN ethylene sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-dimensions.webp)
 
+## Frequently Asked Questions
 
+### What is the MacSync LC2H4 X1 used for?
 
+MacSync LC2H4 X1 is an industrial LoRaWAN ethylene sensor for real-time ethylene gas monitoring in cold storage, ripening chambers and food logistics. Typical applications include Cold Storage Ethylene Monitoring, Fruit Ripening Chambers, Smart Agriculture Monitoring, Food Warehouses & Logistics, Apple & Produce Storage Facilities and Greenhouse Monitoring.
 
+### What does the MacSync LC2H4 X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LC2H4 X1:
+
+- Ethylene (C₂H₄): range 0 – 100 ppm, resolution 0.5 ppm.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LC2H4 X1 support?
+
+The MacSync LC2H4 X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations.
+
+### How long does the MacSync LC2H4 X1 battery last?
+
+The battery-operated MacSync LC2H4 X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9 ~ 36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LC2H4 X1?
+
+The MacSync LC2H4 X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LC2H4 X1 configured?
+
+The MacSync LC2H4 X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LC2H4 X1?
+
+The box contains: MacSync LC2H4 X1 LoRaWAN® Ethylene Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync L Odor X1 LoRaWAN qualitative odor sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x1-datasheet), [MacSync LH2S X1 LoRaWAN H2S gas sensor](/product/lorawan/sensors/environmental-sensors/macsync-lh2s-x1-datasheet), [MacSync LCO2 X1 LoRaWAN CO2 sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-co2-xx-datasheet), [MacSync L Odor X2 LoRaWAN NH3 and H2S odor sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x2)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

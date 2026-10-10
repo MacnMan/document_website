@@ -1,37 +1,25 @@
 ---
 id: ble-tag-x-two
-title: Ble Tag X2
+title: "BLE Tag X2 Industrial BLE Asset Tracker Datasheet"
+sidebar_label: "BLE Tag X2"
 sidebar_position: 4
-description: "Ble Tag X2 is an industrial BLE asset tracker with an IMU for real-time motion, tilt and orientation sensing plus environmental monitoring of assets."
+description: "BLE Tag X2 is an industrial BLE asset tracker with an IMU for real-time motion, tilt and orientation sensing plus environmental monitoring of assets."
 keywords:
   - industrial ble tracker
   - bluetooth low energy asset tracker industrial
   - ble imu tracker motion orientation sensor
   - industrial ble sensor with imu
   - motion and tilt detection ble tracker
-  - vibration and movement monitoring ble device
   - industrial temperature humidity ble sensor
-  - ble environmental monitoring device
   - barometric pressure sensor ble tracker
   - industrial condition monitoring ble sensor
-  - machine health monitoring ble device
-  - predictive maintenance ble sensor
   - orientation and shock detection ble tracker
-  - warehouse asset tracking ble beacon
   - manufacturing asset monitoring ble tracker
-  - logistics and pallet tracking ble sensor
-  - cold chain monitoring ble tracker
-  - industrial iot ble sensor node
   - battery powered industrial ble tracker
-  - real time asset movement tracking ble
-  - equipment usage monitoring ble device
-  - smart factory ble tracker
-  - industry 4.0 ble sensor
   - ble tracker for harsh industrial environments
-  - bluetooth beacon with imu temperature humidity pressure
 ---
 
-# Ble Tag X2
+# BLE Tag X2 Industrial BLE Asset Tracker Datasheet
 
 ## Product Overview
 
@@ -43,9 +31,9 @@ Built for **low-power, long-term deployments**, Ble Tag X2 operates on a **batte
 
 With its **rugged industrial design and multi-sensor fusion capability**, Ble Tag X2 transforms physical asset behavior into actionable insights — helping organizations **improve operational efficiency, reduce asset losses, and maintain compliance** across critical industrial workflows.
 
-| ![macray tof indoor occupancy sensor with lorawan wireless communication front view](/img/lorawan/macray/macray-tof-sensor-front.webp) | ![ compact macray tof ceiling and wall mount people counting sensor for smart buildings](/img/lorawan/macray/macray-tof-sensor-mounting.webp) |
+| ![BLE Tag X2 industrial BLE asset tracker front view](/img/lorawan/macray/macray-tof-sensor-front.webp) | ![BLE Tag X2 industrial BLE asset tracker installation view](/img/lorawan/macray/macray-tof-sensor-mounting.webp) |
 |--------------------------------|--------------------------------|
-| ![privacy safe macray tof people counting device tracking movement and room occupancy analytics](/img/lorawan/macray/macray-tof-sensor-occupancy-detection.webp) | ![macray time of flight sensor grid pattern coverage for entry exit zone monitoring](/img/lorawan/macray/macray-tof-sensor-zone-coverage.webp) |
+| ![BLE Tag X2 industrial BLE asset tracker product view 3](/img/lorawan/macray/macray-tof-sensor-occupancy-detection.webp) | ![macray time of flight sensor grid pattern coverage for entry exit zone monitoring](/img/lorawan/macray/macray-tof-sensor-zone-coverage.webp) |
 
 <div class="faint-line"></div>
 
@@ -169,8 +157,7 @@ With its **rugged industrial design and multi-sensor fusion capability**, Ble Ta
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -338,7 +325,7 @@ With its **rugged industrial design and multi-sensor fusion capability**, Ble Ta
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of tag is being modified</p>
@@ -511,8 +498,7 @@ With its **rugged industrial design and multi-sensor fusion capability**, Ble Ta
 
 
 
-##  MacRay-ToF-Xx Variants
-
+## BLE Tag X2 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -585,11 +571,10 @@ With its **rugged industrial design and multi-sensor fusion capability**, Ble Ta
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![BLE Tag X Box Contents](/img/ble/ble-tag-x-box-contents.svg)
+![What's in the box: BLE Tag X2 package contents](/img/ble/ble-tag-x-box-contents.svg)
 
 :::note
 
@@ -598,7 +583,32 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## BLE Tag X2 Dimensions
+![BLE Tag X2 dimensions drawing](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
 
-![MacRay ToF Sensor Dimensions File](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
+## Frequently Asked Questions
 
+### What is the BLE Tag X2 used for?
+
+BLE Tag X2 is an industrial BLE asset tracker with an IMU for real-time motion, tilt and orientation sensing plus environmental monitoring of assets. Typical applications include Industrial Asset Tracking, Logistics & Warehouse Monitoring, Machine Usage & Condition Monitoring, Shock & Handling Event Detection, Environmental Compliance Monitoring and Cold Chain & Storage Monitoring.
+
+### What does the BLE Tag X2 measure, and how accurately?
+
+Measurement specifications of the BLE Tag X2:
+
+- Temperature: range -20°C to +60°C, accuracy ±0.5°C (typical).
+- Humidity: range 0% to 100% RH (non-condensing), accuracy ±3% RH (typical).
+- Pressure: range 300 hPa to 1100 hPa, accuracy ±1 hPa (typical).
+
+### Which Bluetooth beacon protocols does the BLE Tag X2 support?
+
+The BLE Tag X2 uses Bluetooth Low Energy (BLE) on the 2.4 GHz ISM Band. Supported beacon protocols: iBeacon, Eddystone (UID / URL / TLM). Transmit power: Configurable (Typical: -20 dBm to +4 dBm). Advertising interval: Configurable (100 ms to 10 s).
+
+### What is the IP rating and operating temperature of the BLE Tag X2?
+
+The BLE Tag X2 has an ingress protection rating of IP54 (IP65 optional variant) and an operating temperature range of -20°C to +60°C. Operating humidity: 0% to 95% RH (non-condensing). Mounting options: Adhesive mount / Screw mount / Lanyard / Clip (variant dependent).
+
+## Related Products and Resources
+
+- Related datasheets: [Setu WX1 BLE to Wi-Fi gateway](/product/ble/gateway/setu-wx-one-datasheet), [Tag X3 BLE sensor tag and beacon](/product/ble/ble-trackers/ble-tag-three)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

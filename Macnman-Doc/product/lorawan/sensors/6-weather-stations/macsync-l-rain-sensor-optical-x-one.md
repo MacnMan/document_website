@@ -1,32 +1,25 @@
 ---
 id: macsync-l-optical-rainfall-sensor
-title: Optical Rain Sensor
+title: "MacSync LORS X1 LoRaWAN Rain Sensor Datasheet"
+sidebar_label: "Optical Rain Sensor"
 sidebar_position: 9
-description: "Industrial LoRaWAN rain sensor for real-time rainfall detection, precipitation monitoring, smart agriculture, flood monitoring, and weather station automation."
+description: "MacSync LORS X1 is an industrial LoRaWAN optical rain sensor for real-time rainfall detection, precipitation monitoring and weather station automation."
 keywords:
   - lorawan optical rainfall sensor
   - macsync lors x1 rainfall sensor
   - wireless rain detection sensor
   - optical rain gauge lorawan
-  - smart agriculture rainfall monitoring
   - real time rain intensity sensor
-  - iot rainfall measurement device
   - precipitation detection sensor lorawan
   - rainfall data logger lorawan
-  - long range rainfall telemetry system
   - industrial grade optical rain sensor
-  - smart city rainfall monitoring device
   - flood monitoring rainfall sensor
   - weather station rainfall module lorawan
-  - remote field rainfall sensing probe
   - rainfall automation sensor for irrigation
   - environmental monitoring rain sensor
-  - rugged outdoor rainfall detector
-  - lorawan precipitation monitoring system
-  - macnman lorawan rainfall monitoring module
 ---
 
-# MacSync LORS X1 LoRaWAN Rain Sensor Datasheet
+# MacSync LORS X1 LoRaWAN® Optical Rain Sensor Datasheet
 
 ## Product Overview
 
@@ -216,8 +209,7 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 
 ---
 
-## Technical Specification
-
+## Technical Specifications
 <div className="device-config-section">
   <div className="device-config-title">Optical Rainfall Measurement</div>
   <div className="device-config-table">
@@ -546,7 +538,6 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 ---
 
 ## MacSync LORS X1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -599,7 +590,6 @@ The sensor supports OTA configuration through the **Maya App**, onboard data buf
 ---
 
 ## What's in the Box?
-
 Make sure the box contains the following items before installation.
 
 - MacSync LORS X1 LoRaWAN Optical Rain Sensor
@@ -619,10 +609,48 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-## MacSync LORS X1 Product Dimensions
-
+## MacSync LORS X1 Dimensions
 The MacSync LORS X1 features a rugged industrial-grade enclosure designed for long-term outdoor rainfall monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables easy installation across weather stations, farms, reservoirs, highways, flood-monitoring infrastructure, industrial sites, and smart-city environmental monitoring systems.
 
 ![MacSync LORS X1 LoRaWAN optical rain sensor mechanical dimensions and mounting layout for outdoor installations](/img/lorawan/sensors/macsync/macsync-lors-x1-lorawan-optical-rain-sensor-dimensions.webp)
 
 ---
+
+## Frequently Asked Questions
+
+### What is the MacSync LORS X1 used for?
+
+MacSync LORS X1 is an industrial LoRaWAN optical rain sensor for real-time rainfall detection, precipitation monitoring and weather station automation. Typical applications include Smart Agriculture & Precision Irrigation, LoRaWAN® Weather Station Networks, Flood Monitoring & Early Warning Systems, Smart City Rainfall Monitoring, Industrial Automation & Safety Systems and Environmental & Climate Research.
+
+### What does the MacSync LORS X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LORS X1:
+
+- Optical Rainfall: range Equivalent 0–200 mm/h, accuracy ±5% (Typical), resolution 1 mm/h Equivalent.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LORS X1 support?
+
+The MacSync LORS X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments.
+
+### How long does the MacSync LORS X1 battery last?
+
+The battery-operated MacSync LORS X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A solar option adds a 20 W High-Efficiency Solar Panel with an Integrated 8000 mAh Solar Rechargeable Battery.
+
+### What is the IP rating and operating temperature of the MacSync LORS X1?
+
+The MacSync LORS X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LORS X1 configured?
+
+The MacSync LORS X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LORS X1?
+
+The box contains: MacSync LORS X1 LoRaWAN Optical Rain Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LWS X1 LoRaWAN weather station](/product/lorawan/sensors/weather-stations/macsync-l-five-in-one-weather-station-x-five), [MacSync LWS X2 LoRaWAN 6-in-1 weather station](/product/lorawan/sensors/weather-stations/macsync-l-six-in-one-weather-station-x-six)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

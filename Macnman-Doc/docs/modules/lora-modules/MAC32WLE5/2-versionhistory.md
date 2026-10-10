@@ -1,6 +1,6 @@
 ---
 id: versions
-title: MAC32WLE5 Version History
+title: "MAC32WLE5 Version History"
 description: "MAC32WLE5 Version History — Macnman MAC32WLE5: Version 1.2 - Feature update, Version 1.1 - Intial release."
 ---
 
@@ -70,4 +70,8 @@ description: "MAC32WLE5 Version History — Macnman MAC32WLE5: Version 1.2 - Fea
   </tbody>
 </table>
 
+## Related Resources
 
+- Product: [MAC32WLE5 LoRa module product page](https://www.macnman.com/modules/lora-module-mac32wle5)
+- Start of this manual: [MAC32WLE5 Introduction](/modules/lora-modules/MAC32WLE5/introduction)
+- Help: [Contact Macnman support](/help/help)

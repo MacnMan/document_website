@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Soil Sensor Specifications
+title: "Soil Sensor Specifications"
 description: "Soil Sensor Specifications — Macnman Soil Sensor: Soil Sensor Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical Characteristics…"
 ---
 
@@ -250,3 +250,10 @@ description: "Soil Sensor Specifications — Macnman Soil Sensor: Soil Sensor Pa
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheets: [LoRaWAN soil sensor datasheets](/product/lorawan/sensors/soil-sensors)
+- Start of this manual: [Soil Sensor Introduction](/lorawan/sensors-lorawan/soil-sensor/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

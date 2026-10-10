@@ -1,6 +1,6 @@
 ---
 id: macsynclw6_introduction
-title: Weather Station Introduction
+title: "Weather Station Introduction"
 description: "Built for rugged outdoor use, the device features a UV-resistant, IP66-rated enclosure that ensures durability in harsh climates."
 ---
 
@@ -159,3 +159,9 @@ Seamlessly compatible with Macnman gateways and cloud platforms, MacSync-LW6 emp
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LWS X2 LoRaWAN 6-in-1 weather station datasheet](/product/lorawan/sensors/weather-stations/macsync-l-six-in-one-weather-station-x-six)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

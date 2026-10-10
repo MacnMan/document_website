@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-live-values
-title: Ultrasonic Sensor (Sub 4 How to check Live values?
+title: "Ultrasonic Sensor (Sub 4 Meter) How to Check Live Values"
 description: "Ultrasonic Sensor (Sub 4 How to check Live values? — To check live data via BLE, go to the Home Page in the Maya App, connect to your sensor, and tap on…"
 ---
 
@@ -25,4 +25,9 @@ To check live data via BLE, go to the Home Page in the Maya App, connect to your
 
 - Click on the refresh button fetch data
 
+## Related Resources
 
+- Datasheets: [LoRaWAN level sensor datasheets](/product/lorawan/sensors/level-sensors)
+- Start of this manual: [Ultrasonic Sensor (Sub 4 Meter) Introduction](/lorawan/sensors-lorawan/ultrasonic-sensor-dfrobot/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

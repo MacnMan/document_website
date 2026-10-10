@@ -1,4 +1,10 @@
 {
   "label": "LoRaWAN Controllers",
-  "position": 2
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Controller Datasheets",
+    "description": "Datasheets for Macnman MacSet LoRaWAN controllers with relay and digital outputs, analog and digital inputs and RS485 Modbus for remote automation.",
+    "slug": "/lorawan/controllers"
+  }
 }

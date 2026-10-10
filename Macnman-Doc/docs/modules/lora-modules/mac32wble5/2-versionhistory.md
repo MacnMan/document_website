@@ -1,6 +1,6 @@
 ---
 id: versions
-title: MAC32WBLE5 Version History
+title: "MAC32WBLE5 Version History"
 description: "MAC32WBLE5 Version History — Macnman MAC32WBLE5: Version 1.2 - Feature update, Version 1.1 - Intial release."
 ---
 
@@ -70,4 +70,8 @@ description: "MAC32WBLE5 Version History — Macnman MAC32WBLE5: Version 1.2 - F
   </tbody>
 </table>
 
+## Related Resources
 
+- Product: [MAC32WBLE5 LoRa + BLE module product page](https://www.macnman.com/modules/lora-ble-module-mac32wble5)
+- Start of this manual: [MAC32WBLE5 Introduction](/modules/lora-modules/mac32wble5/introduction)
+- Help: [Contact Macnman support](/help/help)

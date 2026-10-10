@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: Pressure Sensor FAQs
+title: "Pressure Sensor FAQs"
 description: "The MacSync-LPS1 measures pressure levels in both liquid and gas systems, making it ideal for water pipelines, hydraulic systems, industrial process…"
 ---
 
@@ -45,3 +45,10 @@ Yes. The MacSync-LPS1 supports remote configuration via LoRaWAN® downlinks and 
 It is commonly deployed for smart water metering, gas pipeline monitoring, HVAC system management, industrial automation, and irrigation system optimization.
 
 ----
+
+## Related Resources
+
+- Datasheet: [MacSync LPS Xx LoRaWAN pressure transducer datasheet](/product/lorawan/sensors/pressure-sensors/macsync-lps-xx-lorawan-pressure-sensor)
+- Start of this manual: [Pressure Sensor Introduction](/lorawan/sensors-lorawan/pressure-sensor-v1/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

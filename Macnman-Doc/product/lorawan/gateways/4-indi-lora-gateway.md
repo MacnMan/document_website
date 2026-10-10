@@ -1,30 +1,25 @@
 ---
 id: indilora-single-channel-datasheet
-title: IndiLoRa X
+title: "IndiLoRa X Single-Channel LoRa Gateway Datasheet"
+sidebar_label: "IndiLoRa X"
 sidebar_position: 4
-description: "IndiLoRa X1 is an ultra-affordable single-channel indoor LoRaWAN gateway for small-scale IoT deployments and legacy industrial system upgrades."
+description: "IndiLoRa X is an ultra-affordable single-channel indoor LoRaWAN gateway for small-scale IoT deployments and legacy industrial system upgrades."
 keywords:
   - single channel LoRa gateway
   - indoor cellular LoRa gateway
   - wifi enabled LoRa gateway
   - compact LoRa iot gateway
-  - low cost LoRa access point
   - smart building LoRa gateway
-  - iot network extender for indoor coverage
   - LoRa gateway for retail and offices
   - single channel long range wireless gateway
   - plug and play indoor LoRa gateway
-  - enterprise iot connectivity device
   - LoRa gateway for small deployments
   - scalable indoor LoRa network node
   - smart campus indoor LoRa bridge
-  - indoor industrial iot communication hub
   - LoRa device onboarding gateway
-  - LoRa cellular backhaul gateway
-  - cost-efficient LoRa indoor coverage
 ---
 
-# IndiLoRa X Datasheet
+# IndiLoRa X Single-Channel Indoor LoRaWAN® Gateway Datasheet
 
 ## Product Overview
 
@@ -46,13 +41,12 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/indilora-x-single-channel-lora-gateway-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -160,8 +154,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -414,8 +407,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 </div>
 
 
-##  IndiLoRa X Variants
-
+## IndiLoRa X Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -488,8 +480,7 @@ Whether enabling indoor environmental monitoring, asset tracking, energy meters,
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Indilora LoRa Gateway Dimensions Box Item](/img/lorawan/gateways/indilora-lora-gateway-dimensions-box-item.svg)
@@ -501,7 +492,32 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
-
+## IndiLoRa X Dimensions
 ![Indilora LoRa Gateway Dimensions](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
 
+## Frequently Asked Questions
+
+### What is the IndiLoRa X used for?
+
+IndiLoRa X is an ultra-affordable single-channel indoor LoRaWAN gateway for small-scale IoT deployments and legacy industrial system upgrades. Typical applications include Small Smart Building Deployments, Commercial Retail Outlets, Warehouse & Storage Spaces, Hospitals & Healthcare Rooms, Apartments & Residential Smart Homes and Legacy Industrial Machine Rooms.
+
+### Which LoRa channels and frequency bands does the IndiLoRa X support?
+
+The IndiLoRa X is a single-channel gateway: Single‑Channel (1 × Uplink / 1 × Downlink). Supported frequency band: IN865. It works with Macnman LoRa Nodes & Controllers. Receive sensitivity: Down to –136 dBm @ SF12, BW 125 kHz.
+
+### Which backhaul options does the IndiLoRa X have?
+
+The IndiLoRa X offers Wi-Fi and cellular LTE (optional) backhaul. Cellular bands: B1 / B3 / B5 / B7 / B8 / B20 / B28.
+
+### How is the IndiLoRa X powered?
+
+The IndiLoRa X is powered from 9-36 V PoE.
+
+### What is the IP rating and operating temperature of the IndiLoRa X?
+
+The IndiLoRa X has an ingress protection rating of IP35 and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+## Related Products and Resources
+
+- Related datasheets: [Setu SCX single-channel indoor LoRa gateway](/product/lorawan/gateways/setu-scx-single-channel-datasheet), [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two), [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet), [FireGaurd Gen 1 fire equipment health monitoring controller](/product/lorawan/gateways/fire-guard-single-channel-lora-gateway-for-firedatasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

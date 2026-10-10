@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-remote-configuration
-title: Ultrasonic Sensor (Sub Remote Device Configuration
+title: "Ultrasonic Sensor (Sub 4 Meter) Remote Device Configuration"
 description: "Ultrasonic Sensor (Sub Remote Device Configuration — Macnman Ultrasonic Sensor(Sub 4 Meter): Updating Device Heartbeat."
 ---
 
@@ -18,3 +18,10 @@ Use FPort = 06 & Times in seconds
 :::
 
 <div class="faint-line"></div>
+
+## Related Resources
+
+- Datasheets: [LoRaWAN level sensor datasheets](/product/lorawan/sensors/level-sensors)
+- Start of this manual: [Ultrasonic Sensor (Sub 4 Meter) Introduction](/lorawan/sensors-lorawan/ultrasonic-sensor-dfrobot/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

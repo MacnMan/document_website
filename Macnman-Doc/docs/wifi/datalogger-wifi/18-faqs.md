@@ -1,5 +1,5 @@
 ---
-title: WiFi Datalogger (MacSync) FAQs
+title: "WiFi Datalogger (MacSync) FAQs"
 description: "WiFi Datalogger (MacSync) FAQs — Macnman WiFi Datalogger (MacSync): Cannot connect to Wi-Fi, Wi-Fi network not appearing in scan, Device keeps…"
 ---
 
@@ -49,3 +49,10 @@ description: "WiFi Datalogger (MacSync) FAQs — Macnman WiFi Datalogger (MacSyn
 - Reconfigure MQTT and Wi-Fi settings using the Maya app.
 - Temporarily try a public broker like `test.mosquitto.org`.
 - Reach out to **support@macnman.com** with configuration screenshots or logs.
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

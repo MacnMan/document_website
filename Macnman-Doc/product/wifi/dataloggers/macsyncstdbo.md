@@ -1,8 +1,9 @@
 ---
 id: macsync-l-std-battery-operated-gen-one
-title: MacSync-WX1-BO
+title: "MacSync-WX1-BO Battery RS485 Wi-Fi Datalogger"
+sidebar_label: "MacSync-WX1-BO"
 sidebar_position: 3
-description: Ultra-rugged LoRaWAN IoT device with long-range wireless and low-power architecture.
+description: "MacSync-WX1-BO is a battery-operated RS485 and analog to Wi-Fi data logger for industrial and on-premise monitoring where wired power is unavailable."
 keywords:
   - rs485 to wifi data logger
   - battery operated wifi data logger
@@ -11,20 +12,14 @@ keywords:
   - wifi industrial data logger
   - low power wifi data logger
   - battery powered industrial data logger
-  - wifi rs485 modbus gateway
   - 4-20ma wifi data logger
   - 0-10v wifi data logger
   - macsync wx1 bo
   - macsync wifi battery data logger
-  - macnman wifi data logger
-  - industrial wifi monitoring device
-  - on premise wifi data logger
-  - factory wifi data logger
-  - building automation wifi data logger
   - battery powered modbus data logger
 ---
 
-# MacSync-WX1-BO
+# MacSync-WX1-BO Battery-Operated RS485 & Analog to Wi-Fi Data Logger Datasheet
 
 ## Product Overview
 
@@ -36,22 +31,21 @@ Powered by a high‑capacity **19 Ah industrial‑grade Li‑SOCl₂ battery**, 
 
 Housed in a rugged IP‑rated enclosure, MacSync‑WX1‑BO is ideal for **factories, buildings, utilities, cold storage facilities, and industrial infrastructure** where battery operation, low latency, and direct Wi‑Fi connectivity are required. It enables reliable industrial data acquisition with simplified deployment and full IT/OT integration.
 
-| ![Front view of MacSync-L-STD-BO battery-powered RS485 and analog to LoRaWAN data logger](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![ Side view of MacSync-L-STD-BO industrial LoRaWAN data logger with 19Ah battery](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+| ![MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger front view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger side view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
 |--------------------------------|--------------------------------|
-| ![Back view of MacSync-L-STD-BO showing enclosure and wiring ports for RS485 and analog inputs](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Internal layout of MacSync-L-STD-BO battery-operated LoRaWAN telemetry device](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger rear view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger internal view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-L-STD.pdf" 
+  <a href="/docs/downloads/macsync-wx1-bo-battery-rs485-wifi-datalogger-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-L-STD.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -181,8 +175,7 @@ Housed in a rugged IP‑rated enclosure, MacSync‑WX1‑BO is ideal for **facto
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -280,7 +273,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -455,8 +448,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSync-WX1-PO Variants
-
+## MacSync-WX1-BO Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -496,8 +488,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </tbody>
 </table>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
@@ -509,7 +500,43 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacSync-WX1-BO Dimensions
+![MacSync-WX1-BO dimensions drawing](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 
-![MacSync Dimensions New Drawing Style](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+## Frequently Asked Questions
 
+### What is the MacSync-WX1-BO used for?
+
+MacSync-WX1-BO is a battery-operated RS485 and analog to Wi-Fi data logger for industrial and on-premise monitoring where wired power is unavailable. Typical applications include Industrial Automation & SCADA, Energy & Utility Metering, Process & Instrumentation Monitoring, Factories & Manufacturing Plants, Cold Storage & HVAC Systems and Building Automation & BMS.
+
+### What inputs and outputs does the MacSync-WX1-BO have?
+
+The MacSync-WX1-BO provides the following interfaces:
+
+- RS485 Interface: 1 (Switchable)
+- 4-20 mA Analog Channels: x 2 (Switchable)
+- 0-10 V Analog Channels: x 2 (Switchable)
+- Digital Inputs: x 2 (Switchable)
+- ADC Resolution: 12-bit
+
+### How does the MacSync-WX1-BO connect and send data over Wi-Fi?
+
+The MacSync-WX1-BO connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### What is the IP rating and operating temperature of the MacSync-WX1-BO?
+
+The MacSync-WX1-BO has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync-WX1-BO configured?
+
+The MacSync-WX1-BO is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacSync-WX1-BO work with?
+
+The MacSync-WX1-BO can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- User manual: [MacSync Wi-Fi datalogger user manual](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Related datasheets: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

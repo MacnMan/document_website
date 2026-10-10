@@ -1,5 +1,10 @@
 {
-  "label": "Level Sensors",
-  "position": 2
-  
+  "label": "Level & Distance Sensors",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "Wi-Fi Level Sensor Datasheets",
+    "description": "Datasheets for Macnman Wi-Fi level sensors: the MacRay-WU4 ultrasonic level sensor and the MacRay-ToF-WXx Time-of-Flight sensor.",
+    "slug": "/wifi/sensors/level-sensors"
+  }
 }

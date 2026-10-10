@@ -1,48 +1,25 @@
 ---
 id: macray-ltof-lorawan-time-of-flight-sensor
-title: Time of Flight Sensor
+title: "MacRay LToF LoRaWAN Time-of-Flight Sensor"
+sidebar_label: "Time of Flight Sensor"
 sidebar_position: 4
-description: Industrial LoRaWAN® Time-of-Flight sensor engineered for occupancy monitoring, people counting, smart buildings, indoor analytics, distance measurement, and wireless laser sensing applications.
+description: "MacRay LToF is an industrial LoRaWAN Time-of-Flight sensor for occupancy monitoring, people counting, indoor analytics and laser distance measurement."
 keywords:
   - lorawan time of flight sensor
   - lorawan tof sensor
   - lorawan laser sensor
   - wireless tof sensor
-  - industrial tof sensor
   - time of flight distance sensor
   - lorawan occupancy sensor
   - people counting sensor lorawan
-  - smart building occupancy sensor
-  - indoor people counting sensor
-  - privacy safe occupancy monitoring
-  - wireless indoor analytics sensor
-  - industrial laser distance sensor
   - lorawan distance measurement sensor
-  - tof people counting sensor
-  - wireless presence detection sensor
-  - smart office occupancy analytics
-  - industrial indoor positioning sensor
-  - warehouse occupancy monitoring
-  - ceiling mount occupancy sensor
-  - room occupancy monitoring sensor
-  - real time occupancy analytics
-  - smart building automation sensor
-  - energy saving occupancy sensor
-  - facility utilization analytics
-  - industrial motion analytics sensor
-  - laser based distance measurement sensor
-  - industrial automation tof sensor
   - lorawan smart facility sensor
-  - wireless people tracking sensor
-  - indoor movement analytics sensor
-  - occupancy analytics for offices
   - lorawan smart building sensor
-  - industrial iot occupancy sensor
   - macray ltof
   - macnman lorawan tof sensor
 ---
 
-# MacRay LToF LoRaWAN® Time-of-Flight Sensor
+# MacRay LToF LoRaWAN® Time-of-Flight Sensor Datasheet
 
 
 ## Product Overview
@@ -529,8 +506,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 ---
 
-## MacRay LToF Series Variants
-
+## MacRay LToF Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -614,8 +590,7 @@ The **MacRay LToF industrial LoRaWAN® laser sensor** is fully compatible with m
 
 ---
 
-## What's in the Box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 - MacRay LToF Xx Sensor 
@@ -636,10 +611,49 @@ Accessories marked with (*) must be purchased separately and may not be included
 :::
 
 
-## MacRay LToF Series Dimensions
-
+## MacRay LToF Dimensions
 The MacRay LToF Series features a compact industrial-grade enclosure with overall dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, smart building deployments, occupancy analytics, people counting infrastructure, and space-constrained Industrial IoT environments.
 
 
 ![MacRay LToF LoRaWAN Time-of-Flight Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
 
+## Frequently Asked Questions
+
+### What is the MacRay LToF used for?
+
+MacRay LToF is an industrial LoRaWAN Time-of-Flight sensor for occupancy monitoring, people counting, indoor analytics and laser distance measurement. Typical applications include People Counting at Entry/Exit Points, Room Occupancy Monitoring, Smart Restroom & Facility Usage, Restricted / Secure Zone Monitoring, Retail & Store Analytics and Warehouse Workforce Movement.
+
+### What does the MacRay LToF measure, and how accurately?
+
+Measurement specifications of the MacRay LToF:
+
+- Time-of-Flight: range Long Range Mode: 4 cm to 400 cm, accuracy ±3% Typical, resolution Up to 1 mm.
+
+### Which LoRaWAN frequency bands and network servers does the MacRay LToF support?
+
+The MacRay LToF supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial LoRaWAN® deployments.
+
+### How long does the MacRay LToF battery last?
+
+The battery-operated MacRay LToF runs on a 8 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~1.5 years at a 5-minute reporting interval, ~3 years at a 15-minute reporting interval and ~5+ years at a 60-minute reporting interval.
+
+### What is the IP rating and operating temperature of the MacRay LToF?
+
+The MacRay LToF has an ingress protection rating of IP55 Standard and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacRay LToF configured?
+
+The MacRay LToF is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacRay LToF?
+
+The box contains: MacRay LToF Xx Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [MacRay ToF sensor user manual](/lorawan/sensors-lorawan/macray-tof-v1/macsyncls_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacRay-ToF-WXx Wi-Fi Time-of-Flight sensor](/product/wifi/sensors/level-sensors/macray-tof-x-series), [MacSync LCS X1 LoRaWAN capacitive fuel level sensor](/product/lorawan/sensors/level-sensors/macsync-lcs-x-1-lorawan-capacitive-sensor), [MacRay LUS X1 LoRaWAN ultrasonic level sensor](/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one)
+- Product page: [MacRay LToF on macnman.com](https://www.macnman.com/lorawan/sensors/lorawan-time-of-flight-sensor-macray-tof-gen-one)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

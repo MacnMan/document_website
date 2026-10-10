@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: Soil Sensor FAQs
+title: "Soil Sensor FAQs"
 description: "The MacSync-LS7 integrates multiple soil health indicators including temperature, moisture, pH, NPK (Nitrogen, Phosphorus, Potassium), and electrical…"
 ---
 
@@ -43,3 +43,10 @@ The sensor supports **periodic**, **threshold-based**, and **event-driven** upli
 
 #### Is the sensor pre-provisioned for LoRaWAN®?
 Yes. Every unit comes with **pre-configured DevEUI, AppEUI, and AppKey**, making it ready for instant onboarding into any compatible LoRaWAN® network.
+
+## Related Resources
+
+- Datasheets: [LoRaWAN soil sensor datasheets](/product/lorawan/sensors/soil-sensors)
+- Start of this manual: [Soil Sensor Introduction](/lorawan/sensors-lorawan/soil-sensor/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

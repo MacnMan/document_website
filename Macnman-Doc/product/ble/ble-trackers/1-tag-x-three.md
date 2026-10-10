@@ -1,6 +1,7 @@
 ---
 id: ble-tag-three
-title: Tag X3
+title: "Tag X3 BLE Sensor Tag & Beacon Datasheet"
+sidebar_label: "Tag X3"
 sidebar_position: 3
 description: "Tag X3 is a compact, rugged BLE sensor tag and beacon (iBeacon/Eddystone) for asset tracking, indoor location and condition monitoring with long battery life."
 keywords:
@@ -9,27 +10,16 @@ keywords:
   - ble sensor tag
   - ibeacon ble tag
   - eddystone ble beacon
-  - bluetooth low energy beacon
   - ble imu sensor tag
   - ble motion sensor tag
   - ble temperature humidity sensor
   - ble pressure sensor tag
   - indoor positioning ble beacon
-  - ble rtds location tag
-  - ble people and asset tracking
   - ble environmental sensor tag
-  - ble condition monitoring tag
-  - ble industrial asset tag
-  - ble smart building sensor
-  - ble warehouse tracking tag
-  - ble cold chain monitoring tag
-  - ble gateway compatible tag
-  - macnman ble tag
-  - macnman ble beacon
   - tag x3 ble sensor
 ---
 
-# TagX3 Datasheet
+# Tag X3 BLE Sensor Tag & Beacon Datasheet
 
 ## Product Overview
 
@@ -41,22 +31,21 @@ Engineered for **ultra-low power operation**, Tag X3 supports configurable adver
 
 Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and industrial edge devices**, enabling data forwarding to **on-premise systems or cloud platforms** for analytics, alerts, and automation. Its small form factor and rugged enclosure make it suitable for **tools, containers, equipment, pallets, and movable assets** in warehouses, factories, campuses, and smart buildings.
 
-| ![Tag X BLE Asset Tracking Sensor Side Profile](/img/ble/tag-x-ble-asset-tracking-sensor-side-profile.webp) | ![Tag X BLE Beacon Ibeacon Eddystone Front View](/img/ble/tag-x-ble-beacon-ibeacon-eddystone-front-view.webp) |
+| ![Tag X3 BLE sensor tag and beacon side view](/img/ble/tag-x-ble-asset-tracking-sensor-side-profile.webp) | ![Tag X3 BLE sensor tag and beacon front view](/img/ble/tag-x-ble-beacon-ibeacon-eddystone-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Tag X BLE Beacon Industrial Rugged Design](/img/ble/tag-x-ble-beacon-industrial-rugged-design.webp) | ![Tag X BLE Sensor Tag Back Battery Compartment](/img/ble/tag-x-ble-sensor-tag-back-battery-compartment.webp) |
+| ![Tag X3 BLE sensor tag and beacon product view 3](/img/ble/tag-x-ble-beacon-industrial-rugged-design.webp) | ![Tag X3 BLE sensor tag and beacon rear view](/img/ble/tag-x-ble-sensor-tag-back-battery-compartment.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/tag-x3-ble-sensor-tag-beacon-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -175,8 +164,7 @@ Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and 
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -343,7 +331,7 @@ Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and 
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of tag is being modified</p>
@@ -511,8 +499,7 @@ Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and 
 </div>
 
 
-##  TagX3 Variants
-
+## Tag X3 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -540,11 +527,10 @@ Tag X3 works seamlessly with **BLE-to-Wi-Fi gateways, smartphones, tablets, and 
 </table>
 
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![MacRay LoRaWAN What Is In The Box](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![What's in the box: Tag X3 package contents](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
@@ -553,7 +539,36 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## Tag X3 Dimensions
+![Tag X3 dimensions drawing](/img/lorawan/macray/macray-lu-four-dimensions.svg)
 
-![MacRay Lu Four Dimensions](/img/lorawan/macray/macray-lu-four-dimensions.svg)
+## Frequently Asked Questions
 
+### What is the Tag X3 used for?
+
+Tag X3 is a compact, rugged BLE sensor tag and beacon (iBeacon/Eddystone) for asset tracking, indoor location and condition monitoring with long battery life. Typical applications include Asset Tracking & RTLS, Warehouse & Logistics Operations, Smart Buildings & Campuses, Cold Chain & Storage Condition Monitoring, Industrial Equipment Monitoring and Personnel & Safety Monitoring.
+
+### What does the Tag X3 measure, and how accurately?
+
+Measurement specifications of the Tag X3:
+
+- Temperature: range -20°C to +60°C, accuracy ±0.5°C (typical).
+- Humidity: range 0% to 100% RH (non-condensing), accuracy ±3% RH (typical).
+- Pressure: range 300 hPa to 1100 hPa, accuracy ±1 hPa (typical).
+
+### Which Bluetooth beacon protocols does the Tag X3 support?
+
+The Tag X3 uses Bluetooth Low Energy (BLE) on the 2.4 GHz ISM Band. Supported beacon protocols: iBeacon, Eddystone (UID / URL / TLM). Transmit power: Configurable (Typical: -20 dBm to +4 dBm). Advertising interval: Configurable (100 ms to 10 s).
+
+### How long does the Tag X3 battery last?
+
+The Tag X3 battery type is CR Series Lithium Coin Cell (Replaceable). Typical battery models: CR2477 / CR2450 (Variant dependent). Battery life: Up to 12–24 months (depending on advertising interval, Tx power, and sensor usage).
+
+### What is the IP rating and operating temperature of the Tag X3?
+
+The Tag X3 has an ingress protection rating of IP54 (IP65 optional variant) and an operating temperature range of -20°C to +60°C. Operating humidity: 0% to 95% RH (non-condensing). Mounting options: Adhesive mount / Screw mount / Lanyard / Clip (variant dependent).
+
+## Related Products and Resources
+
+- Related datasheets: [Setu WX1 BLE to Wi-Fi gateway](/product/ble/gateway/setu-wx-one-datasheet), [BLE Tag X2 industrial BLE asset tracker](/product/ble/ble-trackers/ble-tag-x-two)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

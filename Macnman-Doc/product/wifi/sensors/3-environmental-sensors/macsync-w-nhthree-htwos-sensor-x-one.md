@@ -1,32 +1,25 @@
 ---
 id: macsync-w-nh-three-h-two-s-2-sensors
-title: MacSync-WGSX2x
+title: "MacSync-WGSX2 Wi-Fi H2S & NH3 Gas Sensor Datasheet"
+sidebar_label: "MacSync-WGSX2x"
 sidebar_position: 9
 description: "MacSync-WGSX2 is a high-precision Wi-Fi quantitative gas sensor for real-time ppm measurement of hydrogen sulfide (H2S) and ammonia (NH3)."
 keywords:
   - wifi h2s nh3 gas sensor
-  - wifi hydrogen sulfide sensor
   - wifi ammonia gas sensor
   - quantitative h2s gas monitoring wifi
   - quantitative nh3 gas monitoring wifi
   - ppm h2s monitoring wifi sensor
   - ppm nh3 monitoring wifi sensor
   - industrial wifi gas detection sensor
-  - wifi toxic gas monitoring device
   - wastewater h2s nh3 monitoring wifi
-  - stp wwtp gas monitoring wifi
   - industrial safety gas sensor wifi
-  - sewer gas monitoring wifi sensor
-  - factory toxic gas detection wifi
-  - indoor hazardous gas monitoring wifi
-  - occupational safety gas sensor wifi
-  - battery operated wifi gas sensor
   - low power wifi h2s nh3 sensor
   - macsync wifi gas sensor
   - macnman wifi h2s nh3 sensor
 ---
 
-# MacSync-WGSX2 Datasheet
+# MacSync-WGSX2 Wi-Fi H₂S & NH₃ Gas Sensor Datasheet
 
 ## Product Overview
 
@@ -48,13 +41,12 @@ Whether deployed for **worker safety, toxic gas exposure monitoring, ventilation
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-wgsx2-wifi-h2s-nh3-gas-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -174,8 +166,7 @@ Whether deployed for **worker safety, toxic gas exposure monitoring, ventilation
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -348,7 +339,7 @@ Whether deployed for **worker safety, toxic gas exposure monitoring, ventilation
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -529,7 +520,6 @@ Whether deployed for **worker safety, toxic gas exposure monitoring, ventilation
 
 
 ## MacSync-WGSX2 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -599,8 +589,7 @@ Whether deployed for **worker safety, toxic gas exposure monitoring, ventilation
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
@@ -612,7 +601,43 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacSync-WGSX2 Dimensions
+![MacSync-WGSX2 dimensions drawing](/img/lorawan/sensors/macsync/macsync-odor-sensor-dimensions-nhthree-cotwo.webp)
 
-![MacSync Odor Sensor Dimensions Nhthree Cotwo](/img/lorawan/sensors/macsync/macsync-odor-sensor-dimensions-nhthree-cotwo.webp)
+## Frequently Asked Questions
 
+### What is the MacSync-WGSX2 used for?
+
+MacSync-WGSX2 is a high-precision Wi-Fi quantitative gas sensor for real-time ppm measurement of hydrogen sulfide (H2S) and ammonia (NH3). Typical applications include Sewage & Wastewater Treatment Plants (STP / WWTP), Industrial Safety & Worker Protection, Chemical & Process Industries, Confined Indoor Spaces, Livestock & Poultry Facilities and Industrial Warehouses & Storage Areas.
+
+### What does the MacSync-WGSX2 measure, and how accurately?
+
+Measurement specifications of the MacSync-WGSX2:
+
+- NH₃: range 0 – 100 ppm, resolution 0.5 ppm.
+- H₂S: range 0 – 100 ppm, resolution 0.1 ppm.
+
+### How does the MacSync-WGSX2 connect and send data over Wi-Fi?
+
+The MacSync-WGSX2 connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### How is the MacSync-WGSX2 powered?
+
+The MacSync-WGSX2 is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync-WGSX2?
+
+The MacSync-WGSX2 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync-WGSX2 configured?
+
+The MacSync-WGSX2 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacSync-WGSX2 work with?
+
+The MacSync-WGSX2 can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- Related datasheets: [MacSync L Odor X2 LoRaWAN NH3 and H2S odor sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x2), [MacSync-W-Odor-X1 Wi-Fi qualitative odor sensor](/product/wifi/sensors/environmental-sensors/macsync-odor-x-one-datasheet), [MacSync-WCO2X Wi-Fi CO2 indoor air quality sensor](/product/wifi/sensors/environmental-sensors/macsync-w-co-2-sensors)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

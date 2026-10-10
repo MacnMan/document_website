@@ -585,6 +585,104 @@ body::-webkit-scrollbar {
   }
 }
 
+/* The same specification block in its older markup, still used by 28
+   datasheets:
+
+     .spec-block > .spec-block-title
+                 > .spec-block-details > p.label, p.value (one or more), br, …
+
+   The details are a flat run of paragraphs, so a two-column grid lays them
+   out as the label / value rows above: every label starts a row, its values
+   stack in the second column, and the hairline sits above each new label. */
+.spec-block {
+  width: 100%;
+  margin: 32px 0 40px;
+}
+
+.spec-block-title {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--el-text);
+}
+
+/* Titles were written "General <br /> Specifications" for a narrow column. */
+.spec-block-title br,
+.spec-block-details > br {
+  display: none;
+}
+
+.spec-block-details {
+  display: grid;
+  grid-template-columns: minmax(140px, 38%) 1fr;
+  border-top: 1px solid var(--el-border-strong);
+  border-bottom: 1px solid var(--el-border-strong);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.spec-block-details > p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* No bottom padding on the label: the row is closed by its last value, so a
+   label with several values does not push the second one down. */
+.spec-block-details > .label {
+  grid-column: 1;
+  padding: 11px 24px 0 0;
+  border-top: 1px solid var(--el-border);
+  color: var(--el-text-muted);
+  font-weight: 400;
+}
+
+.spec-block-details > .value {
+  grid-column: 2;
+  padding: 0 0 2px;
+  color: var(--el-text);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+/* First value of a row lines up with its label and carries the hairline. */
+.spec-block-details > .label + .value {
+  padding-top: 11px;
+  border-top: 1px solid var(--el-border);
+}
+
+/* Last value of a row closes it. */
+.spec-block-details > .value:has(+ br),
+.spec-block-details > .value:has(+ .label),
+.spec-block-details > .value:last-child {
+  padding-bottom: 11px;
+}
+
+/* The block's own top rule replaces the first row's hairline. */
+.spec-block-details > .label:first-child,
+.spec-block-details > .label:first-child + .value {
+  border-top: 0;
+}
+
+@media (max-width: 576px) {
+  .spec-block-details {
+    grid-template-columns: 1fr;
+  }
+
+  .spec-block-details > .label {
+    padding: 10px 0 0;
+  }
+
+  .spec-block-details > .value,
+  .spec-block-details > .label + .value {
+    grid-column: 1;
+    padding-top: 2px;
+    border-top: 0;
+  }
+}
+
 /* Section headings on datasheet pages keep the brand colour, at the same
    size as every other h2. (Plain `## Heading` in the markdown; the plugin
    id class on <html> scopes it to the Datasheets plugin.) */

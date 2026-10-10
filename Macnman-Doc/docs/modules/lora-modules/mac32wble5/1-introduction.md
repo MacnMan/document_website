@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: MAC32WBLE5 Introduction
+title: "MAC32WBLE5 Introduction"
 description: "The MAC32WBLE5 is a compact, ultra-low-power wireless module that combines the long-range communication of LoRaWAN with the short-range versatility of…"
 ---
 
@@ -120,4 +120,7 @@ With its small footprint, robust RF performance, and ultra-low power design, the
 
 > Need help? Reach out at [support@macnman.com](mailto:support@macnman.com) or raise an issue in our [GitHub repo](https://github.com/MacnMan/LoRa_Module_SDK).
 
+## Related Resources
 
+- Product: [MAC32WBLE5 LoRa + BLE module product page](https://www.macnman.com/modules/lora-ble-module-mac32wble5)
+- Help: [Contact Macnman support](/help/help)

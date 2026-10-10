@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: MacRay-ToF Introduction
+title: "MacRay-ToF Introduction"
 description: "Built with a rugged IP67-rated enclosure and high-performance optics, MacRay-LToF supports long-range, high-accuracy sensing up to 6 meters."
 ---
 
@@ -168,3 +168,9 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacRay LToF LoRaWAN Time-of-Flight sensor datasheet](/product/lorawan/sensors/level-sensors/macray-ltof-lorawan-time-of-flight-sensor)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

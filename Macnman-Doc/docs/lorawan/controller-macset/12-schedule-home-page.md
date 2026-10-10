@@ -1,6 +1,6 @@
 ---
 id: macset_lora_Schedule_home_page
-title: Schedule Home Overview
+title: "LoRaWAN® Controller (MacSet) Schedule Home Overview"
 description: "The Schedule Home page offers a user-friendly interface to automate your controller’s relay operations. Here's what you can do:"
 ---
 
@@ -31,3 +31,10 @@ Choose from 3 powerful scheduling modes:
 - Each alarm can have a separate label, type, time, and action
 
 These features allow for flexible automation of pumps, fans, lights, irrigation systems, and more — saving energy, effort, and manual intervention.
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

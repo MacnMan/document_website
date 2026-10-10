@@ -1,0 +1,86 @@
+{
+  "KFODqRhkdAM": {
+    "name": "How to Enable ADR or Set Custom Spreading Factor on RS485 / Analog to LoRaWAN Datalogger with Maya",
+    "description": "In this quick setup tutorial, we show you how to enable Adaptive Data Rate (ADR) or configure a custom Spreading Factor (SF) on the MacSync RS485 / Analog to...",
+    "uploadDate": "2025-09-29T20:55:55-07:00",
+    "duration": "PT0M19S"
+  },
+  "GsWdPMb0IAI": {
+    "name": "How to Regenerate LoRaWAN Security Keys for MacSync RS485 / Analog Datalogger | Maya App",
+    "description": "Learn how to safely regenerate the LoRaWAN security keys (AppKey / NwkKey / AppSKey / DevEUI flow where applicable) for your MacSync RS485 or Analog to LoRaW...",
+    "uploadDate": "2025-09-28T03:08:09-07:00",
+    "duration": "PT0M25S"
+  },
+  "hsxO_2o8zgM": {
+    "name": "How to Get LoRaWAN Keys for Your MacSync RS485 / Analog to LoRaWAN Datalogger | Maya App",
+    "description": "Learn how to securely retrieve the LoRaWAN keys (AppEUI / AppKey / DevEUI or other relevant identities) for your MacSync RS485 or Analog to LoRaWAN datalogge...",
+    "uploadDate": "2025-09-28T02:53:28-07:00",
+    "duration": "PT0M21S"
+  },
+  "YqeQXAaq8ww": {
+    "name": "How to Download Historical Data from MacSync RS485 / Analog to LoRaWAN Datalogger | Quick Setup",
+    "description": "Learn how to quickly download historical data from your MacSync RS485 or Analog to LoRaWAN datalogger using the Maya app. Access past readings and insights f...",
+    "uploadDate": "2025-09-28T02:46:09-07:00",
+    "duration": "PT0M19S"
+  },
+  "Nvs9ieDLXJQ": {
+    "name": "How to Set Up MacSync RS485 to LoRaWAN Datalogger | Configure Uplink Time Easily with Macnman Maya",
+    "description": "Learn step-by-step how to set up your MacSync RS485 to LoRaWAN datalogger and configure the uplink interval for reliable data transmission. In this tutorial,...",
+    "uploadDate": "2025-09-27T23:01:47-07:00",
+    "duration": "PT0M21S"
+  },
+  "NSeZauWw7OI": {
+    "name": "How to Change LoRaWAN Region on Your MacSync RS485 / Analog Datalogger | Maya App",
+    "description": "Learn how to quickly change the LoRaWAN region of your MacSync RS485 or Analog to LoRaWAN datalogger using the Maya app. Adjust your device to the correct fr...",
+    "uploadDate": "2025-09-28T08:05:13-07:00",
+    "duration": "PT0M17S"
+  },
+  "CCfK_WsLU8M": {
+    "name": "How to Rename Your MacSync RS485 / Analog to LoRaWAN Datalogger Using Maya App | Quick Guide",
+    "description": "Learn how to rename your MacSync RS485 or Analog to LoRaWAN datalogger quickly using the Maya app. Keep your devices organized and easily identifiable in you...",
+    "uploadDate": "2025-09-28T02:13:33-07:00",
+    "duration": "PT0M27S"
+  },
+  "mSR3jShFep4": {
+    "name": "How to Set Up a 4–20 mA Sensor on MacSync RS485 / Analog to LoRaWAN Datalogger | Quick Setup",
+    "description": "In this quick setup tutorial, we’ll show you how to connect and configure a 4–20 mA industrial sensor with an RS485 / Analog to LoRaWAN Datalogger.The 4–20 m...",
+    "uploadDate": "2025-09-29T21:08:08-07:00",
+    "duration": "PT0M31S"
+  },
+  "gcN4F24NE9I": {
+    "name": "How to Enable Confirmed Messages on MacSync RS485 / Analog to LoRaWAN Datalogger | Quick Setup",
+    "description": "In this quick setup guide, learn how to enable confirmed messages on your MacSync RS485 / Analog to LoRaWAN Datalogger. Confirmed messages ensure reliable up...",
+    "uploadDate": "2025-09-29T20:51:16-07:00",
+    "duration": "PT0M18S"
+  },
+  "ZBvSJQ9IE5w": {
+    "name": "How to Check LoRaWAN Network Health in MacSync RS485 / Analog to LoRaWAN Converter | with Maya",
+    "description": "Learn how to check the LoRaWAN network health in your MacSync RS485 / Analog to LoRaWAN Converter using the Maya application. 🚀This quick tutorial walks you...",
+    "uploadDate": "2025-10-04T11:50:47-07:00",
+    "duration": "PT0M29S"
+  },
+  "XXWH71r9cRg": {
+    "name": "How to Switch LoRaWAN Class on Your MacSync RS485/Analog to LoRaWAN Datalogger",
+    "description": "Easily switch your MacSync RS485/Analog to LoRaWAN Datalogger between LoRaWAN Classes A, B, and C using the Maya platform. This short guide walks you through...",
+    "uploadDate": "2025-09-28T03:50:37-07:00",
+    "duration": "PT0M23S"
+  },
+  "U1dPMj7pkjo": {
+    "name": "How to Reboot MacSync RS485 / Analog to LoRaWAN Converter | Quick Setup with Maya",
+    "description": "In this tutorial, we’ll show you how to reboot your MacSync RS485 / Analog to LoRaWAN Converter using the Maya application. 🔄Rebooting your device can help ...",
+    "uploadDate": "2025-10-04T11:55:47-07:00",
+    "duration": "PT0M22S"
+  },
+  "LFAA_nfk-gQ": {
+    "name": "How to Reset MacSync RS485 / Analog to LoRaWAN Converter | Quick Setup with Maya",
+    "description": "In this tutorial, we’ll show you how to reset the MacSync RS485 / Analog to LoRaWAN Converter using the Maya application. 🔄Resetting the device clears confi...",
+    "uploadDate": "2025-10-04T11:53:33-07:00",
+    "duration": "PT0M29S"
+  },
+  "8IIWk9jCm1E": {
+    "name": "How to Set Up RS485 Addresses to In MacSync LoRaWAN Datalogger with Maya | Quick Tutorials",
+    "description": "Learn how to configure and manage your MacSync RS485 / Analog Datalogger directly from the Maya platform. In this step-by-step tutorial, we’ll walk you throu...",
+    "uploadDate": "2025-09-30T22:06:15-07:00",
+    "duration": "PT1M13S"
+  }
+}

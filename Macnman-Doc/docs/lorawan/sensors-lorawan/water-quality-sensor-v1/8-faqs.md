@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: Water Quality Sensors FAQs
+title: "Water Quality Sensors FAQs"
 description: "The sensor can measure up to 7 water quality parameters simultaneously, including dissolved oxygen, pH, ORP, conductivity/salinity, turbidity, ammonia…"
 ---
 
@@ -45,3 +45,11 @@ Yes. Data is transmitted to the cloud through LoRaWAN®, and you can view real-t
 This sensor is ideal for aquaculture monitoring, smart city water systems, wastewater treatment plants, irrigation water quality management, and industrial effluent monitoring.
 
 ----
+
+## Related Resources
+
+- Datasheet: [MacSync LWQS X1 LoRaWAN water quality EC sensor datasheet](/product/lorawan/sensors/water-sensors/macsync-l-water-ec-sensor-datasheet)
+- Datasheet: [MacSync LWQS X2 LoRaWAN water pH sensor datasheet](/product/lorawan/sensors/water-sensors/macsync-lorawan-water-ph-sensor)
+- Start of this manual: [Water Quality Sensors Introduction](/lorawan/sensors-lorawan/water-quality-sensor-v1/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: Temperature & Humidity FAQs
+title: "Temperature & Humidity FAQs"
 description: "Temperature & Humidity FAQs — The MacSync-LT1 comes with a high-capacity 19Ah lithium battery, offering up to 10+ years of operation, depending on…"
 ---
 
@@ -49,3 +49,10 @@ With LoRaWAN®, the MacSync-LT1 can communicate over **several kilometers (up to
 
 #### Is the device pre-configured with DevEUI and keys?
 Yes, each MacSync-LT1 is shipped with **pre-flashed DevEUI, AppEUI, and AppKey**, making it ready for plug-and-play deployment.
+
+## Related Resources
+
+- Datasheet: [MacSync LTS X1 LoRaWAN temperature and humidity sensor datasheet](/product/lorawan/sensors/temperature/macsync-lts-x1-datasheet)
+- Start of this manual: [Temperature & Humidity Introduction](/lorawan/sensors-lorawan/temp-humi/macsync_lt1_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

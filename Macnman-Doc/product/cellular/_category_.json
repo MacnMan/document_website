@@ -1,4 +1,10 @@
 {
   "label": "Cellular Products",
-  "position": 3
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Cellular (4G LTE) Product Datasheets",
+    "description": "Datasheets for Macnman 4G LTE cellular products: data loggers, relay controllers, edge gateways and a temperature and humidity sensor.",
+    "slug": "/cellular"
+  }
 }

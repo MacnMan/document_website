@@ -1,8 +1,9 @@
 ---
 id: rs485-analog-to-lorawan-converter-macsync-lx1
-title: RS485 (Modbus RTU) & Analog to LoRaWAN® Datalogger
+title: "MacSync LX1 RS485 to LoRaWAN Datalogger Datasheet"
+sidebar_label: "RS485 (Modbus RTU) & Analog to LoRaWAN® Datalogger"
 sidebar_position: 1
-description: Industrial RS485, 4-20mA, 0-10V and digital input to LoRaWAN® datalogger for remote monitoring, automation and industrial IoT applications.
+description: "MacSync LX1 is an industrial RS485 Modbus RTU, 4-20 mA, 0-10 V and digital input to LoRaWAN datalogger for remote monitoring and industrial IoT."
 keywords:
   - rs485 to lorawan datalogger
   - rs485 to lorawan
@@ -13,51 +14,12 @@ keywords:
   - rs485 lorawan gateway
   - rs485 wireless datalogger
   - industrial rs485 datalogger
-  - rs485 remote monitoring
-  - rs485 telemetry
-  - modbus telemetry
-  - modbus data logger
-  - modbus remote monitoring
-  - modbus energy meter monitoring
   - energy meter to lorawan
   - plc to lorawan
-  - plc remote monitoring
-  - industrial iot datalogger
-  - industrial lorawan datalogger
-  - lorawan data logger
-  - lorawan remote monitoring
-  - lorawan industrial controller
   - analog to lorawan
-  - 4-20ma to lorawan
-  - 0-10v to lorawan
-  - analog input datalogger
-  - process monitoring system
-  - industrial sensor interface
-  - industrial telemetry system
-  - industrial wireless monitoring
-  - factory monitoring system
-  - smart factory monitoring
-  - predictive maintenance monitoring
-  - machine condition monitoring
-  - scada to lorawan
-  - scada remote monitoring
-  - flow meter to lorawan
-  - pressure sensor to lorawan
-  - level sensor to lorawan
-  - water meter to lorawan
-  - industrial automation gateway
-  - industrial data acquisition
-  - remote asset monitoring
-  - utility monitoring system
-  - iiot gateway
-  - iiot datalogger
-  - macsync lx1
-  - macsync
-  - macnman
-
 ---
 
-# MacSync LX1 Industrial RS485 Modbus RTU & Analog to LoRaWAN® Datalogger
+# MacSync LX1 Industrial RS485 Modbus RTU & Analog to LoRaWAN® Datalogger Datasheet
 
 ## Product Overview
 
@@ -240,8 +202,6 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 ---
 
 ## Technical Specifications
-
-
 <div class="device-config-section">
   <div class="device-config-title">RS485 Modbus Input Specifications</div>
   <div class="device-config-table">
@@ -673,7 +633,6 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 ---
 
 ## MacSync LX1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -727,7 +686,6 @@ Whether you need a Modbus RTU to LoRaWAN converter, an industrial analog datalog
 ---
 
 ## What's in the Box?
-
 Make sure box contains following items before installations
 
 - MacSync LX1 Datalogger
@@ -751,7 +709,6 @@ Accessories may not be included in the package and must be purchased separately.
 ---
 
 ## MacSync LX1 Dimensions
-
 The **MacSync LX1 RS485 & Analog to LoRaWAN® Datalogger** features a rugged industrial-grade enclosure engineered for long-term Industrial IoT data acquisition, telemetry, and remote monitoring applications. With compact dimensions of **142 mm × 80 mm × 32 mm**, the device enables easy wall mounting and pole mounting across factories, utility infrastructure, water treatment facilities, energy monitoring systems, environmental monitoring stations, agricultural deployments, and industrial automation projects.
 
 Designed for harsh industrial and outdoor operating environments, the enclosure provides reliable protection against dust, humidity, vibration, and challenging field conditions while maintaining easy access to RS485, analog, digital input, power, and antenna connections.
@@ -759,3 +716,38 @@ Designed for harsh industrial and outdoor operating environments, the enclosure 
 The compact low-profile mechanical design simplifies installation inside control panels, instrumentation cabinets, pump houses, utility enclosures, telemetry stations, and remote monitoring deployments.
 
 ![MacSync LX1 enclosure dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lx1-enclosure-dimensions.webp)
+
+## Frequently Asked Questions
+
+### What is the MacSync LX1 used for?
+
+MacSync LX1 is an industrial RS485 Modbus RTU, 4-20 mA, 0-10 V and digital input to LoRaWAN datalogger for remote monitoring and industrial IoT. Typical applications include Modbus Energy Meter Monitoring, PLC & SCADA Remote Monitoring, Industrial Process Automation, Water & Wastewater Infrastructure, Factory Equipment Monitoring and Building Management Systems (BMS).
+
+### Which signals can the MacSync LX1 read?
+
+The MacSync LX1 reads RS485 Modbus, 4–20 mA, 0–10 V and digital inputs. Each input type is specified in the Technical Specifications section above.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LX1 support?
+
+The MacSync LX1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore.
+
+### What is the IP rating and operating temperature of the MacSync LX1?
+
+The MacSync LX1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LX1 configured?
+
+The MacSync LX1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LX1?
+
+The box contains: MacSync LX1 Datalogger, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [MacSync RS485 and analog datalogger user manual](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger](/product/wifi/dataloggers/macsync-w-power-operated-x-two), [MacSync CX1 4G LTE cellular data logger](/product/cellular/gateways/macsync-cx1-datasheet)
+- Product page: [MacSync LX1 on macnman.com](https://www.macnman.com/lorawan/iodevices/rs485-to-lorawan-converter-macsync-std)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

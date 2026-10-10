@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: MacRay-ToF Specifications
+title: "MacRay-ToF Specifications"
 description: "MacRay-ToF Specifications — Macnman MacRay-ToF: ToF Sensing Specifications, LoRaWAN Wireless Transmission, Power Specifications, Physical Characteristics…"
 ---
 
@@ -263,3 +263,10 @@ description: "MacRay-ToF Specifications — Macnman MacRay-ToF: ToF Sensing Spec
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacRay LToF LoRaWAN Time-of-Flight sensor datasheet](/product/lorawan/sensors/level-sensors/macray-ltof-lorawan-time-of-flight-sensor)
+- Start of this manual: [MacRay-ToF Introduction](/lorawan/sensors-lorawan/macray-tof-v1/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

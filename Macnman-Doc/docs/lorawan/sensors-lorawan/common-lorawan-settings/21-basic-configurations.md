@@ -1,7 +1,7 @@
 ---
 id: maya_configuration_sensors_common
-title: Common Sensor Settings Basic Settings
-description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
+title: "Common Sensor Settings Basic Settings"
+description: "Basic settings shared by Macnman LoRaWAN sensors in the Maya app: device name, heartbeat interval and Reminisce data export."
 ---
 
 ----
@@ -10,7 +10,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to change the device name (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/CCfK_WsLU8M?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -39,7 +39,7 @@ Device names can be **up to 20 characters long**. Use short, meaningful names fo
 #### How to change the device Heartbeat (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/Nvs9ieDLXJQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -68,7 +68,7 @@ A lower heartbeat interval provides more frequent status checks but may increase
 #### How to download the historical data (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/YqeQXAaq8ww?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -94,3 +94,9 @@ The Reminisce feature allows you to retrieve and export historical data stored l
 Useful for offline analysis, compliance, or record-keeping in field deployments.
 
 >Note: External flash memory is optional. Please verify whether your selected variant includes flash memory before placing your order
+
+## Related Resources
+
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Start of this manual: [Common Sensor Settings LED Status](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: Noise Sensor FAQs
+title: "Noise Sensor FAQs"
 description: "Noise Sensor FAQs — The MacSync-LT1 comes with a high-capacity 19Ah lithium battery, offering up to 10+ years of operation, depending on transmission…"
 ---
 
@@ -49,3 +49,10 @@ With LoRaWAN®, the MacSync-LT1 can communicate over **several kilometers (up to
 
 #### Is the device pre-configured with DevEUI and keys?
 Yes, each MacSync-LT1 is shipped with **pre-flashed DevEUI, AppEUI, and AppKey**, making it ready for plug-and-play deployment.
+
+## Related Resources
+
+- Datasheet: [MacSync LNS X1 LoRaWAN outdoor sound level sensor datasheet](/product/lorawan/sensors/other-sensors/macsync-l-n-x-one-sound-level-sensor)
+- Start of this manual: [Noise Sensor Introduction](/lorawan/sensors-lorawan/macsync-noise-sensor/macsynclw6_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

@@ -1,8 +1,9 @@
 ---
 id: macsync-l-seven-in-one-soil-sensor
-title: 7 Multi-Parameter Soil Sensor
+title: "MacSync LSS X5 LoRaWAN 7-in-1 Soil Sensor"
+sidebar_label: "7 Multi-Parameter Soil Sensor"
 sidebar_position: 9
-description: Industrial-grade multi-parameter LoRaWAN soil sensor for monitoring soil moisture, temperature, EC, pH, salinity, and NPK trends in smart agriculture and precision farming applications.
+description: "MacSync LSS X5 is a LoRaWAN 7-in-1 soil sensor measuring moisture, temperature, EC, pH, salinity and NPK trends for smart agriculture."
 keywords:
   - multi parameter lorawan soil sensor
   - macsync lss x5 soil sensor
@@ -10,30 +11,15 @@ keywords:
   - smart agriculture soil sensor
   - soil moisture temperature ec sensor
   - industrial soil monitoring sensor
-  - precision farming soil monitoring system
   - remote soil health monitoring sensor
   - soil npk monitoring sensor
-  - greenhouse soil monitoring device
   - wireless soil sensor lorawan
   - long range agricultural soil sensor
   - soil salinity monitoring sensor
-  - smart irrigation soil sensor
-  - crop monitoring soil sensor
-  - environmental soil monitoring system
-  - macnman soil intelligence sensor
-  - soil analytics lorawan device
-  - industrial grade soil sensor
-  - agricultural iot soil sensor
   - 7 in 1 soil sensor
-  - lorawan npk sensor
-  - soil ec ph moisture sensor
-  - smart farming sensor
-  - agriculture automation sensor
-  - wireless soil fertility sensor
-  - industrial soil probe
 ---
 
-# MacSync LSS X5 LoRaWAN Soil Sensor Datasheet
+# MacSync LSS X5 LoRaWAN® 7-in-1 Soil Sensor Datasheet
 
 ## Product Overview
 
@@ -181,7 +167,6 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 ---
 
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">Soil Sensor Measurement</div>
   <div class="device-config-table">
@@ -592,7 +577,6 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 
 ---
 ## MacSync LSS X5 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -645,7 +629,6 @@ The **MacSync LSS X5 multi-parameter LoRaWAN soil sensor** is ideal for smart ag
 --- 
 
 ## What's in the Box?
-
 Make sure the box contains the following items before installation.
 
 - MacSync LSS X5 Soil Sensor
@@ -665,10 +648,53 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-## MacSync LSS X5 Product Dimensions
-
+## MacSync LSS X5 Dimensions
 The MacSync LSS X5 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. Its compact structure enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
 
-![MacSync L Odor X2 LoRaWAN odor sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/7-multi-parameter-soil-sensor-macsync-lss-x5-dimensions.webp)
+![MacSync LSS X5 dimensions drawing](/img/lorawan/sensors/macsync/7-multi-parameter-soil-sensor-macsync-lss-x5-dimensions.webp)
 
-![MacSync L Odor X2 LoRaWAN odor sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-soil-sensor-dimensions.webp)
+![MacSync LSS X5 dimensions drawing, view 7](/img/lorawan/sensors/macsync/macsync-lss-x5-lorawan-soil-sensor-dimensions.webp)
+
+## Frequently Asked Questions
+
+### What is the MacSync LSS X5 used for?
+
+MacSync LSS X5 is a LoRaWAN 7-in-1 soil sensor measuring moisture, temperature, EC, pH, salinity and NPK trends for smart agriculture. Typical applications include Precision Agriculture & Smart Irrigation, Crop Nutrition & Fertigation Optimization, Greenhouses & Polyhouses, Plantations & Orchards, Vineyards & Wine Cultivation and Forestry & Environmental Research.
+
+### What does the MacSync LSS X5 measure, and how accurately?
+
+Measurement specifications of the MacSync LSS X5:
+
+- Temperature: range -45°C to +115°C, accuracy ±0.5°C, resolution 0.1°C.
+- Moisture: range 0% – 100% VWC, accuracy ±5%, resolution 0.1% RH.
+- pH: range 3 – 9 pH, accuracy ±0.3 pH, resolution 0.1 pH.
+- NPK: range 0 – 1999 mg/kg, accuracy ±2% F.S, resolution 1 mg/kg.
+- EC: range 0 – 10000 µS/cm, accuracy ±3% F.S, resolution 10 µS/cm.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LSS X5 support?
+
+The MacSync LSS X5 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments.
+
+### How long does the MacSync LSS X5 battery last?
+
+The battery-operated MacSync LSS X5 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A solar option adds a 20 W High-Efficiency Solar Panel with an Integrated 8000 mAh Solar Rechargeable Battery.
+
+### What is the IP rating and operating temperature of the MacSync LSS X5?
+
+The MacSync LSS X5 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LSS X5 configured?
+
+The MacSync LSS X5 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LSS X5?
+
+The box contains: MacSync LSS X5 Soil Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [Soil sensor user manual](/lorawan/sensors-lorawan/soil-sensor/macsyncls_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LSS X1 LoRaWAN soil NPK sensor](/product/lorawan/sensors/soil-sensors/macsync-l-npk-sensor-datasheet), [MacSync LSS X2 LoRaWAN soil moisture and temperature sensor](/product/lorawan/sensors/soil-sensors/macsync-l-soil-moisture-sensor-datasheet), [MacSync LSS X3 LoRaWAN soil EC sensor](/product/lorawan/sensors/soil-sensors/macsync-l-soil-ec-sensor-datasheet), [MacSync LSS X4 LoRaWAN soil pH sensor](/product/lorawan/sensors/soil-sensors/macsync-l-soil-ph-sensor-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

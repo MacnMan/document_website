@@ -1,8 +1,9 @@
 ---
 id: macsync_mounting
-title: RS485/Aalog Datalogger (MacSync) Mountings
+title: "RS485/Analog Datalogger (MacSync) Mounting Options"
 description: "RS485/Aalog Datalogger (MacSync) Mountings — Macnman RS485/Aalog Datalogger(MacSync): Wall Mounting, Pole Mounting."
 ---
+
 # MacSync Mounting Options
 
 ## Wall Mounting
@@ -46,3 +47,8 @@ description: "RS485/Aalog Datalogger (MacSync) Mountings — Macnman RS485/Aalog
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

@@ -1,8 +1,9 @@
 ---
 id: macsync_wifi_power_saving_modes
-title: Power Saving Modes
+title: "WiFi Datalogger (MacSync) Power Saving Modes"
 description: "The MacSync Wi-Fi series is engineered for performance and power efficiency. To optimize battery life while maintaining wireless connectivity, MacSync…"
 ---
+
 # Power Saving Modes
 
 The **MacSync Wi-Fi series** is engineered for performance and power efficiency. To optimize battery life while maintaining wireless connectivity, MacSync supports two advanced Wi-Fi power-saving features: **Power Save Mode (PSM)** and **Target Wake Time (TWT)**.
@@ -58,3 +59,10 @@ The **MacSync Wi-Fi series** is engineered for performance and power efficiency.
 - Use **PSM** when compatibility with legacy routers and moderate battery saving is sufficient.
 - Switch to **TWT** when using Wi-Fi 6 infrastructure and aiming for **maximum battery life**.
 - Both modes are available as **toggle switches** in the MacSync configuration panel, allowing easy adaptation per deployment scenario.
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

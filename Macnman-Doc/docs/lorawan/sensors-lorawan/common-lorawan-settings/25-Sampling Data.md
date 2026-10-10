@@ -1,6 +1,6 @@
 ---
 id: maya_sampling_and_uploading_lorawan_common_sensors
-title: Common Sensor Settings Data Sampling & Uploading
+title: "Common Sensor Settings Data Sampling & Uploading"
 description: "Common Sensor Settings Data Sampling & Uploading — Macnman Common Sensor Settings: Data Sampling & Upload Timings, Data Sampling Frequency, How does…"
 ---
 
@@ -20,4 +20,8 @@ description: "Common Sensor Settings Data Sampling & Uploading — Macnman Commo
 
 > This helps reduce network usage and power consumption while preserving detailed sensor trends.
 
+## Related Resources
 
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Start of this manual: [Common Sensor Settings LED Status](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

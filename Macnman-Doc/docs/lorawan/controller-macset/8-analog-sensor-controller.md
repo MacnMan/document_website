@@ -1,6 +1,6 @@
 ---
 id: macsync_analog_configurations
-title: LoRaWAN® Controller (MacSet) Analog Settings
+title: "LoRaWAN® Controller (MacSet) Analog Settings"
 description: "LoRaWAN® Controller (MacSet) Analog Settings — To connect a sensor, first select the appropriate mode — either RS485 or Analog — depending on the sensor…"
 ---
 
@@ -62,3 +62,10 @@ This means you can use **different sensor types** on each channel based on your 
 **04. Check Values**  
 Use the **“Check”** option to verify that the connected sensor is providing correct values.  
 This helps ensure proper wiring, power, and signal compatibility before final deployment.
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

@@ -70,6 +70,13 @@
     display: none !important;
   }
 
+  /* A datasheet's "Download Center" offers this same PDF and a link to
+     GitHub: on paper it is a menu that leads nowhere. */
+  .markdown h2:has(+ .icon-card-grid),
+  .markdown .icon-card-grid {
+    display: none !important;
+  }
+
   /* One full-width column */
   .main-wrapper,
   main,
@@ -218,6 +225,32 @@
   .device-config-row {
     padding: 5pt 0;
     font-size: 9.5pt;
+  }
+
+  .spec-block {
+    margin: 14pt 0 20pt;
+  }
+
+  .spec-block-details {
+    font-size: 9.5pt;
+  }
+
+  .spec-block-details > .label,
+  .spec-block-details > .label + .value {
+    padding-top: 5pt;
+    break-inside: avoid;
+  }
+
+  .spec-block-details > .value:has(+ br),
+  .spec-block-details > .value:has(+ .label),
+  .spec-block-details > .value:last-child {
+    padding-bottom: 5pt;
+  }
+
+  /* Keep a group title with its first rows. */
+  .spec-block-title,
+  .device-config-title {
+    break-after: avoid;
   }
 
   .reusable-feature-grid {

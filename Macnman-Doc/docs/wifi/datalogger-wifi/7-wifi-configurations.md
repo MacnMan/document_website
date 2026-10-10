@@ -1,6 +1,6 @@
 ---
 id: _wifi_conn_configurations
-title: How to Connect Wi-Fi?
+title: "WiFi Datalogger (MacSync) How to Connect to Wi-Fi"
 description: "How to Connect Wi-Fi? — MacSync automatically scans and displays nearby Wi-Fi networks."
 ---
 
@@ -36,3 +36,10 @@ If your Wi-Fi network is hidden or not listed during the scan:
 
 **Select Frequency Band**
 - Choose between **2.4 GHz or 5 GHz**, depending on your network’s configuration.
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

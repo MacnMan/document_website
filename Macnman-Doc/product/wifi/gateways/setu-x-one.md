@@ -1,6 +1,7 @@
 ---
 id: setu-wx-one-datasheet
-title: Ble to WiFi Gateways Setu WX1
+title: "Setu WX1 BLE to Wi-Fi Gateway Datasheet"
+sidebar_label: "Setu WX1"
 sidebar_position: 2
 description: "Setu WX1 is a compact industrial BLE to Wi-Fi gateway that bridges Bluetooth Low Energy devices to local servers and cloud IoT platforms."
 keywords:
@@ -9,27 +10,20 @@ keywords:
   - ble wifi iot gateway
   - indoor ble wifi gateway
   - ble sensor gateway
-  - bluetooth iot gateway
   - ble data aggregation gateway
   - ble device to cloud gateway
-  - wifi ble bridge
   - ble to ip gateway
   - ble mqtt gateway
   - ble http gateway
   - smart building ble gateway
-  - industrial ble wifi gateway
-  - indoor iot connectivity gateway
-  - ble asset tracking gateway
-  - ble occupancy monitoring gateway
-  - healthcare ble gateway
-  - retail ble gateway
-  - edge ble gateway
-  - secure ble wifi gateway
-  - macnman ble gateway
   - setu wx1 ble gateway
 ---
 
-# Setu WX1 Datasheet
+<head>
+  <link rel="canonical" href="https://www.macnman.com/docs/product/ble/gateway/setu-wx-one-datasheet" />
+</head>
+
+# Setu WX1 BLE to Wi-Fi IoT Gateway Datasheet
 
 ## Product Overview
 
@@ -41,9 +35,9 @@ Built for continuous indoor operation, Setu WX1 features a low-power, fanless de
 
 Whether used for asset tracking, occupancy monitoring, environmental sensing, healthcare device integration, or smart building analytics, **Setu WX1 delivers a secure, scalable, and gateway-centric BLE to Wi-Fi connectivity solution** for modern IoT deployments.
 
-| ![Setu LoRaWAN Indoor Gateway Wall Ceiling Installation](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Setu LoRaWAN Indoor Gateway Side View](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
+| ![Setu WX1 BLE to Wi-Fi gateway installation view](/img/lorawan/gateways/setu-lorawan-indoor-gateway-wall-ceiling-installation.webp) | ![Setu WX1 BLE to Wi-Fi gateway side view](/img/lorawan/gateways/setu-lorawan-indoor-gateway-side-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Setu LoRaWAN Indoor Gateway Front View](/img/lorawan/gateways/setu-lorawan-indoor-gateway-front-view.webp) | ![Setu LoRaWAN Indoor Gateway Dimensions Drawing](/img/lorawan/gateways/setu-lorawan-indoor-gateway-dimensions-drawing.webp) |
+| ![Setu WX1 BLE to Wi-Fi gateway front view](/img/lorawan/gateways/setu-lorawan-indoor-gateway-front-view.webp) | ![Setu WX1 dimensions drawing](/img/lorawan/gateways/setu-lorawan-indoor-gateway-dimensions-drawing.webp) |
 
 
 <div class="faint-line"></div>
@@ -51,13 +45,12 @@ Whether used for asset tracking, occupancy monitoring, environmental sensing, he
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/setu-wx1-ble-to-wifi-gateway-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -184,8 +177,7 @@ Whether used for asset tracking, occupancy monitoring, environmental sensing, he
 <div class="faint-line"></div>
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -474,8 +466,7 @@ Whether used for asset tracking, occupancy monitoring, environmental sensing, he
 </div>
 
 
-##  Setu WX1 Variants
-
+## Setu WX1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -516,11 +507,10 @@ Whether used for asset tracking, occupancy monitoring, environmental sensing, he
 </table>
 
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![Setu LoRaWAN Indoor Gateway Image Boxs](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-boxs.svg)
+![What's in the box: Setu WX1 package contents](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-boxs.svg)
 
 :::note
 
@@ -529,7 +519,35 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## Setu WX1 Dimensions
+![Setu WX1 dimensions drawing, view 6](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-dimensions.svg)
 
-![Setu LoRaWAN Indoor Gateway Image Dimensions](/img/lorawan/gateways/setu-lorawan-indoor-gateway-image-dimensions.svg)
+## Frequently Asked Questions
 
+### What is the Setu WX1 used for?
+
+Setu WX1 is a compact industrial BLE to Wi-Fi gateway that bridges Bluetooth Low Energy devices to local servers and cloud IoT platforms. Typical applications include Smart Buildings & Offices, Hospitals & Healthcare Facilities, Retail & Shopping Centers, Hotels & Hospitality Spaces, Smart Campuses & Educational Institutions and Industrial & Factory Interiors.
+
+### Which BLE devices does the Setu WX1 work with?
+
+The Setu WX1 supports Bluetooth Low Energy (BLE) 5.0 / 5.1 and collects data from BLE Sensors, Beacons, Tags, Wearables, Edge Devices. It forwards data using MQTT, HTTP, HTTPS, TCP/IP. Indoor BLE range: Up to 30–50 meters (Environment Dependent).
+
+### Which backhaul options does the Setu WX1 have?
+
+The Setu WX1 offers Ethernet, Wi-Fi and cellular LTE (optional) backhaul. Cellular bands: B1 / B3 / B5 / B7 / B8 / B20 / B28.
+
+### How is the Setu WX1 powered?
+
+The Setu WX1 is powered from PoE IEEE 802.3af / 802.3at or 12–24 V DC. Typical power consumption is 4.5 W (with Ethernet Backhaul), with a peak of up to 7 W (with LTE & Wi‑Fi Active).
+
+### What is the IP rating and operating temperature of the Setu WX1?
+
+The Setu WX1 has an ingress protection rating of IP35 and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### Which cloud platforms does the Setu WX1 work with?
+
+The Setu WX1 can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud IoT (via MQTT / HTTP), Custom IoT Platforms. Integration methods: REST APIs, Webhooks, MQTT Topics.
+
+## Related Products and Resources
+
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

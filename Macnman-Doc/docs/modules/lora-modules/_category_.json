@@ -1,9 +1,9 @@
 {
-  "label": "LoRa/LoRaWANModules",
-  "position": 1
-  ,
+  "label": "LoRa/LoRaWAN Modules",
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "From basics to deployment — full documentation for Macnman’s LoRa communication modules."
+    "description": "From basics to deployment — full documentation for Macnman’s LoRa communication modules.",
+    "slug": "/category/loralorawanmodules"
   }
 }

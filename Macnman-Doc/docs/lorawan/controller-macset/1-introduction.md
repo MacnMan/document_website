@@ -1,6 +1,6 @@
 ---
 id: macset_lorawan_introduction
-title: LoRaWAN® Controller (MacSet) Introduction
+title: "LoRaWAN® Controller (MacSet) Introduction"
 description: "Ideal for smart agriculture, industrial automation, water management, smart buildings, and smart cities, MacSet allows users to monitor and control…"
 ---
 
@@ -188,3 +188,9 @@ Below are key technical terms and identifiers relevant for configuring and opera
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Help: [Contact Macnman support](/help/help)

@@ -1,42 +1,25 @@
 ---
 id: macsync-lorawan-rtd-sensor-x-series
-title: RTD Temperature Sensor
+title: "MacSync LRTD X1 LoRaWAN RTD Temperature Sensor"
+sidebar_label: "RTD Temperature Sensor"
 sidebar_position: 3
-description: MacSync LRTD X1 LoRaWAN RTD Temperature Sensor for industrial PT100 temperature monitoring with long-range wireless connectivity, high-accuracy sensing, IP67 rugged enclosure, and low-power IoT architecture.
+description: "MacSync LRTD X1 is a LoRaWAN RTD (PT100) temperature sensor for high-accuracy industrial temperature monitoring, with an IP67 enclosure and low power use."
 keywords:
   - lorawan rtd temperature sensor
   - lorawan pt100 temperature sensor
   - pt100 lorawan sensor
   - industrial lorawan temperature sensor
   - wireless rtd temperature sensor
-  - industrial pt100 temperature transmitter
   - remote temperature monitoring sensor
   - lorawan industrial temperature monitoring
-  - smart factory temperature monitoring
   - predictive maintenance temperature sensor
   - pipeline temperature monitoring sensor
   - boiler temperature monitoring lorawan
   - furnace temperature monitoring sensor
-  - industrial iot temperature sensor
-  - wireless process temperature monitoring
   - battery powered lorawan temperature sensor
-  - ip67 industrial temperature sensor
-  - rugged outdoor temperature monitoring sensor
-  - chemical plant temperature monitoring
-  - cold chain temperature monitoring lorawan
-  - food industry temperature monitoring sensor
-  - pharma temperature monitoring system
-  - scada compatible temperature sensor
-  - industrial automation temperature sensor
-  - long range wireless temperature sensor
-  - low power lorawan temperature transmitter
-  - industrial wireless pt100 monitoring
-  - high accuracy rtd sensor
-  - pt100 remote monitoring device
-  - industrial thermal monitoring sensor
 ---
 
-# MacSync LRTD X1 LoRaWAN® RTD Temperature Sensor
+# MacSync LRTD X1 LoRaWAN® RTD Temperature Sensor Datasheet
 
 
 ## Product Overview
@@ -567,9 +550,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 
 ---
 
-## MacSync-L-RTD Variants
-
-
+## MacSync LRTD X1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -621,8 +602,7 @@ From predictive maintenance and industrial process monitoring to cold-chain comp
 
 --- 
 
-## What's in the Box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 - MacSync LRTD X1
@@ -633,7 +613,7 @@ Make sure box contains following items before installations
 - Mounting Screws 
 - Power Adapters *
 
-![MacSync LPS Xx LoRaWAN Pressure Transducer What's Included in the Box](/img/datalogger/whatsbox.svg)
+![What's in the box: MacSync LRTD X1 package contents](/img/datalogger/whatsbox.svg)
 
 :::note
 
@@ -642,9 +622,46 @@ not be included in the box.
 
 :::
 
-##  MacSync LRTD X1 Dimensions
-
+## MacSync LRTD X1 Dimensions
 The MacSync LRTD X1 features a compact industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across factories, process plants, pipelines, cold-chain infrastructure, industrial automation systems, and outdoor Industrial IoT deployments.
 
 ![MacSync LRTD X1 LoRaWAN RTD Temperature Sensor device dimensions for industrial PT100 temperature monitoring applications](/img/lorawan/sensors/macsync/macsync-lrtd-x1-lorawan-rtd-temperature-sensor-device-dimensions.webp)
 
+## Frequently Asked Questions
+
+### What is the MacSync LRTD X1 used for?
+
+MacSync LRTD X1 is a LoRaWAN RTD (PT100) temperature sensor for high-accuracy industrial temperature monitoring, with an IP67 enclosure and low power use. Typical applications include Industrial Process Temperature Monitoring, Predictive Maintenance for Motors & Pumps, Boiler, Furnace & Industrial Heater Monitoring, Cold-Chain & Refrigeration Temperature Monitoring, HVAC & Smart Building Automation and Oil, Gas & Pipeline Temperature Monitoring.
+
+### What does the MacSync LRTD X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LRTD X1:
+
+- RTD Temperature: range –200 °C to +850 °C, accuracy ±0.2 °C (Typical), resolution 0.1 °C.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LRTD X1 support?
+
+The MacSync LRTD X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, Direct PLC On-Prem Installations.
+
+### How long does the MacSync LRTD X1 battery last?
+
+The battery-operated MacSync LRTD X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LRTD X1?
+
+The MacSync LRTD X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync LRTD X1 configured?
+
+The MacSync LRTD X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LRTD X1?
+
+The box contains: MacSync LRTD X1, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync-WRTDX2 Wi-Fi RTD PT100 temperature sensor](/product/wifi/sensors/temperature/macsync-wifi-rtd-sensor-x-series), [MacSync LNCT Xx LoRaWAN non-contact infrared temperature sensor](/product/lorawan/sensors/temperature/macsync-l-nc-x-one-datasheet), [Narmada TSX1 compact LoRaWAN temperature and humidity sensor](/product/lorawan/sensors/temperature/narmada-tsx1-lorawan-temperature-humidity-sensor-datasheet), [MacSync LTS X1 LoRaWAN temperature and humidity sensor](/product/lorawan/sensors/temperature/macsync-lts-x1-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

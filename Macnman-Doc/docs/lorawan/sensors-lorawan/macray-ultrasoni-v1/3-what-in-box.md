@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-box-contain
-title: MacRay-Ultrasonic What's in the Box ?
+title: "MacRay-Ultrasonic What's in the Box?"
 description: "MacRay-Ultrasonic What's in the Box? — Make sure box contains following items before installations"
 ---
 
@@ -18,3 +18,9 @@ not be included in the box.
 
 :::
 
+## Related Resources
+
+- Datasheet: [MacRay LUS X1 LoRaWAN ultrasonic level sensor datasheet](/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one)
+- Start of this manual: [MacRay-Ultrasonic Introduction](/lorawan/sensors-lorawan/macray-ultrasoni-v1/MacRayls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

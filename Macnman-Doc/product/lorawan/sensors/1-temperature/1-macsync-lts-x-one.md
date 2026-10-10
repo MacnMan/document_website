@@ -1,42 +1,25 @@
 ---
 id: macsync-lts-x1-datasheet
-title: Outdoor TH Sensor
+title: "MacSync LTS X1 LoRaWAN Temperature Humidity Sensor"
+sidebar_label: "Outdoor TH Sensor"
 sidebar_position: 1
-description: Industrial LoRaWAN® temperature humidity sensor for wireless environmental monitoring, smart agriculture, HVAC, cold chain, and industrial IoT applications.
+description: "MacSync LTS X1 is an industrial LoRaWAN temperature and humidity sensor for outdoor environmental monitoring, smart agriculture, HVAC and cold chain."
 keywords:
   - lorawan temperature sensor
   - lorawan humidity sensor
   - lorawan pressure sensor
-  - industrial environmental sensor
-  - smart agriculture sensor
-  - lorawan weather monitoring
-  - cold chain monitoring sensor
-  - greenhouse automation sensor
-  - hvac monitoring device
-  - environmental data logger
-  - long range wireless sensor
   - battery powered lorawan sensor
-  - macsync
-  - macnman
-  - industrial iot monitoring
   - lorawan climate sensor
-  - barometric pressure tracking
-  - smart city iot sensor
-  - outdoor rugged lorawan device
   - ip67 lorawan sensor
   - lorawan temperature humidity sensor
   - wireless temperature humidity sensor
   - industrial lorawan temperature sensor
-  - lorawan environmental sensor
   - temperature humidity monitoring sensor
-  - wireless climate monitoring sensor
   - smart agriculture temperature humidity sensor
-  - industrial humidity monitoring system
-  - lorawan rh sensor
   - battery powered temperature humidity sensor
 ---
 
-# MacSync-L-TH LoRaWAN® Temperature Humidity Sensor
+# MacSync LTS X1 LoRaWAN® Temperature & Humidity Sensor Datasheet
 
 ## Product Overview
 
@@ -218,8 +201,7 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 
 --- 
 
-## Technical Specifications 
-
+## Technical Specifications
 <div class="device-config-section">
   <div class="device-config-title">Temperature Measurement</div>
   <div class="device-config-table">
@@ -635,7 +617,6 @@ Whether you are deploying a **smart agriculture temperature humidity sensor**, a
 ---
 
 ## What's in the Box?
-
 Make sure box contains following items before installations
 
 - MacSync-L-TH Sensor
@@ -658,10 +639,49 @@ Accessories may not be included in the package and must be purchased separately.
 
 ---
 
-##  MacSync-L-TH Dimensions
-
+## MacSync LTS X1 Dimensions
 The MacSync-L-TH features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across warehouses, cold storage facilities, smart agriculture deployments, industrial environments, and outdoor IoT monitoring infrastructure.
 
 ![MacSync-L-TH LoRaWAN temperature humidity sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
 
+## Frequently Asked Questions
 
+### What is the MacSync LTS X1 used for?
+
+MacSync LTS X1 is an industrial LoRaWAN temperature and humidity sensor for outdoor environmental monitoring, smart agriculture, HVAC and cold chain. Typical applications include Smart Agriculture & Greenhouses, Cold Chain Monitoring, Warehouse Environmental Monitoring, HVAC & Smart Buildings, Industrial IoT Monitoring and Pharmaceutical Storage Monitoring.
+
+### What does the MacSync LTS X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LTS X1:
+
+- Temperature: range -30°C to +70°C, accuracy 0°C to +70°C: ±0.3°C & -30°C to 0°C: ±0.6°C, resolution 0.1°C.
+- Humidity: range 0% to 100% RH, accuracy 10% to 90% RH: ±3% RH & &lt;10% or &gt;90% RH: ±5% RH, resolution 0.5% RH.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LTS X1 support?
+
+The MacSync LTS X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations.
+
+### How long does the MacSync LTS X1 battery last?
+
+The battery-operated MacSync LTS X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LTS X1?
+
+The MacSync LTS X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LTS X1 configured?
+
+The MacSync LTS X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LTS X1?
+
+The box contains: MacSync-L-TH Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [Temperature and humidity sensor user manual](/lorawan/sensors-lorawan/temp-humi/macsync_lt1_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync-WT1 Wi-Fi temperature and humidity sensor](/product/wifi/sensors/temperature/macsync-wt-one-datasheet), [MacSync LRTD X1 LoRaWAN RTD temperature sensor](/product/lorawan/sensors/temperature/macsync-lorawan-rtd-sensor-x-series), [MacSync LNCT Xx LoRaWAN non-contact infrared temperature sensor](/product/lorawan/sensors/temperature/macsync-l-nc-x-one-datasheet), [Narmada TSX1 compact LoRaWAN temperature and humidity sensor](/product/lorawan/sensors/temperature/narmada-tsx1-lorawan-temperature-humidity-sensor-datasheet)
+- Product page: [MacSync LTS X1 on macnman.com](https://www.macnman.com/lorawan/sensors/lorawan-industrial-temperature-humidity-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

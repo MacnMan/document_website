@@ -1,5 +1,10 @@
 {
   "label": "Gas Sensors",
-  "position": 3
-  
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Gas & Odor Sensor Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN gas sensors: CO2, H2S, NH3 odor, oxygen and ethylene sensors for air quality, safety and odor monitoring.",
+    "slug": "/lorawan/sensors/environmental-sensors"
+  }
 }

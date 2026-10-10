@@ -1,8 +1,9 @@
 ---
 id: macsync-lh2s-x1-datasheet
-title: H₂S Sensor
+title: "MacSync LH2S X1 LoRaWAN H2S Gas Sensor Datasheet"
+sidebar_label: "H₂S Sensor"
 sidebar_position: 1
-description: Industrial LoRaWAN® H2S sensor for continuous hydrogen sulfide gas monitoring in STP, WWTP, sewers, oil & gas facilities, confined spaces, and industrial safety applications.
+description: "MacSync LH2S X1 is an industrial LoRaWAN H2S sensor for continuous hydrogen sulfide monitoring in STP, WWTP, sewers, oil and gas sites and confined spaces."
 
 keywords:
 
@@ -11,36 +12,16 @@ keywords:
   - lorawan hydrogen sulfide sensor
   - lorawan toxic gas sensor
   - h2s gas monitoring sensor
-  - industrial h2s sensor
   - lorawan h2s ppm sensor
-  - electrochemical h2s sensor
-  - wireless h2s monitoring system
-  - industrial gas monitoring sensor
-  - stp h2s monitoring sensor
   - wastewater h2s sensor lorawan
-  - wwtp h2s gas monitoring
-  - sewer gas monitoring sensor
-  - confined space h2s monitoring
-  - toxic gas detection sensor
-  - industrial safety h2s sensor
-  - oil and gas h2s monitoring
-  - landfill h2s monitoring sensor
-  - battery powered h2s sensor
   - low power lorawan h2s sensor
-  - outdoor h2s monitoring device
-  - hazardous gas monitoring lorawan
   - ppm gas sensor lorawan
-  - real time h2s monitoring
-  - remote h2s monitoring system
-  - smart city gas monitoring sensor
-  - environmental h2s monitoring
-  - lorawan gas leakage detection
   - macsync h2s sensor
   - macsync lh2s x1
   - macnman lorawan gas sensor
 ---
 
-# MacSync LH2S X1 LoRaWAN H₂S Gas Monitoring Sensor Datasheet
+# MacSync LH2S X1 LoRaWAN® H₂S Gas Monitoring Sensor Datasheet
 
 ## Product Overview
 
@@ -577,7 +558,6 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 ---
 
 ## MacSync LH2S X1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -628,8 +608,7 @@ Whether deployed for **STP & WWTP safety monitoring, sewer gas detection, confin
 </table>
 
 --- 
-## What's in the Box ?
-
+## What's in the Box?
 Make sure the box contains the following items before installation.
 
 - MacSync L H2S X1 Sensor
@@ -649,12 +628,46 @@ Accessories marked with * must be purchased separately and may not be included i
 
 ---
 
-## MacSync LH2S X1 Product Dimensions
-
+## MacSync LH2S X1 Dimensions
 The MacSync LH2S X1 features a compact industrial-grade enclosure with overall dimensions of **166 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across industrial facilities, wastewater infrastructure, sewer monitoring deployments, and hazardous gas monitoring environments.
 
 ![MacSync LH2S X1 LoRaWAN H2S sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lh2s-x1-lorawan-h2s-sensor-dimensions.webp)
 
+## Frequently Asked Questions
 
+### What is the MacSync LH2S X1 used for?
 
+MacSync LH2S X1 is an industrial LoRaWAN H2S sensor for continuous hydrogen sulfide monitoring in STP, WWTP, sewers, oil and gas sites and confined spaces. Typical applications include Sewage Treatment Plants (STP), Wastewater Treatment Plants (WWTP), Sewer Networks & Pumping Stations, Confined Space Worker Safety, Oil & Gas Infrastructure and Chemical & Industrial Manufacturing Plants.
 
+### What does the MacSync LH2S X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LH2S X1:
+
+- H₂S: range 0 to 100 ppm, resolution 0.1 ppm.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LH2S X1 support?
+
+The MacSync LH2S X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations.
+
+### How long does the MacSync LH2S X1 battery last?
+
+The battery-operated MacSync LH2S X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9 ~ 36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LH2S X1?
+
+The MacSync LH2S X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LH2S X1 configured?
+
+The MacSync LH2S X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LH2S X1?
+
+The box contains: MacSync L H2S X1 Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LCO2 X1 LoRaWAN CO2 sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-co2-xx-datasheet), [MacSync L Odor X2 LoRaWAN NH3 and H2S odor sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x2), [MacSync LOXGS X1 LoRaWAN oxygen sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-oxygen-sensor-x-one), [MacSync LC2H4 X1 LoRaWAN ethylene sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-c2h4-sensor-x-one)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

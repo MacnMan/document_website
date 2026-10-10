@@ -1,48 +1,27 @@
 ---
 id: macsync-l-co2-xx-datasheet
-title: Outdoor CO₂ Sensor
+title: "MacSync LCO2 X1 LoRaWAN CO2 Sensor Datasheet"
+sidebar_label: "Outdoor CO₂ Sensor"
 sidebar_position: 1
 
-description: Industrial LoRaWAN® CO2 sensor for real-time indoor air quality monitoring, HVAC automation, smart buildings, classrooms, offices, hospitals, warehouses, and industrial environmental monitoring applications.
+description: "MacSync LCO2 X1 is an industrial LoRaWAN CO2 sensor that monitors carbon dioxide, temperature and humidity for indoor air quality and HVAC automation."
 
 keywords:
   - lorawan co2 sensor
   - lorawan carbon dioxide sensor
   - wireless co2 sensor
   - industrial co2 sensor
-  - indoor air quality sensor
   - lorawan indoor air quality sensor
   - co2 monitoring sensor
-  - smart building co2 monitoring
   - hvac co2 monitoring sensor
   - classroom co2 sensor
-  - office air quality monitoring sensor
-  - wireless indoor air quality sensor
   - ndir co2 sensor lorawan
-  - co2 temperature humidity sensor
-  - battery powered co2 sensor
-  - long range wireless co2 sensor
-  - industrial indoor air quality monitoring
-  - smart city air quality monitoring sensor
-  - real time co2 monitoring
-  - co2 ppm monitoring sensor
-  - occupancy based ventilation monitoring
-  - environmental monitoring sensor
-  - warehouse air quality monitoring
-  - hospital air quality monitoring sensor
-  - lorawan environmental sensor
-  - co2 monitoring for bms integration
-  - mqtt co2 monitoring sensor
-  - classroom ventilation monitoring
-  - smart office co2 sensor
-  - low power co2 sensor
-  - indoor environmental monitoring sensor
   - macsync co2 sensor
   - MacSync LCO2 X1
   - macnman lorawan co2 sensor
 ---
 
-# MacSync LCO2 X1 LoRaWAN CO₂ Sensor Datasheet
+# MacSync LCO2 X1 LoRaWAN® CO₂ Sensor Datasheet
 
 ## Product Overview
 
@@ -216,7 +195,6 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
 ---
 
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">CO₂ Measurement (Model X1)</div>
   <div class="device-config-table">
@@ -682,7 +660,6 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
 
 ---
 ## MacSync LCO2 X1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -780,8 +757,7 @@ Whether deployed for **smart building automation, HVAC optimization, indoor air 
 
 --- 
 
-## What's in the Box ?
-
+## What's in the Box?
 Make sure the box contains the following items before installation.
 
 - MacSync LCO2 X1 Sensor
@@ -801,9 +777,51 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-## MacSync LCO2 X1 Product Dimensions
-
+## MacSync LCO2 X1 Dimensions
 The MacSync LCO2 X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart buildings, offices, hospitals, classrooms, warehouses, commercial facilities, and indoor environmental monitoring deployments.
 
 ![MacSync LCO2 X1 LoRaWAN CO2 sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
 
+## Frequently Asked Questions
+
+### What is the MacSync LCO2 X1 used for?
+
+MacSync LCO2 X1 is an industrial LoRaWAN CO2 sensor that monitors carbon dioxide, temperature and humidity for indoor air quality and HVAC automation. Typical applications include Smart Building Indoor Air Quality Monitoring, Schools & Educational Institutions, HVAC Automation & Energy Optimization, Hospitals & Healthcare Facilities, Factories & Industrial Workspaces and Warehouses & Logistics Facilities.
+
+### What does the MacSync LCO2 X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LCO2 X1:
+
+- CO₂ (Model X1): range 400 ppm ~ 2,000 ppm, accuracy ± (50 ppm + 5% of reading).
+- CO₂ (Model X2): range 400 ppm ~ 5,000 ppm, accuracy ± (50 ppm + 5% of reading).
+- Temperature: range -30°C to +70°C, accuracy 0°C to +70°C: ±0.3°C & -30°C to 0°C: ±0.6°C, resolution 0.1°C.
+- Humidity: range 0% ~ 100% RH, accuracy 10% to 90% RH: ±3% RH & &lt;10% or &gt;90% RH: ±5% RH, resolution 0.5% RH.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LCO2 X1 support?
+
+The MacSync LCO2 X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments.
+
+### How long does the MacSync LCO2 X1 battery last?
+
+The battery-operated MacSync LCO2 X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9 ~ 36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LCO2 X1?
+
+The MacSync LCO2 X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LCO2 X1 configured?
+
+The MacSync LCO2 X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LCO2 X1?
+
+The box contains: MacSync LCO2 X1 Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [CO2 sensor user manual](/lorawan/sensors-lorawan/co-sensor/macsynclco21_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync-WCO2X Wi-Fi CO2 indoor air quality sensor](/product/wifi/sensors/environmental-sensors/macsync-w-co-2-sensors), [MacSync L Odor X2 LoRaWAN NH3 and H2S odor sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x2), [MacSync LOXGS X1 LoRaWAN oxygen sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-oxygen-sensor-x-one), [MacSync LC2H4 X1 LoRaWAN ethylene sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-c2h4-sensor-x-one)
+- Product page: [MacSync LCO2 X1 on macnman.com](https://www.macnman.com/lorawan/sensors/lorawan-co2-temperature-humidity-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

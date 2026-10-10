@@ -109,7 +109,9 @@ const config: Config = {
   organizationName: 'MacnMan',
   projectName: 'document_website',
 
-  onBrokenLinks: 'warn',
+  // A broken internal link stops the build, so it is fixed before it ships
+  // rather than found by a reader. (The site built clean when this was set.)
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -149,6 +151,12 @@ const config: Config = {
             require.resolve('./src/css/home-mobile.css'),
           ],
         },
+        // The same Tag Manager container as the main website, which serves
+        // this site under www.macnman.com/docs, so both report into one
+        // property. Docusaurus only adds it to production builds.
+        googleTagManager: {
+          containerId: 'GTM-5738FKJ6',
+        },
         sitemap: {
           // Real modification dates (from git) instead of a fixed weekly
           // changefreq; Google ignores changefreq/priority.
@@ -179,6 +187,10 @@ const config: Config = {
             // "Coming soon" placeholder, noindexed until it has real content.
             '/docs/4gcellular/macsync_4g_introduction',
             '/docs/modules/ble-modules/introduction',
+            // The same datasheet listed under a second category; its canonical
+            // points at the first copy (see the <head> in those two files).
+            '/docs/product/custom/custom-products/setu-scx-single-channel-datasheet',
+            '/docs/product/wifi/gateways/setu-wx-one-datasheet',
           ],
         },
       } satisfies Preset.Options,

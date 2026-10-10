@@ -1,8 +1,9 @@
 ---
 id: gas-meter-module-version-one
-title: MeterLink Gen1 – LoRaWAN Retrofit Gas Meter Module
+title: "MeterLink Gen1 LoRaWAN Gas Meter Module Datasheet"
+sidebar_label: "MeterLink Gen1"
 sidebar_position: 1
-description: LoRaWAN-based retrofit gas meter module for smart gas metering, prepaid billing, and remote shutoff without replacing existing mechanical meters.
+description: "MeterLink Gen1 is a LoRaWAN retrofit gas meter module for smart gas metering, prepaid billing and remote shutoff without replacing mechanical meters."
 keywords:
   - lorawan retrofit gas meter
   - smart gas meter retrofit module
@@ -16,10 +17,9 @@ keywords:
   - automatic gas shutoff valve iot
   - legacy gas meter digital conversion
   - low power gas meter lorawan
-  - scalable smart gas metering solution
 ---
 
-# MeterLink Gen1 Datasheet
+# MeterLink Gen1 LoRaWAN® Retrofit Gas Meter Module Datasheet
 
 ## Product Overview
 
@@ -32,9 +32,9 @@ MeterLink Gen1 supports **prepaid gas metering**, allowing remote credit recharg
 Optimized for **low‑power, long‑life field operation**, MeterLink Gen1 enables large‑scale smart gas metering rollouts with minimal installation effort and reduced CAPEX. It is an ideal retrofit solution for utilities upgrading legacy gas infrastructure to scalable, secure, and future‑ready IoT‑based smart metering systems.
 
 
-| ![LoRaWAN Gas Meter Retrofit Module Front View](/img/otherProducts/lorawan-gas-meter-retrofit-module-front-view.webp) | ![LoRaWAN Gas Meter Retrofit Module Installed On Gas Meter](/img/otherProducts/lorawan-gas-meter-retrofit-module-installed-on-gas-meter.webp) |
+| ![MeterLink Gen1 LoRaWAN retrofit gas meter module front view](/img/otherProducts/lorawan-gas-meter-retrofit-module-front-view.webp) | ![LoRaWAN Gas Meter Retrofit Module Installed On Gas Meter](/img/otherProducts/lorawan-gas-meter-retrofit-module-installed-on-gas-meter.webp) |
 |--------------------------------|--------------------------------|
-| ![LoRaWAN Gas Meter Retrofit Module Side View](/img/otherProducts/lorawan-gas-meter-retrofit-module-side-view.webp) | ![LoRaWAN Gas Meter Retrofit Module Top Antenna View](/img/otherProducts/lorawan-gas-meter-retrofit-module-top-antenna-view.webp) |
+| ![MeterLink Gen1 LoRaWAN retrofit gas meter module side view](/img/otherProducts/lorawan-gas-meter-retrofit-module-side-view.webp) | ![MeterLink Gen1 LoRaWAN retrofit gas meter module top view](/img/otherProducts/lorawan-gas-meter-retrofit-module-top-antenna-view.webp) |
 
 
 <div class="faint-line"></div>
@@ -216,8 +216,7 @@ Optimized for **low‑power, long‑life field operation**, MeterLink Gen1 enabl
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -482,8 +481,7 @@ Optimized for **low‑power, long‑life field operation**, MeterLink Gen1 enabl
 </div>
 
 
-##  MacLink Gen-2 Variants
-
+## MeterLink Gen1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -548,11 +546,10 @@ Optimized for **low‑power, long‑life field operation**, MeterLink Gen1 enabl
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![MacLink What Is In The Box Image](/img/lorawan/gateways/maclink-what-is-in-the-box-image.svg)
+![What's in the box: MeterLink Gen1 package contents](/img/lorawan/gateways/maclink-what-is-in-the-box-image.svg)
 
 :::note
 
@@ -561,7 +558,10 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MeterLink Gen1 Dimensions
+![MeterLink Gen1 dimensions drawing](/img/lorawan/gateways/maclink-gen-two-dimensions.svg)
 
-![MacLink Gen Two Dimensions](/img/lorawan/gateways/maclink-gen-two-dimensions.svg)
+## Related Products and Resources
 
+- Related datasheets: [Setu SCX single-channel indoor LoRa gateway](/product/lorawan/gateways/setu-scx-single-channel-datasheet), [Mini Doer Gen-1 BLE smart relay scheduler](/product/custom/custom-products/mini-ble-wifi-relay-controller), [Smart HMI X1 Wi-Fi and BLE industrial HMI controller](/product/custom/custom-products/ble-wifi-based-hmi-controller-x-one)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

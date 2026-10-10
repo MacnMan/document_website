@@ -1,6 +1,6 @@
 ---
 id: macsync_wifi_remote_configure
-title: WiFi Datalogger Remote Device Configuration
+title: "WiFi Datalogger (MacSync) Remote Device Configuration"
 description: "WiFi Datalogger Remote Device Configuration — Macnman WiFi Datalogger (MacSync): Data Types, Payload Structure, One-Time Modbus Register Read, One-Time…"
 ---
 
@@ -196,3 +196,10 @@ Use FPort = 13
     "value": 65280
 }
 ```
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

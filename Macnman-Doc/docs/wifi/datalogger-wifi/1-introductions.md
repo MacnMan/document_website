@@ -1,6 +1,6 @@
 ---
 id: macsync_rs485_wifi_introduction
-title: WiFi Datalogger (MacSync) Introduction
+title: "WiFi Datalogger (MacSync) Introduction"
 description: "Configuration is quick and user-friendly using the Macnman Maya App, which leverages Bluetooth Low Energy (BLE)."
 ---
 
@@ -193,3 +193,9 @@ Below are key technical terms and identifiers relevant for configuring and opera
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Help: [Contact Macnman support](/help/help)

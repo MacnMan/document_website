@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: Weather Station FAQs
+title: "Weather Station FAQs"
 description: "MacSync-LSW6 comes with a solar-powered system and internal backup battery, enabling long-term, maintenance-free operation even in remote or off-grid…"
 ---
 
@@ -48,3 +48,10 @@ Absolutely. It is fully compatible with **The Things Network (TTN), ChirpStack, 
 
 #### Does the sensor support local data buffering?
 Yes. In case of temporary network issues, **optional onboard data buffering** ensures no critical measurements are lost.
+
+## Related Resources
+
+- Datasheet: [MacSync LWS X2 LoRaWAN 6-in-1 weather station datasheet](/product/lorawan/sensors/weather-stations/macsync-l-six-in-one-weather-station-x-six)
+- Start of this manual: [Weather Station Introduction](/lorawan/sensors-lorawan/weather-station6in1/macsynclw6_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

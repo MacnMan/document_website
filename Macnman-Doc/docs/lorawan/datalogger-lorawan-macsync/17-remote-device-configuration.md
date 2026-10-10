@@ -1,6 +1,6 @@
 ---
 id: macsync_payload_structure
-title: Configuration using Server
+title: "RS485/Analog Datalogger (MacSync) Configuration using Server"
 description: "Configuration using Server — Use FPort = 08 for registers & FPort = 09 for coils Macnman RS485/Aalog Datalogger(MacSync) documentation."
 ---
 
@@ -244,3 +244,9 @@ Use FPort = 12 for RS485 read operations.
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

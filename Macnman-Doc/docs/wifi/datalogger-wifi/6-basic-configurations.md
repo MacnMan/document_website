@@ -1,6 +1,6 @@
 ---
 id: maya_configuration
-title: WiFi Datalogger (MacSync) Basic Settings
+title: "WiFi Datalogger (MacSync) Basic Settings"
 description: "WiFi Datalogger (MacSync) Basic Settings — You can rename your device to something meaningful for easier identification — such as its location, function…"
 ---
 
@@ -41,3 +41,10 @@ The Reminisce feature allows you to retrieve and export historical data stored l
 Useful for offline analysis, compliance, or record-keeping in field deployments.
 
 >Note: External flash memory is optional. Please verify whether your selected variant includes flash memory before placing your order
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

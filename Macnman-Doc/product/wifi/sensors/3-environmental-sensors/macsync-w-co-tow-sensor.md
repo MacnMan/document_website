@@ -1,32 +1,25 @@
 ---
 id: macsync-w-co-2-sensors
-title: MacSync-WCO2Xx
+title: "MacSync-WCO2X Wi-Fi CO2 Sensor Datasheet"
+sidebar_label: "MacSync-WCO2Xx"
 sidebar_position: 1
 description: "MacSync-WCO2X is a high-accuracy Wi-Fi CO2 indoor air quality sensor for continuous carbon dioxide, temperature and humidity monitoring in smart buildings."
 keywords:
   - wifi co2 sensor
   - wifi indoor air quality sensor
-  - wifi co2 ppm monitoring device
   - smart building wifi co2 sensor
   - wifi co2 temperature humidity sensor
-  - real time co2 monitoring wifi
   - classroom co2 monitoring wifi sensor
-  - hvac ventilation optimization wifi sensor
   - office indoor air quality monitoring wifi
-  - commercial building iaq wifi sensor
   - wifi battery powered co2 sensor
-  - wifi environmental monitoring sensor
   - co2 sensor for bms scada wifi
-  - workplace ventilation compliance wifi
   - industrial indoor co2 monitoring wifi
   - warehouse factory air quality sensor wifi
   - indoor occupancy co2 monitoring wifi
-  - low power wifi co2 sensor
   - macsync wifi co2 sensor
-  - macnman wifi co2 sensor
 ---
 
-# MacSync-WCO2X Datasheet
+# MacSync-WCO2X Wi-Fi CO₂ Indoor Air Quality Sensor Datasheet
 
 ## Product Overview
 
@@ -48,13 +41,12 @@ From **classroom ventilation compliance and office occupancy insights** to **hea
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-wco2x-wifi-co2-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -174,8 +166,7 @@ From **classroom ventilation compliance and office occupancy insights** to **hea
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -344,7 +335,7 @@ From **classroom ventilation compliance and office occupancy insights** to **hea
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -522,8 +513,7 @@ From **classroom ventilation compliance and office occupancy insights** to **hea
 
 
 
-##  MacSync-WCO2X Variants
-
+## MacSync-WCO2X Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -607,8 +597,7 @@ From **classroom ventilation compliance and office occupancy insights** to **hea
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
@@ -620,7 +609,44 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacSync-WCO2X Dimensions
+![MacSync-WCO2X dimensions drawing](/img/lorawan/sensors/macsync/macsync-probe-dimensions.svg)
 
-![MacSync Probe Dimensions](/img/lorawan/sensors/macsync/macsync-probe-dimensions.svg)
+## Frequently Asked Questions
 
+### What is the MacSync-WCO2X used for?
+
+MacSync-WCO2X is a high-accuracy Wi-Fi CO2 indoor air quality sensor for continuous carbon dioxide, temperature and humidity monitoring in smart buildings. Typical applications include Smart Buildings & Offices, Schools & Educational Institutions, HVAC & Ventilation Optimization, Hospitals & Healthcare Facilities, Commercial Buildings & Campuses and Industrial Indoor Workspaces.
+
+### What does the MacSync-WCO2X measure, and how accurately?
+
+Measurement specifications of the MacSync-WCO2X:
+
+- CO₂: range 400 ppm – 2,000 ppm, 400 ppm – 5,000 ppm, accuracy ± (50 ppm + 5% of reading).
+- Temperature: range -10 °C to +60 °C, accuracy ± 0.8 °C, resolution 0.1 °C.
+- Humidity: range 0% to 100% RH (non‑condensing), accuracy ±3% RH (10%–90% RH), ±5% RH (&lt;10% or &gt;90% RH), resolution 0.5% RH.
+
+### How does the MacSync-WCO2X connect and send data over Wi-Fi?
+
+The MacSync-WCO2X connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### How is the MacSync-WCO2X powered?
+
+The MacSync-WCO2X is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync-WCO2X?
+
+The MacSync-WCO2X has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync-WCO2X configured?
+
+The MacSync-WCO2X is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacSync-WCO2X work with?
+
+The MacSync-WCO2X can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- Related datasheets: [MacSync LCO2 X1 LoRaWAN CO2 sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-co2-xx-datasheet), [MacSync-WGSX2 Wi-Fi H2S and NH3 gas sensor](/product/wifi/sensors/environmental-sensors/macsync-w-nh-three-h-two-s-2-sensors), [MacSync-W-Odor-X1 Wi-Fi qualitative odor sensor](/product/wifi/sensors/environmental-sensors/macsync-odor-x-one-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

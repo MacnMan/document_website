@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Temperature & Humidity Mounting Options
+title: "Temperature & Humidity Mounting Options"
 description: "Temperature & Humidity Mounting Options — Macnman Temperature & Humidity: Wall Mounting, Pole Mounting."
 ---
 
@@ -45,3 +45,9 @@ description: "Temperature & Humidity Mounting Options — Macnman Temperature & 
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheet: [MacSync LTS X1 LoRaWAN temperature and humidity sensor datasheet](/product/lorawan/sensors/temperature/macsync-lts-x1-datasheet)
+- Start of this manual: [Temperature & Humidity Introduction](/lorawan/sensors-lorawan/temp-humi/macsync_lt1_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

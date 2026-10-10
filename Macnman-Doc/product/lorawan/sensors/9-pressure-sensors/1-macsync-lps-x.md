@@ -1,8 +1,9 @@
 ---
 id: macsync-lps-xx-lorawan-pressure-sensor
-title: Hydrant Pressure Sensor
+title: "MacSync LPS Xx LoRaWAN Pressure Sensor Datasheet"
+sidebar_label: "Hydrant Pressure Sensor"
 sidebar_position: 6
-description: Industrial LoRaWAN® hydrostatic pressure transducer engineered for wireless pressure monitoring, pipeline pressure sensing, water utility telemetry, fire hydrant monitoring, and industrial process automation.
+description: "MacSync LPS Xx is an industrial LoRaWAN pressure transducer for wireless pipeline pressure, water utility, fire hydrant and process monitoring."
 keywords:
   - lorawan pressure sensor
   - lorawan pressure transducer
@@ -13,32 +14,12 @@ keywords:
   - water pressure monitoring sensor
   - lorawan pressure transmitter
   - pipeline pressure monitoring sensor
-  - wireless pressure logger
-  - fire hydrant pressure monitoring
-  - industrial process pressure monitoring
-  - wireless pressure telemetry sensor
   - hydrostatic pressure sensor lorawan
-  - pressure monitoring iot device
-  - oil and gas pressure monitoring
-  - sewage pressure monitoring sensor
-  - industrial water pressure sensor
-  - battery powered pressure sensor
-  - long range wireless pressure sensor
-  - smart water utility pressure sensor
-  - industrial pipeline monitoring sensor
-  - pressure monitoring for factories
-  - remote pressure monitoring system
-  - pressure analytics sensor
-  - industrial automation pressure sensor
-  - lorawan industrial sensor
-  - pressure transducer for pipelines
-  - wireless industrial pressure monitoring
-  - industrial iot pressure sensor
   - macsync lps xx
   - macnman lorawan pressure sensor
 ---
 
-# MacSync LPS Xx LoRaWAN® Pressure Transducer
+# MacSync LPS Xx LoRaWAN® Pressure Transducer Datasheet
 
 ## Product Overview
 
@@ -52,9 +33,9 @@ Whether deployed for municipal water distribution monitoring, fire pump discharg
 
 The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible with major LoRaWAN® gateways and network servers including ChirpStack, The Things Stack, MQTT platforms, Orbiwise, LORIOT, and private industrial LoRaWAN® infrastructures — enabling seamless integration into SCADA systems, Industrial IoT dashboards, cloud analytics platforms, and smart utility management infrastructure.
 
-| ![MacSync LRTD X1 LoRaWAN RTD temperature sensor front view for industrial monitoring](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-whats-in-the-box.webp) | ![MacSync LRTD X1 RTD probe connectivity and enclosure side view for harsh industrial environments](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-dimensions.webp)      |
+| ![What's in the box: MacSync LPS Xx package contents](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-whats-in-the-box.webp) | ![MacSync LPS Xx dimensions drawing](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-sensor-dimensions.webp)      |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![MacSync LRTD X1 back view showing industrial connectors and wall-mount support](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp)       | ![MacSync LRTD X1 installed in pipeline temperature monitoring application using LoRaWAN](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
+| ![MacSync LPS Xx LoRaWAN pressure transducer rear view](/img/lorawan/sensors/macsync/macsync-lrtd-x1-pipeline-temperature-monitoring-sensor.webp)       | ![MacSync LPS Xx LoRaWAN pressure transducer installation view](/img/lorawan/sensors/macsync/macsync-lrtd-x1-wireless-rtd-temperature-monitoring-installation.webp) |
 
 ---
 
@@ -682,7 +663,6 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 ---
 
 ## MacSync LPS Xx Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -718,7 +698,6 @@ The **MacSync LPS Xx wireless pressure monitoring sensor** is fully compatible w
 ---
 
 ## What's in the Box?
-
 Make sure the package contains the following items before installation and deployment of the MacSync LPS Xx LoRaWAN® Pressure Transducer.
 
 - MacSync LPS Xx LoRaWAN® Pressure Transducer
@@ -739,8 +718,49 @@ Accessories marked with (\*) may vary depending on deployment requirements and o
 
 ---
 
-## Product Dimensions
-
+## MacSync LPS Xx Dimensions
 Compact industrial enclosure designed for rugged field deployments with overall dimensions **152 mm X 62 mm X 43 mm ( Without Sensor Probe )** optimized for wall mounting and industrial pressure monitoring installations.
 
 ![MacSync LPS Xx LoRaWAN Hydrostatic Pressure Transducer Mechanical Dimensions and Mounting Layout](/img/lorawan/sensors/macsync/macsync-lps-xx-lorawan-pressure-transducer-dimensions.webp)
+
+## Frequently Asked Questions
+
+### What is the MacSync LPS Xx used for?
+
+MacSync LPS Xx is an industrial LoRaWAN pressure transducer for wireless pipeline pressure, water utility, fire hydrant and process monitoring. Typical applications include Municipal Water Pressure Monitoring, Fire Hydrant & Fire Pump Monitoring, Industrial Process Automation, Oil & Gas Pipeline Monitoring, Wastewater & Sewage Infrastructure and Hydraulic System Diagnostics.
+
+### What does the MacSync LPS Xx measure, and how accurately?
+
+Measurement specifications of the MacSync LPS Xx:
+
+- Pressure (Model X1): Working Pressure: 0 ~ 2.5 MPa; Measurement Accuracy: ±0.05 %FS.
+- Pressure (Model X2): Working Pressure: 0 ~ 5 MPa; Measurement Accuracy: ±0.05 %FS.
+- Pressure (Model X3): Working Pressure: 0 ~ 10 MPa; Measurement Accuracy: ±0.05 %FS.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LPS Xx support?
+
+The MacSync LPS Xx supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, Direct PLC On-Prem Installations.
+
+### How long does the MacSync LPS Xx battery last?
+
+The battery-operated MacSync LPS Xx runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LPS Xx?
+
+The MacSync LPS Xx has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync LPS Xx configured?
+
+The MacSync LPS Xx is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LPS Xx?
+
+The box contains: MacSync LPS Xx LoRaWAN® Pressure Transducer, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [Pressure sensor user manual](/lorawan/sensors-lorawan/pressure-sensor-v1/macsyncls_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LPS X7 LoRaWAN hydro-static liquid level sensor](/product/lorawan/sensors/pressure-sensors/macsync-lps-x-7-lorawan-pressure-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

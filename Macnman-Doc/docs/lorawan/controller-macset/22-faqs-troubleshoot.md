@@ -1,5 +1,5 @@
 ---
-title: FAQs & Troubleshooting
+title: "LoRaWAN® Controller (MacSet) FAQs & Troubleshooting"
 description: "FAQs & Troubleshooting — Macnman LoRaWAN® Controller(MacSet): FAQ – MacSet Controller, Troubleshooting – MacSet Controller, Recommended Practices."
 ---
 
@@ -60,3 +60,10 @@ description: "FAQs & Troubleshooting — Macnman LoRaWAN® Controller(MacSet): F
 - For cyclic schedules, set **clear on/off durations** to avoid overlap.
 - Label alarms with meaningful names (e.g., "Evening Lights", "Motor Timer").
 - Keep analog/digital input lines **shielded** if running near motors or relays.
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

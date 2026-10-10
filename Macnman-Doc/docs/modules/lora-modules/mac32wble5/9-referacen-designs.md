@@ -1,6 +1,6 @@
 ---
 id: module-performace-notes
-title: MAC32WBLE5 Referance Designs
+title: "MAC32WBLE5 Reference Designs"
 description: "Below is the validated reference schematic for the MAC32WBLE5 module, combining LoRa and BLE functionality."
 ---
 
@@ -78,3 +78,8 @@ module along the edge of the PCB.
 - **Power Supply Isolation**  
   Use magnetic beads and low-ESR capacitors to insulate and filter the power supply to the module, ensuring clean and stable voltage delivery. This reduces noise interference and enhances overall stability.
 
+## Related Resources
+
+- Product: [MAC32WBLE5 LoRa + BLE module product page](https://www.macnman.com/modules/lora-ble-module-mac32wble5)
+- Start of this manual: [MAC32WBLE5 Introduction](/modules/lora-modules/mac32wble5/introduction)
+- Help: [Contact Macnman support](/help/help)

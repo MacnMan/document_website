@@ -1,5 +1,10 @@
 {
   "label": "Level Sensors",
-  "position": 2
-  
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Level Sensor Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN level sensors: ultrasonic level, Time-of-Flight distance and capacitive diesel fuel level sensors.",
+    "slug": "/lorawan/sensors/level-sensors"
+  }
 }

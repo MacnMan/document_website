@@ -1,6 +1,6 @@
 ---
 id: manufacturing_recommedations
-title: MAC32WBLE5 Manufacturing Recommendations
+title: "MAC32WBLE5 Manufacturing Recommendations"
 description: "MAC32WBLE5 Manufacturing Recommendations — Perform SMT following the specified reflow oven temperature profile, ensuring the maximum temperature does not…"
 ---
 
@@ -51,3 +51,9 @@ For specialized requirements or unique processes, please contact us for further 
 - **ESD Protection**  
   Protect the product from static electrical discharge by using appropriate anti-static measures, such as wrist straps,
   gloves, and anti-static mats.
+
+## Related Resources
+
+- Product: [MAC32WBLE5 LoRa + BLE module product page](https://www.macnman.com/modules/lora-ble-module-mac32wble5)
+- Start of this manual: [MAC32WBLE5 Introduction](/modules/lora-modules/mac32wble5/introduction)
+- Help: [Contact Macnman support](/help/help)

@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Water Quality Sensors Introduction
+title: "Water Quality Sensors Introduction"
 description: "With LoRaWAN® Class A & C communication, MacSync-LWQS8 enables remote monitoring in rivers, lakes, reservoirs, wastewater treatment plants, and…"
 ---
 
@@ -170,3 +170,10 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LWQS X1 LoRaWAN water quality EC sensor datasheet](/product/lorawan/sensors/water-sensors/macsync-l-water-ec-sensor-datasheet)
+- Datasheet: [MacSync LWQS X2 LoRaWAN water pH sensor datasheet](/product/lorawan/sensors/water-sensors/macsync-lorawan-water-ph-sensor)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

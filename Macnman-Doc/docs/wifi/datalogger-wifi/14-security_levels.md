@@ -1,6 +1,6 @@
 ---
 id: maya-security-device-sharing
-title: WiFi Datalogger Security & device sharing
+title: "WiFi Datalogger (MacSync) Security & Device Sharing"
 description: "WiFi Datalogger Security & device sharing — Control who can access and configure the device via the Maya app by selecting a security level:"
 ---
 
@@ -42,3 +42,10 @@ Manage access to your devices securely through the Maya app.
 
 - **Add More**  
   Click **“Add More”** to include additional peers.You can share a device with **up to 5 users** at a time.
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

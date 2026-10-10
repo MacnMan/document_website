@@ -1,6 +1,6 @@
 ---
 id: maya-firmware-updates
-title: RS485/Aalog Datalogger (MacSync) Firmware Updates
+title: "RS485/Analog Datalogger (MacSync) Firmware Updates"
 description: "RS485/Aalog Datalogger (MacSync) Firmware Updates — Keep your Macnman devices secure and up to date with the latest firmware releases."
 ---
 
@@ -32,3 +32,9 @@ If the update fails, **reconnect the device** and restart the process.
 :::
 
 Regular firmware updates help enhance **device stability**, **security**, and **performance**, ensuring your Macnman sensors and controllers operate reliably in the field.
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

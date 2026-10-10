@@ -1,6 +1,6 @@
 ---
 id: maya-firmware-updates_common_sensors
-title: Common Sensor Settings Firmware Updates
+title: "Common Sensor Settings Firmware Updates"
 description: "Common Sensor Settings Firmware Updates — Keep your Macnman devices secure and up to date with the latest firmware releases."
 ---
 
@@ -32,3 +32,9 @@ If the update fails, **reconnect the device** and restart the process.
 :::
 
 Regular firmware updates help enhance **device stability**, **security**, and **performance**, ensuring your Macnman sensors and controllers operate reliably in the field.
+
+## Related Resources
+
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Start of this manual: [Common Sensor Settings LED Status](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

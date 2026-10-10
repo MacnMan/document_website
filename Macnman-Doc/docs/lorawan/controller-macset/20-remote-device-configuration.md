@@ -1,6 +1,6 @@
 ---
 id: macset_payload_structure_configuration
-title: Set Schedule from Servers
+title: "LoRaWAN® Controller (MacSet) Set Schedule from Server"
 description: "Set Schedule from Servers — Use FPort = 08 for registers & FPort = 09 for coils Macnman LoRaWAN® Controller(MacSet) documentation."
 ---
 
@@ -338,3 +338,10 @@ Note : Use FPort = 5
 :::note
 Note : Use FPort = 14
 :::
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

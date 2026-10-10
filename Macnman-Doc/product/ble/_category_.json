@@ -1,4 +1,10 @@
 {
-  "label": "Ble Products",
-  "position": 3
+  "label": "BLE Products",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "BLE Product Datasheets",
+    "description": "Datasheets for Macnman Bluetooth Low Energy products: BLE sensor tags, beacons and asset trackers, and the Setu WX1 BLE to Wi-Fi gateway.",
+    "slug": "/ble"
+  }
 }

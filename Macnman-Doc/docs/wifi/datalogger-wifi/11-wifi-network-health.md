@@ -1,6 +1,6 @@
 ---
 id: wifi_network_testing
-title: Wifi Network Health Check
+title: "WiFi Datalogger (MacSync) Wi-Fi Network Health Check"
 description: "Wifi Network Health Check — When you press Send Uplink, the device performs: Macnman WiFi Datalogger (MacSync) documentation."
 ---
 
@@ -44,3 +44,10 @@ Measures Wi-Fi signal power in dBm (typically negative):
 - **Very Weak:** `< -90 dBm`
 
 > **Note:** Closer to 0 = stronger signal
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

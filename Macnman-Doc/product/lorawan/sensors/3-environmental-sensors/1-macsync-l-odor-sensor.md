@@ -1,48 +1,25 @@
 ---
 id: macsync-l-odor-x1-datasheet
-title: Qualitative Odor Sensor
+title: "MacSync L Odor X1 LoRaWAN Odor Sensor Datasheet"
+sidebar_label: "Qualitative Odor Sensor"
 sidebar_position: 1
-description: Industrial LoRaWAN® qualitative odor sensor for smart washrooms, smart cities, sewage plants, chemical factories, and public infrastructure odor monitoring applications.
+description: "MacSync L Odor X1 is an industrial LoRaWAN qualitative odor sensor for smart washrooms, sewage plants, chemical factories and public infrastructure."
 keywords:
   - lorawan odor sensor
   - lorawan smell sensor
   - qualitative odor sensor
   - odor monitoring sensor
-  - odor intensity monitoring
   - smart washroom odor sensor
-  - washroom smell monitoring sensor
-  - toilet odor monitoring system
-  - smart city odor monitoring
   - industrial odor monitoring sensor
   - chemical factory odor sensor
   - sewage odor monitoring sensor
   - wastewater odor sensor
   - stp odor monitoring sensor
-  - wwtp odor monitoring system
-  - landfill odor monitoring
-  - public restroom odor sensor
-  - indoor air odor sensor
-  - electronic nose sensor lorawan
-  - odor level monitoring device
-  - low power odor sensor
-  - wireless odor monitoring system
-  - battery powered odor sensor
-  - ip65 odor monitoring sensor
-  - outdoor odor monitoring sensor
-  - environmental odor monitoring
-  - nuisance odor monitoring
-  - odor complaint monitoring
-  - smart infrastructure odor sensor
-  - smart building odor monitoring
-  - smart facility odor sensor
-  - factory smell detection sensor
-  - ammonia and odor monitoring
   - h2s odor sensor lorawan
   - macsync odor sensor
-  - macnman odor monitoring solution
 ---
 
-# MacSync L Odor X1 Datasheet
+# MacSync L Odor X1 LoRaWAN® Qualitative Odor Sensor Datasheet
 
 ## Product Introduction
 
@@ -631,7 +608,6 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
 
 ---
 ## MacSync L Odor X1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -683,8 +659,7 @@ Whether deployed for smart washroom hygiene monitoring, industrial safety, envir
 
 --- 
 
-## What's in the Box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 - MacSync L Odor X1 Sensor
@@ -705,11 +680,48 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-## Product Dimensions
-
+## MacSync L Odor X1 Dimensions
 The MacSync L Odor X1 features a compact industrial-grade enclosure with overall dimensions of **183 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across smart washrooms, STP & WWTP facilities, waste management infrastructure, chemical factories, and environmental odor monitoring deployments.
 
 ![MacSync L Odor X1 LoRaWAN odor sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-dimensions.webp)
 
+## Frequently Asked Questions
 
+### What is the MacSync L Odor X1 used for?
 
+MacSync L Odor X1 is an industrial LoRaWAN qualitative odor sensor for smart washrooms, sewage plants, chemical factories and public infrastructure. Typical applications include Smart Washroom Odor Monitoring Systems, Sewage Treatment Plants (STP), Wastewater Treatment Plants (WWTP), Landfills & Waste Disposal Facilities, Chemical & Industrial Manufacturing Plants and Smart City Environmental Projects.
+
+### What does the MacSync L Odor X1 measure, and how accurately?
+
+Measurement specifications of the MacSync L Odor X1:
+
+- NH₃ Gas: range 1 ~ 300 ppm.
+- H₂S Gas: range 0.5 ~ 50 ppm.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync L Odor X1 support?
+
+The MacSync L Odor X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations.
+
+### How long does the MacSync L Odor X1 battery last?
+
+The battery-operated MacSync L Odor X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~6 Months at a 5-minute reporting interval, ~1 year at a 15-minute reporting interval and ~3+ years at a 60-minute reporting interval. A power-operated version runs from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync L Odor X1?
+
+The MacSync L Odor X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync L Odor X1 configured?
+
+The MacSync L Odor X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync L Odor X1?
+
+The box contains: MacSync L Odor X1 Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync-W-Odor-X1 Wi-Fi qualitative odor sensor](/product/wifi/sensors/environmental-sensors/macsync-odor-x-one-datasheet), [MacSync LH2S X1 LoRaWAN H2S gas sensor](/product/lorawan/sensors/environmental-sensors/macsync-lh2s-x1-datasheet), [MacSync LCO2 X1 LoRaWAN CO2 sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-co2-xx-datasheet), [MacSync L Odor X2 LoRaWAN NH3 and H2S odor sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x2)
+- Product page: [MacSync L Odor X1 on macnman.com](https://www.macnman.com/lorawan/sensors/lorawan-washroom-odor-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

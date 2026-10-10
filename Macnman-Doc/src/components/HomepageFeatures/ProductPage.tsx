@@ -172,7 +172,7 @@ const data = {
       category: "Modules",
       technology: "Wi-Fi",
       subCategory: "Combo Modules",
-      learnMore: ROUTES.ble_module_mac52810,
+      learnMore: ROUTES.HOME,
     },
     {
       id: 11,
@@ -196,7 +196,7 @@ const data = {
       category: "Modules",
       technology: "Wi-Fi",
       subCategory: "Combo Modules",
-      learnMore: ROUTES.ble_module_mac52810,
+      learnMore: ROUTES.HOME,
     },
     {
       id: 13,
@@ -292,7 +292,7 @@ const data = {
       category: "Controllers",
       technology: "BLE",
       subCategory: "Relay Controllers",
-      learnMore: ROUTES.HOME,
+      learnMore: "/product/custom/custom-products/mini-ble-wifi-relay-controller",
     },
     {
       id: 24,
@@ -488,7 +488,7 @@ const data = {
     },
     {
       id: 40,
-      name: "Ble Temperture & Humidity Sensor",
+      name: "BLE Temperature & Humidity Sensor",
       description: "Ble Tag3",
       summary: "Experience long-range, low-power connectivity with secure & reliable data transmission",
       tags: [],
@@ -496,7 +496,7 @@ const data = {
       category: "Sensors",
       technology: "BLE",
       subCategory: "Temperature & Humidity",
-      learnMore: "/product/ble/sensors/ble-tag-one",
+      learnMore: "/product/ble/ble-trackers/ble-tag-three",
     },
     {
       id: 41,

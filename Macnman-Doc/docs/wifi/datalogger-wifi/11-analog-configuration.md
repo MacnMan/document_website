@@ -1,6 +1,6 @@
 ---
 id: macsync_analog_configurations
-title: WiFi Datalogger (MacSync) Analog Settings
+title: "WiFi Datalogger (MacSync) Analog Settings"
 description: "WiFi Datalogger (MacSync) Analog Settings — To connect a sensor, first select the appropriate mode — either RS485 or Analog — depending on the sensor type."
 ---
 
@@ -62,3 +62,10 @@ This means you can use **different sensor types** on each channel based on your 
 **04. Check Values**  
 Use the **“Check”** option to verify that the connected sensor is providing correct values.  
 This helps ensure proper wiring, power, and signal compatibility before final deployment.
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

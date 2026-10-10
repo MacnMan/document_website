@@ -1,6 +1,6 @@
 ---
 id: pin-description
-title: MAC32WBLE5 Pin Description
+title: "MAC32WBLE5 Pin Description"
 description: "MAC32WBLE5 Pin Description — Macnman MAC32WBLE5: Pin Description, Pin definition."
 ---
 
@@ -55,3 +55,9 @@ description: "MAC32WBLE5 Pin Description — Macnman MAC32WBLE5: Pin Description
 | 41  | VSS/GND      | POWER  | -                                                                                                                      |                                                  |
 | 42  | SWDIO        | I/O    | nRF52810 Pin                                                                                                            |                                                  |
 | --  | PA1          | I/O    | TIM2_CH2, LPTIM3_OUT,I2C1_SMBA, SPI1_SCK,,USART2_RTS, LPUART1_RTS,DEBUG_PWR_REGLP2S,CM4_EVENTOUT                        | Internally Connected to nRF52810 P0.20           |
+
+## Related Resources
+
+- Product: [MAC32WBLE5 LoRa + BLE module product page](https://www.macnman.com/modules/lora-ble-module-mac32wble5)
+- Start of this manual: [MAC32WBLE5 Introduction](/modules/lora-modules/mac32wble5/introduction)
+- Help: [Contact Macnman support](/help/help)

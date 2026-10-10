@@ -1,8 +1,9 @@
 ---
 id: mactalk_lora_door_sensor_configuration
-title: LoRa Door Sensor
+title: "MacTalk-DM LoRa Door Sensor"
 description: "LoRa Door Sensor — Use location-based naming (e.g., Warehouse-Door-01) for clarity. Macnman MacTalk-DM documentation."
 ---
+
 # LoRa Door Sensor Configuration Guide
 
 ## 1. Device Naming
@@ -167,3 +168,9 @@ To read data via Modbus:
 Allows integration with external systems or software for data logging.
 
 ---
+
+## Related Resources
+
+- Datasheets: [LoRaWAN product datasheets](/product/lorawan)
+- Start of this manual: [MacTalk-DM LoRa Gateway Node](/mactalk/mactalk-dm/mactalk_dm_document)
+- Help: [Contact Macnman support](/help/help)

@@ -1,6 +1,7 @@
 ---
 id: macsync-wt-one-datasheet
-title: MacSync-WT1
+title: "MacSync-WT1 Wi-Fi Temperature Humidity Sensor"
+sidebar_label: "MacSync-WT1"
 sidebar_position: 1
 description: "MacSync-WT1 is a compact Wi-Fi temperature and humidity sensor with an inbuilt battery for accurate indoor and semi-industrial environmental monitoring."
 keywords:
@@ -10,21 +11,15 @@ keywords:
   - wifi humidity sensor
   - industrial wifi temperature humidity sensor
   - indoor wifi temperature sensor
-  - wifi environmental sensor
-  - wifi climate monitoring device
   - hvac wifi temperature humidity sensor
   - cold chain wifi temperature humidity monitoring
-  - smart building wifi sensor
-  - industrial iot wifi sensor
   - compact wifi temperature humidity sensor
-  - battery powered wifi environmental sensor
   - macsync wifi temperature sensor
   - macsync temperature humidity sensor
-  - macnman wifi sensor
   - wifi iot temperature sensor
 ---
 
-# MacSync-WT1 Datasheet
+# MacSync-WT1 Wi-Fi Temperature & Humidity Sensor Datasheet
 
 ## Product Overview
 
@@ -36,22 +31,21 @@ The device securely publishes temperature and humidity data to **local servers, 
 
 Housed in a rugged, ingress‑protected enclosure, MacSync‑WT1 is well suited for **smart buildings, HVAC systems, cold rooms, warehouses, laboratories, healthcare facilities, and industrial indoor environments**, delivering low‑latency, reliable Wi‑Fi‑based environmental monitoring with minimal maintenance.
 
-| ![MacSync LTS X1 LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) | ![MacSync LTS X1 wireless LoRaWAN temperature humidity sensor mounted installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
+| ![MacSync-WT1 Wi-Fi temperature and humidity sensor front view](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) | ![MacSync-WT1 Wi-Fi temperature and humidity sensor installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) |
+| ![MacSync-WT1 Wi-Fi temperature and humidity sensor side view](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync-WT1 Wi-Fi temperature and humidity sensor product view 4](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-wt1-wifi-temperature-humidity-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -186,8 +180,7 @@ Housed in a rugged, ingress‑protected enclosure, MacSync‑WT1 is well suited 
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -329,7 +322,7 @@ Housed in a rugged, ingress‑protected enclosure, MacSync‑WT1 is well suited 
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -505,8 +498,7 @@ Housed in a rugged, ingress‑protected enclosure, MacSync‑WT1 is well suited 
 
 <div class="faint-line"></div>
 
-##  MacSync-WT1 Variants
-
+## MacSync-WT1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -579,8 +571,7 @@ Housed in a rugged, ingress‑protected enclosure, MacSync‑WT1 is well suited 
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
@@ -592,7 +583,41 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacSync-WT1 Dimensions
+![MacSync-WT1 dimensions drawing](/img/lorawan/sensors/macsync/macsync-probe-dimensions.svg)
 
-![MacSync Probe Dimensions](/img/lorawan/sensors/macsync/macsync-probe-dimensions.svg)
+## Frequently Asked Questions
 
+### What is the MacSync-WT1 used for?
+
+MacSync-WT1 is a compact Wi-Fi temperature and humidity sensor with an inbuilt battery for accurate indoor and semi-industrial environmental monitoring. Typical applications include Smart Buildings & Offices, HVAC Monitoring & Optimization, Cold Rooms & Cold Storage, Warehouses & Storage Facilities, Laboratories & Clean Rooms and Hospitals & Healthcare Facilities.
+
+### What does the MacSync-WT1 measure, and how accurately?
+
+Measurement specifications of the MacSync-WT1:
+
+- Temperature: range -30°C to +70°C, accuracy 0°C to +70°C: ±0.3°C & -30°C to 0°C: ±0.6°C, resolution 0.1°C.
+- Humidity: range 0% to 100% RH, accuracy 10% to 90% RH: ±3% RH & &lt;10% or &gt;90% RH: ±5% RH, resolution 0.5% RH.
+- Pressure: range 300 hPa to 1100 hPa, accuracy ±1.0 hPa (typical at 25°C, 300–1100 hPa), resolution 0.1 hPa.
+
+### How does the MacSync-WT1 connect and send data over Wi-Fi?
+
+The MacSync-WT1 connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### What is the IP rating and operating temperature of the MacSync-WT1?
+
+The MacSync-WT1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync-WT1 configured?
+
+The MacSync-WT1 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacSync-WT1 work with?
+
+The MacSync-WT1 can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- Related datasheets: [MacSync LTS X1 LoRaWAN temperature and humidity sensor](/product/lorawan/sensors/temperature/macsync-lts-x1-datasheet), [MacSync-WRTDX2 Wi-Fi RTD PT100 temperature sensor](/product/wifi/sensors/temperature/macsync-wifi-rtd-sensor-x-series), [MacSync-WRTDX5 Wi-Fi RTD PT1000 temperature sensor](/product/wifi/sensors/temperature/macsync-w-rtd-x-five-datasheet), [MWTH 301 compact Wi-Fi temperature and humidity sensor](/product/wifi/sensors/temperature/wlth-temp-humi-sensor-datasheet)
+- Product page: [MacSync-WT1 on macnman.com](https://www.macnman.com/wifi/sensors/wifi-industrial-temperature-humidity-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

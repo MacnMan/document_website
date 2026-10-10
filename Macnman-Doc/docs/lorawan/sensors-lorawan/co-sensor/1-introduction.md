@@ -1,6 +1,6 @@
 ---
 id: macsynclco21_introduction
-title: CO2 Sensor Introduction
+title: "CO2 Sensor Introduction"
 description: "The MacSync-LCO21 is a compact and intelligent LoRaWAN® CO₂ sensor built for real-time indoor air quality monitoring in smart buildings, greenhouses…"
 ---
 
@@ -173,3 +173,9 @@ Configuration is quick and user-friendly using the [**Macnman Maya App**](https:
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LCO2 X1 LoRaWAN CO2 sensor datasheet](/product/lorawan/sensors/environmental-sensors/macsync-l-co2-xx-datasheet)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

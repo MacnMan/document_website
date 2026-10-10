@@ -1,6 +1,6 @@
 ---
 id: macset_lora_Schedule_cyclic
-title: Cyclic Relay Schedulings
+title: "LoRaWAN® Controller (MacSet) Cyclic Relay Scheduling"
 description: "The Cyclic Schedule allows the relay to switch ON and OFF repeatedly during a defined active window, ideal for scheduled pulse operations like irrigation…"
 ---
 
@@ -59,3 +59,10 @@ Once activated, the controller will:
 **Relay:** Relay 1
 
 The pump will cycle ON and OFF between 4:00 PM and 5:00 PM every scheduled day.
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

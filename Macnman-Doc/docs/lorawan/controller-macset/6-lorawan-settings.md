@@ -1,6 +1,6 @@
 ---
 id: maya_lorawan_basic_configurationsasa
-title: LoRaWAN® Controller (MacSet) LoRaWAN Settings
+title: "LoRaWAN® Controller (MacSet) LoRaWAN Settings"
 description: "Inside the Advanced section of the Keys & Identity tab, users can regenerate the LoRaWAN keys (such as AppKey, NwkKey, etc.) to enhance device security."
 ---
 
@@ -87,3 +87,9 @@ Select the appropriate LoRaWAN frequency band **based on your deployment region*
   Use only for  <strong>critical data</strong>  that must be confirmed by the network.
 </div>
 
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

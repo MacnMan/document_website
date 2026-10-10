@@ -1,6 +1,7 @@
 ---
 id: macedge-cx08-datasheet
-title: MacEdge CX08
+title: "MacEdge CX08 Industrial Edge Gateway Datasheet"
+sidebar_label: "MacEdge CX08"
 sidebar_position: 3
 description: "MacEdge CX08 is an industrial edge gateway and data acquisition controller with RS485/Modbus and Ethernet, linking field sensors and instruments to the cloud."
 keywords:
@@ -11,33 +12,14 @@ keywords:
   - ethernet rs485 gateway
   - rs485 modbus gateway
   - modbus rtu to cloud gateway
-  - modbus tcp gateway
-  - rs485 to mqtt gateway
-  - rs485 to https gateway
-  - digital input output controller
-  - 8 channel digital input module
-  - 8 channel digital output module
-  - 8 channel analog input module
-  - analog input data logger
-  - remote io controller
-  - plc data acquisition gateway
-  - scada iot gateway
-  - machine monitoring gateway
   - industrial automation gateway
-  - process monitoring gateway
-  - energy monitoring gateway
-  - water pump monitoring gateway
   - outdoor industrial gateway
   - 4g lte industrial gateway
   - wifi industrial gateway
-  - edge data logger 4g
-  - iot gateway with ethernet
   - mqtt edge gateway
-  - cloud connected rtu
-  - macnman macedge cx308
 ---
 
-# MacEdge CX308 Datasheet
+# MacEdge CX08 Industrial Edge Gateway & Data Acquisition Controller Datasheet
 
 ## Product Overview
 
@@ -47,9 +29,9 @@ With **1 × Ethernet port**, **1 × RS485**, **8 × Digital Inputs (DI)**, **8 �
 
 For distributed deployments, MacEdge CX308 offers optional **4G LTE cellular** and **Wi‑Fi connectivity**, allowing stable data transmission even in remote sites where wired network access is unavailable. With edge intelligence capabilities, secure data delivery, and flexible cloud integration, **MacEdge CX308 transforms industrial signals into actionable insights for smarter, faster, and more reliable operations.**
 
-| ![Front view of MacSync-L-STD-BO battery-powered RS485 and analog to LoRaWAN data logger](/img/devices/macedge-cx-front-view.webp) | ![ Side view of MacSync-L-STD-BO industrial LoRaWAN data logger with 19Ah battery](/img/devices/macedge-cx-back-view.webp) |
+| ![MacEdge CX08 industrial edge gateway front view](/img/devices/macedge-cx-front-view.webp) | ![MacEdge CX08 industrial edge gateway side view](/img/devices/macedge-cx-back-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Back view of MacSync-L-STD-BO showing enclosure and wiring ports for RS485 and analog inputs](/img/devices/macedge-cx-ports-interface.webp) | ![Internal layout of MacSync-L-STD-BO battery-operated LoRaWAN telemetry device](/img/devices/macedge-cx-side-view.webp) |
+| ![MacEdge CX08 industrial edge gateway rear view](/img/devices/macedge-cx-ports-interface.webp) | ![MacEdge CX08 industrial edge gateway internal view](/img/devices/macedge-cx-side-view.webp) |
 
 
 <div class="faint-line"></div>
@@ -199,8 +181,7 @@ For distributed deployments, MacEdge CX308 offers optional **4G LTE cellular** a
 <div class="faint-line"></div>
 
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -305,7 +286,7 @@ For distributed deployments, MacEdge CX308 offers optional **4G LTE cellular** a
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacEgde is being modified</p>
@@ -467,8 +448,7 @@ For distributed deployments, MacEdge CX308 offers optional **4G LTE cellular** a
 </div>
 
 
-## MacEdge CX308 Variants
-
+## MacEdge CX08 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -531,8 +511,7 @@ For distributed deployments, MacEdge CX308 offers optional **4G LTE cellular** a
   </tbody>
 </table>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![MacEdge Cx Whats Part List](/img/devices/macedge-cx-whats-part-list.webp)
@@ -544,7 +523,10 @@ not be included in the box.
 
 :::
 
-## MacSync CX1 Dimensions
-
+## MacEdge CX08 Dimensions
 ![MacEdge Cx Dimensions](/img/devices/macedge-cx-dimensions.svg)
 
+## Related Products and Resources
+
+- Related datasheets: [MacEdge CX10 industrial edge gateway](/product/cellular/gateways/macedge-cx10-datasheet), [MacSet CX1 4G LTE cellular relay controller](/product/cellular/gateways/macset-cx1-datasheet), [MacSync CX1 4G LTE cellular data logger](/product/cellular/gateways/macsync-cx1-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

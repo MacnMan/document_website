@@ -1,8 +1,9 @@
 ---
 id: macsync_mounting
-title: WiFi Datalogger (MacSync) Mountings
+title: "WiFi Datalogger (MacSync) Mounting Options"
 description: "WiFi Datalogger (MacSync) Mountings — Macnman WiFi Datalogger (MacSync): Wall Mounting, Pole Mounting."
 ---
+
 # MacSync Mounting Options
 
 ## Wall Mounting
@@ -46,3 +47,9 @@ description: "WiFi Datalogger (MacSync) Mountings — Macnman WiFi Datalogger (M
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

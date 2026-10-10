@@ -1,6 +1,7 @@
 ---
 id: macsync-w-power-operated-x-two
-title: MacSync-WX1-PO
+title: "MacSync-WX1-PO RS485 Wi-Fi Datalogger Datasheet"
+sidebar_label: "MacSync-WX1-PO"
 sidebar_position: 1
 description: "MacSync-WX1-PO is an industrial RS485 and analog to Wi-Fi data logger for reliable Modbus RTU and 4-20 mA sensor acquisition with real-time cloud communication."
 keywords:
@@ -8,7 +9,6 @@ keywords:
   - analog to wifi data logger
   - modbus rtu wifi data logger
   - wifi industrial data logger
-  - wifi rs485 modbus gateway
   - 4-20ma wifi data logger
   - 0-10v wifi data logger
   - macsync wx1 po
@@ -16,17 +16,10 @@ keywords:
   - macnman wifi data logger
   - industrial wifi data logger
   - wifi iot data logger
-  - wifi automation controller
-  - industrial sensor wifi gateway
   - rs485 modbus to wifi converter
-  - wifi plc data logger
-  - on premise wifi data logger
-  - factory wifi monitoring device
-  - building automation wifi data logger
-
 ---
 
-# MacSync-WX1-PO
+# MacSync-WX1-PO RS485 & Analog to Wi-Fi Data Logger Datasheet
 
 ## Product Overview
 
@@ -38,22 +31,21 @@ Built for continuous 24×7 operation, MacSync-WX1-PO features a robust power-ope
 
 Whether used for **industrial automation, energy monitoring, building management systems, process monitoring, or equipment health tracking**, **MacSync-WX1-PO delivers fast, reliable, and scalable Wi‑Fi–based data logging**, making it ideal for deployments that demand low latency, local control, and seamless IT/OT integration.
 
-| ![MacSync Lx2 Std Po Front View](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![MacSync Lx2 Std Po Ports Interface](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+| ![MacSync-WX1-PO RS485 and analog to Wi-Fi data logger front view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![MacSync-WX1-PO RS485 and analog to Wi-Fi data logger ports and interfaces](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync Lx2 Std Po Back View](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync Lx2 Std Po Side View](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync-WX1-PO RS485 and analog to Wi-Fi data logger rear view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync-WX1-PO RS485 and analog to Wi-Fi data logger side view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-wx1-po-rs485-wifi-datalogger-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -193,8 +185,7 @@ Whether used for **industrial automation, energy monitoring, building management
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -293,7 +284,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -468,8 +459,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSync-WX1-PO Variants
-
+## MacSync-WX1-PO Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -509,8 +499,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </tbody>
 </table>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
@@ -522,7 +511,48 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacSync-WX1-PO Dimensions
+![MacSync-WX1-PO dimensions drawing](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 
-![MacSync Dimensions New Drawing Style](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+## Frequently Asked Questions
 
+### What is the MacSync-WX1-PO used for?
+
+MacSync-WX1-PO is an industrial RS485 and analog to Wi-Fi data logger for reliable Modbus RTU and 4-20 mA sensor acquisition with real-time cloud communication. Typical applications include Industrial Automation & SCADA, Energy & Utility Metering, Process & Equipment Monitoring, Factories & Manufacturing Plants, Cold Storage, HVAC & Utilities and Building Automation Systems (BMS).
+
+### What inputs and outputs does the MacSync-WX1-PO have?
+
+The MacSync-WX1-PO provides the following interfaces:
+
+- RS485 Interface: 1 (Switchable)
+- 4-20 mA Analog Channels: x 2 (Switchable)
+- 0-10 V Analog Channels: x 2 (Switchable)
+- Digital Inputs: x 2 (Switchable)
+- ADC Resolution: 12-bit
+
+### How does the MacSync-WX1-PO connect and send data over Wi-Fi?
+
+The MacSync-WX1-PO connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### How is the MacSync-WX1-PO powered?
+
+The MacSync-WX1-PO is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync-WX1-PO?
+
+The MacSync-WX1-PO has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync-WX1-PO configured?
+
+The MacSync-WX1-PO is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacSync-WX1-PO work with?
+
+The MacSync-WX1-PO can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- User manual: [MacSync Wi-Fi datalogger user manual](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Related datasheets: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1), [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Product page: [MacSync-WX1-PO on macnman.com](https://www.macnman.com/wifi/iodevices/rs485-modbus-to-wifi-mqtt-converter)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

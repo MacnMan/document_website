@@ -1,8 +1,9 @@
 ---
 id: parknode-gen-one-lorawan-parking-sensor
-title: Geomagnetic Parking Sensor
+title: "ParkNode Gen-1 LoRaWAN Parking Sensor Datasheet"
+sidebar_label: "Geomagnetic Parking Sensor"
 sidebar_position: 5
-description: ParkNode Gen-1 is an industrial LoRaWAN parking sensor designed for real-time vehicle detection, smart parking occupancy monitoring, and smart city parking automation.
+description: "ParkNode Gen-1 is an industrial LoRaWAN geomagnetic parking sensor for real-time vehicle detection, parking occupancy monitoring and smart city parking."
 keywords:
   - lorawan parking sensor
   - lorawan smart parking sensor
@@ -11,32 +12,14 @@ keywords:
   - smart parking sensor
   - parking occupancy sensor
   - parking bay occupancy sensor
-  - vehicle detection sensor
   - geomagnetic parking sensor
   - magnetic parking sensor
   - smart city parking sensor
   - outdoor parking occupancy sensor
-  - real time parking monitoring system
   - parking guidance system sensor
-  - long range parking sensor
-  - battery powered parking sensor
-  - industrial parking sensor
-  - ip68 parking sensor
-  - curbside parking detection sensor
-  - off street parking monitoring
-  - parking space availability sensor
-  - parking automation sensor
-  - smart parking management system
-  - lorawan vehicle presence sensor
-  - embedded parking sensor
-  - underground parking sensor
-  - commercial parking occupancy monitoring
-  - intelligent parking sensor
-  - parking lot occupancy sensor
-  - smart mobility parking solution
 ---
 
-# ParkNode Gen-1 LoRaWAN® Geomagnetic Smart Parking Sensor
+# ParkNode Gen-1 LoRaWAN® Geomagnetic Smart Parking Sensor Datasheet
 
 ## Product Overview
 
@@ -192,7 +175,6 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 ---
 
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">Geomagnetic Vehicle Detection</div>
   <div class="device-config-table">
@@ -455,7 +437,6 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 ---
 
 ## ParkNode Gen-1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -487,7 +468,6 @@ ParkNode Gen‑1 transforms conventional parking spaces into connected digital a
 ---
 
 ## What's in the Box?
-
 Make sure the package contains the following items before installation and outdoor deployment of the ParkNode Gen-1 smart parking sensor.
 
 - ParkNode Gen-1 Sensor
@@ -507,8 +487,7 @@ Accessories marked with (\*) may vary depending on deployment requirements and o
 
 ---
 
-## ParkNode Gen-1 Product Dimensions
-
+## ParkNode Gen-1 Dimensions
 The **ParkNode Gen-1 LoRaWAN® smart parking occupancy sensor** features a rugged low-profile industrial enclosure engineered for long-term outdoor parking infrastructure deployments. Designed specifically for smart parking applications, the sensor supports reliable vehicle occupancy detection across asphalt roads, concrete parking bays, curbside parking areas, commercial parking facilities, industrial campuses, airports, railway stations, and smart city mobility projects.
 
 With its compact and durable **202 mm × 33 mm** industrial form factor, ParkNode Gen-1 enables quick surface-mount installation while maintaining high detection stability in harsh outdoor environments exposed to rain, dust, vibration, vehicle movement, humidity, and extreme temperatures.
@@ -518,3 +497,40 @@ The sensor’s industrial-grade IP68 enclosure ensures dependable operation for 
 ![ParkNode Gen-1 LoRaWAN smart parking sensor mechanical dimensions and surface mount installation layout for outdoor parking occupancy monitoring deployments](/img/lorawan/sensors/macsync/parknode-gen-1-dimensions.webp)
 
 ---
+
+## Frequently Asked Questions
+
+### What is the ParkNode Gen-1 used for?
+
+ParkNode Gen-1 is an industrial LoRaWAN geomagnetic parking sensor for real-time vehicle detection, parking occupancy monitoring and smart city parking. Typical applications include Smart City Parking Management, On‑Street & Curbside Parking Detection, Commercial Parking Automation, Basement & Indoor Parking Monitoring, Residential & Society Parking Control and Airport, Railway & Transit Parking.
+
+### How does the ParkNode Gen-1 detect vehicles?
+
+Geomagnetic Vehicle Detection specifications of the ParkNode Gen-1:
+
+- Detection Method: 3‑Axis Geomagnetic Field Sensing
+- Magnetic Sensitivity: ±200 to ±1000 μT Dynamic Range
+- Vehicle Detection Accuracy: &gt; 98% Vehicle Presence Detection Accuracy
+- Detection Latency: &lt; 7~10 Seconds (Arrival / Departure)
+- Self‑Calibration: Automatic Baseline Calibration & Drift Compensation
+- Anti‑Noise Filtering: Resistant to EMI from Motors, HVAC Systems & Power Lines
+
+### How long does the ParkNode Gen-1 battery last?
+
+The ParkNode Gen-1 battery type is Lithium Thionyl Chloride (Li-SOCl₂) (Integrated Battery - 6,000 mAh). Estimated battery life at 25 °C is ~7 years at 50 parking events per day, ~3.5 years at 100 parking events per day and ~1 year at 250 parking events per day.
+
+### What is the IP rating and operating temperature of the ParkNode Gen-1?
+
+The ParkNode Gen-1 has an ingress protection rating of IP68 Standard and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Surface Mount on Asphalt / Concrete.
+
+### What is included in the box with the ParkNode Gen-1?
+
+The box contains: ParkNode Gen-1 Sensor, User Manual and Warranty Card. Mounting Clip, Fasteners, Mounting Screws and Base Rubber Sheet are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LNS X1 LoRaWAN outdoor sound level sensor](/product/lorawan/sensors/other-sensors/macsync-l-n-x-one-sound-level-sensor), [MacSync LDSS X1 LoRaWAN door status sensor](/product/lorawan/sensors/other-sensors/macsync-ldss-x-one)
+- Product page: [ParkNode Gen-1 on macnman.com](https://www.macnman.com/lorawan/sensors/lorawan-parking-sensor-paknode-gen-one)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

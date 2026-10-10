@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Noise Sensor Specifications
+title: "Noise Sensor Specifications"
 description: "Noise Sensor Specifications — Macnman Noise Sensor: Noise Sensor Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical…"
 ---
 
@@ -246,3 +246,10 @@ description: "Noise Sensor Specifications — Macnman Noise Sensor: Noise Sensor
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LNS X1 LoRaWAN outdoor sound level sensor datasheet](/product/lorawan/sensors/other-sensors/macsync-l-n-x-one-sound-level-sensor)
+- Start of this manual: [Noise Sensor Introduction](/lorawan/sensors-lorawan/macsync-noise-sensor/macsynclw6_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

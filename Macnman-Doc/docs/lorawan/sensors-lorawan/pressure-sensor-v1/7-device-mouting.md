@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Pressure Sensor Mounting Options
+title: "Pressure Sensor Mounting Options"
 description: "Pressure Sensor Mounting Options — Macnman Pressure Sensor: Wall Mounting, Pole Mounting."
 ---
 
@@ -45,3 +45,9 @@ description: "Pressure Sensor Mounting Options — Macnman Pressure Sensor: Wall
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheet: [MacSync LPS Xx LoRaWAN pressure transducer datasheet](/product/lorawan/sensors/pressure-sensors/macsync-lps-xx-lorawan-pressure-sensor)
+- Start of this manual: [Pressure Sensor Introduction](/lorawan/sensors-lorawan/pressure-sensor-v1/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

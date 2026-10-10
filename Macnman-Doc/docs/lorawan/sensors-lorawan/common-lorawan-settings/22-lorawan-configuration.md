@@ -1,7 +1,7 @@
 ---
 id: maya_lorawan_basic_sensors_common
-title: Common Sensor Settings LoRaWAN Settings
-description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
+title: "Common Sensor Settings LoRaWAN Settings"
+description: "LoRaWAN settings shared by Macnman LoRaWAN sensors in the Maya app: keys and identities, key regeneration, class, frequency, ADR and confirmed messages."
 ---
 
 ## Keys & Identities
@@ -9,7 +9,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to get the keys & identity of your device (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/hsxO_2o8zgM?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -34,7 +34,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to regenerate the LoRaWAN keys (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/GsWdPMb0IAI?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -61,7 +61,7 @@ This is recommended when transferring device ownership or securing deployments i
 #### How to change the LoRaWAN Class (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/GsWdPMb0IAI?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -101,7 +101,7 @@ Controller are available in the Class C mode only
 #### How to change the LoRaWAN Regions (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/NSeZauWw7OI?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -129,7 +129,7 @@ Select the appropriate LoRaWAN frequency band **based on your deployment region*
 #### How to change the LoRaWAN Regions (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/KFODqRhkdAM?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -168,7 +168,7 @@ Select the appropriate LoRaWAN frequency band **based on your deployment region*
 #### How to change the LoRaWAN Regions (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/KFODqRhkdAM?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -194,3 +194,8 @@ Select the appropriate LoRaWAN frequency band **based on your deployment region*
   Use only for  <strong>critical data</strong>  that must be confirmed by the network.
 </div>
 
+## Related Resources
+
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Start of this manual: [Common Sensor Settings LED Status](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

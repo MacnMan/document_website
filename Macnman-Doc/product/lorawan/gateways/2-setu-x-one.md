@@ -1,8 +1,9 @@
 ---
 id: setu-x-one-datasheet
-title: Indoor Gateway
+title: "Setu LX Indoor LoRaWAN Gateway Datasheet"
+sidebar_label: "Indoor Gateway"
 sidebar_position: 2
-description: Setu X Series is a compact Indoor LoRaWAN® Gateway Series designed for enterprise IoT, smart buildings, Industry 4.0, and indoor wireless infrastructure deployments.
+description: "Setu LX Series is a compact 8-channel indoor LoRaWAN gateway with Ethernet, Wi-Fi and LTE backhaul for smart buildings, enterprise IoT and Industry 4.0."
 keywords:
   - indoor lorawan gateway
   - lorawan indoor gateway
@@ -14,46 +15,8 @@ keywords:
   - compact lorawan gateway
   - private lorawan network gateway
   - industry 4.0 indoor gateway
-  - indoor wireless iot gateway
-  - indoor smart campus gateway
-  - indoor asset tracking gateway
-  - indoor environmental monitoring gateway
-  - indoor industrial automation gateway
-  - lorawan gateway for offices
-  - lorawan gateway for hospitals
-  - indoor gateway for smart buildings
-  - indoor telemetry gateway
-  - indoor long range wireless gateway
   - indoor lorawan gateway india
-  - lorawan gateway for smart offices
   - industrial indoor lorawan gateway
-  - indoor gateway for industry 4.0
-  - lorawan gateway for factories
-  - enterprise indoor wireless gateway
-  - lorawan gateway for warehouses
-  - indoor gateway with lte backup
-  - indoor gateway with poe
-  - compact industrial gateway
-  - indoor iot edge gateway
-  - smart office lorawan gateway
-  - indoor gateway for energy monitoring
-  - indoor gateway for occupancy monitoring
-  - lorawan gateway for hospitals and healthcare
-  - indoor telemetry and monitoring gateway
-  - long range indoor wireless gateway
-  - indoor gateway with node-red
-  - chirpstack indoor gateway
-  - mqtt compatible lorawan gateway
-  - edge automation lorawan gateway
-  - commercial building lorawan gateway
-  - indoor wireless automation gateway
-  - scalable indoor lorawan infrastructure
-  - enterprise iot connectivity gateway
-  - indoor sensor network gateway
-  - smart campus lorawan infrastructure
-  - indoor environmental monitoring gateway
-  - indoor predictive maintenance gateway
-  - industrial telemetry gateway
   
 ---
 
@@ -254,7 +217,6 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 
 
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">System Hardware Specifications</div>
   <div class="device-config-table">
@@ -607,7 +569,6 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 
 ---
 ## Setu LX Series Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -634,8 +595,6 @@ Whether deployed inside offices, hospitals, industrial facilities, educational c
 ---
 
 ## What's in the Box?
-
-
 The **Setu LX Series Indoor LoRaWAN® Gateway** package is designed for fast enterprise deployment, smart building integration, and indoor Industrial IoT installations. Before installation, verify that all gateway components and mounting accessories are available inside the package.
 
 The standard package contents include:
@@ -663,8 +622,7 @@ Optional accessories including LTE antennas, Ethernet cables, PoE accessories, a
 
 ---
 
-## Setu LX Series Gateway Dimensions
-
+## Setu LX Series Dimensions
 The **Setu LX Series Indoor LoRaWAN® Gateway** features a compact enterprise-grade enclosure engineered for smart buildings, indoor Industrial IoT deployments, offices, hospitals, commercial infrastructure, and Industry 4.0 automation systems.
 
 - **98 mm × 98 mm × 34 mm** (Without Antenna)
@@ -673,3 +631,34 @@ The low-profile industrial enclosure enables clean wall-mounted and ceiling-moun
 
 ![Setu LX Series indoor LoRaWAN gateway dimensions and mounting layout](/img/controller/setu-lx-series-indoor-lorawan-gateway-dimensions-installation-drawing.webp)
 
+## Frequently Asked Questions
+
+### What is the Setu LX Series used for?
+
+Setu LX Series is a compact 8-channel indoor LoRaWAN gateway with Ethernet, Wi-Fi and LTE backhaul for smart buildings, enterprise IoT and Industry 4.0. Typical applications include Smart Buildings & Enterprise Offices, Hospitals & Healthcare Infrastructure, Industry 4.0 & Industrial Automation, Warehouses & Smart Logistics, Retail Stores & Shopping Malls and Hotels & Hospitality Automation.
+
+### How many LoRaWAN channels and which frequency bands does the Setu LX Series support?
+
+The Setu LX Series has 8 uplink channels and 1 downlink channel, and is compatible with LoRaWAN® Class A / B / C devices. Supported frequency plans: IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4. Transmit power: Up to 27 dBm @ SF12, BW 125 kHz. Receive sensitivity: Down to -139 dBm @ SF12, BW 125 kHz.
+
+### Which backhaul options does the Setu LX Series have?
+
+The Setu LX Series offers Ethernet, Wi-Fi and cellular LTE backhaul. Cellular bands: B1/3/5/7/8/20/28. SIM: 2 × Nano SIM. It also includes a built-in ChirpStack Server.
+
+### How is the Setu LX Series powered?
+
+The Setu LX Series is powered from PoE IEEE 802.3af / 802.3at or 12–24 V DC. Typical power consumption is 4.5 W (with Ethernet Backhaul), with a peak of up to 7 W (with LTE & Wi-Fi Active).
+
+### What is the IP rating and operating temperature of the Setu LX Series?
+
+The Setu LX Series has an ingress protection rating of IP67 and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### What is included in the box with the Setu LX Series?
+
+The box contains: Setu LX Series Indoor LoRaWAN® Gateway, USB Type‑C Power Cable, Wall Mount Installation Kit, Ceiling Mount Accessories, Quick Installation Guide, Product Warranty Card, LTE Antenna * (For LTE Variants) and LTE Antenna Pair * (For LTE Variants).
+
+## Related Products and Resources
+
+- Related datasheets: [FireGaurd Gen 1 fire equipment health monitoring controller](/product/lorawan/gateways/fire-guard-single-channel-lora-gateway-for-firedatasheet), [IndiLoRa X single-channel indoor LoRa gateway](/product/lorawan/gateways/indilora-single-channel-datasheet), [Setu SCX single-channel indoor LoRa gateway](/product/lorawan/gateways/setu-scx-single-channel-datasheet), [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two)
+- Product page: [Setu LX Series on macnman.com](https://www.macnman.com/lorawan/gateways/indoor-lorawan-gateway-setu-x-one)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

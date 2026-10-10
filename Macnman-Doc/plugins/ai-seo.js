@@ -5,7 +5,7 @@
  * At content time (every docs plugin loaded) it reads each page's source and
  * publishes, as global data keyed by permalink, what the page components need
  * for structured data: the section, the first image, a datasheet PDF, FAQ
- * question/answer pairs, and whether the page is `noindex`.
+ * question/answer pairs, embedded videos, and whether the page is `noindex`.
  * See src/theme/DocItem/Metadata.
  *
  * At build time it writes, next to the HTML:
@@ -62,6 +62,11 @@ const plainText = (s) =>
     .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
     .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
     .replace(/[*_`>#]+/g, '')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&#123;/g, '{')
+    .replace(/&#125;/g, '}')
+    .replace(/&amp;/g, '&')
     .replace(/\s+/g, ' ')
     .trim();
 
@@ -70,10 +75,35 @@ const firstImage = (body) => {
   return m ? m[1] : '';
 };
 
+/**
+ * The datasheet PDF published with this site (static/downloads). Any other
+ * PDF linked from a product page is a shared placeholder, not that product's
+ * own datasheet, so it must not be attached to the Product in structured data.
+ */
 const firstPdf = (body) => {
-  const m = body.match(/(?:href="|\()([^"()\s]+\.pdf)(?:"|\))/i);
+  const m = body.match(/(?:href="|\()((?:\/docs)?\/downloads\/[^"()\s]+\.pdf)(?:"|\))/i);
   return m ? m[1] : '';
 };
+
+/** The page's own "Frequently Asked Questions" section (datasheets end with one). */
+const faqSection = (body) => {
+  const start = body.search(/^##\s+Frequently Asked Questions\s*$/m);
+  if (start < 0) return '';
+  const rest = body.slice(start).replace(/^.*\n/, '');
+  const end = rest.search(/^##\s/m);
+  return end < 0 ? rest : rest.slice(0, end);
+};
+
+/**
+ * YouTube videos embedded in a page, with the title, description, upload date
+ * and length recorded in src/data/videos.json (taken from YouTube). A video
+ * that is not in that file is left out: search engines require the upload
+ * date, and it cannot be worked out from the embed.
+ */
+function embeddedVideos(body, catalogue) {
+  const ids = [...body.matchAll(/youtube(?:-nocookie)?\.com\/embed\/([A-Za-z0-9_-]{6,})/g)].map((m) => m[1]);
+  return [...new Set(ids)].filter((id) => catalogue[id]).map((id) => ({id, ...catalogue[id]}));
+}
 
 /** "#### Q1. Why …?" / "### Does it …?" headings followed by their answer. */
 function parseFaq(body) {
@@ -82,7 +112,7 @@ function parseFaq(body) {
   let current = null;
   const flush = () => {
     if (current) {
-      const answer = plainText(current.answer.join('\n')).slice(0, 600);
+      const answer = plainText(current.answer.join('\n')).slice(0, 900);
       if (answer.length > 20) faq.push({q: current.q, a: answer});
     }
     current = null;
@@ -109,6 +139,10 @@ module.exports = function aiSeoPlugin(context) {
 
   /** @type {Array<Record<string, any>>} */
   let pages = [];
+  /** Every file under static/downloads that a page links to: [page source, url]. */
+  let downloadLinks = [];
+  const videoFile = path.join(siteDir, 'src/data/videos.json');
+  const videoCatalogue = fs.existsSync(videoFile) ? JSON.parse(fs.readFileSync(videoFile, 'utf8')) : {};
 
   return {
     name: 'macnman-ai-seo',
@@ -117,6 +151,7 @@ module.exports = function aiSeoPlugin(context) {
       const docsPlugins = allContent['docusaurus-plugin-content-docs'] ?? {};
       const extras = {};
       pages = [];
+      downloadLinks = [];
 
       for (const [pluginId, content] of Object.entries(docsPlugins)) {
         const section = SECTIONS[pluginId] ?? titleFromSlug(pluginId);
@@ -126,7 +161,14 @@ module.exports = function aiSeoPlugin(context) {
             const src = doc.source.replace(/^@site\//, '');
             const raw = fs.readFileSync(path.join(siteDir, src), 'utf8');
             const body = stripFrontMatter(raw);
-            const noindex = /name="robots"[^>]*noindex/i.test(raw);
+            for (const m of body.matchAll(/(?:href="|\()((?:\/docs)?\/downloads\/[^"()\s]+)(?:"|\))/g)) {
+              downloadLinks.push([src, m[1]]);
+            }
+            // A page listed in two categories points its canonical at the other
+            // copy: treat it like a noindex page (no structured data, not in llms.txt).
+            const canonical = raw.match(/<link rel="canonical" href="([^"]+)"/);
+            const duplicate = !!canonical && canonical[1] !== `${url}${doc.permalink}`;
+            const noindex = duplicate || /name="robots"[^>]*noindex/i.test(raw);
             const parts = doc.permalink
               .slice(version.path.length)
               .split('/')
@@ -140,7 +182,8 @@ module.exports = function aiSeoPlugin(context) {
               crumb,
               image: firstImage(body),
               pdf: pluginId === 'product' ? firstPdf(body) : '',
-              faq: isFaq ? parseFaq(body) : [],
+              faq: parseFaq(isFaq ? body : faqSection(body)),
+              videos: embeddedVideos(body, videoCatalogue),
               noindex,
             };
 
@@ -162,6 +205,18 @@ module.exports = function aiSeoPlugin(context) {
     },
 
     async postBuild({outDir}) {
+      // Docusaurus checks links between pages but not links to files, so a
+      // renamed or missing datasheet PDF would ship as a dead download.
+      const missing = downloadLinks.filter(
+        ([, link]) => !fs.existsSync(path.join(outDir, decodeURI(link.replace(/^\/docs/, '')))),
+      );
+      if (missing.length) {
+        throw new Error(
+          `Download links to files that do not exist in static/downloads:\n` +
+            missing.map(([src, link]) => `  ${src} -> ${link}`).join('\n'),
+        );
+      }
+
       const bySection = new Map();
       for (const p of pages) bySection.set(p.section, [...(bySection.get(p.section) ?? []), p]);
       const abs = (permalink) => `${url}${permalink}`;

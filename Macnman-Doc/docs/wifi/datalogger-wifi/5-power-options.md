@@ -1,6 +1,6 @@
 ---
 id: macsync_power-options
-title: WiFi Datalogger (MacSync) Power Options
+title: "WiFi Datalogger (MacSync) Power Options"
 description: "WiFi Datalogger (MacSync) Power Options — MacSync devices, including all Maya sensor nodes (CO2, temperature, humidity, air pressure, light, PM2.5, noise…"
 ---
 
@@ -79,5 +79,9 @@ power source before connecting.
   </div>
 </div>
 
+## Related Resources
 
-
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

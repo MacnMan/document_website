@@ -1,4 +1,10 @@
 {
   "label": "LoRaWAN Products",
-  "position": 1
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Product Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN sensors, gateways, controllers and dataloggers, with specifications, dimensions, variants and downloads.",
+    "slug": "/lorawan"
+  }
 }

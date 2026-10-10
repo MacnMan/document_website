@@ -1,53 +1,25 @@
 ---
 id: macsync-l-soil-moisture-sensor-datasheet
-title: Soil Moisture Sensor
+title: "MacSync LSS X2 LoRaWAN Soil Moisture Sensor"
+sidebar_label: "Soil Moisture Sensor"
 sidebar_position: 9
 description: "MacSync LSS X2 is an industrial LoRaWAN soil moisture and soil temperature sensor for precision agriculture, smart irrigation and long-range field monitoring."
 keywords:
   - lorawan soil moisture sensor
   - macsync lsx3 soil moisture sensor
-  - wireless soil moisture monitoring device
   - long range soil moisture probe lorawan
   - smart irrigation soil moisture sensor
-  - agriculture iot moisture monitoring
   - precision farming soil moisture sensor
-  - soil volumetric water content sensor
-  - field soil moisture telemetry system
-  - rugged outdoor soil moisture node
   - low power lorawan soil sensor
-  - greenhouse soil moisture automation
-  - plantation soil moisture monitoring
-  - smart city landscape irrigation control sensor
-  - industrial grade soil moisture detector
-  - remote farmland moisture sensing device
-  - lorawan agriculture moisture data logger
-  - soil hydration monitoring sensor
-  - crop irrigation optimization sensor
-  - macnman lorawan moisture monitoring module
   - lorawan soil temperature sensor
   - wireless soil temperature monitoring sensor
   - soil temperature and moisture sensor
-  - smart agriculture soil sensor
-  - irrigation automation sensor
-  - precision irrigation monitoring device
-  - industrial lorawan agriculture sensor
-  - soil moisture telemetry device
-  - battery powered soil sensor
-  - long range agriculture sensor
   - vineyard soil moisture sensor
-  - greenhouse soil temperature monitoring
   - soil water content sensor lorawan
-  - remote irrigation monitoring system
-  - smart farming moisture monitoring
   - soil temperature monitoring sensor
-  - soil moisture sensor for smart irrigation
-  - wireless soil probe
-  - lorawan farm monitoring sensor
-  - precision agriculture moisture sensor
-  - agriculture telemetry sensor
 ---
 
-# MacSync LSS X2 LoRaWAN Soil Moisture & Temperature Sensor
+# MacSync LSS X2 LoRaWAN® Soil Moisture & Temperature Sensor Datasheet
 
 ## Product Overview
 
@@ -79,9 +51,9 @@ MacSync LSS X2 is ideal for:
 
 ---
 
-| ![MacSync LSS X3 LoRaWAN soil EC sensor front view for precision agriculture and smart farming](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-front-view.webp) | ![MacSync LSS X3 wireless soil conductivity monitoring sensor side view for greenhouse and fertigation monitoring](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-main-image.webp) |
+| ![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor front view](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-front-view.webp) | ![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor side view](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-main-image.webp) |
 |--------------------------------|--------------------------------|
-| ![MacSync LSS X3 industrial LoRaWAN soil EC monitoring sensor rear view with rugged outdoor enclosure](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LSS X3 real-time soil salinity and conductivity monitoring sensor for smart agriculture](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor rear view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor product view 4](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 ---
 
@@ -225,7 +197,6 @@ MacSync LSS X2 is ideal for:
 ---
 
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">Soil Moisture Sensor Measurement</div>
   <div class="device-config-table">
@@ -568,7 +539,6 @@ MacSync LSS X2 is ideal for:
 ---
 
 ## MacSync LSS X2 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -621,7 +591,6 @@ MacSync LSS X2 is ideal for:
 --- 
 
 ## What's in the Box?
-
 Make sure the box contains the following items before installation.
 
 - MacSync LSS X2 Soil Moisture & Temperature Sensor
@@ -641,8 +610,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-## MacSync LSS X2 Product Dimensions
-
+## MacSync LSS X2 Dimensions
 The MacSync LSS X2 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. Its compact structure enables easy installation across farms, vineyards, orchards, greenhouses, research fields, plantations, and smart irrigation infrastructure.
 
 ![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-probe-dimensions.webp)
@@ -650,3 +618,45 @@ The MacSync LSS X2 features a rugged industrial-grade enclosure designed for lon
 ![MacSync LSS X2 LoRaWAN soil moisture and temperature sensor mechanical dimensions and mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-device-dimensions.webp)
 
 ---
+
+## Frequently Asked Questions
+
+### What is the MacSync LSS X2 used for?
+
+MacSync LSS X2 is an industrial LoRaWAN soil moisture and soil temperature sensor for precision agriculture, smart irrigation and long-range field monitoring. Typical applications include Precision Agriculture & Smart Farming, Smart Irrigation Automation, Drip Irrigation Monitoring, Greenhouses & Polyhouses, Vineyards & Orchards and Plantations & Commercial Farming.
+
+### What does the MacSync LSS X2 measure, and how accurately?
+
+Measurement specifications of the MacSync LSS X2:
+
+- Soil Moisture: range 0% – 100% VWC, accuracy ±3% (0–53% VWC), ±5% (53%+ VWC), resolution 0.1%.
+- Soil Temperature: range -40°C to +80°C, accuracy ±0.5°C.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LSS X2 support?
+
+The MacSync LSS X2 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments.
+
+### How long does the MacSync LSS X2 battery last?
+
+The battery-operated MacSync LSS X2 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A solar option adds a 20 W High-Efficiency Solar Panel with an Integrated 8000 mAh Solar Rechargeable Battery.
+
+### What is the IP rating and operating temperature of the MacSync LSS X2?
+
+The MacSync LSS X2 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LSS X2 configured?
+
+The MacSync LSS X2 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LSS X2?
+
+The box contains: MacSync LSS X2 Soil Moisture & Temperature Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [Soil sensor user manual](/lorawan/sensors-lorawan/soil-sensor/macsyncls_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LSS X3 LoRaWAN soil EC sensor](/product/lorawan/sensors/soil-sensors/macsync-l-soil-ec-sensor-datasheet), [MacSync LSS X4 LoRaWAN soil pH sensor](/product/lorawan/sensors/soil-sensors/macsync-l-soil-ph-sensor-datasheet), [MacSync LSS X5 LoRaWAN 7-in-1 soil sensor](/product/lorawan/sensors/soil-sensors/macsync-l-seven-in-one-soil-sensor), [MacSync LSS X1 LoRaWAN soil NPK sensor](/product/lorawan/sensors/soil-sensors/macsync-l-npk-sensor-datasheet)
+- Product page: [MacSync LSS X2 on macnman.com](https://www.macnman.com/lorawan/sensors/lorawan-soil-moisture-temperature-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

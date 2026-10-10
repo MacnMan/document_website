@@ -1,6 +1,7 @@
 ---
 id: macset-cx1-datasheet
-title: MacSet CX1 
+title: "MacSet CX1 4G LTE Relay Controller Datasheet"
+sidebar_label: "MacSet CX1"
 sidebar_position: 3
 description: "MacSet CX1 is a power-operated 4G LTE cellular relay controller for reliable remote control and automation of pumps, motors and field equipment."
 keywords:
@@ -13,30 +14,12 @@ keywords:
   - 4g motor controller
   - 4g iot controller
   - cellular iot controller
-  - remote automation controller
   - digital output controller 4g
   - dual relay controller 4g
   - 4g switch controller
-  - remote switching device
-  - industrial automation 4g
-  - smart irrigation controller 4g
-  - remote irrigation controller cellular
-  - water pump automation 4g
-  - cellular rtu controller
-  - 4g telemetry controller
-  - mqtt cellular controller
-  - https cellular iot device
-  - aws iot cellular device
-  - azure iot cellular device
-  - thingsboard cellular device
-  - ubidots cellular device
-  - outdoor iot controller
-  - 9-36v dc iot controller
-  - ble configuration iot device
-  - macnman macset cx1
 ---
 
-# MacSet-CX1
+# MacSet CX1 4G LTE Cellular Relay Controller Datasheet
 
 ## Product Overview
 
@@ -48,22 +31,21 @@ The device supports cloud integration using **MQTT / HTTPS** and can be configur
 
 Whether used for smart agriculture, industrial automation, water management, or remote asset control, **MacSet-CX1 delivers a powerful, scalable, and future-ready solution for cellular-based switching and automation.**
 
-| ![Front view of MacSet-CX1 LoRaWAN controller with dual digital outputs](/img/controller/macset-lx1-front-view..webp) | ![Back view of MacSync-CX1 showing enclosure and wiring openings](/img/controller/macset-lx1-back-view.webp) |
+| ![Front view of MacSet-CX1 LoRaWAN controller with dual digital outputs](/img/controller/macset-lx1-front-view..webp) | ![MacSet CX1 4G LTE cellular relay controller rear view](/img/controller/macset-lx1-back-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Side view of MacSync-CX1 industrial LoRaWAN controller unit](/img/controller/macset-lx1-io-ports.webp) | ![MacSync-CX1 I/O ports showing dual digital outputs and power interface](/img/controller/macset-lx1-side-view.webp) |
+| ![MacSet CX1 4G LTE cellular relay controller side view](/img/controller/macset-lx1-io-ports.webp) | ![MacSet CX1 4G LTE cellular relay controller ports and interfaces](/img/controller/macset-lx1-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSet-LX1-datasheet.pdf" 
+  <a href="/docs/downloads/macset-cx1-4g-lte-relay-controller-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-CX1-datasheet.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -203,8 +185,7 @@ Whether used for smart agriculture, industrial automation, water management, or 
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -310,7 +291,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSet-CX1 is being modified</p>
@@ -470,7 +451,6 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 
 ## MacSet CX1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -496,11 +476,10 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </tbody>
 </table>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![macset box contains](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
+![What's in the box: MacSet CX1 package contents](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
 
 :::note
 
@@ -510,5 +489,42 @@ not be included in the box.
 :::
 
 ## MacSet CX1 Dimensions
+![MacSet CX1 dimensions drawing](/img/controller/macset-dimensions-of-the-box.svg)
 
-![MacSet Dimensions Of The Box](/img/controller/macset-dimensions-of-the-box.svg)
+## Frequently Asked Questions
+
+### What is the MacSet CX1 used for?
+
+MacSet CX1 is a power-operated 4G LTE cellular relay controller for reliable remote control and automation of pumps, motors and field equipment. Typical applications include Smart Agriculture & Irrigation, Water & Wastewater Management, Industrial Automation, Smart Buildings & Facilities, Solar & Energy Systems and Remote Infrastructure Control.
+
+### What inputs and outputs does the MacSet CX1 have?
+
+The MacSet CX1 provides the following interfaces:
+
+- High Current Relay Outputs: x2 @16 Amps
+- RS485 Interface: 1 (Switchable)
+- 4-20 mA Analog Channels: x 2 (Switchable)
+- 0-10 V Analog Channels: x 2 (Switchable)
+- Digital Inputs: x 2 (Switchable)
+- ADC Resolution: 12-bit
+
+### Which cellular networks does the MacSet CX1 support?
+
+The MacSet CX1 uses a Quectel EC200 Series module for 4G LTE (Cat 1), 2G GSM (Fallback) connectivity. Supported LTE bands: B1 / B3 / B5 / B8 / B40 / B41 (Region dependent). Supported GSM bands: 900 / 1800 MHz. It takes a Nano SIM and sends data over MQTT / HTTPS.
+
+### How is the MacSet CX1 powered?
+
+The MacSet CX1 is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSet CX1?
+
+The MacSet CX1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSet CX1 configured?
+
+The MacSet CX1 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+## Related Products and Resources
+
+- Related datasheets: [MacSet LX1 industrial LoRaWAN relay controller](/product/lorawan/controllers/macset-lx-one-datasheet), [MacSync CX1 4G LTE cellular data logger](/product/cellular/gateways/macsync-cx1-datasheet), [MacEdge CX08 industrial edge gateway](/product/cellular/gateways/macedge-cx08-datasheet), [MacEdge CX10 industrial edge gateway](/product/cellular/gateways/macedge-cx10-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

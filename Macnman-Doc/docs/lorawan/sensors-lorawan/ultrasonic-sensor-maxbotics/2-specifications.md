@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Ultrasonic Sensor (Long Range) Specifications
+title: "Ultrasonic Sensor (Long Range) Specifications"
 description: "Ultrasonic Sensor (Long Range) Specifications — Macnman Ultrasonic Sensor(Long Range): Ultrasonic Sensor Parameters, LoRaWAN Wireless Transmission, Power…"
 ---
 
@@ -246,3 +246,10 @@ description: "Ultrasonic Sensor (Long Range) Specifications — Macnman Ultrason
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheets: [LoRaWAN level sensor datasheets](/product/lorawan/sensors/level-sensors)
+- Start of this manual: [Ultrasonic Sensor (Long Range) Introduction](/lorawan/sensors-lorawan/ultrasonic-sensor-maxbotics/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

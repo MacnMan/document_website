@@ -1,6 +1,6 @@
 ---
 id: macsynclw6_introduction
-title: Noise Sensor Introduction
+title: "Noise Sensor Introduction"
 description: "With a rugged, weather-resistant enclosure (IP66-rated) and ultra-low power design, MacSync-LN1 is built for long-term deployment in diverse environments."
 ---
 
@@ -163,3 +163,9 @@ Fully compatible with Macnman gateways and platforms, MacSync-LN1 enables smarte
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LNS X1 LoRaWAN outdoor sound level sensor datasheet](/product/lorawan/sensors/other-sensors/macsync-l-n-x-one-sound-level-sensor)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

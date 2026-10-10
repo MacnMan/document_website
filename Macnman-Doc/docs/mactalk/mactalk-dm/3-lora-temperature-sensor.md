@@ -1,6 +1,6 @@
 ---
 id: mactalk_lora_temperature_humidity_sensor_configuration
-title: LoRa Temperature & Humidity Sensor
+title: "MacTalk-DM LoRa Temperature & Humidity Sensor"
 description: "LoRa Temperature & Humidity Sensor — Use the Maya (Macnman) app to connect with the temperature sensor."
 ---
 
@@ -194,3 +194,9 @@ For wired data access:
 Allows integration with external monitoring or SCADA systems.
 
 ---
+
+## Related Resources
+
+- Datasheets: [LoRaWAN product datasheets](/product/lorawan)
+- Start of this manual: [MacTalk-DM LoRa Gateway Node](/mactalk/mactalk-dm/mactalk_dm_document)
+- Help: [Contact Macnman support](/help/help)

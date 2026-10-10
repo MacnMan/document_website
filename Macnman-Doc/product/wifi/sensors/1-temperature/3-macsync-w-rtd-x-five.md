@@ -1,6 +1,7 @@
 ---
 id: macsync-w-rtd-x-five-datasheet
-title: MacSync-WRTDX5
+title: "MacSync-WRTDX5 Wi-Fi RTD PT1000 Temperature Sensor"
+sidebar_label: "MacSync-WRTDX5"
 sidebar_position: 2
 description: "MacSync-WRTDX5 is a high-accuracy Wi-Fi RTD (PT1000) temperature sensor for precise, reliable temperature monitoring in industrial environments."
 keywords:
@@ -10,22 +11,15 @@ keywords:
   - industrial wifi rtd sensor
   - high accuracy wifi temperature sensor
   - wifi based rtd temperature monitoring
-  - process temperature monitoring wifi
   - smart factory wifi temperature sensor
-  - boiler and furnace temperature monitoring wifi
-  - pipeline temperature monitoring wifi
   - cold chain wifi temperature sensor
-  - food and pharma temperature compliance wifi
   - predictive maintenance temperature sensor wifi
   - hvac wifi rtd temperature sensor
   - industrial iot wifi temperature sensor
-  - battery operated wifi rtd sensor
-  - macsync wrtdx5
   - macsync wifi rtd sensor
-  - macnman wifi temperature sensor
 ---
 
-# MacSync-WRTDX5 Datasheet
+# MacSync-WRTDX5 Wi-Fi RTD (PT1000) Temperature Sensor Datasheet
 
 ## Product Overview
 
@@ -49,13 +43,12 @@ From **industrial process control and predictive maintenance** to **HVAC monitor
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-wrtdx5-wifi-rtd-pt1000-temperature-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -185,8 +178,7 @@ From **industrial process control and predictive maintenance** to **HVAC monitor
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -300,7 +292,7 @@ From **industrial process control and predictive maintenance** to **HVAC monitor
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -476,8 +468,7 @@ From **industrial process control and predictive maintenance** to **HVAC monitor
 
 
 
-##  MacSync-WRTDX5 Variants
-
+## MacSync-WRTDX5 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -550,8 +541,7 @@ From **industrial process control and predictive maintenance** to **HVAC monitor
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
@@ -563,7 +553,42 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacSync-WRTDX5 Dimensions
+![MacSync-WRTDX5 dimensions drawing](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.webp)
 
-![MacSync L Rtd X Five Dimensions](/img/lorawan/sensors/macsync/macsync-l-rtd-x-five-dimensions.webp)
+## Frequently Asked Questions
 
+### What is the MacSync-WRTDX5 used for?
+
+MacSync-WRTDX5 is a high-accuracy Wi-Fi RTD (PT1000) temperature sensor for precise, reliable temperature monitoring in industrial environments. Typical applications include Industrial Process Temperature Monitoring, Predictive Maintenance for Machines & Motors, Boilers, Furnaces & Thermal Systems, Pipelines & Heat Exchangers, Cold Chain & Refrigeration Systems and HVAC & Building Automation.
+
+### What does the MacSync-WRTDX5 measure, and how accurately?
+
+Measurement specifications of the MacSync-WRTDX5:
+
+- Temperature: range –200 °C to +850 °C, accuracy ±0.2 °C (typical), resolution 0.1 °C.
+
+### How does the MacSync-WRTDX5 connect and send data over Wi-Fi?
+
+The MacSync-WRTDX5 connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### How is the MacSync-WRTDX5 powered?
+
+The MacSync-WRTDX5 is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync-WRTDX5?
+
+The MacSync-WRTDX5 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync-WRTDX5 configured?
+
+The MacSync-WRTDX5 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacSync-WRTDX5 work with?
+
+The MacSync-WRTDX5 can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- Related datasheets: [MWTH 301 compact Wi-Fi temperature and humidity sensor](/product/wifi/sensors/temperature/wlth-temp-humi-sensor-datasheet), [MacSync-WT1 Wi-Fi temperature and humidity sensor](/product/wifi/sensors/temperature/macsync-wt-one-datasheet), [MacSync-WRTDX2 Wi-Fi RTD PT100 temperature sensor](/product/wifi/sensors/temperature/macsync-wifi-rtd-sensor-x-series)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

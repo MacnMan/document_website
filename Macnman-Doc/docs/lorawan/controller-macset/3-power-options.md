@@ -1,6 +1,6 @@
 ---
 id: lorawan_controller_terminial_connections_macset_lx1
-title: Terminal Connections & Led Indications
+title: "LoRaWAN® Controller (MacSet) Terminal Connections & LEDs"
 description: "Terminal Connections & Led Indications — MacSet also supports direct external power input (12–24 V DC):"
 ---
 
@@ -66,3 +66,10 @@ power source before connecting.
     <p>Modifying any confirmed parameters of MacSet.</p>
   </div>
 </div>
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

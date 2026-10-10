@@ -1,4 +1,10 @@
 {
   "label": "WiFi Dataloggers",
-  "position": 4
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Wi-Fi Datalogger Datasheets",
+    "description": "Datasheets for Macnman MacSync Wi-Fi dataloggers: power-operated and battery-operated RS485 Modbus and analog to Wi-Fi data loggers.",
+    "slug": "/wifi/dataloggers"
+  }
 }

@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Ultrasonic Sensor (Long Range) Introduction
+title: "Ultrasonic Sensor (Long Range) Introduction"
 description: "Designed to withstand demanding conditions with a weatherproof enclosure and advanced noise rejection capabilities, the sensor supports ultra-low power…"
 ---
 
@@ -171,3 +171,9 @@ Fully compatible with Macnman gateways and platforms, MacSync-LU7 enables smarte
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheets: [LoRaWAN level sensor datasheets](/product/lorawan/sensors/level-sensors)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

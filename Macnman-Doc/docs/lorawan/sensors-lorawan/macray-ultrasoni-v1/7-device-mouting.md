@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: MacRay-Ultrasonic Mounting Options
+title: "MacRay-Ultrasonic Mounting Options"
 description: "MacRay-Ultrasonic Mounting Options — Macnman MacRay-Ultrasonic: Wall Mounting, Pole Mounting."
 ---
 
@@ -45,3 +45,9 @@ description: "MacRay-Ultrasonic Mounting Options — Macnman MacRay-Ultrasonic: 
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheet: [MacRay LUS X1 LoRaWAN ultrasonic level sensor datasheet](/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one)
+- Start of this manual: [MacRay-Ultrasonic Introduction](/lorawan/sensors-lorawan/macray-ultrasoni-v1/MacRayls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

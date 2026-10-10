@@ -1,6 +1,6 @@
 ---
 id: macsync_rs485_lorawan_introduction
-title: RS485/Aalog Datalogger (MacSync) Introduction
+title: "RS485/Analog Datalogger (MacSync) Introduction"
 description: "Designed for seamless integration, MacSync supports connectivity with both RS485 & Analog sensors, making it adaptable to a wide variety of systems and…"
 ---
 
@@ -215,3 +215,8 @@ Below are key technical terms and identifiers relevant for configuring and opera
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Help: [Contact Macnman support](/help/help)

@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: Pressure Sensor Specifications
+title: "Pressure Sensor Specifications"
 description: "Pressure Sensor Specifications — Macnman Pressure Sensor: Pressure Sensor Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical…"
 ---
 
@@ -250,3 +250,10 @@ description: "Pressure Sensor Specifications — Macnman Pressure Sensor: Pressu
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LPS Xx LoRaWAN pressure transducer datasheet](/product/lorawan/sensors/pressure-sensors/macsync-lps-xx-lorawan-pressure-sensor)
+- Start of this manual: [Pressure Sensor Introduction](/lorawan/sensors-lorawan/pressure-sensor-v1/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

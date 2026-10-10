@@ -1,8 +1,9 @@
 ---
 id: mactalk_dm_document
-title: LoRa Gateway Node 
+title: "MacTalk-DM LoRa Gateway Node"
 description: "LoRa Gateway Node — Use the Macnman Maya mobile application to configure the gateway."
 ---
+
 # Gateway Configuration Guide
 
 ## 1. App Setup & Device Connection
@@ -181,3 +182,8 @@ Navigate to **RS485 Settings**
 Ensures correct serial communication and accurate data acquisition.
 
 ---
+
+## Related Resources
+
+- Datasheets: [LoRaWAN product datasheets](/product/lorawan)
+- Help: [Contact Macnman support](/help/help)

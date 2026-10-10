@@ -1,4 +1,10 @@
 {
   "label": "Custom Products",
-  "position": 3
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Custom Product Datasheets",
+    "description": "Datasheets for Macnman custom and application-specific products: smart relay schedulers, HMI controllers and retrofit gas meter modules.",
+    "slug": "/custom/custom-products"
+  }
 }

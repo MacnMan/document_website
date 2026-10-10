@@ -1,40 +1,25 @@
 ---
 id: macsync-lorawan-water-ph-sensor
-title: pH Sensor
+title: "MacSync LWQS X2 LoRaWAN Water pH Sensor Datasheet"
+sidebar_label: "pH Sensor"
 sidebar_position: 9
-description: Industrial LoRaWAN Water pH Sensor for real-time online pH monitoring in drinking water systems, wastewater treatment plants, STP, WWTP, industrial effluent monitoring, reservoirs, rivers, lakes, cooling towers, and smart IoT water quality monitoring applications.
+description: "MacSync LWQS X2 is an industrial LoRaWAN water pH sensor for online pH monitoring in drinking water, wastewater treatment, STP, WWTP and effluent."
 keywords:
   - lorawan water ph sensor
   - lorawan ph sensor
   - industrial lorawan water ph sensor
   - water quality ph sensor lorawan
-  - online water ph monitoring system
   - wireless water ph sensor
   - industrial water ph monitoring sensor
   - drinking water ph sensor lorawan
-  - wastewater ph monitoring sensor
-  - sewage treatment plant ph sensor
   - stp ph sensor lorawan
-  - wwtp ph monitoring sensor
-  - industrial effluent ph monitoring
-  - smart water quality monitoring iot
   - battery powered lorawan ph sensor
   - long range water ph sensor
-  - low power water quality sensor
-  - river water ph monitoring lorawan
-  - lake water ph monitoring sensor
-  - reservoir water ph sensor
-  - cooling tower water ph sensor
-  - industrial process water ph sensor
-  - iot water quality monitoring sensor
-  - lorawan water quality monitoring system
   - macsync lorawan ph sensor
-  - macsync water quality sensor
-  - macsync lwq x9
   - macnman lorawan water ph sensor
 ---
 
-# MacSync LWQS X2 LoRaWAN Water pH Sensor Datasheet
+# MacSync LWQS X2 LoRaWAN® Water pH Sensor Datasheet
 
 ## Product Overview
 
@@ -196,7 +181,6 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 ---
 
 ## Technical Specifications
-
 <div className="device-config-section">
   <div className="device-config-title">pH Sensor Measurement</div>
   <div className="device-config-table">
@@ -533,8 +517,7 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 </div>
 
 ---
-## MacSync-L-WQPH Variants
-
+## MacSync LWQS X2 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -587,7 +570,6 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 ---
 
 ## What's in the Box?
-
 Make sure the package contains the following items before installation and deployment of the LoRaWAN® Water pH Sensor.
 
 - MacSync LWQS X2 LoRaWAN Water pH Sensor
@@ -608,8 +590,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-## MacSync LWQS X2 Product Dimensions
-
+## MacSync LWQS X2 Dimensions
 The **MacSync LWQS X2 LoRaWAN Water pH Sensor** features a rugged industrial-grade enclosure engineered for long-term industrial and outdoor water quality monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables flexible installation across drinking water systems, wastewater treatment plants (WWTP), sewage treatment plants (STP), industrial process water systems, reservoirs, borewells, cooling towers, rivers, lakes, aquaculture systems, and smart IoT water infrastructure.
 
 Its compact low-profile design simplifies wall mounting and industrial installation while maintaining reliable pH monitoring performance in harsh operating environments including high humidity, water exposure, industrial contamination, chemical environments, dust, and extreme outdoor temperatures.
@@ -618,3 +599,43 @@ Its compact low-profile design simplifies wall mounting and industrial installat
 
 
 ![MacSync LWQS X2 industrial water pH probe dimensions drawing](/img/lorawan/sensors/macsync/macsync-lwq-x-ph-probe-overall-dimensions.webp)
+
+## Frequently Asked Questions
+
+### What is the MacSync LWQS X2 used for?
+
+MacSync LWQS X2 is an industrial LoRaWAN water pH sensor for online pH monitoring in drinking water, wastewater treatment, STP, WWTP and effluent. Typical applications include Drinking Water Quality Monitoring, Industrial Water pH Monitoring, Sewage Treatment Plant (STP) Monitoring, Wastewater Treatment Plant (WWTP) Analytics, Industrial Effluent Monitoring and Cooling Tower Water Quality Monitoring.
+
+### What does the MacSync LWQS X2 measure, and how accurately?
+
+Measurement specifications of the MacSync LWQS X2:
+
+- pH: range 0 to 14 pH, accuracy ±0.1 pH, resolution 0.01 pH.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LWQS X2 support?
+
+The MacSync LWQS X2 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments.
+
+### How long does the MacSync LWQS X2 battery last?
+
+The battery-operated MacSync LWQS X2 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A solar option adds a 20 W High-Efficiency Solar Panel with an Integrated 8000 mAh Solar Rechargeable Battery.
+
+### What is the IP rating and operating temperature of the MacSync LWQS X2?
+
+The MacSync LWQS X2 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LWQS X2 configured?
+
+The MacSync LWQS X2 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LWQS X2?
+
+The box contains: MacSync LWQS X2 LoRaWAN Water pH Sensor, Industrial pH Probe, User Manual, Warranty Card and Mounting Screws & Installation Hardware. Industrial Mounting Bracket, IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [Water quality sensor user manual](/lorawan/sensors-lorawan/water-quality-sensor-v1/macsyncls_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LWQS X1 LoRaWAN water quality EC sensor](/product/lorawan/sensors/water-sensors/macsync-l-water-ec-sensor-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

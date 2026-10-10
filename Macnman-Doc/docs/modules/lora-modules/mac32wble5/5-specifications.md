@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: MAC32WBLE5 Specifications
+title: "MAC32WBLE5 Specifications"
 description: "MAC32WBLE5 Specifications for the Macnman MAC32WBLE5 (Modules › LoRa/LoRaWANModules)."
 ---
 
@@ -31,3 +31,9 @@ description: "MAC32WBLE5 Specifications for the Macnman MAC32WBLE5 (Modules › 
     <tr><td>Supported Protocols</td><td>LoRa, LoRaWAN</td><td>BLE</td></tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Product: [MAC32WBLE5 LoRa + BLE module product page](https://www.macnman.com/modules/lora-ble-module-mac32wble5)
+- Start of this manual: [MAC32WBLE5 Introduction](/modules/lora-modules/mac32wble5/introduction)
+- Help: [Contact Macnman support](/help/help)

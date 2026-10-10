@@ -1,6 +1,6 @@
 ---
 id: MacRayls_introduction
-title: MacRay-Ultrasonic Introduction
+title: "MacRay-Ultrasonic Introduction"
 description: "Equipped with high acoustic power output, real-time auto calibration, and advanced noise rejection capabilities, MacRay-Ultrasonic ensures stable…"
 ---
 
@@ -25,11 +25,11 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacRay-LU1.pdf" 
+  <a href="/docs/downloads/macray-lus-x1-lorawan-ultrasonic-distance-level-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacRay-LU1.pdf)</strong>
+      <strong>Download Datasheet</strong>
       <p>Click here to download the full MacRay-LT1 technical datasheet
 .</p>
     </div>
@@ -168,3 +168,9 @@ Configuration is simple and wireless using the [**Macnman Maya App**](https://pl
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacRay LUS X1 LoRaWAN ultrasonic level sensor datasheet](/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

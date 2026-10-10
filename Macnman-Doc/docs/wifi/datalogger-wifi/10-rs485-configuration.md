@@ -1,6 +1,6 @@
 ---
 id: macsync_rs485_configurations
-title: WiFi Datalogger (MacSync) RS485 Configuration
+title: "WiFi Datalogger (MacSync) RS485 Configuration"
 description: "WiFi Datalogger (MacSync) RS485 Configuration — To connect a sensor, first select the appropriate mode — either RS485 or Analog — depending on the sensor…"
 ---
 
@@ -98,3 +98,10 @@ Refer to your device’s Modbus register map.
 
 **08. Check Values**  
 - Click the **“Check”** button to verify that the device is returning valid data using the selected configuration.
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

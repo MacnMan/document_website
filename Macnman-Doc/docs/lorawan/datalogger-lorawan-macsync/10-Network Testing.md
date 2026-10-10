@@ -1,7 +1,7 @@
 ---
 id: maya_lorawa_network_health
-title: RS485/Aalog Datalogger LoRaWAN Network Health
-description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
+title: "RS485/Analog Datalogger (MacSync) LoRaWAN Network Health"
+description: "Check MacSync datalogger LoRaWAN network health in the Maya app: run a network test and read uplink status, spreading factor, SNR and RSSI."
 ---
 
 ## LoRaWAN Network Test
@@ -9,7 +9,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to check LoRaWAN Network Health in Macsync ? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/ZBvSJQ9IE5w?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -63,3 +63,9 @@ Measures signal power in dBm (always negative):
 
 
 s
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

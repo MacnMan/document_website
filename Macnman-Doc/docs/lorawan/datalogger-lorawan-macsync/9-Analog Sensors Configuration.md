@@ -1,7 +1,7 @@
 ---
 id: macsync_analog_configurations
-title: RS485/Aalog Datalogger (MacSync) Analog Settings
-description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
+title: "RS485/Analog Datalogger (MacSync) Analog Settings"
+description: "Set up analog sensors on the MacSync datalogger in the Maya app: power output, sensor warm-up time, sensor type and analog channel configuration."
 ---
 
 ## Setting Up Analog Sensors
@@ -9,7 +9,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to configure Analog Deivce in Macsync ? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/mSR3jShFep4?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -78,3 +78,9 @@ This means you can use **different sensor types** on each channel based on your 
 **04. Check Values**  
 Use the **“Check”** option to verify that the connected sensor is providing correct values.  
 This helps ensure proper wiring, power, and signal compatibility before final deployment.
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

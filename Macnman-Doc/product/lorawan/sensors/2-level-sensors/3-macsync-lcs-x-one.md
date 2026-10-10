@@ -1,51 +1,25 @@
 ---
 id: macsync-lcs-x-1-lorawan-capacitive-sensor
-title: Capacitive Fuel Level Sensor
+title: "MacSync LCS X1 LoRaWAN Fuel Level Sensor Datasheet"
+sidebar_label: "Capacitive Fuel Level Sensor"
 sidebar_position: 6
-description: Industrial LoRaWAN® capacitive diesel fuel level sensor engineered for non-contact fuel-level monitoring in diesel tanks, generator fuel tanks, industrial fuel storage systems, fleet fuel monitoring, telecom tower fuel analytics, and remote industrial IoT telemetry applications.
+description: "MacSync LCS X1 is an industrial LoRaWAN capacitive diesel fuel level sensor for generator tanks, fuel storage, fleet and telecom tower fuel monitoring."
 keywords:
   - lorawan capacitive fuel level sensor
   - lorawan diesel fuel level sensor
   - capacitive diesel tank sensor
-  - wireless diesel level monitoring
   - non contact fuel level sensor
   - lorawan fuel monitoring sensor
   - generator fuel level monitoring
-  - industrial fuel tank monitoring
-  - diesel tank telemetry sensor
   - remote fuel level monitoring
-  - smart diesel monitoring system
   - fuel theft monitoring sensor
-  - wireless fuel tank sensor
-  - industrial diesel analytics
-  - fleet fuel monitoring sensor
   - capacitive liquid level sensor
-  - fuel consumption monitoring
-  - fuel tank level analytics
-  - iot diesel level sensor
-  - smart fuel management system
-  - diesel storage monitoring
   - fuel reservoir level sensor
   - long range fuel level sensor
-  - battery powered fuel sensor
-  - industrial lorawan fuel telemetry
-  - telecom tower fuel monitoring
-  - dg fuel monitoring sensor
-  - remote generator fuel analytics
-  - industrial fuel telemetry sensor
-  - wireless diesel analytics
-  - smart fuel tank monitoring
-  - fuel refill monitoring
-  - diesel consumption analytics
-  - industrial fuel reservoir monitoring
-  - smart utility fuel monitoring
-  - mining equipment fuel monitoring
-  - heavy equipment diesel analytics
   - macsync lcs x1
-  - macnman fuel monitoring sensor
 ---
 
-# MacSync LCS X1 LoRaWAN® Capacitive Diesel Fuel Level Sensor
+# MacSync LCS X1 LoRaWAN® Capacitive Diesel Fuel Level Sensor Datasheet
 
 ## Product Overview
 
@@ -564,8 +538,7 @@ Whether deployed in industrial plants, telecom infrastructure, mining operations
 
 ---
 
-## MacSync LPS X7 Variants
-
+## MacSync LCS X1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -624,7 +597,6 @@ Whether deployed in industrial plants, telecom infrastructure, mining operations
 ---
 
 ## What's in the Box?
-
 Make sure the package contains the following items before installation and deployment of the MacSync LCS X1 LoRaWAN® Capacitive Fuel-Level Sensor.
 
 - MacSync LCS X1 LoRaWAN® Capacitive Fuel-Level Sensor
@@ -645,8 +617,47 @@ Accessories marked with (\*) may vary depending on deployment requirements and o
 
 ---
 
-## Product Dimensions
-
+## MacSync LCS X1 Dimensions
 **MacSync LCS X1 BO** features a compact industrial enclosure designed for rugged field deployments with overall dimensions **152 mm X 62 mm X 43 mm (Without Sensor Probe)** optimized for industrial diesel fuel tank monitoring and LoRaWAN® fuel telemetry installations.
 
 ![MacSync LCS X1 LoRaWAN capacitive diesel fuel level sensor mechanical dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lps-x7-lorawan-hydrostatic-liquid-level-sensor-dimensions.webp)
+
+## Frequently Asked Questions
+
+### What is the MacSync LCS X1 used for?
+
+MacSync LCS X1 is an industrial LoRaWAN capacitive diesel fuel level sensor for generator tanks, fuel storage, fleet and telecom tower fuel monitoring. Typical applications include Diesel Tank Monitoring, Generator Fuel Monitoring, Telecom Tower Fuel Analytics, Fleet Fuel Management, Fuel Theft Detection and Industrial Fuel Reservoir Monitoring.
+
+### What does the MacSync LCS X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LCS X1:
+
+- Capacitive Fuel-Level: range 100 mm to 1400 mm (OEM Customizable), accuracy ±1%, resolution 0.01 mm.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LCS X1 support?
+
+The MacSync LCS X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, Direct PLC On-Prem Installations.
+
+### How long does the MacSync LCS X1 battery last?
+
+The battery-operated MacSync LCS X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LCS X1?
+
+The MacSync LCS X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync LCS X1 configured?
+
+The MacSync LCS X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LCS X1?
+
+The box contains: MacSync LCS X1 LoRaWAN® Capacitive Fuel-Level Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacRay LUS X1 LoRaWAN ultrasonic level sensor](/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one), [MacRay LToF LoRaWAN Time-of-Flight sensor](/product/lorawan/sensors/level-sensors/macray-ltof-lorawan-time-of-flight-sensor)
+- Product page: [MacSync LCS X1 on macnman.com](https://www.macnman.com/lorawan/sensors/lorawan-capacitive-fuel-level-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

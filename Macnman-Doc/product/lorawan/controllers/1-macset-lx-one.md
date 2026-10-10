@@ -1,42 +1,25 @@
 ---
 id: macset-lx-one-datasheet
-title: 2 x DO Controller
+title: "MacSet LX1 LoRaWAN Relay Controller Datasheet"
+sidebar_label: "2 x DO Controller"
 sidebar_position: 1
-description: Industrial LoRaWAN® controller for remote automation, relay switching, industrial equipment control, RS485 Modbus integration, analog and digital I/O monitoring, smart agriculture automation, water management systems, and Industrial IoT deployments.
+description: "MacSet LX1 is an industrial LoRaWAN controller with two 16 A relay outputs, RS485 Modbus and analog/digital inputs for remote pump, motor and valve control."
 keywords:
   - lorawan controller
   - industrial lorawan controller
   - lorawan relay controller
   - lorawan automation controller
   - industrial iot controller
-  - remote io controller
   - wireless relay controller
   - industrial automation controller
-  - smart agriculture controller
   - lorawan plc controller
   - modbus lorawan controller
   - rs485 lorawan controller
   - analog input lorawan controller
   - digital input lorawan controller
-  - industrial remote switching controller
-  - wireless industrial automation
-  - industrial iot automation device
-  - remote pump controller lorawan
-  - water management controller
-  - smart irrigation controller
-  - industrial monitoring controller
-  - edge automation controller
-  - lorawan actuator controller
-  - long range industrial controller
-  - industrial relay switching device
-  - macset lx1
-  - macnman lorawan controller
-  - industrial wireless controller
-  - lorawan remote equipment controller
-  - smart factory automation controller
 ---
 
-# MacSet LX1 Industrial LoRaWAN® Controller
+# MacSet LX1 Industrial LoRaWAN® Relay Controller Datasheet
 
 
 ## Product Overview
@@ -234,7 +217,6 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 ---
 
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">IO Interfaces</div>
   <div class="device-config-table">
@@ -754,8 +736,7 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 
 ---
 
-## MacSet PC X1 Variants
-
+## MacSet LX1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -798,7 +779,6 @@ Whether deployed for **remote pump control**, **wireless industrial automation**
 ---
 
 ## What's in the Box?
-
 Make sure box contains following items before installations
 
 - MacSet LX1 Controller
@@ -811,7 +791,7 @@ Make sure box contains following items before installations
 
 Ensure the following items are available before installation.
 
-![MacSet Wx Wi-Fi Controller Whats In The Box](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
+![What's in the box: MacSet LX1 package contents](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
 
 :::note
 
@@ -821,8 +801,7 @@ Accessories may not be included in the package and must be purchased separately.
 
 ---
 
-## MacSet LX1 Controller Dimensions
-
+## MacSet LX1 Dimensions
 The **MacSet LX1 LoRaWAN® IO Controller** features a rugged industrial-grade enclosure engineered for long-term Industrial IoT automation, remote control, and wireless monitoring deployments. With compact dimensions of **142 mm × 80 mm × 32 mm**, the controller enables easy wall mounting and pole mounting across industrial facilities, smart agriculture systems, pump control panels, utility infrastructure, factory automation systems, remote monitoring stations, and outdoor Industrial IoT installations.
 
 Designed for harsh industrial and outdoor operating environments, the enclosure provides reliable protection against dust, humidity, vibration, and industrial environmental conditions while maintaining easy access to relay outputs, power terminals, RS485 interfaces, analog inputs, and digital I/O connections.
@@ -830,3 +809,44 @@ Designed for harsh industrial and outdoor operating environments, the enclosure 
 The compact low-profile mechanical design simplifies installation inside electrical panels, automation cabinets, pump houses, industrial utility enclosures, agricultural automation systems, and smart infrastructure deployments.
 
 ![MacSet LX1 LoRaWAN IO controller enclosure dimensions and industrial mounting layout](/img/controller/macset-dimensions-of-the-box.svg)
+
+## Frequently Asked Questions
+
+### What is the MacSet LX1 used for?
+
+MacSet LX1 is an industrial LoRaWAN controller with two 16 A relay outputs, RS485 Modbus and analog/digital inputs for remote pump, motor and valve control. Typical applications include Industrial LoRaWAN® IO Controller Applications, Smart Agriculture & Irrigation Automation, Industrial Automation & Factory Control, Water Management & Pump Automation, Remote IO Monitoring & Control and RS485 Modbus Industrial Integration.
+
+### What inputs and outputs does the MacSet LX1 have?
+
+The MacSet LX1 provides the following interfaces:
+
+- Relay Outputs: 2 × 16A Relay Outputs
+- RS485 Interface: 1 × RS485 (Switchable)
+- 4–20 mA Analog Channels: 2 × Channels (Switchable)
+- 0–10 V Analog Channels: 2 × Channels (Switchable)
+- Digital Inputs: 2 × Channels (Switchable)
+
+### Which LoRaWAN frequency bands and network servers does the MacSet LX1 support?
+
+The MacSet LX1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore.
+
+### What is the IP rating and operating temperature of the MacSet LX1?
+
+The MacSet LX1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSet LX1 configured?
+
+The MacSet LX1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSet LX1?
+
+The box contains: MacSet LX1 Controller, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [MacSet LoRaWAN controller user manual](/lorawan/controller-macset/macset_lorawan_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSet-WX1 Wi-Fi IoT relay controller](/product/wifi/controllers/macset-wx-one-datasheet), [MacSet CX1 4G LTE cellular relay controller](/product/cellular/gateways/macset-cx1-datasheet), [MacSet LX2 industrial LoRaWAN multi-IO controller](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Product page: [MacSet LX1 on macnman.com](https://www.macnman.com/lorawan/iodevices/lorawan-remote-automation-controller-macset-x-one)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

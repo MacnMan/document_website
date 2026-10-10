@@ -1,5 +1,10 @@
 {
   "label": "Water Sensors",
-  "position": 4
-  
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Water Quality Sensor Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN water quality sensors: online EC (conductivity) and pH monitoring for drinking water, wastewater and effluent.",
+    "slug": "/lorawan/sensors/water-sensors"
+  }
 }

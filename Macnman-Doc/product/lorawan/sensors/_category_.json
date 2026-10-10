@@ -1,4 +1,10 @@
 {
   "label": "LoRaWAN Sensors",
-  "position": 1
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Sensor Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN sensors: temperature and humidity, level, gas, soil, weather, water quality, pressure, parking, door and sound.",
+    "slug": "/lorawan/sensors"
+  }
 }

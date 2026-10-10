@@ -1,6 +1,7 @@
 ---
 id: ble-wifi-based-hmi-controller-x-one
-title: Smart HMI X1
+title: "Smart HMI X1 Wi-Fi & BLE HMI Controller Datasheet"
+sidebar_label: "Smart HMI X1"
 sidebar_position: 4
 description: "Smart HMI X1 is a Wi-Fi and BLE industrial HMI controller with an integrated touchscreen for machine control, monitoring and automation."
 keywords:
@@ -9,27 +10,16 @@ keywords:
   - industrial touchscreen controller
   - iot hmi controller wifi ble
   - smart industrial controller with display
-  - wifi based automation controller
   - ble based industrial controller
   - industrial iot hmi panel
   - smart hmi with analog digital inputs
   - industrial controller with rs485
   - modbus hmi controller
-  - machine monitoring hmi controller
-  - industrial data acquisition controller
   - smart factory hmi controller
-  - building automation hmi controller
-  - edge automation controller wifi ble
-  - industrial controller with analog inputs
-  - industrial controller with digital inputs outputs
-  - touchscreen plc alternative
-  - smart control panel industrial
   - macnman smart hmi controller
-  - smart hmix controller
-  - smart hmix1
 ---
 
-# Smart HMIX1 Datasheet
+# Smart HMI X1 Wi-Fi & BLE Industrial HMI Controller Datasheet
 
 ## Product Overview
 
@@ -167,8 +157,7 @@ Smart HMIX1 bridges the gap between traditional control panels and modern Indust
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -421,8 +410,7 @@ Smart HMIX1 bridges the gap between traditional control panels and modern Indust
 </div>
 
 
-##  IndiLoRa X Variants
-
+## Smart HMI X1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -495,11 +483,10 @@ Smart HMIX1 bridges the gap between traditional control panels and modern Indust
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![Indilora LoRa Gateway Dimensions Box Item](/img/lorawan/gateways/indilora-lora-gateway-dimensions-box-item.svg)
+![What's in the box: Smart HMI X1 package contents](/img/lorawan/gateways/indilora-lora-gateway-dimensions-box-item.svg)
 
 :::note
 
@@ -508,7 +495,10 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## Smart HMI X1 Dimensions
+![Smart HMI X1 dimensions drawing](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
 
-![Indilora LoRa Gateway Dimensions](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
+## Related Products and Resources
 
+- Related datasheets: [MeterLink Gen1 LoRaWAN retrofit gas meter module](/product/custom/custom-products/gas-meter-module-version-one), [Setu SCX single-channel indoor LoRa gateway](/product/lorawan/gateways/setu-scx-single-channel-datasheet), [Mini Doer Gen-1 BLE smart relay scheduler](/product/custom/custom-products/mini-ble-wifi-relay-controller)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

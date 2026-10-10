@@ -1,6 +1,7 @@
 ---
 id: fire-guard-single-channel-lora-gateway-for-firedatasheet
-title: FireGaurd Gen 1
+title: "FireGaurd Gen 1 Fire Equipment Monitor Datasheet"
+sidebar_label: "FireGaurd Gen 1"
 sidebar_position: 5
 description: "FireGuard Gen 1 is a smart fire equipment health monitoring controller that tracks pump, hydrant and extinguisher status to keep fire protection systems ready."
 keywords:
@@ -9,22 +10,16 @@ keywords:
   - fire hydrant pressure monitoring
   - fire pump health monitoring device
   - fire extinguisher status monitoring
-  - fire protection system diagnostics
   - building fire safety automation controller
   - industrial fire protection monitoring
   - fire sprinkler system remote monitoring
   - fire door and exit monitoring gateway
   - fire suppression equipment IoT monitoring
   - rs485 fire system monitoring controller
-  - bms fire safety system integration
   - fire compliance monitoring solution
-  - emergency system health monitoring device
-  - fire alarm equipment connectivity module
-  - smart emergency infrastructure monitoring
-  - cloud connected fire safety device
 ---
 
-# FireGaurd Gen 1 Datasheet
+# FireGaurd Gen 1 Fire Equipment Health Monitoring Controller Datasheet
 
 ## Product Overview
 
@@ -162,8 +157,7 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -429,8 +423,7 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
 </div>
 
 
-##  FireGaurd Gen 1 Variants
-
+## FireGaurd Gen 1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -503,11 +496,10 @@ Whether supporting **fire compliance, safety inspections, emergency readiness**,
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![Fireguard Gen One Control Output Box Item](/img/lorawan/gateways/fireguard-gen-one-control-output-box-item.svg)
+![What's in the box: FireGaurd Gen 1 package contents](/img/lorawan/gateways/fireguard-gen-one-control-output-box-item.svg)
 
 :::note
 
@@ -516,7 +508,10 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## FireGaurd Gen 1 Dimensions
+![FireGaurd Gen 1 dimensions drawing](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
 
-![Indilora LoRa Gateway Dimensions](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
+## Related Products and Resources
 
+- Related datasheets: [IndiLoRa X single-channel indoor LoRa gateway](/product/lorawan/gateways/indilora-single-channel-datasheet), [Setu SCX single-channel indoor LoRa gateway](/product/lorawan/gateways/setu-scx-single-channel-datasheet), [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two), [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

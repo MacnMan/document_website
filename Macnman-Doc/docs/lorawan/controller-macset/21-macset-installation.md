@@ -1,8 +1,9 @@
 ---
 id: macset_mountings_controller
-title: MacSet Mounting 
+title: "LoRaWAN® Controller (MacSet) Mounting Options"
 description: "MacSet Mounting — Follow these steps to securely mount the MacSet device using a standard wall mount:"
 ---
+
 # MacSet Mounting Options
 
 ## Wall Mounting Procedure for MacSet
@@ -32,3 +33,10 @@ Follow these steps to securely mount the MacSet device using a standard wall mou
 #### 6. Power and Test
 - Connect the power supply or insert batteries as required.
 - Verify the device is working by checking LED indicators or display activity.
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

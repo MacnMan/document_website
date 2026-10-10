@@ -1,8 +1,9 @@
 ---
 id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
-title: Ultrasonic Sensor
+title: "MacRay LUS X1 LoRaWAN Ultrasonic Level Sensor"
+sidebar_label: "Ultrasonic Sensor"
 sidebar_position: 3
-description: Industrial LoRaWAN® ultrasonic level sensor engineered for wireless liquid level monitoring, tank level measurement, sewer monitoring, flood detection, and industrial IoT level sensing applications.
+description: "MacRay LUS X1 is an industrial LoRaWAN ultrasonic level sensor for wireless tank level, sewer and flood monitoring of liquids and solids."
 keywords:
   - lorawan ultrasonic sensor
   - lorawan ultrasonic level sensor
@@ -12,37 +13,13 @@ keywords:
   - wireless tank level monitoring sensor
   - lorawan liquid level sensor
   - wireless level monitoring sensor
-  - industrial level monitoring sensor
   - ultrasonic distance sensor lorawan
-  - sewer level monitoring sensor
-  - manhole level monitoring sensor
-  - smart drainage monitoring sensor
-  - flood monitoring sensor lorawan
-  - industrial wastewater monitoring sensor
-  - remote tank monitoring sensor
-  - battery powered ultrasonic sensor
-  - ultrasonic sensor for tanks
-  - wireless water level monitoring
-  - smart water utility sensor
-  - lorawan flood detection sensor
-  - industrial iot ultrasonic sensor
-  - underground drainage monitoring
-  - sump level monitoring sensor
-  - reservoir level monitoring sensor
   - ultrasonic level transmitter lorawan
-  - smart city water monitoring sensor
-  - long range ultrasonic sensor
   - ip67 ultrasonic level sensor
-  - remote liquid level monitoring
-  - industrial automation level sensor
-  - wireless sewer monitoring system
-  - lorawan distance measurement sensor
-  - smart infrastructure monitoring sensor
-  - macray lu4
   - macnman lorawan ultrasonic sensor
 ---
 
-# MacRay LUS X1 LoRaWAN® Ultrasonic Level Sensor
+# MacRay LUS X1 LoRaWAN® Ultrasonic Level Sensor Datasheet
 
 ## Product Overview
 
@@ -183,7 +160,6 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 
 ---
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">Ultrasonic Level Measurement</div>
   <div class="device-config-table">
@@ -508,7 +484,6 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 ---
 
 ## MacRay LUS X1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -547,7 +522,6 @@ The **MacRay LUS X1 wireless ultrasonic level monitoring sensor** is fully compa
 ---
 
 ## What's in the Box?
-
 Make sure box contains following items before installations
 
 - MacRay LUS X1 Sensor 
@@ -568,9 +542,48 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 
 ## MacRay LUS X1 Dimensions
-
 The MacRay LUS X1 features a compact industrial-grade enclosure with overall dimensions of **96 mm × 96 mm × 28 mm**, optimized for wall mounting, pole mounting, tanks, manholes, drainage systems, and space-constrained industrial IoT deployments.
 
 
 ![MacRay LUS X1 LoRaWAN Ultrasonic Level Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/macray/macray-lus-x1-lorawan-ultrasonic-level-sensor-dimensions.webp)
 
+## Frequently Asked Questions
+
+### What is the MacRay LUS X1 used for?
+
+MacRay LUS X1 is an industrial LoRaWAN ultrasonic level sensor for wireless tank level, sewer and flood monitoring of liquids and solids. Typical applications include Wireless Tank Level Monitoring, Sewer, Manhole & Drainage Monitoring, Flood Detection & Stormwater Management, Industrial Wastewater Level Monitoring, Reservoir & Remote Water Monitoring and Smart Water Utility Infrastructure.
+
+### What does the MacRay LUS X1 measure, and how accurately?
+
+Measurement specifications of the MacRay LUS X1:
+
+- Ultrasonic Level: range 3 – 450 cm, resolution 0.1 cm.
+
+### Which LoRaWAN frequency bands and network servers does the MacRay LUS X1 support?
+
+The MacRay LUS X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations.
+
+### How long does the MacRay LUS X1 battery last?
+
+The battery-operated MacRay LUS X1 runs on a 8 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~1 years at a 5-minute reporting interval, ~2 years at a 15-minute reporting interval and ~3+ years at a 60-minute reporting interval.
+
+### What is the IP rating and operating temperature of the MacRay LUS X1?
+
+The MacRay LUS X1 has an ingress protection rating of IP55 Standard and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacRay LUS X1 configured?
+
+The MacRay LUS X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacRay LUS X1?
+
+The box contains: MacRay LUS X1 Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [MacRay ultrasonic sensor user manual](/lorawan/sensors-lorawan/macray-ultrasoni-v1/MacRayls_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacRay-WU4 Wi-Fi ultrasonic level sensor](/product/wifi/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one), [MacRay LToF LoRaWAN Time-of-Flight sensor](/product/lorawan/sensors/level-sensors/macray-ltof-lorawan-time-of-flight-sensor), [MacSync LCS X1 LoRaWAN capacitive fuel level sensor](/product/lorawan/sensors/level-sensors/macsync-lcs-x-1-lorawan-capacitive-sensor)
+- Product page: [MacRay LUS X1 on macnman.com](https://www.macnman.com/lorawan/sensors/lorawan-ultrasonic-sensor-macray-lufour)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

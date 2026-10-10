@@ -1,32 +1,25 @@
 ---
 id: macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one
-title: MacRay-WU4
+title: "MacRay-WU4 Wi-Fi Ultrasonic Level Sensor Datasheet"
+sidebar_label: "MacRay-WU4"
 sidebar_position: 3
 description: "MacRay-WU4 is a rugged Wi-Fi ultrasonic level sensor for short-range, high-precision (0-4 m) non-contact level monitoring of liquids and solids."
 keywords:
   - lorawan ultrasonic level sensor
   - sub 4 meter ultrasonic sensor
   - manhole level monitoring sensor
-  - smart water management iot device
-  - underground drainage monitoring
   - sewer level monitoring system
   - tank liquid level measurement
   - flood detection sensor lorawan
   - sump pit level monitoring iot
-  - water utility smart metering solution
   - ultrasonic distance measurement iot
-  - industrial waste water monitoring
   - long range wireless water level sensor
   - battery powered lorawan sensor
   - ultrasonic level transmitter lorawan
-  - smart city drainage monitoring sensor
-  - environmental monitoring sensor lorawan
   - ip67 rugged ultrasonic sensor
-  - remote tank monitoring solution
-  - industrial iot automation device
 ---
 
-# MacRay-WU4 Datasheet
+# MacRay-WU4 Wi-Fi Ultrasonic Level Sensor Datasheet
 
 ## Product Overview
 
@@ -39,22 +32,21 @@ The device transmits level data securely over standard **Wi‑Fi networks (2.4 G
 MacRay-WU4 supports **periodic, event‑based, and threshold‑based reporting**, along with **local BLE provisioning and diagnostics** via the Macnman Maya mobile application. Available in **battery‑operated and externally powered variants**, it enables flexible deployment for both fixed industrial installations and locations where wired connectivity is limited, delivering low‑latency, Wi‑Fi‑based level monitoring for modern Industrial IoT applications.
 
 
-| ![MacRay Lu4 Front View](/img/lorawan/macray/macray-lu4-front-view.webp) | ![MacRay Lu4 Back Connector View](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
+| ![MacRay-WU4 Wi-Fi ultrasonic level sensor front view](/img/lorawan/macray/macray-lu4-front-view.webp) | ![MacRay-WU4 Wi-Fi ultrasonic level sensor rear view](/img/lorawan/macray/macray-lu4-back-connector-view.webp) |
 |--------------------------------|--------------------------------|
-| ![MacRay Lu4 Installation View](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![MacRay Lu4 Side View](/img/lorawan/macray/macray-lu4-side-view.webp) |
+| ![MacRay-WU4 Wi-Fi ultrasonic level sensor installation view](/img/lorawan/macray/macray-lu4-installation-view.webp) | ![MacRay-WU4 Wi-Fi ultrasonic level sensor side view](/img/lorawan/macray/macray-lu4-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macray-wu4-wifi-ultrasonic-level-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -172,8 +164,7 @@ MacRay-WU4 supports **periodic, event‑based, and threshold‑based reporting**
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -275,7 +266,7 @@ MacRay-WU4 supports **periodic, event‑based, and threshold‑based reporting**
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -450,8 +441,7 @@ MacRay-WU4 supports **periodic, event‑based, and threshold‑based reporting**
 
 
 
-##  MacRay-WU4 Variants
-
+## MacRay-WU4 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -524,11 +514,10 @@ MacRay-WU4 supports **periodic, event‑based, and threshold‑based reporting**
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![MacRay LoRaWAN What Is In The Box](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![What's in the box: MacRay-WU4 package contents](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
@@ -537,7 +526,42 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacRay-WU4 Dimensions
+![MacRay-WU4 dimensions drawing](/img/lorawan/macray/macray-lu-four-dimensions.svg)
 
-![MacRay Lu Four Dimensions](/img/lorawan/macray/macray-lu-four-dimensions.svg)
+## Frequently Asked Questions
 
+### What is the MacRay-WU4 used for?
+
+MacRay-WU4 is a rugged Wi-Fi ultrasonic level sensor for short-range, high-precision (0-4 m) non-contact level monitoring of liquids and solids. Typical applications include Industrial Tank Level Monitoring, Sumps, Pits & Utility Chambers, Wastewater & Effluent Treatment Plants, Water Storage & Distribution Systems, Flood & Basement Water Monitoring and Industrial Process Automation.
+
+### What does the MacRay-WU4 measure, and how accurately?
+
+Measurement specifications of the MacRay-WU4:
+
+- Ultrasonic Level: range 3 – 450 cm, resolution 0.1 cm.
+
+### How does the MacRay-WU4 connect and send data over Wi-Fi?
+
+The MacRay-WU4 connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### How is the MacRay-WU4 powered?
+
+The MacRay-WU4 is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacRay-WU4?
+
+The MacRay-WU4 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacRay-WU4 configured?
+
+The MacRay-WU4 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacRay-WU4 work with?
+
+The MacRay-WU4 can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- Related datasheets: [MacRay LUS X1 LoRaWAN ultrasonic level sensor](/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one), [MacRay-ToF-WXx Wi-Fi Time-of-Flight sensor](/product/wifi/sensors/level-sensors/macray-tof-x-series)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

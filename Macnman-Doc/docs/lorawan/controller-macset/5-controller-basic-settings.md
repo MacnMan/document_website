@@ -1,6 +1,6 @@
 ---
 id: maya_configuration
-title: LoRaWAN® Controller (MacSet) Basic Settings
+title: "LoRaWAN® Controller (MacSet) Basic Settings"
 description: "LoRaWAN® Controller (MacSet) Basic Settings — You can rename your device to something meaningful for easier identification — such as its location…"
 ---
 
@@ -26,3 +26,10 @@ Heartbeat defines how often the device sends a status update to the server, even
   If the heartbeat is set to `15 minutes`, the device will send a signal to the server every 15 minutes, regardless of data changes
 
 A lower heartbeat interval provides more frequent status checks but may increase power consumption on battery-powered devices.s
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

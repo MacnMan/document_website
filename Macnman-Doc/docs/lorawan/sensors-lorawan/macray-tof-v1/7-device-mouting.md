@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: MacRay-ToF Mounting Options
+title: "MacRay-ToF Mounting Options"
 description: "MacRay-ToF Mounting Options — Macnman MacRay-ToF: Wall Mounting, Pole Mounting."
 ---
 
@@ -45,3 +45,9 @@ description: "MacRay-ToF Mounting Options — Macnman MacRay-ToF: Wall Mounting,
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheet: [MacRay LToF LoRaWAN Time-of-Flight sensor datasheet](/product/lorawan/sensors/level-sensors/macray-ltof-lorawan-time-of-flight-sensor)
+- Start of this manual: [MacRay-ToF Introduction](/lorawan/sensors-lorawan/macray-tof-v1/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

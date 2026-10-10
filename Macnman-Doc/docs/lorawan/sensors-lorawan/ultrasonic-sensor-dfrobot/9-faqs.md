@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: Ultrasonic Sensor (Sub 4 Meter) FAQs
+title: "Ultrasonic Sensor (Sub 4 Meter) FAQs"
 description: "The MacSync-LU4 supports long-distance measurement up to 765 cm with a typical accuracy of ±1% of the target distance, making it ideal for industrial…"
 ---
 
@@ -43,3 +43,10 @@ The sensor supports **periodic**, **threshold-based**, and **event-triggered upl
 
 #### Which LoRaWAN® networks is it compatible with?
 The MacSync-LU4 is compatible with **all major LoRaWAN® network servers**, including **TTN, ChirpStack, Loriot, Helium**, and **Macnman’s own cloud platform** for visualization and data management.
+
+## Related Resources
+
+- Datasheets: [LoRaWAN level sensor datasheets](/product/lorawan/sensors/level-sensors)
+- Start of this manual: [Ultrasonic Sensor (Sub 4 Meter) Introduction](/lorawan/sensors-lorawan/ultrasonic-sensor-dfrobot/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

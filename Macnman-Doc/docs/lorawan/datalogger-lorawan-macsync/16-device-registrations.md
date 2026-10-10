@@ -1,6 +1,6 @@
 ---
 id: macsync-lns-registration
-title: RS485/Aalog Datalogger (MacSync) LNS Registration
+title: "RS485/Analog Datalogger (MacSync) LNS Registration"
 description: "RS485/Aalog Datalogger (MacSync) LNS Registration — You can register your device using either manual entry or QR scan."
 ---
 
@@ -113,3 +113,9 @@ Once your MacSync device is registered and active, you can send downlink command
 - Ensure your MacSync device is configured to support the downlink functionality.
 
 > If using Class C, the downlink will be sent immediately since the receiver is always listening (for power-operated versions).
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

@@ -1,4 +1,10 @@
 {
   "label": "Other Sensors",
-  "position": 8
-} 
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Parking, Door & Sound Sensor Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN door status, geomagnetic parking and outdoor sound level sensors for buildings and smart cities.",
+    "slug": "/lorawan/sensors/other-sensors"
+  }
+}

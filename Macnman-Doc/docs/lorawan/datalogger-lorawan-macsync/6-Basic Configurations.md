@@ -1,7 +1,7 @@
 ---
 id: maya_configuration
-title: RS485/Aalog Datalogger (MacSync) Basic Settings
-description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
+title: "RS485/Analog Datalogger (MacSync) Basic Settings"
+description: "Set the MacSync datalogger's basic settings in the Maya app: device name, heartbeat interval and Reminisce data export."
 ---
 
 ## Device Name
@@ -9,7 +9,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to change the device name (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/CCfK_WsLU8M?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -38,7 +38,7 @@ Device names can be **up to 20 characters long**. Use short, meaningful names fo
 #### How to change the uplink time  (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/Nvs9ieDLXJQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -68,7 +68,7 @@ A lower heartbeat interval provides more frequent status checks but may increase
 #### How to Download Historical data ? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/YqeQXAaq8ww?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -94,3 +94,9 @@ The Reminisce feature allows you to retrieve and export historical data stored l
 Useful for offline analysis, compliance, or record-keeping in field deployments.
 
 >Note: External flash memory is optional. Please verify whether your selected variant includes flash memory before placing your order
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

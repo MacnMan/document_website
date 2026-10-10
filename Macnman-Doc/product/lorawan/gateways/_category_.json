@@ -1,4 +1,10 @@
 {
   "label": "LoRaWAN Gateways",
-  "position": 3
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Gateway Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN gateways: the MacLink Gen-2 outdoor gateway, Setu LX indoor gateway and single-channel LoRa gateways.",
+    "slug": "/lorawan/gateways"
+  }
 }

@@ -1,6 +1,6 @@
 ---
 id: maya-security-device-sharing
-title: RS485/Aalog Datalogger Security & device sharing
+title: "RS485/Analog Datalogger (MacSync) Security & Device Sharing"
 description: "RS485/Aalog Datalogger Security & device sharing — Control who can access and configure the device via the Maya app by selecting a security level:"
 ---
 
@@ -42,3 +42,9 @@ Manage access to your devices securely through the Maya app.
 
 - **Add More**  
   Click **“Add More”** to include additional peers.You can share a device with **up to 5 users** at a time.
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

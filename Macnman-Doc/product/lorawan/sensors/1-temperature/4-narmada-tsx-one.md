@@ -1,8 +1,9 @@
 ---
 id: narmada-tsx1-lorawan-temperature-humidity-sensor-datasheet
-title: Indoor TH Sensor 
+title: "Narmada TSX1 LoRaWAN Temperature Humidity Sensor"
+sidebar_label: "Indoor TH Sensor"
 sidebar_position: 1
-description: Compact industrial LoRaWAN® temperature humidity sensor engineered for smart buildings, HVAC automation, factories, offices, warehouses, and indoor environmental monitoring.
+description: "Narmada TSX1 is a compact LoRaWAN temperature and humidity sensor for smart buildings, HVAC automation, offices, warehouses and indoor monitoring."
 keywords:
   - lorawan temperature humidity sensor
   - industrial lorawan temperature humidity sensor
@@ -10,40 +11,15 @@ keywords:
   - indoor lorawan temperature sensor
   - smart building temperature humidity sensor
   - hvac lorawan temperature sensor
-  - factory temperature humidity monitoring
   - warehouse temperature humidity sensor
-  - office environmental monitoring sensor
-  - industrial indoor climate sensor
-  - lorawan environmental monitoring sensor
   - battery powered temperature humidity sensor
-  - low power lorawan sensor
-  - smart building iot sensor
-  - building automation temperature sensor
-  - wireless humidity monitoring sensor
-  - industrial humidity monitoring sensor
   - long range temperature humidity sensor
-  - indoor environmental monitoring sensor
-  - smart office environmental sensor
-  - factory climate monitoring sensor
   - server room temperature humidity sensor
-  - cold storage environmental monitoring
-  - industrial iot temperature sensor
-  - wireless indoor climate monitoring
   - compact lorawan sensor
-  - industry 4.0 environmental sensor
   - mqtt temperature humidity sensor
-  - lorawan smart facility sensor
-  - commercial building monitoring sensor
-  - indoor air monitoring sensor
-  - wireless hvac monitoring sensor
-  - environmental sensor for factories
-  - lorawan industrial sensor
-  - macnman lorawan sensor
-  - narmada tsx1
-
 ---
 
-# Narmada TSX1 LoRaWAN® Temperature & Humidity Sensor
+# Narmada TSX1 LoRaWAN® Temperature & Humidity Sensor Datasheet
 
 ## Product Overview
 
@@ -57,9 +33,9 @@ Whether deployed for building automation, indoor climate monitoring, HVAC optimi
 
 The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible with major LoRaWAN® gateways and network servers including ChirpStack, The Things Stack, MQTT platforms, Orbiwise, and private industrial LoRaWAN® infrastructures — enabling seamless integration into Industrial IoT dashboards, SCADA systems, cloud monitoring platforms, and smart building ecosystems.
 
-| ![Mini LoRaWAN Temperature Humidity Sensor](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![LoRaWAN Compact Temp Humidity Sensor Front View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
+| ![Narmada TSX1 compact LoRaWAN temperature and humidity sensor product view 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![Narmada TSX1 compact LoRaWAN temperature and humidity sensor front view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![LoRaWAN Compact Temp Humidity Sensor Side View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![LoRaWAN Compact Temp Humidity Sensor Top View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
+| ![Narmada TSX1 compact LoRaWAN temperature and humidity sensor side view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![Narmada TSX1 compact LoRaWAN temperature and humidity sensor top view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 
 ---
 
@@ -224,8 +200,7 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 
 ---
 
-## Technical Specifications 
-
+## Technical Specifications
 <div class="device-config-section">
   <div class="device-config-title">Temperature Measurement</div>
   <div class="device-config-table">
@@ -569,7 +544,6 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 
 ---
 ## Narmada TSX1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -608,7 +582,6 @@ The **Narmada TSX1 wireless temperature humidity sensor** is fully compatible wi
 ---
 
 ## What's in the Box?
-
 - Narmada TSX1 Sensor
 - Mounting Clip
 - User Manual
@@ -631,9 +604,46 @@ Accessories may not be included in the package and must be purchased separately.
 
 
 ## Narmada TSX1 Dimensions
-
 The Narmada TSX1 features an ultra-compact industrial enclosure with overall dimensions of **83 mm × 53 mm × 38 mm**, enabling easy installation across smart buildings, offices, HVAC systems, warehouses, server rooms, and indoor Industrial IoT monitoring deployments.
 
 ![Narmada TSX1 LoRaWAN Temperature Humidity Sensor Mechanical Dimensions and Mounting Layout](/img/lorawan/sensors/macsync/narmada-tsx1-lorawan-temperature-humidity-sensor-dimensions.webp)
 
+## Frequently Asked Questions
 
+### What is the Narmada TSX1 used for?
+
+Narmada TSX1 is a compact LoRaWAN temperature and humidity sensor for smart buildings, HVAC automation, offices, warehouses and indoor monitoring. Typical applications include Smart Buildings & Commercial Infrastructure, HVAC Monitoring & Building Automation, Factories & Industrial Facilities, Warehouses & Storage Monitoring, Server Rooms & Data Centers and Hospitals, Laboratories & Clean Rooms.
+
+### What does the Narmada TSX1 measure, and how accurately?
+
+Measurement specifications of the Narmada TSX1:
+
+- Temperature: range -30°C to +70°C, accuracy 0°C to +70°C: ±0.3°C & -30°C to 0°C: ±0.6°C, resolution 0.1°C.
+- Humidity: range 0% to 100% RH, accuracy 10% to 90% RH: ±3% RH & &lt;10% or &gt;90% RH: ±5% RH, resolution 0.5% RH.
+
+### Which LoRaWAN frequency bands and network servers does the Narmada TSX1 support?
+
+The Narmada TSX1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and direct PLC on-premise installations.
+
+### How long does the Narmada TSX1 battery last?
+
+The battery-operated Narmada TSX1 runs on a 8 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~1.5 years at a 5-minute reporting interval, ~3 years at a 15-minute reporting interval and ~5+ years at a 60-minute reporting interval.
+
+### What is the IP rating and operating temperature of the Narmada TSX1?
+
+The Narmada TSX1 has an ingress protection rating of IP55 Standard and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the Narmada TSX1 configured?
+
+The Narmada TSX1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the Narmada TSX1?
+
+The box contains: Narmada TSX1 Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MWTH 301 compact Wi-Fi temperature and humidity sensor](/product/wifi/sensors/temperature/wlth-temp-humi-sensor-datasheet), [MacSync LTS X1 LoRaWAN temperature and humidity sensor](/product/lorawan/sensors/temperature/macsync-lts-x1-datasheet), [MacSync LRTD X1 LoRaWAN RTD temperature sensor](/product/lorawan/sensors/temperature/macsync-lorawan-rtd-sensor-x-series), [MacSync LNCT Xx LoRaWAN non-contact infrared temperature sensor](/product/lorawan/sensors/temperature/macsync-l-nc-x-one-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

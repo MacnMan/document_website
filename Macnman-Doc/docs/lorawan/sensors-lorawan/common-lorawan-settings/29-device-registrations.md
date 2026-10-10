@@ -1,6 +1,6 @@
 ---
 id: macsync-lns-registration_common_sensors
-title: Common Sensor Settings LNS Registration
+title: "Common Sensor Settings LNS Registration"
 description: "Common Sensor Settings LNS Registration — You can register your device using either manual entry or QR scan. Macnman Common Sensor Settings documentation."
 ---
 
@@ -113,3 +113,9 @@ Once your MacSync device is registered and active, you can send downlink command
 - Ensure your MacSync device is configured to support the downlink functionality.
 
 > If using Class C, the downlink will be sent immediately since the receiver is always listening (for power-operated versions).
+
+## Related Resources
+
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Start of this manual: [Common Sensor Settings LED Status](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

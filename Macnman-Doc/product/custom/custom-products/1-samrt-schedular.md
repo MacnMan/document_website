@@ -1,36 +1,25 @@
 ---
 id: mini-ble-wifi-relay-controller
-title: Mini Doer Gen-1
+title: "Mini Doer Gen-1 BLE Relay Scheduler Datasheet"
+sidebar_label: "Mini Doer Gen-1"
 sidebar_position: 5
 description: "Mini Doer Gen-1 is a BLE single-phase smart relay controller with an integrated touchscreen for scheduled, timer-based switching and automation."
 keywords:
   - ble smart scheduler controller
-  - bluetooth relay controller industrial
   - single phase ble relay controller
   - touchscreen smart scheduler switch
-  - ble based timer controller
-  - industrial ble automation controller
   - smart light on off scheduler
   - programmable relay controller ble
-  - ble based alarm and notification controller
   - smart task scheduler iot device
-  - industrial time based automation controller
   - ble smart switch with touchscreen
-  - event based relay automation controller
   - factory automation ble relay module
-  - building automation ble controller
   - smart lighting scheduler industrial
-  - ble controller for alarms notifications
-  - edge automation ble device
-  - iot scheduler controller for machines
   - smart relay controller with display
-  - ble enabled automation panel
-  - industrial ble control device
   - smart energy control ble relay
   - macnman mini scheduler x2
 ---
 
-# Mini Scheduler X2 Datasheet
+# Mini Doer Gen-1 BLE Smart Relay Scheduler Datasheet
 
 ## Product Overview
 
@@ -45,9 +34,9 @@ Designed as an **edge automation device**, Mini Scheduler X2 operates independen
 With its compact design, flexible task scheduling engine, and industrial-ready control capability, **Mini Scheduler X2 serves as a powerful yet easy-to-use automation controller** for smart lighting, energy management, alarms, and time-based control applications.
 
 
-| ![FireGuard Gen-1 smart fire equipment health monitoring controller front view](/img/otherProducts/mini-scheduler-front-view.webp) | ![FireGuard Gen-1 UART I2C RS485 sensor ports for fire hydrant sprinkler pump monitoring](/img/otherProducts/mini-scheduler-panel-mount-installation.webp) |
+| ![Mini Doer Gen-1 BLE smart relay scheduler front view](/img/otherProducts/mini-scheduler-front-view.webp) | ![Mini Doer Gen-1 BLE smart relay scheduler ports and interfaces](/img/otherProducts/mini-scheduler-panel-mount-installation.webp) |
 |--------------------------------|--------------------------------|
-| ![FireGuard Gen-1 digital outputs for fire pump siren exhaust and emergency door control](/img/otherProducts/mini-scheduler-smart-lighting-control.webp) | ![FireGuard Gen-1 connected with fire panel BMS and SCADA for real-time fire equipment alerts](/img/otherProducts/mini-scheduler-touchscreen-interface.webp) |
+| ![Mini Doer Gen-1 BLE smart relay scheduler product view 3](/img/otherProducts/mini-scheduler-smart-lighting-control.webp) | ![Mini Doer Gen-1 BLE smart relay scheduler system integration view](/img/otherProducts/mini-scheduler-touchscreen-interface.webp) |
 
 <div class="faint-line"></div>
 
@@ -173,8 +162,7 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -326,11 +314,10 @@ With its compact design, flexible task scheduling engine, and industrial-ready c
 
 <div class="faint-line"></div>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![Fireguard Gen One Control Output Box Item](/img/lorawan/gateways/fireguard-gen-one-control-output-box-item.svg)
+![What's in the box: Mini Doer Gen-1 package contents](/img/lorawan/gateways/fireguard-gen-one-control-output-box-item.svg)
 
 :::note
 
@@ -339,7 +326,10 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## Mini Doer Gen-1 Dimensions
+![Mini Doer Gen-1 dimensions drawing](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
 
-![Indilora LoRa Gateway Dimensions](/img/lorawan/gateways/indilora-lora-gateway-dimensions.svg)
+## Related Products and Resources
 
+- Related datasheets: [Smart HMI X1 Wi-Fi and BLE industrial HMI controller](/product/custom/custom-products/ble-wifi-based-hmi-controller-x-one), [MeterLink Gen1 LoRaWAN retrofit gas meter module](/product/custom/custom-products/gas-meter-module-version-one), [Setu SCX single-channel indoor LoRa gateway](/product/lorawan/gateways/setu-scx-single-channel-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

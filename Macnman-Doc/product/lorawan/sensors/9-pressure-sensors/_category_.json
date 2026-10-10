@@ -1,4 +1,10 @@
 {
   "label": "Pressure Sensors",
-  "position": 4
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Pressure Sensor Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN pressure sensors: pipeline and hydrant pressure transducers and a hydrostatic liquid level sensor.",
+    "slug": "/lorawan/sensors/pressure-sensors"
+  }
 }

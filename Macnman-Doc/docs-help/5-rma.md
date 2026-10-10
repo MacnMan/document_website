@@ -4,7 +4,7 @@ title: Return / Replacement / RMA Policy
 description: "This Return / Replacement / RMA Policy defines the process, eligibility, responsibilities, and conditions under which Macnman Technologies Pvt. Ltd."
 ---
 
-# Return / Replacement / RMA Policys
+# Return / Replacement / RMA Policy
 
 This Return / Replacement / RMA Policy defines the process, eligibility, responsibilities, and conditions under which Macnman Technologies Pvt. Ltd. (“Macnman”) accepts hardware products for inspection, repair, or replacement.
 
@@ -41,7 +41,7 @@ Damage caused by misuse, incorrect installations, environmental exposure, tamper
 
 A device qualifies for RMA evaluation only if:
 
-1. It is within the **3‑year standard warranty** (excluding battery/probe warranties).  
+1. It is within the applicable warranty period: the **2‑year hardware warranty**, or the shorter period that applies to batteries and sensor probes under the [Warranty Terms & Conditions](./1-warranty-tnc.md).  
 2. The customer provides valid proof of purchase.  
 3. The device has:
    - No broken or tampered warranty seals  

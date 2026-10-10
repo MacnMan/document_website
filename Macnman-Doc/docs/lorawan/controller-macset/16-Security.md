@@ -1,6 +1,6 @@
 ---
 id: maya-security-device-sharing
-title: LoRaWAN® Controller Security & device sharing
+title: "LoRaWAN® Controller (MacSet) Security & Device Sharing"
 description: "LoRaWAN® Controller Security & device sharing — Control who can access and configure the device via the Maya app by selecting a security level:"
 ---
 
@@ -42,3 +42,10 @@ Manage access to your devices securely through the Maya app.
 
 - **Add More**  
   Click **“Add More”** to include additional peers.You can share a device with **up to 5 users** at a time.
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

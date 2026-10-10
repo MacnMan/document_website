@@ -1,4 +1,10 @@
 {
   "label": "Gateways",
-  "position": 1
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "4G LTE Gateway & Controller Datasheets",
+    "description": "Datasheets for Macnman 4G LTE devices: the MacSync CX1 data logger, MacSet CX1 relay controller and MacEdge edge gateways.",
+    "slug": "/cellular/gateways"
+  }
 }

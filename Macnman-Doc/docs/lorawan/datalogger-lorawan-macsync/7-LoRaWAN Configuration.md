@@ -1,7 +1,7 @@
 ---
 id: maya_lorawan_basic_configurationsasa
-title: RS485/Aalog Datalogger (MacSync) LoRaWAN Settings
-description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
+title: "RS485/Analog Datalogger (MacSync) LoRaWAN Settings"
+description: "Configure LoRaWAN on the MacSync datalogger in the Maya app: keys and identities, key regeneration, class, frequency, ADR and confirmed messages."
 ---
 
 ## Keys & Identities
@@ -9,7 +9,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to Keys of MacSync Device? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/hsxO_2o8zgM?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -34,7 +34,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to refresh LoRaWAN Keys of MacSync? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/GsWdPMb0IAI?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -60,7 +60,7 @@ This is recommended when transferring device ownership or securing deployments i
 #### How to change LoRaWAN Class? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/XXWH71r9cRg?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -99,7 +99,7 @@ Controller are available in the Class C mode only
 #### How to LoRaWAN Regional Frequency ? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/NSeZauWw7OI?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -127,7 +127,7 @@ Select the appropriate LoRaWAN frequency band **based on your deployment region*
 #### How to Enable ADR or set a custom Spreading Factors in MacSync ? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/KFODqRhkdAM?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -164,7 +164,7 @@ Select the appropriate LoRaWAN frequency band **based on your deployment region*
 #### How to Enable Confirmed Messages in Macsync ? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/gcN4F24NE9I?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -189,3 +189,8 @@ Select the appropriate LoRaWAN frequency band **based on your deployment region*
   Use only for  <strong>critical data</strong>  that must be confirmed by the network.
 </div>
 
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

@@ -1,6 +1,6 @@
 ---
 id: maya_tigger_configuration_common_sensors
-title: Common Sensor Settings How to Set Triggers ?
+title: "Common Sensor Settings How to Set Triggers"
 description: "Common Sensor Settings How to Set Triggers? — You can configure the device to automatically send an uplink when a specific sensor value crosses a defined…"
 ---
 
@@ -16,3 +16,9 @@ You can configure the device to automatically send an uplink when a specific sen
 - Choose the **field number** (sensor/data field) to monitor.
 - Set the **minimum and maximum threshold values**.
 - The device will send an uplink **whenever the selected field value goes outside the defined range**.
+
+## Related Resources
+
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Start of this manual: [Common Sensor Settings LED Status](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

@@ -1,6 +1,6 @@
 ---
 id: packing-details
-title: MAC32WBLE5 Packing List
+title: "MAC32WBLE5 Packing List"
 description: "MAC32WBLE5 Packing List — Please ensure the product is used within 6 months of receipt. Macnman MAC32WBLE5 documentation."
 ---
 
@@ -48,3 +48,8 @@ up to 1 year if storage conditions remain below 30°C and 60%RH.
   Refer to MSL2 guidelines for exposure criteria. If the product is exposed to conditions of ≥168h @ 85°C/60%RH or
 stored for more than 1 year, baking is recommended.
 
+## Related Resources
+
+- Product: [MAC32WBLE5 LoRa + BLE module product page](https://www.macnman.com/modules/lora-ble-module-mac32wble5)
+- Start of this manual: [MAC32WBLE5 Introduction](/modules/lora-modules/mac32wble5/introduction)
+- Help: [Contact Macnman support](/help/help)

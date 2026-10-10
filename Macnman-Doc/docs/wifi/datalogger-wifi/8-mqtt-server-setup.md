@@ -1,8 +1,9 @@
 ---
 id: macsync_wifi_server_mqtt
-title: How to Setup MQTT Setup ?
+title: "WiFi Datalogger (MacSync) MQTT Setup"
 description: "The MacSync Wi-Fi series supports MQTT protocol for seamless communication with cloud servers and local brokers."
 ---
+
 # How to setup MQTT ?
 
 The **MacSync Wi-Fi series** supports MQTT protocol for seamless communication with cloud servers and local brokers. Follow the steps below to configure your MQTT connection.
@@ -71,3 +72,10 @@ The **MacSync Wi-Fi series** supports MQTT protocol for seamless communication w
 | Enable TLS            | ON                           |
 | Publish Topic         | `macsync/device001/data`     |
 | Subscribe Topic       | `macsync/device001/control`  |
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

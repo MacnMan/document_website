@@ -1,6 +1,6 @@
 ---
 id: macsyncls_introduction
-title: Ultrasonic Sensor (Sub 4 Meter) Introduction
+title: "Ultrasonic Sensor (Sub 4 Meter) Introduction"
 description: "MacSync-LU4 is a compact, LoRaWAN®-enabled ultrasonic distance and level sensor optimized for medium-range, non-contact measurement up to 4 meters."
 ---
 
@@ -171,3 +171,9 @@ Fully compatible with Macnman gateways and platforms, MacSync-LU4 enables smarte
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheets: [LoRaWAN level sensor datasheets](/product/lorawan/sensors/level-sensors)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

@@ -1,6 +1,6 @@
 ---
 id: maya-firmware-updates
-title: LoRaWAN® Controller (MacSet) Firmware Updates
+title: "LoRaWAN® Controller (MacSet) Firmware Updates"
 description: "LoRaWAN® Controller (MacSet) Firmware Updates — Keep your Macnman devices secure and up to date with the latest firmware releases."
 ---
 
@@ -32,3 +32,10 @@ If the update fails, **reconnect the device** and restart the process.
 :::
 
 Regular firmware updates help enhance **device stability**, **security**, and **performance**, ensuring your Macnman sensors and controllers operate reliably in the field.
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

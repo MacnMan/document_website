@@ -1,6 +1,7 @@
 ---
 id: mcth10
-title: MCTH10 
+title: "MCTH10 4G Temperature Humidity Sensor Datasheet"
+sidebar_label: "MCTH10"
 sidebar_position: 5
 description: "MCTH10 is an industrial cellular temperature and humidity sensor for continuous environmental monitoring in commercial and industrial spaces over 4G LTE."
 keywords:
@@ -16,15 +17,9 @@ keywords:
   - fire door and exit monitoring gateway
   - fire suppression equipment IoT monitoring
   - rs485 fire system monitoring controller
-  - bms fire safety system integration
-  - fire compliance monitoring solution
-  - emergency system health monitoring device
-  - fire alarm equipment connectivity module
-  - smart emergency infrastructure monitoring
-  - cloud connected fire safety device
 ---
 
-# MCTH10 Datasheet
+# MCTH10 4G LTE Cellular Temperature & Humidity Sensor Datasheet
 
 ## Product Overview
 
@@ -36,21 +31,20 @@ With cloud connectivity, MCTH10 enables **live dashboards, instant alerts, autom
 
 Whether you need **remote monitoring, compliance readiness, or 24/7 environmental visibility**, **MCTH10 delivers always-on performance with cellular reliability and industrial-grade durability.**
 
-| ![Mini LoRaWAN Temperature Humidity Sensor](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![LoRaWAN Compact Temp Humidity Sensor Front View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
+| ![MCTH10 4G LTE cellular temperature and humidity sensor product view 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![MCTH10 4G LTE cellular temperature and humidity sensor front view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![LoRaWAN Compact Temp Humidity Sensor Side View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![LoRaWAN Compact Temp Humidity Sensor Top View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
+| ![MCTH10 4G LTE cellular temperature and humidity sensor side view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![MCTH10 4G LTE cellular temperature and humidity sensor top view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="#" 
+  <a href="/docs/downloads/mcth10-4g-temperature-humidity-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -160,8 +154,7 @@ Whether you need **remote monitoring, compliance readiness, or 24/7 environmenta
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -178,8 +171,7 @@ Whether you need **remote monitoring, compliance readiness, or 24/7 environmenta
 <div class="faint-line"></div>
 
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -489,8 +481,7 @@ Whether you need **remote monitoring, compliance readiness, or 24/7 environmenta
 </div>
 
 
-## MCTH10 Variant
-
+## MCTH10 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -515,11 +506,10 @@ Whether you need **remote monitoring, compliance readiness, or 24/7 environmenta
 </table>
 
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![LoRaWAN Temperature Sensor What In Box](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
+![What's in the box: MCTH10 package contents](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
 
 :::note
 
@@ -528,7 +518,35 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MCTH10 Dimensions
+![MCTH10 dimensions drawing](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.webp)
 
-![Minisync Temp LoRaWAN Sensor Diamensions](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.webp)
+## Frequently Asked Questions
 
+### What is the MCTH10 used for?
+
+MCTH10 is an industrial cellular temperature and humidity sensor for continuous environmental monitoring in commercial and industrial spaces over 4G LTE. Typical applications include Cold Storage & Freezer Rooms, Pharma & Vaccine Storage, Warehouses & Logistics Facilities, Data Centers & Server Rooms, HVAC Monitoring & Utility Rooms and Greenhouses & Indoor Farming.
+
+### What does the MCTH10 measure, and how accurately?
+
+Measurement specifications of the MCTH10:
+
+- Temperature: range -30°C to +70°C, accuracy 0°C to +70°C: ±0.3°C & -30°C to 0°C: ±0.6°C, resolution 0.1°C.
+- Humidity: range 0% to 100% RH, accuracy 10% to 90% RH: ±3% RH & &lt;10% or &gt;90% RH: ±5% RH, resolution 0.5% RH.
+- Pressure: range 300 hPa to 1100 hPa, accuracy ±1.0 hPa (typical at 25°C, 300–1100 hPa), resolution 0.1 hPa.
+
+### Which cellular networks does the MCTH10 support?
+
+The MCTH10 uses a Quectel EC200 Series module for 4G LTE (Cat 1), 2G GSM (Fallback) connectivity. Supported LTE bands: B1 / B3 / B5 / B8 / B40 / B41 (Region dependent). Supported GSM bands: 900 / 1800 MHz. It takes a Nano SIM and sends data over MQTT / HTTPS.
+
+### What is the IP rating and operating temperature of the MCTH10?
+
+The MCTH10 has an ingress protection rating of IP35 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MCTH10 configured?
+
+The MCTH10 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+## Related Products and Resources
+
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

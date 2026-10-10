@@ -1143,7 +1143,251 @@ a.card:hover {
   color: var(--el-text-muted);
 }
 
-/* ────────────── TABLE OF CONTENTS ──────────────────────────────────────── */
+/* ────────────── "ON THIS PAGE" RAIL (desktop) ──────────────────────────── */
+/* Markup: src/theme/TOC. One 2px track runs down the left of the list and
+   bends sideways where the heading level changes; a brand-coloured fill on
+   top of it covers the sections that are on screen.
+
+   Each item draws its own piece of track, so the line is there without any
+   script. The fill is a second copy of every piece, clipped to the range
+   --toc-fill-top … --toc-fill-bottom on the list. Those two are registered
+   as lengths (in src/theme/TOC/index.tsx) so that they can be transitioned,
+   which is what makes the fill slide instead of jump. */
+
+.toc-rail {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.toc-rail__title {
+  margin-bottom: 12px;
+  font-weight: 500;
+  color: var(--el-text-muted);
+}
+
+.toc-rail__list {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 14px;
+  list-style: none;
+}
+
+/* 8px gap, 12px per level and the 4px a bend reaches into its neighbours are
+   mirrored as GAP, STEP and BEND in src/theme/TOC/index.tsx. */
+.toc-rail__item {
+  --toc-gap: 8px;
+  --toc-x: calc(-14px + var(--toc-depth, 0) * 12px);
+  --toc-track-top: 0px;
+  --toc-track-bottom: 0px;
+  position: relative;
+  margin: 0;
+  padding-bottom: var(--toc-gap);
+}
+
+.toc-rail__item:last-child {
+  --toc-gap: 0px;
+}
+
+/* Where a bend joins, the straight piece stops short to make room for it. */
+.toc-rail__item[data-step-in] {
+  --toc-track-top: 4px;
+}
+
+.toc-rail__item[data-step-out] {
+  --toc-track-bottom: calc(var(--toc-gap) + 4px);
+}
+
+.toc-rail__track,
+.toc-rail__fill {
+  position: absolute;
+  top: var(--toc-track-top);
+  bottom: var(--toc-track-bottom);
+  left: var(--toc-x);
+  width: 2px;
+  pointer-events: none;
+}
+
+.toc-rail__track {
+  background: var(--el-border-strong);
+}
+
+.toc-rail__item:first-child > .toc-rail__track {
+  border-radius: 1px 1px 0 0;
+}
+
+.toc-rail__item:last-child > .toc-rail__track {
+  border-radius: 0 0 1px 1px;
+}
+
+.toc-rail__bend {
+  position: absolute;
+  bottom: -4px;
+  left: calc(-14px + var(--toc-bend-depth, 0) * 12px);
+  overflow: visible;
+  fill: none;
+  stroke-width: 2px;
+  pointer-events: none;
+}
+
+.toc-rail__bend--track {
+  stroke: var(--el-border-strong);
+}
+
+/* The fill stays hidden until the items have been measured. */
+.toc-rail__fill {
+  display: none;
+  background: var(--el-brand);
+}
+
+.toc-rail__bend--fill {
+  display: none;
+  stroke: var(--el-brand);
+}
+
+/* Longhands on purpose: the build's CSS minifier does not recognise a custom
+   property name in the `transition` shorthand and drops the declaration. */
+.toc-rail__list[data-measured] {
+  transition-property: --toc-fill-top, --toc-fill-bottom;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+}
+
+/* Clip each piece to the part of the range that passes through it. An inset
+   of 100% hides the piece altogether; -2px leaves it whole. */
+.toc-rail__list[data-measured] .toc-rail__fill {
+  display: block;
+  clip-path: inset(
+    clamp(-2px, var(--toc-fill-top) - var(--toc-li-top, 0px) - var(--toc-track-top), 100%) 0
+      clamp(
+        -2px,
+        var(--toc-li-top, 0px) + var(--toc-li-h, 0px) - var(--toc-track-bottom) - var(--toc-fill-bottom),
+        100%
+      )
+      0 round 1px
+  );
+}
+
+/* A bend spans from 12px above the item's bottom edge to 4px below it. */
+.toc-rail__list[data-measured] .toc-rail__bend--fill {
+  display: block;
+  clip-path: inset(
+    clamp(0px, var(--toc-fill-top) - (var(--toc-li-top, 0px) + var(--toc-li-h, 0px) - 12px), 100%) 0
+      clamp(0px, var(--toc-li-top, 0px) + var(--toc-li-h, 0px) + 4px - var(--toc-fill-bottom), 100%) 0
+  );
+}
+
+.toc-rail__link {
+  display: block;
+  padding-left: calc(var(--toc-depth, 0) * 12px);
+  color: var(--el-text-muted);
+  overflow-wrap: anywhere;
+  transition: color 0.15s ease;
+}
+
+.toc-rail__link:hover {
+  color: var(--el-text);
+  text-decoration: none;
+}
+
+.toc-rail__item[data-state='active'] > .toc-rail__link {
+  color: var(--el-brand);
+}
+
+.toc-rail__link code {
+  font-size: 12.5px;
+}
+
+/* A sub-heading can be a whole sentence (the FAQ questions on datasheets).
+   Hold each to two lines; the full text is in the link's tooltip. */
+.toc-rail__item[data-nested] > .toc-rail__link {
+  display: -webkit-box;
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toc-rail__list[data-measured] {
+    transition-duration: 0s;
+  }
+}
+
+/* ────────────── PAGE NOT FOUND (src/theme/NotFound/Content) ────────────── */
+.not-found {
+  max-width: 720px;
+}
+
+.not-found__title {
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+
+.not-found__lead {
+  color: var(--el-text-muted);
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+/* The header's search button, at full width here. */
+.not-found .not-found__search {
+  display: flex;
+  width: 100%;
+  max-width: 420px;
+  margin-bottom: 32px;
+}
+
+.not-found .not-found__search .site-search-trigger__label,
+.not-found .not-found__search .site-search-trigger__kbd {
+  display: inline-flex;
+}
+
+.not-found__sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+}
+
+.not-found__section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 16px;
+  border: 1px solid var(--el-border-strong);
+  border-radius: 12px;
+  color: var(--el-text);
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.not-found__section:hover {
+  border-color: var(--el-brand);
+  background: var(--el-brand-soft);
+  color: var(--el-text);
+  text-decoration: none;
+}
+
+.not-found__section strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.not-found__section span {
+  font-size: 13px;
+  color: var(--el-text-muted);
+}
+
+.not-found__home a {
+  color: var(--el-brand);
+}
+
+/* ────────────── TABLE OF CONTENTS (phone collapsible) ──────────────────── */
 .table-of-contents {
   padding: 0;
   margin: 0;

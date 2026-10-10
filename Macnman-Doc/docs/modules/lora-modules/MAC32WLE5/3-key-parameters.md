@@ -1,6 +1,6 @@
 ---
 id: keyparameters
-title: Key Parameters
+title: "MAC32WLE5 Key Parameters"
 description: "Key Parameters — Fully supports global license-free ISM bands for different regions: IN865 , US915 , EU868 , AU915 Macnman MAC32WLE5 documentation."
 ---
 
@@ -26,3 +26,9 @@ Less than 3 µA in sleep mode — ideal for battery-powered applications.
 
 - **Versatile Modulation**  
 Supports LoRa, FSK, GFSK, and OOK modulations for true bidirectional 2-way communication.
+
+## Related Resources
+
+- Product: [MAC32WLE5 LoRa module product page](https://www.macnman.com/modules/lora-module-mac32wle5)
+- Start of this manual: [MAC32WLE5 Introduction](/modules/lora-modules/MAC32WLE5/introduction)
+- Help: [Contact Macnman support](/help/help)

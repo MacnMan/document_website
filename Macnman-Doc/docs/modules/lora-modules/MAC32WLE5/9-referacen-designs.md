@@ -1,6 +1,6 @@
 ---
 id: module-performace-notes
-title: MAC32WLE5 Referance Designs
+title: "MAC32WLE5 Reference Designs"
 description: "This is the official recommended schematic for the MAC32WLE5 module, designed for LoRa and BLE applications."
 ---
 
@@ -64,3 +64,8 @@ To ensure optimal performance and reliable wireless communication, we recommend 
 - **Power Supply Isolation**  
   Use magnetic beads and low-ESR capacitors to insulate and filter the power supply to the module, ensuring clean and stable voltage delivery. This reduces noise interference and enhances overall stability.
 
+## Related Resources
+
+- Product: [MAC32WLE5 LoRa module product page](https://www.macnman.com/modules/lora-module-mac32wle5)
+- Start of this manual: [MAC32WLE5 Introduction](/modules/lora-modules/MAC32WLE5/introduction)
+- Help: [Contact Macnman support](/help/help)

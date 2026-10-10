@@ -1,4 +1,10 @@
 {
   "label": "Temperature & Humidity",
-  "position": 1
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "LoRaWAN Temperature & Humidity Sensor Datasheets",
+    "description": "Datasheets for Macnman LoRaWAN temperature and humidity sensors, including outdoor, indoor, RTD (PT100) and non-contact infrared models.",
+    "slug": "/lorawan/sensors/temperature"
+  }
 }

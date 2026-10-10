@@ -1,6 +1,6 @@
 ---
 id: maya_lorawa_network_health
-title: LoRaWAN® Controller LoRaWAN Network Health
+title: "LoRaWAN® Controller (MacSet) LoRaWAN Network Health"
 description: "LoRaWAN® Controller LoRaWAN Network Health — When you press Send Uplink, the device performs: Macnman LoRaWAN® Controller(MacSet) documentation."
 ---
 
@@ -44,3 +44,10 @@ Measures signal power in dBm (always negative):
 - **Very Weak:** `< -120 dBm`
 
 > **Note:** Closer to 0 = stronger signal
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

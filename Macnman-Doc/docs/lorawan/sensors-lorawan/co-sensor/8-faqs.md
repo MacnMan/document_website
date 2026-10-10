@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: CO2 Sensor FAQs
+title: "CO2 Sensor FAQs"
 description: "The MacSync-LCO2 series includes models with ranges from 0–2,000 ppm, 0–5,000 ppm, up to 40,000 ppm, depending on the selected variant (LCO21 / LCO22 /…"
 ---
 
@@ -48,3 +48,10 @@ The sensor has a response time of **around 60 seconds**, suitable for real-time 
 
 #### Is it compatible with any LoRaWAN® network?
 Yes. MacSync-LCO2 is compatible with **all major LoRaWAN® servers**, including **TTN, ChirpStack, Loriot**, and others.
+
+## Related Resources
+
+- Datasheet: [MacSync LCO2 X1 LoRaWAN CO2 sensor datasheet](/product/lorawan/sensors/environmental-sensors/macsync-l-co2-xx-datasheet)
+- Start of this manual: [CO2 Sensor Introduction](/lorawan/sensors-lorawan/co-sensor/macsynclco21_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

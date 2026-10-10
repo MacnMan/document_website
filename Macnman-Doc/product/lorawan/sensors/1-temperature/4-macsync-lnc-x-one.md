@@ -1,8 +1,9 @@
 ---
 id: macsync-l-nc-x-one-datasheet
-title: Non-Contact Temperature Sensor
+title: "MacSync LNCT LoRaWAN Infrared Temperature Sensor"
+sidebar_label: "Non-Contact Temperature Sensor"
 sidebar_position: 2
-description: Industrial-grade LoRaWAN® non-contact infrared temperature sensor engineered for accurate surface temperature monitoring in extreme, high-temperature, moving, and hazardous industrial environments.
+description: "MacSync LNCT Xx is an industrial LoRaWAN non-contact infrared temperature sensor for surface temperature monitoring of hot, moving or hazardous equipment."
 keywords:
   - lorawan non contact temperature sensor
   - industrial lorawan temperature sensor
@@ -11,52 +12,14 @@ keywords:
   - wireless infrared temperature sensor
   - non contact infrared temperature sensor
   - wireless non contact temperature sensor
-  - industrial wireless temperature monitoring sensor
-  - industrial iot temperature sensor
-  - industrial thermal monitoring sensor
-  - predictive maintenance temperature sensor
   - high temperature infrared sensor
   - non contact surface temperature sensor
-  - industrial surface temperature monitoring
-  - furnace temperature monitoring sensor
-  - kiln temperature monitoring sensor
-  - rolling mill temperature monitoring
-  - steel plant thermal monitoring sensor
-  - foundry temperature monitoring system
-  - molten metal temperature monitoring
-  - conveyor belt temperature monitoring
-  - motor temperature monitoring sensor
-  - transformer temperature monitoring sensor
-  - switchgear thermal monitoring
-  - power plant temperature monitoring
-  - turbine temperature monitoring sensor
-  - boiler temperature monitoring system
-  - hazardous area temperature sensor
-  - outdoor industrial temperature sensor
-  - industrial process temperature monitoring
-  - remote temperature monitoring sensor
-  - long range wireless temperature sensor
-  - battery powered industrial temperature sensor
-  - low power temperature monitoring device
-  - smart factory thermal monitoring
-  - industry 4.0 temperature sensor
-  - industrial automation temperature sensor
-  - lorawan predictive maintenance sensor
-  - industrial condition monitoring sensor
-  - thermal analytics sensor
-  - industrial temperature transmitter
   - infrared laser temperature sensor
-  - industrial infrared pyrometer sensor
-  - wireless pyrometer sensor
-  - ip67 industrial temperature sensor
-  - industrial thermal safety monitoring
-  - industrial heat monitoring sensor
-  - macsync lnc x1
   - macsync non contact temperature sensor
   - macnman lorawan temperature sensor
 ---
 
-# MacSync-LNCT-Xx Industrial LoRaWAN® Non-Contact Infrared Temperature Sensor
+# MacSync LNCT Xx Industrial LoRaWAN® Non-Contact Infrared Temperature Sensor Datasheet
 
 ## Product Overview
 
@@ -226,7 +189,6 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 ---
 
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">Temperature Measurement</div>
   <div class="device-config-table">
@@ -593,8 +555,7 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 ---
 
-## MacSync-L-NCT Variants
-
+## MacSync LNCT Xx Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -646,8 +607,7 @@ The **MacSync-LNCT-Xx LoRaWAN® infrared temperature sensor** is purpose-built f
 
 ---
 
-## What's in the Box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 - MacSync LNCT Sensor 
@@ -670,9 +630,46 @@ not be included in the box.
 
 :::
 
-##  MacSync LNCT Dimensions
-
+## MacSync LNCT Xx Dimensions
 The MacSync LNCT Xx features a rugged industrial-grade enclosure with overall dimensions of **152 mm × 62 mm × 43 mm**, enabling easy wall and pole mounting across factories, furnaces, kilns, power plants, steel industries, outdoor industrial environments, and Industrial IoT thermal monitoring deployments.
 
 ![MacSync-LNC-Xx Industrial LoRaWAN Non-Contact Infrared Temperature Sensor Dimensions Drawing](/img/lorawan/sensors/macsync/macsync-lnc-xx-industrial-lorawan-infrared-temperature-sensor-dimensions.webp)
 
+## Frequently Asked Questions
+
+### What is the MacSync LNCT Xx used for?
+
+MacSync LNCT Xx is an industrial LoRaWAN non-contact infrared temperature sensor for surface temperature monitoring of hot, moving or hazardous equipment. Typical applications include High-Temperature Industrial Process Monitoring, Steel, Foundry & Metallurgical Operations, Power & Energy Infrastructure, Conveyor Belts & Moving Equipment, Hazardous & Electrically Live Areas and Predictive Maintenance & Condition Monitoring.
+
+### What does the MacSync LNCT Xx measure, and how accurately?
+
+Measurement specifications of the MacSync LNCT Xx:
+
+- Temperature: range 0 °C to 600 °C (Standard) • 0 °C to 1500 °C (High‑Temperature Variant), accuracy ±1 % of reading or ±1 °C (whichever is greater), resolution 0.1 °C.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LNCT Xx support?
+
+The MacSync LNCT Xx supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, Direct PLC On-Prem Installations.
+
+### How long does the MacSync LNCT Xx battery last?
+
+The battery-operated MacSync LNCT Xx runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LNCT Xx?
+
+The MacSync LNCT Xx has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync LNCT Xx configured?
+
+The MacSync LNCT Xx is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LNCT Xx?
+
+The box contains: MacSync LNCT Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapters are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [Narmada TSX1 compact LoRaWAN temperature and humidity sensor](/product/lorawan/sensors/temperature/narmada-tsx1-lorawan-temperature-humidity-sensor-datasheet), [MacSync LTS X1 LoRaWAN temperature and humidity sensor](/product/lorawan/sensors/temperature/macsync-lts-x1-datasheet), [MacSync LRTD X1 LoRaWAN RTD temperature sensor](/product/lorawan/sensors/temperature/macsync-lorawan-rtd-sensor-x-series)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

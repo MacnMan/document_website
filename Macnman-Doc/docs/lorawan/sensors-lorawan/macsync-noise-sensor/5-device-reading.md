@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-live-values
-title: Noise Sensor How to check Live values?
+title: "Noise Sensor How to Check Live Values"
 description: "To check live data via BLE, go to the Home Page in the Maya App, connect to your sensor, and tap on Device Data. Macnman Noise Sensor documentation."
 ---
 
@@ -25,4 +25,9 @@ To check live data via BLE, go to the Home Page in the Maya App, connect to your
 
 - Click on the refresh button fetch data
 
+## Related Resources
 
+- Datasheet: [MacSync LNS X1 LoRaWAN outdoor sound level sensor datasheet](/product/lorawan/sensors/other-sensors/macsync-l-n-x-one-sound-level-sensor)
+- Start of this manual: [Noise Sensor Introduction](/lorawan/sensors-lorawan/macsync-noise-sensor/macsynclw6_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

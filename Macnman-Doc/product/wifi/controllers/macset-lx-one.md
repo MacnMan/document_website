@@ -1,8 +1,9 @@
 ---
 id: macset-wx-one-datasheet
-title: MacSet-WX1
+title: "MacSet-WX1 Wi-Fi IoT Relay Controller Datasheet"
+sidebar_label: "MacSet-WX1"
 sidebar_position: 1
-description: Ultra-rugged Wi‑Fi IoT controller for remote switching, automation, and edge control.
+description: "MacSet-WX1 is a power-operated Wi-Fi IoT controller with 2 high-current digital outputs for remote switching, automation and edge control of equipment."
 keywords:
   - wifi iot controller
   - wifi industrial controller
@@ -16,14 +17,9 @@ keywords:
   - rs485 wifi controller
   - modbus wifi controller
   - smart building controller
-  - industrial wifi automation
-  - remote equipment controller
-  - edge automation controller
-  - local automation controller
-
 ---
 
-# MacSet-WX1
+# MacSet-WX1 Wi-Fi IoT Relay Controller Datasheet
 
 ## Product Overview
 MacSet‑WX1 is a robust, power‑operated Wi‑Fi IoT controller designed for reliable remote control and automation of industrial, commercial, and building infrastructure. Equipped with 2 high‑current digital outputs, it enables secure switching of pumps, motors, valves, alarms, solenoids, lighting systems, and other electrical loads over standard Wi‑Fi networks.
@@ -35,22 +31,21 @@ The device supports MQTT, HTTP/HTTPS communication, along with OTA configuration
 Ideal for smart buildings, industrial automation, energy management, and remote equipment control, MacSet‑WX1 delivers a scalable, gateway‑free, and future‑ready Wi‑Fi control solution.
 
 
-| ![Front view of MacSet-LX1 LoRaWAN controller with dual digital outputs](/img/controller/macset-lx1-front-view..webp) | ![Back view of MacSet-LX1 showing enclosure and wiring openings](/img/controller/macset-lx1-back-view.webp) |
+| ![MacSet-WX1 Wi-Fi IoT relay controller front view](/img/controller/macset-lx1-front-view..webp) | ![MacSet-WX1 Wi-Fi IoT relay controller rear view](/img/controller/macset-lx1-back-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Side view of MacSet-LX1 industrial LoRaWAN controller unit](/img/controller/macset-lx1-io-ports.webp) | ![MacSet-LX1 I/O ports showing dual digital outputs and power interface](/img/controller/macset-lx1-side-view.webp) |
+| ![MacSet-WX1 Wi-Fi IoT relay controller side view](/img/controller/macset-lx1-io-ports.webp) | ![MacSet-WX1 Wi-Fi IoT relay controller ports and interfaces](/img/controller/macset-lx1-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSet-LX1-datasheet.pdf" 
+  <a href="/docs/downloads/macset-wx1-wifi-iot-relay-controller-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSet-LX1-datasheet.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -189,8 +184,7 @@ Ideal for smart buildings, industrial automation, energy management, and remote 
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -273,7 +267,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSet-LX1 is being modified</p>
@@ -427,8 +421,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 </div>
 
 
-##  MacSet-WX1 Variants
-
+## MacSet-WX1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -452,11 +445,10 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </tbody>
 </table>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![macset box contains](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
+![What's in the box: MacSet-WX1 package contents](/img/wifi/controllers/macset-wx-wifi-controller-whats-in-the-box.svg)
 
 :::note
 
@@ -465,9 +457,8 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
-
-![MacSet Dimensions Of The Box](/img/controller/macset-dimensions-of-the-box.svg)
+## MacSet-WX1 Dimensions
+![MacSet-WX1 dimensions drawing](/img/controller/macset-dimensions-of-the-box.svg)
 
 :::note
 
@@ -476,3 +467,36 @@ not be included in the box.
 
 :::
 
+## Frequently Asked Questions
+
+### What is the MacSet-WX1 used for?
+
+MacSet-WX1 is a power-operated Wi-Fi IoT controller with 2 high-current digital outputs for remote switching, automation and edge control of equipment. Typical applications include Smart Agriculture & Irrigation, Water & Wastewater Management, Industrial Automation, Smart Buildings & Facilities, Solar & Energy Systems and Remote Infrastructure Control.
+
+### What inputs and outputs does the MacSet-WX1 have?
+
+The MacSet-WX1 provides the following interfaces:
+
+- High Current Relay Outputs: x2 @16 Amps
+- RS485 Interface: 1 (Switchable)
+- 4-20 mA Analog Channels: x 2 (Switchable)
+- 0-10 V Analog Channels: x 2 (Switchable)
+- Digital Inputs: x 2 (Switchable)
+- ADC Resolution: 12-bit
+
+### How is the MacSet-WX1 powered?
+
+The MacSet-WX1 is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSet-WX1?
+
+The MacSet-WX1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSet-WX1 configured?
+
+The MacSet-WX1 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+## Related Products and Resources
+
+- Related datasheets: [MacSet LX1 industrial LoRaWAN relay controller](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

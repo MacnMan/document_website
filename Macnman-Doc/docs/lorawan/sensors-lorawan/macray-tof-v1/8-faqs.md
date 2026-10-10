@@ -1,6 +1,6 @@
 ---
 id: macsync_faqs_macsynclt4
-title: MacRay-ToF FAQs
+title: "MacRay-ToF FAQs"
 description: "The sensor supports two distance modes: Short Range (4 cm to 130 cm) and Long Range (4 cm to 400 cm), offering flexible deployment based on application…"
 ---
 
@@ -43,3 +43,10 @@ Yes. It supports LoRaWAN® Class A & C communication and is fully compatible wit
 
 #### What applications is it best suited for?
 This sensor is ideal for smart waste bin monitoring, tank level monitoring, flood detection, proximity detection in industrial automation, and parking systems.
+
+## Related Resources
+
+- Datasheet: [MacRay LToF LoRaWAN Time-of-Flight sensor datasheet](/product/lorawan/sensors/level-sensors/macray-ltof-lorawan-time-of-flight-sensor)
+- Start of this manual: [MacRay-ToF Introduction](/lorawan/sensors-lorawan/macray-tof-v1/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

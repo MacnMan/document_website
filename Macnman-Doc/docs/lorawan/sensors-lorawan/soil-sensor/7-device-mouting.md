@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Soil Sensor Mounting Options
+title: "Soil Sensor Mounting Options"
 description: "Soil Sensor Mounting Options — Macnman Soil Sensor: Wall Mounting, Pole Mounting."
 ---
 
@@ -45,3 +45,9 @@ description: "Soil Sensor Mounting Options — Macnman Soil Sensor: Wall Mountin
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheets: [LoRaWAN soil sensor datasheets](/product/lorawan/sensors/soil-sensors)
+- Start of this manual: [Soil Sensor Introduction](/lorawan/sensors-lorawan/soil-sensor/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

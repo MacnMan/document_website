@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: MAC32WLE5 Introduction
+title: "MAC32WLE5 Introduction"
 description: "The MAC32WLE5 LoRa module by Macnman Technologies Pvt Ltd is a compact, ultra-low-power wireless communication solution built around the robust STM32WL…"
 ---
 
@@ -87,4 +87,7 @@ From smart agriculture and utility metering to infrastructure monitoring & indus
 
 > Need help? Reach out at [support@macnman.com](mailto:support@macnman.com) or raise an issue in our [GitHub repo](https://github.com/MacnMan/LoRa_Module_SDK).
 
+## Related Resources
 
+- Product: [MAC32WLE5 LoRa module product page](https://www.macnman.com/modules/lora-module-mac32wle5)
+- Help: [Contact Macnman support](/help/help)

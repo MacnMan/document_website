@@ -1,5 +1,10 @@
 {
-  "label": "Envirnomental Sensors",
-  "position": 3
-  
+  "label": "Environmental Sensors",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Wi-Fi Gas & Air Quality Sensor Datasheets",
+    "description": "Datasheets for Macnman Wi-Fi environmental sensors: CO2 indoor air quality, qualitative odor and H2S / NH3 gas sensors.",
+    "slug": "/wifi/sensors/environmental-sensors"
+  }
 }

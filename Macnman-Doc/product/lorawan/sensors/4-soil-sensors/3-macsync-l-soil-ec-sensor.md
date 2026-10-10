@@ -1,6 +1,7 @@
 ---
 id: macsync-l-soil-ec-sensor-datasheet
-title: Soil EC Sensor
+title: "MacSync LSS X3 LoRaWAN Soil EC Sensor Datasheet"
+sidebar_label: "Soil EC Sensor"
 sidebar_position: 9
 description: "MacSync LSS X3 is an industrial LoRaWAN soil EC (conductivity) sensor for precision agriculture, fertigation, greenhouse automation and salinity monitoring."
 keywords:
@@ -12,21 +13,13 @@ keywords:
   - precision agriculture soil conductivity sensor
   - remote soil ec telemetry device
   - greenhouse soil ec monitoring
-  - plantation soil conductivity monitoring
   - fertigation ec monitoring sensor
-  - soil nutrient conductivity sensor
-  - agricultural soil salinity monitoring
-  - wireless soil chemistry sensor
   - long range soil ec probe lorawan
   - agriculture iot soil ec sensor
-  - industrial lorawan agriculture sensor
-  - smart irrigation conductivity monitoring
-  - crop nutrient monitoring sensor
-  - soil fertility monitoring sensor
   - macsync lss x3 soil ec sensor
 ---
 
-# MacSync LSS X3 LoRaWAN Soil EC Sensor
+# MacSync LSS X3 LoRaWAN® Soil EC Sensor Datasheet
 
 ## Product Overview
 
@@ -538,7 +531,6 @@ MacSync LSS X3 is ideal for:
 
 ---
 ## MacSync LSS X3 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -591,7 +583,6 @@ MacSync LSS X3 is ideal for:
 --- 
 
 ## What's in the Box?
-
 Make sure the box contains the following items before installation.
 
 - MacSync LSS X3 LoRaWAN Soil EC Sensor
@@ -611,8 +602,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 
 ---
 
-## MacSync LSS X3 Product Dimensions
-
+## MacSync LSS X3 Dimensions
 The MacSync LSS X3 features a rugged industrial-grade enclosure designed for long-term outdoor agricultural deployments. The compact enclosure dimensions of **152 mm × 62 mm × 43 mm** enable easy installation across farms, vineyards, orchards, greenhouses, fertigation systems, research fields, plantations, and precision agriculture infrastructure.
 
 ![MacSync LSS X3 LoRaWAN soil EC sensor probe dimensions and industrial mounting layout](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-probe-dimensions.webp)
@@ -620,3 +610,43 @@ The MacSync LSS X3 features a rugged industrial-grade enclosure designed for lon
 ![MacSync LSS X3 industrial enclosure dimensions for LoRaWAN soil EC monitoring sensor](/img/lorawan/sensors/macsync/macsync-lss-x3-lorawan-soil-ec-sensor-device-dimensions.webp)
 
 ---
+
+## Frequently Asked Questions
+
+### What is the MacSync LSS X3 used for?
+
+MacSync LSS X3 is an industrial LoRaWAN soil EC (conductivity) sensor for precision agriculture, fertigation, greenhouse automation and salinity monitoring. Typical applications include Precision Agriculture & Smart Farming, Soil Fertility & Nutrient Monitoring, Greenhouses & Polyhouses, Vineyards & Orchards, Plantations & Commercial Farming and Fertigation & Irrigation Optimization.
+
+### What does the MacSync LSS X3 measure, and how accurately?
+
+Measurement specifications of the MacSync LSS X3:
+
+- Soil EC: range 0 – 10000 μS/cm, accuracy ±3% F.S, resolution 10 μS/cm.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LSS X3 support?
+
+The MacSync LSS X3 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments.
+
+### How long does the MacSync LSS X3 battery last?
+
+The battery-operated MacSync LSS X3 runs on an industrial-grade 19 Ah Li-SOCl₂ battery. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A solar option adds a 20 W High-Efficiency Solar Panel with an Integrated 8000 mAh Solar Rechargeable Battery.
+
+### What is the IP rating and operating temperature of the MacSync LSS X3?
+
+The MacSync LSS X3 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LSS X3 configured?
+
+The MacSync LSS X3 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LSS X3?
+
+The box contains: MacSync LSS X3 LoRaWAN Soil EC Sensor, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [Soil sensor user manual](/lorawan/sensors-lorawan/soil-sensor/macsyncls_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LSS X4 LoRaWAN soil pH sensor](/product/lorawan/sensors/soil-sensors/macsync-l-soil-ph-sensor-datasheet), [MacSync LSS X5 LoRaWAN 7-in-1 soil sensor](/product/lorawan/sensors/soil-sensors/macsync-l-seven-in-one-soil-sensor), [MacSync LSS X1 LoRaWAN soil NPK sensor](/product/lorawan/sensors/soil-sensors/macsync-l-npk-sensor-datasheet), [MacSync LSS X2 LoRaWAN soil moisture and temperature sensor](/product/lorawan/sensors/soil-sensors/macsync-l-soil-moisture-sensor-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

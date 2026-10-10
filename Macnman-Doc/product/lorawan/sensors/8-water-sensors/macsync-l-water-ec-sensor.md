@@ -1,40 +1,27 @@
 ---
 id: macsync-l-water-ec-sensor-datasheet
-title:  EC Sensor
+title: "MacSync LWQS X1 LoRaWAN Water EC Sensor Datasheet"
+sidebar_label: "EC Sensor"
 sidebar_position: 9
-description: Industrial LoRaWAN Water Quality EC Sensor for real-time electrical conductivity monitoring in drinking water, wastewater, STP, WWTP, industrial effluent, reservoirs, rivers, lakes, and smart IoT water quality monitoring applications.
+description: "MacSync LWQS X1 is an industrial LoRaWAN water quality EC sensor for online conductivity monitoring in drinking water, wastewater, STP and WWTP."
 keywords:
   - lorawan water quality sensor
   - lorawan water ec sensor
-  - lorawan electrical conductivity sensor
   - water quality monitoring sensor lorawan
   - industrial water quality sensor
   - industrial water ec sensor
-  - online water conductivity monitoring sensor
-  - smart water quality monitoring iot
   - iot water quality sensor
-  - wastewater ec monitoring sensor
-  - industrial effluent ec sensor
-  - sewage treatment plant ec sensor
   - stp water quality sensor
-  - wwtp conductivity monitoring sensor
   - drinking water quality monitoring sensor
   - river water quality monitoring sensor
   - reservoir water ec sensor
-  - cooling tower water conductivity sensor
-  - process water ec monitoring sensor
-  - battery powered lorawan water sensor
-  - long range water quality sensor
-  - low power water ec sensor
-  - wireless water conductivity sensor
-  - lorawan water monitoring system
   - macsync water quality sensor
-  - macsync lwqs x1
   - macnman lorawan water quality sensor
   
 ---
+
  
-# MacSync LWQS X1 LoRaWAN Water Quality EC Sensor Datasheet
+# MacSync LWQS X1 LoRaWAN® Water Quality EC Sensor Datasheet
 
 ## Product Overview
 
@@ -196,7 +183,6 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 
 
 ## Technical Specifications
-
 <div className="device-config-section">
   <div className="device-config-title">EC Sensor Measurement</div>
   <div className="device-config-table">
@@ -536,7 +522,6 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 ---
 
 ## MacSync LWQS X1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -589,7 +574,6 @@ With support for **LoRaWAN® v1.0.4**, AES-encrypted wireless communication, OTA
 ---
 
 ## What's in the Box?
-
 Make sure the package contains the following items before installation and outdoor deployment.
 
 - MacSync LWQS X1 Water EC Sensor
@@ -610,8 +594,7 @@ Accessories marked with (*) must be purchased separately and may not be included
 ---
 
 
-## MacSync LWQS X1 Product Dimensions
-
+## MacSync LWQS X1 Dimensions
 The **MacSync LWQS X1 LoRaWAN Water Quality EC Sensor** features a rugged industrial-grade enclosure engineered for long-term industrial and outdoor water quality monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables flexible installation across drinking water systems, wastewater treatment plants (WWTP), sewage treatment plants (STP), industrial process lines, reservoirs, borewells, cooling towers, rivers, lakes, and smart IoT water infrastructure.
 
 Its compact low-profile design simplifies wall mounting and industrial installation while maintaining reliable conductivity monitoring performance in harsh operating environments including high humidity, water exposure, industrial contamination, dust, and extreme outdoor temperatures.
@@ -620,3 +603,42 @@ Its compact low-profile design simplifies wall mounting and industrial installat
 
 ![MacSync LWQS X1 industrial water EC sensor enclosure dimensions for LoRaWAN water quality monitoring installations](/img/lorawan/sensors/macsync/macsync-lwq-x-ec-sensor-enclosure-dimensions.svg)
 
+## Frequently Asked Questions
+
+### What is the MacSync LWQS X1 used for?
+
+MacSync LWQS X1 is an industrial LoRaWAN water quality EC sensor for online conductivity monitoring in drinking water, wastewater, STP and WWTP. Typical applications include Drinking Water Quality Monitoring, Industrial Water EC Monitoring, Sewage Treatment Plant (STP) Monitoring, Wastewater Treatment Plant (WWTP) Analytics, Industrial Effluent Monitoring and Cooling Tower Water Conductivity Monitoring.
+
+### What does the MacSync LWQS X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LWQS X1:
+
+- EC: range 0–2000 μS/cm, 0–5000 μS/cm (Cell Constant: 1.0), accuracy ±1% of Full Scale (FS), resolution 1 μS/cm.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LWQS X1 support?
+
+The MacSync LWQS X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments.
+
+### How long does the MacSync LWQS X1 battery last?
+
+The battery-operated MacSync LWQS X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A solar option adds a 20 W High-Efficiency Solar Panel with an Integrated 8000 mAh Solar Rechargeable Battery.
+
+### What is the IP rating and operating temperature of the MacSync LWQS X1?
+
+The MacSync LWQS X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LWQS X1 configured?
+
+The MacSync LWQS X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LWQS X1?
+
+The box contains: MacSync LWQS X1 Water EC Sensor, User Manual, Warranty Card and Mounting Screws & Installation Hardware. Industrial Mounting Bracket, IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [Water quality sensor user manual](/lorawan/sensors-lorawan/water-quality-sensor-v1/macsyncls_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LWQS X2 LoRaWAN water pH sensor](/product/lorawan/sensors/water-sensors/macsync-lorawan-water-ph-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

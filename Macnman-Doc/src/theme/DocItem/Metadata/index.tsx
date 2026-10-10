@@ -1,8 +1,8 @@
 /**
  * Adds to every documentation page, on top of the theme's own metadata:
  *  - JSON-LD: Organization + WebSite, a TechArticle for the page, a Product
- *    for datasheets (with its PDF), and a FAQPage where the page is an FAQ
- *    (data from plugins/ai-seo.js);
+ *    for datasheets (with its PDF), a FAQPage where the page has an FAQ, and
+ *    a VideoObject for each embedded video (data from plugins/ai-seo.js);
  *  - `og:type=article`;
  *  - a <link rel="alternate" type="text/markdown"> pointing at the page's
  *    Markdown twin, for AI crawlers.
@@ -11,7 +11,8 @@
  */
 import React, {type ReactNode} from 'react';
 import Metadata from '@theme-original/DocItem/Metadata';
-import type {Props} from '@theme/DocItem/Metadata';
+// The stock component takes no props; whatever is passed is handed on.
+type Props = Record<string, unknown>;
 import Head from '@docusaurus/Head';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -25,6 +26,7 @@ type PageExtra = {
   image: string;
   pdf: string;
   faq: {q: string; a: string}[];
+  videos?: {id: string; name: string; description: string; uploadDate: string; duration: string}[];
   noindex: boolean;
 };
 
@@ -116,6 +118,21 @@ export default function MetadataWrapper(props: Props): ReactNode {
             },
           }
         : {}),
+    });
+  }
+
+  for (const video of extra.videos ?? []) {
+    graph.push({
+      '@type': 'VideoObject',
+      '@id': `${pageUrl}#video-${video.id}`,
+      name: video.name,
+      description: video.description,
+      thumbnailUrl: [`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`],
+      uploadDate: video.uploadDate,
+      ...(video.duration ? {duration: video.duration} : {}),
+      embedUrl: `https://www.youtube.com/embed/${video.id}`,
+      contentUrl: `https://www.youtube.com/watch?v=${video.id}`,
+      publisher: {'@id': ORG_ID},
     });
   }
 

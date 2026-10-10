@@ -1,42 +1,25 @@
 ---
 id: macsync-cx1-datasheet
-title: MacSync CX1 
+title: "MacSync CX1 4G LTE Data Logger Datasheet"
+sidebar_label: "MacSync CX1"
 sidebar_position: 3
 description: "MacSync CX1 is an industrial 4G LTE cellular data logger connecting RS485 Modbus RTU and 4-20 mA / 0-10 V analog sensors to the cloud."
 keywords:
-  - cellular rs485 datalogger
-  - 4g rs485 modbus datalogger
   - lte modbus data logger
   - rs485 to cloud data logger
   - industrial cellular data logger
-  - 4-20ma to 4g datalogger
   - 0-10v to 4g data logger
   - analog to cloud data logger
-  - modbus rtu to mqtt gateway
-  - rs485 to mqtt device
-  - rs485 to https iot device
-  - remote data logging device
   - plc data logger 4g
   - scada data logger cellular
-  - industrial iot gateway 4g
-  - cellular iot edge gateway
-  - remote machine monitoring data logger
   - energy meter data logger 4g
-  - pump monitoring datalogger
-  - pressure sensor 4-20ma datalogger
-  - industrial automation data logger
   - multi channel data logger cellular
   - telemetry data logger 4g
-  - modbus to cloud converter
-  - rs485 modbus gateway 4g
-  - iot data logger with sim
   - 4g data logger with nano sim
-  - edge data logger mqtt
-  - remote rtu 4g
   - 4g rtu data logger
 ---
 
-# MacSync CX1 Datasheet
+# MacSync CX1 4G LTE Cellular RS485 & Analog Data Logger Datasheet
 
 ## Product Overview
 
@@ -47,22 +30,21 @@ Powered by a wide **9–36 V DC input**, MacSync CX1 is engineered for permanent
 With an **in-house high-efficiency internal antenna** and optimized low-noise RF design, CX1 ensures stable long-range connectivity in harsh environments. Whether you are monitoring pumps, pressure transmitters, flow meters, energy meters, or industrial machines — **MacSync CX1 transforms field signals into cloud-ready data with industrial reliability.**
 
 
-| ![Front view of MacSync-L-STD-BO battery-powered RS485 and analog to LoRaWAN data logger](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![ Side view of MacSync-L-STD-BO industrial LoRaWAN data logger with 19Ah battery](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
+| ![MacSync CX1 4G LTE cellular data logger front view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-front-view.webp) | ![MacSync CX1 4G LTE cellular data logger side view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-ports-interface.webp) |
 |--------------------------------|--------------------------------|
-| ![Back view of MacSync-L-STD-BO showing enclosure and wiring ports for RS485 and analog inputs](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![Internal layout of MacSync-L-STD-BO battery-operated LoRaWAN telemetry device](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
+| ![MacSync CX1 4G LTE cellular data logger rear view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-back-view.webp) | ![MacSync CX1 4G LTE cellular data logger internal view](/img/lorawan/sensors/macsync/macsync-lx2-std-po-side-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-cx1-4g-lte-data-logger-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -186,8 +168,7 @@ With an **in-house high-efficiency internal antenna** and optimized low-noise RF
 <div class="faint-line"></div>
 
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -291,7 +272,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -454,7 +435,6 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
 
 
 ## MacSync CX1 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -478,8 +458,7 @@ The device use same channels for the RS485 & Analog inputs, either can be used a
   </tbody>
 </table>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
@@ -492,6 +471,41 @@ not be included in the box.
 :::
 
 ## MacSync CX1 Dimensions
+![MacSync CX1 dimensions drawing](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
 
-![MacSync Dimensions New Drawing Style](/img/datalogger/macsync-dimensions-new-drawing-style.svg)
+## Frequently Asked Questions
 
+### What is the MacSync CX1 used for?
+
+MacSync CX1 is an industrial 4G LTE cellular data logger connecting RS485 Modbus RTU and 4-20 mA / 0-10 V analog sensors to the cloud. Typical applications include Smart Water Utilities, Manhole & Sewer Level Monitoring, Flood & Stormwater Monitoring, Industrial Wastewater Management, Mining & Quarry Operations and Smart City Infrastructure.
+
+### What inputs and outputs does the MacSync CX1 have?
+
+The MacSync CX1 provides the following interfaces:
+
+- RS485 Interface: 1 (Switchable)
+- 4-20 mA Analog Channels: x 2 (Switchable)
+- 0-10 V Analog Channels: x 2 (Switchable)
+- Digital Inputs: x 2 (Switchable)
+- ADC Resolution: 12-bit
+
+### Which cellular networks does the MacSync CX1 support?
+
+The MacSync CX1 uses a Quectel EC200 Series module for 4G LTE (Cat 1), 2G GSM (Fallback) connectivity. Supported LTE bands: B1 / B3 / B5 / B8 / B40 / B41 (Region dependent). Supported GSM bands: 900 / 1800 MHz. It takes a Nano SIM and sends data over MQTT / HTTPS.
+
+### How is the MacSync CX1 powered?
+
+The MacSync CX1 is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync CX1?
+
+The MacSync CX1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync CX1 configured?
+
+The MacSync CX1 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+## Related Products and Resources
+
+- Related datasheets: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1), [MacEdge CX08 industrial edge gateway](/product/cellular/gateways/macedge-cx08-datasheet), [MacEdge CX10 industrial edge gateway](/product/cellular/gateways/macedge-cx10-datasheet), [MacSet CX1 4G LTE cellular relay controller](/product/cellular/gateways/macset-cx1-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

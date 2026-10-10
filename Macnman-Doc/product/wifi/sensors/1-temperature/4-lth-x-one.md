@@ -1,6 +1,7 @@
 ---
 id: wlth-temp-humi-sensor-datasheet
-title: MWTH 301
+title: "MWTH 301 Wi-Fi Temperature Humidity Sensor"
+sidebar_label: "MWTH 301"
 sidebar_position: 1
 description: "MWTH 301 is a compact, low-power, battery-operated Wi-Fi temperature and humidity sensor for indoor and semi-industrial environmental monitoring."
 keywords:
@@ -11,20 +12,14 @@ keywords:
   - indoor wifi temperature sensor
   - industrial wifi temperature humidity sensor
   - wifi environmental sensor
-  - wifi climate monitoring device
   - hvac wifi temperature humidity monitoring
   - cold chain wifi temperature humidity sensor
   - greenhouse wifi climate sensor
-  - smart building wifi sensor
-  - industrial iot wifi sensor
   - compact wifi temperature humidity sensor
-  - low power wifi iot sensor
-  - macsync
-  - macnman
   - wifi temp humidity sensor
 ---
 
-#  MWTH 301 Datasheet
+# MWTH 301 Wi-Fi Temperature & Humidity Sensor Datasheet
 
 ## Product Overview
 
@@ -37,22 +32,21 @@ The sensor securely transmits data to **local servers, on‑premise dashboards, 
 Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart buildings, HVAC systems, cold rooms, warehouses, laboratories, and industrial indoor environments** where reliable Wi‑Fi connectivity, low latency, and accurate environmental data are essential.
 
 
-| ![Mini LoRaWAN Temperature Humidity Sensor](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![LoRaWAN Compact Temp Humidity Sensor Front View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
+| ![MWTH 301 compact Wi-Fi temperature and humidity sensor product view 1](/img/lorawan/sensors/macsync/mini-lorawan-temperature-humidity-sensor.webp) | ![MWTH 301 compact Wi-Fi temperature and humidity sensor front view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![LoRaWAN Compact Temp Humidity Sensor Side View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![LoRaWAN Compact Temp Humidity Sensor Top View](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
+| ![MWTH 301 compact Wi-Fi temperature and humidity sensor side view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-side-view.webp) | ![MWTH 301 compact Wi-Fi temperature and humidity sensor top view](/img/lorawan/sensors/macsync/lorawan-compact-temp-humidity-sensor-top-view.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/mwth-301-wifi-temperature-humidity-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -187,8 +181,7 @@ Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -329,7 +322,7 @@ Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -503,8 +496,7 @@ Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart
   </div>
 </div>
 
-##   MWTH 301 Variants
-
+## MWTH 301 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -528,11 +520,10 @@ Housed in a rugged, ingress‑protected enclosure, MWTH 301 is ideal for **smart
   </tbody>
 </table>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![LoRaWAN Temperature Sensor What In Box](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
+![What's in the box: MWTH 301 package contents](/img/lorawan/sensors/macsync/lorawan-temperature-sensor-what-in-box.svg)
 
 :::note
 
@@ -541,7 +532,40 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MWTH 301 Dimensions
+![MWTH 301 dimensions drawing](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.webp)
 
-![Minisync Temp LoRaWAN Sensor Diamensions](/img/lorawan/sensors/macsync/minisync-temp-lorawan-sensor-diamensions.webp)
+## Frequently Asked Questions
 
+### What is the MWTH 301 used for?
+
+MWTH 301 is a compact, low-power, battery-operated Wi-Fi temperature and humidity sensor for indoor and semi-industrial environmental monitoring. Typical applications include Smart Buildings & Offices, HVAC Monitoring & Optimization, Cold Rooms & Cold Chain Storage, Warehouses & Storage Facilities, Laboratories & Clean Rooms and Industrial Indoor Areas.
+
+### What does the MWTH 301 measure, and how accurately?
+
+Measurement specifications of the MWTH 301:
+
+- Temperature: range -30°C to +70°C, accuracy 0°C to +70°C: ±0.3°C & -30°C to 0°C: ±0.6°C, resolution 0.1°C.
+- Humidity: range 0% to 100% RH, accuracy 10% to 90% RH: ±3% RH & &lt;10% or &gt;90% RH: ±5% RH, resolution 0.5% RH.
+- Pressure: range 300 hPa to 1100 hPa, accuracy ±1.0 hPa (typical at 25°C, 300–1100 hPa), resolution 0.1 hPa.
+
+### How does the MWTH 301 connect and send data over Wi-Fi?
+
+The MWTH 301 connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### What is the IP rating and operating temperature of the MWTH 301?
+
+The MWTH 301 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MWTH 301 configured?
+
+The MWTH 301 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MWTH 301 work with?
+
+The MWTH 301 can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- Related datasheets: [Narmada TSX1 compact LoRaWAN temperature and humidity sensor](/product/lorawan/sensors/temperature/narmada-tsx1-lorawan-temperature-humidity-sensor-datasheet), [MacSync-WT1 Wi-Fi temperature and humidity sensor](/product/wifi/sensors/temperature/macsync-wt-one-datasheet), [MacSync-WRTDX2 Wi-Fi RTD PT100 temperature sensor](/product/wifi/sensors/temperature/macsync-wifi-rtd-sensor-x-series), [MacSync-WRTDX5 Wi-Fi RTD PT1000 temperature sensor](/product/wifi/sensors/temperature/macsync-w-rtd-x-five-datasheet)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

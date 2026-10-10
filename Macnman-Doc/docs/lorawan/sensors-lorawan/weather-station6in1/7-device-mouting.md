@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Weather Station Mounting Options
+title: "Weather Station Mounting Options"
 description: "Weather Station Mounting Options — Macnman Weather Station: Wall Mounting, Pole Mounting."
 ---
 
@@ -45,3 +45,9 @@ description: "Weather Station Mounting Options — Macnman Weather Station: Wall
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheet: [MacSync LWS X2 LoRaWAN 6-in-1 weather station datasheet](/product/lorawan/sensors/weather-stations/macsync-l-six-in-one-weather-station-x-six)
+- Start of this manual: [Weather Station Introduction](/lorawan/sensors-lorawan/weather-station6in1/macsynclw6_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

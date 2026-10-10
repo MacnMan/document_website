@@ -1,6 +1,6 @@
 ---
 id: macsync_lt1_introduction
-title: Temperature & Humidity Introduction
+title: "Temperature & Humidity Introduction"
 description: "The MacSync-LT1 is a high-precision, low-power Temperature & Humidity sensor designed for seamless integration into LoRaWAN® networks."
 ---
 
@@ -169,3 +169,9 @@ Configuration is quick and user-friendly using the [**Macnman Maya App**](https:
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync LTS X1 LoRaWAN temperature and humidity sensor datasheet](/product/lorawan/sensors/temperature/macsync-lts-x1-datasheet)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

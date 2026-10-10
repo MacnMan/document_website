@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-mounting
-title: Ultrasonic Sensor (Sub 4 Meter) Mounting Options
+title: "Ultrasonic Sensor (Sub 4 Meter) Mounting Options"
 description: "Ultrasonic Sensor (Sub 4 Meter) Mounting Options — Macnman Ultrasonic Sensor(Sub 4 Meter): Wall Mounting, Pole Mounting."
 ---
 
@@ -45,3 +45,9 @@ description: "Ultrasonic Sensor (Sub 4 Meter) Mounting Options — Macnman Ultra
 **Secure the Device**
 - Wrap the zip ties tightly around the pole and pull until the device is held firmly in place.Both plastic and stainless steel  zip ties are compatible.
 
+## Related Resources
+
+- Datasheets: [LoRaWAN level sensor datasheets](/product/lorawan/sensors/level-sensors)
+- Start of this manual: [Ultrasonic Sensor (Sub 4 Meter) Introduction](/lorawan/sensors-lorawan/ultrasonic-sensor-dfrobot/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

@@ -1,4 +1,10 @@
 {
   "label": "Low Power Wi-Fi Products",
-  "position": 1
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Wi-Fi Product Datasheets",
+    "description": "Datasheets for Macnman low-power Wi-Fi sensors, dataloggers, controllers and gateways that send data to local servers and cloud platforms.",
+    "slug": "/wifi"
+  }
 }

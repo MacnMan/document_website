@@ -1,6 +1,6 @@
 ---
 id: macsync-lns-registration
-title: LoRaWAN® Controller (MacSet) LNS Registration
+title: "LoRaWAN® Controller (MacSet) LNS Registration"
 description: "LoRaWAN® Controller (MacSet) LNS Registration — You can register your device using either manual entry or QR scan."
 ---
 
@@ -113,3 +113,10 @@ Once your MacSync device is registered and active, you can send downlink command
 - Ensure your MacSync device is configured to support the downlink functionality.
 
 > If using Class C, the downlink will be sent immediately since the receiver is always listening (for power-operated versions).
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

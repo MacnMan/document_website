@@ -1,8 +1,9 @@
 ---
 id: macsync-l-five-in-one-weather-station-x-five
-title: 5 Parameter Station
+title: "MacSync LWS X1 LoRaWAN Weather Station Datasheet"
+sidebar_label: "5 Parameter Station"
 sidebar_position: 9
-description: Industrial LoRaWAN weather station for real-time environmental monitoring including wind speed, wind direction, temperature, humidity, and barometric pressure sensing for smart agriculture, smart cities, and industrial automation.
+description: "MacSync LWS X1 is an industrial LoRaWAN weather station measuring wind speed, wind direction, temperature, humidity and barometric pressure."
 keywords:
   - lorawan weather station
   - industrial lorawan weather station
@@ -13,34 +14,12 @@ keywords:
   - automatic weather station lorawan
   - lorawan automatic weather station
   - weather monitoring station
-  - industrial weather monitoring system
   - smart agriculture weather station
-  - precision agriculture weather station
-  - wind speed monitoring sensor
-  - wind direction sensor lorawan
-  - temperature humidity weather station
-  - barometric pressure monitoring sensor
-  - environmental monitoring station
-  - smart city weather monitoring
-  - remote weather monitoring system
-  - long range weather station
-  - weather telemetry system
-  - industrial meteorological station
-  - wireless climate monitoring system
-  - solar powered weather station
-  - rainfall and wind monitoring station
-  - meteorological monitoring system
-  - real time weather monitoring
-  - agricultural weather monitoring system
-  - weather station for farms
-  - lorawan environmental monitoring
-  - ip65 outdoor weather station
-  - weather data logger lorawan
   - macsync lws x1
   - macnman lorawan weather station
 ---
 
-# MacSync LWS X1 LoRaWAN Weather Station Datasheet
+# MacSync LWS X1 LoRaWAN® Weather Station Datasheet
 
 ## Product Overview
 
@@ -220,7 +199,6 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 ---
 
 ## Technical Specifications
-
 <div className="device-config-section">
   <div className="device-config-title">Environmental Measurement</div>
   <div className="device-config-table">
@@ -598,8 +576,7 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 
 ---
 
-## MacSync WST Variants
-
+## MacSync LWS X1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -652,7 +629,6 @@ With support for OTA configuration through the **Maya App**, onboard data buffer
 ---
 
 ## What's in the Box?
-
 Make sure the package contains the following items before installation.
 
 - MacSync LWS X1 LoRaWAN Weather Station
@@ -671,11 +647,53 @@ Accessories marked with (*) must be purchased separately and may not be included
 :::
 
 ---
-## MacSync LWS X1 Product Dimensions
-
+## MacSync LWS X1 Dimensions
 The MacSync LWS X1 features a rugged industrial-grade enclosure designed for long-term outdoor weather monitoring deployments. With compact dimensions of **152 mm × 62 mm × 43 mm**, the device enables easy installation across weather stations, farms, reservoirs, highways, environmental monitoring infrastructure, industrial sites, and smart-city climate monitoring systems.
 
 ![MacSync LWS X1 LoRaWAN weather station mechanical dimensions and installation layout for outdoor deployments](/img/lorawan/sensors/macsync/macsync-lws-x1-lorawan-weather-station-dimensions.webp)
 
 ---
 
+## Frequently Asked Questions
+
+### What is the MacSync LWS X1 used for?
+
+MacSync LWS X1 is an industrial LoRaWAN weather station measuring wind speed, wind direction, temperature, humidity and barometric pressure.
+
+### What does the MacSync LWS X1 measure, and how accurately?
+
+Measurement specifications of the MacSync LWS X1:
+
+- Ambient Temperature: range -40°C to +85°C, accuracy ±0.3°C @ 25°C, resolution 0.01°C.
+- Relative Humidity: range 0% to 100% RH (Non-Condensing), accuracy ±3% RH (@ 90% RH), resolution 0.01% RH.
+- Wind Speed: range 0–60 m/s, accuracy ±(0.3 + 0.03V) m/s, resolution 0.01 m/s.
+- Wind Direction: range 0°–359.9°, accuracy ±3° (Speed &lt; 10 m/s), resolution 0.1°.
+- Atmospheric Pressure: range 500–1100 hPa, accuracy ±0.5 hPa @ 25°C, resolution 0.1 hPa.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LWS X1 support?
+
+The MacSync LWS X1 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, and on-premise industrial IoT deployments.
+
+### How long does the MacSync LWS X1 battery last?
+
+The battery-operated MacSync LWS X1 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A solar option adds a 20 W High-Efficiency Solar Panel with an Integrated 8000 mAh Solar Rechargeable Battery.
+
+### What is the IP rating and operating temperature of the MacSync LWS X1?
+
+The MacSync LWS X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% ~ 100% RH (non-condensing). Mounting options: Pole Mount / Wall Mount.
+
+### How is the MacSync LWS X1 configured?
+
+The MacSync LWS X1 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LWS X1?
+
+The box contains: MacSync LWS X1 LoRaWAN Weather Station, User Manual, Warranty Card and Mounting Screws. Mounting Bracket, IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- User manual: [Weather station user manual](/lorawan/sensors-lorawan/weather-station6in1/macsynclw6_introduction)
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LWS X2 LoRaWAN 6-in-1 weather station](/product/lorawan/sensors/weather-stations/macsync-l-six-in-one-weather-station-x-six), [MacSync LORS X1 LoRaWAN optical rain sensor](/product/lorawan/sensors/weather-stations/macsync-l-optical-rainfall-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

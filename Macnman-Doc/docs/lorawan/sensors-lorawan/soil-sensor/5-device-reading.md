@@ -1,6 +1,6 @@
 ---
 id: macsync-lwt1-live-values
-title: Soil Sensor How to check Live values?
+title: "Soil Sensor How to Check Live Values"
 description: "To check live data via BLE, go to the Home Page in the Maya App, connect to your sensor, and tap on Device Data. Macnman Soil Sensor documentation."
 ---
 
@@ -25,4 +25,9 @@ To check live data via BLE, go to the Home Page in the Maya App, connect to your
 
 - Click on the refresh button fetch data
 
+## Related Resources
 
+- Datasheets: [LoRaWAN soil sensor datasheets](/product/lorawan/sensors/soil-sensors)
+- Start of this manual: [Soil Sensor Introduction](/lorawan/sensors-lorawan/soil-sensor/macsyncls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

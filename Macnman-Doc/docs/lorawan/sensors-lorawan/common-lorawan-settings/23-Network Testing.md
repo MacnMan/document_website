@@ -1,6 +1,6 @@
 ---
 id: maya_lorawa_network_health
-title: Common Sensor Settings LoRaWAN Network Health
+title: "Common Sensor Settings LoRaWAN Network Health"
 description: "Common Sensor Settings LoRaWAN Network Health — When you press Send Uplink, the device performs: Macnman Common Sensor Settings documentation."
 ---
 
@@ -47,3 +47,9 @@ Measures signal power in dBm (always negative):
 
 
 s
+
+## Related Resources
+
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Start of this manual: [Common Sensor Settings LED Status](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

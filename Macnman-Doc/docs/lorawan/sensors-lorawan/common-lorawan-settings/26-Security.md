@@ -1,6 +1,6 @@
 ---
 id: maya-security-device-sharing_common_sensors
-title: Common Sensor Settings Security & device sharing
+title: "Common Sensor Settings Security & Device Sharing"
 description: "Common Sensor Settings Security & device sharing — Control who can access and configure the device via the Maya app by selecting a security level:"
 ---
 
@@ -42,3 +42,9 @@ Manage access to your devices securely through the Maya app.
 
 - **Add More**  
   Click **“Add More”** to include additional peers.You can share a device with **up to 5 users** at a time.
+
+## Related Resources
+
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Start of this manual: [Common Sensor Settings LED Status](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

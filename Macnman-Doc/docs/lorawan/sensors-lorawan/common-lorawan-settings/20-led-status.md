@@ -1,6 +1,6 @@
 ---
 id: maya_configuration_led_status_common
-title: LED Status
+title: "Common Sensor Settings LED Status"
 description: "LED status indications on Macnman LoRaWAN sensors: what each blink pattern means during power-up, network join, BLE configuration, uplinks and faults."
 ---
 
@@ -23,3 +23,7 @@ description: "LED status indications on Macnman LoRaWAN sensors: what each blink
   </div>
 </div>
 
+## Related Resources
+
+- Datasheets: [LoRaWAN sensor datasheets](/product/lorawan/sensors)
+- Help: [Contact Macnman support](/help/help)

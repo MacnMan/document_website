@@ -1,6 +1,6 @@
 ---
 id: macsync_rs485_configurations
-title: LoRaWAN® Controller (MacSet) RS485 Configuration
+title: "LoRaWAN® Controller (MacSet) RS485 Configuration"
 description: "LoRaWAN® Controller (MacSet) RS485 Configuration — To connect a sensor, first select the appropriate mode — either RS485 or Analog — depending on the…"
 ---
 
@@ -98,3 +98,10 @@ Refer to your device’s Modbus register map.
 
 **08. Check Values**  
 - Click the **“Check”** button to verify that the device is returning valid data using the selected configuration.
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

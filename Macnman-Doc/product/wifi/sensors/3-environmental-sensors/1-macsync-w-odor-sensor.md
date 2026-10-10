@@ -1,34 +1,25 @@
 ---
 id: macsync-odor-x-one-datasheet
-title: MacSync-W-Odor-X1
+title: "MacSync-W-Odor-X1 Wi-Fi Odor Sensor Datasheet"
+sidebar_label: "MacSync-W-Odor-X1"
 sidebar_position: 1
 description: "MacSync-W-Odor-X1 is a qualitative Wi-Fi odor monitoring sensor that detects, tracks and trends odor intensity in industrial and facility environments."
 keywords:
   - wifi odor sensor
-  - wifi smell sensor
   - wifi odor monitoring sensor
   - qualitative odor sensor wifi
   - odor intensity monitoring sensor
-  - electronic nose wifi sensor
   - wifi voc odor sensor
-  - industrial odor monitoring wifi
-  - sewage odor monitoring wifi
   - wastewater odor sensor wifi
-  - stp odor monitoring wifi
-  - wwtp odor monitoring wifi
-  - landfill odor monitoring wifi
   - waste management odor sensor wifi
   - factory odor detection sensor wifi
   - air quality odor sensor wifi
   - battery operated wifi odor sensor
   - low power wifi odor sensor
   - macsync wifi odor sensor
-  - macnman wifi odor sensor
-  - indoor odor monitoring device
-  - outdoor odor monitoring wifi sensor
 ---
 
-# MacSync-W-Odor-X1 Datasheet
+# MacSync-W-Odor-X1 Wi-Fi Qualitative Odor Sensor Datasheet
 
 ## Product Overview
 
@@ -42,22 +33,21 @@ MacSync-W-Odor-X1 transmits odor data securely over **standard Wi‑Fi networks 
 
 Whether used for regulatory reporting, community odor complaint management, or proactive operational control, MacSync-W-Odor-X1 delivers a **reliable, low‑maintenance, and data‑driven Wi‑Fi odor monitoring solution**, transforming subjective smell complaints into measurable intelligence.
 
-| ![MacSync LTS X1 LoRaWAN temperature humidity sensor front view for industrial environmental monitoring](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) | ![MacSync LTS X1 wireless LoRaWAN temperature humidity sensor mounted installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
+| ![MacSync-W-Odor-X1 Wi-Fi qualitative odor sensor front view](/img/lorawan/sensors/macsync/macsync-lts-x1-industrial-environmental-sensor-side-view.webp) | ![MacSync-W-Odor-X1 Wi-Fi qualitative odor sensor installation view](/img/lorawan/sensors/macsync/macsync-lts-x1-lorawan-temperature-humidity-sensor-front-view.webp) |
 |--------------------------------|--------------------------------|
-| ![Industrial LoRaWAN environmental sensor side profile with rugged IP65 enclosure](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync LTS X1 smart agriculture LoRaWAN temperature and humidity monitoring sensor](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) |
+| ![MacSync-W-Odor-X1 Wi-Fi qualitative odor sensor side view](/img/lorawan/sensors/macsync/macsync-lts-x1-smart-agriculture-temperature-sensor.webp) | ![MacSync-W-Odor-X1 Wi-Fi qualitative odor sensor product view 4](/img/lorawan/sensors/macsync/macsync-lts-x1-wireless-temperature-humidity-sensor-mounted.webp) |
 
 <div class="faint-line"></div>
 
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macsync-w-odor-x1-wifi-odor-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -177,8 +167,7 @@ Whether used for regulatory reporting, community odor complaint management, or p
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -386,7 +375,7 @@ Whether used for regulatory reporting, community odor complaint management, or p
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -562,8 +551,7 @@ Whether used for regulatory reporting, community odor complaint management, or p
 <div class="faint-line"></div>
 
 
-##  MacSync-W-Odor-X1 Variants
-
+## MacSync-W-Odor-X1 Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -587,8 +575,7 @@ Whether used for regulatory reporting, community odor complaint management, or p
   </tbody>
 </table>
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
 ![Items included in the box: the device, mounting clip, user manual and warranty card, junction box, mounting screws and power adapter](/img/datalogger/whatsbox.svg)
@@ -600,7 +587,46 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacSync-W-Odor-X1 Dimensions
+![MacSync-W-Odor-X1 dimensions drawing](/img/lorawan/sensors/macsync/macsync-probe-dimensions.svg)
 
-![MacSync Probe Dimensions](/img/lorawan/sensors/macsync/macsync-probe-dimensions.svg)
+## Frequently Asked Questions
 
+### What is the MacSync-W-Odor-X1 used for?
+
+MacSync-W-Odor-X1 is a qualitative Wi-Fi odor monitoring sensor that detects, tracks and trends odor intensity in industrial and facility environments. Typical applications include Sewage Treatment Plants (STP), Wastewater Treatment Plants (WWTP), Landfills & Waste Disposal Sites, Solid Waste & Composting Facilities, Industrial Manufacturing Plants and Commercial Buildings & Utility Areas.
+
+### What does the MacSync-W-Odor-X1 measure, and how accurately?
+
+Measurement specifications of the MacSync-W-Odor-X1:
+
+- Temperature: range -30°C to +70°C, accuracy 0°C to +70°C: ±0.3°C & -30°C to 0°C: ±0.6°C, resolution 0.1°C.
+- Humidity: range 0% to 100% RH, accuracy 10% to 90% RH: ±3% RH & &lt;10% or &gt;90% RH: ±5% RH, resolution 0.5% RH.
+- Pressure: range 300 hPa to 1100 hPa, accuracy ±1.0 hPa (typical at 25°C, 300–1100 hPa), resolution 0.1 hPa.
+- NH3: range 1 to 300 ppm.
+- H2S: range 0.5 to 50 ppm.
+
+### How does the MacSync-W-Odor-X1 connect and send data over Wi-Fi?
+
+The MacSync-W-Odor-X1 connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### How is the MacSync-W-Odor-X1 powered?
+
+The MacSync-W-Odor-X1 is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync-W-Odor-X1?
+
+The MacSync-W-Odor-X1 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync-W-Odor-X1 configured?
+
+The MacSync-W-Odor-X1 is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacSync-W-Odor-X1 work with?
+
+The MacSync-W-Odor-X1 can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- Related datasheets: [MacSync L Odor X1 LoRaWAN qualitative odor sensor](/product/lorawan/sensors/environmental-sensors/macsync-l-odor-x1-datasheet), [MacSync-WCO2X Wi-Fi CO2 indoor air quality sensor](/product/wifi/sensors/environmental-sensors/macsync-w-co-2-sensors), [MacSync-WGSX2 Wi-Fi H2S and NH3 gas sensor](/product/wifi/sensors/environmental-sensors/macsync-w-nh-three-h-two-s-2-sensors)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

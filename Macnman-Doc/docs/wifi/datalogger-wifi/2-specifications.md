@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: WiFi Datalogger (MacSync) Specifications
+title: "WiFi Datalogger (MacSync) Specifications"
 description: "WiFi Datalogger (MacSync) Specifications — Macnman WiFi Datalogger (MacSync): General Specifications, WiFi Specifications, Power Specifications, Physical…"
 ---
 
@@ -235,3 +235,10 @@ description: "WiFi Datalogger (MacSync) Specifications — Macnman WiFi Datalogg
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSync-WX1-PO RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-w-power-operated-x-two)
+- Datasheet: [MacSync-WX1-BO battery-operated RS485 and analog to Wi-Fi data logger datasheet](/product/wifi/dataloggers/macsync-l-std-battery-operated-gen-one)
+- Start of this manual: [WiFi Datalogger (MacSync) Introduction](/wifi/datalogger-wifi/macsync_rs485_wifi_introduction)
+- Help: [Contact Macnman support](/help/help)

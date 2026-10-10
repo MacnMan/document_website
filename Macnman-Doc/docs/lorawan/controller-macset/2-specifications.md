@@ -1,6 +1,6 @@
 ---
 id: macset_lorawan_specifications
-title: LoRaWAN® Controller (MacSet) Specifications
+title: "LoRaWAN® Controller (MacSet) Specifications"
 description: "The range depends on several factors such as environment, antenna, frequency band, and power settings. Macnman LoRaWAN® Controller(MacSet) documentation."
 ---
 
@@ -239,3 +239,10 @@ The range depends on several factors such as environment, antenna, frequency ban
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacSet LX1 industrial LoRaWAN relay controller datasheet](/product/lorawan/controllers/macset-lx-one-datasheet)
+- Datasheet: [MacSet LX2 industrial LoRaWAN multi-IO controller datasheet](/product/lorawan/controllers/macset-lx-two-datasheet)
+- Start of this manual: [LoRaWAN® Controller (MacSet) Introduction](/lorawan/controller-macset/macset_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

@@ -30,6 +30,8 @@ const RULES = [
 const EXPLICIT = {
   'datasheets/category/maclink-gen-2-range-coverage-test-report-1': ['datasheets/category/lorawan-range--coverage-test--maclink-gen-2-gateway-report-1'],
   'datasheets/category/maclink-gen-2-performance-indian-climate': ['datasheets/category/lorawan-gateway-performance-in-indian-climate-maclink-gen-2-'],
+  // "Aalog" was a typo for "Analog" in the category name, and so in its URL.
+  'category/rs485-analog-datalogger-macsync': ['category/rs485aalog-dataloggermacsync'],
 };
 
 /** Every old path for a new one (the odor page moved folder and name). */

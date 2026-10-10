@@ -1,8 +1,9 @@
 ---
 id: maclink-gen-two
-title: Outdoor Gateway
+title: "MacLink Gen-2 Outdoor LoRaWAN Gateway Datasheet"
+sidebar_label: "Outdoor Gateway"
 sidebar_position: 1
-description: MacLink Gen-2 is a rugged Industrial Outdoor LoRaWAN® Gateway with IP67 protection, 8-channel LoRaWAN® connectivity, LTE, Ethernet, Wi-Fi backhaul, and long-range Industrial IoT networking support.
+description: "MacLink Gen-2 is a rugged IP67 outdoor LoRaWAN gateway with an 8-channel concentrator and LTE, Ethernet and Wi-Fi backhaul for long-range industrial IoT."
 keywords:
   - industrial outdoor lorawan gateway
   - lorawan gateway ip67
@@ -16,19 +17,6 @@ keywords:
   - smart city lorawan gateway
   - industrial automation lorawan gateway
   - private lorawan network gateway
-  - long range lorawan gateway
-  - carrier grade lorawan gateway
-  - utility monitoring lorawan gateway
-  - rooftop lorawan gateway
-  - pole mount lorawan gateway
-  - industrial wireless gateway
-  - smart agriculture lorawan gateway
-  - water monitoring lorawan gateway
-  - outdoor industrial iot gatewaysS
-  - lorawan gateway for utilities
-  - industrial gateway for remote monitoring
-  - secure lorawan network gateway
-  - lorawan edge gateway
   
 ---
 
@@ -258,7 +246,6 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 ---
 
 ## Technical Specifications
-
 <div class="device-config-section">
   <div class="device-config-title">System Hardware Specifications</div>
   <div class="device-config-table">
@@ -611,7 +598,6 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 
 ---
 ## MacLink Gen-2 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -638,7 +624,6 @@ Whether deployed for industrial automation, water infrastructure monitoring, sma
 ---
 
 ## What's in the Box?
-
 The **MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway** package is designed for fast industrial deployment, outdoor installation, and reliable Industrial IoT network commissioning. Before starting installation, verify that all gateway components and mounting accessories are available inside the package.
 
 The standard package contents include:
@@ -666,8 +651,7 @@ Optional accessories including PoE injectors, Ethernet cables, surge protection 
 
 ---
 
-## MacLink Gen-2 Gateway Dimensions
-
+## MacLink Gen-2 Dimensions
 The **MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway** is designed with a rugged industrial enclosure optimized for outdoor Industrial IoT deployments, utility infrastructure, Smart City installations, and long-range LoRaWAN® network coverage. The compact enclosure simplifies pole-mounted, wall-mounted, and rooftop installations while maintaining reliable outdoor wireless communication performance.
 
 The gateway dimensions are:
@@ -678,3 +662,34 @@ The industrial enclosure is engineered for harsh outdoor operating environments 
 
 ![MacLink Gen-2 industrial outdoor LoRaWAN gateway dimensions and mounting layout](/img/lorawan/gateways/maclink-gen-two-dimensions.svg)
 
+## Frequently Asked Questions
+
+### What is the MacLink Gen-2 used for?
+
+MacLink Gen-2 is a rugged IP67 outdoor LoRaWAN gateway with an 8-channel concentrator and LTE, Ethernet and Wi-Fi backhaul for long-range industrial IoT. Typical applications include Smart City LoRaWAN® Infrastructure, Water Utility & Pumping Station Monitoring, Industrial Automation & Factory Connectivity, Smart Agriculture & Irrigation Networks, Oil, Gas & Pipeline Infrastructure and Energy Monitoring & Smart Metering.
+
+### How many LoRaWAN channels and which frequency bands does the MacLink Gen-2 support?
+
+The MacLink Gen-2 has 8 uplink channels and 1 downlink channel, and is compatible with LoRaWAN® Class A / B / C devices. Supported frequency plans: IN865 / RU864 / EU868 / US915 / AU915 / KR920 / AS923-1/2/3/4. Transmit power: Up to 27 dBm @ SF12, BW 125 kHz. Receive sensitivity: Down to -139 dBm @ SF12, BW 125 kHz.
+
+### Which backhaul options does the MacLink Gen-2 have?
+
+The MacLink Gen-2 offers Ethernet, Wi-Fi and cellular LTE backhaul. Cellular bands: B1/3/5/7/8/20/28. SIM: 2 × Nano SIM. It also includes a built-in ChirpStack Server.
+
+### How is the MacLink Gen-2 powered?
+
+The MacLink Gen-2 is powered from PoE IEEE 802.3af / 802.3at or 12–24 V DC. Typical power consumption is 4.5 W (with Ethernet Backhaul), with a peak of up to 7 W (with LTE & Wi-Fi Active).
+
+### What is the IP rating and operating temperature of the MacLink Gen-2?
+
+The MacLink Gen-2 has an ingress protection rating of IP67 and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### What is included in the box with the MacLink Gen-2?
+
+The box contains: MacLink Gen-2 Industrial Outdoor LoRaWAN® Gateway, Industrial Pole Mounting Kit, Wall Mounting Accessories, Quick Installation Guide and Product Warranty Card. PoE Injector, Ethernet Cable and External LoRa Antenna are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Related datasheets: [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet), [FireGaurd Gen 1 fire equipment health monitoring controller](/product/lorawan/gateways/fire-guard-single-channel-lora-gateway-for-firedatasheet), [IndiLoRa X single-channel indoor LoRa gateway](/product/lorawan/gateways/indilora-single-channel-datasheet), [Setu SCX single-channel indoor LoRa gateway](/product/lorawan/gateways/setu-scx-single-channel-datasheet)
+- Product page: [MacLink Gen-2 on macnman.com](https://www.macnman.com/lorawan/gateways/outdoor-lorawan-gateway-maclink-gen-two)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

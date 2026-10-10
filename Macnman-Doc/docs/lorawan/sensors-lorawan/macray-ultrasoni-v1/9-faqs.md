@@ -1,6 +1,6 @@
 ---
 id: MacRay_faqs_MacRaylt4
-title: MacRay-Ultrasonic FAQs
+title: "MacRay-Ultrasonic FAQs"
 description: "The MacRay-LU4 supports long-distance measurement up to 765 cm with a typical accuracy of ±1% of the target distance, making it ideal for industrial…"
 ---
 
@@ -43,3 +43,10 @@ The sensor supports **periodic**, **threshold-based**, and **event-triggered upl
 
 #### Which LoRaWAN® networks is it compatible with?
 The MacRay-LU4 is compatible with **all major LoRaWAN® network servers**, including **TTN, ChirpStack, Loriot, Helium**, and **Macnman’s own cloud platform** for visualization and data management.
+
+## Related Resources
+
+- Datasheet: [MacRay LUS X1 LoRaWAN ultrasonic level sensor datasheet](/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one)
+- Start of this manual: [MacRay-Ultrasonic Introduction](/lorawan/sensors-lorawan/macray-ultrasoni-v1/MacRayls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

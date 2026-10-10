@@ -1,6 +1,6 @@
 ---
 id: maya_sampling_and_uploading_lorawan
-title: RS485/Aalog Datalogger Data Sampling & Uploading
+title: "RS485/Analog Datalogger (MacSync) Data Sampling & Uploading"
 description: "RS485/Aalog Datalogger Data Sampling & Uploading — Macnman RS485/Aalog Datalogger(MacSync): Data Sampling & Upload Timings, Data Sampling Frequency, How…"
 ---
 
@@ -20,4 +20,8 @@ description: "RS485/Aalog Datalogger Data Sampling & Uploading — Macnman RS485
 
 > This helps reduce network usage and power consumption while preserving detailed sensor trends.
 
+## Related Resources
 
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

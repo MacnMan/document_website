@@ -1,6 +1,7 @@
 ---
 id: macray-tof-x-series
-title: MacRay-ToF-WXx
+title: "MacRay-ToF-WXx Wi-Fi Time-of-Flight Sensor"
+sidebar_label: "MacRay-ToF-WXx"
 sidebar_position: 4
 description: "MacRay-ToF-WXx is a high-precision Wi-Fi Time-of-Flight sensor for indoor people counting, occupancy analytics and zone monitoring."
 keywords:
@@ -12,21 +13,13 @@ keywords:
   - wifi indoor positioning sensor
   - wifi short range distance sensor
   - wifi space utilization sensor
-  - wifi privacy safe people counting
   - wifi room occupancy monitoring sensor
-  - wifi zone monitoring sensor
-  - wifi entry exit counting sensor
   - wifi industrial tof sensor
-  - wifi smart building occupancy sensor
-  - wifi facility analytics sensor
-  - wifi automation trigger sensor
-  - wifi conveyor object detection sensor
-  - wifi safety distance monitoring sensor
   - macray wifi tof sensor
   - macnman wifi tof sensor
 ---
 
-# MacRay-ToF-WXx Datasheet
+# MacRay-ToF-WXx Wi-Fi Time-of-Flight Sensor Datasheet
 
 ## Product Overview
 
@@ -38,7 +31,7 @@ MacRay-ToF-WXx features a **power‑operated design with inbuilt backup battery*
 
 With support for **entry/exit counting, room occupancy limits, restricted‑zone alerts, and automation triggers**, MacRay-ToF-WXx transforms physical movement data into actionable insights for **smart buildings, offices, hospitals, retail spaces, industrial facilities, and campuses**, enabling improved space efficiency, energy optimization, and operational safety.
 
-| ![macray tof indoor occupancy sensor with lorawan wireless communication front view](/img/lorawan/macray/macray-tof-sensor-front.webp) | ![ compact macray tof ceiling and wall mount people counting sensor for smart buildings](/img/lorawan/macray/macray-tof-sensor-mounting.webp) |
+| ![MacRay-ToF-WXx Wi-Fi Time-of-Flight sensor front view](/img/lorawan/macray/macray-tof-sensor-front.webp) | ![ compact macray tof ceiling and wall mount people counting sensor for smart buildings](/img/lorawan/macray/macray-tof-sensor-mounting.webp) |
 |--------------------------------|--------------------------------|
 | ![privacy safe macray tof people counting device tracking movement and room occupancy analytics](/img/lorawan/macray/macray-tof-sensor-occupancy-detection.webp) | ![macray time of flight sensor grid pattern coverage for entry exit zone monitoring](/img/lorawan/macray/macray-tof-sensor-zone-coverage.webp) |
 
@@ -47,13 +40,12 @@ With support for **entry/exit counting, room occupancy limits, restricted‑zone
 ## Download Center
 
 <div className="icon-card-grid">
-  <a href="https://www.macnman.com/downloads/MacSync-LS7.pdf" 
+  <a href="/docs/downloads/macray-tof-wxx-wifi-time-of-flight-sensor-datasheet.pdf" 
   className="icon-card">
     <div className="icon">📂</div>  
     <div>
-      <strong>[Download Datasheet](https://www.macnman.com/downloads/MacSync-LS7.pdf)</strong>
-      <p> Download the PDF Version of the Datasheet
-.</p>
+      <strong>Download Datasheet</strong>
+      <p>Download the PDF version of the datasheet.</p>
     </div>
   </a>
   <a href="https://github.com/MacnMan/LoRa_Module_SDK/tree/main/SDK/LoRaWAN_AT_Slave" 
@@ -172,8 +164,7 @@ With support for **entry/exit counting, room occupancy limits, restricted‑zone
 
 <div class="faint-line"></div>
 
-## Technical Specification
-
+## Technical Specifications
 <div className="spec-block">
   <div className="spec-block-title">
     General <br /> Specifications
@@ -292,7 +283,7 @@ With support for **entry/exit counting, room occupancy limits, restricted‑zone
     <p className="value">OTA (Over-the-Air) update in progress</p>
     <br />
     <p className="label">Slow Blinking Green</p>
-    <p className="value">Attempting to connect to the LoRaWAN® network</p>    
+    <p className="value">Attempting to connect to the network</p>    
     <br />
     <p className="label">Single Red Blink</p>
     <p className="value">A confirmed parameter of MacSync is being modified</p>
@@ -465,8 +456,7 @@ With support for **entry/exit counting, room occupancy limits, restricted‑zone
   </div>
 </div>
 
-##  MacRay-ToF-WXx Variants
-
+## MacRay-ToF-WXx Variants
 <table className="parameter-table">
   <thead>
     <tr>
@@ -539,11 +529,10 @@ With support for **entry/exit counting, room occupancy limits, restricted‑zone
 
 -->
 
-## What's in the box ?
-
+## What's in the Box?
 Make sure box contains following items before installations
 
-![MacRay LoRaWAN What Is In The Box](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
+![What's in the box: MacRay-ToF-WXx package contents](/img/lorawan/macray/macray-lorawan-what-is-in-the-box.svg)
 
 :::note
 
@@ -552,7 +541,42 @@ not be included in the box.
 
 :::
 
-## Product Dimensions
+## MacRay-ToF-WXx Dimensions
+![MacRay-ToF-WXx dimensions drawing](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
 
-![MacRay ToF Sensor Dimensions File](/img/lorawan/macray/macray-tof-sensor-dimensions-file.svg)
+## Frequently Asked Questions
 
+### What is the MacRay-ToF-WXx used for?
+
+MacRay-ToF-WXx is a high-precision Wi-Fi Time-of-Flight sensor for indoor people counting, occupancy analytics and zone monitoring. Typical applications include People Counting at Entry & Exit Points, Room & Zone Occupancy Monitoring, Smart Buildings & Facility Management, Retail Footfall & Queue Analytics, Hospitals & Healthcare Facilities and Restricted & Secure Area Monitoring.
+
+### What does the MacRay-ToF-WXx measure, and how accurately?
+
+Measurement specifications of the MacRay-ToF-WXx:
+
+- Time-of-Flight: range Long Range Mode: 4 cm to 400 cm *, Short Range Mode: 4 cm to 130 cm *, accuracy ±3% typical *, &lt; ±5 mm (Indoor lighting conditions), resolution Up to 1 mm.
+
+### How does the MacRay-ToF-WXx connect and send data over Wi-Fi?
+
+The MacRay-ToF-WXx connects over IEEE 802.11 b/g/n/ac Wi-Fi on 2.4 GHz & 5 GHz (Dual‑Band). Security: WPA2‑PSK / WPA3, TLS / SSL Encrypted Communication. IP configuration: DHCP / Static IP. It sends data using MQTT, HTTP, HTTPS. Typical indoor range is up to 100 m (environment dependent).
+
+### How is the MacRay-ToF-WXx powered?
+
+The MacRay-ToF-WXx is powered from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacRay-ToF-WXx?
+
+The MacRay-ToF-WXx has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacRay-ToF-WXx configured?
+
+The MacRay-ToF-WXx is configured with the Macnman Maya Android app. Supported uplink modes: Time Based / Threshold Based / Sampling Based. It can also be configured remotely with JSON data sent from the server.
+
+### Which cloud platforms does the MacRay-ToF-WXx work with?
+
+The MacRay-ToF-WXx can send data to platforms including AWS IoT Core, Microsoft Azure IoT Hub, Google Cloud (via MQTT / HTTPS), Custom IoT Platforms. Deployment models: On-Premise Servers, Private Cloud Deployments, Public Cloud Platforms. Integration methods: MQTT Brokers, REST / HTTPS APIs, Webhooks.
+
+## Related Products and Resources
+
+- Related datasheets: [MacRay LToF LoRaWAN Time-of-Flight sensor](/product/lorawan/sensors/level-sensors/macray-ltof-lorawan-time-of-flight-sensor), [MacRay-WU4 Wi-Fi ultrasonic level sensor](/product/wifi/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)

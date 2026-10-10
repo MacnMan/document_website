@@ -1,4 +1,10 @@
 {
   "label": "BLE Beacons",
-  "position": 1
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "BLE Beacon & Tag Datasheets",
+    "description": "Datasheets for Macnman BLE beacons and tags: the Tag X3 sensor tag and beacon and the BLE Tag X2 industrial asset tracker.",
+    "slug": "/ble/ble-trackers"
+  }
 }

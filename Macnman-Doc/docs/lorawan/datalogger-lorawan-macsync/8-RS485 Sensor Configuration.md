@@ -1,7 +1,7 @@
 ---
 id: macsync_rs485_configurations
-title: RS485/Aalog Datalogger RS485 Configuration
-description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>"
+title: "RS485/Analog Datalogger (MacSync) RS485 Configuration"
+description: "Set up RS485 Modbus sensors on the MacSync datalogger in the Maya app: power output, sensor warm-up time, baud rate, parity and RS485 field setup."
 ---
 
 ## RS485 Selection
@@ -9,7 +9,7 @@ description: "title=\"YouTube video\" frameborder=\"0\" allow=\"accelerometer; a
 #### How to configure RS485 Deivce in Macsync ? (Video Demo) :
 
 <div class="youtube-video-wrapper">
-  <iframe 
+  <iframe loading="lazy" 
     src="https://www.youtube.com/embed/8IIWk9jCm1E?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1" 
     title="YouTube video" 
     frameborder="0" 
@@ -113,3 +113,9 @@ Refer to your device’s Modbus register map.
 
 **08. Check Values**  
 - Click the **“Check”** button to verify that the device is returning valid data using the selected configuration.
+
+## Related Resources
+
+- Datasheet: [MacSync LX1 RS485 Modbus RTU and analog to LoRaWAN datalogger datasheet](/product/lorawan/dataloggers/rs485-analog-to-lorawan-converter-macsync-lx1)
+- Start of this manual: [RS485/Analog Datalogger (MacSync) Introduction](/lorawan/datalogger-lorawan-macsync/macsync_rs485_lorawan_introduction)
+- Help: [Contact Macnman support](/help/help)

@@ -1,4 +1,10 @@
 {
-  "label": "Temperature & Humidity",
-  "position": 1
+  "label": "Temperature Sensors",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "title": "Wi-Fi Temperature & Humidity Sensor Datasheets",
+    "description": "Datasheets for Macnman Wi-Fi temperature sensors: temperature and humidity sensors and RTD PT100 / PT1000 temperature sensors.",
+    "slug": "/wifi/sensors/temperature"
+  }
 }

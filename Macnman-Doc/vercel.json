@@ -512,6 +512,11 @@
       "source": "/datasheets/category/lorawan-gateway-performance-in-indian-climate-maclink-gen-2-",
       "destination": "https://www.macnman.com/docs/datasheets/category/maclink-gen-2-performance-indian-climate",
       "permanent": true
+    },
+    {
+      "source": "/category/rs485aalog-dataloggermacsync",
+      "destination": "https://www.macnman.com/docs/category/rs485-analog-datalogger-macsync",
+      "permanent": true
     }
   ]
 }

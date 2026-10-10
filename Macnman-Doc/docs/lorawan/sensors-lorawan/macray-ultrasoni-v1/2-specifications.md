@@ -1,6 +1,6 @@
 ---
 id: specifications
-title: MacRay-Ultrasonic Specifications
+title: "MacRay-Ultrasonic Specifications"
 description: "MacRay-Ultrasonic Specifications — Macnman MacRay-Ultrasonic: Ultrasonic Sensor Parameters, LoRaWAN Wireless Transmission, Power Specifications, Physical…"
 ---
 
@@ -249,3 +249,10 @@ description: "MacRay-Ultrasonic Specifications — Macnman MacRay-Ultrasonic: Ul
     </tr>
   </tbody>
 </table>
+
+## Related Resources
+
+- Datasheet: [MacRay LUS X1 LoRaWAN ultrasonic level sensor datasheet](/product/lorawan/sensors/level-sensors/macray-lorawan-ultrasonic-sensor-sub-four-meter-gen-one)
+- Start of this manual: [MacRay-Ultrasonic Introduction](/lorawan/sensors-lorawan/macray-ultrasoni-v1/MacRayls_introduction)
+- Setup shared by all sensors: [Common LoRaWAN sensor settings](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Help: [Contact Macnman support](/help/help)

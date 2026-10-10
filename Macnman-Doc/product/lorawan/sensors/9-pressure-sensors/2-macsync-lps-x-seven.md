@@ -1,54 +1,25 @@
 ---
 id: macsync-lps-x-7-lorawan-pressure-sensor
-title: Hydro-static Pressure Sensor
+title: "MacSync LPS X7 LoRaWAN Hydrostatic Level Sensor"
+sidebar_label: "Hydro-static Pressure Sensor"
 sidebar_position: 6
-description: Industrial LoRaWAN® hydro-static liquid level sensor engineered for soap level monitoring, small water tank monitoring, diesel tank level sensing, liquid container telemetry, and smart IoT liquid-level monitoring applications.
+description: "MacSync LPS X7 is a LoRaWAN hydrostatic liquid level sensor for soap dispensers, small water tanks, diesel tanks and liquid container monitoring."
 keywords:
   - lorawan liquid level sensor
   - lorawan soap level sensor
-  - soap level monitoring sensor
-  - soap dispenser level sensor
-  - wireless soap level monitoring
-  - small water tank level sensor
-  - water bottle level sensor
-  - wireless water level monitoring
-  - small tank level monitoring
   - hydro-static liquid level sensor
-  - liquid container monitoring sensor
   - smart liquid level sensor
   - industrial liquid level sensor
-  - diesel tank level sensor
-  - small diesel tank monitoring
-  - fuel tank level monitoring sensor
   - lorawan diesel level sensor
   - liquid level telemetry sensor
-  - wireless tank level sensor
-  - iot liquid level monitoring
-  - smart restroom soap monitoring
-  - beverage container monitoring sensor
-  - chemical container level sensor
-  - liquid consumption monitoring
-  - remote liquid level monitoring
   - battery powered liquid level sensor
   - industrial hydro-static sensor
   - lorawan industrial liquid sensor
-  - smart utility liquid monitoring
-  - wireless fluid level sensor
   - macsync lps x7
   - macnman lorawan liquid level sensor
-  - Smart Soap Level Monitoring
-  - Small Water Tank Level Monitoring
-  - Diesel Tank Liquid-Level Monitoring
-  - Hydro-Static Liquid Column Sensing
-  - Long-Range LoRaWAN® Telemetry
-  - Battery-Powered Remote Monitoring
-  - Smart Facility Utility Analytics
-  - Industrial Liquid Reservoir Monitoring
-  - Event-Based Liquid-Level Alerts
-  - IoT Liquid Consumption Analytics
 ---
 
-# MacSync LPS X7 LoRaWAN® Hydro-Static Liquid Level Sensor
+# MacSync LPS X7 LoRaWAN® Hydro-Static Liquid Level Sensor Datasheet
 
 ## Product Overview
 
@@ -553,7 +524,6 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 
 ---
 ## MacSync LPS X7 Variants
-
 <table className="parameter-table">
   <thead>
     <tr>
@@ -578,7 +548,6 @@ Whether deployed in smart buildings, industrial facilities, public infrastructur
 ---
 
 ## What's in the Box?
-
 Make sure the package contains the following items before installation and deployment of the MacSync LPS X7 LoRaWAN® Pressure Transducer.
 
 - MacSync LPS X7 LoRaWAN® Pressure Transducer
@@ -599,8 +568,46 @@ Accessories marked with (\*) may vary depending on deployment requirements and o
 
 ---
 
-## Product Dimensions
-
+## MacSync LPS X7 Dimensions
 **MacSync LPS X7 BO** features a compact industrial enclosure designed for rugged field deployments with overall dimensions **152 mm X 62 mm X 43 mm (Without Sensor Probe)** optimized for wall mounting and hydro-static liquid-level monitoring installations.
 
 ![MacSync LPS X7 LoRaWAN Hydrostatic Pressure Transducer Mechanical Dimensions and Mounting Layout](/img/lorawan/sensors/macsync/macsync-lps-x7-lorawan-hydrostatic-liquid-level-sensor-dimensions.webp)
+
+## Frequently Asked Questions
+
+### What is the MacSync LPS X7 used for?
+
+MacSync LPS X7 is a LoRaWAN hydrostatic liquid level sensor for soap dispensers, small water tanks, diesel tanks and liquid container monitoring. Typical applications include Smart Soap Dispenser Monitoring, Small Water Tank Level Monitoring, Diesel Tank & Fuel Reservoir Monitoring, Water Bottle & Beverage Container Analytics, Chemical Container Monitoring and Remote Liquid Storage Monitoring.
+
+### What does the MacSync LPS X7 measure, and how accurately?
+
+Measurement specifications of the MacSync LPS X7:
+
+- Hydro-Static Pressure: range -10 kPa to +10 kPa, accuracy ±0.2% FS, resolution 0.1 kPa.
+
+### Which LoRaWAN frequency bands and network servers does the MacSync LPS X7 support?
+
+The MacSync LPS X7 supports LoRaWAN® (v1.0.4) and the Macnman MacTalk Protocol on the IN865 / RU864 / EU868 / US915 / AU915 frequency bands. It joins the network by OTAA activation. It runs as Class A by default and can be set to Class C in the Maya app. Supported network servers: Private LNS, ChirpStack, TTN, MQTT, Orbiwise, Netmore, Direct PLC On-Prem Installations.
+
+### How long does the MacSync LPS X7 battery last?
+
+The battery-operated MacSync LPS X7 runs on a 19 Ah industrial-grade Li-SOCl₂ cell. Estimated battery life is ~2 years at a 5-minute reporting interval, ~4 years at a 15-minute reporting interval and ~7+ years at a 60-minute reporting interval. A power-operated version runs from 9-36 V DC (External Supply).
+
+### What is the IP rating and operating temperature of the MacSync LPS X7?
+
+The MacSync LPS X7 has an ingress protection rating of IP65 standard (IP67 optional variant) and an operating temperature range of -40°C to +80°C. Operating humidity: 0% to 100% RH (non-condensing). Mounting options: Pole Mounting / Wall Mounting.
+
+### How is the MacSync LPS X7 configured?
+
+The MacSync LPS X7 is configured with the Macnman Maya Android app over Bluetooth Low Energy (BLE). Settings can also be changed remotely with over-the-air downlink commands.
+
+### What is included in the box with the MacSync LPS X7?
+
+The box contains: MacSync LPS X7 LoRaWAN® Pressure Transducer, Mounting Clip, User Manual, Warranty Card and Mounting Screws. IP68 Cable Extender and Power Adapter are optional and may need to be purchased separately.
+
+## Related Products and Resources
+
+- Setup guide: [Common LoRaWAN sensor settings in the Maya app](/lorawan/sensors-lorawan/common-lorawan-settings/maya_configuration_led_status_common)
+- Compatible LoRaWAN gateways: [MacLink Gen-2 industrial outdoor LoRaWAN gateway](/product/lorawan/gateways/maclink-gen-two) and [Setu LX Series indoor LoRaWAN gateway](/product/lorawan/gateways/setu-x-one-datasheet)
+- Related datasheets: [MacSync LPS Xx LoRaWAN pressure transducer](/product/lorawan/sensors/pressure-sensors/macsync-lps-xx-lorawan-pressure-sensor)
+- Help: [Warranty terms and conditions](/help/macnman-standard-warranty-terms-and-conditions) and [contact Macnman support](/help/help)
